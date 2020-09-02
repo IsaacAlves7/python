@@ -14,9 +14,9 @@
 #Chama o interpretador python
 #Python compila e exibe os resultados na tela
 
-'''INSTALAÇÂO'''
+'''INSTALAÇÃO'''
 #Windows:https://www.python.org/downloads/
 #Linux e MacOS:Já vem instalado;
 
 '''Primeiros Comandos'''
-print('Olá,Mundo!')
+print('Olá,Mundo!') # 1 linha para imprimir o Olá, mundo!

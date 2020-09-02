@@ -1,6 +1,6 @@
 '''VARIAVEIS'''
 #Permitem o armazenamento de informação na memória
-minha_variavel = 'Olá,Sr.Isaac!'
+minha_variavel = 'Olá, Sr.Isaac!'
 print(minha_variavel)
 print(minha_variavel)
 print(minha_variavel)

@@ -1,4 +1,4 @@
-'''LAÇOS DE REPETIÇÂO'''
+'''LAÇOS DE REPETIÇÃO'''
 #Estruturas de repetição
 #Iteradores         Iterar==Repitir
 #Repetem um trecho do código

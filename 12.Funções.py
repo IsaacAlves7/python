@@ -1,4 +1,4 @@
-'''FUNÇÔES'''
+'''FUNÇÕES'''
 #Bloco de códigos
 #Executadas somente se forem chamadas
 
@@ -21,3 +21,8 @@ m = multiplicação(2,2)
 print(s,m)
 print(soma(s,m))
 print(multiplicação(s,m))
+
+def isaac():
+    isaac = str(input('Digite seu nome:'))
+    return(isaac)
+print(isaac())

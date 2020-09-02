@@ -14,7 +14,7 @@ y = 3
 x = y
 print(x)
 
-'''Operação Relacionais'''
+'''Operadores Relacionais'''
 #Operador     #Operação
 
 # =             Recebe
