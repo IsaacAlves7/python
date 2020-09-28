@@ -2,7 +2,7 @@
 <img src="https://jobs.enfaselabs.com.br/assets/imgs/logos/dados_5.png"/>
 
 ## Introduction - Overview about the Python language
-<b>Contents:</b>
+<b>Topics:</b>
 <ul>
   <li>The History of Python language.</li>
   <li>What's the Python language?</li>
