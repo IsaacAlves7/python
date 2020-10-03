@@ -17,4 +17,6 @@ A linguagem <b>Python</b> é uma linguagem de programação, com característica
   <li>É interpretada e compilada, ou seja, o interpretador Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;</li>
   <li>É de alto nível, ou seja, o interpretador se vira com detalhes técnicos do computador. Assim, desenvolver um código mais simples do que em linguagem de baixo nível, nas quais o programador deve se preocupar com detalhes da máquina;</li>
   <li>É de propósito geral, ou seja, podemos usar Python para desenvolver programas em diversas áreas. Ao contrário de linguagens de domínio específico, que são especializados e atendem somente a uma aplicação específica;</li>
-</ul></p>
+  <li>Tem tipos dinâmicos, ou seja, o interpretador faz a magia de descobrir o que é cada variável;</li>
+</ul>
+Por essas e várias outras características</p>
