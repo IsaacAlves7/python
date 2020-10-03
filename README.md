@@ -43,6 +43,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>IA-Inteligência Artificial</li>
 <li>IoT-Internet das Coisas</li>
 <li>Big Data</li>
+<li>Data Analysis</li>
 <li>Data Science</li>
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
