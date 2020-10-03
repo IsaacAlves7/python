@@ -19,4 +19,10 @@ A linguagem <b>Python</b> é uma linguagem de programação, com característica
   <li>É de propósito geral, ou seja, podemos usar Python para desenvolver programas em diversas áreas. Ao contrário de linguagens de domínio específico, que são especializados e atendem somente a uma aplicação específica;</li>
   <li>Tem tipos dinâmicos, ou seja, o interpretador faz a magia de descobrir o que é cada variável;</li>
 </ul>
-Por essas e várias outras características</p>
+Por essas e várias outras características, o Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem muito utilizada por diversas empresas como Wikipédia, Google, Yahoo!, CERN, NASA, Facebook, AMAZON, Instagram, Spotify, Bitorrent Inc, Django e Dropbox.</p>
+<ul>
+ <li>Orientada a objetos com uma semântica dinâmica;</li>
+ <li>Possui licença compatível com Software livre;</li>
+ <li>Linguagem de altíssimo nível (VHLL);</li>
+ <li>Tipagem dinâmica;</li>
+</ul>
