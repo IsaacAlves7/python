@@ -52,5 +52,5 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 ## Primeiros Comandos em Python
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
 <pre>
- <code>>>>print('Hello, World!');</code>
+ <code>>>> print('Hello, World!');</code>
 </pre>
