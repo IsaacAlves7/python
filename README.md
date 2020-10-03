@@ -30,3 +30,20 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
  <li>A implementação oficial do Python é mantida pela PSF (Python Software Foundation) é escrita em C, e por isso, é também conhecida como CPython.</li>  
 </ul>
 <p>Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.</p>
+<ul>
+ <li>Multiplataforma;</li>
+ <li>Batteries Included;</li>
+ <li>Livre;</li>
+ <li>Organizada;</li>
+ <li>Orientada a Objetos;</li>
+ <li>Muitas Bibliotecas;</li>  
+</ul>
+
+## Principais áreas de atuação com a linguagem Python
+<li>IA-Inteligência Artificial</li>
+<li>IoT-Internet das Coisas</li>
+<li>Big Data</li>
+<li>Data Science</li>
+<li>Computação 3D</li>
+<li>Biotecnologia</li>
+<li>Desenvolvimento Web - (Back-end)</li>
