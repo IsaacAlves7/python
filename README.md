@@ -25,4 +25,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
  <li>Possui licença compatível com Software livre;</li>
  <li>Linguagem de altíssimo nível (VHLL);</li>
  <li>Tipagem dinâmica;</li>
+ <li>Multiparadigma (POO, funcional e procedural);</li>
+ <li>Aumenta a produtividade do desenvolvedor;</li>  
+ <li>A implementação oficial do Python é mantida pela PSF (Python Software Foundation) é escrita em C, e por isso, é também conhecida como CPython.</li>  
 </ul>
