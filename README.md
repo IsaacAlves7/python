@@ -48,3 +48,6 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
+
+## Primeiros Comandos em Python
+<p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>.</p>
