@@ -9,7 +9,7 @@
 </ol>
 
 <div align="center"><h1>1. The History of Python language</h1>
-<a href="python.org"><img src="https://lamfo-unb.github.io/img/python.png"/></div></a>
+<a href="python.org"><img src="https://lamfo-unb.github.io/img/python.png"/></a></div>
 <p>Surgiu em 1989, criado por <b>Guido Van Rossum</b>, em Amsterdã, na Holanda. A origem do nome foi inspirado na comédia inglesa "<i>Monty Python and the Flying Circus</i>", na década de 1970.
 
 A linguagem <b>Python</b> é uma linguagem de programação, com características interessantes:
