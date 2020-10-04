@@ -51,10 +51,9 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 
 <div align="center"><h1>2. Primeiros Comandos em Python</h1></div>
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
-<pre>
- <code>>>> print('Hello, World!');</code>
- <code>>>> 2+2</code>
- <code>>>> print(2+2);</code>
+<pre><code>>>> print('Hello, World!');</code></pre>
+<pre><code>>>> 2+2</code></pre>
+<pre><code>>>> print(2+2);</code></pre>
  <p>Observe como se faz a concatenação</p>
- <code>>>> print('2'+'2');</code>
-</pre>
+<pre><code>>>> print('2'+'2');</code></pre>
+
