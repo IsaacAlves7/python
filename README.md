@@ -1,4 +1,4 @@
-# Python language programming 
+# It's a repository of Python language programming 🐍🔢
 <p>Criei esse repositório para meu aprendizado sobre a linguagem Python. Obs: É importante instalar cada um dos componentes apresentados e executar os códigos na sua própria máquina.</p>
 <img src="https://jobs.enfaselabs.com.br/assets/imgs/logos/dados_5.png"/>
 
