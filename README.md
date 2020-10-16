@@ -7,6 +7,9 @@
 <ol>
   <li>What's the Python language?</li>
   <li>Primeiros comandos em Python.</li>
+  <li>Procedural Python.</li>
+  <li>Python OOP.</li>
+  <li>Functional Python.</li>  
 </ol>
 <hr>
 <div align="center"><h1>1. The History of Python language</h1>
