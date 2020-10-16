@@ -8,7 +8,10 @@
   <li>What's the Python language?</li>
   <li>Primeiros comandos em Python.</li>
   <li>Procedural Python.</li>
+  <li>Python Modules.</li>
   <li>Python OOP.</li>
+  <li>PyQT.</li>
+  <li>Python + SQ Lite.</li> 
   <li>Functional Python.</li>  
 </ol>
 <hr>
