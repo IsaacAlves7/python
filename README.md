@@ -3,7 +3,7 @@
 <blockquote>Obs: É importante instalar cada um dos componentes apresentados e executar os códigos na sua própria máquina.</blockquote>
 <img src="https://jobs.enfaselabs.com.br/assets/imgs/logos/dados_5.png"/>
 
-## Introduction - Overview about the Python language
+## Introduction - Overview about the Python language 🐍
 <b>Topics:</b>
 <ol>
   <li>What's the Python language?</li>
