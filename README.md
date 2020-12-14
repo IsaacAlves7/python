@@ -1,7 +1,7 @@
 # It's a repository of Python programming 📗🐍🔢
 <p>Criei esse repositório para meu aprendizado sobre a linguagem Python.</p>
 <blockquote>Obs: É importante instalar cada um dos componentes apresentados e executar os códigos na sua própria máquina.</blockquote>
-<img src="https://jobs.enfaselabs.com.br/assets/imgs/logos/dados_5.png"/>
+<img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" heigth="177"/>
 
 ## Introduction - Overview about the Python language 🐍
 <b>Topics:</b>
