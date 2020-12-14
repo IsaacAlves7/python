@@ -57,7 +57,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
 
-<div align="center"><h1>2. Primeiros Comandos em Python</h1></div>
+<div align="center"><h1>Cap 02: 🐍 Primeiros Comandos em Python </h1></div>
 <img src="https://www.belasartes.br/images/destaques/novo/1955.jpg" width="1070"/>
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
 <pre><code>>>> print('Hello, World!');</code></pre>
