@@ -4,7 +4,7 @@
 <img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" heigth="177"/>
 
 ## Introduction - Overview about the Python language 🐍
-<b>Topics:</b>
+<b>All topics:</b>
 <ol>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-02--primeiros-comandos-em-python-%EF%B8%8F">🐍 Primeiros Comandos em Python 🖥️</a></li>
