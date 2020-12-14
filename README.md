@@ -7,7 +7,7 @@
 <b>Topics:</b>
 <ol>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
-  <li>Primeiros comandos em Python.</li>
+  <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-02--primeiros-comandos-em-python-%EF%B8%8F">🐍 Primeiros Comandos em Python 🖥️</a></li>
   <li>Procedural Python.</li>
   <li>Python Modules.</li>
   <li>Python OOP.</li>
