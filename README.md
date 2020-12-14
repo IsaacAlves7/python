@@ -6,7 +6,7 @@
 ## Introduction - Overview about the Python language 🐍
 <b>Topics:</b>
 <ol>
-  <li><a href="">🐍 The History of Python language 🔢</a></li>
+  <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
   <li>Primeiros comandos em Python.</li>
   <li>Procedural Python.</li>
   <li>Python Modules.</li>
