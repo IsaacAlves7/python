@@ -9,7 +9,7 @@
 
 <img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" heigth="177"/>
 
-## Main menu - Overview about the Python language 🐍
+## 🐍 Main menu - Overview about the Python language 🐍
 <b>All topics:</b>
 <ol>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
