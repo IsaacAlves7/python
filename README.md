@@ -6,7 +6,7 @@
 <blockquote>⚠️ <b>Obs:</b> É importante instalar cada um dos componentes apresentados e executar os códigos na sua própria máquina.</blockquote>
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-3775A9?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![Pypi](https://img.shields.io/badge/-Pypi-FFF000?style=for-the-badge&logo=PyPi&logoColor=white)](https://pypi.org/)
+[![Pypi](https://img.shields.io/badge/-Pypi-FFF000?style=for-the-badge&logo=PyPi&logoColor=blue)](https://pypi.org/)
 [![Django](https://img.shields.io/badge/-Django-3775A9?style=for-the-badge&logo=Django&logoColor=white)](https://pypi.org/)
 [![Flask](https://img.shields.io/badge/-Flask-FFF000?style=for-the-badge&logo=Flask&logoColor=black)](https://pypi.org/)
 
