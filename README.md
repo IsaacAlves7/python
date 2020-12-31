@@ -20,7 +20,7 @@
   <li>🐍 Procedural Python 🐍</li>
   <li>🐍 Python Modules 📦</li>
   <li>🐍 Python OOP ⚽</li>
-  <li>🐍 Python Functional </li>
+  <li>🐍 Python Functional <b>λ</b></li>
   <li>🐍 PyQT 🪟</li>
   <li>🐍 Python + SQ Lite 🪶</li> 
   <li>🐍 </li>  
