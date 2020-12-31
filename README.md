@@ -3,7 +3,7 @@
 
 <img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" heigth="177"/>
 
-<blockquote><b>Obs:</b> É importante instalar cada um dos componentes apresentados e executar os códigos na sua própria máquina.</blockquote>
+<blockquote>⚠️ <b>Obs:</b> É importante instalar cada um dos componentes apresentados e executar os códigos na sua própria máquina.</blockquote>
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-orangered?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
 [![Pypi](https://img.shields.io/badge/-Pypi-3775A9?style=for-the-badge&logo=PyPi&logoColor=white)](https://pypi.org/)
