@@ -20,9 +20,9 @@
   <li>🐍 Python Modules 📦</li>
   <li>🐍 Python OOP ⚽</li>
   <li>🐍 Python Functional </li>
-  <li>PyQT.</li>
-  <li>Python + SQ Lite.</li> 
-  <li>Functional Python.</li>  
+  <li>🐍 PyQT 🪟</li>
+  <li>🐍 Python + SQ Lite 🪶</li> 
+  <li>🐍 </li>  
 </ol>
 <hr>
 <div align="center"><h1>Cap 01: 🐍 The History of Python language 🔢</h1>
