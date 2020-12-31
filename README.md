@@ -16,9 +16,10 @@
 <ol>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-02--primeiros-comandos-em-python-%EF%B8%8F">🐍 Primeiros Comandos em Python 🖥️</a></li>
-  <li>Procedural Python.</li>
-  <li>Python Modules.</li>
-  <li>Python OOP.</li>
+  <li>🐍 Procedural Python 🐍</li>
+  <li>🐍 Python Modules 📦</li>
+  <li>🐍 Python OOP ⚽</li>
+  <li>🐍 Python Functional </li>
   <li>PyQT.</li>
   <li>Python + SQ Lite.</li> 
   <li>Functional Python.</li>  
