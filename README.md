@@ -10,6 +10,7 @@
 [![Pypi](https://img.shields.io/badge/-Pypi-FFF000?style=for-the-badge&logo=PyPi&logoColor=blue)](https://pypi.org/)
 [![Django](https://img.shields.io/badge/-Django-3775A9?style=for-the-badge&logo=Django&logoColor=white)](https://pypi.org/)
 [![Flask](https://img.shields.io/badge/-Flask-FFF000?style=for-the-badge&logo=Flask&logoColor=black)](https://pypi.org/)
+[![SQL](https://img.shields.io/badge/-SQL‍‍language-1572B6?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
 
 ## 🐍 Main menu - Overview about the Python language 🐍:
 <b>All topics:</b>
