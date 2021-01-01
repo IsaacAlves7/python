@@ -12,7 +12,7 @@
 [![Flask](https://img.shields.io/badge/-Flask-FFF000?style=for-the-badge&logo=Flask&logoColor=black)](https://pypi.org/)
 [![SQL](https://img.shields.io/badge/-SQL‍‍language-1572B6?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
 
-## 🐍 Main menu - Overview about the Python language 🐍:
+## 🐍 Main menu - Fundamentals about the Python language 🐍:
 <b>All topics:</b>
 <ol>
   <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
