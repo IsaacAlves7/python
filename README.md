@@ -81,3 +81,10 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <pre>'''
         Comentário de
                     duas ou mais linhas'''</pre>
+
+<h1 align="center">Cap 04: 🐍 Python Modules 📦</h1>
+
+## Pip
+<pre>pip --version</pre>
+ou
+<pre>pip -V</pre>
