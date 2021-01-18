@@ -76,3 +76,8 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
  <p>Observe como se faz a concatenação</p>
 <pre><code>>>> print('2'+'2');</code></pre>
 
+## Comentários
+<pre># Comentário de uma linha</pre>
+<pre>'''
+        Comentário de
+                    duas ou mais linhas'''</pre>
