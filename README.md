@@ -7,7 +7,7 @@
 <blockquote>⚠️ <b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in Python development, if you want to learn about HTML5, CSS3, JS or Python Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
 [![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-3775A9?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![Pypi](https://img.shields.io/badge/-Pypi-FFF000?style=for-the-badge&logo=PyPi&logoColor=f9f6f6)](https://pypi.org/)
+[![Pypi](https://img.shields.io/badge/-Pypi-FFF000?style=for-the-badge&logo=PyPi&logoColor=f9f9f9)](https://pypi.org/)
 [![Django](https://img.shields.io/badge/-Django-3775A9?style=for-the-badge&logo=Django&logoColor=white)](https://pypi.org/)
 [![Flask](https://img.shields.io/badge/-Flask-FFF000?style=for-the-badge&logo=Flask&logoColor=black)](https://pypi.org/)
 [![SQL](https://img.shields.io/badge/-SQL‍‍language-1572B6?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
