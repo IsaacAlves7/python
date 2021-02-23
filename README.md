@@ -94,6 +94,6 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 ou
 <pre>pip -V</pre>
 
-<h1 align="center">Cap: 🐍 [Python Modules] Pytube 📹</h1>
+<h1 align="center">Cap: 🐍 [Python Modules] Pytube ⬇️▶️</h1>
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/108770543-2f2d0f80-7539-11eb-8875-ca89d28e8228.png"></div>
