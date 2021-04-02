@@ -54,6 +54,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
+<hr>
 
 <div align="center"><h1>Cap 02: 🐍 Primeiros Comandos em Python 🖥️</h1></div>
 <img src="https://www.belasartes.br/images/destaques/novo/1955.jpg" width="1070"/>
