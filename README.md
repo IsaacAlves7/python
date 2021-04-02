@@ -13,19 +13,6 @@
 [![SQL](https://img.shields.io/badge/-SQL‍‍language-1572B6?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
 [![Systems Architecture](https://img.shields.io/badge/-Systems‍‍Architecture-FFF000?style=for-the-badge&logo=ReactOS&logoColor=black)](https://github.com/IsaacAlves7/systems-architecture)
 
-## 🐍 Main menu - Fundamentals about the Python language 🐍:
-<b>All topics:</b>
-<ol>
-  <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-01--the-history-of-python-language-">🐍 The History of Python language 🔢</a></li>
-  <li><a href="https://github.com/IsaacAlves7/python-programming/blob/master/README.md#cap-02--primeiros-comandos-em-python-%EF%B8%8F">🐍 Primeiros Comandos em Python 🖥️</a></li>
-  <li>🐍 Procedural Python 🐍</li>
-  <li>🐍 Python Modules 📦</li>
-  <li>🐍 Python OOP ⚽</li>
-  <li>🐍 Python Functional <b>λ</b></li>
-  <li>🐍 PyQT 🪟</li>
-  <li>🐍 Python + SQ Lite 🪶</li> 
-  <li>🐍 </li>  
-</ol>
 <hr>
 <div align="center"><h1>Cap 01: 🐍 The History of Python language 🔢</h1>
 <a href="https://python.org"><img src="https://lamfo-unb.github.io/img/python.png"/></a></div>
