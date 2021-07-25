@@ -1,5 +1,5 @@
 # <img src="https://emojis.slackmojis.com/emojis/images/1516924249/3439/python_explode.gif?1516924249" height="30"> It's a repository of Python programming 🐍🔢
-<blockquote>I created this repository for my Python language learning.</blockquote>
+<blockquote>I created this repository for my Python language Full-Stack Development learning.</blockquote>
 
 <a href="https://github.com/IsaacAlves7/python-programming"><img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" heigth="177"/></a>
 
