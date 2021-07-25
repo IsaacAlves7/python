@@ -11,7 +11,7 @@
 [![Django](https://img.shields.io/badge/-Django-3775A9?style=for-the-badge&logo=Django&logoColor=white)](https://pypi.org/)
 [![Flask](https://img.shields.io/badge/-Flask-FFF000?style=for-the-badge&logo=Flask&logoColor=black)](https://pypi.org/)
 [![SQL](https://img.shields.io/badge/-SQL‍‍language-1572B6?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/IsaacAlves7/sql-language)
-[![Systems Architecture](https://img.shields.io/badge/-Systems‍‍Architecture-FFF000?style=for-the-badge&logo=ReactOS&logoColor=black)](https://github.com/IsaacAlves7/systems-architecture)
+[![DevOps](https://img.shields.io/badge/-DevOps-FFF000?style=for-the-badge&logo=ReactOS&logoColor=black)](https://github.com/IsaacAlves7/systems-architecture)
 
 <hr>
 <div align="center"><h1>Cap 01: 🐍 The History of Python language 🔢</h1>
@@ -73,6 +73,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 
 <h1 align="center">Cap 04: 🐍 Python Modules 📦</h1>
 
+## Rodando Python no Terminal
 ## Pip
 
 ### Atualizar o Pip
