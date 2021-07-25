@@ -74,11 +74,15 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <h1 align="center">Cap 04: 🐍 Python Modules 📦</h1>
 
 ## Rodando Python no Terminal
+
+### Monitorando a versão do Python
+<pre>python --version</pre>
+
 ## Pip
 
 ### Atualizar o Pip
 
-### Monitorar a versão
+### Monitorar a versão do Pip
 <pre>pip --version</pre>
 ou
 <pre>pip -V</pre>
