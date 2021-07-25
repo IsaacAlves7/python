@@ -79,6 +79,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <pre>python --version</pre>
 
 ## Pip
+O **pip** é o instalador de pacotes, módulos e bibliotecas de terceiros do Python, praticamente todas as linguagens de programação modernas de alto-nível possuem uma, como o NPM do Node.js e o Composer do PHP. 
 
 ### Atualizar o Pip
 
