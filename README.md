@@ -70,10 +70,16 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <pre><code>>>> print('2'+'2');</code></pre>
 
 ## Comentários
-<pre># Comentário de uma linha</pre>
-<pre>'''
-        Comentário de
-                    duas ou mais linhas'''</pre>
+
+```python
+# Comentário de uma linha
+```
+
+```python
+'''
+    Comentário de
+                  duas ou mais linhas'''
+```
 
 <h1 align="center">Cap 04: 🐍 Python Modules 📦</h1>
 
