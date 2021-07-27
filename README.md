@@ -59,6 +59,10 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <div align="center"><h1>Cap 02: 🐍 Primeiros Comandos em Python 🖥️</h1></div>
 <img src="https://www.belasartes.br/images/destaques/novo/1955.jpg" width="1070"/>
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
+
+#### Monitorando a versão do Python
+<pre>python --version</pre>
+
 <pre><code>>>> print('Hello, World!');</code></pre>
 <pre><code>>>> 2+2</code></pre>
 <pre><code>>>> print(2+2);</code></pre>
@@ -74,9 +78,6 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <h1 align="center">Cap 04: 🐍 Python Modules 📦</h1>
 
 ## Rodando Python no Terminal
-
-### Monitorando a versão do Python
-<pre>python --version</pre>
 
 ## Pip
 ![Pip_help](https://user-images.githubusercontent.com/61624336/126909447-24a4200a-93d9-4221-806f-d572215fd2ff.png)
