@@ -61,7 +61,12 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
 
 #### Monitorando a versão do Python
-<pre>python --version</pre>
+```
+python --version
+```
+```
+pip -V
+```
 
 <pre><code>>>> print('Hello, World!');</code></pre>
 <pre><code>>>> 2+2</code></pre>
@@ -94,10 +99,6 @@ O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e 
 
 ### Atualizar o Pip
 
-### Monitorar a versão do Pip
-<pre>pip --version</pre>
-ou
-<pre>pip -V</pre>
 
 <h1 align="center">Cap: 🐍 [Python Modules] Pytube ⬇️▶️</h1>
 
