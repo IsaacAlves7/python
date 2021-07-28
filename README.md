@@ -56,7 +56,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Desenvolvimento Web - (Back-end)</li>
 <hr>
 
-<div align="center"><h1>Cap 02: 🐍 Primeiros Comandos em Python 🖥️</h1></div>
+<div align="center"><h1>Cap 02: 🐍 Primeiros Comandos em Python 🐍</h1></div>
 <img src="https://www.belasartes.br/images/destaques/novo/1955.jpg" width="1070"/>
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
 
@@ -90,10 +90,10 @@ pip -V
 
 ## Rodando Python no Terminal
 
-## Pip
+## 🐍 Pip 📦
 ![Pip_help](https://user-images.githubusercontent.com/61624336/126909447-24a4200a-93d9-4221-806f-d572215fd2ff.png)
 
-O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e bibliotecas de terceiros do Python, praticamente todas as linguagens de programação modernas de alto-nível possuem uma, como o *NPM* do Node.js e o *Composer* do PHP. 
+O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e bibliotecas de terceiros do Python, praticamente todas as linguagens de programação modernas de alto-nível possuem uma, como o *NPM* do Node.js, *Ruby Gems* do Ruby e o *Composer* do PHP. 
 
 É importante que o seu pip sempre se mantenha atualizado, pois muitos pacotes das últimas versões utilizam a versão mais recente. Caso contrário, poderá não funcionar os pacotes na sua máquina.
 
