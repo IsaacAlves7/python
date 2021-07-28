@@ -97,6 +97,14 @@ O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e 
 
 É importante que o seu pip sempre se mantenha atualizado, pois muitos pacotes das últimas versões utilizam a versão mais recente. Caso contrário, poderá não funcionar os pacotes na sua máquina.
 
+#### Verificando a versão do pip
+```
+python --version
+```
+Ou
+```
+pip -V
+```
 ### Atualizar o Pip
 
 
