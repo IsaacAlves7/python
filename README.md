@@ -88,7 +88,7 @@ pip -V
 
 <h1 align="center">Cap 04: 🐍 Python Modules 📦</h1>
 
-## Rodando Python no Terminal
+## 🐍 Rodando Python no Terminal 🖥️
 
 ## 🐍 Pip 📦
 ![Pip_help](https://user-images.githubusercontent.com/61624336/126909447-24a4200a-93d9-4221-806f-d572215fd2ff.png)
@@ -103,3 +103,5 @@ O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e 
 <h1 align="center">Cap: 🐍 [Python Modules] Pytube ⬇️▶️</h1>
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/108770543-2f2d0f80-7539-11eb-8875-ca89d28e8228.png"></div>
+<hr>
+<h3><i>IsaacAlves7 - Isaac Alves Pinheiro</i></h3>
