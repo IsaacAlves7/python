@@ -104,4 +104,4 @@ O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e 
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/108770543-2f2d0f80-7539-11eb-8875-ca89d28e8228.png"></div>
 <hr>
-<h3><i>IsaacAlves7 - Isaac Alves Pinheiro</i></h3>
+<h3 align="center"><i>IsaacAlves7 - Isaac Alves Pinheiro</i></h3>
