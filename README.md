@@ -16,6 +16,17 @@
 <hr>
 <div align="center"><h1>Cap 01: 🐍 The History of Python language 🔢</h1>
 <a href="https://python.org"><img src="https://lamfo-unb.github.io/img/python.png"/></a></div>
+
+A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
+
+A linguagem Python foi escolhida como instrumento para o desenvolvimento desta disciplina, pois além de ser multiparadigma (possibilita escrever programas em diferentes paradigmas) e de uso geral, vem se destacando e sendo cada vez mais utilizada entre os novos desenvolvedores por vários motivos:
+
+- Facilidade de aprendizado;
+- Boa legibilidade de código;
+- Boa facilidade de escrita;
+- Produtividade e confiabilidade.
+- Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
+
 <p>Surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a>, em Amsterdã, na Holanda. A origem do nome foi inspirado na comédia inglesa "<i>Monty Python and the Flying Circus</i>", na década de 1970.
 
 A linguagem <b>Python</b> é uma linguagem de programação, com características interessantes:
