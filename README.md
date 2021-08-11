@@ -14,7 +14,7 @@
 [![DevOps](https://img.shields.io/badge/-DevOps-3776AB?style=for-the-badge&logo=ReactOS&logoColor=white)](https://github.com/IsaacAlves7/systems-architecture)
 
 <hr>
-<div align="center"><h1>Cap 01: 🐍 The History of Python language 🔢</h1>
+<h1 align="center">🐍 The History of Python language 🔢</h1>
 <a href="https://python.org"><img src="https://lamfo-unb.github.io/img/python.png"/></a></div>
 
 A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
@@ -67,7 +67,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Desenvolvimento Web - (Back-end)</li>
 <hr>
 
-<div align="center"><h1>Cap 02: 🐍 Primeiros Comandos em Python 🐍</h1></div>
+<h1 align="center">🐍 Primeiros Comandos em Python 🐍</h1>
 <img src="https://www.belasartes.br/images/destaques/novo/1955.jpg" width="1070"/>
 <p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
 
