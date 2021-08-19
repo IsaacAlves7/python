@@ -15,7 +15,7 @@
 
 <hr>
 <h1 align="center">🐍 The History of Python language 🔢</h1>
-<a href="https://python.org"><img src="https://lamfo-unb.github.io/img/python.png"/></a></div>
+<div align="center"><a href="https://python.org"><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="177">&nbsp;&nbsp;<img height="177" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/></a></div><br \>
 
 A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
 
