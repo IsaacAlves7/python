@@ -65,63 +65,17 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
+
+# Django
+
+# Flask
+
+# CherryPy
+
+# SymPy
+
+# Numpy
+
+# Pandas
+
 <hr>
-
-<h1 align="center">🐍 Primeiros Comandos em Python 🐍</h1>
-<img src="https://www.belasartes.br/images/destaques/novo/1955.jpg" width="1070"/>
-<p>Você pode navegar pelo <b>IDLE</b> ou pelo <b>cmd</b> do Windows, já para Mac OS ou Linux é usado o <b>terminal</b>. Utilizaremos a versão 3 do Python.</p>
-
-#### Monitorando a versão do Python
-```
-python --version
-```
-```
-pip -V
-```
-
-<pre><code>>>> print('Hello, World!');</code></pre>
-<pre><code>>>> 2+2</code></pre>
-<pre><code>>>> print(2+2);</code></pre>
- <p>Observe como se faz a concatenação</p>
-<pre><code>>>> print('2'+'2');</code></pre>
-
-## Comentários
-
-```python
-# Comentário de uma linha
-```
-
-```python
-'''
-    Comentário de
-                  duas ou mais linhas'''
-```
-
-<h1 align="center">🐍 Python Modules 📦</h1>
-
-## Rodando Python no Terminal
-
-## pip
-![Pip_help](https://user-images.githubusercontent.com/61624336/126909447-24a4200a-93d9-4221-806f-d572215fd2ff.png)
-
-O **pip** é um sistema de gerenciamento de instalação de pacotes, módulos e bibliotecas de terceiros do Python, praticamente todas as linguagens de programação modernas de alto-nível possuem uma, como o *NPM* do Node.js, *Ruby Gems* do Ruby e o *Composer* do PHP. 
-
-É importante que o seu pip sempre se mantenha atualizado, pois muitos pacotes das últimas versões utilizam a versão mais recente. Caso contrário, poderá não funcionar os pacotes na sua máquina.
-
-#### Verificando a versão do pip
-```
-python --version
-```
-Ou
-```
-pip -V
-```
-### Atualizar o Pip
-
-## Principais Módulos
-
-### Pytube
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/108770543-2f2d0f80-7539-11eb-8875-ca89d28e8228.png"></div>
-<hr>
-<h3 align="center"><i>IsaacAlves7 - Isaac Alves Pinheiro</i></h3>
