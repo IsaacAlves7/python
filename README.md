@@ -66,6 +66,10 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
 
+<hr>
+
+# Primeiros 
+
 # Django
 
 # Flask
