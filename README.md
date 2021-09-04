@@ -67,7 +67,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Desenvolvimento Web - (Back-end)</li>
 
 <hr>
-
+<!-- 
 # Primeiros 
 
 # Django
@@ -80,6 +80,6 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 
 # Numpy
 
-# Pandas
+# Pandas -->
 
 <hr>
