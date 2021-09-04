@@ -14,7 +14,7 @@
 [![DevOps](https://img.shields.io/badge/-DevOps-3776AB?style=for-the-badge&logo=ReactOS&logoColor=white)](https://github.com/IsaacAlves7/systems-architecture)
 
 <hr>
-<h1 align="center">🐍 The History of Python language 🔢</h1>
+<h1 align="left">🐍 The History of Python language 🔢</h1>
 <div align="center"><img height="177" src="https://cdn.worldvectorlogo.com/logos/monty-python-and-the-holy-grail.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img height="177" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="177">&nbsp;&nbsp;&nbsp;&nbsp;</div><br \>
 
 A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
