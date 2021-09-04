@@ -65,21 +65,3 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
-
-<hr>
-<!-- 
-# Primeiros 
-
-# Django
-
-# Flask
-
-# CherryPy
-
-# SymPy
-
-# Numpy
-
-# Pandas -->
-
-<hr>
