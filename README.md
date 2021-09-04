@@ -14,7 +14,65 @@
 [![DevOps](https://img.shields.io/badge/-DevOps-3776AB?style=for-the-badge&logo=ReactOS&logoColor=white)](https://github.com/IsaacAlves7/systems-architecture)
 
 <hr>
-<h1 align="left">🐍 The History of Python language 🔢</h1>
+
+# 🐍 O papel da abstração nas linguagens de programação 🔢
+**Abstração** é o processo de identificação das qualidades e/ou propriedades relevantes para o contexto que está sendo analisado e desprezando o que seja irrelevante. Um **modelo** é uma _abstração_ da realidade.
+
+Um **programa de computador** é um _modelo_, pois representa a solução de um problema em termos algorítmicos. Assim sendo, a _abstração_ permeia toda a atividade de programação de computadores.
+
+A **linguagem de máquina** foi a primeira a ser criada para a prática de programação. Trata-se da _linguagem nativa do computador_, a única que ele, de fato, compreende. Uma linguagem muito complicada para ser entendida pelas pessoas, em que um comando que soma 2 números, é formado por uma sequência de 1 e 0, muito difícil de ser memorizada, usada e, mais ainda, de ser entendida por terceiros.
+
+As primeiras linguagens de programação, porém, não reconheciam o papel crucial que a abstração desempenha na programação. Por exemplo, no início da década de 1950, o único mecanismo de abstração fornecido pela _linguagem de montagem_, ou **Assembly**, em relação às linguagens de máquina eram os **nomes simbólicos**.
+
+<blockquote><b>Você sabia? :</b> O programador podia empregar termos relativamente <i>autoexplicativos</i> (nomes simbólicos) para nomear códigos de operação (<code>ADD = soma, SUB = subtração, M = multiplicação e DIV = divisão</code>) e <i>posições de memória</i>. A <b>linguagem de montagem</b> (<code><b>Assembly</b></code>) melhorou a vida do programador, porém obrigava-o a escrever 1 linha de código para cada instrução que a máquina deve executar, forçando-o a pensar como se fosse uma máquina.</blockquote>
+
+Um pouco mais adiante, visando a aumentar o poder de abstração das linguagens de forma a permitir uma melhor performance dos programadores, surgem as linguagens de alto nível, próximas à linguagem humana e mais distantes das linguagens **Assembly** e de **máquina**.
+
+A tabela, a seguir, exibe, à esquerda, um programa-fonte, escrito numa linguagem de alto nível, a **linguagem Python**. Ao centro, temos o código equivalente na **linguagem Assembly** para o sistema operacional Linux e, à direita, o respectivo código na **linguagem de máquina**, de um determinado processador. Observe:
+
+<table>
+  <tr>
+    <td>Linguagem Python</td>
+    <td>Linguagem Assembly</td>
+    <td>Linguagem de Máquina</td>
+  </tr>
+  <tr>
+    <td>
+      <pre>
+        def swap(self, v, k):
+          temp = self.v[k];
+          self.v[k] =
+          self.v[k+1];
+          self.v[k+1]= temp;
+      </pre>
+    </td>
+    <td>
+     <pre>
+       swap:
+        Muli $2,$5,4
+        Add $2,$4,$2
+        Lw $15,0($2)
+        Lw $16,4($2)
+        Sw $16,0($2)
+        Sw $15,4($2)
+        Jr $31
+      </pre>
+    </td>
+    <td>
+     <pre>
+       00000000001111111111100000000001
+       00011111111000000111000011111101
+       11111000001100000111111110000000
+       10000000100000001000000010000000
+       00000000010000000001000000000010
+       00000000000000001111000010010101
+       00000000111000111111001111111111
+      </pre>
+    </td>
+  </tr>
+</table>
+
+# 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
 A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
