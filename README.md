@@ -15,7 +15,7 @@
 
 <hr>
 
-# 🐍 O papel da abstração nas linguagens de programação 🔢
+# 🐍 A abstração nas linguagens de programação 🔢
 **Abstração** é o processo de identificação das qualidades e/ou propriedades relevantes para o contexto que está sendo analisado e desprezando o que seja irrelevante. Um **modelo** é uma _abstração_ da realidade.
 
 Um **programa de computador** é um _modelo_, pois representa a solução de um problema em termos algorítmicos. Assim sendo, a _abstração_ permeia toda a atividade de programação de computadores.
