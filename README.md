@@ -116,6 +116,41 @@ Abaixo, a imagem ilustra a representação de uma instrução em linguagem de m�
 
 <h5 align="center">Instrução em linguagem de máquina.</h5>
 
+Imagine, agora, uma sequência de 0 e 1 para que possamos dizer ao processador cada ação que deve ser realizada conforme ilustrado abaixo.
+
+```
+0001001010001111
+1010010001000010
+0010101110110111
+0101010000000111
+```
+
+Era de fato muito complexa a programação na linguagem de máquina, a linguagem nativa dos processadores.
+
+Essa complexidade motivou o desenvolvimento da linguagem Assembly, que deixava de ser a linguagem nativa dos processadores, mas usava das instruções reais dos processadores. Assim, a instrução na linguagem Assembly precisa ser convertida para o código equivalente em linguagem de máquina.
+
+### Exemplo
+As três linhas de código na linguagem Assembly, abaixo, que move o numeral 2 para o registrador AX (linha 1), move o numeral 1 para o registrador BX (linha 2) e soma o conteúdo dos 2 registradores (linha 3).
+
+```assembly
+MOV AX, 0002
+
+MOV BX, 0001
+
+ADD AX, BX
+```
+
+Não chega a ser o ideal em termos de uma linguagem, que é ainda próxima da máquina, mas já foi um grande avanço em relação à memorização da sequência de 0 e 1 de uma instrução de máquina.
+
+Linguagens de baixo nível estão distantes da língua humana (escrita).
+
+### Linguagem de alto nível
+No outro extremo das linguagens de baixo nível, estão as linguagens de alto nível, na medida em que se afastam da linguagem das máquinas e se aproximam da linguagem humana (no caso, a linguagem escrita e a grande maioria em Inglês).
+
+<blockquote><b>Você sabia:</b> Quem programa em uma linguagem de alto nível não precisa conhecer características dos componentes do hardware (processador, instruções e registradores). Isso é abstraído no pensamento computacional.</blockquote>
+
+
+
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
