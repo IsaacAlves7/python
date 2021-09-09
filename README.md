@@ -149,6 +149,44 @@ No outro extremo das linguagens de baixo nível, estão as linguagens de alto n�
 
 <blockquote><b>Você sabia:</b> Quem programa em uma linguagem de alto nível não precisa conhecer características dos componentes do hardware (processador, instruções e registradores). Isso é abstraído no pensamento computacional.</blockquote>
 
+As instruções das linguagens de alto nível são bastante abstratas e não estão relacionadas à arquitetura do computador diretamente. **As principais linguagens são:**
+
+**Python, ASP, C, C++, C#, Pascal, Delphi, Java, Javascript, Go, Scala, Clojure, Lua, MATLAB, PHP e Ruby, dentre outras.**
+
+<blockquote>
+
+Abaixo, o mesmo código expresso acima, escrito em Assembly, porém usando variáveis, como abstração do armazenamento e codificado na linguagem Python.
+
+<pre>
+def main():
+    num1 = 2
+    num2 = 1
+    soma = num1 + num2
+</pre>
+  
+Abaixo, o mesmo código na linguagem C:
+
+<pre>
+int num1, num2, soma;
+int main()
+{
+  num1=2;
+  num1=1;
+  soma=num1+num2;
+}  
+</pre>  
+
+</blockquote>
+
+Cada comando de uma linguagem de alto nível precisa ser convertido e equivalerá a mais de uma instrução primária do hardware. Isso significa que, numa linguagem de alto nível, o programador precisa escrever menos código para realizar as mesmas ações, além de outras vantagens, aumentando consideravelmente a sua eficiência ao programar.
+
+<blockquote><b>Saiba mais:</b> Há uma curiosidade: C e C++ são classificados por alguns autores como linguagem de médio nível, na medida que estão próximas da linguagem humana (linguagem de alto nível), mas também estão próximas da máquina (linguagem de baixo nível), pois possuem instruções que acessam diretamente memória e registradores. Inicialmente, a linguagem C foi criada para desenvolver o sistema operacional UNIX, que até então era escrito em Assembly.</blockquote>
+
+Outro dado que merece ser comentado é que algumas pessoas consideram a existência de linguagens de altíssimo nível, como Python, Ruby e Elixir, por serem linguagens com uma enorme biblioteca de funções e que permitem a programação para iniciantes sem muito esforço de aprendizado.
+
+## Classificação por gerações
+Outra forma de classificar as linguagens, amplamente difundida, é por **gerações**. Não há um consenso sobre as gerações, alguns consideram `5`, outros `6`. A cada geração, novos recursos facilitadores são embutidos nas respectivas linguagens.
+
 
 
 # 🐍 The History of Python language 🐍
