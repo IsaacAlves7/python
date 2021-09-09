@@ -106,7 +106,7 @@ Veremos a seguir as classificações das linguagens por nível, por gerações e
 A **classificação por nível** considera a proximidade da linguagem de programação com as características da arquitetura do computador ou com a comunicação com o homem.
 
 ### Linguagem de baixo nível
-São linguagens que se aproximam da linguagem de máquina, além da própria, que se comunicam diretamente com os componentes de hardware, como processador, memória e registradores. As linguagens de baixo nível estão relacionadas à arquitetura de um computador.
+São linguagens que **se aproximam da linguagem de máquina**, além da própria, que se comunicam diretamente com os componentes de hardware, como processador, memória e registradores. As linguagens de baixo nível estão relacionadas à arquitetura de um computador.
 
 São linguagens escritas usando o conjunto de instruções do respectivo processador. Ou seja, cada processador diferente (ou família de processador, como os I3, I5 e I7 da Intel) tem um conjunto de instruções específicos (instructions set).
 
@@ -127,7 +127,7 @@ Imagine, agora, uma sequência de 0 e 1 para que possamos dizer ao processador c
 
 Era de fato muito complexa a programação na linguagem de máquina, a linguagem nativa dos processadores.
 
-Essa complexidade motivou o desenvolvimento da linguagem Assembly, que deixava de ser a linguagem nativa dos processadores, mas usava das instruções reais dos processadores. Assim, a instrução na linguagem Assembly precisa ser convertida para o código equivalente em linguagem de máquina.
+Essa complexidade motivou o desenvolvimento da linguagem **Assembly**, que deixava de ser a linguagem nativa dos processadores, mas usava das instruções reais dos processadores. Assim, a instrução na linguagem Assembly precisa ser convertida para o código equivalente em linguagem de máquina.
 
 ### Exemplo
 As três linhas de código na linguagem Assembly, abaixo, que move o numeral 2 para o registrador AX (linha 1), move o numeral 1 para o registrador BX (linha 2) e soma o conteúdo dos 2 registradores (linha 3).
@@ -189,10 +189,10 @@ Outra forma de classificar as linguagens, amplamente difundida, é por **geraç�
 
 ![img_18](https://user-images.githubusercontent.com/61624336/132680831-1c2dc53c-28d5-4d2e-924d-6f57aed9e78d.jpg)
 
-### LINGUAGENS DE 1ª GERAÇÃO (LINGUAGEM DE MÁQUINA)
+### LINGUAGENS DE 1ª GERAÇÃO (LINGUAGEM DE MÁQUINA) [baixo-nível]
 A 1ª geração de linguagens é representa pela **linguagem de máquina**, nativa dos processadores.
 
-### LINGUAGENS DE 2ª GERAÇÃO (LINGUAGEM DE MONTAGEM – ASSEMBLY)
+### LINGUAGENS DE 2ª GERAÇÃO (LINGUAGEM DE MONTAGEM – ASSEMBLY) [baixo-nível]
 As linguagens de segunda geração são denominadas **Assembly** e são traduzidas para a linguagem de máquina por um programa especial (montador), chamado _Assembler_. A partir dessa geração, toda linguagem vai precisar de um processo de conversão do código nela escrito, para o código em linguagem de máquina.
 
 Acompanhe o exemplo abaixo para uma CPU abstrata. Considere a seguinte sequência de 3 instruções em linguagem Assembly:
@@ -206,7 +206,121 @@ Acompanhe o exemplo abaixo para uma CPU abstrata. Considere a seguinte sequênci
     <td><code>Mov #8, A</code></td>
     <td>Lê um valor da posição de memória 8 para o registrador A</td>
   </tr>
+  <tr>
+    <td><code>Mov #9, B</code></td>
+    <td>Lê um valor da posição de memória 9 para o registrador B</td>
+  </tr>
+  <tr>
+    <td><code>ADD A,B</code></td>
+    <td>Soma os valores armazenados nos registradores A e B</td>
+  </tr>
 </table>
+
+Em linguagem de máquina, depois de traduzidas pelo _Assembler_, as instruções poderiam ser representadas pelas seguintes sequências de palavras binárias:
+
+<table>
+  <tr>
+    <td><b>Código em Assembly</b></td>
+    <td><b>Código em linguagem de máquina</b></td>
+  </tr>
+  <tr>
+    <td><code>Mov #8, A</code></td>
+    <td>01000011 11001000 01100001</td>
+  </tr>
+  <tr>
+    <td><code>Mov #9, B</code></td>
+    <td>01000011 11001001 01100010</td>
+  </tr>
+  <tr>
+    <td><code>ADD A,B</code></td>
+    <td>01010100 01100001 01100010</td>
+  </tr>
+</table>
+
+Houve um aumento significativo no nível de abstração, mas parte da dificuldade permanece, pois o programador, além de necessitar memorizar os **mneumônicos**, precisa conhecer a arquitetura do computador como forma de endereçamento dos registradores e memória, além de outros aspectos.
+
+### LINGUAGENS DE 3ª GERAÇÃO (LINGUAGENS PROCEDURAIS) [nível-médio]
+São as, também, linguagens de alto nível, de aplicação geral, em que uma única instrução em uma linguagem próxima a do homem pode corresponder a mais de uma instrução em linguagem de máquina.
+
+Caracterizam-se pelo suporte a variáveis do tipo simples (caractere, inteiro, real e lógico) e estruturados (matrizes, vetores, registros), comandos condicionais, comando de iteração e programação modular (funções e procedimentos), estando alinhadas à programação estruturada.
+
+O processo de conversão para a linguagem de máquina ficou mais complexo e ficaram a cargo dos **interpretadores** e **tradutores**. As primeiras linguagens de 3ª geração que foram apresentadas ao mercado são: **Fortran, BASIC, COBOL, C, PASCAL, dentre outras.**
+
+Esta geração de linguagens apresenta as seguintes propriedades em comum:
+
+- Armazenar tipos de dados estaticamente: simples, estruturados e enumerados.
+- Alocar memória dinamicamente, através de ponteiros, que são posições de memória cujo conteúdo é outra posição de memória.
+- Disponibilizar: estruturas de controle sequencial, condicional, repetição e desvio incondicional.
+- Permitir a programação modular, com uso de parâmetros.
+- Operadores: relacionais, lógicos e aritméticos.
+- Ênfase em simplicidade e eficiência.
+
+### LINGUAGENS DE 4ª GERAÇÃO (LINGUAGENS APLICATIVAS) [alto-nível]
+São, também, linguagens de alto nível, com aplicação e objetivos bem específicos.
+
+Enquanto as linguagens de 3ª geração são procedurais, ou seja, especifica-se passo a passo a solução do problema, as de 4ª geração são não procedurais. O programador especifica o que deseja fazer e não como deve ser feito.
+
+O melhor exemplo de linguagens de 4ª geração é a **SQL** (Structured Query Language), utilizada para consulta à manipulação de banco de dados. **PostScript** e **MATLAB** são outros dois exemplos de linguagens de 4ª geração.
+
+### LINGUAGENS DE 5ª GERAÇÃO (VOLTADAS À INTELIGÊNCIA ARTIFICIAL) [alto-nível]
+São linguagens declarativas e não algorítmicas. Exemplos: **Lisp** e **Prolog**. As linguagens de 5ª geração são usadas para desenvolvimento de **sistemas especialistas** (área da IA), de **sistemas de reconhecimento de voz** e **machine learning**.
+
+A imagem a seguir ilustra as características de cada geração.
+
+Alguns autores classificam a 6ª geração, como uma evolução da 5ª, em que prevalecem as aplicações de **redes neurais**, uma outra vertente da **Inteligência Artificial**.
+
+![img_17](https://user-images.githubusercontent.com/61624336/132686146-628d18c7-781f-4b65-b4d7-a979a5ede411.jpg)
+
+<blockquote><b>Resumindo:</b>A abstração traz facilidades ao programador que cada vez menos precisa conhecer o ambiente onde a linguagem opera (composto por sistema operacional e hardware); Um comando em uma linguagem de alto nível faz mais que uma operação primária do hardware.</blockquote>
+
+Considerando as diversas linguagens de programação existentes hoje no mercado, atendendo a propósito comuns, vamos destacar neste módulo os domínios da programação, que são seis:
+
+- Aplicações científicas
+- Aplicações comerciais
+- Aplicações com Inteligência Artificial
+- Programação de sistemas
+- Programação para web
+- Programação mobile
+
+Na sequência, apresentaremos critérios que podem ser usados para avaliação de linguagens de programação, claro, dentro do mesmo domínio de programação.
+
+## DOMÍNIOS DA PROGRAMAÇÃO
+O computador tem sido usado para diversos fins, na ciência, nas forças armadas, nas empresas públicas e privadas, pelos profissionais liberais, pelas pessoas em seus lazeres e onde mais possa ser aplicado. Seu uso vai desde controlar robôs que fazem a montagem de automóveis em suas linhas de montagem até jogos digitais. Em função desse uso adverso, surgiram linguagens de programação com diferentes objetivos. A seguir, discutiremos as principais áreas e as respectivas linguagens de programação em destaque.
+
+### APLICAÇÕES CIENTÍFICAS (MÁQUINAS DE CALCULAR COM ALTA PRECISÃO)
+O primeiro computador, o **ENIAC**, foi desenvolvido por 3 anos e ficou pronto no ano de 1946. Sua principal finalidade eram **cálculos balísticos**. Os computadores seguintes, nas décadas de 1940 e 1950, também focaram em cálculos científicos complexos.
+
+As linguagens de programação nessa época eram a linguagem de máquina e Assembly. Na década de 1960 surgem as primeiras linguagens de programação de alto nível, com destaque para Fortran (iniciais de **FOR**mula **TRAN**slator) e posteriormente para **ALGOL60**. As principais características dessas linguagens eram:
+
+- Estruturas de dados simples.
+- Alto volume de cálculos com aritmética de ponto flutuante (precisão).
+- Preocupação com a eficiência, pois sucederam a linguagem Assembly.
+
+### APLICAÇÕES COMERCIAIS
+A segunda onda de aplicativos foi para suprir as demandas das empresas a partir de meados da década de 1950. Em 1960, surge a linguagem que seria o ícone das aplicações comerciais de computadores de grande porte, naquele momento, o **COBOL**. As linguagens de programação que apoiaram o crescimento das aplicações comerciais têm como características:
+
+- Facilidade para produzir relatórios, fundamentais nos controles das operações contábeis, bancárias, estoque e financeiras (primeiros focos da época).
+- Precisão com números decimais e ponto flutuante, para representar as altas cifras das grandes empresas, as primeiras a investirem nessas aplicações.
+- Capacidade de especificar operações aritméticas comerciais.
+
+Cabe destacar que as linguagens destinadas a aplicações comerciais ganham força com a microcomputação a partir dos anos 1980, levando as aplicações comerciais aos médios e pequenos empresários.
+
+### APLICAÇÕES COM INTELIGÊNCIA ARTIFICIAL
+As linguagens que sustentam o desenvolvimento de aplicações apoiadas na Inteligência Artificial (IA) ganham força nos dias de hoje.
+
+A grande ruptura no pensamento computacional é que as linguagens que apoiam a IA usam a computação simbólica e não numérica, como a maioria das linguagens da época. Em 1959, surge a linguagem **Lisp**, primeira linguagem projetada para apoio à computação simbólica, primeira referência da computação funcional. **Prolog**, criada em 1977, foi a primeira linguagem para apoio da computação lógica, essência dos sistemas especialistas (sistemas que usam IA para simular o comportamento humano).
+
+### PROGRAMAÇÃO DE SISTEMAS
+A programação de sistemas cabe a linguagens de programação que tenham comandos e estruturas para acessar, diretamente, o hardware. Tais linguagens são usadas para desenvolver softwares básicos, como sistemas operacionais, tradutores e interpretadores de linguagens de programação. Antes de surgir a linguagem **C**, usada para desenvolver o sistema operacional Linux, **Assembly** era a linguagem usada para esse fim. A linguagem **C++** também é usada com essa finalidade.
+
+### PROGRAMAÇÃO PARA WEB
+Com o crescimento da internet e tecnologias adjacentes, o uso dos sistemas se desloca do ambiente desktop (domínio dos anos 1980 e 1990) para o ambiente Web.
+
+No contexto de programação para Web, temos 2 diferentes ambientes de desenvolvimento: a **camada de apresentação**, que roda no navegador (lado cliente) e a **camada de lógica do negócio**, que roda nos servidores web (lado servidor), juntamente com a **camada de persistência**, considerando o modelo de desenvolvimento em 3 camadas (apresentação, lógica do negócio e persistência de dados).
+
+Para a **camada de apresentação**, usa-se as linguagens HTML (linguagem de marcação) e CSS (usada em conjunto com HTML para definir a apresentação da página web), além de JavaScript (programação de scripts), no lado cliente (navegadores).
+
+Para o desenvolvimento das camadas de lógica do negócio, as principais LP são: **C#, PHP, ASP, .NET, Java, Ruby e Python.**
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
