@@ -187,7 +187,26 @@ Outro dado que merece ser comentado é que algumas pessoas consideram a existên
 ## Classificação por gerações
 Outra forma de classificar as linguagens, amplamente difundida, é por **gerações**. Não há um consenso sobre as gerações, alguns consideram `5`, outros `6`. A cada geração, novos recursos facilitadores são embutidos nas respectivas linguagens.
 
+![img_18](https://user-images.githubusercontent.com/61624336/132680831-1c2dc53c-28d5-4d2e-924d-6f57aed9e78d.jpg)
 
+### LINGUAGENS DE 1ª GERAÇÃO (LINGUAGEM DE MÁQUINA)
+A 1ª geração de linguagens é representa pela **linguagem de máquina**, nativa dos processadores.
+
+### LINGUAGENS DE 2ª GERAÇÃO (LINGUAGEM DE MONTAGEM – ASSEMBLY)
+As linguagens de segunda geração são denominadas **Assembly** e são traduzidas para a linguagem de máquina por um programa especial (montador), chamado _Assembler_. A partir dessa geração, toda linguagem vai precisar de um processo de conversão do código nela escrito, para o código em linguagem de máquina.
+
+Acompanhe o exemplo abaixo para uma CPU abstrata. Considere a seguinte sequência de 3 instruções em linguagem Assembly:
+
+<table>
+  <tr>
+    <td><b>Código em Assembly</b></td>
+    <td><b>O que faz cada linha de código</b></td>
+  </tr>
+  <tr>
+    <td><code>Mov #8, A</code></td>
+    <td>Lê um valor da posição de memória 8 para o registrador A</td>
+  </tr>
+</table>
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
