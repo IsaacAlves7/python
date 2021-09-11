@@ -538,7 +538,112 @@ O **custo** de uma linguagem de programação varia em função das seguintes de
     <td>Compilar o programa</td>
     <td>Esse custo varia em função do custo de aquisição do compilador, hoje minimizado, em linguagens open source, como é o caso do Python. F (custo de aquisição do compilador).</td>
   </tr>
+  <tr>
+    <td>Executar o programa</td>
+    <td>Custo para executar programas, varia em função do projeto da linguagem. F (Projeto da linguagem).</td>
+  </tr>
+   <tr>
+    <td>Implementar a linguagem</td>
+    <td>A popularidade da LP vai depender de um econômico sistema de implementação. Por exemplo, Python e Java possuem compiladores e interpretadores gratuitos.</td>
+  </tr>
+  <tr>
+    <td>Confiabilidade</td>
+    <td>O custo da má confiabilidade: se um sistema crítico falhar, o custo será elevado. Exemplos: sistema de controle de consumo de água e sistemas de usina nuclear.</td>
+  </tr>
+  <tr>
+    <td>Manutenção</td>
+    <td>Custo de manutenção: depende de vários fatores, mas principalmente da legibilidade, já que a tendência é que a manutenção seja dada por pessoas que não participaram do desenvolvimento do software.</td>
+  </tr>
 </table>
+
+Os custos em treinamento e de escrever o programa podem ser minimizados se a linguagem oferecer bom ambiente de programação.
+
+<blockquote>Python é uma linguagem com alta legibilidade, facilidade de escrita, além de confiável. Seu custo não é elevado, pois além de ser open source, é fácil de aprender.</blockquote>
+
+<blockquote><b>ATENÇÃO!</b> Existem outros critérios, como por exemplo a portabilidade ou a capacidade que os programas têm de rodarem em ambientes diferentes (sistema operacional e hardware), o que é altamente desejável. A reusabilidade, ou seja, o quanto um código pode ser reutilizado em outros programas ou sistemas aumenta o nível de produtividade da linguagem. Além da facilidade de aprendizado, que é fortemente afetada pela legibilidade e facilidade de escrita.</blockquote>
+
+## Agrupamento por paradigmas
+O **agrupamento por paradigmas** é outra forma de classificar as linguagens de programação. Um paradigma agrupa linguagens com características semelhantes que surgiram em uma mesma época.
+
+A imagem a seguir ilustra os **cinco paradigmas** nos quais as linguagens de programação são classificadas. Esses paradigmas são agrupados em **Imperativos** e **Declarativos**, de acordo com a forma com que os programas são estruturados e descritos.
+
+![img_07](https://user-images.githubusercontent.com/61624336/132958354-b72162bf-4ede-40b0-86a7-0d14429cdaeb.jpg)
+
+## PARADIGMA IMPERATIVO
+O **paradigma imperativo** agrega três paradigmas: **estruturado**, **orientado a objeto** e **concorrente**, os quais possuem em comum o fato de especificarem passo a passo o que deve ser feito para a solução do problema. As **linguagens do paradigma imperativo** são dependentes da arquitetura do computador, pois especificam em seus programas como a computação é realizada.
+
+Vamos explicar as características de cada um dos paradigmas do **subgrupo Imperativo**.
+
+### Paradigma estruturado
+Caracteriza as principais linguagens de programação da década de 1970 e 1980 que seguiram os princípios da programação estruturada:
+
+1. Não usar desvios incondicionais (**Goto**, característico de linguagens como **BASIC** e versões iniciais do **COBOL**).
+2. Desenvolver programas por refinamentos sucessivos (metodologia top down), motivando o desenvolvimento de rotinas (procedimentos e funções) e a visão do programa partindo do geral para o particular, ou seja, o programa vai sendo refinado à medida que se conhece melhor o problema e seus detalhes.
+3. Desenvolver programas usando três tipos de estruturas: sequenciais, condicionais e repetição.
+4. Visando eficiência, o paradigma estruturado baseia-se nos princípios da arquitetura de Von Neumann, onde:
+  - Programas e dados residem, na memória (durante a execução).
+  - Instruções e dados trafegam da memória para CPU e vice-versa.
+  - Resultados das operações trafegam da CPU para a memória.
+
+As **linguagens Pascal** e **C** caracterizam bem esse paradigma. A **linguagem Python**, multiparadigma, tem o estilo básico do paradigma estruturado.
+
+### Paradigma orientado a objetos
+Com o crescimento do tamanho do código e complexidade dos programas, o paradigma estruturado começou a apresentar limitações nos sistemas que passaram a ter dificuldade de manutenção e reuso de programas e rotinas padronizadas.
+
+A orientação a objetos surge como solução a esses problemas, permitindo, através de propriedades como **abstração**, **encapsulamento**, **herança** e **polimorfismo**, **maior organização**, **reaproveitamento** e **extensibilidade de código** e, consequentemente, **programas mais fáceis** de serem escritos e mantidos.
+
+<blockquote>O principal foco desse paradigma foi possibilitar o desenvolvimento mais rápido e confiável.</blockquote>
+
+As **classes** são abstrações que definem uma estrutura que encapsula dados (chamados de **atributos**) e um conjunto de operações possíveis de serem usados, chamados **métodos**. Os **objetos** são instâncias das classes.
+
+<blockquote><b>Exemplo:</b> Por exemplo, a classe ALUNO encapsula um conjunto de dados que os identifiquem: matrícula, nome, endereço (rua, número, complemento, bairro, estado e CEP) e um conjunto de métodos: Incluir Aluno, Matricular Aluno, Cancelar Matrícula, dentre outros.</blockquote>
+
+O **paradigma orientado a objetos** (OOP - POO), por sua vez, usa os conceitos do paradigma estruturado na especificação dos comandos de métodos. Por isso, é considerado uma evolução do paradigma estruturado.
+
+<blockquote><b>Atenção:</b> Python, Smalltalk, C++, Java, Delphi (oriundo do Object Pascal) são linguagens que caracterizam o paradigma orientado a objetos. Python é orientado a objeto, pois tudo em Python é objeto, permitindo a declaração de classes encapsuladas, além de possibilitar herança e polimorfismo.</blockquote>
+
+### Paradigma concorrente
+Caracterizado quando processos executam simultaneamente e concorrem aos recursos de hardware (processadores, discos e outros periféricos), características cada vez mais usuais em sistemas de informação.
+
+O **paradigma concorrente** pode valer-se de apenas um processador ou vários.
+
+- **Processador**: Os processos concorrem ao uso do processador e recursos.
+- **Vários processadores**: Estamos caracterizando o paralelismo na medida em que podem executar em diferentes processadores (e de fato, ao mesmo tempo), os quais podem estar em uma mesma máquina ou distribuídos em mais de um computador. 
+
+<blockquote>Ada e Java são as linguagens que melhor caracterizam esse paradigma, possibilitando suporte à concorrência.</blockquote>
+
+<blockquote><b>Você sabia:</b> Ao contrário de Go, Python não foi originalmente projetada com foco em programação concorrente, muito menos paralela. O modo tradicional de programar concorrência em Python -- threads -- é limitado no interpretador padrão (CPython) por uma trava global (a GIL), que impede a execução paralela de threads escritas em Python. Isso significa que threads em Python são úteis apenas em aplicações I/O bound (Aplicações I/O bound são aquelas em que há predomínio de ações de entrada e saída de dados.) – em que o gargalo está no I/O (entrada e saída), como é o caso de aplicações na Internet.</blockquote>
+
+### PARADIGMA DECLARATIVO
+Diferentemente do paradigma imperativo, no **declarativo** o programador diz o que o programa deve fazer (qual a tarefa), ao invés de descrever como o programa deve fazer. O programador declara, de forma abstrata, a solução do problema.
+
+Essas linguagens não são dependentes de determinada arquitetura de computador. As variáveis são **incógnitas**, tal qual na Matemática e não células de memória.
+
+<blockquote>O paradigma declarativo agrega os paradigmas funcional e lógico.</blockquote>
+
+Vamos explicar as características de cada um.
+
+### Paradigma funcional
+Abrange linguagens que operam tão somente funções que recebem um conjunto de valores e retornam um valor. O resultado que a função retorna é a solução do problema (foca o processo de resolução de problemas).
+
+O programa resume-se em chamadas de **funções**, que por sua vez **podem usar outras funções**. Uma função pode invocar outra, ou o resultado de uma função pode ser argumento para outra função. Usa-se também chamadas **recursivas de funções**.
+
+Naturalmente, esse paradigma gera **programas menores** (pouco código).
+
+<blockquote>Linguagens típicas desse paradigma são: LISP, HASKELL e ML.</blockquote>
+
+**LISP** é a **LP funcional** mais usada, especialmente em programas que usem os conceitos de Inteligência Artificial (sistemas especialistas, processamento de linguagem natural e representação do conhecimento), devido à facilidade de interpretação recursiva.
+
+Exemplo: O código abaixo implementa em Python uma função que calcula quantos números inteiros existem de 0 a n.
+
+```python
+def conta_numeros(n):
+  p = 0
+  for num in range(n+1):
+    if num%2 == 0:
+     p += 1
+  return p
+```
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
