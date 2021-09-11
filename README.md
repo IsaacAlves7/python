@@ -507,7 +507,38 @@ Abaixo, alguns recursos das linguagens que exercem efeito sobre a confiabilidade
 ### VERIFICAÇÃO DE TIPOS
 Significa **verificar**, em tempo de **compilação** ou **execução**, se existem erros de tipo. Por exemplo, atribuir um valor booleano a uma variável do tipo inteira, vai resultar em erro. As linguagens fortemente tipadas, em tempo de compilação, como **Python** e **Java**, tendem a ser mais confiáveis, pois apenas valores restritos aos tipos de dados declarados poderão ser atribuídos e diminuem os erros em tempo de execução. Linguagens, como **C**, em que não é verificado se o tipo de dado do argumento é compatível com o parâmetro, em tempo de compilação, podem gerar erros durante a execução, afetando a confiabilidade. A verificação de tipos em tempo de compilação é desejável, já em tempo de execução é dispendiosa (mais lenta e requer mais memória), e mais flexível (menos tipada).
 
+### TRATAMENTO DE EXCEÇÃO
+O **tratamento de exceção** em uma linguagem de programação garante a correta execução, aumentando a confiabilidade. As linguagens **Python**, **C++** e **Java** possuem boa capacidade de tratar exceções, ao contrário da **linguagem C**. A linguagem deve permitir a identificação de eventos indesejáveis (estouro de memória, busca de elemento inexistente, overflow etc.) e especificar respostas adequadas a cada evento. O **comportamento do programa** torna-se previsível com a possibilidade de tratamento das exceções, o que tende a aumentar a confiabilidade do código escrito na linguagem de programação.
 
+### ALIASING (APELIDOS)
+**Aliasing** é o fato de ter dois ou mais nomes, referenciando a mesma célula de memória, o que é um recurso perigoso e afeta a confiabilidade. Restringir Aliasing é prover confiabilidade aos programas.
+
+### LEGIBILIDADE E FACILIDADE DE ESCRITA
+Ambos influenciam a confiabilidade. A **legibilidade** afeta tanto na fase de codificação como na fase de manutenção. Programas de difícil leitura são difíceis de serem escritos também.
+
+Uma linguagem com boa legibilidade e facilidade de escrita gera códigos claros, que tendem a aumentar a confiabilidade.
+
+## Custo
+O **custo** de uma linguagem de programação varia em função das seguintes despesas: de **treinamento**, de **escrita do programa**, do **compilador**, de **execução do programa**, de **implementação da linguagem** e o de **manutenção do código**.
+
+<table>
+  <tr>
+    <td><b>Custo de</b></td>
+    <td><b>Características</b></td>
+  </tr>
+   <tr>
+    <td>Treinamento</td>
+    <td>Custo de Treinamento para programadores varia em função da expertise do programador, simplicidade e ortogonalidade da linguagem; F (simplicidade de escrita, ortogonalidade, experiência do programador).</td>
+  </tr>
+  <tr>
+    <td>Escrever programa</td>
+    <td>Custo para escrever programas na linguagem varia em função da facilidade de escrita. F(Facilidade de escrita).</td>
+  </tr>
+  <tr>
+    <td>Compilar o programa</td>
+    <td>Esse custo varia em função do custo de aquisição do compilador, hoje minimizado, em linguagens open source, como é o caso do Python. F (custo de aquisição do compilador).</td>
+  </tr>
+</table>
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
