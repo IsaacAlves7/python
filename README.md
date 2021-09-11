@@ -331,13 +331,102 @@ As principais (não todas) linguagens que apoiam o desenvolvimento de apps para 
 - iOS: Swift (oficial da Apple) e Objective-C (código nativo para iOS).
 - Windows: C#, Visual Basic (VB), C++, HTML, CSS, JavaScript e Java.
 
-O desenvolvimento de APP para iOS é baseado numa IDE chamada Xcode que permite o desenvolvimento de APP em várias linguagens, como: C, C++, Java e Python, mas oficialmente orienta o Swift e Objective-C.
+O desenvolvimento de APP para iOS é baseado numa IDE chamada **Xcode** que permite o desenvolvimento de APP em várias linguagens, como: **C**, **C++**, **Java** e **Python**, mas oficialmente orienta o **Swift** e **Objective-C**.
 
-A Google, por sua vez, tem por base o Android SDK, orienta a usar as linguagens Kotlin, Java e C++, mas as linguagens Python, Shell script, Basic4Android, LiveCode (para iOS e Windows também), App Inventor (não necessita conhecer programação) e Unity (motor para games) e GO, também são usadas para desenvolver app para Android.
+A **Google**, por sua vez, tem por base o **Android SDK**, orienta a usar as linguagens **Kotlin**, **Java** e **C++**, mas as linguagens **Python**, **Shell script**, **Basic4Android**, **LiveCode** (para **iOS** e **Windows** também), **App Inventor** (não necessita conhecer programação) e **Unity** (motor para games) e **GO**, também são usadas para desenvolver app para Android.
 
-No contexto de desenvolvimento de APP para Windows, foi lançado no Windows 8.1 e atualizado para atender também ao Windows 10, o App Studio, que permite a qualquer pessoa criar em poucos passos um app Windows e publicá-lo na loja.
+No contexto de desenvolvimento de APP para Windows, foi lançado no Windows 8.1 e atualizado para atender também ao Windows 10, o **App Studio**, que permite a qualquer pessoa criar em poucos passos um app Windows e publicá-lo na loja.
 
 Importante destacar que hoje existem plataformas de desenvolvimento mobile conectadas a nuvem que fomentam o desenvolvimento de apps nativos para iOS, Android e Windows.
+
+## AVALIAÇÃO DE LINGUAGENS DE PROGRAMAÇÃO
+Segundo **Sebesta** (2018) são **quatro grandes critérios** para avaliação das linguagens de programação, dentro de um mesmo domínio de programação. Cada critério é influenciado por _algumas características_ da linguagem.
+
+### Legibilidade
+Um dos critérios mais relevantes é a “facilidade com que os programas podem ser lidos e entendidos” pelas pessoas que não necessariamente participaram do desenvolvimento.
+
+### Facilidade de escrita
+O quão facilmente uma linguagem pode ser usada para desenvolver programas para o domínio do problema escolhido.
+
+### Confiabilidade
+Um programa é dito confiável se ele se comporta conforme a sua especificação, repetidas vezes.
+
+### Custo
+O custo final de uma linguagem de programação é em função de muitas de suas propriedades e características.
+
+A tabela a seguir exibe as características da linguagem que influenciam cada um dos três principais fatores de avaliação de linguagens.
+
+<table>
+  <tr>
+    <td><b align="center">Critérios</b></td>
+  </tr>
+  <tr>
+    <td><b>Características</b></td>
+    <td>Legibilidade</td>
+    <td>Facilidade escrita</td>
+    <td>Confiabilidade</td>
+  </tr>
+  <tr>
+    <td>Simplicidade</td>
+    <td>xxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Ortogonalidade</td>
+    <td>xxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Estruturas de controle</td>
+    <td>xxxxxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Tipos de dados</td>
+    <td>xxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Projeto de sintaxe</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Suporte para abstração</td>
+    <td>&nbsp;</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Expressividade</td>
+    <td>&nbsp;</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Verificação de tipos</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Tratamento de exceções</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+  </tr>
+  <tr>
+    <td>Aliasing</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>xxxxxxxxxxxxxxxxxx</td>
+  </tr>
+</table>
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
