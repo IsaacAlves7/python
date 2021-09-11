@@ -426,13 +426,91 @@ A tabela a seguir exibe as características da linguagem que influenciam cada um
     <td>&nbsp;</td>
     <td>xxxxxxxxxxxxxxxxxx</td>
   </tr>
-  <tr>
-    <td>Características x Critérios de Avaliação de LPs</td>
-  </tr>
 </table>
 
+<p>Características x Critérios de Avaliação de LPs</p>
+
+## Legibilidade
+Um dos critérios mais relevantes para avaliar uma linguagem de programação diz respeito à capacidade com que os programas podem ser lidos e entendidos pela sintaxe e construção da linguagem, sem considerar as possíveis influências da má programação.
+
+As características que influenciam a legibilidade de uma linguagem de programação são:
+
+### SIMPLICIDADE
+Quanto mais simples for uma linguagem, melhor será a legibilidade do código por ela produzido. Uma linguagem com número elevado de construções básicas é mais difícil de ser aprendida do que uma que tenha poucas. Tende a ser subutilizada.
+
+Uma segunda característica que afeta negativamente a legibilidade é a multiplicidade de recursos. Por exemplo, em Python, o programador pode incrementar uma variável, de duas formas distintas:
+
+- `cont = cont + 1`
+- `cont += 1`
+
+Nas linguagens **C** e **Java**, ainda podemos usar para incrementar variáveis as seguintes estruturas: `++cont` e `cont++`.
+
+Muita simplicidade pode tornar menos legíveis os códigos escritos. Na linguagem **Assembly**, a maioria das sentenças são simples, porém não são altamente legíveis devido à ausência de estruturas de controle.
+
+Uma terceira característica que afeta negativamente a legibilidade é a sobrecarga de operadores, como por exemplo o `+`, usado para somar **inteiros**, **reais**, **concatenar cadeias de caracteres** (strings), somar **vetores** (Arrays), dentre outras construções permitidas pela linguagem.
+
+### ORTOGONALIDADE
+A **ortogonalidade** de uma linguagem refere-se a um conjunto relativamente pequeno de construções primitivas que pode ser combinado em um número, também, pequeno de maneiras para construir as estruturas de controle e de dados de uma linguagem de programação.
+
+Em outras palavras: possibilidade de combinar, entre si, sem restrições, as construções básicas da linguagem para construir estruturas de dados e de controle.
+
+- **Boa ortogonalidade**: Permitir, por exemplo, que haja um vetor, cujos elementos sejam do tipo registro (estrutura heterogênea).
+- **Má ortogonalidade**: Não permitir que um vetor seja passado como argumento para uma rotina (procedimento ou função). Ou que uma função não possa retornar um vetor.
+Uma linguagem ortogonal tende a ser mais fácil de aprender e tem menos exceções.
+
+A **falta de ortogonalidade** leva a muitas exceções às regras da linguagem e ao excesso, o contrário (menos exceções às regras). Menos exceções implicam um maior grau de regularidade no projeto da linguagem, tornando-a mais fácil de ler, entender e aprender.
+
+### INSTRUÇÕES DE CONTROLE
+Instruções como **Goto** (desvio incondicional) limitam a legibilidade dos programas, pois essa instrução pode levar o controle do código a qualquer ponto do programa, limitando o entendimento e, consequentemente, a legibilidade do código escrito na linguagem. As **linguagens modernas** não implementam desvio incondicional, assim sendo, o projeto de estruturas de controle é menos relevante na legibilidade do que anos atrás, quando surgiram as primeiras linguagens de alto nível.
+
+### TIPOS E ESTRUTURAS DE DADOS
+A facilidade oferecida pela linguagem para definir **tipos** e **estruturas de dados** é outra propriedade que aumenta a legibilidade do código escrito. Por exemplo, uma linguagem que permita definir **registros** e **vetores**, mas não permite que um vetor tenha registros como seus elementos, terá a legibilidade afetada.
+
+A **linguagem C** não possui o tipo de dado _lógico_ ou _booleano_. Muitas vezes, usa-se variáveis inteiras, permitindo apenas que receba os valores `0` e `1` para conteúdo, simulando o tipo booleano. Por exemplo, para localizar um elemento em uma das posições de um vetor, usa-se uma variável lógica se a linguagem permitir e, assim, teríamos a instrução `achou=false` em determinado trecho de código. Em outra linguagem que não permita o tipo de dado lógico, a instrução poderia ser `achou=0`, em que achou seria uma variável inteira. Qual das duas sentenças é mais clara a quem lê o código? A primeira, não é? `achou=false`.
+
+### SINTAXE
+A **sintaxe** tem efeito sobre a legibilidade. Um exemplo é a **restrição do tamanho** (quantidade de caracteres) para um **identificador** (tipo, variável, constante, rotina – procedimento e função), impedindo que recebam nomes significativos sobre sua utilidade. Na linguagem **Fortran**, o nome do identificador pode ser até 6 caracteres.
+
+Outra propriedade de sintaxe que afeta a legibilidade é o uso de palavras reservadas da linguagem. Por exemplo, em **Pascal**, os blocos de instrução são iniciados e encerrados com `BEGIN-END`, respectivamente. A **linguagem C** usa chaves para _iniciar_ e _encerrar_ blocos de instruções. Já a **linguagem Python** usa a endentação obrigatória para marcar blocos de comandos, aumentando a legibilidade, naturalmente.
+
+## Facilidade de escrita (redigibilidade)
+A **facilidade de escrita** é a medida do quão fácil a linguagem permite criar programas para um domínio da aplicação.
+
+A maioria das características que afeta a legibilidade também afeta a **facilidade de escrita**, pois se a escrita do código não flui, haverá dificuldade para quem for ler o código.
+
+As características que influenciam na facilidade de escrita são:
+
+### SIMPLICIDADE E ORTOGONALIDADE
+Quanto mais simples e ortogonal for a linguagem, melhor sua facilidade para escrever programas. O ideal são linguagens com poucas construções primitivas.
+
+Imagina que uma linguagem de programação possui grande número de construções. Alguns programadores podem não usar todas, deixando de lado, eventualmente, as mais eficientes e elegantes.
+
+### EXPRESSIVIDADE
+Uma linguagem de programação com boa expressividade contribui para o aumento da facilidade de escrita dos códigos.
+
+- **Assembly**: Baixa expressividade.
+- **Pascal** e **C**, boa expressividade: Ricas estruturas de controle. Exemplo: o comando `FOR` mais adequado que `WHILE` e `REPEAT` para representar lações com número fixo de vezes. Da mesma forma que o **C**, em que o `FOR` é mais indicado que o `WHILE` e `DO-WHILE`. Na **linguagem Python**, ocorre o mesmo entre os comandos `FOR` e `WHILE`.
+- Na **linguagem C**, temos construções diversas para incremento de variável: `i++` é mais simples e conveniente de usar do que `i=i+1`, sendo `i`, uma **variável inteira**.
+Uma linguagem expressiva possibilita escrever linhas de código de uma forma mais conveniente ao invés de deselegante.
+
+### SUPORTE PARA A ABSTRAÇÃO
+O **grau de abstração** em uma linguagem é uma propriedade fundamental para aumentar a facilidade de escrita. Abstração pode ser de:
+
+- **Processos**, como o conceito de subprograma.
+- **Dados**, como uma árvore ou lista simplesmente encadeada.
+
+## Confiabilidade
+Dizemos que um programa é **confiável** se ele se comportar conforme sua especificação, sob todas as condições, todas as vezes em que for executado.
+
+Abaixo, alguns recursos das linguagens que exercem efeito sobre a confiabilidade de programas.
+
+### VERIFICAÇÃO DE TIPOS
+Significa **verificar**, em tempo de **compilação** ou **execução**, se existem erros de tipo. Por exemplo, atribuir um valor booleano a uma variável do tipo inteira, vai resultar em erro. As linguagens fortemente tipadas, em tempo de compilação, como **Python** e **Java**, tendem a ser mais confiáveis, pois apenas valores restritos aos tipos de dados declarados poderão ser atribuídos e diminuem os erros em tempo de execução. Linguagens, como **C**, em que não é verificado se o tipo de dado do argumento é compatível com o parâmetro, em tempo de compilação, podem gerar erros durante a execução, afetando a confiabilidade. A verificação de tipos em tempo de compilação é desejável, já em tempo de execução é dispendiosa (mais lenta e requer mais memória), e mais flexível (menos tipada).
+
+
+
 # 🐍 The History of Python language 🐍
-<div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
+<div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
 A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
 
@@ -443,6 +521,8 @@ A linguagem Python foi escolhida como instrumento para o desenvolvimento desta d
 - Boa facilidade de escrita;
 - Produtividade e confiabilidade.
 - Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
+
+<div align="center"><img height="127" src="https://fanart.tv/fanart/tv/75853/hdtvlogo/monty-pythons-flying-circus-5176132ff29d3.png"/></div><br \>
 
 <p>Surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a>, em Amsterdã, na Holanda. A origem do nome foi inspirado na comédia inglesa "<i>Monty Python and the Flying Circus</i>", na década de 1970.
 
