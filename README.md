@@ -426,6 +426,9 @@ A tabela a seguir exibe as características da linguagem que influenciam cada um
     <td>&nbsp;</td>
     <td>xxxxxxxxxxxxxxxxxx</td>
   </tr>
+  <tr>
+    <td>Características x Critérios de Avaliação de LPs</td>
+  </tr>
 </table>
 
 # 🐍 The History of Python language 🐍
