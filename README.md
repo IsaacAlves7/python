@@ -786,6 +786,20 @@ Dentre as principais características do interpretador, podemos citar:
 | Tradutores |	1. Execução mais rápida 2. Permite estruturas de programas mais complexas. 3. Permite a otimização de código. | 1. Várias etapas de conversão. 2. Programação final é maior, necessitando de mais memória para sua execução. 3. Processo de correção de erros e depuração é mais demorado. |
 | Interpretadores | 1. Depuração mais simples. 2. Consome menos memória. 3. Resultado imediato do programa (ou parte dele). | 1. Execução do programa é mais lenta. 2. Estruturas de dados demasiado simples. 3. Necessário fornecer o código fonte ao utilizador. |
 
+## SISTEMAS HÍBRIDOS
+O **processo híbrido** de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
+
+Esse código intermediário não é específico para uma plataforma, possibilitando aos programas já compilados para esse código serem portados em diferentes plataformas, sem alterar e nem fazer nada. Para cada plataforma desejada devemos ter um interpretador desse código.
+
+<blockquote>Duas importantes linguagens implementaram essa solução, com diferentes formas usando máquinas virtuais: <b>Python</b> e <b>Java</b>.</blockquote>
+
+### Sistema de implementação de Python
+**Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
+
+<div align="center"><img src="https://www.jython.org/assets/jython.png" height="177"></div><br \>
+
+<blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
+
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
