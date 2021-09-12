@@ -745,6 +745,15 @@ As principais características dos compiladores são:
 <li>O programa-objeto gerado é dependente de plataforma — processador + SO (Sistema Operacional) — necessitando de um compilador diferente para cada família de processadores/sistema operacional.</li>
 </blockquote>
 
+### INTERPRETAÇÃO
+A imagem abaixo ilustra o simples processo de Interpretação:
+
+![img_10](https://user-images.githubusercontent.com/61624336/132999762-bec5a648-a708-4b4e-8fcd-e03c71c36627.jpg)
+
+Na conversão por interpretação, cada comando do programa-fonte é traduzido e executado (um a um) imediatamente. O interpretador traduz um comando de cada vez e chama uma rotina para completar a sua execução.
+
+O interpretador é um programa que executa repetidamente a seguinte sequência:
+
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
