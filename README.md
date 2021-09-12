@@ -645,6 +645,24 @@ def conta_numeros(n):
   return p
 ```
 
+Abaixo, o mesmo código usando o conceito de função recursiva. Repare que a função de nome conta_numeros chama ela mesma em seu código (isso é a recursão).
+
+```python
+def conta_numeros(n):
+    if n == 0: return 1 # 0 é par
+    elif n%2 == 0: return 1 + conta_numeros(n-1)
+    else: return conta_numeros(n-1)
+```
+**Atenção:** Python não é uma linguagem funcional nativa, seria exagerado afirmar isso, porém sofreu influência desse paradigma ao permitir: **recursividade**, **uso de funções anônimas**, com a **função lambda**, dentre outros recursos, além, claro, de ser uma linguagem com enorme biblioteca de funções.
+
+### Paradigma lógico
+Um **programa lógico** expressa a solução da maneira como o ser humano raciocina sobre o problema: **baseado em fatos**, derivam-se **conclusões** e **novos fatos**.
+
+Quando um novo questionamento é feito, através de um mecanismo inteligente de inferência, deduz novos fatos a partir dos existentes.
+
+<blockquote>A execução dos programas escritos em linguagens de programação lógica segue, portanto, um mecanismo de dedução automática (máquina de inferência), sendo Prolog a linguagem do paradigma lógico mais conhecida.</blockquote>
+
+
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
