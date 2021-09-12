@@ -796,7 +796,7 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 ### Sistema de implementação de Python
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
-<div align="center"><img src="https://www.jython.org/assets/jython.png" height="177"></div><br \>
+<div align="center"><a href="https://www.jython.org/"><img src="https://www.jython.org/assets/jython.png" height="177"></a></div><br \>
 
 <blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
 
