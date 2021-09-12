@@ -725,9 +725,25 @@ Na imagem a seguir, o **código intermediário** está representado no último q
 
 ![img_09](https://user-images.githubusercontent.com/61624336/132999241-63d067b4-dded-4b83-ac9e-1b19f779be70.jpg)
 
+- O otimizador tem por objetivo eliminar redundâncias do código intermediário e tornar o objeto mais enxuto e eficiente.
 
+### TRATADOR DE ERROS
+Em todas as fases existem erros: **léxicos**, **sintáticos** e **semânticos**. Um bom compilador apresenta uma boa tratativa de erros.
 
+### GERENCIADOR DA TABELA DE SÍMBOLOS
+Mantém a tabela de símbolos atualizada a cada passo do compilador.
 
+<blockquote>
+  <b>Atenção:</b>
+As principais características dos compiladores são:
+
+  <li>Gerar código-objeto mais otimizado.</li>
+  <li>Execução mais rápida que o processo de interpretação.</li>
+  <li>Traduz um mesmo comando apenas uma vez, mesmo que usado em várias partes do programa – tanto iterações como repetição de código.</li>
+  <li>Processo de correção de erros e depuração é mais demorado.</li>
+  <li>A programação final (código-objeto) é maior.</li>
+<li>O programa-objeto gerado é dependente de plataforma — processador + SO (Sistema Operacional) — necessitando de um compilador diferente para cada família de processadores/sistema operacional.</li>
+</blockquote>
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
