@@ -703,6 +703,30 @@ A imagem abaixo ilustra os componentes envolvidos na compilação de um programa
 
 ![img_29](https://user-images.githubusercontent.com/61624336/132996706-1aed9b24-f959-4421-9152-c7166da73bc6.jpg)
 
+Abaixo, vamos entender cada fase da compilação:
+
+### ANÁLISE LÉXICA
+Identifica os **tokens** (elementos da linguagem), desconsidera partes do código-fonte, como espaços em branco e comentários e gera a Tabela de símbolos, com todos esses tokens, que são identificadores de variáveis, de procedimentos, de funções, comandos, expressões etc.
+
+### ANÁLISE SINTÁTICA
+Verifica se os tokens são estruturas sintáticas (exemplos: expressões e comandos) válidas, aplicando as regras gramaticais definidas no projeto da linguagem.
+
+### ANÁLISE SEMÂNTICA
+Verifica se as estruturas sintáticas possuem sentido. Por exemplo, verifica se um identificador de variável ou constante é usado adequadamente, se operandos e operadores são compatíveis. Monta a árvore de derivação conforme ilustrado abaixo para formação das expressões.
+
+![img_08](https://user-images.githubusercontent.com/61624336/132999136-811e1b2d-097c-4d6a-b5bb-f19d69a0e45b.jpg)
+
+### GERADOR DE CÓDIGO INTERMEDIÁRIO, OTIMIZADOR DE CÓDIGO E GERADOR DE CÓDIGO
+Em distintas fases geram o **programa-alvo** ou **programa-objeto**.
+
+- Gerador de código intermediário, que contém toda a informação para gerar o código-objeto.
+
+Na imagem a seguir, o **código intermediário** está representado no último quadro – código em Assembly:
+
+![img_09](https://user-images.githubusercontent.com/61624336/132999241-63d067b4-dded-4b83-ac9e-1b19f779be70.jpg)
+
+
+
 
 
 # 🐍 The History of Python language 🐍
