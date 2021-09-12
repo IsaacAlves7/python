@@ -673,6 +673,37 @@ Todo programa, a menos que seja escrito em linguagem de máquina, o que hoje em 
 
 Esse programa, que fará a tradução do código-fonte em linguagem de máquina, é que vai determinar como os programas são implementados e como vão executar.</blockquote>
 
+Existem duas formas de realizar essa conversão: **tradução** e **interpretação**. É fundamental que se saiba e se entenda qual o processo de conversão usado na respectiva linguagem de programação.
+
+## TRADUÇÃO
+Nesse processo de _conversão_, o programa escrito em uma linguagem de alto nível é traduzido para uma versão equivalente em linguagens de máquina, antes de ser executado. O processo de tradução pode ser executado em várias fases, que podem ser combinadas e executadas em simultaneidade. O **processo de tradução** é erroneamente chamado de **compilação**, que na verdade é uma de suas fases.
+
+As fases que compõem o tradutor, ou seja, iniciando na leitura do **programa-fonte** (linguagem de alto nível) e terminando com a geração do código executável (entendido pela máquina), são: **Compilação**, **Montagem**, **Carga** e **Ligação**. A imagem abaixo ilustra o processo de tradução.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/132996547-664e672c-c757-4ffc-b434-ca4ccadc9403.png)
+
+### Compilador
+O **compilador** (detalhes adiante) analisa o código-fonte e estando tudo OK, o converte para um código **Assembly** (da máquina hospedeira).
+
+### Montador
+O **montador** traduz o código Assembly para o código de máquina intermediário (Código-objeto), que não é executável pelo computador. O código-objeto pode ser relocável, ou seja, carregado em qualquer posição de memória ou absoluto, carregado em um endereço de memória específico. A opção relocável é mais comum e mais vantajosa.
+
+### Ligador
+O **Ligador** liga (ou linka) o código-objeto relocável com as rotinas bibliotecas (outros objetos, rotinas do SO, DLLs etc.), usadas nos códigos-fontes. Essa ligação gera o código executável.
+
+### Carregador
+O **carregador** é que torna o código-objeto em relocável.
+
+## Compilador
+É o elemento central do processo de tradução, responsável pelo custo de compilação, visto no modulo anterior. Em função dessa relevância, muitas vezes o processo como um todo é erroneamente chamado de **compilação**, uma vez que o ambiente integrado das linguagens atuais já integra **todos os componentes** (montador, compilador, carregador e ligador) quando necessário.
+
+O projeto da linguagem tem no compilador a sua figura central.
+
+A imagem abaixo ilustra os componentes envolvidos na compilação de um programa fonte:
+
+![img_29](https://user-images.githubusercontent.com/61624336/132996706-1aed9b24-f959-4421-9152-c7166da73bc6.jpg)
+
+
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
