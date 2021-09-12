@@ -754,6 +754,38 @@ Na conversão por interpretação, cada comando do programa-fonte é traduzido e
 
 O interpretador é um programa que executa repetidamente a seguinte sequência:
 
+<pre>1 - Obter a próxima instrução do código-fonte. >> 2 - Interpretar a instrução (conversão para comandos em linguagem de máquina). >> 3 - Executar a instrução.</pre>
+
+Perceba que o procedimento, acima descrito, é bastante similar àquele executado por computadores que implementam a máquina de Von Neumann, na execução de uma instrução, conforme a seguir:
+
+- Obter a próxima instrução.
+- CI → endereço da próxima instrução. CI = contador de instruções.
+- RI → instrução a ser executada. RI = registrador de instruções.
+- Decodificar a instrução.
+- Executar a instrução.
+
+### PRINCIPAIS CARACTERÍSTICAS DO INTERPRETADOR
+Dentre as principais características do interpretador, podemos citar:
+
+- Atua a cada vez que o programa precisa ser executado.
+- Não produz programa-objeto persistente.
+- Não traduz instruções que nunca são executadas.
+- O resultado da conversão é instantâneo: resultado da execução do comando ou exibição de erro – interpretador puro.
+- Útil ao processo de depuração de código devido a mensagens de erros em tempo de execução (tanto análise sintática como semântica).
+- Execução mais lenta do que outros processos de tradução (compilação), pois toda vez que o mesmo programa é executado, os mesmos passos de interpretação são executados.
+- Consome menos memória.
+- O Código-fonte é portátil.
+  - Não é gerado um código de máquina.
+  - Pode executar o comando em alto nível diretamente ou gerar um código intermediário, que neste caso é interpretado por uma máquina virtual (VM). – Interpretador híbrido.
+  - Se a máquina virtual foi desenvolvida para diferentes plataformas, temos a portabilidade do código-fonte. Este é o caso da linguagem Java.
+
+## Tradução x interpretação
+
+|            | Vantagens | Desvantagens |
+| ---------- | --------- | ------------ |
+| Tradutores |	1. Execução mais rápida 2. Permite estruturas de programas mais complexas. 3. Permite a otimização de código. | 1. Várias etapas de conversão. 2. Programação final é maior, necessitando de mais memória para sua execução. 3. Processo de correção de erros e depuração é mais demorado. |
+| Interpretadores | 1. Depuração mais simples. 2. Consome menos memória. 3. Resultado imediato do programa (ou parte dele). | 1. Execução do programa é mais lenta. 2. Estruturas de dados demasiado simples. 3. Necessário fornecer o código fonte ao utilizador. |
+
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
 
