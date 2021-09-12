@@ -662,6 +662,17 @@ Quando um novo questionamento é feito, através de um mecanismo inteligente de 
 
 <blockquote>A execução dos programas escritos em linguagens de programação lógica segue, portanto, um mecanismo de dedução automática (máquina de inferência), sendo Prolog a linguagem do paradigma lógico mais conhecida.</blockquote>
 
+O **paradigma lógico** é usado no desenvolvimento de linguagens de **acesso a banco de dados**, **sistemas especialistas** (IA), **tutores inteligentes** etc.
+
+Python não tem características para implementar programas que atendam ao paradigma lógico.
+
+## Métodos de implementação das linguagens
+Todo programa, a menos que seja escrito em linguagem de máquina, o que hoje em dia está totalmente fora dos propósitos, precisará ser convertido para linguagem de máquina antes de ser executado.
+
+<blockquote>Essa conversão precisa de um programa que receba o código-fonte escrito na linguagem e gere o respectivo código em linguagem de máquina.
+
+Esse programa, que fará a tradução do código-fonte em linguagem de máquina, é que vai determinar como os programas são implementados e como vão executar.</blockquote>
+
 
 # 🐍 The History of Python language 🐍
 <div align="center"><img height="127" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="127"></div><br \>
