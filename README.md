@@ -897,4 +897,19 @@ No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETU
 
 O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários **dir** e **help** podem ser úteis.
 
-##
+## BLOCOS
+Em **Python**, os **blocos** são definidos pela **indentação**. Diferente de **C** e **Java**, que usam as chaves `{` e `}` para delimitar os blocos, em Python todos os blocos são iniciados com o símbolo `:` (dois pontos) na linha superior e representados pelo acréscimo de 4 (quatro) espaços à esquerda. Sem se preocupar por enquanto com o significado das expressões `for`, `if`, `else` ou `range`, observe abaixo:
+
+~~~python
+a = 0
+for i in range(30):
+    if a%2 == 0:
+    a += 1
+    continue
+else:
+    if a % 5 == 0:
+        break
+    else:
+        a += 3
+print(a)
+~~~
