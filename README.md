@@ -875,6 +875,13 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 ### UTILITÁRIOS E MÓDULOS
 Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
 
+![figura02](https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png)
+
+Não se preocupe ainda com o conceito de variável, nem com o seu tipo. Veremos tudo isso com detalhes nos próximos módulos deste tema.
+
+O utilitário **dir** apresenta todos os atributos e métodos disponíveis para determinado tipo de dado. No prompt interativo `>>>`, digite dir(x) e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
+
+
 ## Principais áreas de atuação com a linguagem Python
 <li>IA-Inteligência Artificial</li>
 <li>IoT-Internet das Coisas</li>
