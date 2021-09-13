@@ -931,3 +931,11 @@ Mostra outro if abrindo outro bloco – composto apenas pela linha 8 – que est
 
 **Linha 11**
 Como a linha 11 está no mesmo nível da linha 2, ela não faz parte do bloco do for.
+
+## COMENTÁRIOS
+Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas**. A tabela 1 mostra as formas de limitar um comentário, além de comparar essas formas em **Python** e **C**.
+
+|            | Python | C |
+| ---------- | --------- | ------------ |
+| Comentários de 1 linha |	Iniciados com `#` | Iniciados com `//` |
+| Comentários de várias linhas | Limitados por `“””` (três aspas duplas) no início e no fim	 | Iniciados com `/*` e encerrados com `*/` |
