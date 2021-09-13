@@ -881,6 +881,10 @@ Não se preocupe ainda com o conceito de variável, nem com o seu tipo. Veremos 
 
 O utilitário **dir** apresenta todos os atributos e métodos disponíveis para determinado tipo de dado. No prompt interativo `>>>`, digite dir(x) e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
 
+No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
+
+![figura03](https://user-images.githubusercontent.com/61624336/133014701-4115d1d5-dac0-4260-81cf-6df3e3723127.png)
+
 
 ## Principais áreas de atuação com a linguagem Python
 <li>IA-Inteligência Artificial</li>
