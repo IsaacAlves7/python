@@ -939,3 +939,15 @@ Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas
 | ---------- | --------- | ------------ |
 | Comentários de 1 linha |	Iniciados com `#` | Iniciados com `//` |
 | Comentários de várias linhas | Limitados por `“””` (três aspas duplas) no início e no fim	 | Iniciados com `/*` e encerrados com `*/` |
+
+<blockquote><b>ATENÇÃO:</b> É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.</blockquote>
+
+## BOAS PRÁTICAS DE PROGRAMAÇÃO
+Ao começar sua jornada como programador, é importante perceber que existem algumas práticas que não são obrigatórias, mas podem ajudar muito no seu aprendizado. Além disso, podem permitir que você corrija mais rapidamente erros que podem surgir no futuro e tornam seu código mais fácil de ser compreendido por outro programador, favorecendo o trabalho em equipe. Vamos conhecer algumas delas:
+
+- Uma prática muito importante é utilizar comentários no seu programa, explicando o que aquele trecho resolve.
+
+- Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas **PEP** (Python Enhancement Proposals). Dentre as PEPs, destaca-se a **PEP8**, que estabelece um guia de estilo de programação.
+
+## Variáveis em Python
+As **variáveis** são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o identificador x, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, recuperar o valor guardado nele, que no nosso exemplo é 10.
