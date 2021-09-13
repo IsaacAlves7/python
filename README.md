@@ -913,3 +913,21 @@ else:
         a += 3
 print(a)
 ~~~
+
+**Linha 1**
+Está mais à esquerda, assim como as linhas 2 e 11.
+
+**Linha 2**
+Todas as linhas de 3 a 10 estão dentro do bloco do for da linha 2.
+
+**Linha 3**
+Observe que a linha 3 tem um if abrindo um bloco, dentro do qual estão as linhas 4 e 5.
+
+**Linha 6**
+Por sua vez, a linha 6 tem um else abrindo outro bloco, composto pelas linhas de 7 a 10. Os blocos do if (linha 3) e do else (linha 6) estão no mesmo nível.
+
+**Linha 7**
+Mostra outro if abrindo outro bloco – composto apenas pela linha 8 – que está no mesmo nível do bloco do else da linha 9 – composto apenas pela linha 10.
+
+**Linha 11**
+Como a linha 11 está no mesmo nível da linha 2, ela não faz parte do bloco do for.
