@@ -1095,11 +1095,6 @@ Em Python, não existe o conceito de constante (Arrays). Se você precisar de um
 
 É importante ficar atento ao uso correto das variáveis, especialmente observando as questões de **escopo** e **visibilidade**, para evitar que algum cálculo seja realizado corretamente, mas com resultado diferente do esperado por você ao programar.
 
-## Os tipos de dados e as expressões em Python
-Você será apresentado aos **tipos padrão incorporados** ao **interpretador** Python. Os principais tipos internos são **numéricos**, **sequenciais** e **dicionários**. **Classes**, **instâncias** e **exceções** também são _tipos padrão_, mas não entraremos em detalhes neste tema. Para ter nosso primeiro contato com expressões em Python, use o prompt interativo >>>.
-
-
-
 ~~~python
 def func():
     x = 1
@@ -1108,3 +1103,33 @@ x = 10
 func()
 print(x)
 ~~~
+
+## Os tipos de dados e as expressões em Python
+Você será apresentado aos **tipos padrão incorporados** ao **interpretador** Python. Os principais tipos internos são **numéricos**, **sequenciais** e **dicionários**. **Classes**, **instâncias** e **exceções** também são _tipos padrão_, mas não entraremos em detalhes neste tema. Para ter nosso primeiro contato com expressões em Python, use o prompt interativo `>>>`.
+
+Digite a expressão algébrica 5 + 8 e pressione a tecla [ENTER]. Observe o resultado na figura 16:
+
+![figura16](https://user-images.githubusercontent.com/61624336/133260245-e0d13a52-d5aa-4ec9-9b15-bd9fb3adeebe.png)
+
+O **Python Console** permite que você calcule expressões algébricas como uma **calculadora**, além de executar instruções básicas em Python.
+
+## TIPOS NUMÉRICOS
+Existem três tipos numéricos distintos em Python: **inteiros**, **números de ponto flutuante** e **números complexos**. Além disso, os **booleanos** são um subtipo dos inteiros.
+
+### O tipo int
+É o tipo usado para manipular números inteiros. Fazendo uma analogia com a Matemática, o tipo `int` é usado para elementos do conjunto dos inteiros (Z).
+
+Diferentemente de outras linguagens, como **C** ou **Java**, a **linguagem Python** não limita o tamanho de uma variável de qualquer tipo, logo, não existe um valor inteiro máximo definido. O limite depende da quantidade de memória disponível no computador. De volta ao Python Console, veja algumas coisas interessantes.
+
+Digite 1_000_000 e pressione a tecla [ENTER].
+
+![figura18](https://user-images.githubusercontent.com/61624336/133261203-da26e2ac-befa-4663-b3ef-fe783af0c10f.png)
+
+### O tipo float
+É o tipo usado para manipular números com parte inteira e parte decimal, chamados de **números de ponto flutuante**. Fazendo uma analogia com a Matemática, o tipo **float** é usado para elementos do conjunto dos reais (R).
+
+Para diferenciar um número real de um inteiro, é possível utilizar a parte decimal zerada. No prompt interativo `>>>`, digite `type(50.0)` e pressione a tecla [ENTER].
+
+![figura20](https://user-images.githubusercontent.com/61624336/133261779-8db1954f-6b83-46ee-8225-c817cf7fa619.png)
+
+<blockquote><b>Atenção:</b> Vale ressaltar que devemos usar o ponto para separar a parte inteira da parte decimal, e não a vírgula.</blockquote>
