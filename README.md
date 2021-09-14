@@ -1155,4 +1155,29 @@ Vamos analisar a **exponenciação**. Para realizar essa operação matemática,
 
 Veja que basta que a base seja `float` para que o resultado também o seja.
 
-<blockquote><b>Atenção:</b> Diferentemente de outras linguagens, como **C**, a divisão de dois números inteiros não necessariamente tem resultado inteiro.</blockquote>
+<blockquote><b>Atenção:</b> Diferentemente de outras linguagens, como <b>C</b>, a divisão de dois números inteiros não necessariamente tem resultado inteiro.</blockquote>
+
+Digite 5/2 e pressione [ENTER].
+
+![figura23](https://user-images.githubusercontent.com/61624336/133345150-22243f10-4ddc-4eb6-91a6-da2a3124c67e.png)
+
+Para obter o **quociente inteiro** e o **resto**, quando dois inteiros são _divididos_, é necessário utilizar os operadores `//` e `%`, respectivamente. Ao dividir `21` por `2`, temos quociente `10` e resto `1`. Observe a figura 24:
+
+![figura24](https://user-images.githubusercontent.com/61624336/133345395-26202e09-187f-41e7-a52f-01a43ac09d5a.png)
+
+### O tipo complex
+É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
+
+Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a parte real é `2` e a parte imaginária é `5`:
+
+![figura25](https://user-images.githubusercontent.com/61624336/133345607-c9e27b60-a39a-4aed-b81f-dba21be21db6.jpg)
+![figura26](https://user-images.githubusercontent.com/61624336/133345615-4ce970ef-c848-4f6c-a872-c2b27c4366f7.jpg)
+
+A chamada `r.conjugate()` retorna o conjugado do número complexo `r`, em que a _parte real_ é **mantida** e a _parte imaginária_ tem o seu **sinal trocado**.
+
+### O tipo bool
+Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar expressões não algébricas também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
+
+No prompt interativo `>>>`, digite a expressão `2 < 3` e pressione [ENTER]. Observe o resultado na figura 27:
+
+![figura27](https://user-images.githubusercontent.com/61624336/133345820-5c5ab274-4751-49d2-aed4-49b07c255fe3.png)
