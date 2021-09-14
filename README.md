@@ -976,3 +976,9 @@ Veja na figura 7 que a mensagem de erro informa que o nome `b` não foi definido
 
 ## IDENTIFICADORES DE VARIÁVEIS
 Os **identificadores das variáveis** podem ser compostos por **letras**, o **underline** (_) e, com **exceção** do primeiro caractere, números de `0` a `9`. Veja os exemplos:
+
+**minhaVariavel**, **_variavel**, **salario1** e **salario1_2** são válidos.
+
+**1variavel** e **salario-1** não são válidos.
+
+**minhaVariavel** e **minhavariavel** são identificadores de duas variáveis distintas.
