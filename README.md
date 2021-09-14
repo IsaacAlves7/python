@@ -1192,5 +1192,25 @@ Agora, vamos ver o operador `not`, que é um **operador unário**, ou seja, só 
 
 No prompt interativo `>>>`, digite a expressão `not(2 < 3)` e pressione [ENTER].
 
+![figura29](https://user-images.githubusercontent.com/61624336/133347017-7d5745e8-9436-4ef8-893c-456b624d6ed1.png)
 
+É possível também escrever **expressões booleanas** compostas, utilizando conectivos como `E` `OU`. Vamos ver mais detalhes sobre essas expressões ainda neste módulo.
 
+## Operadores numéricos
+
+### Operadores matemáticos
+Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo **Álgebra** e **Aritmética** na escola. Existem algumas pequenas diferenças, como a **divisão** (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
+
+<table>
+  <tr>
+    <td><b>Operação matemática</b></td>
+    <td><b>Símbolo usado</b></td>
+    <th><b>Exemplo</b></th>
+  </tr>
+  <tr>
+    <td><b>Operação matemática</b></td>
+    <td><b>Símbolo usado</b></td>
+    <th><b>Operação matemática</b></th>
+    <th><b>Símbolo usado</b></th>
+  </tr>
+</table>
