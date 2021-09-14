@@ -982,3 +982,74 @@ Os **identificadores das variáveis** podem ser compostos por **letras**, o **un
 **1variavel** e **salario-1** não são válidos.
 
 **minhaVariavel** e **minhavariavel** são identificadores de duas variáveis distintas.
+
+Mesmo que seja um identificador permitido, nem sempre um identificador é bom para uma variável. Tente utilizar nomes que ajudem a entender o significado da variável para ganhar tempo quando for entender o código posteriormente.
+
+<blockquote><b>Exemplo:</b> <b>salario</b> é um nome de variável melhor que <b>s</b>.</blockquote>
+
+Algumas palavras são consideradas reservadas e não podem ser usadas como identificadores de variáveis em Python. São elas: `and`, `as`, `assert`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`, `except`, `exec`, `finally`, `for`, `from`, `global`, `if`, `import`, `in`, `is`, `lambda`, `not`, `or`, `pass`, `print`, `raise`, `return`, `try`, `while`, `with` e `yield`.
+
+## AMARRAÇÕES (binding)
+Chamamos de **amarração** (binding) a **associação** entre entidades de programação. Veja alguns exemplos:
+
+`Variável amarrada a um valor` `Operador amarrado a um símbolo` `Identificador amarrado a um tipo`
+
+O tempo em que a amarração ocorre é chamado de **tempo de amarração**. Cada linguagem pode ter os seguintes tempos de amarração:
+
+### TEMPO DE PROJETO DA LINGUAGEM
+Os símbolos são amarrados ao operador, como `*` (multiplicação), ou à definição das palavras reservadas.
+
+### TEMPO DE IMPLEMENTAÇÃO
+Ocorre em geral nos **compiladores**, como a definição de faixa de valores para determinado tipo.
+
+### TEMPO DE COMPILAÇÃO
+Associação da variável ao seu tipo. Lembre-se de que Python associa a variável ao tipo, como foi explicado na seção anterior.
+
+### TEMPO DE LIGAÇÃO
+A ligação de vários módulos compilados previamente, como a chamada a uma função de um módulo importado. Em **C**, utilizamos a diretiva `#include` para termos permissão de utilizar as funções de determinada biblioteca. Em Python, utilizamos o `import` para isto.
+
+### TEMPO DE CARGA
+Quando o programa é carregado. Por exemplo: endereços de memória relativos são substituídos por **endereços absolutos**.
+
+### TEMPO DE EXECUÇÃO
+Associação de valores a variáveis que dependam de entradas do usuário, por exemplo. A variável é vinculada ao valor apenas durante a execução do programa.
+
+O momento em que ocorre a ligação pode ser classificado como **cedo** (early binding) ou **tardio** (late binding). Quanto mais cedo ocorre a ligação, maior a eficiência de execução do programa, porém menor a flexibilidade das estruturas disponibilizadas.
+
+### Amarração de tipo
+As **amarrações de tipo** vinculam a variável ao tipo do dado. Elas podem ser:
+
+#### Estáticas
+Ocorrem antes da execução e permanecem inalteradas. Em **C**, declaramos `int a`.
+
+#### Dinâmicas
+Ocorrem durante a execução e podem ser alteradas. É o caso do Python.
+
+Veja a figura 8:
+
+![figura08](https://user-images.githubusercontent.com/61624336/133185547-6fcf6f2f-7e4f-4213-b97e-7da196919c03.png)
+
+Perceba que a chamada **type** (parâmetro) retorna o tipo do parâmetro informado entre parênteses. Observe que a variável valor recebeu `10` e, com isso, ficou vinculada ao tipo `int`. Porém, ao receber o valor ‘a’, passou a estar vinculada ao tipo **str** (string).
+
+### ESCOPO DE VISIBILIDADE
+O escopo define em quais partes do programa uma variável é visível. Cada nome de variável em Python tem seu escopo e fora desse escopo o nome não existe, gerando um erro quando se tenta referenciar esse nome. Quanto ao escopo, chamamos as **variáveis de globais** ou **locais**.
+
+### Variáveis globais
+Todos os nomes atribuídos no prompt interativo ou em um módulo fora de qualquer função são considerados como de **escopo global**. Por exemplo, ao executar a instrução da figura 9, a variável `x` é uma variável global.
+
+![figura08](https://user-images.githubusercontent.com/61624336/133186462-e611ec00-cf05-4c65-aa08-39b01e6286a5.png)
+
+### Variáveis locais
+Para exemplificar o uso de variáveis com **escopo local**, vamos utilizar uma função definida pelo desenvolvedor. Não se preocupe com esse tipo de função por enquanto, você aprenderá mais detalhes posteriormente. Observe a figura 10:
+
+![figura10](https://user-images.githubusercontent.com/61624336/133186774-2723bffc-04d8-4ffa-ab3f-21ed1a386bb7.png)
+
+As linhas **2**, **3** e **4** compõem o bloco interno à função chamada `multiplicador()`. Embora as variáveis das linhas 2 e 7 tenham o mesmo nome, elas são abstrações a endereços de memória diferentes. Dentro da função `multiplicador()`, a chamada ao nome a recupera o valor 2. Fora da função `multiplicador()`, a chamada ao nome a recupera o valor 3. Veja a execução na figura 11:
+
+![figura11](https://user-images.githubusercontent.com/61624336/133186957-58a33e8a-35ae-4f47-9030-ccc9474b7c23.png)
+
+Agora, observe a função `multiplicador()` com uma pequena alteração, em que retiramos a inicialização da variável `a` dentro da função.
+
+![figura12](https://user-images.githubusercontent.com/61624336/133187100-b86a175a-d049-44d1-ba63-8e8745331dbf.png)
+
+Na linha 6, ao se chamar a função `multiplicador()`, a variável a será procurada. Como não existe uma variável `a` no bloco interno da função, ela é procurada como **variável global**. Uma vez encontrada, o valor recuperado é 3. Ao executar esse exemplo, você verá:
