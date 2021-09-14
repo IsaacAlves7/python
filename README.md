@@ -950,4 +950,29 @@ Ao começar sua jornada como programador, é importante perceber que existem alg
 - Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas **PEP** (Python Enhancement Proposals). Dentre as PEPs, destaca-se a **PEP8**, que estabelece um guia de estilo de programação.
 
 ## Variáveis em Python
-As **variáveis** são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o identificador x, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, recuperar o valor guardado nele, que no nosso exemplo é 10.
+As **variáveis** são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o identificador `x`, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, recuperar o valor guardado nele, que no nosso exemplo é `10`.
+
+Uma analogia possível com o mundo real é com aquelas caixas de correio que ficam em frente às casas.
+
+Em Python, o operador de atribuição é o `=` (símbolo de igual). A instrução `x = 10` atribui o valor `10` à variável `x`.
+
+No prompt interativo `>>>`, digite `x = 10` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Em seguida, digite `x` e pressione a tecla [ENTER] ou [RETURN].
+
+![figura05](https://user-images.githubusercontent.com/61624336/133180044-a4cebb34-ac4e-4924-99f8-0b3ae55f3486.png)
+
+<blockquote>Observe na figura 5 que o retorno do Python Console foi 10.</blockquote>
+
+Se, posteriormente, você utilizar novamente o prompt interativo `>>>` para digitar `x = 20` e pressionar a tecla [ENTER], você alterará o valor da variável `x`. Ou seja, você estará mudando o valor armazenado naquele espaço de memória, mas sem alterar seu apelido. Observe a figura 6:
+
+![figura06](https://user-images.githubusercontent.com/61624336/133180604-727c58f9-da21-4a86-b7f9-ab8996f82ab5.png)
+
+<blockquote><b>Atenção:</b> Diferentemente de outras linguagens, como C ou Java, não é necessário declarar uma variável antes de utilizá-la em Python. Basta atribuir um valor inicial à variável e utilizá-la dali em diante. Embora não seja necessário declarar uma variável para utilizá-la, não é possível utilizar uma variável que não tenha recebido alguma atribuição de valor.</blockquote>
+
+No prompt interativo, digite `b` e pressione a tecla [ENTER] ou [RETURN].
+
+![figura07](https://user-images.githubusercontent.com/61624336/133181027-cf576469-58c4-4e80-bf89-2800e8362f5b.png)
+
+Veja na figura 7 que a mensagem de erro informa que o nome `b` não foi definido. Ou seja, não é possível determinar o valor atribuído a esse nome.
+
+## IDENTIFICADORES DE VARIÁVEIS
+Os **identificadores das variáveis** podem ser compostos por **letras**, o **underline** (_) e, com **exceção** do primeiro caractere, números de `0` a `9`. Veja os exemplos:
