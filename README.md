@@ -1052,4 +1052,14 @@ Agora, observe a função `multiplicador()` com uma pequena alteração, em que 
 
 ![figura12](https://user-images.githubusercontent.com/61624336/133187100-b86a175a-d049-44d1-ba63-8e8745331dbf.png)
 
-Na linha 6, ao se chamar a função `multiplicador()`, a variável a será procurada. Como não existe uma variável `a` no bloco interno da função, ela é procurada como **variável global**. Uma vez encontrada, o valor recuperado é 3. Ao executar esse exemplo, você verá:
+Na linha 6, ao se chamar a função `multiplicador()`, a variável a será procurada. Como não existe uma variável `a` no bloco interno da função, ela é procurada como **variável global**. Uma vez encontrada, o valor recuperado é `3`. Ao executar esse exemplo, você verá:
+
+![figura11](https://user-images.githubusercontent.com/61624336/133187512-5ddcfd2c-6fca-4283-8ec5-fc85161a29ec.png)
+
+Usamos este exemplo para mostrar que o interpretador Python pode procurar o mesmo nome de variável em diferentes escopos. A ordem utilizada para a procura é:
+
+1. A chamada da função delimitadora
+
+2. Variáveis globais
+
+3. O módulo builtins
