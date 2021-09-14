@@ -1138,3 +1138,21 @@ Para diferenciar um número real de um inteiro, é possível utilizar a parte de
 ![figura20](https://user-images.githubusercontent.com/61624336/133261779-8db1954f-6b83-46ee-8225-c817cf7fa619.png)
 
 <blockquote><b>Atenção:</b> Vale ressaltar que devemos usar o ponto para separar a parte inteira da parte decimal, e não a vírgula.</blockquote>
+
+No prompt, digite **50.0** (com ponto) e pressione [ENTER]. Em seguida, digite **50,0** (com vírgula) e pressione a tecla [ENTER].
+
+![figura20](https://user-images.githubusercontent.com/61624336/133343981-0aef241f-35d8-46d9-a720-23fc508fef4a.png)
+
+Ao usar a vírgula como separador em Python, o que ocorre, na verdade, é a criação de uma tupla de dois elementos, e não o tipo _float_. Você verá mais detalhes sobre tuplas em um momento posterior.
+
+Embora os tipos _int_ e _float_ sejam semelhantes, por tratarem de números, eles têm propriedades um pouco diferentes. Em expressões algébricas, sempre que **somamos**, **subtraímos** ou **multiplicamos** apenas elementos do tipo `int`, o resultado é `int`. Porém, basta um operando do tipo `float` para que o resultado seja `float`. Observe a figura 21:
+
+![figura22](https://user-images.githubusercontent.com/61624336/133344221-6bdae2ec-517e-4a15-9f44-87f0711949e7.png)
+
+Vamos analisar a **exponenciação**. Para realizar essa operação matemática, utilizamos o operador `**`. Veja a figura 22:
+
+![figura22](https://user-images.githubusercontent.com/61624336/133344278-8c9d60f4-415e-4efc-adf4-bc1bb8569f49.png)
+
+Veja que basta que a base seja `float` para que o resultado também o seja.
+
+<blockquote><b>Atenção:</b> Diferentemente de outras linguagens, como **C**, a divisão de dois números inteiros não necessariamente tem resultado inteiro.</blockquote>
