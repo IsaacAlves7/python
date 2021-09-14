@@ -1063,3 +1063,18 @@ Usamos este exemplo para mostrar que o interpretador Python pode procurar o mesm
 2. Variáveis globais
 
 3. O módulo builtins
+
+Perceba que, se a variável `a` é inicializada na função `multiplicador()`, qualquer chamada a esse nome dentro da função resultará na referência a essa variável local. Mas seria possível alterar a variável `a` global com uma instrução dentro da função `multiplicador()`? Sim, utilizando-se a palavra **reservada global**. Veja como isso poderia ser feito na figura 14 e o seu resultado na figura 15:
+
+![figura14](https://user-images.githubusercontent.com/61624336/133187862-28eb033b-2d83-4ab5-adf3-fe1c4e4e9c00.png)
+
+![figura15](https://user-images.githubusercontent.com/61624336/133187955-a319888d-32fc-49e3-9f72-36860e4ba1cb.png)
+
+### Tipos de escopo
+Os tipos de escopo são:
+
+### ESTÁTICO
+O escopo é baseado na descrição textual do programa e as amarrações são feitas em tempo de compilação. É o caso de **C**, **C++** e **Java**, por exemplo.
+
+### DINÂMICO
+O escopo é baseado na sequência de chamada dos **módulos** (ou funções). Por isso, as amarrações são feitas em tempo de execução. É o caso do Python.
