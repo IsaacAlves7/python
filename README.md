@@ -1176,8 +1176,21 @@ Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a p
 A chamada `r.conjugate()` retorna o conjugado do número complexo `r`, em que a _parte real_ é **mantida** e a _parte imaginária_ tem o seu **sinal trocado**.
 
 ### O tipo bool
-Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar expressões não algébricas também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
+Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar **expressões não algébricas** também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
 
 No prompt interativo `>>>`, digite a expressão `2 < 3` e pressione [ENTER]. Observe o resultado na figura 27:
 
 ![figura27](https://user-images.githubusercontent.com/61624336/133345820-5c5ab274-4751-49d2-aed4-49b07c255fe3.png)
+
+Repare que o resultado dessa expressão não é um número, mas sim a palavra `True`. Caso você colocasse a expressão `2 > 3`, o resultado seria `False`, como pode ver na figura 28.
+
+![figura28](https://user-images.githubusercontent.com/61624336/133346388-3b31df7a-ba34-4a03-9625-8541b9938a93.png)
+
+<blockquote><b>Saiba mais:</b> As expressões que você viu nos dois exemplos são chamadas de <b>expressões booleanas</b>. Trata-se de expressões que podem ser avaliadas com um dos dois valores booleanos: <code>True</code> ou <code>False</code>. Assim, em Python, existe o tipo <code>bool</code>, utilizado para permitir o tratamento de expressões como essas.</blockquote>
+
+Agora, vamos ver o operador `not`, que é um **operador unário**, ou seja, só precisa de **um operando**. Esse operador inverte o valor booleano, ou seja, se o valor original for `True`, `not(valor)` terá o valor `False`. **E vice-versa**.
+
+No prompt interativo `>>>`, digite a expressão `not(2 < 3)` e pressione [ENTER].
+
+
+
