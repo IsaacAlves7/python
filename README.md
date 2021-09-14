@@ -1092,3 +1092,19 @@ As **variáveis globais** têm o tempo de vida que é o de execução do program
 Em Python, não existe o conceito de constante (Arrays). Se você precisar de uma constante ao longo de sua jornada como programador, atribua o valor a uma variável e tome cuidado para não mudar esse valor.
 
 <blockquote><b>Dica:</b> Uma dica é iniciar o nome dessa variável com c_ ou utilizar todas as letras maiúsculas, o que vai diferenciar essa variável das outras. Por exemplo, é possível utilizar a expressão c_PI = 3.141592 para armazenar o valor de PI e agilizar o cálculo de área e perímetro de um círculo, ou utilizar a expressão PRECISION = 0.001 para armazenar a precisão a ser utilizada em qualquer cálculo matemático no seu programa.</blockquote>
+
+É importante ficar atento ao uso correto das variáveis, especialmente observando as questões de **escopo** e **visibilidade**, para evitar que algum cálculo seja realizado corretamente, mas com resultado diferente do esperado por você ao programar.
+
+## Os tipos de dados e as expressões em Python
+Você será apresentado aos **tipos padrão incorporados** ao **interpretador** Python. Os principais tipos internos são **numéricos**, **sequenciais** e **dicionários**. **Classes**, **instâncias** e **exceções** também são _tipos padrão_, mas não entraremos em detalhes neste tema. Para ter nosso primeiro contato com expressões em Python, use o prompt interativo >>>.
+
+
+
+~~~python
+def func():
+    x = 1
+    print(x)
+x = 10
+func()
+print(x)
+~~~
