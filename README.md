@@ -1078,3 +1078,17 @@ O escopo é baseado na descrição textual do programa e as amarrações são fe
 
 ### DINÂMICO
 O escopo é baseado na sequência de chamada dos **módulos** (ou funções). Por isso, as amarrações são feitas em tempo de execução. É o caso do Python.
+
+O fato de Python ser de escopo dinâmico traz alguns problemas, como a **perda de eficiência** – uma vez que os tipos precisam ser verificados em tempo de execução – e a redução na legibilidade – porque é difícil determinar a sequência exata de todas as **chamadas de função**.
+
+### TEMPO DE VIDA
+Embora **escopo** e **tempo de vida** tenham uma relação próxima, eles são conceitos diferentes. Observe:
+
+`Escopo é um conceito textual` x `Tempo de vida é um conceito temporal`
+
+As **variáveis globais** têm o tempo de vida que é o de execução do programa, ao passo que as variáveis locais somente existem no intervalo de duração da função ou do bloco a que se limitam.
+
+## CONSTANTES
+Em Python, não existe o conceito de constante (Arrays). Se você precisar de uma constante ao longo de sua jornada como programador, atribua o valor a uma variável e tome cuidado para não mudar esse valor.
+
+<blockquote><b>Dica:</b> Uma dica é iniciar o nome dessa variável com c_ ou utilizar todas as letras maiúsculas, o que vai diferenciar essa variável das outras. Por exemplo, é possível utilizar a expressão c_PI = 3.141592 para armazenar o valor de PI e agilizar o cálculo de área e perímetro de um círculo, ou utilizar a expressão PRECISION = 0.001 para armazenar a precisão a ser utilizada em qualquer cálculo matemático no seu programa.</blockquote>
