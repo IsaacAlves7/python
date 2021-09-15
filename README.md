@@ -1235,4 +1235,16 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
     <td><code>2.5 / 1.3</code></td>
     <td><code>1.923076923076923</code></td>
   </tr>
+  <tr>
+    <td>Divisão inteira</td>
+    <td><code>//</code></td>
+    <td><code>9/2</code></td>
+    <td><code>4</code></td>
+  </tr>
+   <tr>
+    <td>Resto na divisão inteira</td>
+    <td><code>%</code></td>
+    <td><code>9 % 2</code></td>
+    <td><code>1</code></td>
+  </tr>
 </table>
