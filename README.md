@@ -1217,4 +1217,22 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
     <td><code>2.5 + 1.3</code></td>
     <td><code>3.8</code></td>
   </tr>
+    <tr>
+    <td>Subtração</td>
+    <td><code>-</code></td>
+    <td><code>2.5 - 1.3</code></td>
+    <td><code>1.2</code></td>
+  </tr>
+  <tr>
+    <td>Multiplicação</td>
+    <td><code>*</code></td>
+    <td><code>2.5 * 1.3</code></td>
+    <td><code>3.25</code></td>
+  </tr>
+  <tr>
+    <td>Divisão</td>
+    <td><code>/</code></td>
+    <td><code>2.5 / 1.3</code></td>
+    <td><code>1.923076923076923</code></td>
+  </tr>
 </table>
