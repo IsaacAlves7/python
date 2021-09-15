@@ -1247,4 +1247,16 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
     <td><code>9 % 2</code></td>
     <td><code>1</code></td>
   </tr>
+   <tr>
+    <td>Valor absoluto</td>
+    <td><code>abs(parâmetro)</code></td>
+    <td><code>abs(-2.5)</code></td>
+    <td><code>2.5</code></td>
+  </tr>
+   <tr>
+    <td>Exponenciação</td>
+    <td><code>**</code></td>
+    <td><code>2**4</code></td>
+    <td><code>16</code></td>
+  </tr>
 </table>
