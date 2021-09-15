@@ -1201,16 +1201,20 @@ No prompt interativo `>>>`, digite a expressão `not(2 < 3)` e pressione [ENTER]
 ### Operadores matemáticos
 Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo **Álgebra** e **Aritmética** na escola. Existem algumas pequenas diferenças, como a **divisão** (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
 
-<table>
+<table style="width:100%">
   <tr>
-    <td><b>Operação matemática</b></td>
-    <td><b>Símbolo usado</b></td>
-    <th><b>Exemplo</b></th>
+    <th rowspan="2">Operação matemática</th>
+    <th rowspan="2">Símbolo usado</th>
+    <th colspan="2">Exemplo</th>
   </tr>
   <tr>
-    <td><b>Operação matemática</b></td>
-    <td><b>Símbolo usado</b></td>
-    <th><b>Operação matemática</b></th>
-    <th><b>Símbolo usado</b></th>
+    <td>Equação</td>
+    <td>Resultado</td>
+  </tr>
+  <tr>
+    <td>Soma</td>
+    <td><code>+</code></td>
+    <td><code>2.5 + 1.3</code></td>
+    <td><code>3.8</code></td>
   </tr>
 </table>
