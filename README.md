@@ -1260,3 +1260,36 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
     <td><code>16</code></td>
   </tr>
 </table>
+
+Além das operações algébricas, é possível realizar **operações de comparação**. Os **operadores de comparação** têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
+
+<table>
+   <tr>
+    <td>Símbolo usado</td>
+    <td>Descrição</td>
+  </tr>
+  <tr>
+    <td><code> <	</code></td>
+    <td>Menor que</td>
+  </tr>
+   <tr>
+    <td><code> <=	</code></td>
+    <td>Menor ou igual a</td>
+  </tr>
+  <tr>
+    <td><code> > </code></td>
+    <td>Maior que</td>
+  </tr>
+  <tr>
+    <td><code> >= </code></td>
+    <td>Maior ou igual a</td>
+  </tr> 
+  <tr>
+    <td><code> == </code></td>
+    <td>Igual</td>
+  </tr> 
+  <tr>
+    <td><code> != </code></td>
+    <td>Não igual</td>
+  </tr> 
+</table>
