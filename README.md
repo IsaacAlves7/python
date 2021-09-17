@@ -1330,12 +1330,23 @@ Assim como é possível escrever expressões algébricas complexas _concatenando
   </tr>
   <tr>
     <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+   <tr>
+    <td>True</td>
     <td>False</td>
-    <td>not(p)</td>
+    <td>False</td>
   </tr>
    <tr>
     <td>False</td>
     <td>True</td>
-    <td>not(p)</td>
+    <td>False</td>
+  </tr>
+  <tr>
+    <td>False</td>
+    <td>False</td>
+    <td>False</td>
   </tr>
 </table>
+
