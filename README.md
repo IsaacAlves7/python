@@ -1378,3 +1378,36 @@ Assim como é possível escrever expressões algébricas complexas _concatenando
     <td>False</td>
   </tr>
 </table>
+
+## TIPOS SEQUENCIAIS
+Existem três tipos sequenciais básicos em Python: **listas**, **tuplas** e **objetos range**. Além dos tipos básicos citados, existe um tipo especial criado para tratamento de dados textuais: o tipo `str` (string).
+
+Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e cada item tem o seu índice incrementado uma unidade em relação ao item anterior. Porém, Python também permite a indexação com valores negativos. O valor `-1` é o índice do último item, e cada item anterior é decrementado de uma unidade em relação ao sucessor. Observe a tabela 7:
+
+<table>
+  <tr>
+    <td>índice</td>
+    <td>s</td>
+    <td>índice negativo</td>
+  </tr>
+  <tr>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+   <tr>
+    <td>True</td>
+    <td>False</td>
+    <td>False</td>
+  </tr>
+   <tr>
+    <td>False</td>
+    <td>True</td>
+    <td>False</td>
+  </tr>
+  <tr>
+    <td>False</td>
+    <td>False</td>
+    <td>False</td>
+  </tr>
+</table>
