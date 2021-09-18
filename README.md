@@ -1305,7 +1305,7 @@ As **expressões booleanas** são aquelas que podem ter como resultado um dos va
 
 Assim como é possível escrever expressões algébricas complexas _concatenando_ diversas expressões menores, podemos escrever expressões booleanas grandes, com os operadores `and`, `or` e `not`. Observe o comportamento dos operadores booleanos nas tabelas 4, 5 e 6.
 
-#### Operador not
+#### Operador `not`
 <table>
   <tr>
     <td>p</td>
@@ -1321,7 +1321,36 @@ Assim como é possível escrever expressões algébricas complexas _concatenando
   </tr>
 </table>
 
-#### Operador and
+#### Operador `and`
+<table>
+  <tr>
+    <td>p</td>
+    <td>q</td>
+    <td>p or q</td>
+  </tr>
+  <tr>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+   <tr>
+    <td>True</td>
+    <td>False</td>
+    <td>True</td>
+  </tr>
+   <tr>
+    <td>False</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>False</td>
+    <td>False</td>
+    <td>False</td>
+  </tr>
+</table>
+
+#### Operador `or`
 <table>
   <tr>
     <td>p</td>
@@ -1349,4 +1378,3 @@ Assim como é possível escrever expressões algébricas complexas _concatenando
     <td>False</td>
   </tr>
 </table>
-
