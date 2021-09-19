@@ -1425,10 +1425,37 @@ Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e c
 ## Strings
 Em uma variável do tipo `str`, é possível **armazenar letras, números, espaços, pontuação e diversos símbolos**. Diferentemente da **linguagem C**, _não existe_ o tipo `char`. **Cada caractere em Python é uma string**. Para delimitar uma string, podemos utilizar:
 
-- Aspas simples: `‘uma string'`
+### Aspas simples
+```python
+‘uma string'
+```
 
-- Aspas duplas: `“uma string”`
+### Aspas duplas
+```python
+“uma string”
+```
 
-- Aspas simples triplas: `‘’’uma string’’’`
+### Aspas simples triplas
+```python
+‘’’uma string’’’
+```
 
-- Aspas duplas triplas: `“””uma string”””`
+### Aspas duplas triplas
+```python
+“””uma string”””
+```
+
+A Figura 30 ilustra um exemplo de delimitadores de strings:
+
+![figura30](https://user-images.githubusercontent.com/61624336/133940623-b524ef49-5d89-4095-9bba-91f8d61efb0f.png)
+
+Existem alguns métodos interessantes para **tratar strings em Python**. Entre eles, ressaltamos:
+
+### `upper`
+Transforma todas as letras em **maiúsculas**.
+
+### `lower`
+Transforma todas as letras em **minúsculas**.
+
+### `split`
+Quebra a string em **substrings**.
