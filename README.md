@@ -1459,3 +1459,26 @@ Transforma todas as letras em **minúsculas**.
 
 ### `split`
 Quebra a string em **substrings**.
+
+Veja os exemplos a seguir:
+
+![figura31](https://user-images.githubusercontent.com/61624336/133940776-28b08988-4471-4e60-8db4-d9d865b16868.png)
+
+<blockquote><b>Saiba mais:</b> A lista gerada com o método ,<code>split()</code> tem três elementos, porque a string original tinha três palavras.</blockquote>
+
+## Listas
+**Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
+
+### []
+Usando um par de colchetes `[]` para denotar uma **lista vazia**.
+
+### [a], [a, b, c]
+Usando colchetes, separando os itens por vírgulas.
+
+### [x for x in iterable]
+Usando a **compreensão de lista**.
+
+### list() ou list(iterable)
+Usando o **construtor** do tipo _list_.
+
+<blockquote><b>Saiba mais:</b> <code>iterable</code> pode ser uma sequência, um container que suporte **iteração** ou um **objeto iterador**. Por exemplo, <code>list('abc')</code> retorna <code>['a', 'b', 'c']</code> e <code>list( (1, 2, 3) )</code> retorna <code>[1, 2, 3]</code>. Se nenhum argumento for passado, o construtor cria uma lista vazia: <code>[ ]</code>.</blockquote>
