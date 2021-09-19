@@ -1387,27 +1387,26 @@ Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e c
 <table>
   <tr>
     <td>índice</td>
+    <td><b>0</b></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td>s</td>
+    <td><b>t</b></td>
+    <td><b>e</b></td>
+    <td><b>s</b></td>
+    <td><b>t</b></td>
+    <td><b>e</b></td>
+  </tr>
+   <tr>
     <td>índice negativo</td>
-  </tr>
-  <tr>
-    <td>True</td>
-    <td>True</td>
-    <td>True</td>
-  </tr>
-   <tr>
-    <td>True</td>
-    <td>False</td>
-    <td>False</td>
-  </tr>
-   <tr>
-    <td>False</td>
-    <td>True</td>
-    <td>False</td>
-  </tr>
-  <tr>
-    <td>False</td>
-    <td>False</td>
-    <td>False</td>
+    <td>-5</td>
+    <td>-4</td>
+    <td>-3</td>
+    <td>-2</td>
+    <td><b>-1</b></td>
   </tr>
 </table>
