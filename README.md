@@ -100,6 +100,8 @@ O estudante e/ou programador que se dispuser a gastar seu tempo aprendendo lingu
 Quanto maior for o leque de linguagens que um programador dominar e praticar, maiores as chances de conhecer e fazer uso das propriedades superlativas da(s) linguagem(ns) em questão.
 
 # 🐍 Classificação das linguagens de programação ✨
+<a href="https://github.com/IsaacAlves7/python-programming"><img src="https://www.visionnaire.com.br/en/dbimages/visionnaire-linguagens-de-programacao_14045_img.jpg" heigth="177"/></a>
+
 Ao longo dos anos, os autores têm criado diferentes classificações para as linguagens de programação, usando critérios diferenciados e agrupando-as sob diferentes perspectivas.
 
 Veremos a seguir as classificações das linguagens por nível, por gerações e por paradigmas.
