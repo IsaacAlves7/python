@@ -15,7 +15,9 @@
 
 <hr>
 
-# 🐍 A abstração nas linguagens de programação 🔢
+# 🐍 A abstração nas linguagens de programação 🔤
+<a href="https://github.com/IsaacAlves7/python-programming"><img src="https://files.realpython.com/media/python-basics-wide2.f73a9e9bf9b8.jpg" heigth="177"/></a>
+
 **Abstração** é o processo de identificação das qualidades e/ou propriedades relevantes para o contexto que está sendo analisado e desprezando o que seja irrelevante. Um **modelo** é uma _abstração_ da realidade.
 
 Um **programa de computador** é um _modelo_, pois representa a solução de um problema em termos algorítmicos. Assim sendo, a _abstração_ permeia toda a atividade de programação de computadores.
@@ -886,6 +888,11 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
+
+<hr>
+
+# 🐍 Python Programming 🔢
+Vamos focar nos principais fundamentos para programar na linguagem python.
 
 ## UTILITÁRIOS E MÓDULOS
 Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
