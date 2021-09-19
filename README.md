@@ -1481,4 +1481,8 @@ Usando a **compreensão de lista**.
 ### list() ou list(iterable)
 Usando o **construtor** do tipo _list_.
 
-<blockquote><b>Saiba mais:</b> <code>iterable</code> pode ser uma sequência, um container que suporte **iteração** ou um **objeto iterador**. Por exemplo, <code>list('abc')</code> retorna <code>['a', 'b', 'c']</code> e <code>list( (1, 2, 3) )</code> retorna <code>[1, 2, 3]</code>. Se nenhum argumento for passado, o construtor cria uma lista vazia: <code>[ ]</code>.</blockquote>
+<blockquote><b>Saiba mais:</b> <code>iterable</code> pode ser uma sequência, um container que suporte <b>iteração</b> ou um <b>objeto iterador</b>. Por exemplo, <code>list('abc')</code> retorna <code>['a', 'b', 'c']</code> e <code>list( (1, 2, 3) )</code> retorna <code>[1, 2, 3]</code>. Se nenhum argumento for passado, o construtor cria uma lista vazia: <code>[ ]</code>.</blockquote>
+
+## Tuplas
+**Tuplas** são _sequências imutáveis_, tipicamente usadas para **armazenar coleções de itens heterogêneos**. Elas são aplicadas também quando é necessário utilizar uma sequência imutável de dados homogêneos. Uma tupla pode ser criada de algumas maneiras, tais como:
+
