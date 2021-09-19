@@ -892,6 +892,8 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <hr>
 
 # 🐍 Python Programming 🔢
+<a href="https://github.com/IsaacAlves7/python-programming"><img src="https://br.renatocandido.org/wp-content/uploads/2020/10/7-python-code-examples-for-everyday-use-1200x350-c-default.jpg" heigth="177"/></a>
+
 Vamos focar nos principais fundamentos para programar na linguagem python.
 
 ## UTILITÁRIOS E MÓDULOS
