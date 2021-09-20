@@ -956,7 +956,7 @@ Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas
 | Comentários de 1 linha |	Iniciados com `#` | Iniciados com `//` |
 | Comentários de várias linhas | Limitados por `“””` (três aspas duplas) no início e no fim	 | Iniciados com `/*` e encerrados com `*/` |
 
-<blockquote><b>ATENÇÃO:</b> É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.</blockquote>
+<blockquote>#️⃣ <b>ATENÇÃO:</b> É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.</blockquote>
 
 ## BOAS PRÁTICAS DE PROGRAMAÇÃO
 Ao começar sua jornada como programador, é importante perceber que existem algumas práticas que não são obrigatórias, mas podem ajudar muito no seu aprendizado. Além disso, podem permitir que você corrija mais rapidamente erros que podem surgir no futuro e tornam seu código mais fácil de ser compreendido por outro programador, favorecendo o trabalho em equipe. Vamos conhecer algumas delas:
