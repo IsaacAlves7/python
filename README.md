@@ -882,14 +882,18 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 </ul>
 
 ### Principais áreas de atuação com a linguagem Python
-<li>IA-Inteligência Artificial</li>
-<li>IoT-Internet das Coisas</li>
+<li>IA - Inteligência Artificial</li>
+<li>IoT - Internet das Coisas</li>
 <li>Big Data</li>
 <li>Data Analysis</li>
 <li>Data Science</li>
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
 <li>Desenvolvimento Web - (Back-end)</li>
+<li>Cybersecurity</li>
+<li>Game Development</li>
+<li>Mobile Development</li>
+<li>Desktop Development</li>
 
 <hr>
 
@@ -1494,5 +1498,27 @@ Usando o **construtor** do tipo _list_.
 
 Novamente, **iterable** pode ser uma sequência, um container que suporte **iteração** ou um **objeto iterador**. Por exemplo, `tuple('abc')` retorna `('a', 'b', 'c')` e `tuple( [1, 2, 3] )` retorna `(1, 2, 3)`. Se nenhum argumento for passado, o construtor cria uma tupla vazia: `()`.
 
-
 <blockquote><b>Atenção</b>: Note que o uso das vírgulas é o que gera a tupla, e não o uso de parênteses. Os parênteses são opcionais, exceto no caso em que queremos gerar uma tupla vazia.</blockquote>
+
+## Range
+O tipo **range** representa uma _sequência imutável de números e frequentemente é usado em loops de um número específico de vezes_, como o `for`.
+
+Ele pode ser chamado de maneira simples, apenas com **um argumento**. Nesse caso, a sequência começará em `0` e será incrementada de uma unidade até o limite do parâmetro passado (exclusive). Por exemplo, `range(3)` cria a sequência `(0, 1, 2)`.
+
+Para que a sequência não comece em `0`, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada `range(2, 7)` cria a sequência `(2, 3, 4, 5, 6)`.
+
+<blockquote><b>Saiba mais</b>: Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo. Por exemplo, <code>range(2, 9, 3)</code> cria a sequência <code>(2, 5, 8)</code>.</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
