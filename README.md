@@ -1535,4 +1535,8 @@ A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python
     <td>s + t</td>
     <td>Concatenação de s e t</td>
   </tr>
+   <tr>
+    <td>n*s</td>
+     <td>Concatenação de <b>n</b> cópias de <b>s</b></td>
+  </tr>
 </table>
