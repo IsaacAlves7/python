@@ -1509,16 +1509,18 @@ Para que a sequência não comece em `0`, podemos informar o início e o fim com
 
 <blockquote><b>Saiba mais</b>: Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo. Por exemplo, <code>range(2, 9, 3)</code> cria a sequência <code>(2, 5, 8)</code>.</blockquote>
 
-
-
-
-
-
-
-
-
-
-
-
-
 Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
+
+## Operadores sequenciais comuns
+Os **operadores sequenciais** permitem a _manipulação dos tipos sequenciais_, inclusive as **strings**. Vale ressaltar a sobrecarga dos operadores `+` e `*`, que realizam operações diferentes quando os operandos são **numéricos** ou **sequenciais**.
+
+<blockquote><b>Exemplo</b>: O operador <code>==</code> verifica se as strings dos dois lados são iguais. Porém, os operadores <code><</code> e <code>></code> comparam as strings usando a ordem do dicionário.</blockquote>
+  
+A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python para **manipulação de sequências**. Lembre-se de que você pode utilizar o utilitário `help` no Python Console para verificar a lista completa. Para isso, basta digitar `help(str)` e pressionar [ENTER] no teclado.
+
+<table>
+  <tr>
+    <td><b>Uso</b></td>
+    <td><b>Resultado</b></td>
+  </tr>
+</table>
