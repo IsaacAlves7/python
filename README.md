@@ -1523,4 +1523,8 @@ A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python
     <td><b>Uso</b></td>
     <td><b>Resultado</b></td>
   </tr>
+   <tr>
+    <td>x in s</td>
+    <td><b>True</b> se <b>x</b> for um subconjunto de s</td>
+  </tr>
 </table>
