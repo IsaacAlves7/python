@@ -1524,23 +1524,35 @@ A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python
     <td><b>Resultado</b></td>
   </tr>
    <tr>
-    <td>x in s</td>
+     <td><code>x in s</code></td>
     <td><b>True</b> se <b>x</b> for um subconjunto de <b>s</b></td>
   </tr>
   <tr>
-    <td>x not in s</td>
+    <td><code>x not in s</code></td>
     <td><b>False</b> se <b>x</b> for um subconjunto de <b>s</b></td>
   </tr>
   <tr>
-    <td>s + t</td>
+    <td><code>s + t</code></td>
     <td>Concatenação de s e t</td>
   </tr>
    <tr>
-     <td>n*s</td>
+     <td><code>n*s</code></td>
      <td>Concatenação de <b>n</b> cópias de <b>s</b></td>
   </tr>
    <tr>
-     <td>s[i]</td>
+     <td><code>s[i]</code></td>
      <td>Caractere de índice <b>i</b> em <b>s</b></td>
+  </tr>
+   <tr>
+     <td><code>len(s)</code></td>
+     <td>Comprimento de <b>s</b></td>
+  </tr>   
+  <tr>
+    <td><code>min(s)</code></td>
+    <td>Menor item de <b>s</b></td>
+  </tr>
+  <tr>
+    <td><code>max(s)</code></td>
+    <td>Maior item de <b>s</b></td>
   </tr>
 </table>
