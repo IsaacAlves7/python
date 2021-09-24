@@ -883,6 +883,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 
 ### Principais áreas de atuação com a linguagem Python
 <li>IA - Inteligência Artificial</li>
+<li>Machine Learning</li>
 <li>IoT - Internet das Coisas</li>
 <li>Big Data</li>
 <li>Data Analysis</li>
@@ -894,6 +895,9 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Game Development</li>
 <li>Mobile Development</li>
 <li>Desktop Development</li>
+<li>DevOps</li>
+<li>Automação</li>
+<li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
 <hr>
 
