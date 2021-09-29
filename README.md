@@ -1577,3 +1577,6 @@ Na figura 32, o dicionário tem **3 entradas**. Observe como foi possível recup
 
 ## PRECEDÊNCIA DE OPERADORES
 Ao escrever uma expressão algébrica, o programador pode utilizar a **precedência de operadores** existente em Python (implícita) ou **explicitar** a ordem em que ele deseja que a expressão seja avaliada.
+
+### Exemplo
+Por exemplo, a expressão `3 + 2 * 5` tem como resultado `25` ou `13`? Aprendemos no ensino fundamental que as operações de **produto** e **divisão** têm precedência sobre as operações de **soma** e **subtração**. Ou seja, **um produto** será realizado **antes de uma soma**, na mesma expressão. Assim, a expressão acima tem como resultado `13`. Isso ocorre sempre que não forem explicitadas outras relações de precedência com o uso de parênteses. Caso o programador quisesse forçar que a soma ocorresse primeiro, ele deveria escrever assim: `(3 + 2) * 5`.
