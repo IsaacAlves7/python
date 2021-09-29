@@ -1563,3 +1563,7 @@ A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python
 
 ## DICIONÁRIOS
 Os **dicionários** permitem que itens de uma sequência recebam índices definidos pelo usuário. Um dicionário contém pares de (chave, valor). O formato geral de um objeto dicionário é:
+  
+```python
+{<chave 1>:<valor 1>, <chave 2>:<valor 2>, ..., <chave i>:<valor i>}
+```
