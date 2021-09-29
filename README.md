@@ -1567,3 +1567,13 @@ Os **dicionários** permitem que itens de uma sequência recebam índices defini
 ```python
 {<chave 1>:<valor 1>, <chave 2>:<valor 2>, ..., <chave i>:<valor i>}
 ```
+  
+### Exemplo
+Poderíamos criar um dicionário em que cada pessoa fosse representada pelo seu **CPF**, com **nome** e **sobrenome**. Para isso, teríamos:
+
+![figura32](https://user-images.githubusercontent.com/61624336/135189834-c300d0a1-a345-444c-96f3-bbe980b68180.png)
+
+Na figura 32, o dicionário tem **3 entradas**. Observe como foi possível recuperar **nome** e **sobrenome** de uma entrada, baseado na chave informada `111222333-44`.
+
+## PRECEDÊNCIA DE OPERADORES
+Ao escrever uma expressão algébrica, o programador pode utilizar a **precedência de operadores** existente em Python (implícita) ou **explicitar** a ordem em que ele deseja que a expressão seja avaliada.
