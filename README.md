@@ -1629,3 +1629,6 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
      <td>Booleano OR (ou)</td>
   </tr>
 </table>
+
+### Atenção!
+<blockquote>É importante ficar atento ao uso correto dos operadores, respeitando a precedência entre eles, para evitar que algum cálculo seja realizado corretamente, mas com resultado diferente do esperado por você ao programar.</blockquote>
