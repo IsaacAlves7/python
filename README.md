@@ -1620,4 +1620,12 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
      <td><code>not x</code></td>
     <td>Booleano NOT (não)</td>
   </tr>
+   <tr>
+     <td><code>and</code></td>
+     <td>Booleano AND (e)</td>
+  </tr>
+  <tr>
+     <td><code>or</code></td>
+     <td>Booleano OR (ou)</td>
+  </tr>
 </table>
