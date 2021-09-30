@@ -1589,7 +1589,15 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
     <td>Descrição</td>
   </tr>  
    <tr>
-    <td>[expressões ...]</td>
+     <td><code>[expressões ...]</code></td>
     <td>Definição de lista</td>
+  </tr>
+   <tr>
+     <td><code>x[ ], x[índice : índice]</code></td>
+    <td>Operador de indexação</td>
+  </tr>
+   <tr>
+     <td><code>**</code></td>
+    <td>Exponenciação</td>
   </tr>
 </table>
