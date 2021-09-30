@@ -1585,8 +1585,8 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
 
 <table>
   <tr>
-    <td>Operador</td>
-    <td>Descrição</td>
+    <td><b>Operador</b></td>
+    <td><b>Descrição</b></td>
   </tr>  
    <tr>
      <td><code>[expressões ...]</code></td>
@@ -1599,5 +1599,25 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
    <tr>
      <td><code>**</code></td>
     <td>Exponenciação</td>
+  </tr>
+   <tr>
+     <td><code>+x, -x</code></td>
+    <td>Sinal de positivo e negativo</td>
+  </tr>
+   <tr>
+     <td><code>*, /, //, %</code></td>
+     <td>Produto, divisão, divisão inteira, resto</td>
+  </tr>
+   <tr>
+     <td><code>+, -</code></td>
+    <td>Soma, subtração</td>
+  </tr>
+   <tr>
+     <td><code>in, not in, <, <=, >, >=, <>, !=, ==	</code></td>
+    <td>Comparações, inclusive a ocorrência em listas</td>
+  </tr>
+  <tr>
+     <td><code>not x</code></td>
+    <td>Booleano NOT (não)</td>
   </tr>
 </table>
