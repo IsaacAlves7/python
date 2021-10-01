@@ -1742,3 +1742,38 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
     <td>x passa a valer 1</td>
   </tr>
 </table>
+
+#### Atenção!
+<blockquote>Diferente de <b>C</b>, em <b>Python</b> não é possível incrementar ou decrementar uma variável com um operador unário, como o <code>++</code> ou <code>--</code>.</blockquote>
+  
+## Troca de variáveis
+Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a troca entre duas delas. Suponha que as variáveis `a` e `b` armazenem, respectivamente, os valores `1` e `2`. Caso quiséssemos inverter os valores em linguagens como **C** ou **Java**, seria necessário usar uma variável auxiliar, com uma sequência de instruções exibida na figura a seguir:
+ 
+![figura39](https://user-images.githubusercontent.com/61624336/135555036-17ad052e-35b6-4138-b852-52896b5b38eb.png)
+  
+Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja o uso da atribuição múltipla, nesse caso, na figura a seguir:
+  
+![figura40](https://user-images.githubusercontent.com/61624336/135555122-4a80fd61-9d9b-4b9b-a867-748b293ccd98.png)
+
+## 🐍 O PRIMEIRO PROGRAMA EM PYTHON 🖥️
+
+Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
+
+### Saída de dados com a função `print()`
+A função `print()` em Python atua de forma semelhante à `printf()` em **C**. Para um programador iniciante, as maiores diferenças entre elas são:
+
+- Duas chamadas da `print()` em Python são impressas na tela em linhas diferentes, sem a necessidade do uso do caractere `\n` para pular a linha, como ocorre na `printf()` em **C**.
+  
+- Uma chamada da `print()` em Python permite a impressão de valores de variáveis sem a indicação do formato, como ocorre na `printf()` em **C**, quando precisamos escrever `%c`, `%d` ou `%f`, por exemplo.
+
+Para escrever seu **Hello, World!** em Python, digite a seguinte linha, exatamente como está escrita:
+
+~~~python
+print(“Hello, World!”)
+~~~
+
+ou 
+  
+~~~python
+print('Hello, World!')
+~~~
