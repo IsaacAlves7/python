@@ -2020,3 +2020,22 @@ A estrutura `for` tem a seguinte sintaxe em Python:
 
 Cabe ressaltar a diferença de sintaxe entre as linguagens **C** e **Python**. Veja a Tabela 4:
 
+  
+<table>
+  <tr>
+    <td><b>Python</b></td>
+    <td><b>C</b></td>
+  </tr>
+  <tr>
+    <td>for <variável> in <sequência>:	</td>
+    <td>for (inicialização; condição; incremento ou decremento){</td>
+  </tr>
+  <tr>
+    <td>Instruções com 4 espaços de indentação</td>
+    <td>Bloco de instruções a ser repetido. A indentação não é exigida</td>
+  </tr>
+  <tr>
+    <td>Instrução fora do for</td>
+    <td>}</td>
+  </tr>
+</table>
