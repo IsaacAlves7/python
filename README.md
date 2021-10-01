@@ -1879,7 +1879,7 @@ Também é possível imprimir a string como lida da direita para a esquerda. Par
 ### Atenção
 Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
 
-# 🐍 Estruturas de decisão e repetição em Python ✔️❌
+# 🐍 Estruturas de decisão e repetição em Python ✔️❌🔁
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
 
 ## TRATAMENTO DAS CONDIÇÕES
