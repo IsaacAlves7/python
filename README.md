@@ -1992,3 +1992,31 @@ Perceba que a indentação precisa ser ajustada, uma vez que o último else é r
 A **estrutura de repetição** `for` tem funcionamento muito semelhante nas linguagens **C** e **Python**. Porém, a sintaxe é diferente nas duas linguagens. Além disso, em Python existe maior flexibilidade, já que a repetição pode ser controlada por uma variável não numérica.
 
 Antes de detalhar o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista ajudará a verificar a repetição e deixará mais claro o entendimento do laço.
+
+### As listas do tipo `range()`
+Ao chamar o método `range()`, Python cria uma sequência de números inteiros, de maneira simples à mais complexa. Veja a seguir:
+    
+#### Simples
+Ela pode ser chamada de maneira **simples**, apenas com um argumento. Nesse caso, a sequência começará em `0` e será incrementada de uma unidade até o limite do parâmetro passado (exclusive).
+
+Por exemplo: `range(3)` cria a sequência (`0, 1, 2`).
+     
+#### Não iniciadas em 0
+Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada `range(2, 7)` cria a sequência (`2, 3, 4, 5, 6`).
+                 
+#### Indicando início, fim e passo
+Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo.
+
+Por exemplo, `range(2, 9, 3)` cria a sequência (`2, 5, 8`).
+                 
+### A sintaxe da estrutura `for`
+A estrutura `for` tem a seguinte sintaxe em Python:
+                 
+```python
+1 for <variável> in <sequência>:
+2 Bloco que será repetido para todos os itens da sequência
+3 Instrução fora do for                 
+```
+
+Cabe ressaltar a diferença de sintaxe entre as linguagens **C** e **Python**. Veja a Tabela 4:
+
