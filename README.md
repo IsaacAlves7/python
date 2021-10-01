@@ -1674,3 +1674,89 @@ Assinale a opção com o valor correto dessa expressão em Python.
 ## Entrada e saída de dados em Python
 Já vimos, de maneira básica, como podemos atribuir valor a uma variável, no módulo 2. Vamos agora conhecer outras formas de atribuição.
   
+## Sentenças de atribuição
+
+### Atribuição simples
+Chamamos de **atribuição simples** a forma que já utilizamos neste tema, com uma expressão parecida com `x = 10`. Nessa atribuição, a variável `x` recebe o valor `10`.
+
+### Atribuição múltipla
+Python também permite a **atribuição múltipla**, ou seja, mais de uma variável receber atribuição na mesma linha. Veja o exemplo na figura 36:
+
+![figura36](https://user-images.githubusercontent.com/61624336/135550002-e383e5de-b764-4d09-b497-93ee47013575.png)
+
+#### Atenção!
+Observe que as variáveis `x` e `y` receberam atribuição na mesma instrução, com a variável `x` armazenando o valor `2`, e a variável `y` armazenando o valor `5`.
+
+### Operadores de atribuição compostos
+Os **operadores de atribuição compostos** executam operações matemáticas e atualizam o valor da variável utilizada. Por exemplo, veja a figura 37:
+
+![figura37](https://user-images.githubusercontent.com/61624336/135550875-4cbba501-1415-4f7e-a99e-b34b35c9347a.png)
+
+A variável `x` inicialmente recebeu o valor `10`. Em seguida, a instrução `x = x + 1`, que causa estranheza quando lembramos da matemática aprendida ao longo da vida, é muito comum quando estamos programando. Essa instrução significa “acrescente uma unidade ao valor de `x` e guarde este resultado na própria variável `x`”. Como `x` valia `10`, o resultado do lado direito do operador (`=`) é `11`. Esse resultado é, então, armazenado na própria variável `x`.
+
+Essa **operação de acrescentar** determinado valor a uma variável e armazenar o resultado na própria variável poderia ser feita com o operador `+=` (mais igual). Veja a figura 38:
+
+![figura38](https://user-images.githubusercontent.com/61624336/135552211-7684c2a5-1dd7-48e8-b387-cfa5731ad05e.png)
+  
+Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a variável `x`, com o valor inicial `10`, para verificar os resultados.
+
+
+<table style="width:100%">
+  <tr>
+    <th rowspan="2">Nome</th>
+    <th rowspan="2">Símbolo usado</th>
+    <th colspan="2">Exemplo</th>
+  </tr>
+  <tr>
+    <td>Instrução</td>
+    <td>Resultado</td>
+  </tr>
+  <tr>
+    <td>Mais igual</td>
+    <td><code>+=</code></td>
+    <td><code>x += 2</code></td>
+    <td>x passa a valer 12</td>
+  </tr>
+    <tr>
+    <td>Subtração</td>
+    <td><code>-</code></td>
+    <td><code>2.5 - 1.3</code></td>
+    <td><code>1.2</code></td>
+  </tr>
+  <tr>
+    <td>Multiplicação</td>
+    <td><code>*</code></td>
+    <td><code>2.5 * 1.3</code></td>
+    <td><code>3.25</code></td>
+  </tr>
+  <tr>
+    <td>Divisão</td>
+    <td><code>/</code></td>
+    <td><code>2.5 / 1.3</code></td>
+    <td><code>1.923076923076923</code></td>
+  </tr>
+  <tr>
+    <td>Divisão inteira</td>
+    <td><code>//</code></td>
+    <td><code>9/2</code></td>
+    <td><code>4</code></td>
+  </tr>
+   <tr>
+    <td>Resto na divisão inteira</td>
+    <td><code>%</code></td>
+    <td><code>9 % 2</code></td>
+    <td><code>1</code></td>
+  </tr>
+   <tr>
+    <td>Valor absoluto</td>
+    <td><code>abs(parâmetro)</code></td>
+    <td><code>abs(-2.5)</code></td>
+    <td><code>2.5</code></td>
+  </tr>
+   <tr>
+    <td>Exponenciação</td>
+    <td><code>**</code></td>
+    <td><code>2**4</code></td>
+    <td><code>16</code></td>
+  </tr>
+</table>
