@@ -1777,3 +1777,19 @@ ou
 ~~~python
 print('Hello, World!')
 ~~~
+
+Para divulgar a mensagem no terminal ou prompt de comando, basta ir até a pasta onde está localizado o arquivo e inserir o comando:
+
+```
+python hello-world.py
+```
+ 
+Veja que foi impresso no **console** exatamente o que colocamos entre aspas, ao chamar a função `print()`. Essa é a primeira forma de saída de dados: usar a função `print()` com uma string sendo passada como parâmetro (entre os parênteses). É importante perceber que a função `print()`, além de imprimir a string, também salta o cursor para a próxima linha.
+
+Como você deve ter percebido, o que a função `print()` recebeu entre parênteses foi uma string. Ou seja, poderíamos ter passado para ela uma string definida anteriormente, como no exemplo a seguir:
+
+![figura45](https://user-images.githubusercontent.com/61624336/135556658-5327f51b-cd98-4e9d-93e4-ca1449a41cac.png)
+
+Também poderíamos ter passado como parâmetro uma variável definida anteriormente. A função `print()` vai trabalhar com o valor dessa variável. Observe as figuras 46 e 47:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135556758-165cc082-c33b-49a2-92c3-0a5b18f5713a.png" height="107"><img src="https://user-images.githubusercontent.com/61624336/135556807-a18d4902-a2b8-4da5-b7b5-e19c8a3e6df5.png" height="107"></div>
