@@ -1718,22 +1718,22 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
     <td>x passa a valer 12</td>
   </tr>
     <tr>
-    <td>Subtração</td>
-    <td><code>-</code></td>
-    <td><code>2.5 - 1.3</code></td>
-    <td><code>1.2</code></td>
+    <td>Menos igual</td>
+    <td><code>-=</code></td>
+    <td><code>x -= 2</code></td>
+    <td>x passa a valer 8</td>
   </tr>
   <tr>
-    <td>Multiplicação</td>
-    <td><code>*</code></td>
-    <td><code>2.5 * 1.3</code></td>
-    <td><code>3.25</code></td>
+    <td>Vezes igual</td>
+    <td><code>*=</code></td>
+    <td><code>x *= 2</code></td>
+    <td>x passa a valer 20</td>
   </tr>
   <tr>
-    <td>Divisão</td>
-    <td><code>/</code></td>
-    <td><code>2.5 / 1.3</code></td>
-    <td><code>1.923076923076923</code></td>
+    <td>Dividido igual</td>
+    <td><code>/=</code></td>
+    <td><code>x /= 2</code></td>
+    <td>x passa a valer 5</td>
   </tr>
   <tr>
     <td>Divisão inteira</td>
@@ -1742,21 +1742,9 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
     <td><code>4</code></td>
   </tr>
    <tr>
-    <td>Resto na divisão inteira</td>
-    <td><code>%</code></td>
-    <td><code>9 % 2</code></td>
-    <td><code>1</code></td>
-  </tr>
-   <tr>
-    <td>Valor absoluto</td>
-    <td><code>abs(parâmetro)</code></td>
-    <td><code>abs(-2.5)</code></td>
-    <td><code>2.5</code></td>
-  </tr>
-   <tr>
-    <td>Exponenciação</td>
-    <td><code>**</code></td>
-    <td><code>2**4</code></td>
-    <td><code>16</code></td>
+    <td>Módulo igual</td>
+    <td><code>%=</code></td>
+    <td><code>x %= 3</code></td>
+    <td>x passa a valer 1</td>
   </tr>
 </table>
