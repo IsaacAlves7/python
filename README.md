@@ -1838,3 +1838,44 @@ Poderíamos chamar a função `print()` com o separador `:` da seguinte forma:
 ![figura59](https://user-images.githubusercontent.com/61624336/135562269-f0d87927-e31b-447b-bf04-3c5e5949e718.png)
 
 Porém, existe outra possibilidade, usando o método `format()`. Ele permite que a chamada à função `print()` fique muito parecida com as chamadas à função `printf()` em **C**, com passagem de parâmetros a serem colocados em ordem na string. Com o método `format()`, podemos montar a string com as chaves `{}` indicando onde entrarão valores, passados como parâmetros separados por vírgulas.
+
+![figura60](https://user-images.githubusercontent.com/61624336/135564853-cfe792e0-5ca1-471c-8287-cce8be38626d.png)
+  
+É importante observar que a quantidade de chaves precisa ser igual à quantidade de variáveis passadas como parâmetros no método `format()`. Seria muito bom se não precisássemos nos preocupar com essa correspondência para evitar erros bobos. E isso é possível! Para tornar a saída formatada ainda mais intuitiva, basta utilizar a letra ‘f’ no início dos parâmetros da função `print()` e colocar cada variável dentro das chaves na posição em que deve ser impressa. Veja como fica ainda mais fácil entender:
+
+![figura61](https://user-images.githubusercontent.com/61624336/135564963-eb56ae84-9186-4506-8d01-59c8e29db2eb.png)
+  
+Também é possível especificar a largura de campo para exibir um inteiro. Se a largura não for especificada, ela será determinada pela quantidade de dígitos do valor a ser impresso. Veja a figura 62:
+  
+![figura62](https://user-images.githubusercontent.com/61624336/135565052-006829ba-5624-4ca2-892a-8808cec44e57.png)
+  
+Observe que os valores `10` e `100` foram impressos com espaços em branco à esquerda. Isso ocorreu porque definimos que a primeira variável deveria ser impressa com `4` espaços com `{:4}` (`2` foram ocupados e `2` ficaram em branco), e que a segunda variável deveria ser impressa com `5` espaços com `{:5}` (`3` foram ocupados e `2` ficaram em branco).
+
+### Saiba mais
+Também é válido perceber que o padrão é alinhar os valores à direita do espaço reservado para a impressão da variável.
+  
+O método `format()` também pode ser usado para imprimir valores de ponto flutuante com a precisão definida. Veja a figura 63:
+
+![figura63](https://user-images.githubusercontent.com/61624336/135565295-50303a92-2571-434f-a5d2-deb9862f6b9e.png)
+  
+Ao usar `{:8.5}`, estamos determinando que a impressão será com `8` espaços, mas apenas `5` serão utilizados.
+
+### Impressão de sequências
+**Python** também permite a impressão de sequências com mais possibilidades que **C**, incluindo as strings. Para imprimir um vetor em **C**, por exemplo, precisamos chamar a `printf()` tem o item. Em Python, basta chamar a função `print()` passando como parâmetro a sequência. Veja a figura 64:
+  
+![figura64](https://user-images.githubusercontent.com/61624336/135565470-873c3eaf-c533-4c6b-8460-898358f0350f.png)
+  
+Para imprimir uma **substring**, por exemplo, basta utilizar os colchetes `[]` para indicar o intervalo de índices que deve ser impresso. Vale lembrar que o primeiro caractere da string é indexado com `0`. Veja a figura 65:
+
+![figura65](https://user-images.githubusercontent.com/61624336/135565532-f6321141-e722-4414-9ca7-721ac7c6b3b3.png)
+
+### Atenção
+Usar `[0:4]` provoca a impressão dos índices `0, 1, 2 e 3`, **mas não** do índice 4. Analogamente, usar `[2:8]` provoca a impressão dos índices de `2 a 7`, mas não do `8`.
+
+Também é possível imprimir a string como lida da direita para a esquerda. Para isso, deve-se utilizar `[: : -1]`. Esse valor `-1` indica que a leitura dos caracteres será feita no sentido oposto ao tradicional. Observe a figura 66:
+  
+![figura66](https://user-images.githubusercontent.com/61624336/135565755-38814479-bcf7-4711-a96d-eed7c616be39.png)
+  
+### Atenção
+Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
+
