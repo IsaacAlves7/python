@@ -1973,17 +1973,17 @@ Python também oferece a estrutura `elif`, que permite o teste de duas condiçõ
 Veja uma implementação possível com a estrutura `elif` na Figura 1:
 
 ```python
-  1 idade = eval(input('Informe a idade da criança: '))
-  2 if idade < 5:
-  3 print('A criança deve ser vacinada contra a gripe.')
-  4 print('Procure o posto de saúde mais próximo.')
-  5 elif idade == 5:
-  6 print('A vacina estará disponível em breve.')
-  7 print('Aguarde as próximas informações.')
-  8 else:
-  9 print('A vacinação só ocorrerá daqui a 3 meses.')
-10  print('Informe-se novamente neste prazo.')
-11 print('Cuide da saúde sempre. Até a próxima.')
+  idade = eval(input('Informe a idade da criança: '))
+  if idade < 5:
+  print('A criança deve ser vacinada contra a gripe.')
+  print('Procure o posto de saúde mais próximo.')
+  elif idade == 5:
+  print('A vacina estará disponível em breve.')
+  print('Aguarde as próximas informações.')
+  else:
+  print('A vacinação só ocorrerá daqui a 3 meses.')
+  print('Informe-se novamente neste prazo.')
+  print('Cuide da saúde sempre. Até a próxima.')
 ```
 
 Perceba que a indentação precisa ser ajustada, uma vez que o último else é relativo ao `elif`. Por isso, eles precisam estar alinhados.
