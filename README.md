@@ -1820,4 +1820,11 @@ O usuário digitou `3` e [ENTER]. Mesmo sendo um valor, a variável numero trata
 
 ### A função `eval()`
 A função `eval()` recebe uma string, mas trata como um valor numérico. Veja o exemplo a seguir:
+  
+![figura54](https://user-images.githubusercontent.com/61624336/135561204-f9edca85-9c7c-41be-9d26-9ffc439c84ff.png)
+  
+Mesmo tendo recebido a string `'1+2'` como parâmetro, a função `eval()` efetuou a soma de `1` com `2`. Observe que confirmamos que `s` é uma string com a instrução `type(s)`.
 
+Para tratar a entrada do usuário como um número e, com isso, realizar operações algébricas, por exemplo, é necessário utilizar a função `eval()` em conjunto com a `input()`. Veja o próximo exemplo:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135561379-c1e94f7d-403d-43b0-aefb-d5a53776e960.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135561395-39265870-5f81-4b17-9d4e-be2bb0a17926.png" height="307"></div>
