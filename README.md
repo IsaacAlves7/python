@@ -1882,3 +1882,16 @@ Fique atento quando utilizar o intervalo na impressão no sentido inverso, porqu
 # 🐍 Estruturas de decisão e repetição em Python ✔️❌
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
 
+## TRATAMENTO DAS CONDIÇÕES
+As **estruturas de decisão** e de **repetição** possuem sintaxes bastante semelhantes em **C** e em **Python**. Mesmo com essa grande semelhança, existe uma diferença crítica no tratamento das condições. Diferentemente da linguagem **C**, **Python** oferece o tipo `bool`. Por isso, cabe ressaltar a diferença de comportamento das duas linguagens nesse tratamento.
+  
+<table>
+  <tr>
+    <td><b>Python</b></td>
+    <td><b>C</b></td>
+  </tr>
+  <tr>
+    <td>Existe o tipo bool</td>
+    <td>Não existe o tipo bool</td>
+  </tr>
+</table>
