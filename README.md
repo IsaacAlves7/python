@@ -1661,4 +1661,5 @@ Agora que você já viu os principais tipos de dados suportados em Python, vamos
 
 Assinale a opção com o valor correto dessa expressão em Python.
 
-<pre>-10.5</pre>
+<pre><b>Resposta:</b> -10.5</pre>
+<blockquote>Lembre-se que o operador <code>**</code> tem precedência maior do que os operadores <code>/</code> e <code>//</code>, os quais, por sua vez, têm precedência sobre <code>+</code> e <code>-</code>. Ou seja, primeiro será efetuada a exponenciação (<code>4**2</code>), depois as divisões, comum (<code>5/2</code>) e inteira (<code>5//2</code>), para posteriormente serem efetuadas as somas e subtrações.</blockquote>
