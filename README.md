@@ -1735,12 +1735,6 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
     <td><code>x /= 2</code></td>
     <td>x passa a valer 5</td>
   </tr>
-  <tr>
-    <td>Divisão inteira</td>
-    <td><code>//</code></td>
-    <td><code>9/2</code></td>
-    <td><code>4</code></td>
-  </tr>
    <tr>
     <td>Módulo igual</td>
     <td><code>%=</code></td>
