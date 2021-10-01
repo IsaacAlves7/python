@@ -1793,3 +1793,31 @@ Como você deve ter percebido, o que a função `print()` recebeu entre parênte
 Também poderíamos ter passado como parâmetro uma variável definida anteriormente. A função `print()` vai trabalhar com o valor dessa variável. Observe as figuras 46 e 47:
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/135556758-165cc082-c33b-49a2-92c3-0a5b18f5713a.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135556807-a18d4902-a2b8-4da5-b7b5-e19c8a3e6df5.png" height="307"></div>
+  
+## ENTRADA DE DADOS COM A FUNÇÃO `INPUT()`
+Quando o programador quiser que o usuário entre com algum valor, ele deverá exibir na tela o seu pedido. Em **C**, é necessário utilizar a função `printf()` para escrever a solicitação ao usuário e a função `scanf()` para receber a entrada e armazenar em uma variável. Em Python, é possível utilizar a função `input()`. Ela tanto exibe na tela o pedido, como permite que o valor informado pelo usuário seja armazenado em uma variável do seu programa. Analise a figura 48:
+
+![figura48](https://user-images.githubusercontent.com/61624336/135557070-e2632f21-e632-4ed8-8e01-3a0ba88e4694.png)
+
+A **linha 1** fará com que a frase Entre com seu nome: seja exibida no console, mas a execução do programa fica travada até que o usuário aperte [ENTER] no teclado. Tudo o que foi digitado até o [ENTER] vai ser armazenado na variável nome. A linha 2 fará a exibição do conteúdo da variável nome. Veja o resultado no console, com o usuário tendo digitado `Fulano de Tal`.
+
+![figura49](https://user-images.githubusercontent.com/61624336/135557120-0a3212eb-c88d-4bce-bf43-368ba46ebeb7.png)
+
+### Atenção!
+É importantíssimo perceber que a função `input()` trata **tudo o que for digitado** pelo usuário como uma `string`, armazenando na variável designada pelo programador para isso. Mesmo que o usuário entre com apenas uma letra ou um número, isso será armazenado como uma string na variável.
+  
+Vamos analisar o exemplo a seguir:
+
+![figura50](https://user-images.githubusercontent.com/61624336/135557245-cbb1e7e4-57d5-48e0-8062-9906350d4707.png)
+  
+Veja o console quando o programa é executado:
+
+![figura51](https://user-images.githubusercontent.com/61624336/135557287-6b51b6ed-1854-44f1-bdc7-03461b850344.png)
+
+O usuário digitou `3` e [ENTER]. Mesmo sendo um valor, a variável numero trata como a string ‘3’. Isso impede que seja realizada a operação de soma com o inteiro `2`, por exemplo. Poderíamos também usar a instrução `print(type(numero))` na **linha 2** para confirmar. Veja:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135557447-50f69aed-92e9-4555-a971-318ec71a34a3.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135557459-3e9bdfe4-ca8b-4944-b182-8c1b783bfb20.png" height="307"></div>
+
+### A função `eval()`
+A função `eval()` recebe uma string, mas trata como um valor numérico. Veja o exemplo a seguir:
+
