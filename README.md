@@ -1828,3 +1828,13 @@ Mesmo tendo recebido a string `'1+2'` como parâmetro, a função `eval()` efetu
 Para tratar a entrada do usuário como um número e, com isso, realizar operações algébricas, por exemplo, é necessário utilizar a função `eval()` em conjunto com a `input()`. Veja o próximo exemplo:
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/135561379-c1e94f7d-403d-43b0-aefb-d5a53776e960.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135561395-39265870-5f81-4b17-9d4e-be2bb0a17926.png" height="307"></div>
+
+## SAÍDA FORMATADA DE DADOS
+Quando desejamos que a saída siga determinado padrão – por exemplo, de hora ou de data – existem algumas possibilidades para usar a função `print()`. É sempre possível utilizar a concatenação de strings, com o operador `+`, para montar a frase como quisermos. Suponha que tenhamos as seguintes variáveis:
+`hora = 10 minutos = 26 segundos = 18`
+
+Poderíamos chamar a função `print()` com o separador `:` da seguinte forma:
+
+![figura59](https://user-images.githubusercontent.com/61624336/135562269-f0d87927-e31b-447b-bf04-3c5e5949e718.png)
+
+Porém, existe outra possibilidade, usando o método `format()`. Ele permite que a chamada à função `print()` fique muito parecida com as chamadas à função `printf()` em **C**, com passagem de parâmetros a serem colocados em ordem na string. Com o método `format()`, podemos montar a string com as chaves `{}` indicando onde entrarão valores, passados como parâmetros separados por vírgulas.
