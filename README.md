@@ -2039,3 +2039,11 @@ Cabe ressaltar a diferença de sintaxe entre as linguagens **C** e **Python**. V
     <td>}</td>
   </tr>
 </table>
+
+Vamos analisar um exemplo simples em Python: **imprimir todos os elementos de uma sequência criada com a chamada `range()`**. Veja uma possível implementação desse exemplo na Figura 2:
+
+```python
+for item in range(2, 9, 3):
+  print(item)
+```
+  
