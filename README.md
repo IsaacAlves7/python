@@ -1894,4 +1894,37 @@ As **estruturas de decisão** e de **repetição** possuem sintaxes bastante sem
     <td>Existe o tipo bool</td>
     <td>Não existe o tipo bool</td>
   </tr>
+  <tr>
+    <td>True</td>
+    <td>Qualquer valor diferente de 0 (zero)</td>
+  </tr>
+  <tr>
+    <td>False</td>
+    <td>0 (zero) ou vazio</td>
+  </tr>
+</table>
+
+### Atenção!
+Observe que o fato de haver o tipo `bool` em Python permite que as condições sejam tratadas como **verdadeiras** ou **falsas**, o que não é exatamente igual em **C**.
+
+## AS ESTRUTURAS DE DECISÃO IF, IF-ELSE E ELIF
+Em Python, é possível utilizar as estruturas de decisão `if` e `if-else` da mesma forma que em **C**. A diferença principal é o modo de delimitar os blocos de instruções relativos a cada parte da estrutura. Observe a Tabela 2 e a Tabela 3:
+  
+<table>
+  <tr>
+    <td><b>Python</b></td>
+    <td><b>C</b></td>
+  </tr>
+  <tr>
+    <td>if <condição>:	</td>
+    <td>if <condição>{</td>
+  </tr>
+  <tr>
+    <td>Instruções com 4 espaços de indentação</td>
+    <td>A indentação não é exigida</td>
+  </tr>
+  <tr>
+    <td>Instrução fora do if</td>
+    <td>}</td>
+  </tr>
 </table>
