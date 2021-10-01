@@ -2081,5 +2081,5 @@ for item in range(2, 9, 3):
   </tr>
 </table>
 
-## O laço for com uma string
+## O laço `for` com uma string
 Python também permite que a repetição aconteça ao longo de uma string. Para isso, basta lembrar que a string é uma sequência de caracteres individuais. Suponha que você queira soletrar o nome informado pelo usuário. Uma possível implementação está na Figura 3:
