@@ -1792,4 +1792,4 @@ Como você deve ter percebido, o que a função `print()` recebeu entre parênte
 
 Também poderíamos ter passado como parâmetro uma variável definida anteriormente. A função `print()` vai trabalhar com o valor dessa variável. Observe as figuras 46 e 47:
 
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135556758-165cc082-c33b-49a2-92c3-0a5b18f5713a.png" height="107"><img src="https://user-images.githubusercontent.com/61624336/135556807-a18d4902-a2b8-4da5-b7b5-e19c8a3e6df5.png" height="107"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135556758-165cc082-c33b-49a2-92c3-0a5b18f5713a.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135556807-a18d4902-a2b8-4da5-b7b5-e19c8a3e6df5.png" height="307"></div>
