@@ -2058,4 +2058,25 @@ for item in range(2, 9, 3):
     <td>5</td>
     <td>8</td>
   </tr>
+  <tr>
+    <td>Iteração 1 do laço</td>
+    <td>item =</td>
+    <td><code>2</code></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Iteração 2 do laço</td>
+    <td>item =</td>
+    <td>&nbsp;</td>
+    <td><code>5</code></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Iteração 3 do laço</td>
+    <td>item =</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><code>8</code></td>
+  </tr>
 </table>
