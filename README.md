@@ -1635,3 +1635,30 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
 
 ### Exemplo
   <blockquote>Um número do tipo <code>int</code> pode ser visto como um <code>float</code> com a parte decimal nula. Porém, o inverso não é verdade. Ou seja, o conjunto dos inteiros (<code>int</code>) é um subconjunto do conjunto dos reais (<code>float</code>). Assim, a expressão <code>5 + 0.68</code> – que envolve um <code>int</code> e um <code>float</code> – tem como resultado <code>5.68</code>. O inteiro <code>5</code> é convertido pelo Python para o número de ponto flutuante <code>5.0</code> antes que a soma (de dois valores <code>float</code>) seja realmente efetuada.</blockquote>
+
+### Conversão Implícita
+Uma **conversão implícita não intuitiva** é a dos valores booleanos `True` e `False` em inteiros, respectivamente, `1` e `0`. Veja os exemplos a seguir:
+
+![figura33](https://user-images.githubusercontent.com/61624336/135546575-8632668b-5639-41f5-8876-b60d0bdc6d6f.png)
+
+Com isso, podemos perceber a seguinte relação entre os tipos `bool`, `int` e `float`:
+
+![figura34](https://user-images.githubusercontent.com/61624336/135546748-bfdd145b-3ee7-4155-a232-a47a4e2d82b4.png)
+
+### Conversão Explícita
+Além das **conversões implícitas**, o programador também pode usar as **conversões explícitas**, quando ele força que o valor seja tratado como de determinado tipo. Para isso, é necessário usar o construtor do tipo desejado, com o valor passado como parâmetro (entre parênteses). Veja o exemplo a seguir:
+
+![figura35](https://user-images.githubusercontent.com/61624336/135546878-6c6ce281-2d63-4a24-9b4e-20fded847fa8.png)
+
+O `int 2` pode ser tratado naturalmente como o `float 2.0`, basta acrescentar a parte decimal nula. Porém, ao tentar tratar um `float` como `int`, ocorre a remoção da parte decimal.
+
+### Atenção!
+<blockquote>Fique atento, porque não é uma aproximação para o inteiro mais próximo, e sim o <b>truncamento</b>.</blockquote>
+
+Agora que você já viu os principais tipos de dados suportados em Python, vamos exercitar e verificar o aprendizado.
+
+1. Considere a expressão a seguir: `2 + 3 – 4 ** 2 + 5 / 2 – 5 // 2`
+
+Assinale a opção com o valor correto dessa expressão em Python.
+
+<pre>-10.5</pre>
