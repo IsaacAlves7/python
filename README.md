@@ -1955,3 +1955,40 @@ Em Python, é possível utilizar as estruturas de decisão `if` e `if-else` da m
     <td>}</td>
   </tr>
 </table>
+
+Python também oferece a estrutura `elif`, que permite o teste de duas condições de forma sequencial. Essa estrutura não existe em **C**, sendo necessário o encadeamento de estruturas `if-else`. Em geral, o formato da estrutura `elif` é:
+
+```python
+1     """
+2     if <condição 1>:
+3     Bloco de código que será executado caso condição seja True
+4     elif <condição 2>:
+5     Bloco de código que será executado caso condição 1 seja False e condição 2 seja True
+6     else:
+7     Bloco de código que será executado caso condição 1 seja False e condição 2 seja False
+8     Instrução fora do if
+9     """  
+```
+  
+Veja uma implementação possível com a estrutura `elif` na Figura 1:
+
+```python
+  1 idade = eval(input('Informe a idade da criança: '))
+  2 if idade < 5:
+  3 print('A criança deve ser vacinada contra a gripe.')
+  4 print('Procure o posto de saúde mais próximo.')
+  5 elif idade == 5:
+  6 print('A vacina estará disponível em breve.')
+  7 print('Aguarde as próximas informações.')
+  8 else:
+  9 print('A vacinação só ocorrerá daqui a 3 meses.')
+10  print('Informe-se novamente neste prazo.')
+11 print('Cuide da saúde sempre. Até a próxima.')
+```
+
+Perceba que a indentação precisa ser ajustada, uma vez que o último else é relativo ao `elif`. Por isso, eles precisam estar alinhados.
+
+## ESTRUTURA DE REPETIÇÃO `FOR`
+A **estrutura de repetição** `for` tem funcionamento muito semelhante nas linguagens **C** e **Python**. Porém, a sintaxe é diferente nas duas linguagens. Além disso, em Python existe maior flexibilidade, já que a repetição pode ser controlada por uma variável não numérica.
+
+Antes de detalhar o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista ajudará a verificar a repetição e deixará mais claro o entendimento do laço.
