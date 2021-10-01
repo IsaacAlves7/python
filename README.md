@@ -2049,3 +2049,13 @@ for item in range(2, 9, 3):
   
 - A **linha 1** mostra a criação do laço, com a variável item percorrendo a sequência (`2, 5, 8`), criada pela chamada `range(2, 9, 3)`;
 - A **linha 2** indica a instrução que será executada para cada repetição deste laço. O laço for executa a instrução da linha 2 três vezes, uma para cada elemento da sequência (2, 5, 8); o resultado está exemplificado na Tabela 5.
+
+<table>
+  <tr>
+    <td></td>
+    <td>sequência</td>
+    <td>2</td>
+    <td>5</td>
+    <td>8</td>
+  </tr>
+</table>
