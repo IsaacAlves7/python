@@ -1663,3 +1663,14 @@ Assinale a opção com o valor correto dessa expressão em Python.
 
 <pre><b>Resposta:</b> -10.5</pre>
 <blockquote>Lembre-se que o operador <code>**</code> tem precedência maior do que os operadores <code>/</code> e <code>//</code>, os quais, por sua vez, têm precedência sobre <code>+</code> e <code>-</code>. Ou seja, primeiro será efetuada a exponenciação (<code>4**2</code>), depois as divisões, comum (<code>5/2</code>) e inteira (<code>5//2</code>), para posteriormente serem efetuadas as somas e subtrações.</blockquote>
+
+2. (Adaptada de COMPERVE/2019/UFRN/Engenharia da Computação) Python é uma linguagem interpretada muito utilizada. Não requer tipagem de variáveis e sua sintaxe indentada favorece a organização do código. Uma das suas funcionalidades mais poderosas são as listas. Considere o código em Python do quadro abaixo:
+
+![mod3p2](https://user-images.githubusercontent.com/61624336/135548998-533397a9-4fd6-4d9c-8e0f-f51b1c156753.png)
+
+<pre><b>Resposta:</b> 2 e 4</pre>
+<blockquote>O operador <code>+</code> realiza operações de soma para tipos numéricos e concatenação para tipos sequenciais. Assim, a variável a na linha 1 passa a ser composta dos itens ‘UF’ e ‘RN’. Assim, a chamada <code>len(a)</code> retorna o tamanho <code>2</code>, número de elementos de a. De forma semelhante, o operador <code>*</code> realiza operações de multiplicação para tipos numéricos e concatenação de cópias para tipos sequenciais. Assim, a variável b na linha 3 passa a ser a lista <code>['4', '4', '4', '4']</code>. E a chamada <code>len(b)</code> retorna o tamanho <code>4</code>, número de elementos de b.</blockquote>
+  
+## Entrada e saída de dados em Python
+Já vimos, de maneira básica, como podemos atribuir valor a uma variável, no módulo 2. Vamos agora conhecer outras formas de atribuição.
+  
