@@ -2083,3 +2083,22 @@ for item in range(2, 9, 3):
 
 ## O laço `for` com uma string
 Python também permite que a repetição aconteça ao longo de uma string. Para isso, basta lembrar que a string é uma sequência de caracteres individuais. Suponha que você queira soletrar o nome informado pelo usuário. Uma possível implementação está na Figura 3:
+
+```
+nome = input("Entre com seu nome: ")
+ for letra in nome:
+ print(letra)
+```
+
+- A **linha 1** faz com que a palavra inserida pelo usuário seja armazenada na variável nome;
+- A **linha 2** mostra a criação do **laço**, com a variável letra percorrendo a sequência de caracteres armazenada na variável nome;
+- A **linha 3** indica a instrução que será executada para cada repetição desse laço. O laço `for` executa a instrução da linha 3 tantas vezes quantos forem os elementos da sequência que está na variável nome.
+  
+<pre>
+1 Entre com o seu nome: Laura
+2 L
+3 a
+4 u
+5 r
+6 a
+</pre>
