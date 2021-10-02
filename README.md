@@ -2102,3 +2102,36 @@ nome = input("Entre com seu nome: ")
 5 r
 6 a
 </pre>
+
+# Uso do laço `for` com qualquer sequência
+Até agora, estudamos o uso do laço `for` com **iterações** sobre **strings** e sobre **sequências numéricas**, mas **Python** permite ainda mais que isso!
+  
+<blockquote>Podemos utilizar o laço <code>for</code> com iterações sobre qualquer sequência, não somente as <b>numéricas</b> e as <b>strings</b>.</blockquote>
+  
+Observe o exemplo da Figura 5:
+
+```python
+nomes = ['Laura', 'Lis', 'Guilherme', 'Enzo', 'Arthur']
+for nome in nomes:
+ print(nome)
+```  
+
+Veja o resultado da execução na Figura 6:
+
+<pre>
+1 Laura
+2 Lis
+3 Guilherme
+4 Enzo
+5 Arthur
+</pre>
+  
+## ESTRUTURA DE REPETIÇÃO `WHILE`
+A estrutura de repetição `while` tem funcionamento e sintaxe muito semelhantes nas linguagens **C** e **Python**. Observe a comparação entre as duas linguagens na Tabela 6:
+  
+<table>
+<tr>
+  <td><b>Python</b></td>
+  <td><b>C</b></td>
+<tr>
+</table>
