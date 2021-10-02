@@ -2134,4 +2134,73 @@ A estrutura de repetição `while` tem funcionamento e sintaxe muito semelhantes
   <td><b>Python</b></td>
   <td><b>C</b></td>
 <tr>
+<tr>
+  <td>while <condição>:	</td>
+  <td>while <condição>{</td>
+<tr>
+<tr>
+  <td>Instruções com 4 espaços de indentação</td>
+  <td>Bloco de instruções a ser repetido. A indentação não é exigida</td>
+<tr>
+<tr>
+  <td>Instrução fora do while</td>
+  <td>}</td>
+<tr>
 </table>
+
+Como exemplo inicial do uso do laço `while`, vamos analisar um programa em que o usuário precisa digitar a palavra “sair” para que o laço `while` seja encerrado.
+
+Uma possível implementação desse exemplo em Python está na Figura 7:
+  
+```python
+palavra = input('Entre com uma palavra: ')
+while palavra != 'sair':
+palavra = input('Digite sair para encerrar o laço: ')
+print('Você digitou sair e agora está fora do laço')
+```
+
+- A **linha 1** representa a solicitação ao usuário para que ele insira uma palavra, que será armazenada na variável palavra;
+- A **linha 2** cria o laço `while`, que depende da condição <valor da variável palavra ser diferente de ‘sair’>;
+- A **linha 3** será repetida enquanto a condição for verdadeira, ou seja, enquanto o valor da variável palavra for diferente de ‘sair’. Quando esses valores forem iguais, a condição do laço `while` será falsa e o laço será encerrado;
+- A **linha 4** representa a impressão da mensagem fora do laço `while`.
+  
+Veja uma execução desse programa na Figura 8:
+  
+<pre>
+1 Entre com uma palavra: teste
+2 Digite sair para encerrar o laço: Oi?
+3 Digite sair para encerrar o laço: Estou tentando...
+4 Digite sair para encerrar o laço: Aff...
+5 Digite sair para encerrar o laço: Blz, entendi...
+6 Digite sair para encerrar o laço: Sair
+7 Digite sair para encerrar o laço: Ah! o 'S' foi maiúsculo
+8 Digite sair para encerrar o laço: sair
+9 Você digitou sair e agora está fora do laço
+</pre>
+  
+Observe agora outra execução do mesmo programa na Figura 9:
+
+<pre>
+1 Entre com uma palavra: sair
+2 Você digitou sair e agora está fora do laço
+</pre>
+  
+Perceba que ao digitar ‘sair’ logo na primeira solicitação, a linha 3 do nosso programa não é executada nenhuma vez. Ou seja, o programa nem chega a entrar no laço `while`.
+
+Em **C**, existe outra estrutura muito semelhante ao `while`, chamada `do-while`. A diferença básica entre elas é o momento em que a condição é testada, como vemos a seguir:
+  
+  <table>
+    <tr>
+      <td>No laço while, a condição é testada antes da iteração.
+
+O laço while testa e executa caso a condição seja verdadeira.
+
+No laço do-while, a condição é testada após a iteração.
+
+O laço do-while executa e testa.</td>
+      <td>X</td>
+      <td>No laço <code>do-while</code>, a condição é testada após a iteração.
+
+        O laço <code>do-while</code> executa e testa.</td>
+    </tr>
+  </table>
