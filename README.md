@@ -2199,8 +2199,6 @@ No laço do-while, a condição é testada após a iteração.
 
 O laço do-while executa e testa.</td>
       <td>X</td>
-      <td>No laço <code>do-while</code>, a condição é testada após a iteração.
-
-        O laço <code>do-while</code> executa e testa.</td>
+      <td>No laço <code>do-while</code>, a condição é testada após a iteração. O laço <code>do-while</code> executa e testa.</td>
     </tr>
   </table>
