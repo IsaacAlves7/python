@@ -2219,8 +2219,15 @@ Deve-se tomar cuidado e ter certeza de que seu uso é realmente necessário para
 
 # AS INSTRUÇÕES AUXILIARES `BREAK`, `CONTINUE` E `PASS`
 
-## A instrução break
+## A instrução `break`
 A instrução `break` funciona da mesma maneira em **C** e em **Python**. Ela interrompe as repetições dos laços `for` e `while`. Quando a execução do programa chega a uma instrução `break`, a repetição é encerrada e o fluxo do programa segue a partir da primeira instrução seguinte ao laço.
 
 Para exemplificar o uso da instrução `break`, vamos voltar ao primeiro exemplo do laço `while`, utilizando o laço infinito. O laço será encerrado quando o usuário inserir a palavra ‘sair’. Veja a Figura 10:
   
+```python
+while True:
+  palavra = input('Entre com uma palavra: ')
+  if palavra == 'sair':
+  break
+  print('Você digitou sair e agora está fora do laço')
+```
