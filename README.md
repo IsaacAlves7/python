@@ -2192,13 +2192,27 @@ Em **C**, existe outra estrutura muito semelhante ao `while`, chamada `do-while`
   <table>
     <tr>
       <td>No laço while, a condição é testada antes da iteração.
-
-O laço while testa e executa caso a condição seja verdadeira.
-
-No laço do-while, a condição é testada após a iteração.
-
-O laço do-while executa e testa.</td>
+        O laço <code>while</code> testa e executa caso a condição seja verdadeira.
+        No laço <code>do-while</code>, a condição é testada após a iteração.
+        O laço <code>do-while</code> executa e testa.</td>
       <td>X</td>
       <td>No laço <code>do-while</code>, a condição é testada após a iteração. O laço <code>do-while</code> executa e testa.</td>
     </tr>
   </table>
+
+Infelizmente, a estrutura `do-while` não existe em Python. Isso não chega a ser um grande problema, porque podemos adaptar nosso programa e controlar as repetições com o laço `while`.
+
+## O laço `while` infinito
+**Laços infinitos** são úteis quando queremos executar um bloco de instruções indefinidamente.
+
+O laço `while` infinito tem o seguinte formato:
+  
+```python
+ while True:
+   Bloco que será repetido indefinidamente
+```
+
+### Exemplo
+<blockquote>Suponha que você deseje criar uma aplicação que permaneça por meses ou anos sendo executada, registrando a temperatura ou a umidade de um ambiente. Logicamente, estamos supondo que você tenha essa informação disponível a partir da leitura de algum sensor.
+
+Deve-se tomar cuidado e ter certeza de que seu uso é realmente necessário para evitar problemas de consumo excessivo de memória.</blockquote>
