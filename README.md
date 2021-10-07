@@ -804,15 +804,15 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
-### Jython
-<div align="center"><a href="https://www.jython.org/"><img src="https://www.jython.org/assets/jython.png" height="177"></a></div><br \>
+## Jython
+<div align="center"><a href="https://www.sprezzatech.com/wiki/images/1/10/Jython.svg" height="177"></a></div><br \>
 
 <blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
 
-### interpretador
+## O interpretador
 O **interpretador** converte para código de máquina, em tempo de execução. O **compilador** traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
 
-### CPython
+## CPython
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
 
 **CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
@@ -2260,8 +2260,37 @@ while True:
 ```
   
 ## A instrução `continue`
-A instrução `continue` também funciona da mesma maneira em **C** e em **Python**. Ela atua sobre as repetições dos laços `for` e `while`, como a instrução `break`, mas não interrompe todas as repetições do laço. A instrução `continue` interrompe apenas a iteração corrente, fazendo com que o laço passe para a próxima iteração.
+A instrução `continue` também funciona da mesma maneira em **C** e em **Python**. Ela atua sobre as repetições dos laços `for` e `while`, como a instrução `break`, mas não interrompe todas as repetições do laço. A instrução `continue` **interrompe apenas a iteração corrente**, fazendo com que o **laço passe para a próxima iteração**.
 
 O exemplo a seguir imprime todos os números inteiros de `1` até `10`, pulando apenas o `5`. Veja sua implementação na Figura 12:
   
+```python
+ for num in range(1, 11):
+  if num == 5:
+   continue
+  else:
+   print(num)
+   print('Laço encerrado')
+```
+
+Para ressaltar a diferença entre as instruções `break` e `continue`, vamos alterar a linha 3 do nosso programa, trocando a instrução `continue` pela instrução `break`. Veja a nova execução na Figura 13:
   
+<pre>
+1
+2
+3
+4
+Laço encerrado
+</pre>
+  
+## A INSTRUÇÃO `PASS`
+A instrução `pass` atua sobre a estrutura `if`, permitindo que ela seja escrita sem outras instruções a serem executadas caso a condição seja verdadeira. Assim, podemos concentrar as instruções no caso em que a condição seja falsa. Suponha que queiramos imprimir somente os números ímpares entre `1` e `10`. Uma implementação possível está na Figura 14:
+  
+```python
+for num in range(1, 11):
+  if num % 2 == 0:
+      pass
+  else:
+      print(num)
+print('Laço encerrado')
+```
