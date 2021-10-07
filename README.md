@@ -616,7 +616,9 @@ O **paradigma concorrente** pode valer-se de apenas um processador ou vários.
 
 <blockquote>Ada e Java são as linguagens que melhor caracterizam esse paradigma, possibilitando suporte à concorrência.</blockquote>
 
-<blockquote><b>Você sabia:</b> Ao contrário de Go, Python não foi originalmente projetada com foco em programação concorrente, muito menos paralela. O modo tradicional de programar concorrência em Python -- threads -- é limitado no interpretador padrão (CPython) por uma trava global (a GIL), que impede a execução paralela de threads escritas em Python. Isso significa que threads em Python são úteis apenas em aplicações I/O bound (Aplicações I/O bound são aquelas em que há predomínio de ações de entrada e saída de dados.) – em que o gargalo está no I/O (entrada e saída), como é o caso de aplicações na Internet.</blockquote>
+<blockquote><b>Você sabia:</b> Ao contrário de Go, Python não foi originalmente projetada com foco em programação concorrente, muito menos paralela. 
+  
+O modo tradicional de programar concorrência em Python -- threads -- é limitado no interpretador padrão (CPython) por uma trava global (a GIL), que impede a execução paralela de threads escritas em Python. Isso significa que threads em Python são úteis apenas em aplicações I/O bound (Aplicações I/O bound são aquelas em que há predomínio de ações de entrada e saída de dados.) – em que o gargalo está no I/O (entrada e saída), como é o caso de aplicações na Internet.</blockquote>
 
 ### PARADIGMA DECLARATIVO
 Diferentemente do paradigma imperativo, no **declarativo** o programador diz o que o programa deve fazer (qual a tarefa), ao invés de descrever como o programa deve fazer. O programador declara, de forma abstrata, a solução do problema.
@@ -802,12 +804,16 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
+### Jython
 <div align="center"><a href="https://www.jython.org/"><img src="https://www.jython.org/assets/jython.png" height="177"></a></div><br \>
 
 <blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
 
+### interpretador
 O **interpretador** converte para código de máquina, em tempo de execução. O **compilador** traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
 
+### CPython
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
 **CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
 
 ## VirtualEnv em Python
