@@ -2430,3 +2430,27 @@ Os **subprogramas** podem ser, distintamente, **procedimentos** e **funções**.
     <td>São aquelas que retornam valores.</td>
   </tr>
 </table>
+
+Na maioria das linguagens que não explicita a diferença entre eles, as funções podem ser definidas sem retornar qualquer valor, tendo comportamento de procedimento. Esse é o caso de Python. Veja o exemplo da Figura 18:
+
+```python
+def func1(x):
+  x = 10
+  print(f'Função func1 - x = {x}')
+
+def func2(x):
+  x = 20
+  print(f'Função func2 - x = {x}')
+
+x = 0
+ func1(x)
+ func2(x)
+print(f'Programa principal - x = {x}')  
+```
+  
+As funções `func1(x)` e `func2(x)` não possuem qualquer retorno. Ou seja, são funções com **comportamento de procedimentos**.
+
+## AMBIENTES DE REFERENCIAMENTO LOCAL
+  
+### Variáveis locais
+Quando um subprograma define suas próprias variáveis, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de **variáveis locais**, com seu escopo usualmente sendo o corpo do subprograma. As variáveis locais podem ser:
