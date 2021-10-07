@@ -2398,3 +2398,35 @@ Quando o subprograma é chamado, é necessário escrever o nome do subprograma e
 No exemplo da Figura 16, existe o cabeçalho da função func1 na linha 3, com o parâmetro formal x. Na linha 9, a função func1 é chamada com o parâmetro real 10.
 
 Em Python, é possível estabelecer valores padrão para os parâmetros formais. O valor padrão é usado quando a chamada da função ocorre sem nenhum parâmetro real. Veja o exemplo de definição e chamada da função taxímetro na Figura 17:
+
+```python
+def taximetro(distancia, multiplicador=1):
+  largada = 3
+  km_rodado = 2
+  valor = (largada + distancia * km_rodado) * multiplicador
+  return valor 
+ 
+pagamento = taximetro(3.5)
+print(pagamento)
+```
+  
+Observe que mesmo com a definição da linha 1 de dois parâmetros formais, a chamada da função na linha 8 ocorre apenas com um parâmetro real.
+  
+A palavra reservada `return` indica que a função **retorna** algum valor. Isso implica que o valor retornado seja armazenado em uma variável do programa chamador (como ocorre na linha 8), ou utilizado como parâmetro para outra função.
+  
+### Atenção!
+Retornar um valor é diferente de imprimir na tela. Ao utilizar a função `print()`, ocorre apenas a impressão de algo na tela, o que não significa que tenha havido retorno de qualquer função definida pelo usuário.
+  
+## PROCEDIMENTOS E FUNÇÕES
+Os **subprogramas** podem ser, distintamente, **procedimentos** e **funções**. De acordo com Sebesta (2018):
+  
+<table>
+  <tr>
+    <td><b>Procedimentos</b></td>
+    <td><b>Funções</b></td>
+  </tr>
+   <tr>
+    <td>São aqueles que não retornam valores.</td>
+    <td>São aquelas que retornam valores.</td>
+  </tr>
+</table>
