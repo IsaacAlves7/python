@@ -2512,3 +2512,34 @@ Percebe-se que o `print()` do programa principal está na linha 16, depois da ch
 ## Subprogramas aninhados
 Em Python, e na maioria das linguagens funcionais, é permitido aninhar subprogramas. Porém, as linguagens **C** e **C++** não permitem essa prática. Veja o exemplo da Figura 22:
   
+```python
+ def func1():
+   global x
+   x = 10
+   print(f'Função func1 - x = {x}')
+ 
+  
+def func2():
+  global x
+  x = 20
+  print(f'Função func2 - x = {x}')
+
+  
+x = 0
+func1()
+func2()
+print(f'Programa principal - x = {x}')  
+```
+  
+Observe agora a execução desse exemplo alterado na Figura 21:
+
+```python
+Função func1 - x = 10
+Função func2 - x = 20
+Programa principal - x = 20
+```
+  
+Percebe-se que o `print()` do programa principal está na linha 16, depois da chamada à função `func2(x)`. Dessa forma, a variável global `x` foi alterada na execução da `func2(x)` e fica com o valor `20` quando a execução volta ao programa principal.
+
+## Subprogramas aninhados
+Em Python, e na maioria das linguagens funcionais, é permitido aninhar subprogramas. Porém, as linguagens **C** e **C++** não permitem essa prática. Veja o exemplo da Figura 22:
