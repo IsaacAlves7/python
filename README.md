@@ -2453,4 +2453,58 @@ As funções `func1(x)` e `func2(x)` não possuem qualquer retorno. Ou seja, sã
 ## AMBIENTES DE REFERENCIAMENTO LOCAL
   
 ### Variáveis locais
-Quando um subprograma define suas próprias variáveis, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de **variáveis locais**, com seu escopo usualmente sendo o corpo do subprograma. As variáveis locais podem ser:
+Quando um subprograma define suas **próprias variáveis**, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de **variáveis locais**, com seu escopo usualmente sendo o corpo do subprograma. As variáveis locais podem ser:
+
+#### Dinâmicas da pilha
+São vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
+  
+#### Atenção!
+Nas linguagens **C** e **C++**, as **variáveis locais** são _dinâmicas da pilha_, a menos que sejam especificamente declaradas como **static**. **Todas as variáveis locais em Python são dinâmicas da pilha**. As **variáveis globais** são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local com mesmo nome de uma variável global, esta é implicitamente declarada como local.
+  
+Voltando ao exemplo da Figura 18, vamos detalhar as funções func1(x) e func2(x):
+
+- As linhas 1, 2 e 3 definem a função `func1(x)`, que recebe o parâmetro `x`, mas tem uma variável local de nome `x`, cujo valor atribuído é `10`;
+- Analogamente, a função `func2(x)` – definida nas linhas 6, 7 e 8 – que recebe o parâmetro `x` e tem uma variável de mesmo nome, mas com valor atribuído `20`;
+- O programa principal tem uma variável global de mesmo nome `x`, cujo valor atribuído é `0`, na linha 11;
+- Veja que as chamadas às funções `func1(x)` e `func2(x)` ocorrem nas linhas 12 e 13, quando a variável `x` global já recebeu o valor `0`. Porém, ao serem executadas, cada uma dessas funções tem a sua própria variável local, a quem todas as referências internas são feitas.
+  
+Confira a execução desse exemplo na Figura 19:
+  
+```python
+Função func1 - x = 10
+  
+Função func2 - x = 20
+
+Programa principal - x = 0  
+```
+  
+Mesmo com a variável global tendo valor nulo, cada variável local das funções `func1(x)` e `func2(x)` tem seu próprio valor, e não ocorrem alterações na variável global mesmo com as atribuições das linhas 2 e 7.
+  
+Para alterar a variável global `x`, seria necessário explicitar dentro de cada função que o nome `x` é referente a ela. Isso pode ser feito com a palavra reservada global. Além de explicitar a referência à variável global, as funções `func1(x)` e `func2(x)` não recebem mais os parâmetros de mesmo nome, já que fazem referência à variável global. Veja como ficaria o nosso exemplo com essa pequena alteração na Figura 20:
+  
+```python
+def func1():
+  global x
+  x = 10
+  print(f'Função func1 - x = {x}')
+
+def func2():
+  global x
+  x = 20
+   print(f'Função func2 - x = {x}')
+
+13 x = 0
+14 func1()
+15 func2()
+12 print(f'Programa principal - x = {x}')
+```
+  
+Observe agora a execução desse exemplo alterado na Figura 21:
+
+```python
+Função func1 - x = 10
+Função func2 - x = 20
+Programa principal - x = 20  
+```
+  
+Percebe-se que o `print()` do programa principal está na linha 16, depois da chamada à função `func2(x)`. Dessa forma, a variável global `x` foi alterada na execução da `func2(x)` e fica com o valor `20` quando a execução volta ao programa principal.
