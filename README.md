@@ -817,6 +817,8 @@ O **interpretador** converte para código de máquina, em tempo de execução. O
 
 **CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
 
+![cpython1](https://user-images.githubusercontent.com/61624336/136308856-241076e0-15b9-475d-a561-016c75fd2731.png)
+
 ## VirtualEnv em Python
 O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
 
@@ -2236,5 +2238,30 @@ while True:
   palavra = input('Entre com uma palavra: ')
   if palavra == 'sair':
   break
-  print('Você digitou sair e agora está fora do laço')
+print('Você digitou sair e agora está fora do laço')
 ```
+
+Caso haja **vários laços aninhados**, o `break` será relativo ao laço em que estiver inserido. Veja a Figura 11:
+
+```python
+while True:
+  print('Você está no primeiro laço.')
+  opcao1 = input('Deseja sair dele? Digite SIM para isso. ')
+  if opcao1 == 'SIM':
+  break # este break é do primeiro laço
+ else:
+  while True:
+   print('Você está no segundo laço.')
+   opcao2 = input('Deseja sair dele? Digite SIM para isso. ')
+    if opcao2 == 'SIM':
+      break # este break é do segundo laço
+    print('Você saiu do segundo laço.')
+    print('Você saiu do primeiro laço')
+```
+  
+## A instrução `continue`
+A instrução `continue` também funciona da mesma maneira em **C** e em **Python**. Ela atua sobre as repetições dos laços `for` e `while`, como a instrução `break`, mas não interrompe todas as repetições do laço. A instrução `continue` interrompe apenas a iteração corrente, fazendo com que o laço passe para a próxima iteração.
+
+O exemplo a seguir imprime todos os números inteiros de `1` até `10`, pulando apenas o `5`. Veja sua implementação na Figura 12:
+  
+  
