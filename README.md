@@ -2294,3 +2294,67 @@ for num in range(1, 11):
       print(num)
 print('Laço encerrado')
 ```
+
+Veja a execução desse programa na Figura 15:
+
+<pre>
+1
+3
+5
+7
+9
+Laço encerrado
+</pre>
+
+Claramente, seria possível reescrever a condição do `if-else` para que pudéssemos transformá-lo em um `if` simples, sem `else`. Porém, o objetivo aqui é mostrar o uso da instrução `pass`.
+
+Agora que já vimos os principais conceitos relativos às estruturas de decisão e de repetição, vamos testar seus conhecimentos.
+  
+### 1. Considere o seguinte trecho de um programa escrito em Python:
+
+```python
+s = 0
+  for i in range(5):
+    s += 3*i
+print(s)
+```  
+Parabéns! A alternativa "C" está correta.
+
+O laço for vai ser repetido 5 vezes, já que range(5) retorna a sequência (`0, 1, 2, 3, 4`). Vale observar que a instrução `print(s)` está fora do laço `for`, o que a leva a ser executada apenas uma vez quando o laço se encerrar. Isso elimina as opções A e B. A variável s começa com valor zero e é acrescida, a cada iteração, do valor `3*i`, sendo que `i` pertence à sequência (`0, 1, 2, 3, 4`). Ou seja, s recebe os acréscimos: `0 + 3 + 6 + 9 + 12`. Assim, ela termina o laço com o valor `30`, que será impresso pela instrução `print(s)`.
+  
+### 2. Considere o seguinte trecho de um programa escrito em Python:
+```python
+s = 0
+a = 1
+  while s < 5:
+     s = 3*a
+     a += 1
+print(s)
+```
+             
+Parabéns! A alternativa "B" está correta.
+
+Ao ser testada pela primeira vez, a condição do while é verdadeira, já que s vale zero. Assim, a variável s recebe o valor 3 (3x1) e a variável a é acrescida de uma unidade, ficando com o valor 2. Em seguida, é impresso o valor de s (3). A condição do while é, então, testada novamente, sendo mais uma vez verdadeira, porque s tem o valor 3 (menor que 5). Nessa iteração, a variável s recebe o valor 6 (3x2) e a variável a é acrescida de uma unidade, ficando com o valor 3. Em seguida, é impresso o valor de s (6). A condição do while é, então, testada novamente e é falsa, já que s tem o valor 6, maior que 5. Com isso, o laço while é encerrado e nada mais é impresso. Logo, foram impressos os valores 3 e 6.
+              
+## Subprogramas
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" height="277"></div>
+             
+Os **subprogramas** são elementos fundamentais dos programas e por isso são importantes no estudo de linguagens de programação. Neste módulo, abordaremos os conceitos de subprogramas, como características gerais, passagem de parâmetros e recursividade, além da utilização de subprogramas em Python.
+
+### CARACTERÍSTICAS GERAIS DOS SUBPROGRAMAS
+Todos os subprogramas estudados neste módulo, com base em Sebesta (2018), têm as seguintes características:
+
+- Cada subprograma tem **um único ponto de entrada**.
+- A unidade de programa chamadora é suspensa durante a execução do subprograma chamado, o que significa que existe apenas um subprograma em execução em determinado momento.
+- Quando a execução do subprograma termina, o controle sempre retorna para o chamador.
+
+### DEFINIÇÕES BÁSICAS
+As definições básicas, conforme Sebesta (2018), estabelecem que:
+
+1. Um subprograma é definido quando o desenvolvedor descreve a interface e as ações da abstração desse subprograma.
+2. O subprograma foi chamado quando uma instrução traz um pedido explícito para sua execução.
+3. O subprograma está ativo após o início de sua execução, a partir da sua chamada e enquanto ele não foi concluído.
+
+O cabeçalho do subprograma é a primeira parte da definição, em que podem ser especificados o nome, os parâmetros e o tipo de retorno do subprograma.
+
+Em C, o cabeçalho dos subprogramas – sendo chamados de funções – traz, em ordem: o tipo de retorno, o nome e a lista de parâmetros, como a seguir:
