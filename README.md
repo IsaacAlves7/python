@@ -2351,10 +2351,50 @@ Todos os subprogramas estudados neste módulo, com base em Sebesta (2018), têm 
 ### DEFINIÇÕES BÁSICAS
 As definições básicas, conforme Sebesta (2018), estabelecem que:
 
-1. Um subprograma é definido quando o desenvolvedor descreve a interface e as ações da abstração desse subprograma.
-2. O subprograma foi chamado quando uma instrução traz um pedido explícito para sua execução.
-3. O subprograma está ativo após o início de sua execução, a partir da sua chamada e enquanto ele não foi concluído.
+1. Um subprograma é definido quando o desenvolvedor descreve a **interface** e as **ações da abstração** desse subprograma.
+2. O subprograma foi chamado quando uma instrução traz um **pedido explícito para sua execução**.
+3. O subprograma está ativo após o **início de sua execução**, a partir da sua chamada e enquanto ele não foi concluído.
 
-O cabeçalho do subprograma é a primeira parte da definição, em que podem ser especificados o nome, os parâmetros e o tipo de retorno do subprograma.
+O cabeçalho do subprograma é a primeira parte da definição, em que podem ser especificados o **nome**, os **parâmetros** e o **tipo de retorno do subprograma**.
 
-Em C, o cabeçalho dos subprogramas – sendo chamados de funções – traz, em ordem: o tipo de retorno, o nome e a lista de parâmetros, como a seguir:
+Em **C**, o cabeçalho dos subprogramas – sendo chamados de funções – traz, em ordem: o **tipo de retorno**, o **nome** e a **lista de parâmetros**, como a seguir:
+
+```c
+float calculaIMC (int peso, float altura)
+```
+  
+Em Python, as funções definidas pelo desenvolvedor devem ser precedidas pela palavra reservada `def`. Não são especificados o tipo de retorno nem os tipos dos parâmetros, como no exemplo a seguir:
+
+```python
+def calculaIMC (peso, altura)  
+```
+
+Em Python, as sentenças de função `def` são executáveis. Isso implica que a função só pode ser chamada após a execução da sentença `def`. Veja o exemplo na Figura 16:
+
+```python
+escolha = input("Escolha uma opção de função: 1 ou 2")
+ if escolha == 1:
+   def func1(x):
+     return x + 1
+ else:
+   def func2(x):
+    return x + 2
+
+s = func1(10)
+print(s)  
+```
+  
+A função `func1()` só pode ser chamada caso a variável escolha seja igual a `1`. Ou seja, o usuário deverá inserir `1` quando solicitado (na linha 1), para que a linha 9 possa ser executada sem que seja gerado um erro.
+  
+### PARÂMETROS
+Usualmente, um subprograma executa cálculos e operações a partir de dados que ele deve processar. Existem duas maneiras de o subprograma obter esses dados: acessando variáveis não locais, mas visíveis para o subprograma, ou pela passagem de parâmetros.
+
+Quando o subprograma recebe os parâmetros adequados, ele pode ser executado com quaisquer valores recebidos. Porém, quando ele manipula variáveis não locais, uma forma de evitar alterações indevidas nessas variáveis é fazendo cópias locais delas. De acordo com Sebesta (2018), o acesso sistemático a variáveis não locais pode diminuir a confiabilidade do programa.
+
+São denominados parâmetros formais aqueles do cabeçalho do subprograma.
+
+Quando o subprograma é chamado, é necessário escrever o nome do subprograma e a lista de parâmetros a serem vinculados aos parâmetros formais dele, que são denominados parâmetros reais ou argumentos.
+
+No exemplo da Figura 16, existe o cabeçalho da função func1 na linha 3, com o parâmetro formal x. Na linha 9, a função func1 é chamada com o parâmetro real 10.
+
+Em Python, é possível estabelecer valores padrão para os parâmetros formais. O valor padrão é usado quando a chamada da função ocorre sem nenhum parâmetro real. Veja o exemplo de definição e chamada da função taxímetro na Figura 17:
