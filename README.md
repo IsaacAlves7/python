@@ -814,6 +814,7 @@ O **interpretador** converte para código de máquina, em tempo de execução. O
 
 ### CPython
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
+
 **CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
 
 ## VirtualEnv em Python
