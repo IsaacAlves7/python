@@ -2581,3 +2581,9 @@ O método de passagem de parâmetros de Python é chamado **passagem por atribui
 
 ## RECURSIVIDADE
 Uma **função recursiva** é aquela que chama a si mesma. Veja o exemplo da função `regressiva()`, como mostrado na Figura 23:
+
+```python
+ def regressiva(x):
+  print(x)
+  regressiva(x - 1)
+```
