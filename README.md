@@ -2589,3 +2589,9 @@ Uma **função recursiva** é aquela que chama a si mesma. Veja o exemplo da fun
 ```
 Na implementação da função `regressiva()`, tendo `x` como parâmetro, ela própria é chamada com o parâmetro `x – 1`. Vamos analisar a chamada regressiva(2):
 
+1. Ao chamar regressiva(2), o valor 2 é exibido na tela pela linha 2, e ocorre uma nova chamada da função regressiva() na linha 3, com o parâmetro 1. Vamos continuar com esse caminho de execução da regressiva(1).
+
+2. Ao chamar regressiva(1), o valor 1 é exibido na tela pela linha 2, e ocorre uma nova chamada da função regressiva() na linha 3, com o parâmetro 0.
+
+3. Ao chamar regressiva(1), o valor 1 é exibido na tela pela linha 2, e ocorre uma nova chamada da função regressiva() na linha 3, com o parâmetro 0.
+
