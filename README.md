@@ -2601,4 +2601,5 @@ Conceitualmente, essa execução será repetida indefinidamente até que haja al
 Em Python, o interpretador pode interromper a execução indefinida, mas essa não é uma boa prática. Uma forma de contornar esse problema é definir adequadamente uma condição de parada, como no exemplo da Figura 24:
 
 ```python
+
 ```
