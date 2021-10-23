@@ -2681,3 +2681,11 @@ def fibo(n):
 print(help(fibo))  
 ```
   
+~~~python
+ fibo(n)
+  Determina o n-ésimo termo da sequência de Fibonacci
+~~~
+  
+- Na Figura 28, a **linha 2** mostra a declaração da docstring.
+- A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
+  
