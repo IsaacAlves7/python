@@ -2775,5 +2775,10 @@ O módulo `math` tem as funções listadas na Tabela 7, entre outras:
   </tr>
 </table>
   
+<blockquote><b>Saiba+</b> Para mais informações sobre o módulo <code>math</code>, visite a biblioteca Python.</blockquote>  
+
+## MÓDULO `RANDOM`
+Esse módulo implementa geradores de números pseudoaleatórios para várias distribuições.
+  
 # 🐍 pip - Package Installer for Python 📦
 <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
