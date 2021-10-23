@@ -2608,3 +2608,16 @@ def regressiva(x):
           print(x)
           regressiva(x-1)
 ```
+  
+Uma **função recursiva** que termina tem:
+
+- Um ou mais casos básicos, que funcionam como condição de parada da recursão.
+
+- Uma ou mais chamadas recursivas, que têm como parâmetros valores mais próximos do(s) caso(s) básico(s) do que o ponto de entrada da função.
+  
+Alguns exemplos clássicos de funções que podem ser implementadas de forma recursiva são **o cálculo do fatorial de um inteiro não negativo** e a **sequência de Fibonacci**, que serão explorados a seguir.
+
+### A função recursiva fatorial
+A `função matemática fatorial de um inteiro não negativo n` é calculada por:
+  
+![função recursiva fatorial](https://user-images.githubusercontent.com/61624336/138567412-761c5bad-3216-4e3e-a59a-99a7706c8343.png)
