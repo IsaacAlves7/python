@@ -2626,4 +2626,58 @@ Além disso, ela pode ser definida recursivamente por:
 
 ![função recursiva fatorial](https://user-images.githubusercontent.com/61624336/138567565-ae25867c-7f2a-4236-bb05-90b0c2280896.png)
 
+Uma implementação recursiva da função fatorial em Python está na Figura 25:
+
+```python
+  def fatorial(n): 
+       if n == 0 or n == 1:
+           return 1
+       else:
+           return n*fatorial(n-1)  
+```  
+
+Vale ressaltar que a função fatorial também poderia ter sido implementada de forma **não recursiva**, como mostrado na Figura 26:
+
+```python
+ def fatorial(n):
+      fat = 1
+      if n == 0 or n == 1:
+           return fat
+      else:
+          for x in range(2, n + 1):
+                fat = fat*x
+          return fat
+```    
+  
+Porém, neste tópico, o intuito principal é explorar a recursividade.
+
+### A sequência de Fibonacci
+A **sequência de Fibonacci** é: `1, 1, 2, 3, 5, 8, 13, 21...` Os dois primeiros termos são `1` e, a partir do 3º termo, cada termo é a soma dos dois anteriores.
+
+Uma possível implementação recursiva de função que determina o **n-ésimo** termo da sequência de Fibonacci está na Figura 27:
+
+```python
+ def fibo(n):
+      if n == 1 or n == 2:
+           return 1
+      else:
+          return fibo(n - 1) + fibo(n - 2)
+```
+  
+- A **linha 2** traz as condições de parada.
+- A **linha 5** traz as chamadas recursivas para calcular os dois termos anteriores da sequência.
+  
+## DOCSTRINGS
+**Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor**. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida. Veja a Figura 28 e a Figura 29:
+  
+```python
+def fibo(n):
+     'Determina o n-ésimo termo da sequência de Fibonacci'
+          if n == 1 or n == 2:
+          return 1
+     else:
+          return fibo(n - 1) + fibo(n - 2)
+
+print(help(fibo))  
+```
   
