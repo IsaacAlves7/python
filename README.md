@@ -2782,6 +2782,10 @@ Esse módulo implementa geradores de números pseudoaleatórios para várias dis
 
 - **Números inteiros**: Para inteiros, existe uma seleção uniforme a partir de um intervalo.
   
+- **Sequências**: Para sequências, existem:
+  - Uma seleção uniforme de um elemento aleatório;
+  - Uma função para gerar uma permutação aleatória das posições na lista;
+  - Uma função para escolher aleatoriamente sem substituição.
   
 # 🐍 pip - Package Installer for Python 📦
 <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
