@@ -2691,7 +2691,7 @@ print(help(fibo))
   
 Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
 
-# 🐍 BIBLIOTECA PADRÃO PYTHON 📦
+# 🐍 BIBLIOTECA PADRÃO PYTHON 📚
 A **biblioteca padrão Python** consiste em milhares de **funções**, **métodos** e **classes** relacionados a determinada finalidade e organizados em componentes chamados **módulos**. São **mais de 200 módulos** que dão suporte, entre outras coisas, a:
   
 - Operações matemáticas;
@@ -2755,5 +2755,5 @@ O módulo `math` tem as funções listadas na Tabela 7, entre outras:
   </tr>
 </table>
   
-# pip - Package Installer for Python
-  <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
+# 🐍 pip - Package Installer for Python 📦
+<div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
