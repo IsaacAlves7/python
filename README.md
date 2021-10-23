@@ -2731,3 +2731,22 @@ A partir desse ponto, serão apresentados os principais aspectos dos seguintes m
 - `time` usado para implementar contadores temporais;
 - `tkinter` usado para desenvolver interfaces gráficas.
   
+## MÓDULO `MATH`
+Esse módulo provê acesso a **funções matemáticas de argumentos reais**. As funções **não podem ser usadas com números complexos**.
+
+O módulo `math` tem as funções listadas na Tabela 7, entre outras:
+  
+<table>
+  <tr>
+    <td><b>Função</b></td>
+    <td><b>Retorno</b></td>
+  </tr>
+  <tr>
+    <td><code>sqrt(x)</code></td>
+    <td>Raiz quadrada de x</td>
+  </tr>
+  <tr>
+    <td><code>ceil(x)</code></td>
+    <td>Menor inteiro maior ou igual a `x`</td>
+  </tr>
+</table>
