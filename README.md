@@ -2689,3 +2689,13 @@ print(help(fibo))
 - Na Figura 28, a **linha 2** mostra a declaração da docstring.
 - A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
   
+Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
+
+# BIBLIOTECA PADRÃO PYTHON
+A **biblioteca padrão Python** consiste em milhares de **funções**, **métodos** e **classes** relacionados a determinada finalidade e organizados em componentes chamados **módulos**. São **mais de 200 módulos** que dão suporte, entre outras coisas, a:
+  
+- Operações matemáticas;
+- Interface gráfica com o usuário (GUI);
+- Funções matemáticas e geração de números pseudoaleatórios.
+  
+  <blockquote><b>Atenção!</b> É importante lembrar dos conceitos de classes e objetos, pois eles são os principais conceitos do paradigma de programação orientada a objeto. As classes são fábricas, que podem gerar instâncias chamadas objetos. Uma classe <b>Pessoa</b>, por exemplo, pode ter como atributos nome e CPF. Ao gerar uma instância de <b>Pessoa</b>, com nome João da Silva e CPF 000.000.000-00, temos um objeto.</blockquote>
