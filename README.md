@@ -2621,3 +2621,9 @@ Alguns exemplos clássicos de funções que podem ser implementadas de forma rec
 A `função matemática fatorial de um inteiro não negativo n` é calculada por:
   
 ![função recursiva fatorial](https://user-images.githubusercontent.com/61624336/138567412-761c5bad-3216-4e3e-a59a-99a7706c8343.png)
+
+Além disso, ela pode ser definida recursivamente por:
+
+![função recursiva fatorial](https://user-images.githubusercontent.com/61624336/138567565-ae25867c-7f2a-4236-bb05-90b0c2280896.png)
+
+  
