@@ -2753,6 +2753,26 @@ O módulo `math` tem as funções listadas na Tabela 7, entre outras:
     <td><code>floor(x)</code></td>
     <td>Maior inteiro menor ou igual a x</td>
   </tr>
+  <tr>
+    <td><code>cos(x)</code></td>
+    <td>Cosseno de x</td>
+  </tr>
+  <tr>
+    <td><code>sin(x)</code></td>
+    <td>Seno de x</td>
+  </tr>
+  <tr>
+    <td><code>log(x,b)</code></td>
+    <td>Logaritmo de x na base b</td>
+  </tr>
+  <tr>
+    <td><code>pi</code></td>
+    <td>Valor de Pi (3.141592...)</td>
+  </tr>
+  <tr>
+    <td><code>e</code></td>
+    <td>Valor de e (2.718281...)</td>
+  </tr>
 </table>
   
 # 🐍 pip - Package Installer for Python 📦
