@@ -2754,3 +2754,6 @@ O módulo `math` tem as funções listadas na Tabela 7, entre outras:
     <td>Maior inteiro menor ou igual a x</td>
   </tr>
 </table>
+  
+# pip - Package Installer for Python
+  <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
