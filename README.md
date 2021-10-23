@@ -2702,7 +2702,7 @@ A **biblioteca padrão Python** consiste em milhares de **funções**, **método
 
 <blockquote><b>Saiba+</b> Para melhor compreensão dos conceitos de classe e objeto, pesquise sobre paradigma orientado a objeto.</blockquote>
   
-# COMO USAR UMA FUNÇÃO DE MÓDULO IMPORTADO
+## COMO USAR UMA FUNÇÃO DE MÓDULO IMPORTADO
 Para usar as **funções** e os **métodos** de **um módulo**, são necessários dois passos:
   
 - Fazer a importação do módulo desejado com a instrução:
@@ -2722,3 +2722,12 @@ Como exemplo, vamos importar o módulo **math** (dedicado a operações matemát
 >>>math.sqrt(5)
 2.23606797749979
 </pre>
+
+A partir desse ponto, serão apresentados os principais aspectos dos seguintes módulos:
+
+- `math` usado para operações matemáticas;
+- `random` usado para gerar números pseudoaleatórios;
+- `smtplib` usado para permitir envio de e-mails;
+- `time` usado para implementar contadores temporais;
+- `tkinter` usado para desenvolver interfaces gráficas.
+  
