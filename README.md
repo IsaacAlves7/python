@@ -2747,6 +2747,10 @@ O módulo `math` tem as funções listadas na Tabela 7, entre outras:
   </tr>
   <tr>
     <td><code>ceil(x)</code></td>
-    <td>Menor inteiro maior ou igual a `x`</td>
+    <td>Menor inteiro maior ou igual a x</td>
+  </tr>
+  <tr>
+    <td><code>floor(x)</code></td>
+    <td>Maior inteiro menor ou igual a x</td>
   </tr>
 </table>
