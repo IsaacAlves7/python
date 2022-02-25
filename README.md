@@ -6,7 +6,7 @@
 # 🎒 Prerequisites and repositories 📚:
 <blockquote>⚠️ <b>WARNING:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in Python development, if you want to learn about HTML5, CSS3, JS or Python Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
-<a href="https://github.com/IsaacAlves7/python-programming"><div align="center"><img src="https://ih1.redbubble.net/image.674343832.9172/raf,750x1000,075,t,192033:321fc38aa7.u3.jpg" height="307"/></div></a>
+<a href="https://github.com/IsaacAlves7/python-programming"><div align="center"><img src="https://poster.keepcalmandposters.com/6993577.jpg" height="307"/></div></a>
 
 <hr>
 
