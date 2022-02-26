@@ -10,7 +10,7 @@
 
 <hr>
 
-# Paradigmas de desenvolvimento de software
+# 🐒 Paradigmas de desenvolvimento de software 🧒
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div><br \>
 
