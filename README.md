@@ -10,7 +10,7 @@
 
 <hr>
 
-# 🐒 Paradigmas de desenvolvimento de software 🧒
+# 🐒 Paradigmas de desenvolvimento de software
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div><br \>
 
@@ -23,7 +23,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 ----
 
-# 🐍 A abstração nas linguagens de programação 🔤
+# 🐍 A abstração nas linguagens de programação
 <a href="https://github.com/IsaacAlves7/python-programming"><img src="https://files.realpython.com/media/python-basics-wide2.f73a9e9bf9b8.jpg" heigth="177"/></a>
 
 **Abstração** é o processo de identificação das qualidades e/ou propriedades relevantes para o contexto que está sendo analisado e desprezando o que seja irrelevante. Um **modelo** é uma _abstração_ da realidade.
@@ -2800,3 +2800,9 @@ A Tabela 8 mostra algumas das principais funções disponíveis para distribuiç
   
 # 🐍 pip - Package Installer for Python 📦
 <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
+  
+---
+
+## Autor
+| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
+| :---: |
