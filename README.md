@@ -2800,8 +2800,6 @@ A Tabela 8 mostra algumas das principais funções disponíveis para distribuiç
   
 # 🐍 pip - Package Installer for Python 📦
 <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
-  
----
 
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
