@@ -2798,7 +2798,7 @@ Esse módulo implementa geradores de números pseudoaleatórios para várias dis
 ## Distribuições de valores reais
 A Tabela 8 mostra algumas das principais funções disponíveis para distribuições de valores reais no módulo `random`. 
   
-# 🐍 pip - Package Installer for Python 📦
+# 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
 
 ## Autor
