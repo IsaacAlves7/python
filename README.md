@@ -27,8 +27,8 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
-## Jython
-<div align="center"><a href="https://www.sprezzatech.com/wiki/images/1/10/Jython.svg" height="177"></a></div><br \>
+# Jython
+<div align="center"><a href="https://user-images.githubusercontent.com/61624336/169595216-c171211c-ce12-4129-8bba-4b55f52a5bec.svg" height="177"></a></div><br \>
 
 <blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
 
