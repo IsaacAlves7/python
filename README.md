@@ -132,7 +132,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
 # 📦 `pip` - Package Installer for Python
-<div align="center"><img src="https://cloudo3.com/ArticleIMG/image-0724071013041.jpg" height="277"></div><br \>
+<div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="277"></div><br \>
 
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
