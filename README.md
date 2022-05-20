@@ -28,7 +28,7 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
 # Jython
-<div align="center"><img href="https://user-images.githubusercontent.com/61624336/169595216-c171211c-ce12-4129-8bba-4b55f52a5bec.svg" height="177">/div><br \>
+<div align="center"><img href="https://user-images.githubusercontent.com/61624336/169595216-c171211c-ce12-4129-8bba-4b55f52a5bec.svg" height="177"></div><br />
 
 <blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
 
@@ -47,7 +47,7 @@ O **virtualenv** do Python é utilizado para isola a versão do Python e das bib
 
 Em resumo, 
 
-# 🐍 The History of Python language 🐍
+# 🐍 The History of Python language
 <div align="center"><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="277"></div><br \>
 
 Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
