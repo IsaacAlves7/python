@@ -86,7 +86,7 @@ No início dos anos 1990 e desde então tem aumentado sua participação no mund
  
 > Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
  
-### Características da Linguagem Python
+## Características da Linguagem Python
 A linguagem **Python** é uma linguagem de programação, com características interessantes:
 
   - É **interpretada** e **compilada**, ou seja, o interpretador Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;
@@ -103,22 +103,20 @@ A linguagem **Python** é uma linguagem de programação, com características i
   - Pode ser usado como **linguagem de script**. Permite fácil acesso a outros programas, podendo ser compilado para **bytecode** a fim de criar aplicativos grandes.
   - Permite **desenvolvimento de aplicações Web**. Devido à escalabilidade já citada, Python oferece uma variedade de opções para o desenvolvimento de aplicativos Web. A biblioteca padrão do Python incorpora muitos protocolos para o desenvolvimento da web, como **HTML**, **XML**, **JSON**, **processamento de e-mail**, além de fornecer base para **FTP**, **IMAP** e outros **protocolos da Internet**.
   - Permite criação de **aplicações comerciais**. É desenvolvido sob uma licença de código aberto aprovada pela **OSI**, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
-  
-<ul>
- <li>Orientada a objetos com uma semântica dinâmica;</li>
- <li>Possui licença compatível com Software livre;</li>
- <li>Linguagem de altíssimo nível (VHLL);</li>
- <li>Tipagem dinâmica e forte;</li>
- <li>Aumenta a produtividade do desenvolvedor;</li>  
- <li>A implementação oficial do Python é mantida pela PSF (Python Software Foundation) é escrita em C, e por isso, é também conhecida como CPython.</li> 
- <li>Multiplataforma e multiparadigma (POO, funcional e procedural);</li>
- <li>Batteries Included;</li>
- <li>Livre;</li>
- <li>Organizada;</li>
- <li>Comunidade gigante e ativa;</li>
- <li>Curva de aprendizado baixa;</li>
- <li>Muitas Bibliotecas.</li>  
-</ul>
+ 
+### Resumindo as características
+- Orientada a objetos com uma semântica dinâmica;
+- Possui licença compatível com Software livre;
+- Linguagem de altíssimo nível (VHLL);
+- Tipagem dinâmica e forte;
+- Aumenta a produtividade do desenvolvedor;
+- A implementação oficial do Python é mantida pela PSF (Python Software Foundation) é escrita em C, e por isso, é também conhecida como CPython;
+- Multiplataforma e multiparadigma (POO, funcional e procedural);
+- Batteries Included;
+- Organizada;
+- Comunidade gigante e ativa;
+- Curva de aprendizado baixa;
+- Muitas Bibliotecas.
 
 Por essas e várias outras características, o Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem muito utilizada por diversas empresas como Wikipédia, Microsoft, Google, Yahoo!, CERN, NASA, Facebook, AMAZON, Instagram, Spotify, Bitorrent Inc, Django e Dropbox.
 
