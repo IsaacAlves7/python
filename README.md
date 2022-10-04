@@ -131,6 +131,11 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Automação</li>
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
+## Python 3
+Em 2008, é lançada a versão 3.0, que resolveu muitos problemas de design da linguagem e melhorou a performance. Algumas mudanças foram muito profundas dessa forma a versão 3.x não é retrocompatível.
+
+Atualmente, estamos na versão **3.10.7** do Python.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
