@@ -1,4 +1,4 @@
-<a href="https://github.com/IsaacAlves7/python-programming"><img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" heigth="177"/></a>
+<a href="https://github.com/IsaacAlves7/python-programming"><img src="https://user-images.githubusercontent.com/61624336/193806052-860b7136-6764-448d-91ef-a444427a26b3.png" width="100%"/></a>
 
 # <img src="https://emojis.slackmojis.com/emojis/images/1516924249/3439/python_explode.gif?1516924249" height="30"> It's a repository of Python programming 🐍
 <blockquote>I created this repository for my Python language Full-Stack Development learning.</blockquote>
@@ -48,7 +48,7 @@ O **virtualenv** do Python é utilizado para isola a versão do Python e das bib
 Em resumo, 
 
 # 🐍 The History of Python language
-<div align="center"><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177"></div><br \>
 
 Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
 
@@ -140,7 +140,3 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 # 🦕 Django
 
 # ⚗️ Flask
-
-## Autor
-| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
-| :---: |
