@@ -129,6 +129,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Data Science</li>
 <li>Computação 3D</li>
 <li>Biotecnologia</li>
+<li>Bioinformática</li>
 <li>Desenvolvimento Web - (Back-end)</li>
 <li>Cybersecurity</li>
 <li>Game Development</li>
