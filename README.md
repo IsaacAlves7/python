@@ -142,7 +142,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
 ## Python 3
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-4.svg" height="177"></div><br \>
 
 Em 2008, é lançada a versão 3.0, que resolveu muitos problemas de design da linguagem e melhorou a performance. Algumas mudanças foram muito profundas dessa forma a versão 3.x não é retrocompatível.
 
