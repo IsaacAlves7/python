@@ -84,7 +84,7 @@ O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes
 
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
-> Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
+> Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux ou macOS, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
  
 ## Características da Linguagem Python
 A linguagem **Python** é uma linguagem de programação, com características interessantes:
