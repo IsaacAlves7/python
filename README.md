@@ -153,7 +153,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Desktop Development</li>
 <li>DevOps</li>
 <li>Automação</li>
-<li>Serverless</li>
+<li>Cloud Computing</li>
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
 ## Python 3
