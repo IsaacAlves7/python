@@ -154,5 +154,8 @@ Atualmente, estamos na versão **3.10.7** do Python.
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="177"></div><br \>
 
 # 🦕 Django
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="177"></div><br \>
 
 # ⚗️ Flask
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
+
