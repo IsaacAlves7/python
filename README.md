@@ -47,6 +47,15 @@ O **virtualenv** do Python é utilizado para isola a versão do Python e das bib
 
 Em resumo, 
 
+# 🏆 Certificações em Python
+![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
+
+- https://pythoninstitute.org/pcep
+- https://pythoninstitute.org/pcap
+
+## Cursos que oferecem certificações
+- https://pythoninstitute.org/
+
 # 🐍 The History of Python language
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177"></div><br \>
 
@@ -165,7 +174,4 @@ Atualmente, estamos na versão **3.10.7** do Python.
 
 # ⚗️ Flask
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
-
-# 🏆 Certificações em Python
-![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
 
