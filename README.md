@@ -28,6 +28,11 @@ Imagine que quer saber a velocidade média que alcançou durante uma longa viage
 
 Naturalmente, o computador será capaz de calcular isto, mas o computador não está ciente de coisas como distância, velocidade ou tempo. Portanto, é necessário instruir o computador a:
 
+- Aceitar um número que represente a distância;
+- Aceitar um número que represente o tempo de viagem;
+- Dividir o valor anterior pelo último e armazenar o resultado na memória;
+- Exibir o resultado (representando a velocidade média) num formato legível.
+
 # Sistemas Híbridos
 O **processo híbrido** de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
 
