@@ -68,6 +68,8 @@ A linguagem Python foi escolhida como instrumento para o desenvolvimento desta d
 - Produtividade e confiabilidade.
 - Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
 
+| [<img src="https://avatars.githubusercontent.com/u/2894642?v=4" width="177"><br><sub>Guido Van Rossum</sub>](https://github.com/gvanrossum) 
+|:-:|
 
 <p>Surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a> como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI), em Amsterdã, na Holanda. 
  
