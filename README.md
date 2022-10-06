@@ -35,6 +35,10 @@ Naturalmente, o computador será capaz de calcular isto, mas o computador não e
 - Dividir o valor anterior pelo último e armazenar o resultado na memória;
 - Exibir o resultado (representando a velocidade média) num formato legível.
 
+Estas quatro simples ações formam um *programa*. É claro que estes exemplos não são formalizados, e estão muito longe do que o computador pode compreender, mas são suficientemente bons para serem traduzidos para uma linguagem que o computador possa aceitar.
+
+**Linguagem (Language)** é a palavra-chave.
+
 # Sistemas Híbridos
 O **processo híbrido** de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
 
