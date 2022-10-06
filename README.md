@@ -16,6 +16,8 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
 
 ## Como funciona um programa de computador
+<img src="https://user-images.githubusercontent.com/61624336/194329066-1643411f-3b8e-418a-a1dc-e8f5a157dc9d.png" align="right" height="177">
+
 Um programa torna um computador utilizável. Sem um programa, um computador, mesmo o mais poderoso, nada mais é do que um objeto. Da mesma forma, sem um pianista, um piano não é mais do que uma caixa de madeira.
 
 Os computadores são capazes de executar tarefas muito complexas, mas essa capacidade não lhes é inata. A natureza de um computador é bastante diferente.
