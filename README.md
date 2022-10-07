@@ -116,12 +116,12 @@ Se a linha parecer boa, o intérprete tenta executá-la (nota: cada linha é nor
 
 É também possível que uma parte significativa do código possa ser executada com sucesso antes de o intérprete encontrar um erro. Este é um comportamento normal neste modelo de execução.
 
-> Pode perguntar agora: o que é melhor? O modelo "compilador" ou o modelo "intérprete"? Não há uma resposta óbvia. Se houvesse, um destes modelos já teria deixado de existir há muito tempo. Ambos têm as suas vantagens e as suas desvantagens.
+Pode perguntar agora: o que é melhor? O modelo "compilador" ou o modelo "intérprete"? Não há uma resposta óbvia. Se houvesse, um destes modelos já teria deixado de existir há muito tempo. Ambos têm as suas vantagens e as suas desvantagens.
 
 <div align="center">
 <table>
   <tr>
-    <th colspan="2">Compilação vs. Interpretação - vantagens e desvantagens</th>
+    <th colspan="2">Vantagens</th>
   </tr>
   <tr>
     <td><b>COMPILAÇÃO</b></td>
@@ -134,6 +134,31 @@ Se a linha parecer boa, o intérprete tenta executá-la (nota: cada linha é nor
   <tr>
     <td>Apenas o utilizador tem de ter o compilador - o end-user (utilizador final) pode usar o código sem ele;</td>
     <td>Pode executar o código assim que o concluir - não há fases adicionais de tradução;</td>
+  </tr>
+  <tr>
+    <td>O código traduzido é armazenado utilizando linguagem de máquina - como é muito difícil de entender, as suas próprias invenções e truques de programação provavelmente permanecerão segredo.</td>
+    <td>o código é armazenado usando linguagem de programação, não de máquina - isto significa que pode ser executado em computadores utilizando diferentes linguagens de máquina; não se compila o código separadamente para cada arquitetura diferente.</td>
+  </tr>
+</table>
+</div>
+
+<div align="center">
+<table>
+  <tr>
+    <th colspan="2">Desvantagens</th>
+  </tr>
+  <tr>
+    <td><b>COMPILAÇÃO</b></td>
+    <td><b>INTERPRETAÇÃO</b></td>
+  </tr>
+  <tr>
+    <td>A compilação em si pode ser um processo muito demorado - pode não ser capaz de executar o seu código imediatamente após qualquer alteração;</td>
+    <td>Não espere que a interpretação aumente o seu código para alta velocidade - o seu código irá partilhar o poder do computador com o intérprete, pelo que não pode ser realmente rápido;
+</td>
+  </tr>
+  <tr>
+    <td>Tem de ter tantos compiladores quanto plataformas de hardware em que queira que o seu código seja executado.</td>
+    <td>Tanto você como o end-user têm de ter o intérprete para executar o seu código.</td>
   </tr>
 </table>
 </div>
