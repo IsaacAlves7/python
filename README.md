@@ -134,7 +134,7 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 
 <blockquote>Duas importantes linguagens implementaram essa solução, com diferentes formas usando máquinas virtuais: <b>Python</b> e <b>Java</b>.</blockquote>
 
-## Sistema de implementação de Python
+# 🏗️ Sistema de implementação de Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
