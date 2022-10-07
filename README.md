@@ -220,10 +220,12 @@ Em resumo,
  
 </div>
 <p>A linguagem Python surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a>, nascido em 1956 em Haarlem, Holanda. O desenvolvimento da linguagem foi como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI) chamado Centrum Voor Wiskunde en Informatica, em Amsterdã, na Holanda no ano de 1980. 
-  
-> Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção.
 
-No entanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
+As circunstâncias em que o Python foi criado são um pouco confusas. De acordo com Guido van Rossum:
+
+> Em Dezembro de 1989, estava à procura de um projeto de programação de "hobby" que me mantivesse ocupado durante a semana por volta do Natal. O meu escritório (...) estaria fechado, mas eu tinha um computador em casa, e não tinha muito mais nas mãos. Decidi escrever um intérprete para a nova linguagem de escrita em que tinha pensado ultimamente: um descendente do ABC que apelaria aos hackers Unix/C. Escolhi Python como título de trabalho para o projeto, estando de humor ligeiramente irreverente (e sendo um grande fã do Monty Python's Flying Circus). - Guido van Rossum
+  
+Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção e, portanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
   
 A rapidez com que o Python se espalhou pelo mundo é o resultado do trabalho contínuo de milhares (muitas vezes anônimos) de programadores, testadores, utilizadores (muitos deles não são especialistas em IT) e entusiastas, mas deve dizer-se que a primeira ideia (a semente da qual o Python brotou) chegou a uma cabeça - a de Guido.
  
