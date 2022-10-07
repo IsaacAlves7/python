@@ -57,7 +57,7 @@ O **IL** é, de facto, **o alfabeto de uma linguagem de máquina**. Este é o co
 
 Infelizmente, esta língua está muito longe de ser uma língua materna humana. Todos nós (tanto computadores como humanos) precisamos de algo mais, uma linguagem comum para computadores e humanos, ou uma ponte entre os dois mundos diferentes.
 
-<img src="https://estacio.webaula.com.br/cursos/go0374/galeria/aula1/img/figura1.svg" align="right" height="277">
+<img src="https://estacio.webaula.com.br/cursos/go0374/galeria/aula1/img/figura1.svg" align="right" height="377" title="Figura 1: Processo de compilação de um programa">
 
 > Precisamos de uma linguagem em que os humanos possam escrever os seus programas e uma linguagem que os computadores possam utilizar para executar os programas, uma linguagem que seja muito mais complexa do que a linguagem das máquinas e, no entanto, muito mais simples do que a linguagem natural.
 
