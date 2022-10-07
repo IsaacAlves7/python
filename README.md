@@ -86,7 +86,7 @@ Há duas formas diferentes de transformar um programa de uma linguagem de progra
 
 - **COMPILAÇÃO** - o source program é traduzido uma vez (no entanto, este ato deve ser repetido sempre que modificar o source code) obtendo um ficheiro (por exemplo, um `ficheiro.exe` se o código se destinar a ser executado no MS Windows) contendo o machine code; agora pode distribuir o ficheiro por todo o mundo; o programa que executa esta tradução chama-se **compilador** ou **tradutor**;
 
-- **INTERPRETAÇÃO** - você (ou qualquer utilizador do código) pode traduzir o source program cada vez que este tem de ser executado; o programa que executa este tipo de transformação chama-se **intérprete**, pois interpreta o código cada vez que se pretende executá-lo; também significa que não pode simplesmente distribuir o source code tal como está, porque o utilizador final também precisa do intérprete para o executar.
+- **INTERPRETAÇÃO** - você (ou qualquer utilizador do código) pode traduzir o source program cada vez que este tem de ser executado; o programa que executa este tipo de transformação chama-se **intérprete** ou **interpretador**, pois interpreta o código cada vez que se pretende executá-lo; também significa que não pode simplesmente distribuir o source code tal como está, porque o utilizador final também precisa do intérprete para o executar.
 
 > 🍌 **Aprenda mais**: O interpretador converte para código de máquina, em tempo de execução. O compilador traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
 
@@ -94,9 +94,9 @@ Devido a algumas razões muito fundamentais, uma linguagem de programação part
 
 Há muito poucas linguagens que possam ser compiladas e interpretadas. Normalmente, uma linguagem de programação é projetada com este fator na mente dos seus construtores - será ela compilada ou interpretada?
 
-Vamos assumir mais uma vez que escreveu um programa. Agora, existe como um ficheiro de computador: um programa de computador é na realidade um pedaço de texto, por isso o source code é normalmente colocado em ficheiros de texto.
+Vamos assumir mais uma vez que escreveu um programa. Agora, existe como um **ficheiro de computador** (computer file): um programa de computador é na realidade um pedaço de texto, por isso o source code é normalmente colocado em **ficheiros de texto** (text files).
 
-
+> 🙉 **Nota**: tem de ser **texto puro**, sem quaisquer decorações como diferentes fontes, cores, imagens embutidas ou outros suportes. Agora tem de invocar o intérprete e deixá-lo ler o seu source file.
 
 Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes paradigmas, tais como os listados a seguir:
 
