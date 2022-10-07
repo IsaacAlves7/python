@@ -38,7 +38,7 @@ Outra linguagem que usa diariamente é a sua *língua materna*, que usa para man
 
 > **Nota**: as linguagens de máquina são desenvolvidas por humanos e não pela própria máquina.
 
-> Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de **inteligência**.
+> Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de **inteligência**. Esse é um assunto muito abordado quando estudamos para Inteligência Artifical e Machine Learning.
 
 Pode-se dizer que é como um 🐵 *macaco* bem treinado - responde apenas a um conjunto pré-determinado de comandos conhecidos. Os comandos que reconhece são muito simples. Podemos imaginar que o computador responde a ordens como "pega nesse número, divide-o por outro e guarda o resultado".
 
