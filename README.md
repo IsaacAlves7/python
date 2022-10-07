@@ -98,6 +98,10 @@ Vamos assumir mais uma vez que escreveu um programa. Agora, existe como um **fic
 
 > 🙉 **Nota**: tem de ser **texto puro**, sem quaisquer decorações como diferentes fontes, cores, imagens embutidas ou outros suportes. Agora tem de invocar o intérprete e deixá-lo ler o seu source file.
 
+O intérprete lê o source code de uma forma que é comum na cultura ocidental: de cima para baixo e da esquerda para a direita, porém há algumas exceções.
+
+Em primeiro lugar, o intérprete verifica se todas as linhas subsequentes estão corretas (utilizando os quatro aspetos abordados anteriormente). Se o compilador encontrar um erro, termina o seu trabalho imediatamente. O único resultado, neste caso, é uma mensagem de erro.
+
 Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes paradigmas, tais como os listados a seguir:
 
 - **Imperativo (Procedural)**: Segue sequências de comandos ordenados segundo uma lógica.
