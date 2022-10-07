@@ -27,6 +27,10 @@ Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta)
 
 Outra linguagem que usa diariamente é a sua *língua materna*, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
 
+O **código de máquina** ou **linguagem de máquina** é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
+
+O **código de máquina numérico** (ou seja, não código ou **linguagem de montagem**, conhecida como **Assembly** ou Assembler) pode ser considerado como a representação de nível mais baixo de um programa de computador compilado e/ou montado ou como uma linguagem de programação primitiva e dependente de hardware. Embora seja possível escrever programas diretamente em código de máquina numérico, é tedioso e propenso a erros gerenciar bits individuais e calcular endereços numéricos e constantes manualmente. Portanto, raramente é feito hoje, exceto em situações que exigem otimização ou depuração extremas.
+
 ```machine
 010010101010010
 010010100110100
