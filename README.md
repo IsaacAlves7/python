@@ -46,7 +46,7 @@ O **código de máquina numérico** (ou seja, não código ou **linguagem de mon
 
 Pode-se dizer que é como um 🐵 *macaco* bem treinado - responde apenas a um conjunto pré-determinado de comandos conhecidos. Os comandos que reconhece são muito simples. Podemos imaginar que o computador responde a ordens como "pega nesse número, divide-o por outro e guarda o resultado".
 
-Um conjunto completo de comandos conhecidos é chamado de **lista de instruções**, por vezes abreviado para **IL** (do inglês, Instruction List). Os diferentes tipos de computadores podem variar em função do tamanho das suas IL, e as instruções podem ser completamente diferentes em diferentes modelos.
+Um conjunto completo de comandos conhecidos é chamado de **lista de instruções**, por vezes abreviado para **IL** (do inglês, **Instruction List**). Os diferentes tipos de computadores podem variar em função do tamanho das suas IL, e as instruções podem ser completamente diferentes em diferentes modelos.
 
 Atualmente, nenhum computador é capaz de criar uma nova linguagem. No entanto, isso pode mudar em breve. Por outro lado, as pessoas também utilizam uma série de línguas muito diferentes, mas estas línguas desenvolveram-se naturalmente. Além disso, ainda estão a evoluir. São criadas novas palavras todos os dias e as palavras antigas desaparecem. Estas línguas são chamadas **linguagens naturais**.
 
@@ -70,6 +70,13 @@ Tais linguagens são muitas vezes chamadas **linguagens de programação de alto
 Um *programa* escrito numa *linguagem de programação de alto nível* é chamado **source code**, também conhecido como *código-fonte* (em contraste com o *machine code* executado por computadores). Da mesma forma, o ficheiro que contém o *source code* chama-se **source file**, també conhecido como *arquivo-fonte*.
 
 A programação informática é o ato de compor os elementos da linguagem de programação selecionada pela ordem que provocará o efeito desejado. O efeito pode ser diferente em cada caso específico - depende da imaginação, conhecimento e experiência do programador.
+
+É claro que tal composição tem de ser correta em muitos sentidos:
+
+- **alfabeticamente** - um programa precisa de ser escrito num guião reconhecível, tal como romano, cirílico, etc.
+- **lexicamente** - cada linguagem de programação tem o seu dicionário e é preciso dominá-lo; felizmente, é muito mais simples e menor do que o dicionário de qualquer língua natural;
+- **sintaticamente** - cada linguagem tem as suas regras, e estas devem ser obedecidas;
+- **semanticamente** - o programa tem de fazer sentido.
 
 O **interpretador** converte para código de máquina, em tempo de execução. O **compilador** traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
 
