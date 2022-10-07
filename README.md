@@ -65,6 +65,8 @@ Infelizmente, esta língua está muito longe de ser uma língua materna humana. 
 
 Tais linguagens são muitas vezes chamadas **linguagens de programação de alto nível**. São pelo menos um pouco semelhantes aos naturais na medida em que utilizam símbolos, palavras e convenções legíveis para os seres humanos. Estas linguagens permitem aos seres humanos expressar comandos a computadores que são muito mais complexos do que os oferecidos pelas ILs.
 
+Um *programa* escrito numa *linguagem de programação de alto nível* é chamado **source code** (em contraste com o *machine code* executado por computadores). Da mesma forma, o ficheiro que contém o *source code* chama-se **source file**.
+
 # 🐵 Sistemas Híbridos
 O **processo híbrido** de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
 
