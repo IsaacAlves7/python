@@ -230,7 +230,7 @@ O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes
  
 <img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
 
-> **Curiosidade**: A origem do nome foi inspirado na comédia inglesa "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python surgiu após a publicação do livro "" e após isso foi aderida pelo fundador.
+> **Curiosidade**: A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python surgiu após a publicação do livro "" e após isso foi aderida pelo fundador.
 
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
