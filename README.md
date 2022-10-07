@@ -131,6 +131,10 @@ Se a linha parecer boa, o intérprete tenta executá-la (nota: cada linha é nor
     <td>A execução do código traduzido é geralmente mais rápida;</td>
     <td>&nbsp;</td>
   </tr>
+  <tr>
+    <td>Apenas o utilizador tem de ter o compilador - o end-user (utilizador final) pode usar o código sem ele;</td>
+    <td>Pode executar o código assim que o concluir - não há fases adicionais de tradução;</td>
+  </tr>
 </table>
 </div>
 
