@@ -31,6 +31,8 @@ O **código de máquina** ou **linguagem de máquina** é um conjunto de instru�
 
 O **código de máquina numérico** (ou seja, não é o código ou **linguagem de montagem**, conhecida como **Assembly** ou Assembler, cujo é uma **linguagem de baixo-nível**) pode ser considerado como a representação de nível ainda mais baixo de um programa de computador compilado e/ou montado ou como uma linguagem de programação primitiva e dependente de hardware. Embora seja possível escrever programas diretamente em código de máquina numérico, é tedioso e propenso a erros gerenciar bits individuais e calcular endereços numéricos e constantes manualmente. Portanto, raramente é feito hoje, exceto em situações que exigem otimização ou depuração extremas.
 
+[![machine](https://img.shields.io/badge/-machine_code-fff?style=social&logo=AirPlay-Video&logoColor=000000)](#)
+
 ```machine
 010010101010010
 010010100110100
