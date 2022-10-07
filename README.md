@@ -229,12 +229,12 @@ Uma das características espantosas de Python é o fato de ser realmente o traba
   
 A rapidez com que o Python se espalhou pelo mundo é o resultado do trabalho contínuo de milhares (muitas vezes anônimos) de programadores, testadores, utilizadores (muitos deles não são especialistas em IT) e entusiastas, mas deve dizer-se que a primeira ideia (a semente da qual o Python brotou) chegou a uma cabeça - a de Guido.
  
-O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes, devido a sua facilidade de aprendizado e utilização. Um dos objetivos de Van Rossum para a linguagem Python eram: 
+Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi influenciada por ABC que era uma linguagem pensada para iniciantes devido a sua facilidade de aprendizado e utilização, são eles: 
  
-- Uma linguagem fácil e intuitiva;
-- Código aberto, para que todos possam contribuir;
-- Código tão inteligível quanto o inglês;
-- Adequado a tarefas diárias, e produtiva.
+- Uma **linguagem fácil e intuitiva**, tão poderosa como a dos principais concorrentes;
+- Código aberto, **open source**, para que todos possam contribuir;
+- Código que seja tão **compreensível e inteligível** como o idioma inglês simples;
+- **Adequado a tarefas diárias**, e produtiva, permitindo tempos de desenvolvimento curtos.
  
 <img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
 
