@@ -50,10 +50,6 @@ Atualmente, nenhum computador é capaz de criar uma nova linguagem. No entanto, 
 
 São criadas novas palavras todos os dias e as palavras antigas desaparecem. Estas línguas são chamadas **linguagens naturais**.
 
-O que faz uma linguagem?
-Podemos dizer que cada linguagem (de máquina ou natural, não importa) é constituída pelos seguintes elementos:
-
-## O que faz uma linguagem?
 Podemos dizer que cada linguagem (de máquina ou natural, não importa) é constituída pelos seguintes elementos:
 
 - um **alfabeto**: um conjunto de símbolos utilizados para construir palavras de uma determinada linguagem (por exemplo, o alfabeto latino para inglês, o alfabeto cirílico para russo, o Kanji para japonês, etc.)
@@ -69,7 +65,7 @@ Infelizmente, esta língua está muito longe de ser uma língua materna humana. 
 
 Tais linguagens são muitas vezes chamadas **linguagens de programação de alto nível**. São pelo menos um pouco semelhantes aos naturais na medida em que utilizam símbolos, palavras e convenções legíveis para os seres humanos. Estas linguagens permitem aos seres humanos expressar comandos a computadores que são muito mais complexos do que os oferecidos pelas ILs.
 
-# Sistemas Híbridos
+# 🐵 Sistemas Híbridos
 O **processo híbrido** de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
 
 Esse código intermediário não é específico para uma plataforma, possibilitando aos programas já compilados para esse código serem portados em diferentes plataformas, sem alterar e nem fazer nada. Para cada plataforma desejada devemos ter um interpretador desse código.
