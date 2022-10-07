@@ -100,6 +100,7 @@ O **virtualenv** do Python é utilizado para isola a versão do Python e das bib
 
 Em resumo, 
 
+<!--
 # 🏆 Certificações em Python
 ![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
 
@@ -108,9 +109,31 @@ Em resumo,
 
 ## Cursos que oferecem certificações
 - https://pythoninstitute.org/
+-->
 
 # 🐍 The History of Python language
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177"></div><br \>
+<div align="center">
+
+| [<img src="https://avatars.githubusercontent.com/u/2894642?v=4" width="177"><br><sub>Guido Van Rossum</sub>](https://github.com/gvanrossum) 
+|:-:|
+ 
+</div>
+<p>Surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a> como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI), em Amsterdã, na Holanda. 
+ 
+O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes, devido a sua facilidade de aprendizado e utilização. Um dos objetivos de Van Rossum para a linguagem Python eram: 
+ 
+- Uma linguagem fácil e intuitiva;
+- Código aberto, para que todos possam contribuir;
+- Código tão inteligível quanto o inglês;
+- Adequado a tarefas diárias, e produtiva.
+ 
+<img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
+
+> A origem do nome foi inspirado na comédia inglesa "Monty Python and the Flying Circus", na década de 1970. 
+
+No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
+ 
+> Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux ou macOS, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
 
 Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
 
@@ -129,30 +152,6 @@ A linguagem Python foi escolhida como instrumento para o desenvolvimento desta d
 - Boa facilidade de escrita;
 - Produtividade e confiabilidade.
 - Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
-
-<div align="center">
-
-| [<img src="https://avatars.githubusercontent.com/u/2894642?v=4" width="177"><br><sub>Guido Van Rossum</sub>](https://github.com/gvanrossum) 
-|:-:|
- 
-</div>
-
-<p>Surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a> como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI), em Amsterdã, na Holanda. 
- 
-O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes, devido a sua facilidade de aprendizado e utilização. Um dos objetivos de Van Rossum para a linguagem Python eram: 
- 
-- Uma linguagem fácil e intuitiva;
-- Código aberto, para que todos possam contribuir;
-- Código tão inteligível quanto o inglês;
-- Adequado a tarefas diárias, e produtiva.
- 
-<img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
-
-> A origem do nome foi inspirado na comédia inglesa "Monty Python and the Flying Circus", na década de 1970. 
-
-No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
- 
-> Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux ou macOS, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
  
 ## Características da Linguagem Python
 A linguagem **Python** é uma linguagem de programação, com características interessantes:
@@ -210,7 +209,7 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
 ## Python 3
-<div align="center"><A href="https://python.org"><img src="https://cdn.worldvectorlogo.com/logos/python-4.svg" height="177"></a></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177"></div><br \>
 
 Em 2008, é lançada a versão 3.0, que resolveu muitos problemas de design da linguagem e melhorou a performance. Algumas mudanças foram muito profundas dessa forma a versão 3.x não é retrocompatível.
 
