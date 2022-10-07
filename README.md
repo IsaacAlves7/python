@@ -14,22 +14,29 @@ Os **computadores** são capazes de executar tarefas muito complexas, mas essa c
 
 > Os **computadores contemporâneos** só podem avaliar os resultados de operações muito fundamentais, como adicionar ou dividir, mas podem fazê-lo muito rapidamente, e podem repetir estas ações virtualmente um qualquer número de vezes.
 
-Imagine que quer saber a velocidade média que alcançou durante uma longa viagem. Sabe a distância, sabe o tempo, precisa da velocidade.
-
-Naturalmente, o computador será capaz de calcular isto, mas o computador não está ciente de coisas como distância, velocidade ou tempo. Portanto, é necessário instruir o computador a:
+Imagine que quer saber a velocidade média que alcançou durante uma longa viagem. Sabe a distância, sabe o tempo, precisa da velocidade. Naturalmente, o computador será capaz de calcular isto, mas o computador não está ciente de coisas como distância, velocidade ou tempo. Portanto, é necessário instruir o computador a:
 
 - Aceitar um número que represente a distância;
 - Aceitar um número que represente o tempo de viagem;
 - Dividir o valor anterior pelo último e armazenar o resultado na memória;
 - Exibir o resultado (representando a velocidade média) num formato legível.
 
-Estas quatro simples ações formam um **programa**. É claro que estes exemplos não são formalizados, e estão muito longe do que o computador pode compreender, mas são suficientemente bons para serem traduzidos para uma linguagem que o computador possa aceitar.
+Estas quatro simples ações formam um **programa**. É claro que estes exemplos não são formalizados, e estão muito longe do que o computador pode compreender, mas são suficientemente bons para serem traduzidos para uma **linguagem** que o computador possa aceitar.
 
-Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta) para expressar e registar pensamentos. Há muitas linguagens ao nosso redor. Algumas delas não requerem nem a fala nem a escrita, como a linguagem corporal; é possível expressar os seus sentimentos mais profundos com muita precisão sem dizer uma palavra.
+Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta) para expressar e registar pensamentos. Há muitas linguagens ao nosso redor e algumas delas não requerem nem a fala nem a escrita, como a *linguagem corporal*; é possível expressar os seus sentimentos mais profundos com muita precisão sem dizer uma palavra.
 
-Outra linguagem que usa diariamente é a sua língua materna, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
+Outra linguagem que usa diariamente é a sua *língua materna*, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
 
-Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de inteligência. Pode-se dizer que é como um cão bem treinado - responde apenas a um conjunto pré-determinado de comandos conhecidos.
+```machine
+010010101010010
+010010100110100
+010101100111010
+010101010101011
+010101010100101
+010101010010111
+```
+
+Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de **inteligência**. Pode-se dizer que é como um macaco bem treinado - responde apenas a um conjunto pré-determinado de comandos conhecidos.
 
 Os comandos que reconhece são muito simples. Podemos imaginar que o computador responde a ordens como "pega nesse número, divide-o por outro e guarda o resultado".
 
