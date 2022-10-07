@@ -8,7 +8,7 @@
 # 🐒 Linguagem de programação
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
-Um **programa** é um conjunto de instruções, denominados pelos desenvolvedores como **algoritmos**, que descrevem uma tarefa a ser realizada por um computador. O termo pode ser uma referência ao código fonte, escrito em alguma linguagem de programação, ou ao arquivo que contém a forma executável deste código fonte. Um programa torna um computador utilizável, sem ele um computador, mesmo o mais poderoso, nada mais é do que um objeto.
+Um **programa** é um conjunto de instruções, denominados pelos desenvolvedores como **algoritmos**, que descrevem uma tarefa a ser realizada por um computador. O termo pode ser uma referência ao **código fonte**, escrito em alguma linguagem de programação, ou ao arquivo que contém a forma executável deste código fonte. Um programa torna um computador utilizável, sem ele um computador, mesmo o mais poderoso, nada mais é do que um objeto.
 
 Os **computadores** são capazes de executar tarefas muito complexas, mas essa capacidade não lhes é inata. A natureza de um computador é bastante diferente.
 
