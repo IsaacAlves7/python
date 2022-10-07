@@ -117,7 +117,7 @@ Em resumo,
 |:-:|
  
 </div>
-<p>Surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a> como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI), em Amsterdã, na Holanda. 
+<p>A linguagem Python surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a> como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI) chamado Centrum Voor Wiskunde en Informatica, em Amsterdã, na Holanda no ano de 1980. 
  
 O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes, devido a sua facilidade de aprendizado e utilização. Um dos objetivos de Van Rossum para a linguagem Python eram: 
  
@@ -128,7 +128,7 @@ O Python foi influenciada por ABC, que era uma linguagem pensada para iniciantes
  
 <img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
 
-> A origem do nome foi inspirado na comédia inglesa "Monty Python and the Flying Circus", na década de 1970. 
+> **Curiosidade**: A origem do nome foi inspirado na comédia inglesa "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python surgiu após a publicação do livro "" e após isso foi aderida pelo fundador.
 
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
