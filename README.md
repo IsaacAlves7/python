@@ -182,11 +182,14 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
+O Python é uma linguagem interpretada. Isto significa que herda todas as vantagens e desvantagens descritas. Naturalmente, acrescenta algumas das suas características únicas a ambos os conjuntos.
+Se quiser programar em Python, precisará do intérprete Python. Não será capaz de executar o seu código sem ele. Felizmente, o Python é gratuito. Esta é uma das suas vantagens mais importantes.
+Devido a razões históricas, as linguagens concebidas para serem utilizadas na forma de interpretação são muitas vezes chamadas linguagens de scripting, enquanto os source programs codificados que as utilizam são chamados scripts.
+
 <img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177" align="right">
 
 <blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
 
-## CPython
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
 
 **CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
