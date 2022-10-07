@@ -40,7 +40,7 @@ O **código de máquina numérico** (ou seja, não é o código ou **linguagem d
 010101010010111
 ```
 
-> **Nota**: as linguagens de máquina são desenvolvidas por humanos e não pela própria máquina.
+> 🙉 **Nota**: as linguagens de máquina são desenvolvidas por humanos e não pela própria máquina.
 
 > Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de **inteligência**. Esse é um assunto muito abordado quando estudamos para Inteligência Artifical e Machine Learning.
 
@@ -88,11 +88,15 @@ Há duas formas diferentes de transformar um programa de uma linguagem de progra
 
 - **INTERPRETAÇÃO** - você (ou qualquer utilizador do código) pode traduzir o source program cada vez que este tem de ser executado; o programa que executa este tipo de transformação chama-se **intérprete**, pois interpreta o código cada vez que se pretende executá-lo; também significa que não pode simplesmente distribuir o source code tal como está, porque o utilizador final também precisa do intérprete para o executar.
 
-> **Aprenda mais**: O **interpretador** converte para código de máquina, em tempo de execução. O **compilador** traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
+> 🍌 **Aprenda mais**: O interpretador converte para código de máquina, em tempo de execução. O compilador traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
 
 Devido a algumas razões muito fundamentais, uma linguagem de programação particular de alto nível foi concebida para se enquadrar numa destas duas categorias.
 
 Há muito poucas linguagens que possam ser compiladas e interpretadas. Normalmente, uma linguagem de programação é projetada com este fator na mente dos seus construtores - será ela compilada ou interpretada?
+
+Vamos assumir mais uma vez que escreveu um programa. Agora, existe como um ficheiro de computador: um programa de computador é na realidade um pedaço de texto, por isso o source code é normalmente colocado em ficheiros de texto.
+
+
 
 Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes paradigmas, tais como os listados a seguir:
 
