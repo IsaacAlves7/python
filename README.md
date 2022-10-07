@@ -118,7 +118,21 @@ Se a linha parecer boa, o intérprete tenta executá-la (nota: cada linha é nor
 
 > Pode perguntar agora: o que é melhor? O modelo "compilador" ou o modelo "intérprete"? Não há uma resposta óbvia. Se houvesse, um destes modelos já teria deixado de existir há muito tempo. Ambos têm as suas vantagens e as suas desvantagens.
 
-
+<div align="center">
+<table>
+  <tr>
+    <th colspan="2">Compilação vs. Interpretação - vantagens e desvantagens</th>
+  </tr>
+  <tr>
+    <td><b>COMPILAÇÃO</b></td>
+    <td><b>INTERPRETAÇÃO</b></td>
+  </tr>
+  <tr>
+    <td>A execução do código traduzido é geralmente mais rápida;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
 
 Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes paradigmas, tais como os listados a seguir:
 
