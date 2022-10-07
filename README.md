@@ -5,7 +5,7 @@
 
 <a href="https://github.com/IsaacAlves7/python-programming"><div align="center"><img src="https://user-images.githubusercontent.com/61624336/193809777-0c363bd5-112a-4707-8292-7e77eba6d858.png" height="307"/></div></a>
 
-# 🐒 Paradigmas de desenvolvimento de software
+# 🐒 Linguagem de programação
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
 Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes paradigmas, tais como os listados a seguir:
@@ -14,9 +14,6 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Funcional**: Trabalha com a divisão de problemas através de funções, que resolvem separadamente problemas menores e que, ao serem organizados, resolvem o problema como um todo.
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
-
-## Como funciona um programa de computador
-<img src="https://user-images.githubusercontent.com/61624336/194329066-1643411f-3b8e-418a-a1dc-e8f5a157dc9d.png" align="right" height="177">
 
 Um programa torna um computador utilizável. Sem um programa, um computador, mesmo o mais poderoso, nada mais é do que um objeto. Da mesma forma, sem um pianista, um piano não é mais do que uma caixa de madeira.
 
@@ -37,10 +34,7 @@ Naturalmente, o computador será capaz de calcular isto, mas o computador não e
 
 Estas quatro simples ações formam um **programa**. É claro que estes exemplos não são formalizados, e estão muito longe do que o computador pode compreender, mas são suficientemente bons para serem traduzidos para uma linguagem que o computador possa aceitar.
 
-**Linguagem (Language)** é a palavra-chave.
-
-## Linguagens naturais vs. linguagens de programação
-Uma linguagem é um meio (e uma ferramenta) para expressar e registar pensamentos. Há muitas linguagens ao nosso redor. Algumas delas não requerem nem a fala nem a escrita, como a linguagem corporal; é possível expressar os seus sentimentos mais profundos com muita precisão sem dizer uma palavra.
+Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta) para expressar e registar pensamentos. Há muitas linguagens ao nosso redor. Algumas delas não requerem nem a fala nem a escrita, como a linguagem corporal; é possível expressar os seus sentimentos mais profundos com muita precisão sem dizer uma palavra.
 
 Outra linguagem que usa diariamente é a sua língua materna, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
 
@@ -70,6 +64,10 @@ Podemos dizer que cada linguagem (de máquina ou natural, não importa) é const
 O **IL** é, de facto, **o alfabeto de uma linguagem de máquina**. Este é o conjunto mais simples e primário de símbolos que podemos utilizar para dar comandos a um computador. É a língua materna do computador.
 
 Infelizmente, esta língua está muito longe de ser uma língua materna humana. Todos nós (tanto computadores como humanos) precisamos de algo mais, uma linguagem comum para computadores e humanos, ou uma ponte entre os dois mundos diferentes.
+
+> Precisamos de uma linguagem em que os humanos possam escrever os seus programas e uma linguagem que os computadores possam utilizar para executar os programas, uma linguagem que seja muito mais complexa do que a linguagem das máquinas e, no entanto, muito mais simples do que a linguagem natural.
+
+Tais linguagens são muitas vezes chamadas **linguagens de programação de alto nível**. São pelo menos um pouco semelhantes aos naturais na medida em que utilizam símbolos, palavras e convenções legíveis para os seres humanos. Estas linguagens permitem aos seres humanos expressar comandos a computadores que são muito mais complexos do que os oferecidos pelas ILs.
 
 # Sistemas Híbridos
 O **processo híbrido** de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
