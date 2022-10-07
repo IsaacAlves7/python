@@ -44,9 +44,7 @@ Pode-se dizer que é como um 🐵 *macaco* bem treinado - responde apenas a um c
 
 Um conjunto completo de comandos conhecidos é chamado de **lista de instruções**, por vezes abreviado para **IL** (do inglês, Instruction List). Os diferentes tipos de computadores podem variar em função do tamanho das suas IL, e as instruções podem ser completamente diferentes em diferentes modelos.
 
-Atualmente, nenhum computador é capaz de criar uma nova linguagem. No entanto, isso pode mudar em breve. Por outro lado, as pessoas também utilizam uma série de línguas muito diferentes, mas estas línguas desenvolveram-se naturalmente. Além disso, ainda estão a evoluir.
-
-São criadas novas palavras todos os dias e as palavras antigas desaparecem. Estas línguas são chamadas **linguagens naturais**.
+Atualmente, nenhum computador é capaz de criar uma nova linguagem. No entanto, isso pode mudar em breve. Por outro lado, as pessoas também utilizam uma série de línguas muito diferentes, mas estas línguas desenvolveram-se naturalmente. Além disso, ainda estão a evoluir. São criadas novas palavras todos os dias e as palavras antigas desaparecem. Estas línguas são chamadas **linguagens naturais**.
 
 Podemos dizer que cada linguagem (de máquina ou natural, não importa) é constituída pelos seguintes elementos:
 
@@ -65,7 +63,9 @@ Infelizmente, esta língua está muito longe de ser uma língua materna humana. 
 
 Tais linguagens são muitas vezes chamadas **linguagens de programação de alto nível**. São pelo menos um pouco semelhantes aos naturais na medida em que utilizam símbolos, palavras e convenções legíveis para os seres humanos. Estas linguagens permitem aos seres humanos expressar comandos a computadores que são muito mais complexos do que os oferecidos pelas ILs.
 
-Um *programa* escrito numa *linguagem de programação de alto nível* é chamado **source code** (em contraste com o *machine code* executado por computadores). Da mesma forma, o ficheiro que contém o *source code* chama-se **source file**.
+Um *programa* escrito numa *linguagem de programação de alto nível* é chamado **source code**, também conhecido como *código-fonte* (em contraste com o *machine code* executado por computadores). Da mesma forma, o ficheiro que contém o *source code* chama-se **source file**, també conhecido como *arquivo-fonte*.
+
+A programação informática é o ato de compor os elementos da linguagem de programação selecionada pela ordem que provocará o efeito desejado. O efeito pode ser diferente em cada caso específico - depende da imaginação, conhecimento e experiência do programador.
 
 O **interpretador** converte para código de máquina, em tempo de execução. O **compilador** traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
 
