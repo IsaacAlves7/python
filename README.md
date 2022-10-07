@@ -36,13 +36,13 @@ Outra linguagem que usa diariamente é a sua *língua materna*, que usa para man
 010101010010111
 ```
 
-Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de **inteligência**. Pode-se dizer que é como um macaco bem treinado - responde apenas a um conjunto pré-determinado de comandos conhecidos.
+> **Nota**: as linguagens de máquina são desenvolvidas por humanos e não pela própria máquina.
 
-Os comandos que reconhece são muito simples. Podemos imaginar que o computador responde a ordens como "pega nesse número, divide-o por outro e guarda o resultado".
+> Um computador, mesmo o mais sofisticado tecnicamente, é desprovido até mesmo de um vestígio de **inteligência**.
+
+Pode-se dizer que é como um 🐵 *macaco* bem treinado - responde apenas a um conjunto pré-determinado de comandos conhecidos. Os comandos que reconhece são muito simples. Podemos imaginar que o computador responde a ordens como "pega nesse número, divide-o por outro e guarda o resultado".
 
 Um conjunto completo de comandos conhecidos é chamado de **lista de instruções**, por vezes abreviado para **IL** (do inglês, Instruction List). Os diferentes tipos de computadores podem variar em função do tamanho das suas IL, e as instruções podem ser completamente diferentes em diferentes modelos.
-
-> **Nota**: as linguagens de máquina são desenvolvidas por humanos.
 
 Atualmente, nenhum computador é capaz de criar uma nova linguagem. No entanto, isso pode mudar em breve. Por outro lado, as pessoas também utilizam uma série de línguas muito diferentes, mas estas línguas desenvolveram-se naturalmente. Além disso, ainda estão a evoluir.
 
