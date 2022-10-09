@@ -5,6 +5,10 @@
 
 <a href="https://github.com/IsaacAlves7/python-programming"><div align="center"><img src="https://user-images.githubusercontent.com/61624336/193809777-0c363bd5-112a-4707-8292-7e77eba6d858.png" height="307"/></div></a>
 
+# 🥥 Algoritmos e lógica de programação
+
+# 🍌 Pensamento Computacional
+
 # 🐒 Linguagem de programação
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
@@ -336,3 +340,4 @@ Atualmente, estamos na versão **3.10.7** do Python.
 # ⚗️ Flask
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
 
+# 🙈 Estrutura de Dados
