@@ -230,6 +230,13 @@ Há muitas razões - já enumerámos algumas delas, mas vamos enumerá-las novam
 - **é fácil de aprender** - o tempo necessário para aprender Python é menor do que para muitas outras linguagens; isto significa que é possível iniciar a programação em si mais rapidamente;
 - **é fácil de ensinar** - a carga de trabalho de ensino é menor do que a necessária para outras linguagens; isto significa que o professor pode colocar mais ênfase em técnicas de programação gerais (independentes da linguagem), não desperdiçando energia em truques exóticos, estranhas exceções e regras incompreensíveis;
 - é **fácil de usar** para escrever novo software - é muitas vezes possível escrever código mais rapidamente quando se usa Python;
+- é **fácil de compreender** - é também frequentemente mais fácil e rápido de compreender o código de outra pessoa se for escrito em Python;
+- é **fácil de obter, instalar e implementar** - o Python é gratuito, aberto e multiplataforma; nem todas as linguagens se podem gabar disso.
+
+É claro que o Python também tem os seus inconvenientes (ninguém é perfeito hehe):
+
+- **não tem um super-poder da velocidade** - o Python não oferece um desempenho excecional;
+- em alguns casos pode ser resistente a algumas técnicas de teste mais simples - isto pode significar que **depurar (debuggar) o código Python pode ser mais difícil do que com outras linguagens**; felizmente, cometer erros é sempre mais difícil em Python.
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
@@ -307,7 +314,6 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Automação</li>
 <li>Cloud Computing</li>
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
-
 
 # 🏗️ Sistema de implementação do Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
