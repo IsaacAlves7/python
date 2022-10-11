@@ -225,7 +225,7 @@ Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi infl
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
-> Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux ou macOS, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
+> **Como instalar o Python**: Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux ou macOS, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
 
 Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
 
