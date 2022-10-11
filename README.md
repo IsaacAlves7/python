@@ -239,6 +239,8 @@ Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi infl
 - Código aberto, **open source**, para que todos possam contribuir;
 - Código que seja tão **compreensível e inteligível** como o idioma inglês simples;
 - **Adequado a tarefas diárias**, e produtiva, permitindo tempos de desenvolvimento curtos.
+
+Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
  
 <img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
 
@@ -339,5 +341,3 @@ Atualmente, estamos na versão **3.10.7** do Python.
 
 # ⚗️ Flask
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
-
-# 🙈 Estrutura de Dados
