@@ -295,7 +295,7 @@ A linguagem **Python** é uma linguagem de programação, com características i
 - Aumenta a produtividade do desenvolvedor;
 - A implementação oficial do Python é mantida pela PSF (Python Software Foundation) é escrita em C, e por isso, é também conhecida como CPython;
 - Multiplataforma e multiparadigma (POO, funcional e procedural);
-- Batteries Included;
+- Batteries Included: é uma biblioteca padrão rica e versátil que está imediatamente disponível, sem que o usuário baixe pacotes separados. Isso dá à linguagem Python uma vantagem inicial em muitos projetos.;
 - Organizada;
 - Comunidade gigante e ativa;
 - Curva de aprendizado baixa;
