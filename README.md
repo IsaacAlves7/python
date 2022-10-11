@@ -370,7 +370,7 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 
 Além do Python 2 e Python 3, existe mais de uma versão de cada uma.
 
-Em primeiro lugar, existem os Pythons que são mantidos pelas pessoas reunidas em torno da PSF (Python Software Foundation), uma comunidade que visa desenvolver, melhorar, expandir e popularizar o Python e o seu ambiente. O presidente da PSF é o próprio Guido von Rossum, e por esta razão, estes Pythons são chamados de canónicos. São também considerados Pythons de referência, pois qualquer outra implementação da linguagem deve seguir todas as normas estabelecidas pelo PSF.
+Em primeiro lugar, existem os Pythons que são mantidos pelas pessoas reunidas em torno da PSF (<a href="https://www.python.org/psf-landing/">Python Software Foundation</a>), uma comunidade que visa desenvolver, melhorar, expandir e popularizar o Python e o seu ambiente. O presidente da PSF é o próprio Guido von Rossum, e por esta razão, estes Pythons são chamados de canónicos. São também considerados Pythons de referência, pois qualquer outra implementação da linguagem deve seguir todas as normas estabelecidas pelo PSF.
 
 # 🏗️ Sistema de implementação do Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
