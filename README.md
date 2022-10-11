@@ -226,6 +226,12 @@ Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi infl
 Seja como for, continua a ocupar uma posição elevada no top dez do <a href="https://pypl.github.io/PYPL.html">PYPL PopularitY of Programming Language</a> e no <a href="https://www.tiobe.com/tiobe-index/">TIOBE Programming Community Index</a>.
 
 O Python não é uma linguagem jovem. É **madura** e **confiável**. Não é uma *one-hit wonder*. É uma estrela brilhante no firmamento da programação, e o tempo gasto a aprender Python é um investimento muito bom.
+
+Como é que os programadores, jovens e velhos, experientes e novatos, querem utilizá-lo? Como aconteceu que grandes empresas adotassem o Python e implementassem os seus principais produtos utilizando-o?
+
+Há muitas razões - já enumerámos algumas delas, mas vamos enumerá-las novamente de uma forma mais prática:
+
+- **é fácil de aprender** - o tempo necessário para aprender Python é menor do que para muitas outras linguagens; isto significa que é possível iniciar a programação em si mais rapidamente;
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
