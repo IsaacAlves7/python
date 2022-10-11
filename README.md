@@ -340,28 +340,6 @@ Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do q
 
 A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
 
-# 🏗️ Sistema de implementação do Python
-<div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
-
-**Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
-
-O Python é uma linguagem interpretada. Isto significa que herda todas as vantagens e desvantagens descritas. Naturalmente, acrescenta algumas das suas características únicas a ambos os conjuntos.
-Se quiser programar em Python, precisará do intérprete Python. Não será capaz de executar o seu código sem ele. Felizmente, o Python é gratuito. Esta é uma das suas vantagens mais importantes.
-Devido a razões históricas, as linguagens concebidas para serem utilizadas na forma de interpretação são muitas vezes chamadas linguagens de scripting, enquanto os source programs codificados que as utilizam são chamados scripts.
-
-<img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177" align="right">
-
-<blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
-
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
-
-**CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
-
-![cpython1](https://user-images.githubusercontent.com/61624336/136308856-241076e0-15b9-475d-a561-016c75fd2731.png)
-
-## VirtualEnv em Python
-O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
-
 ## Há mais do que um Python
 Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**.
 
@@ -385,7 +363,37 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 
 É importante lembrar que pode haver diferenças menores ou maiores entre as versões posteriores do Python 3 (por exemplo, Python 3.6 introduziu chaves de dicionário ordenadas por defeito sob a implementação do CPython) - a boa notícia, porém, é que todas as versões mais recentes de Python 3 são retrocompatíveis com as versões anteriores de Python 3. Sempre que for significativo e importante, tentaremos realçar essas diferenças.
 
-Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
+> Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
+
+## Python aka CPython
+<img src="https://user-images.githubusercontent.com/61624336/195197512-ce0425a2-49af-4991-a03a-0c766dfaaf7d.png" align="left" height="97">
+
+Além do Python 2 e Python 3, existe mais de uma versão de cada uma.
+
+Em primeiro lugar, existem os Pythons que são mantidos pelas pessoas reunidas em torno da PSF (Python Software Foundation), uma comunidade que visa desenvolver, melhorar, expandir e popularizar o Python e o seu ambiente. O presidente da PSF é o próprio Guido von Rossum, e por esta razão, estes Pythons são chamados de canónicos. São também considerados Pythons de referência, pois qualquer outra implementação da linguagem deve seguir todas as normas estabelecidas pelo PSF.
+
+# 🏗️ Sistema de implementação do Python
+<div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
+
+**Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
+
+O Python é uma linguagem interpretada. Isto significa que herda todas as vantagens e desvantagens descritas. Naturalmente, acrescenta algumas das suas características únicas a ambos os conjuntos.
+Se quiser programar em Python, precisará do intérprete Python. Não será capaz de executar o seu código sem ele. Felizmente, o Python é gratuito. Esta é uma das suas vantagens mais importantes.
+Devido a razões históricas, as linguagens concebidas para serem utilizadas na forma de interpretação são muitas vezes chamadas linguagens de scripting, enquanto os source programs codificados que as utilizam são chamados scripts.
+
+<img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177" align="right">
+
+<blockquote><b>Comentário:</b> Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação <b>Jython</b>.</blockquote>
+
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
+
+**CPython** é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
+
+![cpython1](https://user-images.githubusercontent.com/61624336/136308856-241076e0-15b9-475d-a561-016c75fd2731.png)
+
+## VirtualEnv em Python
+O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
+
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
