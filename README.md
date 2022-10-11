@@ -349,7 +349,7 @@ O **Python 2** é uma versão mais antiga do Python original. Desde então o seu
 
 Em 2008, é lançada a versão 3.0, que resolveu muitos problemas de design da linguagem e melhorou a performance. Algumas mudanças foram muito profundas dessa forma a versão 3.x não é retrocompatível.
 
-O **Python 3** é a versão mais recente (para ser mais preciso, a atual versão) da linguagem. Está a percorrer o seu próprio caminho de evolução, criando os seus próprios padrões e hábitos. Atualmente, estamos na versão **3.10.7** do Python.
+O **Python 3** é a versão mais recente (para ser mais preciso, a atual versão) da linguagem. Está a percorrer o seu próprio caminho de evolução, criando os seus próprios padrões e hábitos. Atualmente, estamos na versão <b><a href="https://www.python.org/downloads/">3.10.8</a></b> do Python.
 
 Estas duas versões do Python não são compatíveis uma com a outra. Os scripts de Python 2 não serão executados num ambiente Python 3 e vice-versa, portanto, se quiser que o antigo código Python 2 seja executado por um interpretador Python 3, a única solução possível é reescrevê-lo, não do zero, claro, pois grandes partes do código podem permanecer intocadas, mas terá de rever todo o código para encontrar todas as incompatibilidades possíveis. Infelizmente, este processo não pode ser totalmente automatizado.
 
