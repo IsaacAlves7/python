@@ -237,6 +237,8 @@ Há muitas razões - já enumerámos algumas delas, mas vamos enumerá-las novam
 
 - **não tem um super-poder da velocidade** - o Python não oferece um desempenho excecional;
 - em alguns casos pode ser resistente a algumas técnicas de teste mais simples - isto pode significar que **depurar (debuggar) o código Python pode ser mais difícil do que com outras linguagens**; felizmente, cometer erros é sempre mais difícil em Python.
+
+Deve também ser afirmado que o Python não é a única solução do seu gênero disponível no mercado do TI. Tem muitos seguidores, mas há muitos que preferem outras linguagens e nem sequer consideram o Python para os seus projetos, como, por exemplo, quem trabalha com as stacks: .NET e Java.
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
