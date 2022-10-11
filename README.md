@@ -222,6 +222,8 @@ Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi infl
 - **Adequado a tarefas diárias**, e produtiva, permitindo tempos de desenvolvimento curtos.
 
 > Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
+
+Seja como for, continua a ocupar uma posição elevada no top dez do <a href="">PYPL PopularitY of Programming Language</a> e no <a href="">TIOBE Programming Community Index</a>.
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
