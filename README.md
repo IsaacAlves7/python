@@ -223,7 +223,9 @@ Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi infl
 
 > Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
 
-Seja como for, continua a ocupar uma posição elevada no top dez do <a href="">PYPL PopularitY of Programming Language</a> e no <a href="">TIOBE Programming Community Index</a>.
+Seja como for, continua a ocupar uma posição elevada no top dez do <a href="https://pypl.github.io/PYPL.html">PYPL PopularitY of Programming Language</a> e no <a href="https://www.tiobe.com/tiobe-index/">TIOBE Programming Community Index</a>.
+
+O Python não é uma linguagem jovem. É **madura** e **confiável**. Não é uma *one-hit wonder*. É uma estrela brilhante no firmamento da programação, e o tempo gasto a aprender Python é um investimento muito bom.
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
@@ -324,7 +326,6 @@ Devido a razões históricas, as linguagens concebidas para serem utilizadas na 
 
 ## VirtualEnv em Python
 O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
-
 
 ## Python 3
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177"></div><br \>
