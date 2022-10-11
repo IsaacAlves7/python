@@ -317,6 +317,23 @@ Por essas e várias outras características, o Python se torna uma linguagem sim
 <li>Cloud Computing</li>
 <li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
+## Rivais do Python?
+O Python tem dois concorrentes diretos, com propriedades e predisposições comparáveis. Estes são:
+
+- **Perl** - uma linguagem de scripting originalmente de autoria de Larry Wall;
+- **Ruby** - uma linguagem de scripting originalmente escrita por Yukihiro Matsumoto.
+
+A primeira é mais tradicional, mais conservadora do que Python, e assemelha-se a algumas das boas e antigas linguagens derivadas da clássica linguagem de programação C.
+
+Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do que Python. O próprio Python encontra-se algures entre estas duas criações.
+
+A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
+
+## Onde podemos ver o Python em ação?
+Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para implementar **serviços complexos da Internet** como motores de busca, armazenamento em nuvem e ferramentas, redes sociais, etc. Sempre que utiliza qualquer um destes serviços, está na realidade muito próximo de Python, embora não o conheça.
+
+Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa.
+
 # 🏗️ Sistema de implementação do Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
 
