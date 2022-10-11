@@ -287,7 +287,7 @@ A linguagem **Python** é uma linguagem de programação, com características i
   - Permite **desenvolvimento de aplicações Web**. Devido à escalabilidade já citada, Python oferece uma variedade de opções para o desenvolvimento de aplicativos Web. A biblioteca padrão do Python incorpora muitos protocolos para o desenvolvimento da web, como **HTML**, **XML**, **JSON**, **processamento de e-mail**, além de fornecer base para **FTP**, **IMAP** e outros **protocolos da Internet**.
   - Permite criação de **aplicações comerciais**. É desenvolvido sob uma licença de código aberto aprovada pela **OSI**, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
  
-### Resumindo as características
+### Resumindo as características do Python
 - Orientada a objetos com uma semântica dinâmica;
 - Possui licença compatível com Software livre;
 - Linguagem de altíssimo nível (VHLL);
