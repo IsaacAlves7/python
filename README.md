@@ -227,7 +227,11 @@ Em resumo,
 
 As circunstâncias em que o Python foi criado são um pouco confusas. De acordo com Guido van Rossum:
 
+<img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
+
 > Em Dezembro de 1989, estava à procura de um projeto de programação de "hobby" que me mantivesse ocupado durante a semana por volta do Natal. O meu escritório (...) estaria fechado, mas eu tinha um computador em casa, e não tinha muito mais nas mãos. Decidi escrever um intérprete para a nova linguagem de escrita em que tinha pensado ultimamente: um descendente do ABC que apelaria aos hackers Unix/C. Escolhi Python como título de trabalho para o projeto, estando de humor ligeiramente irreverente (e sendo um grande fã do Monty Python's Flying Circus). - Guido van Rossum
+
+> **Curiosidade**: A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python surgiu após a publicação do livro "" e após isso foi aderida pelo fundador.
   
 Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção e, portanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
   
@@ -240,12 +244,8 @@ Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi infl
 - Código que seja tão **compreensível e inteligível** como o idioma inglês simples;
 - **Adequado a tarefas diárias**, e produtiva, permitindo tempos de desenvolvimento curtos.
 
-Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
+> Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
  
-<img height="177" src="https://user-images.githubusercontent.com/61624336/193808960-f34bbd86-45e8-4208-955e-f0bfecbeebf1.jpg" align="right"/>
-
-> **Curiosidade**: A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python surgiu após a publicação do livro "" e após isso foi aderida pelo fundador.
-
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
 > Para a plataforma Windows, basta executar o instalador. Para outras plataformas, como em Linux ou macOS, geralmente o Python já faz parte do sistema, porém em alguns casos pode ser necessário compilador e instalar o interpretador a partir dos arquivos fonte.
