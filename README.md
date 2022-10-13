@@ -581,8 +581,14 @@ A janela do editor não fornecerá qualquer informação útil sobre o erro, mas
 A mensagem (a vermelho) mostra (nas linhas subsequentes):
 
 - o **traceback** (que é o caminho que o código percorre através de diferentes partes do programa - pode ignorá-lo por agora, uma vez que está vazio num código tão simples);
-- a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); nota: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si;
-- o **conteúdo da linha errada**; nota: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
+- a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); 
+
+> 🐍 **Nota**: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
+
+- o **conteúdo da linha errada**; 
+
+> 🐍 **Nota**: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
+
 - o **nome do erro** e uma breve explicação.
 
 # 📦 `pip` - Package Installer for Python
