@@ -504,8 +504,9 @@ Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma 
 
 ![ed0d023d260245eecd1be0f4b0ff02fec660b9da](https://user-images.githubusercontent.com/61624336/195678750-3a44b5bd-0fd7-4a90-8c9b-bc7c35a482d3.png)
 
-> 🐍 **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão .py, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão .py permite que o sistema operativo abra adequadamente estes ficheiros.
+[![.py](https://img.shields.io/badge/-.py-3776AB?style=social&logo=Python&logoColor=000000)](#)
 
+> 🐍 **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
