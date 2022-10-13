@@ -487,6 +487,13 @@ Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto 
 
 ![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
 
+## Como escrever e executar o seu primeiro programa
+É agora tempo de escrever e executar o seu primeiro programa de Python 3. Será muito simples, por agora.
+
+O primeiro passo é criar um novo source file e preenchê-lo com código. Clique em `File` no menu do IDLE e escolha `New file`.
+
+![9c47dcbd53615728044a921159aef565968d7f3c](https://user-images.githubusercontent.com/61624336/195677372-128a8986-dde7-4f69-983b-cd0bf0046f6a.png)
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
