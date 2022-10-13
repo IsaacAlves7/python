@@ -400,6 +400,21 @@ Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz.
 
 > 🐍 **Comentário**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython**.
 
+## PyPy e RPython
+<div align="center"><img src="https://www.pypy.org/images/pypy-logo.svg" height="177"></div><br />
+
+Dê uma vista de olhos ao logotipo acima. É um rébus. Consegue resolvê-lo? É um logótipo do **PyPy** - *um Python dentro de um Python*. Por outras palavras, representa um ambiente Python escrito em linguagem Python, chamado **RPython** (Restricted Python). Na verdade, é um subconjunto de Python.
+
+O source code de PyPy não é executado na forma de interpretação, mas sim traduzido para a linguagem de programação C e depois executado separadamente.
+
+Isto é útil porque se quiser testar qualquer nova funcionalidade que possa ser (mas não tem de ser) introduzida na implementação do Python convencional, é mais fácil verificá-la com o PyPy do que com o CPython. É por isto que o PyPy é antes uma ferramenta para pessoas que desenvolvem Python, do que para o resto dos utilizadores.
+
+Isto não torna o PyPy menos importante ou menos sério do que o CPython, é claro.
+
+Além disso, o PyPy é compatível com a linguagem do Python 3.
+
+Existem muitos mais Pythons diferentes no mundo. Encontrá-los-á se procurar, vamos nos concentrar no CPython.
+
 # 🏗️ Sistema de implementação do Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
 
