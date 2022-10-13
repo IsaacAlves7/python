@@ -326,7 +326,7 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 <li>Cloud Computing</li>
 <li>Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
-## Rivais do Python? ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-%39457E?style=for-the-badge&logo=Perl&logoColor=white)
+## Rivais do Python? ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=Perl&logoColor=white)
 O Python tem dois concorrentes diretos, com propriedades e predisposições comparáveis. Estes são:
 
 - **Perl** - uma linguagem de scripting originalmente de autoria de Larry Wall;
