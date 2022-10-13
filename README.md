@@ -448,14 +448,14 @@ python3
 
 no shell prompt, pressione Enter e aguarde. Se vir algo deste gênero:
 
+<img src="https://user-images.githubusercontent.com/61624336/195667351-1b9ecde5-fc3b-4287-b69e-6bd829fe9c27.png" width="377" align="right">
+
 <pre>
 Python 3.4.5 (default, Jan 12 2017, 02:28:40)
 [GCC 4.2.1 Compatible Clang 3.7.1 (tags/RELEASE_371/final)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 </pre>
-
-<img src="https://user-images.githubusercontent.com/61624336/195667351-1b9ecde5-fc3b-4287-b69e-6bd829fe9c27.png" width="377" align="right">
 
 Se o Python 3 estiver ausente, consulte a sua documentação do Linux para saber como utilizar o seu gestor de pacotes para descarregar e instalar um novo pacote - o que precisa chama-se python3, ou o seu nome começa com isso.
 
