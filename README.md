@@ -612,7 +612,7 @@ Como pode ver, o primeiro programa consiste nas seguintes partes:
 ## PyPI
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="177"></div><br \>
 
-# 🐍 Anaconda
+# 📦 Anaconda
 <div align="center">
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="177"></a>
