@@ -469,7 +469,7 @@ Como o browser diz ao site onde entrou o sistema operativo que utiliza, o único
 
 Neste caso, selecione Python 3. O site oferece sempre a versão mais recente do mesmo. Se for um utilizador do Windows, inicie o arquivo `.exe` descarregado e siga todos os passos.
 
-Deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows.
+> 🪟 **Windows Env**: Deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows.
 
 Se for um utilizador MacOS, uma versão do Python 2 pode já ter sido pré-instalada no seu computador, mas como vamos trabalhar com o Python 3, ainda assim terá de descarregar e instalar o arquivo `.pkg` relevante a partir do site Python.
 
@@ -481,6 +481,11 @@ Existem muitas formas de utilizar o Python, especialmente se vier a ser um progr
 - uma **console** na qual pode rodar o seu código recém-escrito e pará-lo à força quando ficar fora de controle;
 - uma ferramenta chamada de **debugger**, capaz de rodar o seu código passo a passo e que lhe permite inspecioná-lo em cada momento da execução.
 
+Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada **IDLE**.
+
+Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto é o que deve ver:
+
+![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
