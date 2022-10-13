@@ -625,6 +625,20 @@ Cada um dos itens acima desempenha um papel muito importante no código.
 ## A função `print()`
 Veja a linha de código abaixo:
 
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+A palavra `print` que se pode ver aqui é um **nome de função**. Isso não significa que, onde quer que a palavra apareça, é sempre um nome de função. O significado da palavra vem do contexto em que a palavra foi usada.
+
+Provavelmente já encontrou o termo função muitas vezes antes, durante as aulas de matemática. Provavelmente também pode listar vários nomes de funções matemáticas, como seno ou log.
+
+As funções Python, no entanto, são mais flexíveis e podem conter mais conteúdo do que as suas irmãs matemáticas.
+
+Uma função (neste contexto) é uma parte separada do código do computador capaz de:
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
