@@ -494,6 +494,19 @@ O primeiro passo é criar um novo source file e preenchê-lo com código. Clique
 
 ![9c47dcbd53615728044a921159aef565968d7f3c](https://user-images.githubusercontent.com/61624336/195677372-128a8986-dde7-4f69-983b-cd0bf0046f6a.png)
 
+> Como pode ver, o IDLE abre uma nova janela para si. Pode utilizá-la para escrever e alterar o seu código.
+
+Esta é a **janela do editor**. O seu único objetivo é ser um local de trabalho em que o seu source code é tratado. Não confundir a janela do editor com a janela shell. Desempenham funções diferentes.
+
+A janela do editor está atualmente sem título, mas é uma boa prática começar a trabalhar nomeando o source file.
+
+Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma pasta para o novo ficheiro (o ambiente de trabalho é um bom local para as suas primeiras tentativas de programação) e escolha um nome para o novo ficheiro.
+
+![ed0d023d260245eecd1be0f4b0ff02fec660b9da](https://user-images.githubusercontent.com/61624336/195678750-3a44b5bd-0fd7-4a90-8c9b-bc7c35a482d3.png)
+
+> 🐍 **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão .py, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão .py permite que o sistema operativo abra adequadamente estes ficheiros.
+
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
