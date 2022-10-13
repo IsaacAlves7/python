@@ -526,6 +526,17 @@ Se tudo correr bem e não houver erros no código, a janela do console irá most
 
 ![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
 
+## Como estragar e corrigir o seu código
+Agora reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
+
+Tente executá-lo novamente pressionando `F5` quando a janela do editor estiver ativa. Como pode ver, o IDLE é capaz de guardar o seu código e recuperá-lo quando precisar dele novamente.
+
+O IDLE contém um recurso adicional e útil.
+
+Primeiro, remova o parêntesis final.
+Em seguida, insira o parêntesis novamente.
+O seu código deve parecer-se com o que está aqui em baixo:
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
