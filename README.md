@@ -566,7 +566,7 @@ print("Hisssssss...")
 
 Execute-o para ver se “sibila” novamente.
 
-Vamos estragar o código mais uma vez. Remova uma letra da palavra `print. Execute o código pressionando `F5`. O que acontece agora?
+Vamos estragar o código mais uma vez. Remova uma letra da palavra `print`. Execute o código pressionando `F5`. O que acontece agora?
 
 ![aa281b654b986dbe066685abaa0dcf8a3b842705](https://user-images.githubusercontent.com/61624336/195692660-b70902e1-f4c6-4990-a179-e6c6c8147312.png)
 
