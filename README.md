@@ -473,6 +473,15 @@ Deixe as configurações padrão que o instalador sugere por agora, com uma exce
 
 Se for um utilizador MacOS, uma versão do Python 2 pode já ter sido pré-instalada no seu computador, mas como vamos trabalhar com o Python 3, ainda assim terá de descarregar e instalar o arquivo `.pkg` relevante a partir do site Python.
 
+Agora que tem o Python 3 instalado, é altura de verificar se funciona, e fazer o primeiro uso do mesmo. Este será um procedimento muito simples, mas deve ser o suficiente para o convencer de que o ambiente Python é completo e funcional.
+
+Existem muitas formas de utilizar o Python, especialmente se vier a ser um programador Python. Para começar o seu trabalho, precisa das seguintes ferramentas:
+
+- um **editor** que o irá apoiar na escrita do código (deve ter algumas características especiais, não disponíveis em ferramentas simples); este editor dedicado dar-lhe-á mais do que o equipamento padrão do sistema operativo;
+- uma **console** na qual pode rodar o seu código recém-escrito e pará-lo à força quando ficar fora de controle;
+- uma ferramenta chamada de **debugger**, capaz de rodar o seu código passo a passo e que lhe permite inspecioná-lo em cada momento da execução.
+
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
