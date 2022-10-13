@@ -398,9 +398,9 @@ Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Ima
 
 Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz. É por isso que alguns projetos o consideram utilizável e necessário.
 
-> 🐍 **Nota**: a atual implementação do Jython segue as normas do Python 2. Até ao momento, não há Jython em conformidade com Python 3.
+> 🐍 **Nota**: A atual implementação do Jython segue as normas do Python 2. Até ao momento, não há Jython em conformidade com Python 3.
 
-> 🐍 **Comentário**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython**.
+> 🐍 **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
 
 ## PyPy e RPython
 <div align="center">
