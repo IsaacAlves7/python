@@ -322,7 +322,7 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 <li>Mobile Development</li>
 <li>Desktop Development</li>
 <li>DevOps</li>
-<li>Automação</li>
+<li>Automação de Sistemas</li>
 <li>Cloud Computing</li>
 <li>Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
@@ -579,6 +579,11 @@ Isto acontece porque a natureza do erro é diferente e o erro é descoberto numa
 A janela do editor não fornecerá qualquer informação útil sobre o erro, mas as janelas da consola poderão.
 
 A mensagem (a vermelho) mostra (nas linhas subsequentes):
+
+- o **traceback** (que é o caminho que o código percorre através de diferentes partes do programa - pode ignorá-lo por agora, uma vez que está vazio num código tão simples);
+- a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); nota: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si;
+- o **conteúdo da linha errada**; nota: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
+- o **nome do erro** e uma breve explicação.
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
