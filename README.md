@@ -27,11 +27,11 @@ Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta)
 
 Outra linguagem que usa diariamente é a sua *língua materna*, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
 
-O **código de máquina** ou **linguagem de máquina** é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
+O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
 O **código de máquina numérico** pode ser considerado como a representação de nível ainda mais baixo de um programa de computador compilado e/ou montado ou como uma linguagem de programação primitiva e dependente de hardware. Embora seja possível escrever programas diretamente em código de máquina numérico, é tedioso e propenso a erros gerenciar bits individuais e calcular endereços numéricos e constantes manualmente. Portanto, raramente é feito hoje, exceto em situações que exigem otimização ou depuração extremas.
 
-> 🙉 **Nota**: O código de máquina numérico não é o código ou linguagem de montagem, conhecida como **Assembly** ou Assembler, cujo é uma linguagem de programação de baixo-nível.
+> 🙉 **Nota**: O código de máquina numérico não é o código ou linguagem de montagem, conhecida como **Assembly** ou Assembler, cujo é uma linguagem de programação de baixo-nível. 
 
 [![machine](https://img.shields.io/badge/-machine_code-fff?style=social&logo=AirPlay-Video&logoColor=000000)](#)
 
@@ -71,7 +71,7 @@ Infelizmente, esta língua está muito longe de ser uma língua materna humana. 
 
 Tais linguagens são muitas vezes chamadas **linguagens de programação de alto nível**. São pelo menos um pouco semelhantes aos naturais na medida em que utilizam símbolos, palavras e convenções legíveis para os seres humanos. Estas linguagens permitem aos seres humanos expressar comandos a computadores que são muito mais complexos do que os oferecidos pelas ILs.
 
-Um *programa* escrito numa *linguagem de programação de alto nível* é chamado **source code**, também conhecido como *código-fonte* (em contraste com o *machine code* executado por computadores). Da mesma forma, o ficheiro que contém o *source code* chama-se **source file**, també conhecido como *arquivo-fonte*.
+Um *programa* escrito numa *linguagem de programação de alto nível* é chamado **source code**, também conhecido como *código-fonte* (em contraste com o *ee* executado por computadores). Da mesma forma, o ficheiro que contém o *source code* chama-se **source file**, també conhecido como *arquivo-fonte*.
 
 A programação informática é o ato de compor os elementos da linguagem de programação selecionada pela ordem que provocará o efeito desejado. O efeito pode ser diferente em cada caso específico - depende da imaginação, conhecimento e experiência do programador.
 
