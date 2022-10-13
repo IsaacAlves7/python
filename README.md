@@ -291,7 +291,7 @@ A linguagem **Python** é uma linguagem de programação, com características i
 - Linguagem de altíssimo nível (VHLL);
 - Tipagem dinâmica e forte;
 - Aumenta a produtividade do desenvolvedor;
-- A implementação oficial do Python é mantida pela PSF (Python Software Foundation) é escrita em C, e por isso, é também conhecida como CPython;
+- A implementação padrão e oficial de referência do Python que é mantida pela PSF (Python Software Foundation) e é escrita em linguagem C, e por isso, é também conhecida como CPython;
 - Multiplataforma e multiparadigma (POO, funcional e procedural);
 - Batteries Included: é uma biblioteca padrão rica e versátil que está imediatamente disponível, sem que o usuário baixe pacotes separados. Isso dá à linguagem Python uma vantagem inicial em muitos projetos.;
 - Organizada;
