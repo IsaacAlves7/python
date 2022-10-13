@@ -457,6 +457,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 </pre>
 
+Se o Python 3 estiver ausente, consulte a sua documentação do Linux para saber como utilizar o seu gestor de pacotes para descarregar e instalar um novo pacote - o que precisa chama-se python3, ou o seu nome começa com isso.
+
+> 🪟🍎 Todos os utilizadores que não sejam Linux podem descarregar uma cópia em: https://www.python.org/downloads/.
+
+> 🐍 **Nota**: Por padrão, a versão do Python 2 já se encontra instalado nas máquinas do sistema operacional Linux e macOS.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
