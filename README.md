@@ -560,7 +560,7 @@ Corrija o código agora. Deve ficar assim:
 
 [![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-```
+```python
 print("Hisssssss...")
 ```
 
@@ -601,7 +601,7 @@ Como vamos mostrar-lhe alguns conceitos e termos fundamentais, estes snippets de
 
 [![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-```
+```python
 print("Hello, World!")
 ```
 
