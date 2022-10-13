@@ -463,6 +463,15 @@ Se o Python 3 estiver ausente, consulte a sua documentação do Linux para saber
 
 > 🐍 **Nota**: Por padrão, a versão do Python 2 já se encontra instalado nas máquinas do sistema operacional Linux e macOS.
 
+## Descarregar e instalar o Python
+Como o browser diz ao site onde entrou o sistema operativo que utiliza, o único passo que tem de dar é clicar na versão Python apropriada que deseja.
+
+Neste caso, selecione Python 3. O site oferece sempre a versão mais recente do mesmo. Se for um utilizador do Windows, inicie o arquivo `.exe` descarregado e siga todos os passos.
+
+Deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows.
+
+Se for um utilizador MacOS, uma versão do Python 2 pode já ter sido pré-instalada no seu computador, mas como vamos trabalhar com o Python 3, ainda assim terá de descarregar e instalar o arquivo `.pkg` relevante a partir do site Python.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
