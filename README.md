@@ -513,14 +513,18 @@ Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. 
 [![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
-print("Hisssssss...")
+print("Hello, World!")
 ```
 
-Pode utilizar a área de transferência para copiar o texto para o ficheiro.
-
-Não vamos explicar o significado do programa neste momento. Encontrará uma discussão detalhada no próximo capítulo.
-
 Veja mais de perto as aspas. Estas são as formas mais simples de aspas (neutras, retas, mudas, etc.) tipicamente utilizadas nos source files. Não tente usar aspas tipográficas (curvas, curvilíneas, inteligentes, etc.), utilizadas por processadores de texto avançados, uma vez que o Python não as aceita.
+
+![0830563fa18ea8138503c208eb9514af574d7a2c](https://user-images.githubusercontent.com/61624336/195683022-8105137e-d987-45f3-a003-407c320d1fa8.png)
+
+Guarde o ficheiro `File > Save` e execute o programa `Run -> Run Module`.
+
+Se tudo correr bem e não houver erros no código, a janela do console irá mostrar-lhe os efeitos causados pela execução do programa. Neste caso, o programa sibila. Tente executá-lo mais uma vez. E mais uma vez. Agora feche ambas as janelas e regresse ao ambiente de trabalho.
+
+![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
