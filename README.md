@@ -366,7 +366,7 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 > Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
 
 ## Python aka CPython
-<img src="https://user-images.githubusercontent.com/61624336/195197512-ce0425a2-49af-4991-a03a-0c766dfaaf7d.png" align="left" height="97">
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="177"></div><br />
 
 Além do Python 2 e Python 3, existe mais de uma versão de cada uma.
 
