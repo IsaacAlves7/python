@@ -542,6 +542,14 @@ O seu código deve parecer-se com o que está aqui em baixo:
 
 <pre>Hisssssss...</pre>
 
+![ed47c4a8c77b4dd27800cb500f5f412c1fcb12fd](https://user-images.githubusercontent.com/61624336/195691376-2ca185ce-87f3-4b37-ab0d-304df28154d3.png)
+
+Cada vez que colocar o parêntesis final no seu programa, o IDLE mostrará a parte do texto limitada com um par de parêntesis correspondentes. Isto ajuda-o a lembrar-se de os colocar em pares.
+
+Retire novamente o parêntesis final. O código torna-se incorreto. Contém agora um erro de sintaxe. O IDLE não deve deixar que o execute.
+
+Tente executar o programa novamente. O IDLE irá lembrá-lo de guardar o ficheiro modificado. Siga as instruções.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
