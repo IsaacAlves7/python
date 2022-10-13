@@ -440,7 +440,7 @@ Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo 
 
 > 🐧 Utilizadores de **Linux** provavelmente já têm o Python instalado - este é o cenário mais provável, já que a infraestrutura do Python é intensamente utilizada por muitos componentes do sistema operativo Linux. Por exemplo, alguns distribuidores podem acoplar as suas ferramentas específicas ao sistema e muitas destas ferramentas, como gestores de pacotes, são frequentemente escritas em Python. Algumas partes de ambientes gráficos disponíveis no mundo Linux também podem utilizar o Python.
 
-Se for um utilizador Linux, abra o terminal/consola e digite:
+Se for um utilizador Linux, abra o terminal/console e digite:
 
 [![bash](https://img.shields.io/badge/-bash-4EAA25?style=social&logo=GNU-Bash&logoColor=000000)](#)
 
@@ -576,7 +576,7 @@ Deve ter notado que a mensagem de erro gerada para o erro anterior é bastante d
 
 Isto acontece porque a natureza do erro é diferente e o erro é descoberto numa fase diferente de interpretação.
 
-A janela do editor não fornecerá qualquer informação útil sobre o erro, mas as janelas da consola poderão.
+A janela do editor não fornecerá qualquer informação útil sobre o erro, mas as janelas da console poderão.
 
 A mensagem (a vermelho) mostra (nas linhas subsequentes):
 
@@ -598,13 +598,29 @@ Experimente criar novos ficheiros e executar o seu código. Tente fazer output d
 
 Como vamos mostrar-lhe alguns conceitos e termos fundamentais, estes snippets de código não serão sérios ou complexos.
 
-Execute o código na janela do editor à direita. Se tudo correr bem aqui, verá a linha de texto na janela da consola.
 
-Em alternativa, lançe o IDLE, crie um novo source file Python, preencha-o com este código, nomeie o ficheiro e guarde-o. Agora execute-o. Se tudo correr bem, verá o texto contido dentro das aspas na janela da consola IDLE. O código que executou deve parecer familiar. Viu algo muito semelhante quando o conduzimos através da criação do ambiente IDLE.
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```
+print("Hello, World!")
+```
+
+Execute o código na janela do editor à direita. Se tudo correr bem aqui, verá a linha de texto na janela da console.
+
+Em alternativa, lançe o IDLE, crie um novo source file Python, preencha-o com este código, nomeie o ficheiro e guarde-o. Agora execute-o. Se tudo correr bem, verá o texto contido dentro das aspas na janela da console IDLE. O código que executou deve parecer familiar. Viu algo muito semelhante quando o conduzimos através da criação do ambiente IDLE.
 
 Agora vamos passar algum tempo a mostrar e a explicar-lhe o que está realmente a ver, e porque é que se parece com isto.
 
 Como pode ver, o primeiro programa consiste nas seguintes partes:
+
+- a palavra `print`;
+- um parêntesis de abertura;
+- umas aspas;
+- uma linha de texto: `Hello, World!`;
+- outras aspas;
+- um parêntesis de fecho.
+
+Cada um dos itens acima desempenha um papel muito importante no código.
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
