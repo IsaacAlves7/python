@@ -550,6 +550,26 @@ Retire novamente o parêntesis final. O código torna-se incorreto. Contém agor
 
 Tente executar o programa novamente. O IDLE irá lembrá-lo de guardar o ficheiro modificado. Siga as instruções.
 
+Observe cuidadosamente todas as janelas. Uma nova janela – diz que o intérprete encontrou um EOF (end-of-file) embora (na sua opinião) o código deva conter mais algum texto.
+
+A janela do editor mostra claramente onde isto aconteceu.
+
+![112b321a4d7620c67b0e037f8861fd71a9cb09df](https://user-images.githubusercontent.com/61624336/195692443-b541e9c2-702c-4e28-89c7-5ceb1b6d22ae.png)
+
+Corrija o código agora. Deve ficar assim:
+
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```
+print("Hisssssss...")
+```
+
+Execute-o para ver se “sibila” novamente.
+
+Vamos estragar o código mais uma vez. Remova uma letra da palavra `print. Execute o código pressionando `F5`. O que acontece agora?
+
+![aa281b654b986dbe066685abaa0dcf8a3b842705](https://user-images.githubusercontent.com/61624336/195692660-b70902e1-f4c6-4990-a179-e6c6c8147312.png)
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
