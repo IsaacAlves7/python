@@ -513,7 +513,7 @@ Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. 
 [![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
-print("Hello, World!")
+print("Hisssssss...")
 ```
 
 Veja mais de perto as aspas. Estas são as formas mais simples de aspas (neutras, retas, mudas, etc.) tipicamente utilizadas nos source files. Não tente usar aspas tipográficas (curvas, curvilíneas, inteligentes, etc.), utilizadas por processadores de texto avançados, uma vez que o Python não as aceita.
