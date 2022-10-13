@@ -573,6 +573,10 @@ Vamos estragar o código mais uma vez. Remova uma letra da palavra `print`. Exec
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
+## PyPI
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="177"></div><br \>
+
+
 # 👹 Python-Ogre
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="177"></div><br \>
 
