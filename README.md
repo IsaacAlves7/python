@@ -508,6 +508,20 @@ Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma 
 
 > 🐍 **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
 
+Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. A linha tem este aspeto:
+
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hisssssss...")
+```
+
+Pode utilizar a área de transferência para copiar o texto para o ficheiro.
+
+Não vamos explicar o significado do programa neste momento. Encontrará uma discussão detalhada no próximo capítulo.
+
+Veja mais de perto as aspas. Estas são as formas mais simples de aspas (neutras, retas, mudas, etc.) tipicamente utilizadas nos source files. Não tente usar aspas tipográficas (curvas, curvilíneas, inteligentes, etc.), utilizadas por processadores de texto avançados, uma vez que o Python não as aceita.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
