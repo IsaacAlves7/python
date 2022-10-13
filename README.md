@@ -570,6 +570,12 @@ Vamos estragar o código mais uma vez. Remova uma letra da palavra `print`. Exec
 
 ![aa281b654b986dbe066685abaa0dcf8a3b842705](https://user-images.githubusercontent.com/61624336/195692660-b70902e1-f4c6-4990-a179-e6c6c8147312.png)
 
+Deve ter notado que a mensagem de erro gerada para o erro anterior é bastante diferente da primeira.
+
+![9e63a9fdc2ed8afae211381c57ccd02967eb4ebc](https://user-images.githubusercontent.com/61624336/195699490-9083ed72-8712-4793-ab8b-8092671ad63b.png)
+
+Isto acontece porque a natureza do erro é diferente e o erro é descoberto numa fase diferente de interpretação.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
