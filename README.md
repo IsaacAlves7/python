@@ -383,7 +383,11 @@ O CPython é uma **implementação** da linguagem Python, um pacote com um compi
 ## Cython
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/Cython-logo.svg" height="177"></div><br \>
 
-Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - a falta de eficiência. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em "C" ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
+Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - **a falta de eficiência**. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em C ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
+
+Como são conciliadas estas duas contradições? Uma solução é escrever as suas ideias matemáticas usando Python, e quando estiver absolutamente seguro de que o seu código está correto e produz resultados válidos, pode traduzi-lo para C. Certamente, o C correrá muito mais rápido do que Python puro.
+
+É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
 
 # 🏗️ Sistema de implementação do Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div>
