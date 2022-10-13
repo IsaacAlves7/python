@@ -409,8 +409,6 @@ Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz.
   
 </div><br />
 
-
-
 ## PyPy e RPython
 <div align="center">
 
@@ -601,6 +599,19 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 - o **nome do erro** e uma breve explicação.
 
 Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
+
+# 🐍 Hello, World - Linguagem Python
+É tempo de começar a escrever algum código Python real e funcional. Vai ser muito simples por enquanto.
+
+Como vamos mostrar-lhe alguns conceitos e termos fundamentais, estes snippets de código não serão sérios ou complexos.
+
+Execute o código na janela do editor à direita. Se tudo correr bem aqui, verá a linha de texto na janela da consola.
+
+Em alternativa, lançe o IDLE, crie um novo source file Python, preencha-o com este código, nomeie o ficheiro e guarde-o. Agora execute-o. Se tudo correr bem, verá o texto contido dentro das aspas na janela da consola IDLE. O código que executou deve parecer familiar. Viu algo muito semelhante quando o conduzimos através da criação do ambiente IDLE.
+
+Agora vamos passar algum tempo a mostrar e a explicar-lhe o que está realmente a ver, e porque é que se parece com isto.
+
+Como pode ver, o primeiro programa consiste nas seguintes partes:
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
