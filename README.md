@@ -533,9 +533,14 @@ Tente executá-lo novamente pressionando `F5` quando a janela do editor estiver 
 
 O IDLE contém um recurso adicional e útil.
 
-Primeiro, remova o parêntesis final.
-Em seguida, insira o parêntesis novamente.
+1. Primeiro, remova o parêntesis final.
+2. Em seguida, insira o parêntesis novamente.
+
 O seu código deve parecer-se com o que está aqui em baixo:
+
+[![.py](https://img.shields.io/badge/-snake.py_(output)-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>Hisssssss...</pre>
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
