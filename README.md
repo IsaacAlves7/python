@@ -245,7 +245,7 @@ Apesar da popularidade crescente de Python, ainda existem alguns nichos onde o P
 - **programação de baixo nível** (por vezes chamada programação "close to metal"): se quiser implementar um condutor ou motor gráfico extremamente eficaz, não utilizaria Python;
 - **aplicações para dispositivos móveis**: existe pouca área de atuação para o Python nessa área, fortalecendo assim algumas das linguagens concorrentes.
 
-Deve também ser afirmado que o Python não é a única solução do seu gênero disponível no mercado do TI. Tem muitos seguidores, mas há muitos que preferem outras linguagens e nem sequer consideram o Python para os seus projetos, como, por exemplo, quem trabalha com as stacks: .NET e Java.
+Deve também ser afirmado que o Python não é a única solução do seu gênero disponível no mercado do TI. Tem muitos seguidores, mas há muitos que preferem outras linguagens e nem sequer consideram o Python para os seus projetos.
  
 No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
  
