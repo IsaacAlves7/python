@@ -576,6 +576,10 @@ Deve ter notado que a mensagem de erro gerada para o erro anterior é bastante d
 
 Isto acontece porque a natureza do erro é diferente e o erro é descoberto numa fase diferente de interpretação.
 
+A janela do editor não fornecerá qualquer informação útil sobre o erro, mas as janelas da consola poderão.
+
+A mensagem (a vermelho) mostra (nas linhas subsequentes):
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
