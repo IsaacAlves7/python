@@ -448,8 +448,6 @@ python3
 
 no shell prompt, pressione Enter e aguarde. Se vir algo deste gênero:
 
-<img src="https://user-images.githubusercontent.com/61624336/195667351-1b9ecde5-fc3b-4287-b69e-6bd829fe9c27.png" width="377" align="right">
-
 <pre>
 Python 3.4.5 (default, Jan 12 2017, 02:28:40)
 [GCC 4.2.1 Compatible Clang 3.7.1 (tags/RELEASE_371/final)] on linux
@@ -457,13 +455,14 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 </pre>
 
+<img src="https://user-images.githubusercontent.com/61624336/195667351-1b9ecde5-fc3b-4287-b69e-6bd829fe9c27.png" width="377" align="right">
+
 Se o Python 3 estiver ausente, consulte a sua documentação do Linux para saber como utilizar o seu gestor de pacotes para descarregar e instalar um novo pacote - o que precisa chama-se python3, ou o seu nome começa com isso.
 
 > 🪟🍎 Todos os utilizadores que não sejam Linux podem descarregar uma cópia em: https://www.python.org/downloads/.
 
 > 🐍 **Nota**: Por padrão, a versão do Python 2 já se encontra instalado nas máquinas do sistema operacional Linux e macOS.
 
-## Descarregar e instalar o Python
 Como o browser diz ao site onde entrou o sistema operativo que utiliza, o único passo que tem de dar é clicar na versão Python apropriada que deseja.
 
 Neste caso, selecione Python 3. O site oferece sempre a versão mais recente do mesmo. Se for um utilizador do Windows, inicie o arquivo `.exe` descarregado e siga todos os passos.
