@@ -622,6 +622,9 @@ Como pode ver, o primeiro programa consiste nas seguintes partes:
 
 Cada um dos itens acima desempenha um papel muito importante no código.
 
+## A função `print()`
+Veja a linha de código abaixo:
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
