@@ -324,7 +324,7 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 <li>DevOps</li>
 <li>Automação</li>
 <li>Cloud Computing</li>
-<li>Estudos científicos como: Geologia, Astronomia, Física, Química, Matemática e etc</li>
+<li>Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
 ## Rivais do Python?
 O Python tem dois concorrentes diretos, com propriedades e predisposições comparáveis. Estes são:
