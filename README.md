@@ -446,6 +446,17 @@ Se for um utilizador Linux, abra o terminal/consola e digite:
 python3
 ```
 
+no shell prompt, pressione Enter e aguarde.
+
+Se vir algo deste gênero:
+
+<pre>
+Python 3.4.5 (default, Jan 12 2017, 02:28:40)
+[GCC 4.2.1 Compatible Clang 3.7.1 (tags/RELEASE_371/final)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+</pre>
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
