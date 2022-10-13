@@ -390,7 +390,11 @@ Como são conciliadas estas duas contradições? Uma solução é escrever as su
 É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
 
 ## Jython 
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177"></div><br />
+<div align="center">
+
+<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177"></a>
+  
+</div><br />
 
 Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Imagine um Python escrito em Java em vez de C. Isto é útil, por exemplo, se desenvolver sistemas grandes e complexos escritos inteiramente em Java, e quiser acrescentar alguma flexibilidade Python a eles. O CPython tradicional pode ser difícil de integrar em tal ambiente, já que C e Java vivem em mundos completamente diferentes e não partilham muitas ideias comuns.
 
