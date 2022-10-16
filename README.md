@@ -644,6 +644,8 @@ Uma função (neste contexto) é uma parte separada do código do computador cap
 
 Além disso, muitas das funções Python podem fazer as duas coisas acima juntamente.
 
+De onde vêm as funções?
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
