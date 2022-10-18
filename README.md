@@ -676,9 +676,25 @@ print("Hello, World!")
 
 Apesar do número de argumentos necessários/fornecidos, as funções Python exigem fortemente a presença de **um par de parêntesis** - de abertura e de fecho, respetivamente.
 
-Se quiser entregar um ou mais argumentos a uma função, coloque-os **dentro dos parêntesis**. Se for utilizar uma função que não aceita qualquer argumento, ainda assim tem de ter os parêntesis.
+Se quiser entregar um ou mais **argumentos** a uma função, coloque-os **dentro dos parêntesis**. Se for utilizar uma função que não aceita qualquer argumento, ainda assim tem de ter os parêntesis.
 
 > 🐍 **Nota**: para distinguir palavras comuns de nomes de funções, coloque **um par de parêntesis vazios** após os seus nomes, mesmo que a função correspondente queira um ou mais argumentos. Esta é uma convenção padrão.
+
+A função de que estamos a falar aqui é `print()`. A função `print()` no nosso exemplo tem algum argumento? Claro que sim, mas o que são eles?
+
+O único argumento entregue à função `print()` neste exemplo é uma `string`:
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+Como pode ver, **a string é delimitada com aspas** - de facto, as aspas fazem a string - cortam uma parte do código e atribuem-lhe um significado diferente.
+
+Pode imaginar que as aspas dizem algo como: o texto entre nós não é código. Não se destina a ser executado, e deve tomá-lo como está.
+
+Quase tudo o que colocar dentro das aspas será tomado literalmente, não como código, mas como dados. Tente jogar com esta string em particular - modificá-la, introduzir algum conteúdo novo, apagar algum do conteúdo existente.
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
