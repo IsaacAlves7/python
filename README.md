@@ -660,7 +660,7 @@ print'Hisssssss..."
 SyntaxError: EOL while scanning string literal
 </pre>
 
-Agora, veja o que acontece ao colocar duas aspas distintas sem parênteses:
+Agora, veja o que acontece ao colocar duas aspas simples ou duplas sem parênteses e com um sinal de igual:
 
 [![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
@@ -673,7 +673,7 @@ print='Hisssssss...'
 Success (1.82s)
 </pre>
 
-> Ele compila, mas não exibe resultado!
+> Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
 
 # 🐍 `Hello, World!` - Linguagem Python
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="177"></div><br />
