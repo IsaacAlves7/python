@@ -667,6 +667,14 @@ As funções de Python, por outro lado, são mais versáteis. Dependendo das nec
 
 > 🐍 **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
 
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+Apesar do número de argumentos necessários/fornecidos, as funções Python exigem fortemente a presença de **um par de parêntesis** - de abertura e de fecho, respetivamente.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
