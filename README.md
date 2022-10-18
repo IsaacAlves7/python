@@ -594,7 +594,23 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 
 - o **nome do erro** e uma breve explicação.
 
-Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
+> Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
+
+Ao retirar as aspas do argumento da `string` também é gerado um erro. Veja mais:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print(Hisssssss...)
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+Traceback (most recent call last):
+  File "snake.py", line 1, in <module>
+    print(Hisssssss...)
+NameError: name 'Hisssssss...' is not defined
+</pre>
 
 # 🐍 `Hello, World!` - Linguagem Python
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="177"></div><br />
