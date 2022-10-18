@@ -628,6 +628,23 @@ Traceback (most recent call last):
 NameError: name 'printHisssssss...' is not defined
 </pre>
 
+Agora, veja o que acontece ao colocar aspas duplas sem parênteses:
+
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print"Hisssssss..."
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+  File "snake.py", line 1
+    print"Hisssssss..."
+               ^
+SyntaxError: invalid syntax
+</pre>
+
 # 🐍 `Hello, World!` - Linguagem Python
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="177"></div><br />
 
