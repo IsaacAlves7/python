@@ -630,7 +630,6 @@ NameError: name 'printHisssssss...' is not defined
 
 Agora, veja o que acontece ao colocar aspas duplas sem parênteses:
 
-
 [![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
@@ -643,6 +642,22 @@ print"Hisssssss..."
     print"Hisssssss..."
                ^
 SyntaxError: invalid syntax
+</pre>
+
+Agora, veja o que acontece ao colocar duas aspas distintas sem parênteses:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print'Hisssssss..."
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+ File "snake.py", line 1
+    print'Hisssssss..."
+               ^
+SyntaxError: EOL while scanning string literal
 </pre>
 
 # 🐍 `Hello, World!` - Linguagem Python
