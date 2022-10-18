@@ -654,6 +654,11 @@ O nome da função deve ser **significativo** (o nome da função `print` é evi
 
 Claro que, se vai fazer uso de qualquer função já existente, não tem influência no seu nome, mas quando começar a escrever as suas próprias funções, deve considerar cuidadosamente a sua escolha de nomes.
 
+Como dissemos antes, uma função pode ter:
+
+- um **efeito**;
+- um **resultado**.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
