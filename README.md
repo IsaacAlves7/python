@@ -517,6 +517,8 @@ Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. 
 print("Hisssssss...")
 ```
 
+> O comando `print()` , que é uma das diretivas mais fáceis em Python, imprime simplesmente uma linha para o ecrã.
+
 Veja mais de perto as aspas. Estas são as formas mais simples de aspas (neutras, retas, mudas, etc.) tipicamente utilizadas nos source files. Não tente usar aspas tipográficas (curvas, curvilíneas, inteligentes, etc.), utilizadas por processadores de texto avançados, uma vez que o Python não as aceita.
 
 ![0830563fa18ea8138503c208eb9514af574d7a2c](https://user-images.githubusercontent.com/61624336/195683022-8105137e-d987-45f3-a003-407c320d1fa8.png)
