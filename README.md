@@ -666,7 +666,6 @@ Há também uma terceira, muito importante, componente de função - o(s) **argu
 
 As funções matemáticas normalmente aceitam um argumento, por exemplo, `sen(x)` toma um `x`, que é a medida de um ângulo.
 
-
 As funções de Python, por outro lado, são mais versáteis. Dependendo das necessidades individuais, elas podem aceitar qualquer número de argumentos - tantos quantos forem necessários para desempenhar as suas tarefas. 
 
 > 🐍 **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
@@ -697,7 +696,11 @@ Como pode ver, **a string é delimitada com aspas** - de facto, as aspas fazem a
 
 Pode imaginar que as aspas dizem algo como: o texto entre nós não é código. Não se destina a ser executado, e deve tomá-lo como está.
 
-Quase tudo o que colocar dentro das aspas será tomado literalmente, não como código, mas como dados. Tente jogar com esta string em particular - modificá-la, introduzir algum conteúdo novo, apagar algum do conteúdo existente.
+Quase tudo o que colocar dentro das aspas será tomado literalmente, não como código, mas como **dados**. Tente jogar com esta string em particular - modificá-la, introduzir algum conteúdo novo, apagar algum do conteúdo existente.
+
+Há mais do que uma maneira de especificar uma string dentro do código Python, mas por agora, esta é suficiente.
+
+> Até agora, aprendeu sobre duas partes importantes do código: a função e a string. Falámos sobre elas em termos de sintaxe, mas agora é altura de os discutir em termos de semântica.
 
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
