@@ -612,6 +612,22 @@ Traceback (most recent call last):
 NameError: name 'Hisssssss...' is not defined
 </pre>
 
+Agora, ao retirar os parênteses da função com o argumento `string` também é gerado um erro. Veja mais:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+printHisssssss...
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+Traceback (most recent call last):
+  File "snake.py", line 1, in <module>
+    printHisssssss...
+NameError: name 'printHisssssss...' is not defined
+</pre>
+
 # 🐍 `Hello, World!` - Linguagem Python
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="177"></div><br />
 
