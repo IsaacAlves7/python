@@ -702,6 +702,32 @@ Há mais do que uma maneira de especificar uma string dentro do código Python, 
 
 > Até agora, aprendeu sobre duas partes importantes do código: a função e a string. Falámos sobre elas em termos de sintaxe, mas agora é altura de os discutir em termos de semântica.
 
+O nome da função (`print` neste caso) juntamente com os *parêntesis* e o(s) *argumento(s)*, formam a **invocação da função**.
+
+Discutiremos isto com mais profundidade em breve, mas devemos dar-lhe umas luzes de momento.
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+O que acontece quando o Python encontra uma invocação como esta abaixo?
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+function_name(argument)
+```
+
+Vamos ver:
+
+- Primeiro, o Python verifica se o nome especificado é **legal** (navega nos seus dados internos a fim de encontrar uma função existente com o mesmo nome; se esta pesquisa falhar, o Python aborta o código);
+- segundo, o Python verifica se os requisitos da função para o número de argumentos **lhe permitem invocar** a função desta forma (por exemplo, se uma função específica exigir exatamente dois argumentos, qualquer invocação que apresente apenas um argumento será considerada errada, e abortará a execução do código);
+- terceiro, o Python **deixa o seu código por um momento** e salta para a função que pretende invocar; claro, também leva o(s) seu(s) argumento(s) e passa-o(s) para a função;
+- quarto, a função **executa o seu código**, causa o efeito desejado (se houver um), avalia o(s) resultado(s) desejado(s) (se existir(em)) e termina a sua tarefa;
+- finalmente, o Python **regressa ao seu código** (ao local imediatamente após a invocação) e retoma a sua execução.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
