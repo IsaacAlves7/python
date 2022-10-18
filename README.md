@@ -660,6 +660,21 @@ print'Hisssssss..."
 SyntaxError: EOL while scanning string literal
 </pre>
 
+Agora, veja o que acontece ao colocar duas aspas distintas sem parênteses:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print='Hisssssss...'
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+Success (1.82s)
+</pre>
+
+> Ele compila, mas não exibe resultado!
+
 # 🐍 `Hello, World!` - Linguagem Python
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="177"></div><br />
 
