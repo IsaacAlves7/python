@@ -659,6 +659,14 @@ Como dissemos antes, uma função pode ter:
 - um **efeito**;
 - um **resultado**.
 
+Há também uma terceira, muito importante, componente de função - o(s) **argumento(s)**.
+
+As funções matemáticas normalmente aceitam um argumento, por exemplo, `sen(x)` toma um `x`, que é a medida de um ângulo.
+
+As funções de Python, por outro lado, são mais versáteis. Dependendo das necessidades individuais, elas podem aceitar qualquer número de argumentos - tantos quantos forem necessários para desempenhar as suas tarefas. 
+
+> 🐍 **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
