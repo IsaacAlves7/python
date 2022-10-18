@@ -594,7 +594,7 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 
 Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
 
-# 🐍 Hello, World! - Linguagem Python
+# 🐍 `Hello, World! - Linguagem Python
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="177"></div><br />
 
 É tempo de começar a escrever algum código Python real e funcional. Vai ser muito simples por enquanto.
