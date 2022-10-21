@@ -938,6 +938,10 @@ enquanto esta não o fará:
 print("\\")
 ```
 
+2. Nem todos os pares de escape (a barra invertida acoplada a outro caratere) significam algo.
+
+Experimente o seu código no editor, execute-o e veja o que acontece.
+
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
 ## `pip` - Package Installer for Python
