@@ -809,6 +809,18 @@ Vamos ver:
 - quarto, a função **executa o seu código**, causa o efeito desejado (se houver um), avalia o(s) resultado(s) desejado(s) (se existir(em)) e termina a sua tarefa;
 - finalmente, o Python **regressa ao seu código** (ao local imediatamente após a invocação) e retoma a sua execução.
 
+Três questões importantes têm de ser respondidas assim que possível:
+
+1. Qual é o efeito que a função `print()` causa?
+
+O efeito é muito útil e muito espetacular. A função:
+
+- toma os seus argumentos (pode aceitar mais do que um argumento e pode também aceitar menos do que um argumento);
+- converte-os numa forma legível para o ser humano, se necessário (como pode suspeitar, as strings não requerem esta ação, uma vez que a `string` já é legível);
+- e envia os dados resultantes para o dispositivo de output (normalmente o console); por outras palavras, qualquer coisa que coloque na função `print()` aparecerá no ecrã.
+
+Não admira, então, que a partir de agora utilize `print()` muito intensivamente para ver os resultados das suas operações e avaliações.
+
 # 📦 `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
