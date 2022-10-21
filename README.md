@@ -180,17 +180,6 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 
 <blockquote>Duas importantes linguagens implementaram essa solução, com diferentes formas usando máquinas virtuais: <b>Python</b> e <b>Java</b>.</blockquote>
 
-<!--
-# 🏆 Certificações em Python
-![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
-
-- https://pythoninstitute.org/pcep
-- https://pythoninstitute.org/pcap
-
-## Cursos que oferecem certificações
-- https://pythoninstitute.org/
--->
-
 # 🐍 The History of Python language
 <div align="center">
 
@@ -338,6 +327,15 @@ A primeira é mais tradicional, mais conservadora do que Python, e assemelha-se 
 Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do que Python. O próprio Python encontra-se algures entre estas duas criações.
 
 A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
+
+## Certificações em Python
+![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
+
+- https://pythoninstitute.org/pcep
+- https://pythoninstitute.org/pcap
+
+### Cursos que oferecem certificações
+- https://pythoninstitute.org/
 
 ## Há mais de um Python
 Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**.
