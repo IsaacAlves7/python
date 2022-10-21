@@ -821,6 +821,14 @@ O efeito é muito útil e muito espetacular. A função:
 
 Não admira, então, que a partir de agora utilize `print()` muito intensivamente para ver os resultados das suas operações e avaliações.
 
+2. Que argumentos print() espera?
+
+Quaisquer. Mostrar-lhe-emos em breve que `print()` é capaz de operar com virtualmente todos os tipos de dados oferecidos pelo Python. Strings, números, carateres, valores lógicos, objetos - qualquer um destes pode ser passado com sucesso para `print()`.
+
+3. Que valor é devolvido pela função `print() ?
+
+Nenhum. O seu efeito é suficiente.
+
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
 ## `pip` - Package Installer for Python
