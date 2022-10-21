@@ -916,6 +916,28 @@ Down came the rain
 and washed the spider out.
 </pre>
 
+Como pode ver, duas newlines aparecem na canção de embalar, nos locais onde as `\n` foram usadas.
+
+Esta convenção tem duas consequências importantes:
+
+1. Se quiser colocar apenas uma barra invertida dentro de uma string, não se esqueça da sua natureza de escape - tem de a duplicar, por exemplo, uma tal invocação causará um erro:
+
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("\")
+```
+
+enquanto esta não o fará:
+
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("\\")
+```
+
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
 ## `pip` - Package Installer for Python
