@@ -829,6 +829,7 @@ Quaisquer. Mostrar-lhe-emos em breve que `print()` é capaz de operar com virtua
 
 Nenhum. O seu efeito é suficiente.
 
+### Instruções Python
 Já viu um programa de computador que contém uma invocação de função. Uma **invocação de função** é um dos muitos tipos possíveis de **instruções Python**.
 
 É claro que qualquer programa complexo contém geralmente muito mais instruções do que uma. A questão é: como se acoplam mais do que uma instrução no código Python?
@@ -852,6 +853,41 @@ A sintaxe de Python é bastante específica nesta área. Ao contrário da maiori
 Uma linha pode estar vazia (ou seja, pode não conter qualquer instrução) mas não deve conter duas, três ou mais instruções. Isto é estritamente proibido.
 
 > 🐍 **Nota**: o Python faz uma exceção a esta regra - permite que uma instrução se espalhe por mais do que uma linha (o que pode ser útil quando o seu código contém construções complexas).
+
+### Newline
+Mudámos um pouco o exemplo - acrescentámos uma invocação de função vazia `print()` . Chamamos-lhe vazia porque não apresentámos quaisquer argumentos para a função.
+
+Pode vê-lo na janela do editor. Execute o código.
+
+O que acontece?
+
+Se tudo correr bem, deverá ver algo como isto:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+```
+
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+</pre>
+
+Como pode ver, a invocação vazia `print()` não é tão vazia como se poderia esperar - produz uma linha vazia, ou (esta interpretação também é correta) o seu output é apenas uma **newline**.
+
+Esta não é a única forma de produzir uma newline no console de output. Vamos agora mostrar-lhe outra forma.
+
+Modificámos novamente o código. Olhe com atenção.
+
+Há duas mudanças muito subtis - inserimos um estranho par de carateres dentro da rima. Têm este aspeto: `\n`.
+
+
 
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
