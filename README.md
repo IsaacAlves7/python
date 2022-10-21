@@ -821,17 +821,31 @@ O efeito é muito útil e muito espetacular. A função:
 
 Não admira, então, que a partir de agora utilize `print()` muito intensivamente para ver os resultados das suas operações e avaliações.
 
-2. Que argumentos print() espera?
+2. Que argumentos `print()` espera?
 
 Quaisquer. Mostrar-lhe-emos em breve que `print()` é capaz de operar com virtualmente todos os tipos de dados oferecidos pelo Python. Strings, números, carateres, valores lógicos, objetos - qualquer um destes pode ser passado com sucesso para `print()`.
 
-3. Que valor é devolvido pela função `print() ?
+3. Que valor é devolvido pela função `print()` ?
 
 Nenhum. O seu efeito é suficiente.
 
 Já viu um programa de computador que contém uma invocação de função. Uma **invocação de função** é um dos muitos tipos possíveis de **instruções Python**.
 
 É claro que qualquer programa complexo contém geralmente muito mais instruções do que uma. A questão é: como se acoplam mais do que uma instrução no código Python?
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("The itsy bitsy spider climbed up the waterspout.")
+print("Down came the rain and washed the spider out.")
+```
+
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+The itsy bitsy spider climbed up the waterspout.
+Down came the rain and washed the spider out.
+</pre>
 
 A sintaxe de Python é bastante específica nesta área. Ao contrário da maioria das linguagens de programação, o Python requer que não haja mais do que uma instrução numa linha.
 
