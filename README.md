@@ -892,6 +892,30 @@ A palavra *escape* deve ser entendida especificamente - significa que a série d
 
 Por outras palavras, a barra invertida não significa nada em si, mas é apenas uma espécie de anúncio de que o próximo caratere após a barra invertida também tem um significado diferente.
 
+A letra `n` colocada após a barra invertida vem da palavra **newline** (nova linha).
+
+Tanto a barra invertida como o `n` formam um símbolo especial chamado **um caratere de newline**, que incita o console a iniciar uma nova linha de output.
+
+Execute o código. O seu console deve agora ter este aspeto:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+```
+
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
+</pre>
+
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
 ## `pip` - Package Installer for Python
