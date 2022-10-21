@@ -883,11 +883,12 @@ Como pode ver, a invocação vazia `print()` não é tão vazia como se poderia 
 
 Esta não é a única forma de produzir uma newline no console de output. Vamos agora mostrar-lhe outra forma.
 
+### Caractere de escape
 Modificámos novamente o código. Olhe com atenção.
 
-Há duas mudanças muito subtis - inserimos um estranho par de carateres dentro da rima. Têm este aspeto: `\n`.
+Há duas mudanças muito subtis - inserimos um estranho par de carateres dentro da rima. Têm este aspeto: `\n`. Curiosamente, enquanto se pode ver dois carateres, o Python vê um.
 
-
+A barra invertida `\` tem um significado muito especial quando usado dentro de strings - a isto chama-se o **caratere de escape**.
 
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
