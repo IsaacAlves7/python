@@ -821,13 +821,14 @@ O efeito é muito útil e muito espetacular. A função:
 
 Não admira, então, que a partir de agora utilize `print()` muito intensivamente para ver os resultados das suas operações e avaliações.
 
-# 📦 `pip` - Package Installer for Python
+# 📦 Gerenciandores de Pacote em Python (Package Manager)
+
+## `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
 
-## PyPI
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="177"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="177" align="right">
 
-# 📦 `conda` - Anaconda
+## `conda` - Anaconda
 <div align="center">
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="177"></a>
