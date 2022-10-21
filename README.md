@@ -942,6 +942,8 @@ print("\\")
 
 Experimente o seu código no editor, execute-o e veja o que acontece.
 
+## Utilizar múltiplos argumentos
+
 # 📦 Gerenciandores de Pacote em Python (Package Manager)
 
 ## `pip` - Package Installer for Python
