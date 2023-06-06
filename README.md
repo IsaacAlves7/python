@@ -282,6 +282,8 @@ A linguagem **Python** é uma linguagem de programação, com características i
   - Permite criação de **aplicações comerciais**. É desenvolvido sob uma licença de código aberto aprovada pela **OSI**, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
 
 > **Atenção**: Mas a maior força do Python também pode ser sua maior fraqueza: sua flexibilidade e sintaxe de alto nível sem tipo podem resultar em baixo desempenho para programas com uso intensivo de dados e computação. Por esse motivo, os programadores Python preocupados com a eficiência geralmente reescrevem seus loops mais internos em C e chamam as funções C compiladas do Python.
+
+Existem vários projetos que visam tornar essa otimização mais fácil, como o **Cython**, mas geralmente exigem o aprendizado de uma nova sintaxe. Idealmente, os programadores Python gostariam de tornar seu código Python existente mais rápido sem usar outra linguagem de programação e, naturalmente, muitos gostariam de usar aceleradores para obter um desempenho ainda maior de seu código.
  
 ### Resumindo as características do Python
 - Orientada a objetos com uma semântica dinâmica;
@@ -395,11 +397,7 @@ Como são conciliadas estas duas contradições? Uma solução é escrever as su
 É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
 
 ## Jython 
-<div align="center">
-
-<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177"></a>
-  
-</div><br />
+<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177" align="right"></a>
 
 Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Imagine um Python escrito em Java em vez de C. Isto é útil, por exemplo, se desenvolver sistemas grandes e complexos escritos inteiramente em Java, e quiser acrescentar alguma flexibilidade Python a eles. O CPython tradicional pode ser difícil de integrar em tal ambiente, já que C e Java vivem em mundos completamente diferentes e não partilham muitas ideias comuns.
 
@@ -410,11 +408,7 @@ Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz.
 > 🐍 **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
 
 ## PyPy e RPython
-<div align="center">
-
-<a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="177"></a>
-
-</div><br />
+<a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="177" align="right"></a>
 
 Dê uma vista de olhos ao logotipo acima. É um rébus. Consegue resolvê-lo? É um logótipo do **PyPy** - *um Python dentro de um Python*. Por outras palavras, representa um ambiente Python escrito em linguagem Python, chamado **RPython** (Restricted Python). Na verdade, é um subconjunto de Python.
 
