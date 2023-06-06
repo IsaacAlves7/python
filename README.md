@@ -946,9 +946,9 @@ Experimente o seu código no editor, execute-o e veja o que acontece.
 
 ## Utilizar múltiplos argumentos
 
-# 🐍 Comentários na linguagem Python
+## Comentários na linguagem Python
 
-# 📦 Gerenciandores de Pacote em Python (Package Manager)
+# 📦 Python Package Managers
 
 ## `pip` - Package Installer for Python
 <div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
