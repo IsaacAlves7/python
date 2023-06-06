@@ -258,6 +258,12 @@ A linguagem Python foi escolhida como instrumento para o desenvolvimento desta d
 - Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
  
 ## Características da Linguagem Python
+> Python é uma linguagem de programação dinâmica de alta produtividade amplamente usada em aplicativos de ciência, engenharia e análise de dados.
+
+Há uma série de fatores que influenciam a popularidade do Python, incluindo sua sintaxe limpa e expressiva, estruturas de dados padrão, biblioteca padrão abrangente, "baterias incluídas", documentação excelente, amplo ecossistema de bibliotecas e ferramentas, disponibilidade de suporte profissional e uma grande e aberta comunidade.
+
+> Talvez o mais importante, porém, seja a alta produtividade que uma linguagem interpretada e digitada dinamicamente como o Python permite. Python é ágil e flexível, o que o torna uma ótima linguagem para prototipagem rápida, mas também para construir sistemas completos.
+
 A linguagem **Python** é uma linguagem de programação, com características interessantes:
 
   - É **interpretada** e **compilada**, ou seja, o interpretador Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;
@@ -316,7 +322,7 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 <li>Cloud Computing</li>
 <li>Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc</li>
 
-## Rivais do Python? ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=Perl&logoColor=white)
+## Rivais do Python? ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=flat&logo=Perl&logoColor=white)
 O Python tem dois concorrentes diretos, com propriedades e predisposições comparáveis. Estes são:
 
 - **Perl** - uma linguagem de scripting originalmente de autoria de Larry Wall;
