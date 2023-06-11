@@ -225,6 +225,8 @@ Há muitas razões - já enumerámos algumas delas, mas vamos enumerá-las novam
 - é **fácil de compreender** - é também frequentemente mais fácil e rápido de compreender o código de outra pessoa se for escrito em Python;
 - é **fácil de obter, instalar e implementar** - o Python é gratuito, aberto e multiplataforma; nem todas as linguagens se podem gabar disso.
 
+> O Python é uma linguagem de programação com extenso uso, com uma grande comunidade de contribuintes e com extensa disponibilidade de artigos, informações e bibliotecas.
+
 É claro que o Python também tem os seus inconvenientes (ninguém é perfeito hehe):
 
 - **não tem um super-poder da velocidade** - o Python não oferece um desempenho excecional;
