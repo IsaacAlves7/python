@@ -390,7 +390,7 @@ Guido van Rossum utilizou a **linguagem de programação C** para implementar a 
 O CPython é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
 
 ## Cython
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="177"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="177" align="right">
 
 Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - **a falta de eficiência**. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em C ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
 
