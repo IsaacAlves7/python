@@ -1,4 +1,4 @@
-<a href="https://github.com/IsaacAlves7/js/tree/vanilla">![JS](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Jypiter_notebooks-snow?style=for-the-badge&logo=Jupyter&logoColor=F37626)</a>
+<a href="https://github.com/IsaacAlves7/js/tree/vanilla">![JS](https://img.shields.io/badge/Django-2ba977?style=for-the-badge&logo=Django&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Jypiter_notebooks-snow?style=for-the-badge&logo=Jupyter&logoColor=F37626)</a>
 
 <a href="https://github.com/IsaacAlves7/python-programming"><img src="https://user-images.githubusercontent.com/61624336/193806052-860b7136-6764-448d-91ef-a444427a26b3.png" width="100%"/></a>
 
