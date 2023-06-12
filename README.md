@@ -87,6 +87,13 @@ Infelizmente, um programador também pode cometer erros com cada um dos quatro s
 
 Vamos supor que tenha escrito um programa com sucesso. Como persuadir o computador a executá-lo? Tem de transformar o seu programa em linguagem de máquina. Felizmente, a tradução pode ser feita pelo próprio computador, tornando todo o processo rápido e eficiente.
 
+# O Compilador
+Você já parou para pensar como um programa escrito em uma linguagem de programação qualquer é convertido para um conjunto de comandos que podem ser executados por um computador?
+
+Uma CPU somente consegue manipular `0` e `1`, ou seja bits, de forma que, para um programa ser executado, ele deve passar por um processo de transformação de suas instruções, escritas em alguma linguagem de alto nível, para um conjunto de instruções em linguagem de máquina, que é aquela que efetivamente o processador consegue executar. Este processo de transformações é, de uma forma geral, denominado tradução, podendo ser realizado de várias formas.
+
+Neste tema, iremos apresentar as diversas formas de tradução e nos deteremos mais especificamente na **compilação**.
+
 Há duas formas diferentes de transformar um programa de uma linguagem de programação de alto nível em linguagem de máquina:
 
 - **COMPILAÇÃO** - o source program é traduzido uma vez (no entanto, este ato deve ser repetido sempre que modificar o source code) obtendo um ficheiro (por exemplo, um `ficheiro.exe` se o código se destinar a ser executado no MS Windows) contendo o machine code; agora pode distribuir o ficheiro por todo o mundo; o programa que executa esta tradução chama-se **compilador** ou **tradutor**;
