@@ -10,6 +10,9 @@
 - https://exercism.org/tracks/python
 - https://app.datacamp.com/learn
 
+[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#)
+[![Jupyter](https://img.shields.io/badge/-Jypiter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
+
 # 🐒 Linguagem de programação
 <img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png" height="177" align="right">
 
