@@ -56,7 +56,7 @@ Um processador executa comando em linguagem de máquina cujos comandos podem ser
 
 <table>
   <tr>
-    <td colspan="3">Formato de instrução</td>
+    <td colspan="3" align="center">Formato de instrução</td>
   </tr>
   <tr>
     <td>Código Operação</td>
