@@ -34,62 +34,6 @@ Outra linguagem que usa diariamente é a sua *língua materna*, que usa para man
 
 <img src="https://github.com/IsaacAlves7/python/assets/61624336/fe451ab5-6cd8-4f71-a82b-2cb074038935" height="177" align="right">
 
-Considere a arquitetura simplificada de um computador apresentada na figura 1. Nela, apresentamos o processador com três registradores (`R0`, `R1` e `R2`), os barramentos de dados e endereços e a memória que possui 8 células, numeradas de `0` a `7`.
-
-> **Atenção**: Vários componentes como registrador de instruções, contador de instruções unidade aritmética e lógica e outros componentes foram intencionalmente omitidos para focarmos apenas nos que são interessantes em nossa explicação.
-
-Imagine agora que você deseja executar a seguinte operação:
-
-```sql
-A := B + C
-```
-
-Onde `A`, `B` e `C` são variáveis mapeadas respectivamente para as posições `5`, `6` e `7` da memória.
-
-Considere ainda que `B` e `C` possuem os valores `10` e `8` e já estão armazenados na memória, conforme será apresentado na Figura 2.
-
-> **Atenção**: Para fins meramente didáticos, os valores são apresentados em decimal e não em binário, como efetivamente, ficam na memória.
-
-<img src="https://github.com/IsaacAlves7/python/assets/61624336/6287f9a9-5df0-40a8-b861-37befa1f9975" align="right" height="177">
-
-Um processador executa comando em linguagem de máquina cujos comandos podem ser, de forma simplificada, divididos em código de operação e um ou mais endereços (Figura 3), constituindo, cada um deles, um conjunto de bits.
-
-<table>
-  <tr>
-    <td colspan="3" align="center">Formato de instrução</td>
-  </tr>
-  <tr>
-    <td>Código Operação</td>
-    <td>Endereço</td>
-    <td>Endereço</td>
-  </tr>
-</table>
-
-Para continuarmos nosso exemplo, vamos considerar que o processador possui as seguintes instruções:
-
-<table>
-		<tr>
-			<td>Nr</td>
-			<td>Instrução</td>
-			<td>Código de operação</td>
-		</tr>
-		<tr>
-			<td>1</td>
-      <td>Ler um dado da memória para um registrador.</td>
-      <td>00</td>
-    </tr>
-		<tr>
-			<td>2</td>
-      <td>Somar um dado de um registrador com o R0 armazenando o resultado em R0.</td>
-      <td>01</td>
-    </tr>
-		<tr>
-			<td>3</td>
-      <td>Gravar o dado de um registrador em uma posição de memória.</td>
-			<td>10</td>
-    </tr>
-</table>
-
 # Machine code - Linguagem de máquina
 O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
@@ -149,6 +93,62 @@ A programação informática é o ato de compor os elementos da linguagem de pro
 Infelizmente, um programador também pode cometer erros com cada um dos quatro sentidos acima referidos. Cada um deles pode fazer com que o programa se torne completamente inútil. 
 
 Vamos supor que tenha escrito um programa com sucesso. Como persuadir o computador a executá-lo? Tem de transformar o seu programa em linguagem de máquina. Felizmente, a tradução pode ser feita pelo próprio computador, tornando todo o processo rápido e eficiente.
+
+Considere a arquitetura simplificada de um computador apresentada na figura 1. Nela, apresentamos o processador com três registradores (`R0`, `R1` e `R2`), os barramentos de dados e endereços e a memória que possui 8 células, numeradas de `0` a `7`.
+
+> **Atenção**: Vários componentes como registrador de instruções, contador de instruções unidade aritmética e lógica e outros componentes foram intencionalmente omitidos para focarmos apenas nos que são interessantes em nossa explicação.
+
+Imagine agora que você deseja executar a seguinte operação:
+
+```sql
+A := B + C
+```
+
+Onde `A`, `B` e `C` são variáveis mapeadas respectivamente para as posições `5`, `6` e `7` da memória.
+
+Considere ainda que `B` e `C` possuem os valores `10` e `8` e já estão armazenados na memória, conforme será apresentado na Figura 2.
+
+> **Atenção**: Para fins meramente didáticos, os valores são apresentados em decimal e não em binário, como efetivamente, ficam na memória.
+
+<img src="https://github.com/IsaacAlves7/python/assets/61624336/6287f9a9-5df0-40a8-b861-37befa1f9975" align="right" height="177">
+
+Um processador executa comando em linguagem de máquina cujos comandos podem ser, de forma simplificada, divididos em código de operação e um ou mais endereços (Figura 3), constituindo, cada um deles, um conjunto de bits.
+
+<table>
+  <tr>
+    <td colspan="3" align="center">Formato de instrução</td>
+  </tr>
+  <tr>
+    <td>Código Operação</td>
+    <td>Endereço</td>
+    <td>Endereço</td>
+  </tr>
+</table>
+
+Para continuarmos nosso exemplo, vamos considerar que o processador possui as seguintes instruções:
+
+<table>
+		<tr>
+			<td>Nr</td>
+			<td>Instrução</td>
+			<td>Código de operação</td>
+		</tr>
+		<tr>
+			<td>1</td>
+      <td>Ler um dado da memória para um registrador.</td>
+      <td>00</td>
+    </tr>
+		<tr>
+			<td>2</td>
+      <td>Somar um dado de um registrador com o R0 armazenando o resultado em R0.</td>
+      <td>01</td>
+    </tr>
+		<tr>
+			<td>3</td>
+      <td>Gravar o dado de um registrador em uma posição de memória.</td>
+			<td>10</td>
+    </tr>
+</table>
 
 # O Compilador
 Você já parou para pensar como um programa escrito em uma linguagem de programação qualquer é convertido para um conjunto de comandos que podem ser executados por um computador?
