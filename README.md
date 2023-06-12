@@ -155,6 +155,17 @@ Para continuarmos nosso exemplo, vamos considerar que o processador possui as se
 
 A partir deste conjunto de instruções, o programa seria então traduzido como:
 
+```portugol
+LER B para R0
+LER C para R1
+SOMAR R0 a R1
+GRAVAR R0 em A
+```
+
+Em linguagem de máquina, iria corresponder:
+
+
+
 # O Compilador
 Você já parou para pensar como um programa escrito em uma linguagem de programação qualquer é convertido para um conjunto de comandos que podem ser executados por um computador?
 
