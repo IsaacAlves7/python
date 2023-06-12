@@ -150,6 +150,8 @@ Para continuarmos nosso exemplo, vamos considerar que o processador possui as se
     </tr>
 </table>
 
+A partir deste conjunto de instruções, o programa seria então traduzido como:
+
 # O Compilador
 Você já parou para pensar como um programa escrito em uma linguagem de programação qualquer é convertido para um conjunto de comandos que podem ser executados por um computador?
 
