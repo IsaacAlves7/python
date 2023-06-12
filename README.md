@@ -67,6 +67,29 @@ Um processador executa comando em linguagem de máquina cujos comandos podem ser
 
 Para continuarmos nosso exemplo, vamos considerar que o processador possui as seguintes instruções:
 
+<table>
+		<tr>
+			<td>Nr</td>
+			<td>Instrução</td>
+			<td>Código de operação</td>
+		</tr>
+		<tr>
+			<td>1</td>
+      <td>Ler um dado da memória para um registrador.</td>
+      <td>00</td>
+    </tr>
+		<tr>
+			<td>2</td>
+      <td>Somar um dado de um registrador com o R0 armazenando o resultado em R0.</td>
+      <td>01</td>
+    </tr>
+		<tr>
+			<td>3</td>
+      <td>Gravar o dado de um registrador em uma posição de memória.</td>
+			<td>10</td>
+    </tr>
+</table>
+
 # Machine code - Linguagem de máquina
 O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
