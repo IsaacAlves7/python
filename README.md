@@ -27,6 +27,12 @@ Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta)
 
 Outra linguagem que usa diariamente é a sua *língua materna*, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
 
+<img src="https://github.com/IsaacAlves7/python/assets/61624336/fe451ab5-6cd8-4f71-a82b-2cb074038935" height="177" align="right">
+
+Considere a arquitetura simplificada de um computador apresentada na figura 1. Nela, apresentamos o processador com três registradores (`R0`, `R1` e `R2`), os barramentos de dados e endereços e a memória que possui 8 células, numeradas de `0` a `7`.
+
+> **Atenção**: Vários componentes como registrador de instruções, contador de instruções unidade aritmética e lógica e outros componentes foram intencionalmente omitidos para focarmos apenas nos que são interessantes em nossa explicação.
+
 # Machine code - Linguagem de máquina
 O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
