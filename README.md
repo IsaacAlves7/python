@@ -33,6 +33,16 @@ Considere a arquitetura simplificada de um computador apresentada na figura 1. N
 
 > **Atenção**: Vários componentes como registrador de instruções, contador de instruções unidade aritmética e lógica e outros componentes foram intencionalmente omitidos para focarmos apenas nos que são interessantes em nossa explicação.
 
+Imagine agora que você deseja executar a seguinte operação:
+
+```sql
+A := B + C
+```
+
+Onde `A`, `B` e `C` são variáveis mapeadas respectivamente para as posições `5`, `6` e `7` da memória.
+
+Considere ainda que `B` e `C` possuem os valores `10` e `8` e já estão armazenados na memória, conforme será apresentado na Figura 2.
+
 # Machine code - Linguagem de máquina
 O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
