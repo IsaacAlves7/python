@@ -5,6 +5,9 @@
 
 <a href="https://github.com/IsaacAlves7/python-programming"><div align="center"><img src="https://user-images.githubusercontent.com/61624336/193809777-0c363bd5-112a-4707-8292-7e77eba6d858.png" height="177"/></div></a>
 
+- https://exercism.org/tracks/python
+- https://app.datacamp.com/learn
+
 # 🐒 Linguagem de programação
 <img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png" height="177" align="right">
 
