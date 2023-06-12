@@ -50,6 +50,23 @@ Considere ainda que `B` e `C` possuem os valores `10` e `8` e já estão armazen
 
 > **Atenção**: Para fins meramente didáticos, os valores são apresentados em decimal e não em binário, como efetivamente, ficam na memória.
 
+<img src="https://github.com/IsaacAlves7/python/assets/61624336/6287f9a9-5df0-40a8-b861-37befa1f9975" align="right" height="177">
+
+Um processador executa comando em linguagem de máquina cujos comandos podem ser, de forma simplificada, divididos em código de operação e um ou mais endereços (Figura 3), constituindo, cada um deles, um conjunto de bits.
+
+<table>
+  <tr>
+    <td colspan="3">Formato de instrução</td>
+  </tr>
+  <tr>
+    <td>Código Operação</td>
+    <td>Endereço</td>
+    <td>Endereço</td>
+  </tr>
+</table>
+
+Para continuarmos nosso exemplo, vamos considerar que o processador possui as seguintes instruções:
+
 # Machine code - Linguagem de máquina
 O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
