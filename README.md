@@ -9,6 +9,7 @@
 
 - https://exercism.org/tracks/python
 - https://app.datacamp.com/learn
+- https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/
 
 [![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#)
 [![Jupyter](https://img.shields.io/badge/-Jypiter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
