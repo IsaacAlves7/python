@@ -1031,26 +1031,24 @@ Experimente o seu código no editor, execute-o e veja o que acontece.
 
 ## Comentários na linguagem Python
 
-# 📦 Python Package Managers
+# 📦 [Python] Package Manager
+Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
 
-## `pip` - Package Installer for Python
-<div align="center"><img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="177"></div><br \>
+<img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="77" align="right">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="177" align="right">
+O `pip` - Package Installer for Python
 
-## `conda` - Anaconda
-<div align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
 
-<a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="177"></a>
-  
-</div><br />
+O `conda` - Anaconda
 
+<a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
 
 # 👹 Python-Ogre
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="177"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
 
 # 🦕 Django
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="77" align="right">
 
 # ⚗️ Flask
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
