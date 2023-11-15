@@ -1054,6 +1054,9 @@ Experimente o seu código no editor, execute-o e veja o que acontece.
 ## Utilizar múltiplos argumentos
 
 ## Comentários na linguagem Python
+Agora, vamos entender as linhas do que seria o nosso primeiro programa em Python.
+
+A primeira observação que vamos realizar é sobre as palavras iniciadas com `#`. Isso significa que o interpretador que executará o seu programa vai considerar o que vem depois de `#` como comentários. Isso é muito importante para documentar o seu programa, e, às vezes, nos lembrar do que realmente estamos fazendo. Lembrando que esse tipo de comentário é apenas para uma linha.
 
 # 📦 [Python] Package Manager
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
@@ -1096,7 +1099,7 @@ Faremos um programa Python para avaliar uma fórmula simples. Nosso primeiro exe
 Formula da equação de movimento vertical sob a aceleração devido à gravidade:
 
 <pre>
-y = vot + 0.5gt<sup>2</sup>
+y = vot - 0.5gt<sup>2</sup>
 </pre>
 
 Onde:
@@ -1115,3 +1118,9 @@ Para obter a altura ao decorrer do tempo, precisamos saber da velocidade inicial
  y = v0 * t - 0,5 * g * t ** 2	    # Posição vertical
  print(y)
 ```
+
+`v0 = 5 # Velocidade inicial` Essa linha é uma atribuição de variável, ou seja, toda a vez que aparecer v0, o Python vai entender que é uma representação de 5m/s. Uma maneira simples de entender o que é atribuição seria pensar que o Python gera uma "caixa" no computador (memória) com o nome v0 escrito no topo. O número 5 é, então, colocado nessa caixa. Sempre que o Python, mais tarde, encontra o nome v0 no código, ele encontra a caixa, de modo que o Python tira o número cinco e substitui o nome v0 pelo número. Isso também acontece com as linhas seguintes: g = 10 e t = 0,5.
+
+`y = v0 * t - 0,5 * g * t ** 2 # Posição vertical` O Python já conhece três “caixas” com seus respectivos valores v0, g e t, então, a linha seguinte contém a fórmula do nosso modelo matemático: `y = v0 * t - 0,5 * g * t ** 2`. Novamente, de acordo com suas regras, Python interpreta `*` como multiplicação, `-` como menos e `**` como exponenciação. O Python executa a matemática e atribui o resultado (neste caso, o número `1,25`) à variável de nome `y`.
+
+`print(y)` Na última linha, vem o comando print(y), que é um comando de impressão na tela do valor de y, pois, caso não seja colocado essa função print, o Python executaria a fórmula e atribuiria na “caixa” y o valor de 1,25 e nada aparecia na tela.
