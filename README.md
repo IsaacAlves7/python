@@ -382,7 +382,31 @@ Resumindo as características do Python:
 - Curva de aprendizado baixa;
 - Muitas Bibliotecas.
 
+<img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="77" align="right">
+
 Por essas e várias outras características, o Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem muito utilizada por diversas empresas como Wikipédia, Microsoft, Google, Yahoo!, CERN, NASA, Facebook, AMAZON, Instagram, Spotify, Bitorrent Inc, Django e Dropbox.
+
+**Django** é um framework de desenvolvimento web de alto nível, escrito em Python, que incentiva o desenvolvimento rápido e limpo de aplicações web. Desenvolvido por uma equipe liderada por Adrian Holovaty e Simon Willison, o Django segue o princípio do "don't repeat yourself" (DRY) e visa facilitar a construção de aplicações web complexas ao fornecer uma estrutura robusta e convenções bem definidas.
+
+Principais características do Django:
+
+- ORM (Object-Relational Mapping): Django inclui um ORM que mapeia objetos Python para tabelas em um banco de dados relacional. Isso facilita a interação com o banco de dados sem a necessidade de escrever SQL diretamente.
+
+- Administração automática: O Django fornece uma interface de administração automática baseada em web que pode ser personalizada para gerenciar os modelos de dados do aplicativo.
+
+- Sistema de URL: O framework possui um sistema de mapeamento de URL que permite associar URLs a funções específicas, facilitando a criação de URLs amigáveis.
+
+- Templates: Django utiliza um sistema de templates que permite separar a lógica de apresentação da lógica de negócios.
+
+- Segurança: O Django inclui recursos de segurança incorporados, como proteção contra CSRF (Cross-Site Request Forgery) e injeção de SQL.
+
+- Sistema de middleware: Permite a criação de componentes reutilizáveis que podem processar as requisições antes que elas atinjam a aplicação principal.
+
+- Suporte a APIs: Django facilita a criação de APIs (Interface de Programação de Aplicações) por meio de pacotes como o Django Rest Framework.
+
+- Escalabilidade: Embora seja fácil começar com Django em projetos menores, o framework é escalável e é usado em muitos aplicativos grandes e de alta carga.
+
+Django é uma escolha popular para desenvolvedores web devido à sua simplicidade, produtividade e à comunidade ativa que o suporta. Ele é amplamente utilizado em diversos tipos de projetos, desde sites simples até aplicações web complexas.
 
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=flat&logo=Perl&logoColor=white)
 
@@ -1044,8 +1068,7 @@ O `conda` - Anaconda
 # 👹 Python-Ogre
 <img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
 
-# 🦕 Django
-<img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="77" align="right">
+
 
 # ⚗️ Flask
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
