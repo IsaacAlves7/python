@@ -1088,3 +1088,9 @@ conda install <nome_do_pacote>
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
 Entender a aritmética computacional como ferramenta essencial para os profissionais que utilizaram programação para resolver problemas de modelagem matemática e os possíveis erros que podem ocorrer na execução de algoritmos em uma linguagem específica. Para compreender os conceitos abordados, é necessário prévio conhecimento básico da linguagem Python.
+
+> É necessário aprender os recursos do Python: programação e bibliotecas.
+
+Faremos um programa Python para avaliar uma fórmula simples. Nosso primeiro exemplo diz respeito à programação de um modelo matemático que calcula a altura de um objeto atirado na direção vertical, partindo de uma altura inicial igual a zero. Da 2ª lei de Newton, e ao assumir uma resistência do ar desprezível, obtemos um modelo matemático que determina a posição vertical `y` da bola no tempo `t`: <code>y = vot + 0.5gt<sup>2</sup></code>
+
+
