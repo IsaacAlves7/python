@@ -1056,15 +1056,27 @@ Experimente o seu código no editor, execute-o e veja o que acontece.
 ## Comentários na linguagem Python
 
 # 📦 [Python] Package Manager
-Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
-
-O `pip` - Package Installer for Python
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
 
-O `conda` - Anaconda
+Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
+
+O `pip` - Package Installer for Python é o gerenciador de pacotes padrão para Python. Ele facilita a instalação e gerenciamento de pacotes a partir do Python Package Index (PyPI), que é o repositório oficial de pacotes Python. Você pode usar o pip para instalar pacotes com o seguinte comando:
+
+```sh
+pip install <nome_do_pacote>
+```
+
+Também é possível instalar a partir de um arquivo `requirements.txt`:
+
+```sh
+pip install -r requirements.txt
+```
+
+Para mais informações, você pode digitar `pip --help` no terminal.
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
+
+O `conda` - Anaconda
 
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
