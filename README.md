@@ -1091,7 +1091,13 @@ Entender a aritmética computacional como ferramenta essencial para os profissio
 
 > É necessário aprender os recursos do Python: programação e bibliotecas.
 
-Faremos um programa Python para avaliar uma fórmula simples. Nosso primeiro exemplo diz respeito à programação de um modelo matemático que calcula a altura de um objeto atirado na direção vertical, partindo de uma altura inicial igual a zero. Da 2ª lei de Newton, e ao assumir uma resistência do ar desprezível, obtemos um modelo matemático que determina a posição vertical `y` da bola no tempo `t`: <code>y = vot + 0.5gt<sup>2</sup></code>
+Faremos um programa Python para avaliar uma fórmula simples. Nosso primeiro exemplo diz respeito à programação de um modelo matemático que calcula a altura de um objeto atirado na direção vertical, partindo de uma altura inicial igual a zero. Da 2ª lei de Newton, e ao assumir uma resistência do ar desprezível, obtemos um modelo matemático que determina a posição vertical `y` da bola no tempo `t`: 
+
+Formula da equação de movimento vertical sob a aceleração devido à gravidade:
+
+<pre>
+y = vot + 0.5gt<sup>2</sup>
+</pre>
 
 Onde:
 
@@ -1100,3 +1106,12 @@ Onde:
 - `g`: É a aceleração da gravidade no local, que pode ser aproximado por `10m/s2`.
 
 Para obter a altura ao decorrer do tempo, precisamos saber da velocidade inicial, que, para o nosso exemplo, será de `5m/s`. Então, podemos escrever um arquivo chamado de `primeiroprograma.py`, com o seguinte conteúdo:
+
+```python
+ # Programa para calcular a altura de um objeto em movimento vertical
+ v0 = 5	              # Velocidade inicial
+ g = 10	              # Aceleração da gravidade
+ t = 0,5	             # Tempo
+ y = v0 * t - 0,5 * g * t ** 2	    # Posição vertical
+ print(y)
+```
