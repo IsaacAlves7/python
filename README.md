@@ -269,13 +269,6 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 <blockquote>Duas importantes linguagens implementaram essa solução, com diferentes formas usando máquinas virtuais: <b>Python</b> e <b>Java</b>.</blockquote>
 
 # 🐍 The History of Python language
-<div align="center">
-
-| [<img src="https://avatars.githubusercontent.com/u/2894642?v=4" width="177"><br><sub>Guido Van Rossum</sub>](https://github.com/gvanrossum) 
-|:-:|
- 
-</div>
-
 A linguagem Python surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a>, nascido em 1956 em Haarlem, Holanda. O desenvolvimento da linguagem foi como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI) chamado Centrum Voor Wiskunde en Informatica, em Amsterdã, na Holanda no ano de 1980. 
 
 As circunstâncias em que o Python foi criado são um pouco confusas. De acordo com Guido van Rossum:
@@ -284,7 +277,7 @@ As circunstâncias em que o Python foi criado são um pouco confusas. De acordo 
 
 > Em Dezembro de 1989, estava à procura de um projeto de programação de "hobby" que me mantivesse ocupado durante a semana por volta do Natal. O meu escritório (...) estaria fechado, mas eu tinha um computador em casa, e não tinha muito mais nas mãos. Decidi escrever um intérprete para a nova linguagem de escrita em que tinha pensado ultimamente: um descendente do ABC que apelaria aos hackers Unix/C. Escolhi Python como título de trabalho para o projeto, estando de humor ligeiramente irreverente (e sendo um grande fã do Monty Python's Flying Circus). - Guido van Rossum
 
-> **Curiosidade**: A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python surgiu após a publicação do livro "" e após isso foi aderida pelo fundador.
+> **Curiosidade**: A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python foi criado pela O'Reilly Media, uma empresa de mídia conhecida por seus livros técnicos na área de Ciência e Tecnologia. A O'Reilly Media usou a imagem de uma serpente em sua capa do livro "Programming Python" de Mark Lutz, que foi lançado em 1996. A capa apresentava uma serpente enroscada, e essa imagem acabou sendo adotada como um símbolo informal para o Python. Então, embora a inspiração para o nome "Python" venha do programa de televisão "Monty Python's Flying Circus", o logo específico da serpente foi popularizado pela O'Reilly Media por meio de sua capa de livro. A serpente passou a ser amplamente reconhecida como o símbolo do Python na comunidade de desenvolvimento de software e após isso foi aderida pelo fundador. 
   
 Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção e, portanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
   
