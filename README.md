@@ -1140,3 +1140,23 @@ Agora, vamos tratar de recursos adicionais da linguagem para apoiar o desenvolvi
 - `\t` Cria uma tabulação.
 
 - `\b` É uma backspace.
+
+Vejamos exemplos de aplicação:
+
+<table>
+<tr>
+<td>
+<pre>
+>>>print('abc\nd')
+ abc 
+ d
+</pre>
+</td>
+<td>
+<pre>
+>>>>print('abc\td')
+ abc 		d
+</pre>
+</td>
+</tr>
+</table>
