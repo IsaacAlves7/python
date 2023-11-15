@@ -483,9 +483,9 @@ Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Ima
 
 Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz. É por isso que alguns projetos o consideram utilizável e necessário.
 
-> 🐍 **Nota**: A atual implementação do Jython segue as normas do Python 2. Até ao momento, não há Jython em conformidade com Python 3.
+> **Nota**: A atual implementação do Jython segue as normas do Python 2. Até ao momento, não há Jython em conformidade com Python 3.
 
-> 🐍 **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
+> **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
 
 ## PyPy e RPython
 <a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="77" align="right"></a>
@@ -515,11 +515,11 @@ Devido a razões históricas, as linguagens concebidas para serem utilizadas na 
 O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
 
 # 🐍 Como obter o Python e como conseguir utilizá-lo
-![cf12a9b584a5bc7ca191bbecbe0741151ae6ebfb](https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png)
+<img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
 
 Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
 
-> 🐧 Utilizadores de **Linux** provavelmente já têm o Python instalado - este é o cenário mais provável, já que a infraestrutura do Python é intensamente utilizada por muitos componentes do sistema operativo Linux. Por exemplo, alguns distribuidores podem acoplar as suas ferramentas específicas ao sistema e muitas destas ferramentas, como gestores de pacotes, são frequentemente escritas em Python. Algumas partes de ambientes gráficos disponíveis no mundo Linux também podem utilizar o Python.
+> Utilizadores de **Linux** provavelmente já têm o Python instalado - este é o cenário mais provável, já que a infraestrutura do Python é intensamente utilizada por muitos componentes do sistema operativo Linux. Por exemplo, alguns distribuidores podem acoplar as suas ferramentas específicas ao sistema e muitas destas ferramentas, como gestores de pacotes, são frequentemente escritas em Python. Algumas partes de ambientes gráficos disponíveis no mundo Linux também podem utilizar o Python.
 
 Se for um utilizador Linux, abra o terminal/console e digite:
 
