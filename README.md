@@ -424,6 +424,8 @@ Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para i
 
 Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa:
 
+<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
+
 - IA - Inteligência Artificial
 - Machine Learning
 - Deep Learning
@@ -434,6 +436,9 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 - Computação 3D
 - Biotecnologia
 - Bioinformática
+
+<img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="77" align="right">
+
 - Web Development (Back-end)
 - Cybersecurity
 - Game Development
@@ -1053,8 +1058,6 @@ Experimente o seu código no editor, execute-o e veja o que acontece.
 # 📦 [Python] Package Manager
 Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
 
-<img src="https://pypi.org/static/images/logo-small.95de8436.svg" height="77" align="right">
-
 O `pip` - Package Installer for Python
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
@@ -1063,10 +1066,7 @@ O `conda` - Anaconda
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
 
-# 👹 Python-Ogre
-<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
+# [Python] Aritmética computacional
+Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
-
-
-# ⚗️ Flask
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="177"></div><br \>
+Entender a aritmética computacional como ferramenta essencial para os profissionais que utilizaram programação para resolver problemas de modelagem matemática e os possíveis erros que podem ocorrer na execução de algoritmos em uma linguagem específica. Para compreender os conceitos abordados, é necessário prévio conhecimento básico da linguagem Python.
