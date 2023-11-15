@@ -431,7 +431,7 @@ A Internet está cheia de fóruns com infinitas discussões sobre a superioridad
 - https://pythoninstitute.org/
 
 ## Há mais de um Python
-<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
 
 Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**.
 
@@ -456,7 +456,7 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 > Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
 
 ## Python aka CPython
-<img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="177" align="right">
+<img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="77" align="right">
 
 Além do Python 2 e Python 3, existe mais de uma versão de cada uma.
 
@@ -471,7 +471,7 @@ Guido van Rossum utilizou a **linguagem de programação C** para implementar a 
 O CPython é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
 
 ## Cython
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="177" align="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="77" align="right">
 
 Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - **a falta de eficiência**. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em C ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
 
@@ -480,7 +480,7 @@ Como são conciliadas estas duas contradições? Uma solução é escrever as su
 É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
 
 ## Jython 
-<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="177" align="right"></a>
+<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="77" align="right"></a>
 
 Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Imagine um Python escrito em Java em vez de C. Isto é útil, por exemplo, se desenvolver sistemas grandes e complexos escritos inteiramente em Java, e quiser acrescentar alguma flexibilidade Python a eles. O CPython tradicional pode ser difícil de integrar em tal ambiente, já que C e Java vivem em mundos completamente diferentes e não partilham muitas ideias comuns.
 
@@ -491,7 +491,7 @@ Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz.
 > 🐍 **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
 
 ## PyPy e RPython
-<a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="177" align="right"></a>
+<a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="77" align="right"></a>
 
 Dê uma vista de olhos ao logotipo acima. É um rébus. Consegue resolvê-lo? É um logótipo do **PyPy** - *um Python dentro de um Python*. Por outras palavras, representa um ambiente Python escrito em linguagem Python, chamado **RPython** (Restricted Python). Na verdade, é um subconjunto de Python.
 
@@ -506,7 +506,7 @@ Além disso, o PyPy é compatível com a linguagem do Python 3.
 Existem muitos mais Pythons diferentes no mundo. Encontrá-los-á se procurar, vamos nos concentrar no CPython.
 
 # 🏗️ Sistema de implementação do Python
-<a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="177" align="right">
+<a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="77" align="right">
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
