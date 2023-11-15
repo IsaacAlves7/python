@@ -1124,3 +1124,9 @@ Para obter a altura ao decorrer do tempo, precisamos saber da velocidade inicial
 `y = v0 * t - 0,5 * g * t ** 2 # Posição vertical` O Python já conhece três “caixas” com seus respectivos valores v0, g e t, então, a linha seguinte contém a fórmula do nosso modelo matemático: `y = v0 * t - 0,5 * g * t ** 2`. Novamente, de acordo com suas regras, Python interpreta `*` como multiplicação, `-` como menos e `**` como exponenciação. O Python executa a matemática e atribui o resultado (neste caso, o número `1,25`) à variável de nome `y`.
 
 `print(y)` Na última linha, vem o comando print(y), que é um comando de impressão na tela do valor de y, pois, caso não seja colocado essa função print, o Python executaria a fórmula e atribuiria na “caixa” y o valor de 1,25 e nada aparecia na tela.
+
+Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utilizamos o operador `=` para atribuir um valor numérico a uma representação, como no exemplo `v0`, `t` e `g`. Nesse ponto, a linguagem de programação difere da linguagem matemática. Para exemplificar essa diferença, usaremos a expressão `x= 4-x`. Veja o que essa expressão significa em cada caso:
+
+- Matemática: É uma simples equação, onde a variável `x = 2`.
+
+- Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
