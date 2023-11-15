@@ -1130,3 +1130,5 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 - Matemática: É uma simples equação, onde a variável `x = 2`.
 
 - Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
+
+Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
