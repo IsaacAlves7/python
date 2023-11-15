@@ -514,7 +514,7 @@ Devido a razões históricas, as linguagens concebidas para serem utilizadas na 
 ## VirtualEnv em Python
 O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
 
-# 🐍 Como obter o Python e como conseguir utilizá-lo
+# 🐍 [Python] Getting started
 <img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
 
 Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
