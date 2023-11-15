@@ -1076,7 +1076,13 @@ Para mais informações, você pode digitar `pip --help` no terminal.
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
 
-O `conda` - Anaconda
+O `conda` é um gerenciador de pacotes e um sistema de gerenciamento de ambientes desenvolvido pela Anaconda, uma distribuição popular de Python para ciência de dados e aprendizado de máquina. O conda pode instalar pacotes de diversas fontes, incluindo o PyPI, e também gerenciar ambientes virtuais.
+
+Para instalar um pacote usando conda, você pode usar:
+
+```sh
+conda install <nome_do_pacote>
+```
 
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
