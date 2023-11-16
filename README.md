@@ -11,7 +11,8 @@
 - https://app.datacamp.com/learn
 - https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/
 
-[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#)
+<a href="https://colab.research.google.com/"> [![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#) </a>
+
 [![Jupyter](https://img.shields.io/badge/-Jypiter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
 [![SQL](https://img.shields.io/badge/-query.sql-fff?style=social&logo=Amazon-RDS&logoColor=527FFF)](#)
 
