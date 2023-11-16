@@ -592,6 +592,29 @@ Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto 
 
 ![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
+
+Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações.
+
+Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
+
+O Google Colab, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter.
+
+Alguns dos principais recursos do Google Colab incluem:
+
+- Ambiente de notebook interativo: Permite escrever e executar código Python em células individuais, facilitando a experimentação e a visualização dos resultados.
+
+- Gratuito com recursos de GPU e TPU: Oferece acesso gratuito a recursos de hardware, como GPUs (Unidades de Processamento Gráfico) e TPUs (Unidades de Processamento Tensorial), o que é especialmente útil para tarefas intensivas de computação, como aprendizado de máquina e treinamento de modelos.
+
+- Integração com o Google Drive: Permite importar conjuntos de dados e salvar resultados diretamente no Google Drive.
+
+- Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
+
+Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem.
+
 ## Como escrever e executar o seu primeiro programa
 É agora tempo de escrever e executar o seu primeiro programa de Python 3. Será muito simples, por agora.
 
@@ -632,28 +655,6 @@ Guarde o ficheiro `File > Save` e execute o programa `Run -> Run Module`.
 Se tudo correr bem e não houver erros no código, a janela do console irá mostrar-lhe os efeitos causados pela execução do programa. Neste caso, o programa sibila. Tente executá-lo mais uma vez. E mais uma vez. Agora feche ambas as janelas e regresse ao ambiente de trabalho.
 
 ![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
-
-Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações.
-
-Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
-
-O Google Colab, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter.
-
-Alguns dos principais recursos do Google Colab incluem:
-
-- Ambiente de notebook interativo: Permite escrever e executar código Python em células individuais, facilitando a experimentação e a visualização dos resultados.
-
-- Gratuito com recursos de GPU e TPU: Oferece acesso gratuito a recursos de hardware, como GPUs (Unidades de Processamento Gráfico) e TPUs (Unidades de Processamento Tensorial), o que é especialmente útil para tarefas intensivas de computação, como aprendizado de máquina e treinamento de modelos.
-
-- Integração com o Google Drive: Permite importar conjuntos de dados e salvar resultados diretamente no Google Drive.
-
-- Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
-
-Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem.
 
 ## Como estragar e corrigir o seu código
 Agora reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
