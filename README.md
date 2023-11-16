@@ -1163,3 +1163,12 @@ Vejamos exemplos de aplicação:
 
 É possível obter o endereço dos caracteres dos strings usando a notação de índices, `string[índice]`, observando que, para o Python, o primeiro caractere tem índice `0` e o último tem índice `-1`. Vejamos alguns exemplos:
 
+```python
+>>> palavra = “abcd”
+ >>> palavra[0]
+ a
+ >>>palavra[-1]
+ d
+ ```
+
+Podemos também fatiar (slices) um string com a notação `string[índiceI:índiceF]`. Com esse comando, o Python nos retorna os caracteres, iniciando com o caractere de `índiceI` (inclusive) e finalizando com o caractere que fica antes do `indiceF`. Isso acontece, pois o `indiceF` é exclusivo. Por exemplo:
