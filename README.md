@@ -1206,3 +1206,20 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  >>> print((a > b) or (a == b))     # apenas um precisa ser verdadeiro para retornar true
  True
 ```
+
+## Operadores Aritméticos
+No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
+
+- `+` Adição
+
+- `-` Subtração
+
+- `*` Multiplicação
+
+- `/` Divisão
+
+- `**` Exponenciação
+
+- `%` Resto de divisão
+
+A seguir, apresentaremos alguns exemplos dessas operações e como o Python responde.
