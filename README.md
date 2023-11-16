@@ -1279,3 +1279,19 @@ Uma **lista** é semelhante a uma tupla, mas é mutável, de modo que seus eleme
 
 Se `a` for um objeto mutável, como uma lista, a instrução de atribuição `b = a` não resulta em um novo objeto `b`, mas, simplesmente, cria uma nova referência para `a`. Portanto, quaisquer mudanças feitas para `b` serão refletidas em `a`. Veja, a seguir, um exemplo:
 
+```python
+>>> a = [1.0, 2.0, 3.0]
+ >>> b = a 
+ >>> b[0] = 5.0 
+ >>> print(a)
+ [5.0, 2.0, 3.0]
+```
+
+Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]`, conforme mostrado no exemplo a seguir:
+
+```python
+>>> c = a[:] 
+ >>> c[0] = 1.0 
+ >>> print(a)
+ [5.0, 2.0, 3.0]
+```
