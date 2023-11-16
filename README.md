@@ -1107,6 +1107,20 @@ Para instalar um pacote usando conda, você pode usar:
 conda install <nome_do_pacote>
 ```
 
+Vamos ver um exemplo, utilizando o Google Colab, para importar e usar a famosa biblioteca **Math** do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
+
+[![Colab](https://img.shields.io/badge/-Untituled.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
+
+```python
+import math
+
+vo = 300
+g = 10
+theta = 15
+A = (vo**2/g)*math.sin(2*theta*math.pi/180)
+print(round(A))
+```
+
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
@@ -1314,17 +1328,4 @@ Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]
  >>> c[0] = 1.0 
  >>> print(a)
  [5.0, 2.0, 3.0]
-```
-
-Vamos ver um exemplo utilizando o Google Colab, e importanto a famosa biblioteca Math do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
-
-[![Colab](https://img.shields.io/badge/-Untituled.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
-
-```python
-import math
-vo = 300
-g = 10
-theta = 15
-A = (vo**2/g)*math.sin(2*theta*math.pi/180)
-print(round(A))
 ```
