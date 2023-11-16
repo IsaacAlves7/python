@@ -1256,6 +1256,8 @@ A **tupla** é uma sequência de objetos arbitrários separados por vírgulas e 
  ('Gomes', 'Roberto')
 ```
 
+Uma tupla é uma estrutura de dados em muitas linguagens de programação. É semelhante a uma lista, mas geralmente é imutável, o que significa que, uma vez criada, seus elementos não podem ser alterados. Ela pode conter uma sequência de elementos de diferentes tipos e é acessada por meio de índices, assim como as listas.
+
 Uma **lista** é semelhante a uma tupla, mas é mutável, de modo que seus elementos e comprimento podem ser mudados. Uma lista é identificada colocando-a entre colchetes. Seguem alguns exemplos da operações realizadas em listas:
 
 ```python
