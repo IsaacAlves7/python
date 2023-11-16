@@ -1133,7 +1133,8 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 
 Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
 
-Agora, vamos tratar de recursos adicionais da linguagem para apoiar o desenvolvimento dos códigos: os strings. O Python usa a tabela de caracteres, que depende do seu sistema operacional, como, por exemplo, ASCII e UTF-8. Os strings são colocados entre aspas simples (`‘`) ou duplas (`“`) e os caracteres que são não imprimíveis podem ser expressos com a “barra-invertida” (`\`). Seguem alguns exemplos:
+## [Python] Strings
+Agora, vamos tratar de recursos adicionais da linguagem para apoiar o desenvolvimento dos códigos: os strings (caracteres). O Python usa a tabela de caracteres, que depende do seu sistema operacional, como, por exemplo, ASCII e UTF-8. Os strings são colocados entre aspas simples (`‘`) ou duplas (`“`) e os caracteres que são não imprimíveis podem ser expressos com a “barra-invertida” (`\`). Seguem alguns exemplos:
 
 - `\n` Cria uma nova linha.
 
@@ -1180,3 +1181,28 @@ Podemos também fatiar (slices) um string com a notação `string[índiceI:índi
 
 Observe que o caractere correspondente ao índice `2` não apareceu.
 
+## [Python] Boolean
+As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
+
+- `<` Menor que
+- `>` Maior que
+- `<=` Menor ou igual a
+- `=>` Maior ou igual a
+- `==` Igual a
+- `!=` Diferente 
+
+Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saídas `True` e `False`.
+
+```python
+>>> a = 2                          # variável a recebe o valor 2 (int)
+ >>> b = 1.99                       # variável b recebe o valor 1.99 (float)
+ >>> c = ’2’                        # variável c recebe o valor 2 em forma de um string
+ >>> print(a > b)                   # perceba que o valor de a é maior que o valor de b
+ True
+ >>> print(a == c)                  # note que c recebeu um string ('2') e a um int (2), logo não podem ser iguais
+ False
+ >>> print((a > b) and (a != c))    # os dois precisam ser verdadeiros para retornar true
+ True
+ >>> print((a > b) or (a == b))     # apenas um precisa ser verdadeiro para retornar true
+ True
+```
