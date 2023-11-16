@@ -1161,4 +1161,5 @@ Vejamos exemplos de aplicação:
 </tr>
 </table>
 
-É possível obter o endereço dos caracteres dos strings usando a notação de índices, string[índice], observando que, para o Python, o primeiro caractere tem índice 0 e o último tem índice -1. Vejamos alguns exemplos:
+É possível obter o endereço dos caracteres dos strings usando a notação de índices, `string[índice]`, observando que, para o Python, o primeiro caractere tem índice `0` e o último tem índice `-1`. Vejamos alguns exemplos:
+
