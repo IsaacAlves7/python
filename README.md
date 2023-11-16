@@ -11,8 +11,6 @@
 - https://app.datacamp.com/learn
 - https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/
 
-<a href="https://colab.research.google.com/"> [![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#) </a>
-
 [![Jupyter](https://img.shields.io/badge/-Jypiter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
 [![SQL](https://img.shields.io/badge/-query.sql-fff?style=social&logo=Amazon-RDS&logoColor=527FFF)](#)
 
@@ -1295,4 +1293,22 @@ Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]
  >>> c[0] = 1.0 
  >>> print(a)
  [5.0, 2.0, 3.0]
+```
+
+Vamos ver um exemplo utilizando o Google Colab, e importanto a famosa biblioteca Math do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
+
+
+<a href="https://colab.research.google.com/"> 
+
+[![Colab](https://img.shields.io/badge/-Untituled.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#) 
+
+</a>
+
+```python
+import math
+vo = 300
+g = 10
+theta = 15
+A = (vo**2/g)*math.sin(2*theta*math.pi/180)
+print(round(A))
 ```
