@@ -635,6 +635,8 @@ Se tudo correr bem e não houver erros no código, a janela do console irá most
 
 ![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
+
 Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações.
 
 Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
@@ -649,12 +651,9 @@ Alguns dos principais recursos do Google Colab incluem:
 
 - Integração com o Google Drive: Permite importar conjuntos de dados e salvar resultados diretamente no Google Drive.
 
-Bibliotecas e pacotes pré-instalados: Vem pré-carregado com muitas bibliotecas populares de Python, como TensorFlow, Pandas, Matplotlib, entre outras.
-
-Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
+- Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
 
 Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem.
-
 
 ## Como estragar e corrigir o seu código
 Agora reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
