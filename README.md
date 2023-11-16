@@ -1207,7 +1207,7 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  True
 ```
 
-## Operadores Aritméticos
+## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
 - `+` Adição
@@ -1223,3 +1223,52 @@ No Python, podemos utilizar as operações aritméticas usadas na matemática b�
 - `%` Resto de divisão
 
 A seguir, apresentaremos alguns exemplos dessas operações e como o Python responde.
+
+```python
+>>> s = ’Olá’
+ >>> t = ’para você’
+ >>> a = [1, 2, 3]
+ >>> print(3*s)          # Repetição
+ Olá Olá Olá
+ >>> print(3*a)         # Repetição
+ [1, 2, 3, 1, 2, 3, 1, 2, 3]
+ >>> print(a + [4, 5])  # Adicionando elementos
+ [1, 2, 3, 4, 5]
+ >>> print(s + t) 
+ Olá para você
+```
+
+## [Python] Tuplas e Listas
+A **tupla** é uma sequência de objetos arbitrários separados por vírgulas e incluídos entre parênteses. Se a tupla contém um único objeto, uma vírgula final é necessária; por exemplo, `x = (2,)`. Tuplas suportam as mesmas operações que strings e são imutáveis. Veja a seguir um exemplo onde a tupla dados contém outra tupla `(31,10,73)`:
+
+```python
+>>> dados = ('Gomes', 'Roberto', (31,10,73)) # Esta é uma tupla
+ >>> sobrenome, nome, data_de_nascimento = dados # Descompactando a tupla
+ >>> print(nome)
+ Roberto
+ >>> Ano_de_nascimento = data_de_nascimento [3]
+ >>> print(Ano_de_nascimento)
+ 73
+ >>> nome_competo = dados [1] + '' + dados [0]
+ >>> print(nome_completo)
+ Roberto Gomes
+ >>> print(rec [0: 2])
+ ('Gomes', 'Roberto')
+```
+
+Uma **lista** é semelhante a uma tupla, mas é mutável, de modo que seus elementos e comprimento podem ser mudados. Uma lista é identificada colocando-a entre colchetes. Seguem alguns exemplos da operações realizadas em listas:
+
+```python
+>>> a = [1.0, 2.0, 3.0]	# Crie uma lista
+ >>> a.append (4.0) # Anexar 4.0 à lista
+ >>> print(a)
+ [1,0, 2,0, 3,0, 4,0]
+ >>> a.insert (0,0.0) # Insira 0.0 na posição 0
+ print(a) 
+ [0,0, 1,0, 2,0, 3,0, 4,0]
+ >>> print(len (a) # Determine o comprimento da lista
+ 5
+ >>> a [2: 4] = [1.0, 1.0, 1.0] # Modifica os elementos selecionados
+ >>> print(a)
+ [0.0, 1.0, 1.0, 1.0, 1.0, 4.0]
+```
