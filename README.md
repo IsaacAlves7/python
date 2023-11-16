@@ -1318,12 +1318,7 @@ Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]
 
 Vamos ver um exemplo utilizando o Google Colab, e importanto a famosa biblioteca Math do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
 
-
-<a href="https://colab.research.google.com/"> 
-
-[![Colab](https://img.shields.io/badge/-Untituled.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](#) 
-
-</a>
+[![Colab](https://img.shields.io/badge/-Untituled.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
 
 ```python
 import math
