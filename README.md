@@ -1179,7 +1179,9 @@ Podemos também fatiar (slices) um string com a notação `string[índiceI:índi
  ab
 ```
 
-Observe que o caractere correspondente ao índice `2` não apareceu.
+Observe que o caractere correspondente ao índice `2` não apareceu, pois se `palavra = "abcd"`, então `palavra[0:2]` irá retornar um slice que vai do índice `0` (inclusive) até o índice `2` (exclusive) da string.
+
+No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres nos índices `0` e `1` da string, ou seja, os caracteres `"ab"`.
 
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
