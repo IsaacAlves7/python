@@ -37,7 +37,6 @@ Uma **Linguagem (Language)**, nossa palavra-chave, é um meio (e uma ferramenta)
 
 Outra linguagem que usa diariamente é a sua *língua materna*, que usa para manifestar a sua vontade e para pensar na realidade. Os computadores também têm a sua própria linguagem, chamada **linguagem de máquina**, que é muito rudimentar.
 
-# Machine code - Linguagem de máquina
 O **código de máquina** ou **linguagem de máquina** é uma linguagem de programação de baixo nível, constituída por dígitos/bits binários que o computador lê e compreende, ou seja, é um conjunto de instruções executadas diretamente pela unidade de processamento central (CPU) de um computador. Cada instrução executa uma tarefa muito específica, como uma carga, um salto ou uma operação ALU em uma unidade de dados em um registrador ou memória da CPU. Todo programa executado diretamente por uma CPU é composto por uma série de tais instruções.
 
 O **código de máquina numérico** pode ser considerado como a representação de nível ainda mais baixo de um programa de computador compilado e/ou montado ou como uma linguagem de programação primitiva e dependente de hardware. Embora seja possível escrever programas diretamente em código de máquina numérico, é tedioso e propenso a erros gerenciar bits individuais e calcular endereços numéricos e constantes manualmente. Portanto, raramente é feito hoje, exceto em situações que exigem otimização ou depuração extremas.
@@ -166,8 +165,6 @@ GRAVAR R0 em A
 
 Em linguagem de máquina, iria corresponder:
 
-
-
 # O Compilador
 Você já parou para pensar como um programa escrito em uma linguagem de programação qualquer é convertido para um conjunto de comandos que podem ser executados por um computador?
 
@@ -275,7 +272,7 @@ A linguagem Python surgiu em 1989, criado por <a href="https://github.com/gvanro
 
 As circunstâncias em que o Python foi criado são um pouco confusas. De acordo com Guido van Rossum: Em Dezembro de 1989, estava à procura de um projeto de programação de "hobby" que me mantivesse ocupado durante a semana por volta do Natal. O meu escritório (...) estaria fechado, mas eu tinha um computador em casa, e não tinha muito mais nas mãos. Decidi escrever um intérprete para a nova linguagem de escrita em que tinha pensado ultimamente: um descendente do ABC que apelaria aos hackers Unix/C. Escolhi Python como título de trabalho para o projeto, estando de humor ligeiramente irreverente (e sendo um grande fã do Monty Python's Flying Circus). - Guido van Rossum
 
-> **Curiosidade**: A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python foi criado pela O'Reilly Media, uma empresa de mídia conhecida por seus livros técnicos na área de Ciência e Tecnologia. A O'Reilly Media usou a imagem de uma serpente em sua capa do livro <a href="https://www.amazon.com.br/Programming-Python-3e-Mark-Lutz/dp/0596009259">"Programming Python" de Mark Lutz</a>, que foi lançado em 1996. A capa apresentava uma serpente enroscada, e essa imagem acabou sendo adotada como um símbolo informal para o Python. Então, embora a inspiração para o nome "Python" venha do programa de televisão "Monty Python's Flying Circus", o logo específico da serpente foi popularizado pela O'Reilly Media por meio de sua capa de livro. A serpente passou a ser amplamente reconhecida como o símbolo do Python na comunidade de desenvolvimento de software e após isso foi aderida pelo fundador. 
+A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python foi criado pela O'Reilly Media, uma empresa de mídia conhecida por seus livros técnicos na área de Ciência e Tecnologia. A O'Reilly Media usou a imagem de uma serpente em sua capa do livro <a href="https://www.amazon.com.br/Programming-Python-3e-Mark-Lutz/dp/0596009259">"Programming Python" de Mark Lutz</a>, que foi lançado em 1996. A capa apresentava uma serpente enroscada, e essa imagem acabou sendo adotada como um símbolo informal para o Python. Então, embora a inspiração para o nome "Python" venha do programa de televisão "Monty Python's Flying Circus", o logo específico da serpente foi popularizado pela O'Reilly Media por meio de sua capa de livro. A serpente passou a ser amplamente reconhecida como o símbolo do Python na comunidade de desenvolvimento de software e após isso foi aderida pelo fundador. 
   
 Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção e, portanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
   
