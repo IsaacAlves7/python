@@ -1172,3 +1172,11 @@ Vejamos exemplos de aplicação:
  ```
 
 Podemos também fatiar (slices) um string com a notação `string[índiceI:índiceF]`. Com esse comando, o Python nos retorna os caracteres, iniciando com o caractere de `índiceI` (inclusive) e finalizando com o caractere que fica antes do `indiceF`. Isso acontece, pois o `indiceF` é exclusivo. Por exemplo:
+
+```python
+>>> palavra[0:2]
+ ab
+```
+
+Observe que o caractere correspondente ao índice `2` não apareceu.
+
