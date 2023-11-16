@@ -1276,3 +1276,6 @@ Uma **lista** é semelhante a uma tupla, mas é mutável, de modo que seus eleme
  >>> print(a)
  [0.0, 1.0, 1.0, 1.0, 1.0, 4.0]
 ```
+
+Se `a` for um objeto mutável, como uma lista, a instrução de atribuição `b = a` não resulta em um novo objeto `b`, mas, simplesmente, cria uma nova referência para `a`. Portanto, quaisquer mudanças feitas para `b` serão refletidas em `a`. Veja, a seguir, um exemplo:
+
