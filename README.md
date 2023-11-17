@@ -1107,6 +1107,16 @@ Para instalar um pacote usando conda, você pode usar:
 conda install <nome_do_pacote>
 ```
 
+Caso se seguirmos um código utilizando funções que não são nativas da linguagem de programação, vai então, ao executar o Python, aparece a seguinte mensagem de erro:
+
+<pre>
+NameError: name 'sin' is not defined
+</pre>
+
+> O que isso significa? O Python não reconheceu a função seno. Isso acontece porque muitas funcionalidades do Python estão disponíveis em bibliotecas adicionais, chamadas de **módulos**.
+
+Embora o Python tenha muitas funções internas, como o `print()`, também possui um conjunto de bibliotecas-padrão, que são programas em Python que podem ser incluídos no seu programa. Usaremos o módulo math, pois ele disponibiliza diversas funções matemáticas. Existem certas formas de “chamar” esses módulos no seu programa, a seguir veremos algumas.
+
 Vamos ver um exemplo, utilizando o Google Colab, para importar e usar a famosa biblioteca **Math** do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
 
 [![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
@@ -1120,6 +1130,8 @@ theta = 15
 A = (vo**2/g)*math.sin(2*theta*math.pi/180)
 print(round(A))
 ```
+
+Você também pode chamar essa importação limitando a determinada função que você deseja obter, é extremamente recomendado para não pesar a consulta.
 
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
