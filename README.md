@@ -602,6 +602,18 @@ Eles são muito populares na comunidade de ciência de dados, programação e pe
 
 Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
 
+Os notebooks oferecem vantagens, como:
+
+- Interatividade: Permite executar pequenos trechos de código de maneira independente em cada célula, visualizando imediatamente os resultados.
+
+- Visualização de dados: É possível gerar gráficos, tabelas e visualizações diretamente no documento, facilitando a análise e compreensão dos dados.
+
+- Documentação intercalada com código: Permite explicar o raciocínio por trás do código e dos resultados, facilitando a compreensão para outras pessoas que interagem com o notebook.
+
+- Compartilhamento e colaboração: Os notebooks podem ser facilmente compartilhados com outras pessoas, permitindo a colaboração em projetos e a reprodução dos passos realizados.
+
+Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
 
 O Google Colab, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter.
