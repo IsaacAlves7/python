@@ -637,7 +637,7 @@ Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma 
 
 [![.py](https://img.shields.io/badge/-.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-> 🐍 **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
+> **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
 
 Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. A linha tem este aspeto:
 
@@ -716,11 +716,11 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 - o **traceback** (que é o caminho que o código percorre através de diferentes partes do programa - pode ignorá-lo por agora, uma vez que está vazio num código tão simples);
 - a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); 
 
-> 🐍 **Nota**: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
+> **Nota**: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
 
 - o **conteúdo da linha errada**; 
 
-> 🐍 **Nota**: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
+> **Nota**: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
 
 - o **nome do erro** e uma breve explicação.
 
@@ -805,7 +805,7 @@ Success (1.82s)
 
 > Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
 
-# 🐍 `Hello, World!` - Linguagem Python
+## [Python] `Hello, World!`
 <img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="77" align="right">
 
 É tempo de começar a escrever algum código Python real e funcional. Vai ser muito simples por enquanto.
