@@ -1122,6 +1122,8 @@ Embora o Python tenha muitas funções internas, como o `print()`, também possu
 
 Vamos ver um exemplo, utilizando o Google Colab, para importar e usar a famosa biblioteca **Math** do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
 
+A palavra-chave, nessa situação, é `import`, e, logo depois, coloca-se o módulo. Por questão de organização, o ideal é colocar sempre no início do programa. 
+
 [![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
 
 ```python
