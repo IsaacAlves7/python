@@ -1080,7 +1080,7 @@ Agora, vamos entender as linhas do que seria o nosso primeiro programa em Python
 
 A primeira observação que vamos realizar é sobre as palavras iniciadas com `#`. Isso significa que o interpretador que executará o seu programa vai considerar o que vem depois de `#` como comentários. Isso é muito importante para documentar o seu programa, e, às vezes, nos lembrar do que realmente estamos fazendo. Lembrando que esse tipo de comentário é apenas para uma linha.
 
-# 📦 [Python] Package Manager
+# 📦 [Python] Package Manager, Bibliotecas e Módulos
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
 
 Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
@@ -1139,12 +1139,13 @@ print(round(A))
 Você também pode chamar essa importação limitando a determinada função que você deseja obter, é extremamente recomendado para não pesar a consulta. Em nosso problema inicial, essa forma de “chamar” as funções do módulo sem utilizar o prefixo ficaria:
 
 ```python
->>>from math import sin, pi
- >>>v0 =300
- >>>g=10
- >>>theta=15
- >>>A= (v0**2/g)*sin(2*theta*pi/180)
- >>>print(A)
+from math import sin, pi
+
+v0 =300
+g=10
+theta=15
+A= (v0**2/g)*sin(2*theta*pi/180)
+print(A)
 ```
 
 # [Python] Aritmética computacional
