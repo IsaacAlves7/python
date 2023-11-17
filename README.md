@@ -879,7 +879,7 @@ As funções matemáticas normalmente aceitam um argumento, por exemplo, `sen(x)
 
 As funções de Python, por outro lado, são mais versáteis. Dependendo das necessidades individuais, elas podem aceitar qualquer número de argumentos - tantos quantos forem necessários para desempenhar as suas tarefas. 
 
-> 🐍 **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
+> **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
 
 [![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
@@ -891,7 +891,7 @@ Apesar do número de argumentos necessários/fornecidos, as funções Python exi
 
 Se quiser entregar um ou mais **argumentos** a uma função, coloque-os **dentro dos parêntesis**. Se for utilizar uma função que não aceita qualquer argumento, ainda assim tem de ter os parêntesis.
 
-> 🐍 **Nota**: para distinguir palavras comuns de nomes de funções, coloque **um par de parêntesis vazios** após os seus nomes, mesmo que a função correspondente queira um ou mais argumentos. Esta é uma convenção padrão.
+> **Nota**: para distinguir palavras comuns de nomes de funções, coloque **um par de parêntesis vazios** após os seus nomes, mesmo que a função correspondente queira um ou mais argumentos. Esta é uma convenção padrão.
 
 A função de que estamos a falar aqui é `print()`. A função `print()` no nosso exemplo tem algum argumento? Claro que sim, mas o que são eles?
 
@@ -982,7 +982,7 @@ A sintaxe de Python é bastante específica nesta área. Ao contrário da maiori
 
 Uma linha pode estar vazia (ou seja, pode não conter qualquer instrução) mas não deve conter duas, três ou mais instruções. Isto é estritamente proibido.
 
-> 🐍 **Nota**: o Python faz uma exceção a esta regra - permite que uma instrução se espalhe por mais do que uma linha (o que pode ser útil quando o seu código contém construções complexas).
+> **Nota**: o Python faz uma exceção a esta regra - permite que uma instrução se espalhe por mais do que uma linha (o que pode ser útil quando o seu código contém construções complexas).
 
 ### Newline
 Mudámos um pouco o exemplo - acrescentámos uma invocação de função vazia `print()` . Chamamos-lhe vazia porque não apresentámos quaisquer argumentos para a função.
@@ -1054,7 +1054,6 @@ Esta convenção tem duas consequências importantes:
 
 1. Se quiser colocar apenas uma barra invertida dentro de uma string, não se esqueça da sua natureza de escape - tem de a duplicar, por exemplo, uma tal invocação causará um erro:
 
-
 [![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
@@ -1123,6 +1122,7 @@ Embora o Python tenha muitas funções internas, como o `print()`, também possu
 Vamos ver um exemplo, utilizando o Google Colab, para importar e usar a famosa biblioteca **Math** do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
 
 A palavra-chave, nessa situação, é `import`, e, logo depois, coloca-se o módulo. Por questão de organização, o ideal é colocar sempre no início do programa. 
+Quando fazemos isso, temos acesso a todas as funções da biblioteca math, mas devemos informar ao Python de qual biblioteca estamos chamando a função, para isso utilizamos a sintaxe `módulo.função()`. Desse modo, utilizaremos o `math.sin()` e o `math.pi`. Então, nosso programa pode ser escrito da seguinte maneira:
 
 [![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
 
@@ -1136,7 +1136,16 @@ A = (vo**2/g)*math.sin(2*theta*math.pi/180)
 print(round(A))
 ```
 
-Você também pode chamar essa importação limitando a determinada função que você deseja obter, é extremamente recomendado para não pesar a consulta.
+Você também pode chamar essa importação limitando a determinada função que você deseja obter, é extremamente recomendado para não pesar a consulta. Em nosso problema inicial, essa forma de “chamar” as funções do módulo sem utilizar o prefixo ficaria:
+
+```python
+>>>from math import sin, pi
+ >>>v0 =300
+ >>>g=10
+ >>>theta=15
+ >>>A= (v0**2/g)*sin(2*theta*pi/180)
+ >>>print(A)
+```
 
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
