@@ -592,7 +592,12 @@ Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto 
 
 ![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
 
-O **IDLE** é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python. Ele é incluído na distribuição padrão do Python e está disponível para Windows, macOS e Linux. IDLE é um ambiente de desenvolvimento simples e fácil de usar. Ele fornece as ferramentas básicas necessárias para escrever, depurar e executar código Python.
+IDLE é uma boa escolha para iniciantes em Python. É um ambiente de desenvolvimento fácil de aprender e usar, e fornece as ferramentas básicas necessárias para começar a programar em Python. O IDLE é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python. Ele é incluído na distribuição padrão do Python e está disponível para Windows, macOS e Linux. IDLE é um ambiente de desenvolvimento simples e fácil de usar. Ele fornece as ferramentas básicas necessárias para escrever, depurar e executar código Python. As principais características do IDLE incluem:
+
+- Um editor de texto com recursos básicos, como autocompletar e realce de sintaxe.
+- Um shell Python interativo que permite executar código Python linha por linha.
+- Um depurador (debugger) que permite depurar código Python passo a passo.
+- Um gerenciador de projetos que permite organizar arquivos Python.
 
 Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
 
