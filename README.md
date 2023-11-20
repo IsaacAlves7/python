@@ -611,13 +611,13 @@ Os notebooks oferecem vantagens, como:
 
 Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
 
-[![Jupyter](https://img.shields.io/badge/-Jupyter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
+[![Jupyter](https://img.shields.io/badge/-Jupyter-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
 
 O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
 
-[![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
+[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
 
