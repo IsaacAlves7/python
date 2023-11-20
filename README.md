@@ -588,7 +588,7 @@ Existem muitas formas de utilizar o Python, especialmente se vier a ser um progr
 - uma **console** na qual pode rodar o seu código recém-escrito e pará-lo à força quando ficar fora de controle;
 - uma ferramenta chamada de **debugger**, capaz de rodar o seu código passo a passo e que lhe permite inspecioná-lo em cada momento da execução.
 
-Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada **IDLE**.
+Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada "IDLE".
 
 Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto é o que deve ver:
 
@@ -596,11 +596,11 @@ Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
 
-Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. 
+O **IDLE** é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python. Ele é incluído na distribuição padrão do Python e está disponível para Windows, macOS e Linux. IDLE é um ambiente de desenvolvimento simples e fácil de usar. Ele fornece as ferramentas básicas necessárias para escrever, depurar e executar código Python.
 
-Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações.
+Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. 
 
-Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
+Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
 
 Os notebooks oferecem vantagens, como:
 
