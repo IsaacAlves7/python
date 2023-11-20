@@ -853,7 +853,6 @@ Como pode ver, o primeiro programa consiste nas seguintes partes:
 
 Cada um dos itens acima desempenha um papel muito importante no código.
 
-## A função `print()`
 Veja a linha de código abaixo:
 
 [![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
