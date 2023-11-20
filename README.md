@@ -534,7 +534,6 @@ O Python é uma linguagem interpretada. Isto significa que herda todas as vantag
 Se quiser programar em Python, precisará do intérprete Python. Não será capaz de executar o seu código sem ele. Felizmente, o Python é gratuito. Esta é uma das suas vantagens mais importantes.
 Devido a razões históricas, as linguagens concebidas para serem utilizadas na forma de interpretação são muitas vezes chamadas linguagens de scripting, enquanto os source programs codificados que as utilizam são chamados scripts.
 
-## VirtualEnv em Python
 O **virtualenv** do Python é utilizado para isola a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional.
 
 # 🐍 [Python] Getting started
