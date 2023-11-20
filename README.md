@@ -12,7 +12,6 @@
 - https://app.datacamp.com/learn
 - https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/
 
-[![Jupyter](https://img.shields.io/badge/-Jypiter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
 [![SQL](https://img.shields.io/badge/-query.sql-fff?style=social&logo=Amazon-RDS&logoColor=527FFF)](#)
 
 # 🐒 Linguagem de programação
@@ -594,8 +593,6 @@ Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto 
 
 ![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
-
 O **IDLE** é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python. Ele é incluído na distribuição padrão do Python e está disponível para Windows, macOS e Linux. IDLE é um ambiente de desenvolvimento simples e fácil de usar. Ele fornece as ferramentas básicas necessárias para escrever, depurar e executar código Python.
 
 Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. 
@@ -614,9 +611,15 @@ Os notebooks oferecem vantagens, como:
 
 Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
 
+[![Jupyter](https://img.shields.io/badge/-Jypiter-fff?style=social&logo=Jupyter&logoColor=orange)](#)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
+
+O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
 
-O Google Colab, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter.
+O **Google Colab**, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter.
 
 Alguns dos principais recursos do Google Colab incluem:
 
