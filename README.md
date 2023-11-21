@@ -1168,6 +1168,35 @@ A= (v0**2/g)*sin(2*theta*pi/180)
 print(A)
 ```
 
+Caso seja necessário utilizar todas as funções da biblioteca, basta usar o comando `from módulo import *`. Veja o exemplo:
+
+```python
+>>>from math import *
+ >>>v0 =300
+ >>>g=10
+ >>>theta=15
+ >>>A= (v0**2/g)*sin(2*theta*pi/180)
+ >>>print(A)
+```
+
+O Python permite também que importemos um módulo e atribuamos a ele um “apelido”, para utilizar como prefixo ao chamar uma função. O comando é `import` módulo as “apelido”. Desse modo, quando utilizar uma função da biblioteca, basta usar o seguinte formato: `apelido.função()`. Por exemplo:
+
+```python
+>>>import math as m
+ >>>v0 =300
+ >>>g=10
+ >>>theta=15
+ >>>A= (v0**2/g)*m.sin(2*theta*m.pi/180)
+ >>>print(A)
+```
+
+Observe que o apelido será `m`; assim, chamamos a função seno com `m.sin()`. De maneira análoga, podemos atribuir “apelidos” para as funções `from módulo import função as apelido`. Por exemplo:
+
+```python
+>>>from math import cos as c, sin as s
+ >>>print(c(0) + s(0))
+```
+
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
