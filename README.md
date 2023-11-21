@@ -1491,3 +1491,5 @@ Uma grande utilidade da função `range` é construir a lista de iteração, com
 for i in range(1,7): print(i)
 # 1 2 3 4 5 6
 ```
+
+> E sempre o último número da lista de iteração, no caso `7` não é contado.
