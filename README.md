@@ -1406,7 +1406,7 @@ Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]
  [5.0, 2.0, 3.0]
 ```
 
-# [Python] Funções (Rotinas)
+## [Python] Funções (Rotinas)
 Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
 
 ```python
@@ -1418,15 +1418,33 @@ Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizan
  >>>print(A)
 ```
 
-Uma solução para isso é criar uma função, e a estrutura para declarar uma função em Python é dada da seguinte maneira:
+Uma solução para isso é criar uma função, e a estrutura para declarar uma função em Python é dada da seguinte maneira, conforme a sintaxe abaixo:
 
 ```python
 def nome.Da.Minha.Função(Argumentos1, Argumentos2,….Argumentosn):
 
-     Declarações
+     '''Declarações'''
 
      return valor-de-retorno
 ```
 
 A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
+## [Python] Estruturas Condicionais
+A construção de uma estrutura de condicionais no Python é dada por:
+
+```python
+if condições: # se
+
+     '''bloco de instruções'''
+
+elif condições: # senão se
+
+    '''bloco de instruções'''
+
+else: # senão
+
+     '''bloco de instruções'''
+```
+
+O exemplo a seguir é uma aplicação da estrutura `if`, onde o script decide se o número é positivo, negativo ou zero:
