@@ -1482,3 +1482,12 @@ range(2,5,2) # início 2, parada 5 e incremento 2
 range(5,2,-2) # o incremento é negativo 
 # [5,3]
 ```
+
+O comando `for` permite que nos informemos sobre os elementos de uma lista. De modo geral, o comando é expresso da seguinte maneira: `for variável in lista : comandos`
+
+Uma grande utilidade da função `range` é construir a lista de iteração, como no exemplo a seguir:
+
+```python
+for i in range(1,7): print(i)
+# 1 2 3 4 5 6
+```
