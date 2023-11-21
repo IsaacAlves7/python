@@ -1450,15 +1450,35 @@ else: # senão
 O exemplo a seguir é uma aplicação da estrutura `if`, onde o script decide se o número é positivo, negativo ou zero:
 
 ```python
->>>def sinal_numerico(a):
- >>>	if a < 0.0:        # Se a menor que zero
- >>>		  sinal = ’negativo’
- >>>	elif a > 0.0:      # Se a maior que zero
- >>>		  sinal = ’positivo’
- >>>	else:              # Senão, ou seja, se a não é maior, nem menor que zero (a igual a zero)
- >>>		  sinal = ’zero’
- >>>	return sinal
- >>>	a = 1.5
- >>>print(’a é ’ + sinal_numerico(a))
+a = 1.5
+def sinal_numerico(a):
+ 	if a < 0.0:        # Se a menor que zero
+ 		  sinal = 'negativo'
+ 	elif a > 0.0:      # Se a maior que zero
+ 		  sinal = 'positivo'
+ 	else:              # Senão, ou seja, se a não é maior, nem menor que zero (a igual a zero)
+ 		  sinal = 'zero'
+ 	return sinal
+print('a é ' + sinal_numerico(a))
  # a é positivo
+```
+
+## [Python] Laços de repetição (Loops)
+Antes de falarmos sobre o comando `for`, vamos abordar a função `range`. A função `range` retorna uma progressão aritmética de inteiros numa lista com a seguinte estrutura sintática: `range (início,parada,incremento)`, onde:
+
+1. `Início` é um parâmetro opcional e o primeiro valor a ser gerado, quando não indicado, por default é o número zero (0).
+
+2. `Parada` é o limite da progressão, que termina no último valor antes da parada.
+
+3. `Incremento` é um parâmetro opcional e indica o passo da progressão. O default, caso não seja informado, é um (1).
+
+Vejamos uma aplicação:
+
+```python
+range(3) # parada indicada 3, como não foram indicados, o início será 0 e incremento será 1
+ # [0,1,2]
+range(2,5,2) # início 2, parada 5 e incremento 2
+# [2,4]
+range(5,2,-2) # o incremento é negativo 
+# [5,3]
 ```
