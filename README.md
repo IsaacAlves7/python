@@ -1405,3 +1405,28 @@ Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]
  >>> print(a)
  [5.0, 2.0, 3.0]
 ```
+
+# [Python] Funções (Rotinas)
+Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
+
+```python
+>>>import math
+ >>>v0 =300
+ >>>g=10
+ >>>theta=15     
+ >>>
+ >>>print(A)
+```
+
+Uma solução para isso é criar uma função, e a estrutura para declarar uma função em Python é dada da seguinte maneira:
+
+```python
+def nome.Da.Minha.Função(Argumentos1, Argumentos2,….Argumentosn):
+
+     Declarações
+
+     return valor-de-retorno
+```
+
+A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
+
