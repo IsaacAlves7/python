@@ -953,6 +953,28 @@ Vamos retornar ao nosso problema do início do conteúdo, ou seja: determinar a 
 
 O **Matplotlib** é uma biblioteca de software para criação de gráficos e visualizações de dados em geral, feita para e da linguagem de programação Python e sua extensão de matemática **NumPy**.
 
+```python
+>>>import numpy as np
+ >>>import matplotlib.pyplot as plt
+ >>>v0 = 5 # Velocidade inicial
+ >>>g = 10 # Aceleração da gravidade
+ >>>t = np.linspace(0,1,1001) # Tempo
+ >>>y = v0 * t - 0.5 * g * t ** 2 # Posição vertical
+ >>>plt.plot(t,y) # plotar o grafico yxt
+ >>>plt.xlabel('t (s)') # eixo x com t(s)
+ >>>plt.ylabel('y (m)') # eixo y como y(m)
+ >>>plt.show() # mostrar a figura
+```
+
+Como saída, o Python apresenta o seguinte gráfico:
+
+<img src="https://github.com/IsaacAlves7/py/assets/61624336/9d307b70-f405-4fd9-ab80-9817eecc893c" align="right" height="177">
+
+No programa apresentado, temos que destacar 2 pontos:
+
+1. A função `linspace` retorna um vetor e a construção genérica dele é `linspace(a,b,n)`, onde gera um vetor no intervalo `[a,b]` e com `n` pontos.
+2. Quando utilizamos `t` como vetor, a função da altura `y(t)` torna-se também um vetor.
+
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
