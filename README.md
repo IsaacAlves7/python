@@ -1071,6 +1071,13 @@ Observe que o caractere correspondente ao índice `2` não apareceu, pois se `pa
 
 No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres nos índices `0` e `1` da string, ou seja, os caracteres `"ab"`.
 
+# [Python] Integer
+A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
+
+**Exemplo**: O número 179 significa uma (1) centena (100) mais (+) sete (7) dezenas (10) e nove (9) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
+
+Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer digito numérico decimal a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
+
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
 
@@ -1127,6 +1134,14 @@ A seguir, apresentaremos alguns exemplos dessas operações e como o Python resp
  >>> print(s + t) 
  Olá para você
 ```
+
+Veja outro exemplo:
+
+```python
+(9**4 +2)*6 - 1 # 39377
+```
+
+O Python usa a mesma hierarquia de cálculo de expressões numéricas da matemática, ou seja, primeiro exponenciação, depois multiplicação ou divisão, e, por último, adição e subtração. Desse modo, calculamos primeiro 9**4 (nove a quarta potência), depois adicionamos 2, multiplicamos por 6 e, por fim, subtraímos por 1 , resultando em 39377.
 
 ## [Python] Tuplas e Listas
 A **tupla** é uma sequência de objetos arbitrários separados por vírgulas e incluídos entre parênteses. Se a tupla contém um único objeto, uma vírgula final é necessária; por exemplo, `x = (2,)`. Tuplas suportam as mesmas operações que strings e são imutáveis. Veja a seguir um exemplo onde a tupla dados contém outra tupla `(31,10,73)`:
