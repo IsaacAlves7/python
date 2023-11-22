@@ -1184,6 +1184,13 @@ Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]
  [5.0, 2.0, 3.0]
 ```
 
+Em uma lista, os índices começam com 0. Nesse caso, a lista segue a ordem até 4. Quando utilizamos índices negativos, ele usa a ordem inversa, começando com -1 e indo até -5, ou seja, a[-5] = 1.
+
+```python
+a=[1,2,3,4,5]
+a[-5]
+```
+
 ## [Python] Funções (Rotinas)
 Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
 
