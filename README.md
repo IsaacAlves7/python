@@ -1084,6 +1084,16 @@ Onde: `0 ≤ di < 10,i,...n`
 
 Outra notação comum para representar um número inteiro positivo na base 10 é `(dndn-1....di...d1d0 )10`. Essa notação nos leva a outra, caso se deseje representar o número com uma base diferente de 10, que seria `N=(dndn-1....di...d1d0 )b` , com `b` sendo uma base diferente de `10`; consequentemente, teremos `0 ≤ di < b`.
 
+<img width="266" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/970f8f3a-16b8-458b-9451-d7176d4560a2">
+
+As bases mais comuns na aritmética computacional são:
+
+- `b=2` Binário
+- `b=8` Octodecimal
+- `b=16` Hexadecimal
+
+Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que 9, adotamos as letras do nosso alfabeto, ou seja, A,B,C ,…. Nesse caso, para a base hexadecimal (b=16), os dígitos possíveis são 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F, onde A corresponde, na base decimal, ao número 10, B corresponde ao 11, e assim, sucessivamente, até F, que corresponde ao 15 . Vejamos alguns exemplos:
+
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
 
