@@ -1206,6 +1206,29 @@ def nome.Da.Minha.Função(Argumentos1, Argumentos2,….Argumentosn):
      return valor-de-retorno
 ```
 
+Outro exemplo: Vemos a estrutura do código quando se trata de acesso de uma função ao chamar as variáveis, arrays e listas da repetição.
+
+[![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
+
+```python
+import math # Módulo
+
+def Alcance(v0, theta, g): # Função
+  return (v0**2/g)*math.sin(2*theta*math.pi/180)
+
+'''Variáveis'''
+v0 = 300
+theta = [15, 30, 45, 60, 75]
+A = []
+
+'''For Loop'''
+for i in range(len(theta)):
+  A.append(Alcance(v0, theta[i], 10))
+
+# Printing
+print(A) # 4499.999999999999, 7794.228634059948, 9000.0, 7794.2286340599485, 4499.999999999999
+```
+
 A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
 ## [Python] Estruturas Condicionais
