@@ -947,6 +947,12 @@ Observe que o apelido será `m`; assim, chamamos a função seno com `m.sin()`. 
  >>>print(c(0) + s(0))
 ```
 
+<img src="https://github.com/IsaacAlves7/py/assets/61624336/6dd6e6be-ce8d-4228-a040-bb8c7bb22b8b" align="right" height="77">
+
+Vamos retornar ao nosso problema do início do conteúdo, ou seja: determinar a posição vertical `y` da bola no tempo `t`. Para construir o gráfico dessa função, utilizaremos o módulo `matplotlib`, usado, em geral, para realizar gráficos em 2D. 
+
+O **Matplotlib** é uma biblioteca de software para criação de gráficos e visualizações de dados em geral, feita para e da linguagem de programação Python e sua extensão de matemática **NumPy**.
+
 # [Python] Aritmética computacional
 Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
