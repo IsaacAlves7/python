@@ -1071,12 +1071,18 @@ Observe que o caractere correspondente ao índice `2` não apareceu, pois se `pa
 
 No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres nos índices `0` e `1` da string, ou seja, os caracteres `"ab"`.
 
-# [Python] Integer
+## [Python] Integer
 A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
 
 **Exemplo**: O número 179 significa uma (1) centena (100) mais (+) sete (7) dezenas (10) e nove (9) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
 
 Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer digito numérico decimal a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
+
+<img width="262" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/6adde313-17e9-4ae7-ae92-6fc9b8dab15b">
+
+Onde: `0 ≤ di < 10,i,...n`
+
+Outra notação comum para representar um número inteiro positivo na base 10 é `(dndn-1....di...d1d0 )10`. Essa notação nos leva a outra, caso se deseje representar o número com uma base diferente de 10, que seria `N=(dndn-1....di...d1d0 )b` , com `b` sendo uma base diferente de `10`; consequentemente, teremos `0 ≤ di < b`.
 
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
