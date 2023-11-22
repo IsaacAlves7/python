@@ -976,7 +976,7 @@ No programa apresentado, temos que destacar 2 pontos:
 2. Quando utilizamos `t` como vetor, a função da altura `y(t)` torna-se também um vetor.
 
 # [Python] Aritmética computacional
-Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
+A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
 Entender a aritmética computacional como ferramenta essencial para os profissionais que utilizaram programação para resolver problemas de modelagem matemática e os possíveis erros que podem ocorrer na execução de algoritmos em uma linguagem específica. Para compreender os conceitos abordados, é necessário prévio conhecimento básico da linguagem Python.
 
