@@ -1128,11 +1128,11 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <mo>.</mo>
   <msub>
     <mi>d</mi>
-    <mn>1</mn>
+    <sub>1</sub>sub
   </msub>
   <msub>
     <mi>d</mi>
-    <mn>0</mn>
+    <sub>0</sub>
   </msub>
   <msub>
     <mo stretchy="false">)</mo>
@@ -1141,27 +1141,27 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <mo>=</mo>
   <msub>
     <mi>d</mi>
-    <mi>n</mi>
+    <sub>n</sub>
   </msub>
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
-    <mi>n</mi>
+    <sub>n</sub>
   </msup>
   <mo>+</mo>
   <msub>
     <mi>d</mi>
     <mrow data-mjx-texclass="ORD">
-      <mi>n</mi>
-      <mo>&#x2212;</mo>
-      <mn>1</mn>
+      <sub>n</sub>
+      <sub>&#x2212;</sub>
+      <sub>1</sub>
     </mrow>
   </msub>
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
     <mrow data-mjx-texclass="ORD">
-      <mi>n</mi>
+      <sub>n</sub>
       <mo>&#x2212;</mo>
       <mn>1</mn>
     </mrow>
@@ -1173,12 +1173,12 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <mo>+</mo>
   <msub>
     <mi>d</mi>
-    <mi>i</mi>
+    <sub>i</sub>
   </msub>
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
-    <mi>i</mi>
+    <sub>i</sub>
   </msup>
   <mo>+</mo>
   <mo>.</mo>
@@ -1188,22 +1188,22 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <mo>+</mo>
   <msub>
     <mi>d</mi>
-    <mn>1</mn>
+    <sub>1</sub>
   </msub>
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
-    <mn>1</mn>
+    <sub>1</sub>
   </msup>
   <mo>+</mo>
   <msub>
     <mi>d</mi>
-    <mn>0</mn>
+    <sub>0</sub>
   </msub>
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
-    <mn>0</mn>
+    <sub>0</sub>
   </msup>
 </math>
 
