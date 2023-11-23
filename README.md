@@ -1092,7 +1092,122 @@ As bases mais comuns na aritmética computacional são:
 - `b=8` Octodecimal
 - `b=16` Hexadecimal
 
-Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que 9, adotamos as letras do nosso alfabeto, ou seja, A,B,C ,…. Nesse caso, para a base hexadecimal (b=16), os dígitos possíveis são 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F, onde A corresponde, na base decimal, ao número 10, B corresponde ao 11, e assim, sucessivamente, até F, que corresponde ao 15 . Vejamos alguns exemplos:
+Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que `9`, adotamos as letras do nosso alfabeto, ou seja, `A,B,C`. Nesse caso, para a base hexadecimal (`b=16`), os dígitos possíveis são `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F`, onde `A` corresponde, na base decimal, ao número `10`, `B` corresponde ao `11`, e assim, sucessivamente, até `F`, que corresponde ao `15`. Vejamos alguns exemplos:
+
+<img width="316" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/b26cf9c5-f8e6-4ede-ade7-0e82cc9395a7">
+
+Mudança da base b para a base decimal 10 e da base 10 para a base b: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
+
+<pre>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>N</mi>
+  <mo>=</mo>
+  <mo stretchy="false">(</mo>
+  <msub>
+    <mi>d</mi>
+    <sub>n</sub>
+  </msub>
+  <msub>
+    <mi>d</mi>
+    <mrow data-mjx-texclass="ORD">
+      <sub>n</sub>
+      <sub>&#x2212;</sub>
+      <sub>1</sub>
+    </mrow>
+  </msub>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <msub>
+    <mi>d</mi>
+    <sub>i</sub>
+  </msub>
+  <mo>,</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <msub>
+    <mi>d</mi>
+    <mn>1</mn>
+  </msub>
+  <msub>
+    <mi>d</mi>
+    <mn>0</mn>
+  </msub>
+  <msub>
+    <mo stretchy="false">)</mo>
+    <mi>b</mi>
+  </msub>
+  <mo>=</mo>
+  <msub>
+    <mi>d</mi>
+    <mi>n</mi>
+  </msub>
+  <mi>&#xD7;</mi>
+  <msup>
+    <mi>b</mi>
+    <mi>n</mi>
+  </msup>
+  <mo>+</mo>
+  <msub>
+    <mi>d</mi>
+    <mrow data-mjx-texclass="ORD">
+      <mi>n</mi>
+      <mo>&#x2212;</mo>
+      <mn>1</mn>
+    </mrow>
+  </msub>
+  <mi>&#xD7;</mi>
+  <msup>
+    <mi>b</mi>
+    <mrow data-mjx-texclass="ORD">
+      <mi>n</mi>
+      <mo>&#x2212;</mo>
+      <mn>1</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>+</mo>
+  <msub>
+    <mi>d</mi>
+    <mi>i</mi>
+  </msub>
+  <mi>&#xD7;</mi>
+  <msup>
+    <mi>b</mi>
+    <mi>i</mi>
+  </msup>
+  <mo>+</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>.</mo>
+  <mo>+</mo>
+  <msub>
+    <mi>d</mi>
+    <mn>1</mn>
+  </msub>
+  <mi>&#xD7;</mi>
+  <msup>
+    <mi>b</mi>
+    <mn>1</mn>
+  </msup>
+  <mo>+</mo>
+  <msub>
+    <mi>d</mi>
+    <mn>0</mn>
+  </msub>
+  <mi>&#xD7;</mi>
+  <msup>
+    <mi>b</mi>
+    <mn>0</mn>
+  </msup>
+</math>
+</pre>
 
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
