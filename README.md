@@ -1146,7 +1146,7 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
-    <sub>n</sub>
+    <sup>n</sup>
   </msup>
   <mo>+</mo>
   <msub>
@@ -1178,7 +1178,7 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
-    <sub>i</sub>
+    <sup>i</sup>
   </msup>
   <mo>+</mo>
   <mo>.</mo>
