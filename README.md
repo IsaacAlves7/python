@@ -1098,7 +1098,6 @@ Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` 
 
 Mudança da base b para a base decimal 10 e da base 10 para a base b: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
 
-<pre>
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mi>N</mi>
   <mo>=</mo>
@@ -1207,7 +1206,6 @@ Mudança da base b para a base decimal 10 e da base 10 para a base b: A convers�
     <mn>0</mn>
   </msup>
 </math>
-</pre>
 
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
