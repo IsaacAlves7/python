@@ -1099,7 +1099,7 @@ Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` 
 Mudança da base b para a base decimal 10 e da base 10 para a base b: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
 
 <pre>
-N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...d<sub>1</sub>d<sub>0</sub>)b=d<sub>n</sub><mi>&#xD7</mi>b<sup>n</sup>+d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub><mi>&#xD7;</mi><mi>b</mi><sup>n</sup><sup>&#x2212;</sup><sup>1</sup>+...+d<sub>i</sub<mi>&#xD7;</mi>b<sup>i</sup>+....+d<sub>1</sub><mi>&#xD7;</mi>b<sup>1</sup>+d<sub>0</sub><mi>&#xD7;</mi>b<sup>0</sup>
+N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...d<sub>1</sub>d<sub>0</sub>)b=d<sub>n</sub><mi>x</mi>b<sup>n</sup>+d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub><mi>&#xD7;</mi><mi>b</mi><sup>n</sup><sup>&#x2212;</sup><sup>1</sup>+...+d<sub>i</sub><mi>&#xD7;</mi>b<sup>i</sup>+....+d<sub>1</sub><mi>&#xD7;</mi>b<sup>1</sup>+d<sub>0</sub><mi>&#xD7;</mi>b<sup>0</sup>
 </pre>
 
 Então, veja o exemplo a seguir:
