@@ -1152,18 +1152,18 @@ MudanÃ§a da base b para a base decimal 10 e da base 10 para a base b: A conversÃ
   <msub>
     <mi>d</mi>
     <mrow data-mjx-texclass="ORD">
-      <sup>n</sup>
-      <sup>&#x2212;</sup>
-      <sup>1</sup>
+      <sub>n</sub>
+      <sub>&#x2212;</sub>
+      <sub>1</sub>
     </mrow>
   </msub>
   <mi>&#xD7;</mi>
   <msup>
     <mi>b</mi>
     <mrow data-mjx-texclass="ORD">
-      <sub>n</sub>
-      <sub>&#x2212;</sub>
-      <sub>1</sub>
+      <sup>n</sup>
+      <sup>&#x2212;</sup>
+      <sup>1</sup>
     </mrow>
   </msup>
   <mo>+</mo>
