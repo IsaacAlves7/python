@@ -1105,9 +1105,15 @@ N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...
 Então, veja o exemplo a seguir:
 
 <pre>
-            (101)<sub>2</sub> = 1 x 2<sup>2</sup>+0x2<sup>1</sup>+1x2<sup>0</sup>=4+0+1=5
+        (101)<sub>2</sub> = 1 x 2<sup>2</sup>+0x2<sup>1</sup>+1x2<sup>0</sup>=4+0+1=5
      (175)<sub>8</sub> = 1x8<sup>2</sup>+7x8<sup>1</sup>+5x8<sup>0</sup>=1x64+7x8+5x1=125
 (A2D)<sub>16</sub> = Ax16<sup>2</sup>+2x16<sup>1</sup>+Dx16<sup>0</sup>=10x16<sup>2</sup>+2x16+13=(2605)<sub>10</sub>
+</pre>
+
+De modo geral:
+
+<pre>
+(d<sub>n</sub> d<sub>n-1</sub> d<sub>i</sub>, d<sub>1</sub> d<sub>0</sub>)<sub>b</sub>=d<sub>n</sub>b<sup>n</sup>+d<sup>n-1</sup>b<sup>n-1</sup>+...+d<sub>i</sub>b<sup>i</sup>+...+d<sub>1</sub>b<sup>1</sup>+d<sub>0</sub>b<sup>0</sup>=(N)<sub>10</sub>=N
 </pre>
   
 ## [Python] Boolean
