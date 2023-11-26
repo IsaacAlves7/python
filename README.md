@@ -1152,9 +1152,9 @@ Mudança da base b para a base decimal 10 e da base 10 para a base b: A convers�
   <msub>
     <mi>d</mi>
     <mrow data-mjx-texclass="ORD">
-      <sub>n</sub>
-      <sub>&#x2212;</sub>
-      <sub>1</sub>
+      <sup>n</sup>
+      <sup>&#x2212;</sup>
+      <sup>1</sup>
     </mrow>
   </msub>
   <mi>&#xD7;</mi>
@@ -1162,8 +1162,8 @@ Mudança da base b para a base decimal 10 e da base 10 para a base b: A convers�
     <mi>b</mi>
     <mrow data-mjx-texclass="ORD">
       <sub>n</sub>
-      <mo>&#x2212;</mo>
-      <mn>1</mn>
+      <sub>&#x2212;</sub>
+      <sub>1</sub>
     </mrow>
   </msup>
   <mo>+</mo>
@@ -1206,6 +1206,8 @@ Mudança da base b para a base decimal 10 e da base 10 para a base b: A convers�
     <sup>0</sup>
   </msup>
 </math>
+
+
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
