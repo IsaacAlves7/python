@@ -10,9 +10,6 @@
 
 - https://exercism.org/tracks/python
 - https://app.datacamp.com/learn
-- https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/
-
-[![SQL](https://img.shields.io/badge/-query.sql-fff?style=social&logo=Amazon-RDS&logoColor=527FFF)](#)
 
 # 🐍 The History of Python language
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
@@ -324,11 +321,15 @@ Como o browser diz ao site onde entrou o sistema operativo que utiliza, o único
 
 Neste caso, selecione Python 3. O site oferece sempre a versão mais recente do mesmo. Se for um utilizador do Windows, inicie o arquivo `.exe` descarregado e siga todos os passos.
 
-> **Windows Env**: Caso seja um usuário de Windows, deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows.
+> **Windows Env**: Caso seja um usuário de Windows, deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows. 
 
 Se for um utilizador MacOS, uma versão do Python 2 pode já ter sido pré-instalada no seu computador, mas como vamos trabalhar com o Python 3, ainda assim terá de descarregar e instalar o arquivo `.pkg` relevante a partir do site Python.
 
 Agora que tem o Python 3 instalado, é altura de verificar se funciona, e fazer o primeiro uso do mesmo. Este será um procedimento muito simples, mas deve ser o suficiente para o convencer de que o ambiente Python é completo e funcional.
+
+Se ao usar o Python você sentir que o gerenciador de pacotes não está funcionando corretamente, e apresentar esse log: `Python :Fatal error in launcher: Unable to create process using ""C:\Program Files (x86)(5solution)`, clique no <a href="https://youtu.be/9lyB5itwhDI">link</a> para aprender como resolver.
+
+Caso se você estiver utilizando uma versão mais antiga e deseja atualizar para uma versão mais atual, veja como no <a href="https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/">link</a>.
 
 Existem muitas formas de utilizar o Python, especialmente se vier a ser um programador Python. Para começar o seu trabalho, precisa das seguintes ferramentas:
 
@@ -430,8 +431,7 @@ Se tudo correr bem e não houver erros no código, a janela do console irá most
 
 ![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
 
-## Como estragar e corrigir o seu código
-Agora reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
+Aprenda como estragar e corrigir o seu código! Agora, reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
 
 Tente executá-lo novamente pressionando `F5` quando a janela do editor estiver ativa. Como pode ver, o IDLE é capaz de guardar o seu código e recuperá-lo quando precisar dele novamente.
 
