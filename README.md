@@ -1074,7 +1074,7 @@ No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres n
 ## [Python] Integer
 A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
 
-**Exemplo**: O número 179 significa uma (1) centena (100) mais (+) sete (7) dezenas (10) e nove (9) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
+**Exemplo**: O número `179` significa uma (`1`) centena (`100`) mais (`+`) sete (`7`) dezenas (`10`) e nove (`9`) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
 
 Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer digito numérico decimal a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
 
@@ -1082,7 +1082,7 @@ Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar com
 
 Onde: `0 ≤ di < 10,i,...n`
 
-Outra notação comum para representar um número inteiro positivo na base 10 é `(dndn-1....di...d1d0 )10`. Essa notação nos leva a outra, caso se deseje representar o número com uma base diferente de 10, que seria `N=(dndn-1....di...d1d0 )b` , com `b` sendo uma base diferente de `10`; consequentemente, teremos `0 ≤ di < b`.
+Outra notação comum para representar um número inteiro positivo na base `10` é `(dndn-1....di...d1d0 )10`. Essa notação nos leva a outra, caso se deseje representar o número com uma base diferente de `10`, que seria `N=(dndn-1....di...d1d0 )b` , com `b` sendo uma base diferente de `10`; consequentemente, teremos `0 ≤ di < b`.
 
 <img width="266" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/970f8f3a-16b8-458b-9451-d7176d4560a2">
 
@@ -1096,7 +1096,7 @@ Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` 
 
 <img width="316" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/b26cf9c5-f8e6-4ede-ade7-0e82cc9395a7">
 
-Mudança da base b para a base decimal 10 e da base 10 para a base b: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
+**Mudança da base b para a base decimal 10 e da base 10 para a base b**: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
 
 <pre>
 N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...d<sub>1</sub>d<sub>0</sub>)b=d<sub>n</sub><mi>x</mi>b<sup>n</sup>+d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub><mi>&#xD7;</mi><mi>b</mi><sup>n</sup><sup>&#x2212;</sup><sup>1</sup>+...+d<sub>i</sub><mi>&#xD7;</mi>b<sup>i</sup>+....+d<sub>1</sub><mi>&#xD7;</mi>b<sup>1</sup>+d<sub>0</sub><mi>&#xD7;</mi>b<sup>0</sup>
