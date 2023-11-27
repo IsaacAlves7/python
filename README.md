@@ -1138,6 +1138,8 @@ N=d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</s
 q=d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>                
 </pre>
 
+Se colocarmos `b` em evidência no `n-1` primeiros termos da segunda parte da expressão, obtém-se:
+
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
 
