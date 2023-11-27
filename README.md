@@ -1105,7 +1105,7 @@ N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...
 Então, veja o exemplo a seguir:
 
 <pre>
-        (101)<sub>2</sub> = 1 x 2<sup>2</sup>+0x2<sup>1</sup>+1x2<sup>0</sup>=4+0+1=5
+        (101)<sub>2</sub> = 1x2<sup>2</sup>+0x2<sup>1</sup>+1x2<sup>0</sup>=4+0+1=5
      (175)<sub>8</sub> = 1x8<sup>2</sup>+7x8<sup>1</sup>+5x8<sup>0</sup>=1x64+7x8+5x1=125
 (A2D)<sub>16</sub> = Ax16<sup>2</sup>+2x16<sup>1</sup>+Dx16<sup>0</sup>=10x16<sup>2</sup>+2x16+13=(2605)<sub>10</sub>
 </pre>
@@ -1115,6 +1115,16 @@ De modo geral:
 <pre>
 (d<sub>n</sub> d<sub>n-1</sub> d<sub>i</sub>, d<sub>1</sub> d<sub>0</sub>)<sub>b</sub>=d<sub>n</sub>b<sup>n</sup>+d<sup>n-1</sup>b<sup>n-1</sup>+...+d<sub>i</sub>b<sup>i</sup>+...+d<sub>1</sub>b<sup>1</sup>+d<sub>0</sub>b<sup>0</sup>=(N)<sub>10</sub>=N
 </pre>
+
+Onde `N` terá outros dígitos na base `10`, como visto nos exemplos anteriores.
+
+Para converter um número inteiro positivo `N` na base `10`, para uma base `b`, é necessário determinar os seus respectivos dígitos: `di`, de `(dn dn-1....di,...d1 d0 )b`. Para entender o procedimento, devemos nos lembrar do **algoritmo da divisão de números inteiros positivos**, onde, ao dividir um número `D` por um número `d`, obtém-se um quociente `q` e um resto `r`; e quando `r=0`, dizemos que a divisão foi exata e o resto só pode assumir os valores de `0,1,2...d-1`. Formalizando por símbolos matemáticos:
+
+```python
+D=d×q+r, onde 0≤ r ≤d-1
+```
+
+Agora, vamos fazer a divisão de `N`, na base `10`, pela base `b` que deseja se transformar. Dessa forma, `D=N` e `d=b`, sendo necessário descobrir quem será o `q` e o `r`. Lembrando o princípio da igualdade: se `A=b`, então, `B=A`. Podemos observar que, na mudança da base `b` para a base `10`, temos:
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
