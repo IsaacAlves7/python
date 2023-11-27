@@ -386,11 +386,16 @@ Alguns dos principais recursos do Google Colab incluem:
 
 - Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
 
-Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem.
+Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem. 
+
+[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb#scrollTo=GQ18Kd5F3uKe) 
+
+O colab já fornece um conjunto de bibliotecas python já instaladas em seus notebooks, porém caso aja uma excessão de biblioteca não instalada, recomendo seguir os passos que a própria plataforma indica, basta clicar no badge acima para aprender sobre os snippets de importação de bibliotecas do colab.
 
 O **Kaggle** é uma plataforma online que hospeda competições de ciência de dados e aprendizado de máquina. Ele também oferece notebooks para Python que podem ser usados para explorar, analisar e modelar dados. O Kaggle permite o acesso a conjuntos de dados públicos e privados, bem como a GPUs e TPUs gratuitas. Ele também tem uma comunidade ativa de cientistas de dados e aprendizes de máquina que compartilham seus notebooks e soluções.
 
-## [Python] Como escrever e executar o seu primeiro programa
+Veja como escrever e executar o seu primeiro programa: 
+
 É agora tempo de escrever e executar o seu primeiro programa de Python 3. Será muito simples, por agora.
 
 O primeiro passo é criar um novo source file e preenchê-lo com código. Clique em `File` no menu do IDLE e escolha `New file`.
