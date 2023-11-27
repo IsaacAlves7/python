@@ -1127,7 +1127,7 @@ D=d×q+r, onde 0≤ r ≤d-1
 Agora, vamos fazer a divisão de `N`, na base `10`, pela base `b` que deseja se transformar. Dessa forma, `D=N` e `d=b`, sendo necessário descobrir quem será o `q` e o `r`. Lembrando o princípio da igualdade: se `A=b`, então, `B=A`. Podemos observar que, na mudança da base `b` para a base `10`, temos:
 
 <pre>
-d<sub>n<sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>=(N)<sub>10</sub>=N
+d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>=(N)<sub>10</sub>=N
 </pre>
 
 ## [Python] Boolean
