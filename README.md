@@ -1130,6 +1130,14 @@ Agora, vamos fazer a divisão de `N`, na base `10`, pela base `b` que deseja se 
 d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>=(N)<sub>10</sub>=N
 </pre>
 
+Logo, pelo princípio da igualdade:
+
+<pre>
+N=d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup> 
+  
+q=d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>                
+</pre>
+
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
 
