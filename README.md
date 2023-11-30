@@ -1173,6 +1173,12 @@ O número real `95,32`, representado na base decimal (`10`), pode ser escrito da
 </pre>
 
 Agora, vamos generalizar essa ideia: um número real `r` na base dez (`10`), com `n+1` dígitos na parte inteira e `m` dígitos na parte fracionária, pode ser representado como:
+
+<pre>
+r=(d<sub>n</sub> d_{n-1} ... d_{i}, ... d_{1} d_{0}, d_{-1} d_{-2} ... d_{-m}\right)_{10} \\
+                     d_{n} x 10^{n}+d_{n-1} x 10^{n-1}+...+d_{1} x 10^{1}+d_{0} x 10^{0}+d_{-1} x 10^{-1} \\
+                     \quad+d_{-2} x 10^{-2}+...+d_{-m} x 10^{-m}
+</pre>
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
