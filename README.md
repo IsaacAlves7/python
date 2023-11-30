@@ -1148,6 +1148,12 @@ Se colocarmos `b` em evidência no `n-1` primeiros termos da segunda parte da ex
 <pre>
 N=(d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>) x b+d<sub>0</sub>
 </pre>
+
+Comparando com `D=dxq+r`, concluímos que:
+
+<pre>
+q=d<sub>n</sub>xb<sup>n-1</sup>+d<sub>n-1</sub>xb<sup>n-2</sup>+...+d<sub>j</sub>xb<sup>i-1</sup>+...+d<sub>1</sub>xb<sup>0</sup> e r=d<sub>0</sub>
+</pre>
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
@@ -1276,6 +1282,8 @@ Em uma lista, os índices começam com 0. Nesse caso, a lista segue a ordem até
 a=[1,2,3,4,5]
 a[-5]
 ```
+
+
 
 ## [Python] Funções (Rotinas)
 Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
