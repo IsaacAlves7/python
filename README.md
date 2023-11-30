@@ -1162,6 +1162,8 @@ Portanto, o processo adotado será dividir `N` por `b` e obter `q0` e `r0 = d0`;
 > **Atenção**: Define-se como **bit** (binary digit) o elemento de memória básico de um computador que assume dois estados, que são representados pelos dígitos zero (`0`) e um (`1`). O número de bits disponíveis para uma representação numérica de inteiros positivos corresponde ao maior inteiro que o computador pode representar, ou seja, com `m` bits é possível representar 2<sup>m</sup> números. Por exemplo, para representar os oito dígitos decimais, seriam necessários três bits, pois 2<sup>3 = 8</sup>, entretanto, para representar `10` dígitos decimais são necessários quatro bits, pois 2<sup>4 = 16</sup> configurações, o que é excedente, ou seja, no **sistema decimal** há desperdício de bits.
 
 A representação dos números inteiros não positivos (inteiros negativos) é realizada utilizando a ideia do bit, ou seja, são convencionadas para os sinais positivo (`+`) ou negativo (`-`) as representações de zero (`0`) ou um (`1`). O único problema dessa representação ocorre em operações para obter os números `+0` e `-0`, que, embora para o computador sejam números diferentes, sabemos que são iguais.
+
+Existem diversas formas de resolver esse problema, como
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
