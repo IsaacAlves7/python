@@ -1164,6 +1164,13 @@ Portanto, o processo adotado será dividir `N` por `b` e obter `q0` e `r0 = d0`;
 A representação dos números inteiros não positivos (inteiros negativos) é realizada utilizando a ideia do bit, ou seja, são convencionadas para os sinais positivo (`+`) ou negativo (`-`) as representações de zero (`0`) ou um (`1`). O único problema dessa representação ocorre em operações para obter os números `+0` e `-0`, que, embora para o computador sejam números diferentes, sabemos que são iguais.
 
 Existem diversas formas de resolver esse problema, como
+
+## [Python] Float
+O número real ``95,32`, representado na base decimal (`10`), pode ser escrito da seguinte maneira:
+
+<pre>
+9 x 10<sup>1</sup>+5 x 10<sup>0</sup>+3 x 10<sup>-1</sup>+2 x 10<sup>-2</sup>
+</pre>
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
