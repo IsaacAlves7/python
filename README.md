@@ -1175,9 +1175,9 @@ O número real `95,32`, representado na base decimal (`10`), pode ser escrito da
 Agora, vamos generalizar essa ideia: um número real `r` na base dez (`10`), com `n+1` dígitos na parte inteira e `m` dígitos na parte fracionária, pode ser representado como:
 
 <pre>
-r=(d<sub>n</sub> d_{n-1} ... d_{i}, ... d_{1} d_{0}, d_{-1} d_{-2} ... d_{-m}\right)_{10} \\
-                     d_{n} x 10^{n}+d_{n-1} x 10^{n-1}+...+d_{1} x 10^{1}+d_{0} x 10^{0}+d_{-1} x 10^{-1} \\
-                     \quad+d_{-2} x 10^{-2}+...+d_{-m} x 10^{-m}
+r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>10</sub>
+                     d<sub>n</sub> x 10<sup>n</sup>+d<sub>n-1</sub> x 10<sup>n-1</sup>+...+d<sub>1</sub> x 10<sup>1</sup>+d<sub>0</sub> x 10<sup>0</sup>+d<sub>-1</sub> x 10<sup>-1</sup>
+                     +d<sub>-2</sub> x 10<sup>-2</sup>+...+d<sub>-m</sub> x 10<sup>-m</sup>
 </pre>
   
 ## [Python] Boolean
