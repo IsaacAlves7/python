@@ -1158,6 +1158,8 @@ q=d<sub>n</sub>xb<sup>n-1</sup>+d<sub>n-1</sub>xb<sup>n-2</sup>+...+d<sub>j</sub
 Então, quando dividimos o número inteiro positivo `N`, na base `10`, por um número `b` na base desejada, obtemos o resto `r` igual ao último digito d0 da representação de N-decimal na base `b`. Sabemos, pelo exemplo anterior, que `2605 = (A2D)16`, onde a letra `D` é o ultimo dígito na representação da base `16`; de fato, quando dividimos `2605` por `16`, resulta, como quociente, `q=162` e resto `r=13`, que, na representação na base `16`, é a letra `D`.
 
 Portanto, o processo adotado será dividir `N` por `b` e obter `q0` e `r0 = d0`; depois, divide-se `q0` por `b`, resultando em `q1` e <code>r1 = d1</code>, e assim sucessivamente; os respectivos restos serão os dígitos `di`, na base `b`, e o quociente da n-ésima e última divisão será o <code>d<sub>n</sub></code>.
+
+> **Atenção**: Define-se como **bit** (binary digit) o elemento de memória básico de um computador que assume dois estados, que são representados pelos dígitos zero (`0`) e um (`1`). O número de bits disponíveis para uma representação numérica de inteiros positivos corresponde ao maior inteiro que o computador pode representar, ou seja, com `m` bits é possível representar `2m` números. Por exemplo, para representar os oito dígitos decimais, seriam necessários três bits, pois `23 = 8`, entretanto, para representar `10` dígitos decimais são necessários quatro bits, pois `24 = 16` configurações, o que é excedente, ou seja, no sistema decimal há desperdício de bits.
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
