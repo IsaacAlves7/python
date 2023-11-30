@@ -1166,11 +1166,13 @@ A representação dos números inteiros não positivos (inteiros negativos) é r
 Existem diversas formas de resolver esse problema, como
 
 ## [Python] Float
-O número real ``95,32`, representado na base decimal (`10`), pode ser escrito da seguinte maneira:
+O número real `95,32`, representado na base decimal (`10`), pode ser escrito da seguinte maneira:
 
 <pre>
 9 x 10<sup>1</sup>+5 x 10<sup>0</sup>+3 x 10<sup>-1</sup>+2 x 10<sup>-2</sup>
 </pre>
+
+Agora, vamos generalizar essa ideia: um número real `r` na base dez (`10`), com `n+1` dígitos na parte inteira e `m` dígitos na parte fracionária, pode ser representado como:
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
