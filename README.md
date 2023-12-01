@@ -945,7 +945,11 @@ Python tem vários gerenciadores de pacotes que facilitam a instalação, atuali
 O `pip` - Package Installer for Python é o gerenciador de pacotes padrão para Python. Ele facilita a instalação e gerenciamento de pacotes a partir do Python Package Index (PyPI), que é o repositório oficial de pacotes Python. Você pode usar o pip para instalar pacotes com o seguinte comando:
 
 ```sh
-pip install <nome_do_pacote>
+# Python 3.12
+python3 -m pip install <package_name>
+
+# Python 3.8
+pip install <package_name>
 ```
 
 Também é possível instalar a partir de um arquivo `requirements.txt`:
@@ -955,6 +959,13 @@ pip install -r requirements.txt
 ```
 
 Para mais informações, você pode digitar `pip --help` no terminal.
+
+Também é possível atualizar a versão do pip, caso haja atualização de alguma biblioteca para a versão mais recente do Python, veja abaixo:
+
+```sh
+# <Python_PATH> -m pip install --upgrade pip
+C:\Users\isaac\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+```
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
 
@@ -1661,3 +1672,8 @@ Ao longo deste conteúdo, apresentaremos alguns dos principais frameworks e as b
 
 A linguagem python possui muitos frameworks para desenvolvimento de aplicações de interface gráfica para interação com o usuário, chamadas, comumente, de GUI (Graphical User Interface). O framework mais comum é o **Tkinter** (python interface to Tcl/Tk-2020) que já faz parte da instalação python, mas existem outros frameworks com características específicas que podem torná-los a escolha adequada para um projeto. Vamos explorar uma variedade de frameworks e bibliotecas populares para criação de interfaces gráficas em Python, incluindo Tkinter, Flexx, CEF Python, Kivy, Pyforms, PyQt, wxPython, PyAutoGUI e PySimpleGUI. Discutiremos as características distintas de cada um, suas aplicações e vantagens, oferecendo uma visão abrangente das opções disponíveis para desenvolvimento de GUIs em Python.
 
+- **Tkinter**: É o framework GUI padrão do python. Sua sintaxe é simples, possui muitos componentes para interação com o usuário. Além disso, seu código é aberto e é disponível sob a licença python. Caso ela não esteja instalada na sua versão do python, basta digitar o comando:
+
+```sh
+python3 -m pip install tkinter
+```
