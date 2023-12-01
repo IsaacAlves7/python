@@ -1333,6 +1333,17 @@ Esses dois exemplos ilustram que é possível, numa transformação de base dois
 
 **Mudança da base b para a base 10**: Seja r um número real na base b, `(0, d-1d-2....d-m )b`, para obter a sua representação na base 10, basta aplicar a fórmula matemática já vista na seção anterior:
 
+<img width="446" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/532150ea-732b-4ccb-b777-3fbf361ffe8c">
+
+Por exemplo, converter o número (0,561)<sub>8</sub> para a base 10, aplicando a fórmula:
+
+<img width="398" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/2f0dc044-97c0-4349-b6c9-ca7148173ffd">
+
+**Notação Científica dos números reais**: Nas ciências, é comum encontramos fenômenos ou grandezas cujos valores são altos ou baixos, por exemplo, na Astronomia ou na Nanotecnologia. Para a representação desses números, é necessária uma quantidade grande de dígitos. A solução desse problema é usar a notação cientifica, cuja representação de um número real é dada da seguinte forma:
+
+<img width="110" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/8f5393b2-08b3-404d-a27e-f5cc8e4ea852">
+
+
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
