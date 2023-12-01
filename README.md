@@ -1363,6 +1363,13 @@ Essa condição define uma notação **normalizada**.
 
 **Representação em ponto flutuante**: A notação científica abrange todos os números reais e, como sabemos, essa quantidade é infinita, o que torna impossível de ser implementada em um computador que possua uma quantidade finita de dígitos. A solução foi modificar um pouco a normalização da notação científica da seguinte maneira:
 
+<img width="597" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/e5b96a80-11a1-445b-8e65-24fab9d282c2">
+
+A notação que usaremos é FP(b,p, e<sub>min</sub>, e<sub>max</sub>), para nos referirmos ao número no sistema de ponto flutuante de base `b`, na qual a mantissa possui p dígitos (na base b) e os expoentes estão contidos no intervalo fechado [e<sub>min</sub>, e<sub>max</sub>], ou seja, `r=0` ou <code>r=±M×b<sup>e</sup></code>, onde <code>b<sup>-1</sup> ≤ M ≤ 1 - b<sup>-p</sup></code>.
+
+
+Tomamos como exemplo um número real representado em ponto flutuante FP(10,4,-99,99). Pode ser escrito de forma genérica como r=±(0,d-1 d-2 d-3 d-4)×10e, onde -99≤ e ≤ 99. Observe que essa representação não é capaz de representar o número real 0,1x10100, pois o expoente é igual a 100 > 99, que é o expoente máximo.
+
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
