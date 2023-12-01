@@ -1343,6 +1343,25 @@ Por exemplo, converter o número (0,561)<sub>8</sub> para a base 10, aplicando a
 
 <img width="110" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/8f5393b2-08b3-404d-a27e-f5cc8e4ea852">
 
+Onde:
+
+- `M` é um inteiro real não negativo, chamado de **mantissa**.
+
+- `b ≥ 2` é um número inteiro positivo, chamado de **base**.
+
+- `e` é chamado de **expoente**.
+
+No entanto, essa notação possui uma ambiguidade. O número `0,1`, por exemplo, pode ser representado de formas equivalentes:
+
+<img width="442" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/1f234a21-82ae-44b7-8b53-7ff9e122158f">
+
+Para resolver essa situação, foi imposta a seguinte condição à mantissa:
+
+<img width="274" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/133e90ec-b756-4f19-8e79-3aa6f39b0bd6">
+
+Essa condição define uma notação **normalizada**.
+
+**Representação em ponto flutuante**: A notação científica abrange todos os números reais e, como sabemos, essa quantidade é infinita, o que torna impossível de ser implementada em um computador que possua uma quantidade finita de dígitos. A solução foi modificar um pouco a normalização da notação científica da seguinte maneira:
 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
