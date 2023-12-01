@@ -1658,3 +1658,6 @@ Para fazer esse gerenciamento, as aplicações usam sistemas gerenciadores de ba
 A linguagem python aparece como uma opção muito eficaz para atingir esses objetivos, uma vez que oferece recursos para desenvolver aplicações que integrem interface gráfica com operações no banco de dados.
 
 Ao longo deste conteúdo, apresentaremos alguns dos principais frameworks e as bibliotecas para desenvolver aplicações de interface gráfica, além de explorarmos como realizar aplicações no banco de dados.
+
+A linguagem python possui muitos frameworks para desenvolvimento de aplicações de interface gráfica para interação com o usuário, chamadas, comumente, de GUI (Graphical User Interface). O framework mais comum é o **Tkinter** (python interface to Tcl/Tk-2020) que já faz parte da instalação python, mas existem outros frameworks com características específicas que podem torná-los a escolha adequada para um projeto. Vamos explorar uma variedade de frameworks e bibliotecas populares para criação de interfaces gráficas em Python, incluindo Tkinter, Flexx, CEF Python, Kivy, Pyforms, PyQt, wxPython, PyAutoGUI e PySimpleGUI. Discutiremos as características distintas de cada um, suas aplicações e vantagens, oferecendo uma visão abrangente das opções disponíveis para desenvolvimento de GUIs em Python.
+
