@@ -1672,7 +1672,7 @@ Cada vez mais, nós geramos e consumimos dados para realizarmos atividades que v
 
 Para fazer esse gerenciamento, as aplicações usam sistemas gerenciadores de banco de dados a fim de realizar operações de inserção, consulta, alteração e exclusão de dados. Além disso, para que o usuário possa interagir de modo eficiente com o sistema, é importante que ele tenha à disposição uma interface gráfica que facilite o seu acesso às funcionalidades implementadas.
 
-A linguagem python aparece como uma opção muito eficaz para atingir esses objetivos, uma vez que oferece recursos para desenvolver aplicações que integrem interface gráfica com operações no banco de dados.
+A linguagem python aparece como uma opção muito eficaz para atingir esses objetivos, uma vez que oferece recursos para desenvolver aplicações que integrem interface gráfica com operações no banco de dados. No entanto, é possível também integrar Python a outras tecnologias para realizar a funcionalidade de interface gráfica, como frameworks JavaScript (Web e Desktop), mas isso geralmente envolve a execução de um servidor Python separado cujo framework JavaScript chama para executar o código Python.
 
 Ao longo deste conteúdo, apresentaremos alguns dos principais frameworks e as bibliotecas para desenvolver aplicações de interface gráfica, além de explorarmos como realizar aplicações no banco de dados.
 
@@ -1696,3 +1696,5 @@ Se a instalação ocorreu normalmente, aparecerá uma tela com alguns componente
 ![image](https://github.com/IsaacAlves7/py/assets/61624336/7d2962f4-0f2b-4ecc-8cdf-d3a648493374)
 
 > **Atenção!** Devido à importância do Tkinter, vamos explorá-lo com bastantes detalhes mais à frente.
+
+**Flexx**: É um kit de ferramentas (toolkit) para o desenvolvimento de interfaces gráficas com o usuário implementado em python que faz uso de tecnologia web para sua renderização. O Flexx pode ser usado para criar tanto aplicações de desktop como para web e até mesmo exportar uma aplicação para um documento HTML independente. Para instalar o Flexx, basta digitar o comando:
