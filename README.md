@@ -952,6 +952,12 @@ python3 -m pip install <package_name>
 pip install <package_name>
 ```
 
+Para quem usa a IDE Spyder (SPYDER, 2020) ou o Google Colab, é necessário colocar uma exclamação antes do comando “pip”, ou seja:
+
+```sh
+!pip install <package_name>
+```
+
 Também é possível instalar a partir de um arquivo `requirements.txt`:
 
 ```sh
