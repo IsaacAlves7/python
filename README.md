@@ -1213,6 +1213,17 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  True
 ```
 
+Mudança de base dez (10) para a base b: Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
+
+- `i`: É a parte inteira.
+- `f`: É a parte fracionária.
+
+Devemos reparar ambas as partes, ou seja, fazer `r = i + 0,f`; tomando como exemplo `95`, temos `32 = 95 +0,32`. Já vimos nas seções anteriores a transformação da parte inteira; agora, vamos focar somente na parte fracionária `0,f`. Então, vamos considerar que o nosso número real `r` só contém a parte fracionária:
+
+<img width="443" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/875f1d09-8f0b-43d9-b057-fccdc0927079">
+
+O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na base (10) para uma base b, deveríamos dividir o número por b, sucessivamente, e obter os restos. A ideia será a mesma, porém com uma diferença, ao contrário de fazer divisões, faremos multiplicações, ou seja, o primeiro passo será multiplicar o número real r pela base que se deseja transformar, b. Em símbolos matemáticos, teríamos:
+
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
