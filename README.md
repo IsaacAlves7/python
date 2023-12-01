@@ -1308,7 +1308,13 @@ O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na
 
 <img width="324" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/485a38df-71f2-4efc-9be2-e18178766668">
 
-Obtém-se uma parte inteira, `d-1`, e a parte fracionária começa com `d-2`. Multiplicando a parte fracionária restante por b, o resultado será d-2, e, assim, sucessivamente. A seguir, veremos dois exemplos de conversão dos número reais 0,625 e 0,2 para a base binária, o seja base dois (2):
+Obtém-se uma parte inteira, `d-1`, e a parte fracionária começa com `d-2`. Multiplicando a parte fracionária restante por b, o resultado será d-2, e, assim, sucessivamente. A seguir, veremos dois exemplos de conversão dos número reais 0,625 e 0,2 para a base binária, ou seja, da base dois (2):
+
+<img width="619" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cab78c07-cdeb-4a67-843a-f6b586311d00">
+
+Esses dois exemplos ilustram que é possível, numa transformação de base dois de um número real na base 10, obter um resultado cuja representação possui um número finito de zeros e um ou um número infinito (dízima periódica) de zeros e um.
+
+**Mudança da base b para a base 10**: Seja r um número real na base b, `(0, d-1d-2....d-m )b`, para obter a sua representação na base 10, basta aplicar a fórmula matemática já vista na seção anterior:
 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
