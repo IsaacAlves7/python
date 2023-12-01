@@ -1644,10 +1644,17 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 </tr>
 </table>
 
-# 🐍 [Python] Tratamento de exceções
+# 🐍 [Python] Tratamento de exceções (exceptions)
 
 # 🐍 [Python] Manipulação de Dados em Arquivos
 
 # 🐍 [Python] Banco de Dados
 
-# 🐍 [Python] Interface Gráfica
+# 🐍 [Python] Interface Gráfica (GUI)
+Cada vez mais, nós geramos e consumimos dados para realizarmos atividades que vão desde a abertura de uma conta bancária até as informações que disponibilizamos nas redes sociais. Portanto, é necessário entender como esses dados são gerenciados, pois são importantes para identificar pessoas, preferências, produtos, transações financeiras, entre tantas outras aplicações.
+
+Para fazer esse gerenciamento, as aplicações usam sistemas gerenciadores de banco de dados a fim de realizar operações de inserção, consulta, alteração e exclusão de dados. Além disso, para que o usuário possa interagir de modo eficiente com o sistema, é importante que ele tenha à disposição uma interface gráfica que facilite o seu acesso às funcionalidades implementadas.
+
+A linguagem python aparece como uma opção muito eficaz para atingir esses objetivos, uma vez que oferece recursos para desenvolver aplicações que integrem interface gráfica com operações no banco de dados.
+
+Ao longo deste conteúdo, apresentaremos alguns dos principais frameworks e as bibliotecas para desenvolver aplicações de interface gráfica, além de explorarmos como realizar aplicações no banco de dados.
