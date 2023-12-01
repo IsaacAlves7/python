@@ -1179,6 +1179,13 @@ r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</s
                      d<sub>n</sub> x 10<sup>n</sup>+d<sub>n-1</sub> x 10<sup>n-1</sup>+...+d<sub>1</sub> x 10<sup>1</sup>+d<sub>0</sub> x 10<sup>0</sup>+d<sub>-1</sub> x 10<sup>-1</sup>
                      +d<sub>-2</sub> x 10<sup>-2</sup>+...+d<sub>-m</sub> x 10<sup>-m</sup>
 </pre>
+
+Utilizando o mesmo raciocínio, um número real `r`, representado em uma base `b`, pode ser escrito da seguinte maneira:
+
+<pre>
+    r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>b</sub> 
+d<sub>n</sub> x b<sub>n</sub>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>+d<sub>-1</sub> x b<sup>-1</sup>+d<sub>-2</sub> x b<sup>-2</sup>+...+d<sub>-m</sub> x b<sup>-m</sup>
+</pre>
   
 ## [Python] Boolean
 As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
