@@ -1529,7 +1529,7 @@ for i in range(1,7): print(i)
 
 > E sempre o último número da lista de iteração, no caso `7` não é contado.
 
-# 🐍 Rad (rapid Applications Development)
+# 🐍 [Python] Rad - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade. O resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento.
 
 > A RAD pode ser considerada um tipo de técnica ágil. (NAZ & KHAN, 2015).
@@ -1593,4 +1593,4 @@ A metodologia RAD possui quatro elementos fundamentais:
 
 Além disso, existem dois tipos de projetos RAD:
 
-# 🐍 
+# 🐍 [Python] Tratamento de exceções
