@@ -1684,7 +1684,7 @@ A linguagem python possui muitos frameworks para desenvolvimento de aplicações
 pip install tkinter
 ```
 
-Nas versões mais recentes da linguagem, o Tkinter já faz parte da linguagem, não é preciso instalar. Para testar a instalação, basta escrever o seguinte código na linha de comando:
+Nas versões mais recentes da linguagem, o Tkinter já faz parte da dela, então não é preciso instalar. Para testar a instalação, basta escrever o seguinte código na linha de comando:
 
 ```python
 import tkinter
