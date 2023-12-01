@@ -1663,6 +1663,8 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 
 # 🐍 [Python] Tratamento de exceções (exceptions)
 
+# 🐍 [Python] Concorrência
+
 # 🐍 [Python] Manipulação de Dados em Arquivos
 
 # 🐍 [Python] Banco de Dados
