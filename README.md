@@ -1183,7 +1183,7 @@ Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` 
 
 <img width="316" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/b26cf9c5-f8e6-4ede-ade7-0e82cc9395a7">
 
-**Mudança da base b para a base decimal 10 e da base 10 para a base b**: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
+**Mudança da base b para a base decimal 10 e da base 10 para a base b**: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` (binária) para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
 
 <pre>
 N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...d<sub>1</sub>d<sub>0</sub>)b=d<sub>n</sub><mi>x</mi>b<sup>n</sup>+d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub><mi>&#xD7;</mi><mi>b</mi><sup>n</sup><sup>&#x2212;</sup><sup>1</sup>+...+d<sub>i</sub><mi>&#xD7;</mi>b<sup>i</sup>+....+d<sub>1</sub><mi>&#xD7;</mi>b<sup>1</sup>+d<sub>0</sub><mi>&#xD7;</mi>b<sup>0</sup>
@@ -1241,7 +1241,7 @@ Então, quando dividimos o número inteiro positivo `N`, na base `10`, por um n�
 
 Portanto, o processo adotado será dividir `N` por `b` e obter `q0` e `r0 = d0`; depois, divide-se `q0` por `b`, resultando em `q1` e <code>r1 = d1</code>, e assim sucessivamente; os respectivos restos serão os dígitos `di`, na base `b`, e o quociente da n-ésima e última divisão será o <code>d<sub>n</sub></code>.
 
-> **Atenção**: Define-se como **bit** (binary digit) o elemento de memória básico de um computador que assume dois estados, que são representados pelos dígitos zero (`0`) e um (`1`). O número de bits disponíveis para uma representação numérica de inteiros positivos corresponde ao maior inteiro que o computador pode representar, ou seja, com `m` bits é possível representar 2<sup>m</sup> números. Por exemplo, para representar os oito dígitos decimais, seriam necessários três bits, pois 2<sup>3 = 8</sup>, entretanto, para representar `10` dígitos decimais são necessários quatro bits, pois 2<sup>4 = 16</sup> configurações, o que é excedente, ou seja, no **sistema decimal** há desperdício de bits.
+Define-se como **bit** (binary digit) o elemento de memória básico de um computador que assume dois estados, que são representados pelos dígitos zero (`0`) e um (`1`). O número de bits disponíveis para uma representação numérica de inteiros positivos corresponde ao maior inteiro que o computador pode representar, ou seja, com `m` bits é possível representar 2<sup>m</sup> números. Por exemplo, para representar os oito dígitos decimais, seriam necessários três bits, pois 2<sup>3 = 8</sup>, entretanto, para representar `10` dígitos decimais são necessários quatro bits, pois 2<sup>4 = 16</sup> configurações, o que é excedente, ou seja, no **sistema decimal** há desperdício de bits. Então, a base b é binária se `b=2`. Em um sistema numérico binário, existem apenas dois dígitos possíveis, 0 e 1. Cada dígito é referido como um bit. Portanto, se a base de um sistema numérico é 2, então esse sistema é binário.
 
 A representação dos números inteiros não positivos (inteiros negativos) é realizada utilizando a ideia do bit, ou seja, são convencionadas para os sinais positivo (`+`) ou negativo (`-`) as representações de zero (`0`) ou um (`1`). O único problema dessa representação ocorre em operações para obter os números `+0` e `-0`, que, embora para o computador sejam números diferentes, sabemos que são iguais.
 
@@ -1295,7 +1295,7 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  True
 ```
 
-Mudança de base dez (10) para a base b: Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
+**Mudança de base dez (10) para a base b**: Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
 
 - `i`: É a parte inteira.
 - `f`: É a parte fracionária.
@@ -1305,6 +1305,10 @@ Devemos reparar ambas as partes, ou seja, fazer `r = i + 0,f`; tomando como exem
 <img width="443" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/875f1d09-8f0b-43d9-b057-fccdc0927079">
 
 O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na base (10) para uma base b, deveríamos dividir o número por b, sucessivamente, e obter os restos. A ideia será a mesma, porém com uma diferença, ao contrário de fazer divisões, faremos multiplicações, ou seja, o primeiro passo será multiplicar o número real r pela base que se deseja transformar, b. Em símbolos matemáticos, teríamos:
+
+<img width="324" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/485a38df-71f2-4efc-9be2-e18178766668">
+
+Obtém-se uma parte inteira, `d-1`, e a parte fracionária começa com `d-2`. Multiplicando a parte fracionária restante por b, o resultado será d-2, e, assim, sucessivamente. A seguir, veremos dois exemplos de conversão dos número reais 0,625 e 0,2 para a base binária, o seja base dois (2):
 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
@@ -1407,8 +1411,6 @@ Em uma lista, os índices começam com 0. Nesse caso, a lista segue a ordem até
 a=[1,2,3,4,5]
 a[-5]
 ```
-
-
 
 ## [Python] Funções (Rotinas)
 Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
