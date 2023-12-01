@@ -1369,6 +1369,11 @@ A notação que usaremos é <code>FP(b,p, e<sub>min</sub>, e<sub>max</sub>)</cod
 
 Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-99,99)`. Pode ser escrito de forma genérica como `r=±(0,d-1 d-2 d-3 d-4)×10e`, onde `-99≤ e ≤ 99`. Observe que essa representação não é capaz de representar o número real <code>0,1x10<sup>100</sup></code>, pois o expoente é igual a `100 > 99`, que é o expoente máximo.
 
+> **Atenção**: Em uma modelagem matemática, isso é chamado de **overflow**. De maneira semelhante, 0,1x10<sup>-100</sup>, e o motivo é o mesmo -100<-99, que é o valor mínimo. Essa situação é definida como **underflow**.
+
+### [Python] Mudanças de Bases em Python
+
+ 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
