@@ -1192,11 +1192,15 @@ Outra notação comum para representar um número inteiro positivo na base `10` 
 
 As bases mais comuns na aritmética computacional são:
 
-- Base b (Uma base qualquer) - 
+- `b` (Uma base qualquer) - é representado pelos dígitos e vezes a base, onde no final a base é elevada a zero que é igual a 1, com representatividade padrão de: `0 =< di < b` 
+
 - `b=2` (Binário) - Os dígitos só podem ser `0` e `1`.
-- `b=8` (Octodecimal) - 
-- `b=10` (Decimal) - pegamos o número, esmiussamos ele, multiplicamos pela base que é 10 (dependendo da ordem decimal se for centena ou milhar pode haver um expoente) e somamos com o restante do número. Exemplo: 179 = 1 x 10^2 + 7 x 10 + 9  
-- `b=16` (Hexadecimal) - 
+
+- `b=8` (Octodecimal) - o dígito só vai até d<sup>n-1</sup>. Por exemplo: di = 0,1,2,3,4,5,6,7
+
+- `b=10` (Decimal) - pegamos o número, esmiussamos ele, multiplicamos pela base que é 10 (dependendo da ordem decimal se for centena ou milhar pode haver um expoente) e somamos com o restante do número. Exemplo: `179 = 1 x 10^2 + 7 x 10 + 9`
+ 
+- `b=16` (Hexadecimal) - o dígito só vai até d<sup>n-1</sup>. Por exemplo: di = 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. Portanto, as letras do alfabeto são representações de números na escala decimal.
 
 Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que `9`, adotamos as letras do nosso alfabeto, ou seja, `A,B,C`. Nesse caso, para a base hexadecimal (`b=16`), os dígitos possíveis são `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F`, onde `A` corresponde, na base decimal, ao número `10`, `B` corresponde ao `11`, e assim, sucessivamente, até `F`, que corresponde ao `15`. Vejamos alguns exemplos:
 
