@@ -70,9 +70,9 @@ A tabela, a seguir, exibe, à esquerda, um programa-fonte, escrito numa linguage
 
 A imagem abaixo ilustra o conceito de abstração, em que a partir da linguagem de máquina, cria-se camadas (de abstração) para facilitar a vida do programador.
 
-![img_11](https://user-images.githubusercontent.com/61624336/132106631-dc9bfee1-0706-4563-9a4a-ea19b2567dca.jpg)
+A imagem representa o crescimento do nível de abstração:
 
-<h4 align="center">Crescimento do nível de abstração.</h4>
+<img src="https://user-images.githubusercontent.com/61624336/132106631-dc9bfee1-0706-4563-9a4a-ea19b2567dca.jpg" align="right" height="177">
 
 1. É representado pelo **hardware**, conjunto de circuitos eletrônicos.
 2. É representado pela **linguagem de máquina** (1 e 0), única que o hardware entende.
