@@ -1382,6 +1382,8 @@ Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-9
 
 Vamos aprender a converter as bases, veja os exemplos de bases binárias, octodecimais e hexadecimais: (101)<sub>2</sub>, (175)<sub>8</sub>, (A2D)<sub>16</sub>.
 
+A maioria dos exercícios característicos pela mudança de base é a fase de converter um número na base qualquer pela outra que eu desejo, por exemplo. Se tenho um número da base 10 (decimal) para a base 2 (binário), se esse número for inteiro, basta eu dividir sucessivamente por 2 e eu vou pegar os restos dessa divisão. Agora, se eu quero fazer o processo inverso, com números fracionários, por exemplo, eu não vou dividir, eu vou multiplicar por aquela base. Se eu tiver um número 0.11 e estiver na base 10 e coloca-lo na base 2, eu tenho que multiplicar por 2 e não dividi-lo. A maioria dos exercícios sobre conversão de base, basicamente, são essas duas operações: Dividir e multiplicar pela base que eu desejo.
+
 ```python
 # 101 - Na base binária pra decimal
 1*2**2 + 0*2 + 1*2**0
