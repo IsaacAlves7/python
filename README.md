@@ -1180,7 +1180,7 @@ A representação dos números inteiros positivos na base decimal (`10`) consist
 
 **Exemplo**: O número `179` significa uma (`1`) centena (`100`) mais (`+`) sete (`7`) dezenas (`10`) e nove (`9`) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
 
-Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer digito numérico decimal a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
+Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer **digito numérico decimal** a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
 
 <img width="262" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/6adde313-17e9-4ae7-ae92-6fc9b8dab15b">
 
@@ -1192,9 +1192,11 @@ Outra notação comum para representar um número inteiro positivo na base `10` 
 
 As bases mais comuns na aritmética computacional são:
 
-- `b=2` Binário
-- `b=8` Octodecimal
-- `b=16` Hexadecimal
+- Base b (Uma base qualquer) - 
+- `b=2` (Binário) - Os dígitos só podem ser `0` e `1`.
+- `b=8` (Octodecimal) - 
+- `b=10` (Decimal) - pegamos o número, esmiussamos ele, multiplicamos pela base que é 10 (dependendo da ordem decimal se for centena ou milhar pode haver um expoente) e somamos com o restante do número. Exemplo: 179 = 1 x 10^2 + 7 x 10 + 9  
+- `b=16` (Hexadecimal) - 
 
 Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que `9`, adotamos as letras do nosso alfabeto, ou seja, `A,B,C`. Nesse caso, para a base hexadecimal (`b=16`), os dígitos possíveis são `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F`, onde `A` corresponde, na base decimal, ao número `10`, `B` corresponde ao `11`, e assim, sucessivamente, até `F`, que corresponde ao `15`. Vejamos alguns exemplos:
 
@@ -1372,6 +1374,8 @@ Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-9
 > **Atenção**: Em uma modelagem matemática, isso é chamado de **overflow**. De maneira semelhante, 0,1x10<sup>-100</sup>, e o motivo é o mesmo -100<-99, que é o valor mínimo. Essa situação é definida como **underflow**.
 
 ### [Python] Mudanças de Bases em Python
+<img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
+
 
  
 ## [Python] Operadores Aritméticos
