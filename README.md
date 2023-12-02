@@ -1389,22 +1389,64 @@ Vamos aprender a converter as bases, veja os exemplos de bases binárias, octode
 # Output: 5 
 ```
 
-Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo
+Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo:
 
 ```python
-# 175 - Na base octodecimal pra 
+# 175 - Na base octodecimal pra decimal
 0b101
 
 # Output: 5 
 ```
 
 ```python
-# A2D (b=16 (hexadecimal))
-1*2**2 + 0*2 + 1*2**0
+# A2D - Na base hexadecimal pra decimal
+0o175
 
-# Output: 
+# Output: 125
 ```
  
+```python
+# A2D - Na base hexadecimal pra decimal
+0xA2D
+
+# Output: 2605
+```
+ 
+```python
+# Número binário do número 9
+bin(9)
+
+# Output: 0b1001
+```
+
+```python
+# Número octodecimal do número 125
+oct(125)
+
+# Output: 0o175
+```
+
+```python
+# Número octodecimal do número 125
+hex(2605)
+
+# Output: 0xa2d
+```
+
+```python
+# Notação científica
+import numpy as np
+
+print('%1.5f' %np.pi)
+print('%1.5e' %np.pi)
+
+'''
+Output:
+3.14159
+3.14159e+00
+'''
+```
+
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
