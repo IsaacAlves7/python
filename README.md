@@ -1433,7 +1433,7 @@ N = int(N/6); d1 = (N % 6);
 N = int(N/6); d2 = (N % 6);
 print(str(d2)+str(d1)+str(d0))
 
-# 325
+# Output: 325
 ```
 
 ## [Python] Operadores Aritméticos
