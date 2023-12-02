@@ -1422,6 +1422,20 @@ Output:
 '''
 ```
 
+**Exercício**: Qual é a representação do número 125 na base 6? 
+
+Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b). Para isso, vamos executar os cálculos utilizando o Python. Usaremos o operador `%` e a função `int`, visto que o número 125 é um inteiro:
+
+```python
+N = 125; d0 = (N % 6);
+
+N = int(N/6); d1 = (N % 6);
+N = int(N/6); d2 = (N % 6);
+print(str(d2)+str(d1)+str(d0))
+
+# 325
+```
+
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
 
