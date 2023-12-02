@@ -1079,7 +1079,7 @@ No programa apresentado, temos que destacar 2 pontos:
 1. A função `linspace` retorna um vetor e a construção genérica dele é `linspace(a,b,n)`, onde gera um vetor no intervalo `[a,b]` e com `n` pontos.
 2. Quando utilizamos `t` como vetor, a função da altura `y(t)` torna-se também um vetor.
 
-# [Python] Aritmética computacional
+# 🐍 [Python] Aritmética computacional
 A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
 Entender a aritmética computacional como ferramenta essencial para os profissionais que utilizaram programação para resolver problemas de modelagem matemática e os possíveis erros que podem ocorrer na execução de algoritmos em uma linguagem específica. Para compreender os conceitos abordados, é necessário prévio conhecimento básico da linguagem Python.
@@ -1380,7 +1380,30 @@ Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-9
 ### [Python] Mudanças de Bases em Python
 <img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
 
+Vamos aprender a converter as bases, veja os exemplos de bases binárias, octodecimais e hexadecimais: (101)<sub>2</sub>, (175)<sub>8</sub>, (A2D)<sub>16</sub>.
 
+```python
+# 101 - Na base binária pra decimal
+1*2**2 + 0*2 + 1*2**0
+
+# Output: 5 
+```
+
+Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo
+
+```python
+# 175 - Na base octodecimal pra 
+0b101
+
+# Output: 5 
+```
+
+```python
+# A2D (b=16 (hexadecimal))
+1*2**2 + 0*2 + 1*2**0
+
+# Output: 
+```
  
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
