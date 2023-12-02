@@ -1,4 +1,4 @@
-<a href="https://github.com/IsaacAlves7/js/tree/vanilla">![JS](https://img.shields.io/badge/Django-2ba977?style=for-the-badge&logo=Django&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/NumPy-blue?style=for-the-badge&logo=NumPy&logoColor=ffffff)</a> 
+<a href="https://github.com/IsaacAlves7/js/tree/vanilla">![JS](https://img.shields.io/badge/Django-2ba977?style=for-the-badge&logo=Django&logoColor=ffffff)</a> <a href="https://github.com/IsaacAlves7/js/tree/vanilla">![JS](https://img.shields.io/badge/FastAPI-2ba969?style=for-the-badge&logo=FastAPI&logoColor=ffffff)</a>  <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/NumPy-blue?style=for-the-badge&logo=NumPy&logoColor=ffffff)</a> 
 <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Pandas-magenta?style=for-the-badge&logo=Pandas&logoColor=white)</a>  <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/Numba-blue?style=for-the-badge&logo=Numba&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=Apache-Spark&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/PyPy-193440?style=for-the-badge&logo=PyPy&logoColor=ffffff)</a>
 
 <a href="https://github.com/IsaacAlves7/python-programming"><img src="https://user-images.githubusercontent.com/61624336/193806052-860b7136-6764-448d-91ef-a444427a26b3.png" width="100%"/></a>
@@ -1148,6 +1148,28 @@ Observe que o caractere correspondente ao índice `2` não apareceu, pois se `pa
 
 No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres nos índices `0` e `1` da string, ou seja, os caracteres `"ab"`.
 
+Em Python, `str` é um tipo de dados que é usado para representar sequências de caracteres, ou seja, texto. As strings em Python são imutáveis, o que significa que seu conteúdo não pode ser alterado após a criação. O tipo de dados `str` possui várias operações úteis associadas a ele, que tornam Python uma linguagem bastante propícia para manipulação de textos. Por exemplo, você pode concatenar strings, substituir substrings, verificar se uma string começa ou termina com uma determinada substring, contar o número de ocorrências de uma substring e muito mais. 
+
+Além disso, você pode acessar caracteres específicos de uma string em Python usando a notação `[]`. Por exemplo, `s[0]` retorna o primeiro caractere da string `s`, e `s[-1]` retorna o último caractere. Você também pode acessar “fatias” ou “slices” de uma string fornecendo os índices do começo e do final da fatia que deseja analisar.
+
+Veja o exemplo:
+
+```python
+# Definindo uma variável como um número inteiro
+numero = 10
+
+# Usando a função str para converter o número inteiro em uma string
+numero_str = str(numero)
+
+# Agora você pode concatenar a string com outras strings
+mensagem = "O número é " + numero_str
+
+# Imprime: O número é 10
+print(mensagem)
+```
+
+Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
+
 ## [Python] Integer
 A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
 
@@ -1165,7 +1187,7 @@ Outra notação comum para representar um número inteiro positivo na base `10` 
 
 As bases mais comuns na aritmética computacional são:
 
-- `b` (Uma base qualquer) - é representado pelos dígitos e vezes a base, onde no final a base é elevada a zero que é igual a 1, com representatividade padrão de: `0 =< di < b` 
+- `b=n` (Uma base qualquer (1-3...7..9-11...15...17)) - é representado pelos dígitos e vezes a base, onde no final a base é elevada a zero que é igual a 1, com representatividade padrão de: `0 =< di < b` 
 
 - `b=2` (Binário) - Os dígitos só podem ser `0` e `1`.
 
@@ -1318,6 +1340,52 @@ Por exemplo, converter o número (0,561)<sub>8</sub> para a base 10, aplicando a
 
 <img width="398" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/2f0dc044-97c0-4349-b6c9-ca7148173ffd">
 
+**Mudança da base b para a base 2**: Seja r um número real na base b ``
+
+Exemplo: Quero converter na base 4 o número real de base binária
+
+```python
+# Base Binária (b)2
+def bin2dec(bin_str):
+    return int(bin_str, 2)
+
+# Base b (b)n
+def dec2base4(dec):
+    if dec == 0:
+        return '0'
+    else:
+        result = ''
+        while dec > 0:
+            result = str(dec % 4) + result
+            dec //= 4
+        return result
+
+def bin_frac2base4_frac(bin_frac_str):
+    dec_frac = 0
+    for i, digit in enumerate(bin_frac_str):
+        dec_frac += int(digit) * (2 ** -(i+1))
+    base4_frac = ''
+    while dec_frac > 0:
+        dec_frac *= 4
+        digit = int(dec_frac)
+        base4_frac += str(digit)
+        dec_frac -= digit
+    return base4_frac
+
+def bin_real2base4_real(bin_real_str):
+    if '.' in bin_real_str:
+        bin_int_str, bin_frac_str = bin_real_str.split('.')
+        return dec2base4(bin2dec(bin_int_str)) + '.' + bin_frac2base4_frac(bin_frac_str)
+    else:
+        return dec2base4(bin2dec(bin_real_str))
+
+print(bin_real2base4_real('101.01'))  
+
+# Output: 11.1 = (11.1)4
+```
+
+A conversão de um número real de base binária para a base 4 em Python pode ser um pouco mais complexa, pois envolve a conversão da parte inteira e da parte fracionária separadamente. No exemplo acima, a função `bin_real2base4_real()` primeiro verifica se o número binário é um número real, dividindo-o em uma parte inteira e uma parte fracionária se houver um ponto decimal. Em seguida, ele converte a parte inteira e a parte fracionária separadamente, usando as funções `dec2base4()`, `bin2dec()`, e `bin_frac2base4_frac()`.
+
 **Notação Científica dos números reais**: Nas ciências, é comum encontramos fenômenos ou grandezas cujos valores são altos ou baixos, por exemplo, na Astronomia ou na Nanotecnologia. Para a representação desses números, é necessária uma quantidade grande de dígitos. A solução desse problema é usar a notação cientifica, cuja representação de um número real é dada da seguinte forma:
 
 <img width="110" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/8f5393b2-08b3-404d-a27e-f5cc8e4ea852">
@@ -1427,14 +1495,17 @@ Output:
 Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b). Para isso, vamos executar os cálculos utilizando o Python. Usaremos o operador `%` e a função `int`, visto que o número 125 é um inteiro:
 
 ```python
-N = 125; d0 = (N % 6);
+N = 125; d0 = (N % 6); # 5
+N = int(N/6); d1 = (N % 6); # 20
+N = int(N/6); d2 = (N % 6); # 300
 
-N = int(N/6); d1 = (N % 6);
-N = int(N/6); d2 = (N % 6);
 print(str(d2)+str(d1)+str(d0))
 
 # Output: 325
 ```
+
+101.0100000000000051
+
 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
