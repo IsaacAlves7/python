@@ -1889,15 +1889,15 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 # 🐍 [Python] Web Framework
 <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" height="77" align="right">
 
-**FastAPI**
+**FastAPI** 
 
 <img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="77" align="right">
 
-**Flask**
+**Flask** é um microframework que é minimalista e fornece apenas os componentes essenciais necessários para criar algum tipo de aplicativo1. Ele é projetado para ser leve e fácil de estender, tornando-o uma boa opção para projetos pequenos ou para desenvolvedores que desejam ter mais controle sobre seu código.
 
 <img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="77" align="right">
 
-**Django** é um framework de desenvolvimento web de alto nível, escrito em Python, que incentiva o desenvolvimento rápido e limpo de aplicações web. Desenvolvido por uma equipe liderada por Adrian Holovaty e Simon Willison, o Django segue o princípio do "don't repeat yourself" (DRY) e visa facilitar a construção de aplicações web complexas ao fornecer uma estrutura robusta e convenções bem definidas.
+**Django** é um framework de desenvolvimento web de alto nível, escrito em Python, que incentiva o desenvolvimento rápido e limpo de aplicações web. Desenvolvido por uma equipe liderada por Adrian Holovaty e Simon Willison, o Django segue o princípio do "don't repeat yourself" (DRY) e visa facilitar a construção de aplicações web complexas ao fornecer uma estrutura robusta e convenções bem definidas. 
 
 Principais características do Django:
 
