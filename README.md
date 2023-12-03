@@ -1745,6 +1745,10 @@ A representação em pontos flutuantes só consegue ser realizada de maneira exa
 
 Caso não seja possível representar o número real r no sistema de ponto flutuante com exatidão, existem duas técnicas possíveis `fl(r)`:
 
+- **Arrendondamento por truncamento**: Dada uma mantissa `M` de um número real `r`, com número de dígitos `m>p`, onde `p` é o número de dígitos do sistema de ponto flutuante; define-se o truncamento ao desprezar todos os dígitos a partir da posição `p+1`. Por exemplo, seja o número real, na sua notação cientifica na base `10`, igual a `r=0,341592654 x 10`, se o representarmos num sistema de ponto flutuante `FP(10,4,-99,99)`, então, o resultado será `fl(r) = 0,3415x10`.
+
+- **Arrendondamento por aproximação**: Essa técnica é a mais comum e tem por objetivo reduzir o erro entre o ponto flutuante `fl(r)` e o valor exato `r`, ou seja, o valor mais próximo. Utilizando o exemplo anterior, aproximar `fl(r)` para `0,3416x10` tem um erro menor que aproximar para o valor truncado. O critério arrendondamento por aproximação, às vezes, pode apresentar uma ambiguidade, por exemplo, quando o número real `0,15` for arrendondado para um dígito, os números `0,1` e `0,2` estão igualmente próximos. Para resolver esse problema, foram desenvolvidas várias soluções e, para o sistema binário (b=2) e decimal (b=10), a mais comum é arrendondar de forma que o último dígito seja par.
+
 # 🐍 [Python] Rad - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade. O resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento.
 
