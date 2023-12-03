@@ -1388,7 +1388,23 @@ print(bin_real2base4_real('101.01'))
 
 A conversão de um número real de base binária para a base 4 em Python pode ser um pouco mais complexa, pois envolve a conversão da parte inteira e da parte fracionária separadamente. No exemplo acima, a função `bin_real2base4_real()` primeiro verifica se o número binário é um número real, dividindo-o em uma parte inteira e uma parte fracionária se houver um ponto decimal. Em seguida, ele converte a parte inteira e a parte fracionária separadamente, usando as funções `dec2base4()`, `bin2dec()`, e `bin_frac2base4_frac()`.
 
+Outra forma mais simples de fazer essa mesma operação: Para encontrar o número desejado, primeiramente, vamos converter o número para a base 10, ou seja: 1⋅22+0⋅21+1⋅20+0⋅2-1+1⋅2-2=5,25, agora é converter o número para a base 4. Em Python, basta utilizar o comando:
 
+```python
+# Primeiro com a parte inteira 5
+
+N = 5; d0 = (N % 4);
+N = int(N/4); d1 = (q % 4);
+
+print(str(d1)+str(d0))
+# Output: 11
+
+# Agora, a parte fracionária 0,25
+
+f=0.25
+d=1, x=0.000000
+d=int(4*f) ; f = 4*f - d; print('d=%d, x =%f' % (d,f))
+```
 
 **Notação Científica dos números reais**: Nas ciências, é comum encontramos fenômenos ou grandezas cujos valores são altos ou baixos, por exemplo, na Astronomia ou na Nanotecnologia. Para a representação desses números, é necessária uma quantidade grande de dígitos. A solução desse problema é usar a notação cientifica, cuja representação de um número real é dada da seguinte forma:
 
@@ -1720,6 +1736,14 @@ for i in range(1,7): print(i)
 ```
 
 > E sempre o último número da lista de iteração, no caso `7` não é contado.
+
+# 🐍 [Python] Erros na aritmética em pontos flutuantes
+vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
+
+## Erros de representação
+A representação em pontos flutuantes só consegue ser realizada de maneira exata para alguns números. Para outros números reais, poderá indicar algum erro, logicamente supondo que os números não sejam **overflow** ou **underflow**. Definiremos um número real, que esteja contido em um sistema ponto flutuante `FP(b,p, emin, emax )`, de forma exata, de `r=fl(r)`. Caso contrário, obteremos a resposta `r=fl(r) + erro`.
+
+Caso não seja possível representar o número real r no sistema de ponto flutuante com exatidão, existem duas técnicas possíveis `fl(r)`:
 
 # 🐍 [Python] Rad - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade. O resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento.
