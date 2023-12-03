@@ -1766,7 +1766,9 @@ De maneira análoga, pode-se demonstrar que <img width="86" alt="image" src="htt
 > **Exemplo**: Para determinar a unidade de arrendondamento `u` de `FP(2,24,-99,99)` para o truncamento, temos: <img width="380" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cfa31d8c-d247-4154-bc7c-57e0e74132e2">
 
 ## [Python] Erros nas operações aritméticas
-Nesta seção, vamos estudar como são os erros nas operações básicas da matemática: soma, subtração, multiplicação e divisão, quando realizadas em um sistema de ponto flutuante. Primeiramente, vamos descrever de simplificadamente como são realizadas as quatro operações básicas no sistema ponto flutuante. Para a soma e subtração de dois números no mesmo sistema de ponto flutuante, <code>x1=m1b<sup>a</sup></code> e <code>x2=m2b<sup>c</sup></code>, onde `a>c`, sua soma e subtração podem ser dadas por:
+Nesta seção, vamos estudar como são os erros nas operações básicas da matemática: soma, subtração, multiplicação e divisão, quando realizadas em um sistema de ponto flutuante. Primeiramente, vamos descrever de simplificadamente como são realizadas as quatro operações básicas no sistema ponto flutuante. Para a soma e subtração de dois números no mesmo sistema de ponto flutuante, <code>x<sub>1</sub>=m<sub>1</sub>b<sup>a</sup></code> e <code>x<sub>2</sub>=m<sub>2</sub>b<sup>c</sup></code>, onde `a>c`, sua soma e subtração podem ser dadas por:
+
+Soma: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup>+m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>+m<sub>2</sub> b<sup>{a-c}</sup>)b<sub>c</sub></code>
 
 # 🐍 [Python] Rad - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade. O resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento.
