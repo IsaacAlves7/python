@@ -1340,16 +1340,16 @@ Por exemplo, converter o número (0,561)<sub>8</sub> para a base 10, aplicando a
 
 <img width="398" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/2f0dc044-97c0-4349-b6c9-ca7148173ffd">
 
-**Mudança da base b para a base 2**: Seja r um número real na base b ``
+**Mudança da base b para a base 2**: Para encontrar o número desejado, primeiramente, vamos converter o número binário da base 2 para a base 10, e depois precisamos converter o número para a base b, lembrando que primeiro vem a parte inteira, se o número em questão é um número real, depois vem a parte da fracionária, ou seja, é feita a conversão de maneira isolada.
 
 Exemplo: Quero converter na base 4 o número real de base binária
 
 ```python
-# Base Binária (b)2
+# Conversão da Base Binária (b)2 para a base decimal (b)10
 def bin2dec(bin_str):
     return int(bin_str, 2)
 
-# Base b (b)n
+# Conversão da Base decimal para a base b 
 def dec2base4(dec):
     if dec == 0:
         return '0'
@@ -1360,6 +1360,7 @@ def dec2base4(dec):
             dec //= 4
         return result
 
+# Conversão da base binária para fracionária na base b
 def bin_frac2base4_frac(bin_frac_str):
     dec_frac = 0
     for i, digit in enumerate(bin_frac_str):
@@ -1372,6 +1373,7 @@ def bin_frac2base4_frac(bin_frac_str):
         dec_frac -= digit
     return base4_frac
 
+# Conversão final do binário real para a base b real
 def bin_real2base4_real(bin_real_str):
     if '.' in bin_real_str:
         bin_int_str, bin_frac_str = bin_real_str.split('.')
@@ -1385,6 +1387,8 @@ print(bin_real2base4_real('101.01'))
 ```
 
 A conversão de um número real de base binária para a base 4 em Python pode ser um pouco mais complexa, pois envolve a conversão da parte inteira e da parte fracionária separadamente. No exemplo acima, a função `bin_real2base4_real()` primeiro verifica se o número binário é um número real, dividindo-o em uma parte inteira e uma parte fracionária se houver um ponto decimal. Em seguida, ele converte a parte inteira e a parte fracionária separadamente, usando as funções `dec2base4()`, `bin2dec()`, e `bin_frac2base4_frac()`.
+
+
 
 **Notação Científica dos números reais**: Nas ciências, é comum encontramos fenômenos ou grandezas cujos valores são altos ou baixos, por exemplo, na Astronomia ou na Nanotecnologia. Para a representação desses números, é necessária uma quantidade grande de dígitos. A solução desse problema é usar a notação cientifica, cuja representação de um número real é dada da seguinte forma:
 
@@ -1496,16 +1500,13 @@ Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b
 
 ```python
 N = 125; d0 = (N % 6); # 5
-N = int(N/6); d1 = (N % 6); # 20
-N = int(N/6); d2 = (N % 6); # 300
+N = int(N/6); d1 = (N % 6); # 2
+N = int(N/6); d2 = (N % 6); # 3
 
 print(str(d2)+str(d1)+str(d0))
 
-# Output: 325
+# Output: 325 = (325)6
 ```
-
-101.0100000000000051
-
 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
