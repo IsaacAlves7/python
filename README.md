@@ -1740,7 +1740,7 @@ for i in range(1,7): print(i)
 # 🐍 [Python] Erros na aritmética em pontos flutuantes
 vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
 
-## Erros de representação
+## [Python] Erros de representação
 A representação em pontos flutuantes só consegue ser realizada de maneira exata para alguns números. Para outros números reais, poderá indicar algum erro, logicamente supondo que os números não sejam **overflow** ou **underflow**. Definiremos um número real, que esteja contido em um sistema ponto flutuante `FP(b,p, emin, emax )`, de forma exata, de `r=fl(r)`. Caso contrário, obteremos a resposta `r=fl(r) + erro`.
 
 Caso não seja possível representar o número real r no sistema de ponto flutuante com exatidão, existem duas técnicas possíveis `fl(r)`:
