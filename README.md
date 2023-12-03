@@ -1749,6 +1749,20 @@ Caso não seja possível representar o número real r no sistema de ponto flutua
 
 - **Arrendondamento por aproximação**: Essa técnica é a mais comum e tem por objetivo reduzir o erro entre o ponto flutuante `fl(r)` e o valor exato `r`, ou seja, o valor mais próximo. Utilizando o exemplo anterior, aproximar `fl(r)` para `0,3416x10` tem um erro menor que aproximar para o valor truncado. O critério arrendondamento por aproximação, às vezes, pode apresentar uma ambiguidade, por exemplo, quando o número real `0,15` for arrendondado para um dígito, os números `0,1` e `0,2` estão igualmente próximos. Para resolver esse problema, foram desenvolvidas várias soluções e, para o sistema binário (b=2) e decimal (b=10), a mais comum é arrendondar de forma que o último dígito seja par.
 
+> **Atenção**: Os arrendondamentos por truncamento e aproximação são realizados somente na mantissa (M), ou seja, não é considerado erro no expoente.
+
+Agora, podemos analisar os erros de representação de um número real e sem perda de generalidade. Vamos considerar somente os números reais positivos exatos na notação cientifica normalizada, ou seja, <code>r = Mxb<sup>t</sup></code>, e o seu correspondente no sistema de ponto flutuante <code>fl(r) = mxb<sup>t</sup></code>, não necessariamente normalizada. Define-se como erro absoluto `E` por:
+
+<img width="325" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/026f3ff3-c471-4d53-af5e-0482bcb82a7d">
+
+É possível demonstrar que <img width="69" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/41d47cf4-3db5-4a97-a605-ed25d3cd7ac3"> para o truncamento e <img width="85" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/d3346c4e-35c9-4cae-b772-e0ca54854751"> para aproximação. Define-se como erro relativo `e`:
+
+<img width="236" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/09b3a0ff-153e-477d-8073-2a9f2b131808">
+
+De maneira análoga, pode-se demonstrar que <img width="86" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/eea4af33-0c49-4f34-aa40-cbf657ba7058"> para o truncamento e <img width="98" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/4c778b6f-27f1-4f42-89e1-ac90b397661c"> para a aproximação, onde `u` é chamado de unidade de arrendondamento.
+
+> **Exemplo**: Para determinar a unidade de arrendondamento `u` de `FP(2,24,-99,99)` para o truncamento, temos: <img width="380" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cfa31d8c-d247-4154-bc7c-57e0e74132e2">
+
 # 🐍 [Python] Rad - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade. O resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento.
 
