@@ -1313,7 +1313,94 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  True
 ```
 
-**Mudança de base dez (10) para a base b**: Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
+## [Python] Mudanças de Bases
+<img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
+
+Vamos aprender a converter as bases, veja os exemplos de bases binárias, octodecimais e hexadecimais: (101)<sub>2</sub>, (175)<sub>8</sub>, (A2D)<sub>16</sub>.
+
+A maioria dos exercícios característicos pela mudança de base é a fase de converter um número na base qualquer pela outra que eu desejo, por exemplo. Se tenho um número da base 10 (decimal) para a base 2 (binário), se esse número for inteiro, basta eu dividir sucessivamente por 2 e eu vou pegar os restos dessa divisão. Agora, se eu quero fazer o processo inverso, com números fracionários, por exemplo, eu não vou dividir, eu vou multiplicar por aquela base. Se eu tiver um número 0.11 e estiver na base 10 e coloca-lo na base 2, eu tenho que multiplicar por 2 e não dividi-lo. A maioria dos exercícios sobre conversão de base, basicamente, são essas duas operações: Dividir e multiplicar pela base que eu desejo.
+
+```python
+# 101 - Na base binária pra decimal
+1*2**2 + 0*2 + 1*2**0
+
+# Output: 5 
+```
+
+Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo:
+
+```python
+# 175 - Na base octodecimal pra decimal
+0b101
+
+# Output: 5 
+```
+
+```python
+# A2D - Na base hexadecimal pra decimal
+0o175
+
+# Output: 125
+```
+ 
+```python
+# A2D - Na base hexadecimal pra decimal
+0xA2D
+
+# Output: 2605
+```
+ 
+```python
+# Número binário do número 9
+bin(9)
+
+# Output: 0b1001
+```
+
+```python
+# Número octodecimal do número 125
+oct(125)
+
+# Output: 0o175
+```
+
+```python
+# Número octodecimal do número 125
+hex(2605)
+
+# Output: 0xa2d
+```
+
+```python
+# Notação científica
+import numpy as np
+
+print('%1.5f' %np.pi)
+print('%1.5e' %np.pi)
+
+'''
+Output:
+3.14159
+3.14159e+00
+'''
+```
+
+**Exercício**: Qual é a representação do número 125 na base 6? 
+
+Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b). Para isso, vamos executar os cálculos utilizando o Python. Usaremos o operador `%` e a função `int`, visto que o número 125 é um inteiro:
+
+```python
+N = 125; d0 = (N % 6); # 5
+N = int(N/6); d1 = (N % 6); # 2
+N = int(N/6); d2 = (N % 6); # 3
+
+print(str(d2)+str(d1)+str(d0))
+
+# Output: 325 = (325)6
+```
+
+### [Python] Mudança de base dez (10) para a base b
+Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
 
 - `i`: É a parte inteira.
 - `f`: É a parte fracionária.
@@ -1322,7 +1409,7 @@ Devemos reparar ambas as partes, ou seja, fazer `r = i + 0,f`; tomando como exem
 
 <img width="443" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/875f1d09-8f0b-43d9-b057-fccdc0927079">
 
-O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na base (10) para uma base b, deveríamos dividir o número por b, sucessivamente, e obter os restos. A ideia será a mesma, porém com uma diferença, ao contrário de fazer divisões, faremos multiplicações, ou seja, o primeiro passo será multiplicar o número real r pela base que se deseja transformar, b. Em símbolos matemáticos, teríamos:
+O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na base (10) para uma base b, deveríamos dividir o número por b, sucessivamente, e obter os restos. A ideia será a mesma, porém com uma diferença, ao contrário de fazer divisões, faremos multiplicações, ou seja, o primeiro passo será multiplicar o número real `r` pela base que se deseja transformar, `b`. Em símbolos matemáticos, teríamos:
 
 <img width="324" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/485a38df-71f2-4efc-9be2-e18178766668">
 
@@ -1332,7 +1419,8 @@ Obtém-se uma parte inteira, `d-1`, e a parte fracionária começa com `d-2`. Mu
 
 Esses dois exemplos ilustram que é possível, numa transformação de base dois de um número real na base 10, obter um resultado cuja representação possui um número finito de zeros e um ou um número infinito (dízima periódica) de zeros e um.
 
-**Mudança da base b para a base 10**: Seja r um número real na base b, `(0, d-1d-2....d-m )b`, para obter a sua representação na base 10, basta aplicar a fórmula matemática já vista na seção anterior:
+### [Python] Mudança da base b para a base 10
+Seja r um número real na base b, `(0, d-1d-2....d-m )b`, para obter a sua representação na base 10, basta aplicar a fórmula matemática já vista na seção anterior:
 
 <img width="446" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/532150ea-732b-4ccb-b777-3fbf361ffe8c">
 
@@ -1437,92 +1525,6 @@ A notação que usaremos é <code>FP(b,p, e<sub>min</sub>, e<sub>max</sub>)</cod
 Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-99,99)`. Pode ser escrito de forma genérica como `r=±(0,d-1 d-2 d-3 d-4)×10e`, onde `-99≤ e ≤ 99`. Observe que essa representação não é capaz de representar o número real <code>0,1x10<sup>100</sup></code>, pois o expoente é igual a `100 > 99`, que é o expoente máximo.
 
 > **Atenção**: Em uma modelagem matemática, isso é chamado de **overflow**. De maneira semelhante, 0,1x10<sup>-100</sup>, e o motivo é o mesmo -100<-99, que é o valor mínimo. Essa situação é definida como **underflow**.
-
-### [Python] Mudanças de Bases em Python
-<img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
-
-Vamos aprender a converter as bases, veja os exemplos de bases binárias, octodecimais e hexadecimais: (101)<sub>2</sub>, (175)<sub>8</sub>, (A2D)<sub>16</sub>.
-
-A maioria dos exercícios característicos pela mudança de base é a fase de converter um número na base qualquer pela outra que eu desejo, por exemplo. Se tenho um número da base 10 (decimal) para a base 2 (binário), se esse número for inteiro, basta eu dividir sucessivamente por 2 e eu vou pegar os restos dessa divisão. Agora, se eu quero fazer o processo inverso, com números fracionários, por exemplo, eu não vou dividir, eu vou multiplicar por aquela base. Se eu tiver um número 0.11 e estiver na base 10 e coloca-lo na base 2, eu tenho que multiplicar por 2 e não dividi-lo. A maioria dos exercícios sobre conversão de base, basicamente, são essas duas operações: Dividir e multiplicar pela base que eu desejo.
-
-```python
-# 101 - Na base binária pra decimal
-1*2**2 + 0*2 + 1*2**0
-
-# Output: 5 
-```
-
-Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo:
-
-```python
-# 175 - Na base octodecimal pra decimal
-0b101
-
-# Output: 5 
-```
-
-```python
-# A2D - Na base hexadecimal pra decimal
-0o175
-
-# Output: 125
-```
- 
-```python
-# A2D - Na base hexadecimal pra decimal
-0xA2D
-
-# Output: 2605
-```
- 
-```python
-# Número binário do número 9
-bin(9)
-
-# Output: 0b1001
-```
-
-```python
-# Número octodecimal do número 125
-oct(125)
-
-# Output: 0o175
-```
-
-```python
-# Número octodecimal do número 125
-hex(2605)
-
-# Output: 0xa2d
-```
-
-```python
-# Notação científica
-import numpy as np
-
-print('%1.5f' %np.pi)
-print('%1.5e' %np.pi)
-
-'''
-Output:
-3.14159
-3.14159e+00
-'''
-```
-
-**Exercício**: Qual é a representação do número 125 na base 6? 
-
-Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b). Para isso, vamos executar os cálculos utilizando o Python. Usaremos o operador `%` e a função `int`, visto que o número 125 é um inteiro:
-
-```python
-N = 125; d0 = (N % 6); # 5
-N = int(N/6); d1 = (N % 6); # 2
-N = int(N/6); d2 = (N % 6); # 3
-
-print(str(d2)+str(d1)+str(d0))
-
-# Output: 325 = (325)6
-```
 
 ## [Python] Operadores Aritméticos
 No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
