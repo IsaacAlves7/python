@@ -1052,6 +1052,15 @@ No programa apresentado, temos que destacar 2 pontos:
 1. A função `linspace` retorna um vetor e a construção genérica dele é `linspace(a,b,n)`, onde gera um vetor no intervalo `[a,b]` e com `n` pontos.
 2. Quando utilizamos `t` como vetor, a função da altura `y(t)` torna-se também um vetor.
 
+É possível ver qual o caminho do diretório de instalação do python, através da biblioteca `sys`. Veja abaixo:
+
+```python
+import sys
+sys.executable
+
+# Output: Python installation PATH
+```
+
 # 🐍 [Python] Aritmética computacional
 A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
