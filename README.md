@@ -1061,6 +1061,12 @@ sys.executable
 # Output: Python installation PATH
 ```
 
+Mas e se eu quiser utilizar as várias versões da linguagem python ou diferentes bibliotecas instaladas para usar na minha aplicação? Para isso existe o `pipenv` que faz o gerenciamento de pacotes como o `pip` faz e também o ambiente virtual de desenvolvimento, ele basicamente une essas funcionalidades.
+
+```sh
+pip install pipenv
+```
+
 # 🐍 [Python] Aritmética computacional
 A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
