@@ -1067,6 +1067,12 @@ Mas e se eu quiser utilizar as várias versões da linguagem python ou diferente
 pip install pipenv
 ```
 
+Para instalar algum pacote nesse ambiente virtual python, basta:
+
+```sh
+pipenv install <package_name>
+```
+
 # 🐍 [Python] Aritmética computacional
 A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
 
@@ -1913,7 +1919,7 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 # 🐍 [Python] Banco de Dados
 Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para recolher os dados do banco de dados, ela pode ser ORM ou ODM.
 
-O **SQLAlchemy** é uma biblioteca de mapeamento objeto-relacional (ORM) em Python, amplamente utilizada para facilitar a interação com bancos de dados relacionais. Ela permite aos desenvolvedores escrever código Python para manipular dados em um banco de dados relacional, abstraindo as complexidades do SQL puro e oferecendo uma interface mais orientada a objetos.
+O **SQLAlchemy** é uma biblioteca de mapeamento objeto-relacional (ORM) em Python, amplamente utilizada para facilitar a interação com bancos de dados relacionais. Ela é uma poderosa ferramenta que, através da programação, não apenas facilita a criação e gerenciamento de banco de dados e tabelas, mas também **abstrai o objeto físico de dados**, isso significa que fazendo o uso do SQLAlchemy, mudando uma simples linha de código, chamada de string de conexão, nós podemos mudar completamente o banco de dados utilizado sem que seja preciso alterar nada mais na nossa aplicação. Ela permite aos desenvolvedores escrever código Python para manipular dados em um banco de dados relacional, abstraindo as complexidades do SQL puro e oferecendo uma interface mais orientada a objetos.
 
 Principais características do SQLAlchemy:
 
