@@ -1913,9 +1913,9 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 # 🐍 [Python] Banco de Dados
 
 # 🐍 [Python] Web Framework
-<img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" height="77" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" height="77" align="right">
 
-**FastAPI** 
+O **FastAPI** é um framework web de código aberto, construído em Python, conhecido por sua alta performance, facilidade de uso e geração automática de documentação interativa. Ele foi desenvolvido para facilitar a criação de APIs (Interface de Programação de Aplicações) de forma rápida e eficiente.
 
 <img src="https://cdn.worldvectorlogo.com/logos/flask.svg" height="77" align="right">
 
