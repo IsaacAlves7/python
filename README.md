@@ -1915,6 +1915,20 @@ Para se conectar a um banco de dados utilizando Python ou qualquer outra linguag
 
 O **SQLAlchemy** é uma biblioteca de mapeamento objeto-relacional (ORM) em Python, amplamente utilizada para facilitar a interação com bancos de dados relacionais. Ela permite aos desenvolvedores escrever código Python para manipular dados em um banco de dados relacional, abstraindo as complexidades do SQL puro e oferecendo uma interface mais orientada a objetos.
 
+Principais características do SQLAlchemy:
+
+- Mapeamento objeto-relacional: Permite que os desenvolvedores usem classes Python para representar tabelas no banco de dados, tornando a interação com o banco mais intuitiva e orientada a objetos.
+
+- Expressões SQL e ORM: Oferece a capacidade de escrever consultas SQL usando a linguagem Python, além de fornecer um ORM completo para criar, consultar e modificar dados de maneira mais abstrata.
+
+- Flexibilidade: Suporta uma variedade de bancos de dados relacionais, como PostgreSQL, MySQL, SQLite, Oracle, entre outros, facilitando a portabilidade do código entre diferentes sistemas de banco de dados.
+
+- Controle transacional: Permite o gerenciamento de transações, garantindo a atomicidade das operações de banco de dados.
+
+- Facilidade de uso: Provê uma API consistente e amigável para realizar operações comuns de banco de dados, o que simplifica o processo de interação com os dados e reduz a necessidade de escrever código SQL manualmente.
+
+Em resumo, o SQLAlchemy é uma ferramenta poderosa para interagir com bancos de dados relacionais em Python, oferecendo tanto uma camada de abstração para operações de banco de dados quanto a flexibilidade para escrever consultas SQL personalizadas quando necessário.
+
 # 🐍 [Python] Web Framework
 <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" height="77" align="right">
 
