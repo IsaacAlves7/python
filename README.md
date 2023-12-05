@@ -1911,6 +1911,9 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 # 🐍 [Python] Manipulação de Dados em Arquivos
 
 # 🐍 [Python] Banco de Dados
+Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para recolher os dados do banco de dados, ela pode ser ORM ou ODM.
+
+O **SQLAlchemy** é uma biblioteca de mapeamento objeto-relacional (ORM) em Python, amplamente utilizada para facilitar a interação com bancos de dados relacionais. Ela permite aos desenvolvedores escrever código Python para manipular dados em um banco de dados relacional, abstraindo as complexidades do SQL puro e oferecendo uma interface mais orientada a objetos.
 
 # 🐍 [Python] Web Framework
 <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" height="77" align="right">
