@@ -1220,17 +1220,15 @@ Para imprimir uma **substring**, por exemplo, basta utilizar os colchetes `[]` p
 
 ![figura65](https://user-images.githubusercontent.com/61624336/135565532-f6321141-e722-4414-9ca7-721ac7c6b3b3.png)
 
-### Atenção
-Usar `[0:4]` provoca a impressão dos índices `0, 1, 2 e 3`, **mas não** do índice 4. Analogamente, usar `[2:8]` provoca a impressão dos índices de `2 a 7`, mas não do `8`.
+> **Atenção!** Usar `[0:4]` provoca a impressão dos índices `0, 1, 2 e 3`, **mas não** do índice 4. Analogamente, usar `[2:8]` provoca a impressão dos índices de `2 a 7`, mas não do `8`.
 
 Também é possível imprimir a string como lida da direita para a esquerda. Para isso, deve-se utilizar `[: : -1]`. Esse valor `-1` indica que a leitura dos caracteres será feita no sentido oposto ao tradicional. Observe a figura 66:
   
 ![figura66](https://user-images.githubusercontent.com/61624336/135565755-38814479-bcf7-4711-a96d-eed7c616be39.png)
   
-### Atenção
-Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
+> **Atenção!** Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
 
-# 🐍 Estruturas de decisão e repetição em Python ✔️❌🔁
+# 🐍 [Python] Estruturas de decisão e repetição em Python
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
 
 ## TRATAMENTO DAS CONDIÇÕES
