@@ -3832,10 +3832,6 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
   <td>Baseado em camadas que segue o XP.</td>
 </tr>
 <tr>
-  <td>Método baseado em camadas para desenvolvimento rápido de software</td>
-  <td>Baseado em camadas que segue o XP.</td>
-</tr>
-<tr>
   <td>Análise de projeto de sistema baseado em simulação</td>
   <td>Desenvolvimento de ferramentas ágeis baseadas em simulação.</td>
 </tr>
@@ -3843,9 +3839,21 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
   <td>Uso de Ajax no RAD</td>
   <td>Prototipagem rápida em aplicativos e ferramentas da Web.</td>
 </tr>
+<tr>
+  <td>Desenvolvimento de aplicativos multiusuário em ambiente distribuído rapidamente.</td>
+  <td>Middleware de comunicação.</td>
+</tr>
+<tr>
+  <td>Programação extrema</td>
+  <td>Adição de reutilização ao XP.</td>
+</tr>
 </table>
 
 > **XP**: Extreme Programming (XP) consiste em uma metodologia de desenvolvimento de software que tem como objetivo maximizar a qualidade do software e responder mais rapidamente às mudanças nos requisitos do cliente.
+
+A ideia do uso das técnicas de RAD é de otimizar os resultados obtidos dentro do tempo estimado, que, pela natureza da RAD, é curto. Essencialmente, um software é construído para atender a alguma demanda, ou seja, existe uma razão para que seja confeccionado. Portanto, a interação com os usuários auxilia o entendimento dos desenvolvedores para construir, agregar e incorporar esse entendimento em um protótipo através de técnicas e ferramentas que acelerem a entrega e reduzam os desvios de compreensão. A concordância sobre o propósito do sistema e a sua evolução é muito importante para o sucesso do projeto. Tanto desenvolvedores como clientes devem estar envolvidos em interações formais que fortaleçam o comprometimento de todos.  
+
+A pressão por soluções de software confiáveis e em curtos prazos favoreceu a criação da metodologia de desenvolvimento rápido de software (RAD). A ideia de entregar protótipos em um ciclo de desenvolvimento incremental e iterativo permite que o usuário possa ter rapidamente uma visão clara de como o sistema está progredindo e se existe alguma questão relacionada aos requisitos que precisa ser aperfeiçoada. Portanto, a colaboração entre desenvolvedores e usuários suporta o desenvolvimento de especificações mais precisas e validadas.
 
 # 🐍 [Python] Tratamento de exceções (exceptions)
 
