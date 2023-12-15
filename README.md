@@ -1596,7 +1596,6 @@ print(s)
   
 A função `func1()` só pode ser chamada caso a variável escolha seja igual a `1`. Ou seja, o usuário deverá inserir `1` quando solicitado (na linha 1), para que a linha 9 possa ser executada sem que seja gerado um erro.
   
-### PARÂMETROS
 Usualmente, um subprograma executa cálculos e operações a partir de dados que ele deve processar. Existem duas maneiras de o subprograma obter esses dados: acessando variáveis não locais, mas visíveis para o subprograma, ou pela passagem de parâmetros.
 
 Quando o subprograma recebe os parâmetros adequados, ele pode ser executado com quaisquer valores recebidos. Porém, quando ele manipula variáveis não locais, uma forma de evitar alterações indevidas nessas variáveis é fazendo cópias locais delas. De acordo com Sebesta (2018), o acesso sistemático a variáveis não locais pode diminuir a confiabilidade do programa.
@@ -3845,7 +3844,7 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
 
 > **XP**: Extreme Programming (XP) consiste em uma metodologia de desenvolvimento de software que tem como objetivo maximizar a qualidade do software e responder mais rapidamente às mudanças nos requisitos do cliente.
 
-A ideia do uso das técnicas de RAD é de otimizar os resultados obtidos dentro do tempo estimado, que, pela natureza da RAD, é curto. Essencialmente, um software é construído para atender a alguma demanda, ou seja, existe uma razão para que seja confeccionado. Portanto, a interação com os usuários auxilia o entendimento dos desenvolvedores para construir, agregar e incorporar esse entendimento em um protótipo através de técnicas e ferramentas que acelerem a entrega e reduzam os desvios de compreensão. A concordância sobre o propósito do sistema e a sua evolução é muito importante para o sucesso do projeto. Tanto desenvolvedores como clientes devem estar envolvidos em interações formais que fortaleçam o comprometimento de todos.  
+A ideia do uso das técnicas de RAD é de otimizar os resultados obtidos dentro do tempo estimado, que, pela natureza da RAD, é curto. Essencialmente, um software é construído para atender a alguma demanda, ou seja, existe uma razão para que seja confeccionado. Portanto, a interação com os usuários (através das métricas e insights) auxilia o entendimento dos desenvolvedores para construir, agregar e incorporar esse entendimento em um protótipo através de técnicas e ferramentas **que acelerem a entrega e reduzam os desvios de compreensão**. A concordância sobre o propósito do sistema e a sua evolução é muito importante para o sucesso do projeto. Tanto desenvolvedores como clientes devem estar envolvidos em interações formais que fortaleçam o comprometimento de todos.  
 
 A pressão por soluções de software confiáveis e em curtos prazos favoreceu a criação da metodologia de desenvolvimento rápido de software (RAD). A ideia de entregar protótipos em um ciclo de desenvolvimento incremental e iterativo permite que o usuário possa ter rapidamente uma visão clara de como o sistema está progredindo e se existe alguma questão relacionada aos requisitos que precisa ser aperfeiçoada. Portanto, a colaboração entre desenvolvedores e usuários suporta o desenvolvimento de especificações mais precisas e validadas.
 
