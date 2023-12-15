@@ -1926,8 +1926,7 @@ Na implementação da função `regressiva()`, tendo `x` como parâmetro, ela pr
 
 3. Ao chamar regressiva(1), o valor 1 é exibido na tela pela linha 2, e ocorre uma nova chamada da função regressiva() na linha 3, com o parâmetro 0.
  
-### Atenção
-Conceitualmente, essa execução será repetida indefinidamente até que haja algum erro por falta de memória. Perceba que não definimos adequadamente uma condição de parada para a função `regressiva()`, o que leva a esse comportamento ruim.
+> **Atenção!** Conceitualmente, essa execução será repetida indefinidamente até que haja algum erro por falta de memória. Perceba que não definimos adequadamente uma condição de parada para a função `regressiva()`, o que leva a esse comportamento ruim.
                       
 Em Python, o interpretador pode interromper a execução indefinida, mas essa não é uma boa prática. Uma forma de contornar esse problema é definir adequadamente uma condição de parada, como no exemplo da Figura 24:
 
