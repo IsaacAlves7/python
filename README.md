@@ -13,6 +13,255 @@
 - https://exercism.org/tracks/python
 - https://app.datacamp.com/learn
 
+# 🐍 The History of Python language
+<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
+
+Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
+
+Recentemente, a IEEE Computer Society classificou-a como a linguagem mais indicada para aprender em 2020. Isso se deve à sua eficiência no desenvolvimento de machine learning, inteligência artificial, ciência, gestão e análise de dados.
+
+A linguagem Python surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a>, nascido em 1956 em Haarlem, Holanda. O desenvolvimento da linguagem foi como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI) chamado Centrum Voor Wiskunde en Informatica, em Amsterdã, na Holanda no ano de 1980. 
+
+As circunstâncias em que o Python foi criado são um pouco confusas. De acordo com Guido van Rossum: Em Dezembro de 1989, estava à procura de um projeto de programação de "hobby" que me mantivesse ocupado durante a semana por volta do Natal. O meu escritório (...) estaria fechado, mas eu tinha um computador em casa, e não tinha muito mais nas mãos. Decidi escrever um intérprete para a nova linguagem de escrita em que tinha pensado ultimamente: um descendente do ABC que apelaria aos hackers Unix/C. Escolhi Python como título de trabalho para o projeto, estando de humor ligeiramente irreverente (e sendo um grande fã do Monty Python's Flying Circus). - Guido van Rossum
+
+A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python foi criado pela O'Reilly Media, uma empresa de mídia conhecida por seus livros técnicos na área de Ciência e Tecnologia. A O'Reilly Media usou a imagem de uma serpente em sua capa do livro <a href="https://www.amazon.com.br/Programming-Python-3e-Mark-Lutz/dp/0596009259">"Programming Python" de Mark Lutz</a>, que foi lançado em 1996. A capa apresentava uma serpente enroscada, e essa imagem acabou sendo adotada como um símbolo informal para o Python. Então, embora a inspiração para o nome "Python" venha do programa de televisão "Monty Python's Flying Circus", o logo específico da serpente foi popularizado pela O'Reilly Media por meio de sua capa de livro. A serpente passou a ser amplamente reconhecida como o símbolo do Python na comunidade de desenvolvimento de software e após isso foi aderida pelo fundador. 
+  
+Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção e, portanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
+  
+A rapidez com que o Python se espalhou pelo mundo é o resultado do trabalho contínuo de milhares (muitas vezes anônimos) de programadores, testadores, utilizadores (muitos deles não são especialistas em IT) e entusiastas, mas deve dizer-se que a primeira ideia (a semente da qual o Python brotou) chegou a uma cabeça - a de Guido.
+ 
+Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi influenciada por ABC que era uma linguagem pensada para iniciantes devido a sua facilidade de aprendizado e utilização, são eles: 
+ 
+- Uma **linguagem fácil e intuitiva**, tão poderosa como a dos principais concorrentes;
+- Código aberto, **open source**, para que todos possam contribuir;
+- Código que seja tão **compreensível e inteligível** como o idioma inglês simples;
+- **Adequado a tarefas diárias**, e produtiva, permitindo tempos de desenvolvimento curtos.
+
+> Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
+
+Seja como for, continua a ocupar uma posição elevada no top dez do <a href="https://pypl.github.io/PYPL.html">PYPL PopularitY of Programming Language</a> e no <a href="https://www.tiobe.com/tiobe-index/">TIOBE Programming Community Index</a>.
+
+O Python não é uma linguagem jovem. É **madura** e **confiável**. Não é uma *one-hit wonder*. É uma estrela brilhante no firmamento da programação, e o tempo gasto a aprender Python é um investimento muito bom.
+
+Como é que os programadores, jovens e velhos, experientes e novatos, querem utilizá-lo? Como aconteceu que grandes empresas adotassem o Python e implementassem os seus principais produtos utilizando-o?
+
+Há muitas razões - já enumerámos algumas delas, mas vamos enumerá-las novamente de uma forma mais prática:
+
+- **é fácil de aprender** - o tempo necessário para aprender Python é menor do que para muitas outras linguagens; isto significa que é possível iniciar a programação em si mais rapidamente;
+- **é fácil de ensinar** - a carga de trabalho de ensino é menor do que a necessária para outras linguagens; isto significa que o professor pode colocar mais ênfase em técnicas de programação gerais (independentes da linguagem), não desperdiçando energia em truques exóticos, estranhas exceções e regras incompreensíveis;
+- é **fácil de usar** para escrever novo software - é muitas vezes possível escrever código mais rapidamente quando se usa Python;
+- é **fácil de compreender** - é também frequentemente mais fácil e rápido de compreender o código de outra pessoa se for escrito em Python;
+- é **fácil de obter, instalar e implementar** - o Python é gratuito, aberto e multiplataforma; nem todas as linguagens se podem gabar disso.
+
+> O Python é uma linguagem de programação com extenso uso, com uma grande comunidade de contribuintes e com extensa disponibilidade de artigos, informações e bibliotecas.
+
+É claro que o Python também tem os seus inconvenientes (ninguém é perfeito hehe):
+
+- **não tem um super-poder da velocidade** - o Python não oferece um desempenho excecional;
+- em alguns casos pode ser resistente a algumas técnicas de teste mais simples - isto pode significar que **depurar (debuggar) o código Python pode ser mais difícil do que com outras linguagens**; felizmente, cometer erros é sempre mais difícil em Python.
+
+Apesar da popularidade crescente de Python, ainda existem alguns nichos onde o Python está ausente, ou raramente é visto:
+
+- **programação de baixo nível** (por vezes chamada programação "close to metal"): se quiser implementar um condutor ou motor gráfico extremamente eficaz, não utilizaria Python;
+- **aplicações para dispositivos móveis**: existe pouca área de atuação para o Python nessa área, fortalecendo assim algumas das linguagens concorrentes.
+
+Deve também ser afirmado que o Python não é a única solução do seu gênero disponível no mercado do TI. Tem muitos seguidores, mas há muitos que preferem outras linguagens e nem sequer consideram o Python para os seus projetos.
+ 
+No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
+ 
+Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
+
+Recentemente, a _IEEE Computer Society_ classificou-a como a linguagem mais indicada para aprender em 2020. Isso se deve à sua eficiência no desenvolvimento de **machine learning**, **inteligência artificial**, **ciência**, **gestão** e **análise de dados**.
+
+**Python** é uma linguagem de programação de alto nível, que permite ao programador utilizar instruções de forma intuitiva, tornando seu aprendizado mais simples do que o aprendizado de uma linguagem de baixo nível.
+
+Nas linguagens de baixo nível, o programador precisa se expressar de forma muito mais próxima do que o dispositivo “entende”, levando naturalmente a um distanciamento da linguagem utilizada para comunicação entre duas pessoas.
+
+A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
+
+A linguagem Python foi escolhida como instrumento para o desenvolvimento desta disciplina, pois além de ser multiparadigma (possibilita escrever programas em diferentes paradigmas) e de uso geral, vem se destacando e sendo cada vez mais utilizada entre os novos desenvolvedores por vários motivos:
+
+- Facilidade de aprendizado;
+- Boa legibilidade de código;
+- Boa facilidade de escrita;
+- Produtividade e confiabilidade.
+- Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
+ 
+O Python é uma linguagem de programação dinâmica de alta produtividade amplamente usada em aplicativos de ciência, engenharia e análise de dados.
+
+Há uma série de fatores que influenciam a popularidade do Python, incluindo sua sintaxe limpa e expressiva, estruturas de dados padrão, biblioteca padrão abrangente, "baterias incluídas", documentação excelente, amplo ecossistema de bibliotecas e ferramentas, disponibilidade de suporte profissional e uma grande e aberta comunidade.
+
+> Talvez o mais importante, porém, seja a alta produtividade que uma linguagem interpretada e digitada dinamicamente como o Python permite. Python é ágil e flexível, o que o torna uma ótima linguagem para prototipagem rápida, mas também para construir sistemas completos.
+
+A linguagem **Python** é uma linguagem de programação, com características interessantes:
+
+  - É **interpretada** e **compilada**, ou seja, o interpretador Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;
+  - É de **alto nível**, ou seja, o interpretador se vira com detalhes técnicos do computador. Assim, desenvolver um código mais simples do que em linguagem de baixo nível, nas quais o programador deve se preocupar com detalhes da máquina;
+  - É de propósito geral, ou seja, podemos usar Python para desenvolver programas em diversas áreas. Ao contrário de linguagens de domínio específico, que são especializados e atendem somente a uma aplicação específica;
+  - Tem **tipos dinâmicos**, ou seja, o interpretador faz a magia de descobrir o que é cada variável;
+  - É **multiparadigma**, apesar de suportar perfeitamente o paradigma de programação estruturada, Python também suporta programação orientada a objetos, tem características do paradigma funcional, com o amplo uso de bibliotecas, assim como permite recursividade e uso de funções anônimas.
+  - É **interativa**, permite que os usuários interajam com o interpretador Python diretamente para escrever os programas, utilizando o prompt interativo. Esse prompt fornece mensagens detalhadas para qualquer tipo de erro ou para qualquer comando específico em execução, suporta testes interativos e depuração de trechos de código.
+  - É **híbrida** quanto ao método de implementação. Python usa uma abordagem mista para explorar as vantagens do interpretador e do compilador. Assim como Java, utiliza o conceito de máquina virtual (PVM - Python Virtual Machine), permitindo a geração de um código intermediário, mais fácil de ser interpretado, mas que não é vinculado definitivamente a nenhum sistema operacional.
+  - É **portável**, tem a capacidade de rodar em uma grande variedade de plataformas de hardware com a mesma interface. Ele roda perfeitamente em quase todos os sistemas operacionais, como **Windows**, **Linux**, **UNIX**, e **macOS**, sem nenhuma alteração.
+  - É **extensível**, permite que os programadores adicionem ou criem módulos e pacotes de baixo nível / alto nível ao interpretador Python. Esses módulos e pacotes de ferramentas permitem que os desenvolvedores tenham possibilidades amplas de colaboração, contribuindo para a popularidade da linguagem.
+  - **Suporta bancos de dados**, por ser uma linguagem de programação de uso geral, Python suporta os principais sistemas de bancos de dados. Permite escrever código com integração com **MySQL**, **PostgreSQL**, **SQLite**, **ElephantSQL**, **MongoDB**, entre outros.
+  - **Suporta interface com usuário**, permite escrever código de tal maneira que uma interface do usuário para um aplicativo possa ser facilmente criada, importando bibliotecas como **Tkinter**, **Flexx**, **CEF Python**, **Dabo**, **Pyforms** ou **PyGUI wxPython**, **PyQT**, **Kivy**.
+  - Pode ser usado como **linguagem de script**. Permite fácil acesso a outros programas, podendo ser compilado para **bytecode** a fim de criar aplicativos grandes.
+  - Permite **desenvolvimento de aplicações Web**. Devido à escalabilidade já citada, Python oferece uma variedade de opções para o desenvolvimento de aplicativos Web. A biblioteca padrão do Python incorpora muitos protocolos para o desenvolvimento da web, como **HTML**, **XML**, **JSON**, **processamento de e-mail**, além de fornecer base para **FTP**, **IMAP** e outros **protocolos da Internet**.
+  - Permite criação de **aplicações comerciais**. É desenvolvido sob uma licença de código aberto aprovada pela **OSI**, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
+
+> **Atenção**: Mas a maior força do Python também pode ser sua maior fraqueza: sua flexibilidade e sintaxe de alto nível sem tipo podem resultar em baixo desempenho para programas com uso intensivo de dados e computação. Por esse motivo, os programadores Python preocupados com a eficiência geralmente reescrevem seus loops mais internos em C e chamam as funções C compiladas do Python.
+
+Existem vários projetos que visam tornar essa otimização mais fácil, como o **Cython**, mas geralmente exigem o aprendizado de uma nova sintaxe. Idealmente, os programadores Python gostariam de tornar seu código Python existente mais rápido sem usar outra linguagem de programação e, naturalmente, muitos gostariam de usar aceleradores para obter um desempenho ainda maior de seu código.
+ 
+Resumindo as características do Python:
+
+- Orientada a objetos com uma semântica dinâmica;
+- Possui licença compatível com Software livre;
+- Linguagem de altíssimo nível (VHLL);
+- Tipagem dinâmica e forte;
+- Aumenta a produtividade do desenvolvedor;
+- A implementação padrão e oficial de referência do Python que é mantida pela PSF (Python Software Foundation) e é escrita em linguagem C, e por isso, é também conhecida como CPython;
+- Multiplataforma e multiparadigma (POO, funcional e procedural);
+- Batteries Included: é uma biblioteca padrão rica e versátil que está imediatamente disponível, sem que o usuário baixe pacotes separados. Isso dá à linguagem Python uma vantagem inicial em muitos projetos.;
+- Organizada;
+- Comunidade gigante e ativa;
+- Curva de aprendizado baixa;
+- Muitas Bibliotecas.
+
+Por essas e várias outras características, o Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem muito utilizada por diversas empresas como Wikipédia, Microsoft, Google, Yahoo!, CERN, NASA, Facebook, AMAZON, Instagram, Spotify, Bitorrent Inc, Django e Dropbox.
+
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=flat&logo=Perl&logoColor=white)
+
+O Python tem dois concorrentes diretos, com propriedades e predisposições comparáveis. Estes são:
+
+- **Perl** - uma linguagem de scripting originalmente de autoria de Larry Wall;
+- **Ruby** - uma linguagem de scripting originalmente escrita por Yukihiro Matsumoto.
+
+A primeira é mais tradicional, mais conservadora do que Python, e assemelha-se a algumas das boas e antigas linguagens derivadas da clássica linguagem de programação C.
+
+Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do que Python. O próprio Python encontra-se algures entre estas duas criações.
+
+A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
+
+### Principais áreas de atuação com a linguagem Python
+Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para implementar **serviços complexos da Internet** como motores de busca, armazenamento em nuvem e ferramentas, redes sociais, etc. Sempre que utiliza qualquer um destes serviços, está na realidade muito próximo de Python, embora não o conheça.
+
+Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa:
+
+<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
+
+- IA - Inteligência Artificial
+- Machine Learning
+- Deep Learning
+- IoT - Internet das Coisas
+- Big Data
+- Data Analysis
+- Data Science
+- Computação 3D
+- Biotecnologia
+- Bioinformática
+- Web Development (Back-end)
+- Cybersecurity
+- Game Development
+- Mobile Development
+- Desktop Development
+- DevSecOps
+- QA - Quality Assurance
+- Automação de Sistemas
+- Cloud Computing
+- Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc
+
+Certificações em Python:
+
+![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
+
+- https://pythoninstitute.org/pcep
+- https://pythoninstitute.org/pcap
+- https://pythoninstitute.org/
+
+## Há mais de um Python
+<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
+
+Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**. O Python 2 é uma versão mais antiga do Python original. Desde então o seu desenvolvimento tem sido intencionalmente parado, embora isso não signifique que não hajam atualizações. Pelo contrário, as atualizações são emitidas regularmente, mas não se destinam a modificar a linguagem de forma significativa. Preferem corrigir quaisquer bugs recém-descobertos e falhas de segurança. O caminho de desenvolvimento de Python 2 já chegou a um beco sem saída, mas o Python 2 em si ainda está muito vivo, presente principalmente em sistemas operacionais Linux e macOS.
+
+Em 2008, é lançada a versão 3.0, que resolveu muitos problemas de design da linguagem e melhorou a performance. Algumas mudanças foram muito profundas dessa forma a versão 3.x não é retrocompatível.
+
+O Python 3 é a versão mais recente (para ser mais preciso, a atual versão) da linguagem. Está a percorrer o seu próprio caminho de evolução, criando os seus próprios padrões e hábitos. Atualmente, estamos na versão <b><a href="https://www.python.org/downloads/">3.10.8</a></b> do Python.
+
+Estas duas versões do Python não são compatíveis uma com a outra. Os **scripts** (Arquivos de texto que contém instruções que constituem um programa de Python) de Python 2 não serão executados num ambiente Python 3 e vice-versa, portanto, se quiser que o antigo código Python 2 seja executado por um interpretador Python 3, a única solução possível é reescrevê-lo, não do zero, claro, pois grandes partes do código podem permanecer intocadas, mas terá de rever todo o código para encontrar todas as incompatibilidades possíveis. Infelizmente, este processo não pode ser totalmente automatizado.
+
+É demasiado difícil, demasiado demorado, demasiado caro e demasiado arriscado migrar uma velha aplicação Python 2 para uma nova plataforma. É possível que a reescrita do código lhe introduza novos bugs. É mais fácil e mais sensato deixar estes sistemas em paz e melhorar o intérprete existente, em vez de tentar trabalhar dentro do source code já em funcionamento.
+
+O Python 3 não é apenas uma versão melhor do Python 2 - é uma linguagem completamente diferente, embora seja muito semelhante à sua predecessora. Quando se olha para eles à distância, parecem ser os mesmos, mas quando se olha de perto, no entanto, notam-se muitas diferenças.
+
+Se estiver a modificar uma antiga solução Python existente, então é altamente provável que tenha sido codificada em Python 2. Esta é a razão pela qual o Python 2 ainda está a ser utilizado. Há demasiadas aplicações Python 2 existentes para o descartar completamente.
+
+> **Nota**: Se vai iniciar um novo projeto Python, deve usar Python 3.
+
+É importante lembrar que pode haver diferenças menores ou maiores entre as versões posteriores do Python 3 (por exemplo, Python 3.6 introduziu chaves de dicionário ordenadas por defeito sob a implementação do CPython) - a boa notícia, porém, é que todas as versões mais recentes de Python 3 são retrocompatíveis com as versões anteriores de Python 3. Sempre que for significativo e importante, tentaremos realçar essas diferenças.
+
+> Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
+
+## Python aka CPython
+<img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="77" align="right">
+
+Além do Python 2 e Python 3, existe mais de uma versão de cada uma. Em primeiro lugar, existem os Pythons que são mantidos pelas pessoas reunidas em torno da PSF (<a href="https://www.python.org/psf-landing/">Python Software Foundation</a>), uma comunidade que visa desenvolver, melhorar, expandir e popularizar o Python e o seu ambiente. O presidente da PSF é o próprio Guido von Rossum, e por esta razão, estes Pythons são chamados de canônicos. São também considerados **Pythons de referência**, pois qualquer outra implementação da linguagem deve seguir todas as normas estabelecidas pelo PSF.
+
+Guido van Rossum utilizou a **linguagem de programação C** para implementar a primeira versão da sua linguagem, e esta decisão ainda está em vigor. Todos os Pythons provenientes do PSF são escritos na linguagem C. Há muitas razões para esta abordagem e ela tem muitas consequências. Uma delas (provavelmente a mais importante) é que graças a ela, o Python pode ser facilmente portado e migrado para todas as plataformas com a capacidade de compilar e executar programas em linguagem C (praticamente todas as plataformas têm esta característica, o que abre muitas oportunidades de expansão para Python).
+
+<img src="https://user-images.githubusercontent.com/61624336/136308856-241076e0-15b9-475d-a561-016c75fd2731.png" height="177" align="right">
+
+É por isso que a implementação da PSF é frequentemente referida como **CPython**. Este é o Python mais influente entre todos os Pythons do mundo.
+
+O CPython é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
+
+## Cython
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="77" align="right">
+
+Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - **a falta de eficiência**. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em C ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
+
+Como são conciliadas estas duas contradições? Uma solução é escrever as suas ideias matemáticas usando Python, e quando estiver absolutamente seguro de que o seu código está correto e produz resultados válidos, pode traduzi-lo para C. Certamente, o C correrá muito mais rápido do que Python puro.
+
+É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
+
+## Jython 
+<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="77" align="right"></a>
+
+Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Imagine um Python escrito em Java em vez de C. Isto é útil, por exemplo, se desenvolver sistemas grandes e complexos escritos inteiramente em Java, e quiser acrescentar alguma flexibilidade Python a eles. O CPython tradicional pode ser difícil de integrar em tal ambiente, já que C e Java vivem em mundos completamente diferentes e não partilham muitas ideias comuns.
+
+Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz. É por isso que alguns projetos o consideram utilizável e necessário.
+
+> **Nota**: A atual implementação do Jython segue as normas do Python 2. Até ao momento, não há Jython em conformidade com Python 3.
+
+> **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
+
+## PyPy e RPython
+<a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="77" align="right"></a>
+
+Dê uma vista de olhos ao logotipo acima. É um rébus. Consegue resolvê-lo? É um logótipo do **PyPy** - *um Python dentro de um Python*. Por outras palavras, representa um ambiente Python escrito em linguagem Python, chamado **RPython** (Restricted Python). Na verdade, é um subconjunto de Python.
+
+O source code de PyPy não é executado na forma de interpretação, mas sim traduzido para a linguagem de programação C e depois executado separadamente.
+
+Isto é útil porque se quiser testar qualquer nova funcionalidade que possa ser (mas não tem de ser) introduzida na implementação do Python convencional, é mais fácil verificá-la com o PyPy do que com o CPython. É por isto que o PyPy é antes uma ferramenta para pessoas que desenvolvem Python, do que para o resto dos utilizadores.
+
+Isto não torna o PyPy menos importante ou menos sério do que o CPython, é claro.
+
+Além disso, o PyPy é compatível com a linguagem do Python 3.
+
+Existem muitos mais Pythons diferentes no mundo. Encontrá-los-á se procurar, vamos nos concentrar no CPython.
+
+# 🏗️ Sistema de implementação do Python
+<a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="77" align="right">
+
+**Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
+
+O Python é uma linguagem interpretada. Isto significa que herda todas as vantagens e desvantagens descritas. Naturalmente, acrescenta algumas das suas características únicas a ambos os conjuntos.
+Se quiser programar em Python, precisará do intérprete Python. Não será capaz de executar o seu código sem ele. Felizmente, o Python é gratuito. Esta é uma das suas vantagens mais importantes.
+Devido a razões históricas, as linguagens concebidas para serem utilizadas na forma de interpretação são muitas vezes chamadas linguagens de scripting, enquanto os source programs codificados que as utilizam são chamados scripts.
+
+O **virtualenv** do Python é utilizado para isolar a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional. Existe outra forma de fazer isso com o **Pipenv**.
+
 ## Sistema de implementação de Python
 <div align="center"><a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png"></a></div><br \>
 
@@ -21,9 +270,6 @@
 # 🐍 The History of Python language 🐍
 <div align="center"><img src="https://symbols.getvecta.com/stencil_92/75_python-vertical.6c7f1f8721.svg" height="277"></div><br \>
 
-Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
-
-Recentemente, a _IEEE Computer Society_ classificou-a como a linguagem mais indicada para aprender em 2020. Isso se deve à sua eficiência no desenvolvimento de **machine learning**, **inteligência artificial**, **ciência**, **gestão** e **análise de dados**.
 
 <div align="center"><img height="177" src="https://symbols.getvecta.com/stencil_296/27_python-bivittatus-burmese-python.ef91774c2c.svg"/></div><br \>
 
@@ -1964,251 +2210,6 @@ Esse módulo implementa geradores de números pseudoaleatórios para várias dis
   
 ## Distribuições de valores reais
 A Tabela 8 mostra algumas das principais funções disponíveis para distribuições de valores reais no módulo `random`. 
-
-# 🐍 The History of Python language
-<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
-
-A linguagem Python surgiu em 1989, criado por <a href="https://github.com/gvanrossum">Guido Van Rossum</a>, nascido em 1956 em Haarlem, Holanda. O desenvolvimento da linguagem foi como um hobby onde a ideia era dar continuidade a linguagem ABC que era desenvolvida no Centro de Pesquisa Holandês (CWI) chamado Centrum Voor Wiskunde en Informatica, em Amsterdã, na Holanda no ano de 1980. 
-
-As circunstâncias em que o Python foi criado são um pouco confusas. De acordo com Guido van Rossum: Em Dezembro de 1989, estava à procura de um projeto de programação de "hobby" que me mantivesse ocupado durante a semana por volta do Natal. O meu escritório (...) estaria fechado, mas eu tinha um computador em casa, e não tinha muito mais nas mãos. Decidi escrever um intérprete para a nova linguagem de escrita em que tinha pensado ultimamente: um descendente do ABC que apelaria aos hackers Unix/C. Escolhi Python como título de trabalho para o projeto, estando de humor ligeiramente irreverente (e sendo um grande fã do Monty Python's Flying Circus). - Guido van Rossum
-
-A origem do nome foi inspirado na comédia televisiva inglesa da BBC chamada "Monty Python and the Flying Circus", na década de 1970. A logo de uma serpente da espécie python foi criado pela O'Reilly Media, uma empresa de mídia conhecida por seus livros técnicos na área de Ciência e Tecnologia. A O'Reilly Media usou a imagem de uma serpente em sua capa do livro <a href="https://www.amazon.com.br/Programming-Python-3e-Mark-Lutz/dp/0596009259">"Programming Python" de Mark Lutz</a>, que foi lançado em 1996. A capa apresentava uma serpente enroscada, e essa imagem acabou sendo adotada como um símbolo informal para o Python. Então, embora a inspiração para o nome "Python" venha do programa de televisão "Monty Python's Flying Circus", o logo específico da serpente foi popularizado pela O'Reilly Media por meio de sua capa de livro. A serpente passou a ser amplamente reconhecida como o símbolo do Python na comunidade de desenvolvimento de software e após isso foi aderida pelo fundador. 
-  
-Uma das características espantosas de Python é o fato de ser realmente o trabalho de uma pessoa. Normalmente, novas linguagens de programação são desenvolvidas e publicadas por grandes empresas que empregam muitos profissionais, e devido às regras de direitos de autor, é muito difícil nomear qualquer uma das pessoas envolvidas no projeto. O Python é uma exceção e, portanto, é claro que Guido van Rossum não desenvolveu e evoluiu ele próprio todos os componentes de Python. 
-  
-A rapidez com que o Python se espalhou pelo mundo é o resultado do trabalho contínuo de milhares (muitas vezes anônimos) de programadores, testadores, utilizadores (muitos deles não são especialistas em IT) e entusiastas, mas deve dizer-se que a primeira ideia (a semente da qual o Python brotou) chegou a uma cabeça - a de Guido.
- 
-Em 1999, Guido van Rossum definiu os seus objetivos para o Python, cujo foi influenciada por ABC que era uma linguagem pensada para iniciantes devido a sua facilidade de aprendizado e utilização, são eles: 
- 
-- Uma **linguagem fácil e intuitiva**, tão poderosa como a dos principais concorrentes;
-- Código aberto, **open source**, para que todos possam contribuir;
-- Código que seja tão **compreensível e inteligível** como o idioma inglês simples;
-- **Adequado a tarefas diárias**, e produtiva, permitindo tempos de desenvolvimento curtos.
-
-> Cerca de 20 anos mais tarde, é evidente que todas estas intenções foram cumpridas. Algumas fontes dizem que o Python é a linguagem de programação mais popular no mundo, enquanto outras afirmam que é a terceira ou a quinta.
-
-Seja como for, continua a ocupar uma posição elevada no top dez do <a href="https://pypl.github.io/PYPL.html">PYPL PopularitY of Programming Language</a> e no <a href="https://www.tiobe.com/tiobe-index/">TIOBE Programming Community Index</a>.
-
-O Python não é uma linguagem jovem. É **madura** e **confiável**. Não é uma *one-hit wonder*. É uma estrela brilhante no firmamento da programação, e o tempo gasto a aprender Python é um investimento muito bom.
-
-Como é que os programadores, jovens e velhos, experientes e novatos, querem utilizá-lo? Como aconteceu que grandes empresas adotassem o Python e implementassem os seus principais produtos utilizando-o?
-
-Há muitas razões - já enumerámos algumas delas, mas vamos enumerá-las novamente de uma forma mais prática:
-
-- **é fácil de aprender** - o tempo necessário para aprender Python é menor do que para muitas outras linguagens; isto significa que é possível iniciar a programação em si mais rapidamente;
-- **é fácil de ensinar** - a carga de trabalho de ensino é menor do que a necessária para outras linguagens; isto significa que o professor pode colocar mais ênfase em técnicas de programação gerais (independentes da linguagem), não desperdiçando energia em truques exóticos, estranhas exceções e regras incompreensíveis;
-- é **fácil de usar** para escrever novo software - é muitas vezes possível escrever código mais rapidamente quando se usa Python;
-- é **fácil de compreender** - é também frequentemente mais fácil e rápido de compreender o código de outra pessoa se for escrito em Python;
-- é **fácil de obter, instalar e implementar** - o Python é gratuito, aberto e multiplataforma; nem todas as linguagens se podem gabar disso.
-
-> O Python é uma linguagem de programação com extenso uso, com uma grande comunidade de contribuintes e com extensa disponibilidade de artigos, informações e bibliotecas.
-
-É claro que o Python também tem os seus inconvenientes (ninguém é perfeito hehe):
-
-- **não tem um super-poder da velocidade** - o Python não oferece um desempenho excecional;
-- em alguns casos pode ser resistente a algumas técnicas de teste mais simples - isto pode significar que **depurar (debuggar) o código Python pode ser mais difícil do que com outras linguagens**; felizmente, cometer erros é sempre mais difícil em Python.
-
-Apesar da popularidade crescente de Python, ainda existem alguns nichos onde o Python está ausente, ou raramente é visto:
-
-- **programação de baixo nível** (por vezes chamada programação "close to metal"): se quiser implementar um condutor ou motor gráfico extremamente eficaz, não utilizaria Python;
-- **aplicações para dispositivos móveis**: existe pouca área de atuação para o Python nessa área, fortalecendo assim algumas das linguagens concorrentes.
-
-Deve também ser afirmado que o Python não é a única solução do seu gênero disponível no mercado do TI. Tem muitos seguidores, mas há muitos que preferem outras linguagens e nem sequer consideram o Python para os seus projetos.
- 
-No início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
- 
-Dentre as diversas linguagens de programação que existem, **Python** é considerada uma das principais. Por sua simplicidade de aprendizado, ela tem sido utilizada em diversos cursos universitários como a primeira linguagem com que os alunos têm contato ao programar. Atualmente, conta com ampla participação da comunidade, além de ter seu desenvolvimento aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
-
-Recentemente, a _IEEE Computer Society_ classificou-a como a linguagem mais indicada para aprender em 2020. Isso se deve à sua eficiência no desenvolvimento de **machine learning**, **inteligência artificial**, **ciência**, **gestão** e **análise de dados**.
-
-**Python** é uma linguagem de programação de alto nível, que permite ao programador utilizar instruções de forma intuitiva, tornando seu aprendizado mais simples do que o aprendizado de uma linguagem de baixo nível.
-
-Nas linguagens de baixo nível, o programador precisa se expressar de forma muito mais próxima do que o dispositivo “entende”, levando naturalmente a um distanciamento da linguagem utilizada para comunicação entre duas pessoas.
-
-A classificação das linguagens em paradigmas permite que entendamos qual é o melhor deles para solucionar determinado problema e, a partir daí, escolher a linguagem de programação (pertencente a esse paradigma) mais adequada, conforme características e especificidades do contexto em que se aplica o problema.
-
-A linguagem Python foi escolhida como instrumento para o desenvolvimento desta disciplina, pois além de ser multiparadigma (possibilita escrever programas em diferentes paradigmas) e de uso geral, vem se destacando e sendo cada vez mais utilizada entre os novos desenvolvedores por vários motivos:
-
-- Facilidade de aprendizado;
-- Boa legibilidade de código;
-- Boa facilidade de escrita;
-- Produtividade e confiabilidade.
-- Possui, ainda, comunidade de desenvolvedores crescente e vasta biblioteca, repleta de funções, aplicada a diversas áreas da ciência, assim como o crescente números de frameworks desenvolvidos para a linguagem.
- 
-O Python é uma linguagem de programação dinâmica de alta produtividade amplamente usada em aplicativos de ciência, engenharia e análise de dados.
-
-Há uma série de fatores que influenciam a popularidade do Python, incluindo sua sintaxe limpa e expressiva, estruturas de dados padrão, biblioteca padrão abrangente, "baterias incluídas", documentação excelente, amplo ecossistema de bibliotecas e ferramentas, disponibilidade de suporte profissional e uma grande e aberta comunidade.
-
-> Talvez o mais importante, porém, seja a alta produtividade que uma linguagem interpretada e digitada dinamicamente como o Python permite. Python é ágil e flexível, o que o torna uma ótima linguagem para prototipagem rápida, mas também para construir sistemas completos.
-
-A linguagem **Python** é uma linguagem de programação, com características interessantes:
-
-  - É **interpretada** e **compilada**, ou seja, o interpretador Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;
-  - É de **alto nível**, ou seja, o interpretador se vira com detalhes técnicos do computador. Assim, desenvolver um código mais simples do que em linguagem de baixo nível, nas quais o programador deve se preocupar com detalhes da máquina;
-  - É de propósito geral, ou seja, podemos usar Python para desenvolver programas em diversas áreas. Ao contrário de linguagens de domínio específico, que são especializados e atendem somente a uma aplicação específica;
-  - Tem **tipos dinâmicos**, ou seja, o interpretador faz a magia de descobrir o que é cada variável;
-  - É **multiparadigma**, apesar de suportar perfeitamente o paradigma de programação estruturada, Python também suporta programação orientada a objetos, tem características do paradigma funcional, com o amplo uso de bibliotecas, assim como permite recursividade e uso de funções anônimas.
-  - É **interativa**, permite que os usuários interajam com o interpretador Python diretamente para escrever os programas, utilizando o prompt interativo. Esse prompt fornece mensagens detalhadas para qualquer tipo de erro ou para qualquer comando específico em execução, suporta testes interativos e depuração de trechos de código.
-  - É **híbrida** quanto ao método de implementação. Python usa uma abordagem mista para explorar as vantagens do interpretador e do compilador. Assim como Java, utiliza o conceito de máquina virtual (PVM - Python Virtual Machine), permitindo a geração de um código intermediário, mais fácil de ser interpretado, mas que não é vinculado definitivamente a nenhum sistema operacional.
-  - É **portável**, tem a capacidade de rodar em uma grande variedade de plataformas de hardware com a mesma interface. Ele roda perfeitamente em quase todos os sistemas operacionais, como **Windows**, **Linux**, **UNIX**, e **macOS**, sem nenhuma alteração.
-  - É **extensível**, permite que os programadores adicionem ou criem módulos e pacotes de baixo nível / alto nível ao interpretador Python. Esses módulos e pacotes de ferramentas permitem que os desenvolvedores tenham possibilidades amplas de colaboração, contribuindo para a popularidade da linguagem.
-  - **Suporta bancos de dados**, por ser uma linguagem de programação de uso geral, Python suporta os principais sistemas de bancos de dados. Permite escrever código com integração com **MySQL**, **PostgreSQL**, **SQLite**, **ElephantSQL**, **MongoDB**, entre outros.
-  - **Suporta interface com usuário**, permite escrever código de tal maneira que uma interface do usuário para um aplicativo possa ser facilmente criada, importando bibliotecas como **Tkinter**, **Flexx**, **CEF Python**, **Dabo**, **Pyforms** ou **PyGUI wxPython**, **PyQT**, **Kivy**.
-  - Pode ser usado como **linguagem de script**. Permite fácil acesso a outros programas, podendo ser compilado para **bytecode** a fim de criar aplicativos grandes.
-  - Permite **desenvolvimento de aplicações Web**. Devido à escalabilidade já citada, Python oferece uma variedade de opções para o desenvolvimento de aplicativos Web. A biblioteca padrão do Python incorpora muitos protocolos para o desenvolvimento da web, como **HTML**, **XML**, **JSON**, **processamento de e-mail**, além de fornecer base para **FTP**, **IMAP** e outros **protocolos da Internet**.
-  - Permite criação de **aplicações comerciais**. É desenvolvido sob uma licença de código aberto aprovada pela **OSI**, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
-
-> **Atenção**: Mas a maior força do Python também pode ser sua maior fraqueza: sua flexibilidade e sintaxe de alto nível sem tipo podem resultar em baixo desempenho para programas com uso intensivo de dados e computação. Por esse motivo, os programadores Python preocupados com a eficiência geralmente reescrevem seus loops mais internos em C e chamam as funções C compiladas do Python.
-
-Existem vários projetos que visam tornar essa otimização mais fácil, como o **Cython**, mas geralmente exigem o aprendizado de uma nova sintaxe. Idealmente, os programadores Python gostariam de tornar seu código Python existente mais rápido sem usar outra linguagem de programação e, naturalmente, muitos gostariam de usar aceleradores para obter um desempenho ainda maior de seu código.
- 
-Resumindo as características do Python:
-
-- Orientada a objetos com uma semântica dinâmica;
-- Possui licença compatível com Software livre;
-- Linguagem de altíssimo nível (VHLL);
-- Tipagem dinâmica e forte;
-- Aumenta a produtividade do desenvolvedor;
-- A implementação padrão e oficial de referência do Python que é mantida pela PSF (Python Software Foundation) e é escrita em linguagem C, e por isso, é também conhecida como CPython;
-- Multiplataforma e multiparadigma (POO, funcional e procedural);
-- Batteries Included: é uma biblioteca padrão rica e versátil que está imediatamente disponível, sem que o usuário baixe pacotes separados. Isso dá à linguagem Python uma vantagem inicial em muitos projetos.;
-- Organizada;
-- Comunidade gigante e ativa;
-- Curva de aprendizado baixa;
-- Muitas Bibliotecas.
-
-Por essas e várias outras características, o Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem muito utilizada por diversas empresas como Wikipédia, Microsoft, Google, Yahoo!, CERN, NASA, Facebook, AMAZON, Instagram, Spotify, Bitorrent Inc, Django e Dropbox.
-
-![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=flat&logo=Perl&logoColor=white)
-
-O Python tem dois concorrentes diretos, com propriedades e predisposições comparáveis. Estes são:
-
-- **Perl** - uma linguagem de scripting originalmente de autoria de Larry Wall;
-- **Ruby** - uma linguagem de scripting originalmente escrita por Yukihiro Matsumoto.
-
-A primeira é mais tradicional, mais conservadora do que Python, e assemelha-se a algumas das boas e antigas linguagens derivadas da clássica linguagem de programação C.
-
-Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do que Python. O próprio Python encontra-se algures entre estas duas criações.
-
-A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
-
-### Principais áreas de atuação com a linguagem Python
-Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para implementar **serviços complexos da Internet** como motores de busca, armazenamento em nuvem e ferramentas, redes sociais, etc. Sempre que utiliza qualquer um destes serviços, está na realidade muito próximo de Python, embora não o conheça.
-
-Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa:
-
-<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
-
-- IA - Inteligência Artificial
-- Machine Learning
-- Deep Learning
-- IoT - Internet das Coisas
-- Big Data
-- Data Analysis
-- Data Science
-- Computação 3D
-- Biotecnologia
-- Bioinformática
-- Web Development (Back-end)
-- Cybersecurity
-- Game Development
-- Mobile Development
-- Desktop Development
-- DevSecOps
-- QA - Quality Assurance
-- Automação de Sistemas
-- Cloud Computing
-- Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc
-
-Certificações em Python:
-
-![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
-
-- https://pythoninstitute.org/pcep
-- https://pythoninstitute.org/pcap
-- https://pythoninstitute.org/
-
-## Há mais de um Python
-<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
-
-Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**. O Python 2 é uma versão mais antiga do Python original. Desde então o seu desenvolvimento tem sido intencionalmente parado, embora isso não signifique que não hajam atualizações. Pelo contrário, as atualizações são emitidas regularmente, mas não se destinam a modificar a linguagem de forma significativa. Preferem corrigir quaisquer bugs recém-descobertos e falhas de segurança. O caminho de desenvolvimento de Python 2 já chegou a um beco sem saída, mas o Python 2 em si ainda está muito vivo, presente principalmente em sistemas operacionais Linux e macOS.
-
-Em 2008, é lançada a versão 3.0, que resolveu muitos problemas de design da linguagem e melhorou a performance. Algumas mudanças foram muito profundas dessa forma a versão 3.x não é retrocompatível.
-
-O Python 3 é a versão mais recente (para ser mais preciso, a atual versão) da linguagem. Está a percorrer o seu próprio caminho de evolução, criando os seus próprios padrões e hábitos. Atualmente, estamos na versão <b><a href="https://www.python.org/downloads/">3.10.8</a></b> do Python.
-
-Estas duas versões do Python não são compatíveis uma com a outra. Os **scripts** (Arquivos de texto que contém instruções que constituem um programa de Python) de Python 2 não serão executados num ambiente Python 3 e vice-versa, portanto, se quiser que o antigo código Python 2 seja executado por um interpretador Python 3, a única solução possível é reescrevê-lo, não do zero, claro, pois grandes partes do código podem permanecer intocadas, mas terá de rever todo o código para encontrar todas as incompatibilidades possíveis. Infelizmente, este processo não pode ser totalmente automatizado.
-
-É demasiado difícil, demasiado demorado, demasiado caro e demasiado arriscado migrar uma velha aplicação Python 2 para uma nova plataforma. É possível que a reescrita do código lhe introduza novos bugs. É mais fácil e mais sensato deixar estes sistemas em paz e melhorar o intérprete existente, em vez de tentar trabalhar dentro do source code já em funcionamento.
-
-O Python 3 não é apenas uma versão melhor do Python 2 - é uma linguagem completamente diferente, embora seja muito semelhante à sua predecessora. Quando se olha para eles à distância, parecem ser os mesmos, mas quando se olha de perto, no entanto, notam-se muitas diferenças.
-
-Se estiver a modificar uma antiga solução Python existente, então é altamente provável que tenha sido codificada em Python 2. Esta é a razão pela qual o Python 2 ainda está a ser utilizado. Há demasiadas aplicações Python 2 existentes para o descartar completamente.
-
-> **Nota**: Se vai iniciar um novo projeto Python, deve usar Python 3.
-
-É importante lembrar que pode haver diferenças menores ou maiores entre as versões posteriores do Python 3 (por exemplo, Python 3.6 introduziu chaves de dicionário ordenadas por defeito sob a implementação do CPython) - a boa notícia, porém, é que todas as versões mais recentes de Python 3 são retrocompatíveis com as versões anteriores de Python 3. Sempre que for significativo e importante, tentaremos realçar essas diferenças.
-
-> Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
-
-## Python aka CPython
-<img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="77" align="right">
-
-Além do Python 2 e Python 3, existe mais de uma versão de cada uma. Em primeiro lugar, existem os Pythons que são mantidos pelas pessoas reunidas em torno da PSF (<a href="https://www.python.org/psf-landing/">Python Software Foundation</a>), uma comunidade que visa desenvolver, melhorar, expandir e popularizar o Python e o seu ambiente. O presidente da PSF é o próprio Guido von Rossum, e por esta razão, estes Pythons são chamados de canônicos. São também considerados **Pythons de referência**, pois qualquer outra implementação da linguagem deve seguir todas as normas estabelecidas pelo PSF.
-
-Guido van Rossum utilizou a **linguagem de programação C** para implementar a primeira versão da sua linguagem, e esta decisão ainda está em vigor. Todos os Pythons provenientes do PSF são escritos na linguagem C. Há muitas razões para esta abordagem e ela tem muitas consequências. Uma delas (provavelmente a mais importante) é que graças a ela, o Python pode ser facilmente portado e migrado para todas as plataformas com a capacidade de compilar e executar programas em linguagem C (praticamente todas as plataformas têm esta característica, o que abre muitas oportunidades de expansão para Python).
-
-<img src="https://user-images.githubusercontent.com/61624336/136308856-241076e0-15b9-475d-a561-016c75fd2731.png" height="177" align="right">
-
-É por isso que a implementação da PSF é frequentemente referida como **CPython**. Este é o Python mais influente entre todos os Pythons do mundo.
-
-O CPython é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
-
-## Cython
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="77" align="right">
-
-Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - **a falta de eficiência**. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em C ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
-
-Como são conciliadas estas duas contradições? Uma solução é escrever as suas ideias matemáticas usando Python, e quando estiver absolutamente seguro de que o seu código está correto e produz resultados válidos, pode traduzi-lo para C. Certamente, o C correrá muito mais rápido do que Python puro.
-
-É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
-
-## Jython 
-<a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="77" align="right"></a>
-
-Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Imagine um Python escrito em Java em vez de C. Isto é útil, por exemplo, se desenvolver sistemas grandes e complexos escritos inteiramente em Java, e quiser acrescentar alguma flexibilidade Python a eles. O CPython tradicional pode ser difícil de integrar em tal ambiente, já que C e Java vivem em mundos completamente diferentes e não partilham muitas ideias comuns.
-
-Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz. É por isso que alguns projetos o consideram utilizável e necessário.
-
-> **Nota**: A atual implementação do Jython segue as normas do Python 2. Até ao momento, não há Jython em conformidade com Python 3.
-
-> **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
-
-## PyPy e RPython
-<a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="77" align="right"></a>
-
-Dê uma vista de olhos ao logotipo acima. É um rébus. Consegue resolvê-lo? É um logótipo do **PyPy** - *um Python dentro de um Python*. Por outras palavras, representa um ambiente Python escrito em linguagem Python, chamado **RPython** (Restricted Python). Na verdade, é um subconjunto de Python.
-
-O source code de PyPy não é executado na forma de interpretação, mas sim traduzido para a linguagem de programação C e depois executado separadamente.
-
-Isto é útil porque se quiser testar qualquer nova funcionalidade que possa ser (mas não tem de ser) introduzida na implementação do Python convencional, é mais fácil verificá-la com o PyPy do que com o CPython. É por isto que o PyPy é antes uma ferramenta para pessoas que desenvolvem Python, do que para o resto dos utilizadores.
-
-Isto não torna o PyPy menos importante ou menos sério do que o CPython, é claro.
-
-Além disso, o PyPy é compatível com a linguagem do Python 3.
-
-Existem muitos mais Pythons diferentes no mundo. Encontrá-los-á se procurar, vamos nos concentrar no CPython.
-
-# 🏗️ Sistema de implementação do Python
-<a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="77" align="right">
-
-**Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
-
-O Python é uma linguagem interpretada. Isto significa que herda todas as vantagens e desvantagens descritas. Naturalmente, acrescenta algumas das suas características únicas a ambos os conjuntos.
-Se quiser programar em Python, precisará do intérprete Python. Não será capaz de executar o seu código sem ele. Felizmente, o Python é gratuito. Esta é uma das suas vantagens mais importantes.
-Devido a razões históricas, as linguagens concebidas para serem utilizadas na forma de interpretação são muitas vezes chamadas linguagens de scripting, enquanto os source programs codificados que as utilizam são chamados scripts.
-
-O **virtualenv** do Python é utilizado para isolar a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional. Existe outra forma de fazer isso com o **Pipenv**.
 
 # 🐍 [Python] Getting started
 <img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
