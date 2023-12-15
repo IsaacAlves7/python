@@ -3819,7 +3819,33 @@ Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua
   <td>Modelo CBD</td>
   <td>O método que descreve como componentes antigos podem ser reutilizados com os novos.</td>
 </tr>
+<tr>
+  <td>RepoGuard</td>
+  <td>É um framework para integração de ferramentas de desenvolvimento com repositórios de código-fonte.</td>
+</tr>
+<tr>
+  <td>Adição dinâmica ágil</td>
+  <td>Técnicas usadas para integração do ágil para tornar o projeto mais adaptável.</td>
+</tr>
+<tr>
+  <td>Método baseado em camadas para desenvolvimento rápido de software</td>
+  <td>Baseado em camadas que segue o XP.</td>
+</tr>
+<tr>
+  <td>Método baseado em camadas para desenvolvimento rápido de software</td>
+  <td>Baseado em camadas que segue o XP.</td>
+</tr>
+<tr>
+  <td>Análise de projeto de sistema baseado em simulação</td>
+  <td>Desenvolvimento de ferramentas ágeis baseadas em simulação.</td>
+</tr>
+<tr>
+  <td>Uso de Ajax no RAD</td>
+  <td>Prototipagem rápida em aplicativos e ferramentas da Web.</td>
+</tr>
 </table>
+
+> **XP**: Extreme Programming (XP) consiste em uma metodologia de desenvolvimento de software que tem como objetivo maximizar a qualidade do software e responder mais rapidamente às mudanças nos requisitos do cliente.
 
 # 🐍 [Python] Tratamento de exceções (exceptions)
 
