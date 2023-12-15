@@ -3720,6 +3720,9 @@ Portanto, trata-se de uma metodologia importante a ser empregada para que as emp
 Observe no fluxo como iniciar um projeto RAD:
 
 1. Uma das formas de iniciar o projeto RAD é através da aplicação da metodologia Joint Application Development (JAD).
+
+> A **Joint Application Development (JAD)** é uma metodologia de desenvolvimento que tem como objetivo melhorar o entendimento do sistema ainda no início do projeto onde a principal característica da metodologia JAD são as oficinas de trabalho, em que desenvolvedores e usuários interagem e colaboram para o entendimento dos requisitos do sistema.
+  
 2. Trata-se de uma metodologia na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
 3. A ideia é potencializar o resultado do desenvolvimento através de dinâmicas de grupo.
 4. Ou seja, definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
