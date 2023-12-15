@@ -830,12 +830,10 @@ Sempre que o programador quiser forçar a ocorrência de uma operação antes de
      <td>Booleano OR (ou)</td>
   </tr>
 </table>
+ 
+> **Atenção!** É importante ficar atento ao uso correto dos operadores, respeitando a precedência entre eles, para evitar que algum cálculo seja realizado corretamente, mas com resultado diferente do esperado por você ao programar.
 
-### Atenção!
-<blockquote>É importante ficar atento ao uso correto dos operadores, respeitando a precedência entre eles, para evitar que algum cálculo seja realizado corretamente, mas com resultado diferente do esperado por você ao programar.</blockquote>
-
-### Exemplo
-  <blockquote>Um número do tipo <code>int</code> pode ser visto como um <code>float</code> com a parte decimal nula. Porém, o inverso não é verdade. Ou seja, o conjunto dos inteiros (<code>int</code>) é um subconjunto do conjunto dos reais (<code>float</code>). Assim, a expressão <code>5 + 0.68</code> – que envolve um <code>int</code> e um <code>float</code> – tem como resultado <code>5.68</code>. O inteiro <code>5</code> é convertido pelo Python para o número de ponto flutuante <code>5.0</code> antes que a soma (de dois valores <code>float</code>) seja realmente efetuada.</blockquote>
+**Exemplo**: Um número do tipo <code>int</code> pode ser visto como um <code>float</code> com a parte decimal nula. Porém, o inverso não é verdade. Ou seja, o conjunto dos inteiros (<code>int</code>) é um subconjunto do conjunto dos reais (<code>float</code>). Assim, a expressão <code>5 + 0.68</code> – que envolve um <code>int</code> e um <code>float</code> – tem como resultado <code>5.68</code>. O inteiro <code>5</code> é convertido pelo Python para o número de ponto flutuante <code>5.0</code> antes que a soma (de dois valores <code>float</code>) seja realmente efetuada.
 
 ### Conversão Implícita
 Uma **conversão implícita não intuitiva** é a dos valores booleanos `True` e `False` em inteiros, respectivamente, `1` e `0`. Veja os exemplos a seguir:
