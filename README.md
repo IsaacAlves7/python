@@ -2024,105 +2024,6 @@ print(help(fibo))
   
 Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
 
-# 🐍 BIBLIOTECA PADRÃO PYTHON 📚
-A **biblioteca padrão Python** consiste em milhares de **funções**, **métodos** e **classes** relacionados a determinada finalidade e organizados em componentes chamados **módulos**. São **mais de 200 módulos** que dão suporte, entre outras coisas, a:
-  
-- Operações matemáticas;
-- Interface gráfica com o usuário (GUI);
-- Funções matemáticas e geração de números pseudoaleatórios.
-  
-<blockquote><b>Atenção!</b> É importante lembrar dos conceitos de classes e objetos, pois eles são os principais conceitos do paradigma de programação orientada a objeto. As classes são fábricas, que podem gerar instâncias chamadas objetos. Uma classe <b>Pessoa</b>, por exemplo, pode ter como atributos nome e CPF. Ao gerar uma instância de <b>Pessoa</b>, com nome João da Silva e CPF 000.000.000-00, temos um objeto.</blockquote>
-
-<blockquote><b>Saiba+</b> Para melhor compreensão dos conceitos de classe e objeto, pesquise sobre paradigma orientado a objeto.</blockquote>
-  
-## COMO USAR UMA FUNÇÃO DE MÓDULO IMPORTADO
-Para usar as **funções** e os **métodos** de **um módulo**, são necessários dois passos:
-  
-- Fazer a importação do módulo desejado com a instrução:
-```python
-import nome_modulo
-```
-  
-- Chamar a função desejada, precedida do nome do módulo, com a instrução:
-```python
-nome_modulo.nome_funcao(paramêtros)
-```
-  
-Como exemplo, vamos importar o módulo **math** (dedicado a operações matemáticas) e calcular a **raiz quadrada** de 5, por meio da função `sqrt()`. Observe a Figura 30:
-
-<pre>
->>>import math
->>>math.sqrt(5)
-2.23606797749979
-</pre>
-
-A partir desse ponto, serão apresentados os principais aspectos dos seguintes módulos:
-
-- `math` usado para operações matemáticas;
-- `random` usado para gerar números pseudoaleatórios;
-- `smtplib` usado para permitir envio de e-mails;
-- `time` usado para implementar contadores temporais;
-- `tkinter` usado para desenvolver interfaces gráficas.
-  
-## MÓDULO `MATH`
-Esse módulo provê acesso a **funções matemáticas de argumentos reais**. As funções **não podem ser usadas com números complexos**.
-
-O módulo `math` tem as funções listadas na Tabela 7, entre outras:
-  
-<table>
-  <tr>
-    <td><b>Função</b></td>
-    <td><b>Retorno</b></td>
-  </tr>
-  <tr>
-    <td><code>sqrt(x)</code></td>
-    <td>Raiz quadrada de x</td>
-  </tr>
-  <tr>
-    <td><code>ceil(x)</code></td>
-    <td>Menor inteiro maior ou igual a x</td>
-  </tr>
-  <tr>
-    <td><code>floor(x)</code></td>
-    <td>Maior inteiro menor ou igual a x</td>
-  </tr>
-  <tr>
-    <td><code>cos(x)</code></td>
-    <td>Cosseno de x</td>
-  </tr>
-  <tr>
-    <td><code>sin(x)</code></td>
-    <td>Seno de x</td>
-  </tr>
-  <tr>
-    <td><code>log(x,b)</code></td>
-    <td>Logaritmo de x na base b</td>
-  </tr>
-  <tr>
-    <td><code>pi</code></td>
-    <td>Valor de Pi (3.141592...)</td>
-  </tr>
-  <tr>
-    <td><code>e</code></td>
-    <td>Valor de e (2.718281...)</td>
-  </tr>
-</table>
-  
-<blockquote><b>Saiba+</b> Para mais informações sobre o módulo <code>math</code>, visite a biblioteca Python.</blockquote>  
-
-## MÓDULO `RANDOM`
-Esse módulo implementa geradores de números pseudoaleatórios para várias distribuições.
-
-- **Números inteiros**: Para inteiros, existe uma seleção uniforme a partir de um intervalo.
-  
-- **Sequências**: Para sequências, existem:
-  - Uma seleção uniforme de um elemento aleatório;
-  - Uma função para gerar uma permutação aleatória das posições na lista;
-  - Uma função para escolher aleatoriamente sem substituição.
-  
-## Distribuições de valores reais
-A Tabela 8 mostra algumas das principais funções disponíveis para distribuições de valores reais no módulo `random`. 
-
 # 🐍 [Python] Getting started
 <img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
 
@@ -2751,6 +2652,93 @@ NameError: name 'sin' is not defined
 
 Embora o Python tenha muitas funções internas, como o `print()`, também possui um conjunto de bibliotecas-padrão, que são programas em Python que podem ser incluídos no seu programa. Usaremos o módulo math, pois ele disponibiliza diversas funções matemáticas. Existem certas formas de “chamar” esses módulos no seu programa, a seguir veremos algumas.
 
+### [Python] BIBLIOTECA PADRÃO 
+A **biblioteca padrão Python** consiste em milhares de **funções**, **métodos** e **classes** relacionados a determinada finalidade e organizados em componentes chamados **módulos**. São **mais de 200 módulos** que dão suporte, entre outras coisas, a:
+  
+- Operações matemáticas;
+- Interface gráfica com o usuário (GUI);
+- Funções matemáticas e geração de números pseudoaleatórios.
+  
+<blockquote><b>Atenção!</b> É importante lembrar dos conceitos de classes e objetos, pois eles são os principais conceitos do paradigma de programação orientada a objeto. As classes são fábricas, que podem gerar instâncias chamadas objetos. Uma classe <b>Pessoa</b>, por exemplo, pode ter como atributos nome e CPF. Ao gerar uma instância de <b>Pessoa</b>, com nome João da Silva e CPF 000.000.000-00, temos um objeto.</blockquote>
+
+<blockquote><b>Saiba+</b> Para melhor compreensão dos conceitos de classe e objeto, pesquise sobre paradigma orientado a objeto.</blockquote>
+  
+## COMO USAR UMA FUNÇÃO DE MÓDULO IMPORTADO
+Para usar as **funções** e os **métodos** de **um módulo**, são necessários dois passos:
+  
+- Fazer a importação do módulo desejado com a instrução:
+```python
+import nome_modulo
+```
+  
+- Chamar a função desejada, precedida do nome do módulo, com a instrução:
+```python
+nome_modulo.nome_funcao(paramêtros)
+```
+  
+Como exemplo, vamos importar o módulo **math** (dedicado a operações matemáticas) e calcular a **raiz quadrada** de 5, por meio da função `sqrt()`. Observe a Figura 30:
+
+<pre>
+>>>import math
+>>>math.sqrt(5)
+2.23606797749979
+</pre>
+
+A partir desse ponto, serão apresentados os principais aspectos dos seguintes módulos:
+
+- `math` usado para operações matemáticas;
+- `random` usado para gerar números pseudoaleatórios;
+- `smtplib` usado para permitir envio de e-mails;
+- `time` usado para implementar contadores temporais;
+- `tkinter` usado para desenvolver interfaces gráficas.
+  
+## [Python] MÓDULO `MATH`
+Esse módulo provê acesso a **funções matemáticas de argumentos reais**. As funções **não podem ser usadas com números complexos**.
+
+O módulo `math` tem as funções listadas na Tabela 7, entre outras:
+  
+<table>
+  <tr>
+    <td><b>Função</b></td>
+    <td><b>Retorno</b></td>
+  </tr>
+  <tr>
+    <td><code>sqrt(x)</code></td>
+    <td>Raiz quadrada de x</td>
+  </tr>
+  <tr>
+    <td><code>ceil(x)</code></td>
+    <td>Menor inteiro maior ou igual a x</td>
+  </tr>
+  <tr>
+    <td><code>floor(x)</code></td>
+    <td>Maior inteiro menor ou igual a x</td>
+  </tr>
+  <tr>
+    <td><code>cos(x)</code></td>
+    <td>Cosseno de x</td>
+  </tr>
+  <tr>
+    <td><code>sin(x)</code></td>
+    <td>Seno de x</td>
+  </tr>
+  <tr>
+    <td><code>log(x,b)</code></td>
+    <td>Logaritmo de x na base b</td>
+  </tr>
+  <tr>
+    <td><code>pi</code></td>
+    <td>Valor de Pi (3.141592...)</td>
+  </tr>
+  <tr>
+    <td><code>e</code></td>
+    <td>Valor de e (2.718281...)</td>
+  </tr>
+</table>
+  
+<blockquote><b>Saiba+</b> Para mais informações sobre o módulo <code>math</code>, visite a biblioteca Python.</blockquote>  
+
+
 Vamos ver um exemplo, utilizando o Google Colab, para importar e usar a famosa biblioteca **Math** do Python, que permite utilizar funções matemáticas dentro da linguagem de programação:
 
 A palavra-chave, nessa situação, é `import`, e, logo depois, coloca-se o módulo. Por questão de organização, o ideal é colocar sempre no início do programa. 
@@ -2857,6 +2845,19 @@ Para instalar algum pacote nesse ambiente virtual python, basta:
 ```sh
 pipenv install <package_name>
 ```
+
+## [Python] MÓDULO `RANDOM`
+Esse módulo implementa geradores de números pseudoaleatórios para várias distribuições.
+
+- **Números inteiros**: Para inteiros, existe uma seleção uniforme a partir de um intervalo.
+  
+- **Sequências**: Para sequências, existem:
+  - Uma seleção uniforme de um elemento aleatório;
+  - Uma função para gerar uma permutação aleatória das posições na lista;
+  - Uma função para escolher aleatoriamente sem substituição.
+  
+## Distribuições de valores reais
+A Tabela 8 mostra algumas das principais funções disponíveis para distribuições de valores reais no módulo `random`. 
 
 # 🐍 [Python] Aritmética computacional
 A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
