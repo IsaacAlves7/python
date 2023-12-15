@@ -851,8 +851,7 @@ Além das **conversões implícitas**, o programador também pode usar as **conv
 
 O `int 2` pode ser tratado naturalmente como o `float 2.0`, basta acrescentar a parte decimal nula. Porém, ao tentar tratar um `float` como `int`, ocorre a remoção da parte decimal.
 
-### Atenção!
-<blockquote>Fique atento, porque não é uma aproximação para o inteiro mais próximo, e sim o <b>truncamento</b>.</blockquote>
+> **Atenção!** Fique atento, porque não é uma aproximação para o inteiro mais próximo, e sim o **truncamento**.
 
 Agora que você já viu os principais tipos de dados suportados em Python, vamos exercitar e verificar o aprendizado.
 
@@ -883,8 +882,7 @@ Python também permite a **atribuição múltipla**, ou seja, mais de uma variá
 
 ![figura36](https://user-images.githubusercontent.com/61624336/135550002-e383e5de-b764-4d09-b497-93ee47013575.png)
 
-#### Atenção!
-Observe que as variáveis `x` e `y` receberam atribuição na mesma instrução, com a variável `x` armazenando o valor `2`, e a variável `y` armazenando o valor `5`.
+> **Atenção!** Observe que as variáveis `x` e `y` receberam atribuição na mesma instrução, com a variável `x` armazenando o valor `2`, e a variável `y` armazenando o valor `5`.
 
 ### Operadores de atribuição compostos
 Os **operadores de atribuição compostos** executam operações matemáticas e atualizam o valor da variável utilizada. Por exemplo, veja a figura 37:
@@ -942,8 +940,7 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
   </tr>
 </table>
 
-#### Atenção!
-<blockquote>Diferente de <b>C</b>, em <b>Python</b> não é possível incrementar ou decrementar uma variável com um operador unário, como o <code>++</code> ou <code>--</code>.</blockquote>
+> **Atenção!** Diferente de <b>C</b>, em <b>Python</b> não é possível incrementar ou decrementar uma variável com um operador unário, como o <code>++</code> ou <code>--</code>.
   
 ## Troca de variáveis
 Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a troca entre duas delas. Suponha que as variáveis `a` e `b` armazenem, respectivamente, os valores `1` e `2`. Caso quiséssemos inverter os valores em linguagens como **C** ou **Java**, seria necessário usar uma variável auxiliar, com uma sequência de instruções exibida na figura a seguir:
@@ -1002,8 +999,7 @@ A **linha 1** fará com que a frase Entre com seu nome: seja exibida no console,
 
 ![figura49](https://user-images.githubusercontent.com/61624336/135557120-0a3212eb-c88d-4bce-bf43-368ba46ebeb7.png)
 
-### Atenção!
-É importantíssimo perceber que a função `input()` trata **tudo o que for digitado** pelo usuário como uma `string`, armazenando na variável designada pelo programador para isso. Mesmo que o usuário entre com apenas uma letra ou um número, isso será armazenado como uma string na variável.
+> **Atenção!** É importantíssimo perceber que a função `input()` trata **tudo o que for digitado** pelo usuário como uma `string`, armazenando na variável designada pelo programador para isso. Mesmo que o usuário entre com apenas uma letra ou um número, isso será armazenado como uma string na variável.
   
 Vamos analisar o exemplo a seguir:
 
@@ -1103,8 +1099,7 @@ As **estruturas de decisão** e de **repetição** possuem sintaxes bastante sem
   </tr>
 </table>
 
-### Atenção!
-Observe que o fato de haver o tipo `bool` em Python permite que as condições sejam tratadas como **verdadeiras** ou **falsas**, o que não é exatamente igual em **C**.
+> **Atenção!** Observe que o fato de haver o tipo `bool` em Python permite que as condições sejam tratadas como **verdadeiras** ou **falsas**, o que não é exatamente igual em **C**.
 
 ## AS ESTRUTURAS DE DECISÃO `IF`, `IF-ELSE` E `ELIF`
 Em Python, é possível utilizar as estruturas de decisão `if` e `if-else` da mesma forma que em **C**. A diferença principal é o modo de delimitar os blocos de instruções relativos a cada parte da estrutura. Observe a Tabela 2 e a Tabela 3:
