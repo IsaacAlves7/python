@@ -1550,19 +1550,17 @@ Parabéns! A alternativa "B" está correta.
 
 Ao ser testada pela primeira vez, a condição do while é verdadeira, já que s vale zero. Assim, a variável s recebe o valor 3 (3x1) e a variável a é acrescida de uma unidade, ficando com o valor 2. Em seguida, é impresso o valor de s (3). A condição do while é, então, testada novamente, sendo mais uma vez verdadeira, porque s tem o valor 3 (menor que 5). Nessa iteração, a variável s recebe o valor 6 (3x2) e a variável a é acrescida de uma unidade, ficando com o valor 3. Em seguida, é impresso o valor de s (6). A condição do while é, então, testada novamente e é falsa, já que s tem o valor 6, maior que 5. Com isso, o laço while é encerrado e nada mais é impresso. Logo, foram impressos os valores 3 e 6.
               
-## Subprogramas
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" height="277"></div><br \>
+# [Python] Subprogramas
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" height="77" align="right">
              
 Os **subprogramas** são elementos fundamentais dos programas e por isso são importantes no estudo de linguagens de programação. Neste módulo, abordaremos os conceitos de subprogramas, como características gerais, passagem de parâmetros e recursividade, além da utilização de subprogramas em Python.
 
-### CARACTERÍSTICAS GERAIS DOS SUBPROGRAMAS
 Todos os subprogramas estudados neste módulo, com base em Sebesta (2018), têm as seguintes características:
 
 - Cada subprograma tem **um único ponto de entrada**.
 - A unidade de programa chamadora é suspensa durante a execução do subprograma chamado, o que significa que existe apenas um subprograma em execução em determinado momento.
 - Quando a execução do subprograma termina, o controle sempre retorna para o chamador.
 
-### DEFINIÇÕES BÁSICAS
 As definições básicas, conforme Sebesta (2018), estabelecem que:
 
 1. Um subprograma é definido quando o desenvolvedor descreve a **interface** e as **ações da abstração** desse subprograma.
@@ -1628,8 +1626,7 @@ Observe que mesmo com a definição da linha 1 de dois parâmetros formais, a ch
   
 A palavra reservada `return` indica que a função **retorna** algum valor. Isso implica que o valor retornado seja armazenado em uma variável do programa chamador (como ocorre na linha 8), ou utilizado como parâmetro para outra função.
   
-### Atenção!
-Retornar um valor é diferente de imprimir na tela. Ao utilizar a função `print()`, ocorre apenas a impressão de algo na tela, o que não significa que tenha havido retorno de qualquer função definida pelo usuário.
+> **Atenção!** Retornar um valor é diferente de imprimir na tela. Ao utilizar a função `print()`, ocorre apenas a impressão de algo na tela, o que não significa que tenha havido retorno de qualquer função definida pelo usuário.
   
 ## PROCEDIMENTOS E FUNÇÕES
 Os **subprogramas** podem ser, distintamente, **procedimentos** e **funções**. De acordo com Sebesta (2018):
@@ -1672,8 +1669,7 @@ Quando um subprograma define suas **próprias variáveis**, estabelece ambientes
 #### Dinâmicas da pilha
 São vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
   
-#### Atenção!
-Nas linguagens **C** e **C++**, as **variáveis locais** são _dinâmicas da pilha_, a menos que sejam especificamente declaradas como **static**. **Todas as variáveis locais em Python são dinâmicas da pilha**. As **variáveis globais** são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local com mesmo nome de uma variável global, esta é implicitamente declarada como local.
+> **Atenção!** Nas linguagens **C** e **C++**, as **variáveis locais** são _dinâmicas da pilha_, a menos que sejam especificamente declaradas como **static**. **Todas as variáveis locais em Python são dinâmicas da pilha**. As **variáveis globais** são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local com mesmo nome de uma variável global, esta é implicitamente declarada como local.
   
 Voltando ao exemplo da Figura 18, vamos detalhar as funções func1(x) e func2(x):
 
