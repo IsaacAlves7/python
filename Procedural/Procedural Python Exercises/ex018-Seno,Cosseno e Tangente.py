@@ -1,4 +1,4 @@
-import  math
+import math
 an=float(input('Digite o Ângulo que voce deseja:'))
 sen=math.sin(math.radians(an))
 cos=math.cos(math.radians(an))
