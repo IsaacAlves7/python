@@ -268,9 +268,6 @@ Devido a razões históricas, as linguagens concebidas para serem utilizadas na 
 
 O **virtualenv** do Python é utilizado para isolar a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional. Existe outra forma de fazer isso com o **Pipenv**.
 
-# 🐍 Python Programming
-Vamos focar nos principais fundamentos para programar na linguagem python.
-
 ## UTILITÁRIOS E MÓDULOS
 <img src="https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png" align="right">
 
