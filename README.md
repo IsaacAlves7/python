@@ -180,6 +180,12 @@ Certificações em Python:
 - https://pythoninstitute.org/pcap
 - https://pythoninstitute.org/
 
+Ao começar sua jornada como programador, é importante perceber que existem algumas práticas que não são obrigatórias, mas podem ajudar muito no seu aprendizado. Além disso, podem permitir que você corrija mais rapidamente erros que podem surgir no futuro e tornam seu código mais fácil de ser compreendido por outro programador, favorecendo o trabalho em equipe. Vamos conhecer algumas delas:
+
+- Uma prática muito importante é utilizar comentários no seu programa, explicando o que aquele trecho resolve.
+
+- Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas **PEP** (Python Enhancement Proposals). Dentre as PEPs, destaca-se a **PEP8**, que estabelece um guia de estilo de programação.
+
 ## Há mais de um Python
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
 
@@ -266,9 +272,9 @@ O **virtualenv** do Python é utilizado para isolar a versão do Python e das bi
 Vamos focar nos principais fundamentos para programar na linguagem python.
 
 ## UTILITÁRIOS E MÓDULOS
-Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
+<img src="https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png" align="right">
 
-![figura02](https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png)
+Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
 
 Não se preocupe ainda com o conceito de variável, nem com o seu tipo. Veremos tudo isso com detalhes nos próximos módulos deste tema.
 
@@ -297,25 +303,19 @@ else:
 print(a)
 ~~~
 
-**Linha 1**
-Está mais à esquerda, assim como as linhas 2 e 11.
+1. **Linha 1** Está mais à esquerda, assim como as linhas 2 e 11.
 
-**Linha 2**
-Todas as linhas de 3 a 10 estão dentro do bloco do for da linha 2.
+2. **Linha 2** Todas as linhas de 3 a 10 estão dentro do bloco do `for` da linha 2.
 
-**Linha 3**
-Observe que a linha 3 tem um if abrindo um bloco, dentro do qual estão as linhas 4 e 5.
+3. **Linha 3** Observe que a linha 3 tem um `if` abrindo um bloco, dentro do qual estão as linhas 4 e 5.
 
-**Linha 6**
-Por sua vez, a linha 6 tem um else abrindo outro bloco, composto pelas linhas de 7 a 10. Os blocos do if (linha 3) e do else (linha 6) estão no mesmo nível.
+6. **Linha 6** Por sua vez, a linha 6 tem um `else` abrindo outro bloco, composto pelas linhas de 7 a 10. Os blocos do `if` (linha 3) e do `else` (linha 6) estão no mesmo nível.
 
-**Linha 7**
-Mostra outro if abrindo outro bloco – composto apenas pela linha 8 – que está no mesmo nível do bloco do else da linha 9 – composto apenas pela linha 10.
+7. **Linha 7** Mostra outro `if` abrindo outro bloco – composto apenas pela linha 8 – que está no mesmo nível do bloco do `else` da linha 9 – composto apenas pela linha 10.
 
-**Linha 11**
-Como a linha 11 está no mesmo nível da linha 2, ela não faz parte do bloco do for.
+11. **Linha 11** Como a linha 11 está no mesmo nível da linha 2, ela não faz parte do bloco do `for`.
 
-## COMENTÁRIOS
+## Comentários em Python
 Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas**. A tabela 1 mostra as formas de limitar um comentário, além de comparar essas formas em **Python** e **C**.
 
 |            | Python | C |
@@ -323,16 +323,13 @@ Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas
 | Comentários de 1 linha |	Iniciados com `#` | Iniciados com `//` |
 | Comentários de várias linhas | Limitados por `“””` (três aspas duplas) no início e no fim	 | Iniciados com `/*` e encerrados com `*/` |
 
-<blockquote>#️⃣ <b>ATENÇÃO:</b> É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.</blockquote>
-
-## BOAS PRÁTICAS DE PROGRAMAÇÃO
-Ao começar sua jornada como programador, é importante perceber que existem algumas práticas que não são obrigatórias, mas podem ajudar muito no seu aprendizado. Além disso, podem permitir que você corrija mais rapidamente erros que podem surgir no futuro e tornam seu código mais fácil de ser compreendido por outro programador, favorecendo o trabalho em equipe. Vamos conhecer algumas delas:
-
-- Uma prática muito importante é utilizar comentários no seu programa, explicando o que aquele trecho resolve.
-
-- Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas **PEP** (Python Enhancement Proposals). Dentre as PEPs, destaca-se a **PEP8**, que estabelece um guia de estilo de programação.
+> (Warning!)
+> 
+> É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.
 
 ## Variáveis em Python
+<img src="https://user-images.githubusercontent.com/61624336/133180044-a4cebb34-ac4e-4924-99f8-0b3ae55f3486.png" align="right">
+
 As **variáveis** são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o identificador `x`, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, recuperar o valor guardado nele, que no nosso exemplo é `10`.
 
 Uma analogia possível com o mundo real é com aquelas caixas de correio que ficam em frente às casas.
@@ -341,7 +338,6 @@ Em Python, o operador de atribuição é o `=` (símbolo de igual). A instruçã
 
 No prompt interativo `>>>`, digite `x = 10` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Em seguida, digite `x` e pressione a tecla [ENTER] ou [RETURN].
 
-![figura05](https://user-images.githubusercontent.com/61624336/133180044-a4cebb34-ac4e-4924-99f8-0b3ae55f3486.png)
 
 <blockquote>Observe na figura 5 que o retorno do Python Console foi 10.</blockquote>
 
@@ -496,11 +492,10 @@ Digite a expressão algébrica 5 + 8 e pressione a tecla [ENTER]. Observe o resu
 
 O **Python Console** permite que você calcule expressões algébricas como uma **calculadora**, além de executar instruções básicas em Python.
 
-## TIPOS NUMÉRICOS
+## [Python] TIPOS NUMÉRICOS
 Existem três tipos numéricos distintos em Python: **inteiros**, **números de ponto flutuante** e **números complexos**. Além disso, os **booleanos** são um subtipo dos inteiros.
 
-### O tipo int
-É o tipo usado para manipular números inteiros. Fazendo uma analogia com a Matemática, o tipo `int` é usado para elementos do conjunto dos inteiros (Z).
+O `int` é o tipo usado para manipular números inteiros. Fazendo uma analogia com a Matemática, o tipo `int` é usado para elementos do conjunto dos inteiros (Z).
 
 Diferentemente de outras linguagens, como **C** ou **Java**, a **linguagem Python** não limita o tamanho de uma variável de qualquer tipo, logo, não existe um valor inteiro máximo definido. O limite depende da quantidade de memória disponível no computador. De volta ao Python Console, veja algumas coisas interessantes.
 
@@ -508,8 +503,7 @@ Digite 1_000_000 e pressione a tecla [ENTER].
 
 ![figura18](https://user-images.githubusercontent.com/61624336/133261203-da26e2ac-befa-4663-b3ef-fe783af0c10f.png)
 
-### O tipo float
-É o tipo usado para manipular números com parte inteira e parte decimal, chamados de **números de ponto flutuante**. Fazendo uma analogia com a Matemática, o tipo **float** é usado para elementos do conjunto dos reais (R).
+O tipo `float` é o tipo usado para manipular números com parte inteira e parte decimal, chamados de **números de ponto flutuante**. Fazendo uma analogia com a Matemática, o tipo **float** é usado para elementos do conjunto dos reais (R).
 
 Para diferenciar um número real de um inteiro, é possível utilizar a parte decimal zerada. No prompt interativo `>>>`, digite `type(50.0)` e pressione a tecla [ENTER].
 
@@ -553,7 +547,7 @@ Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a p
 
 A chamada `r.conjugate()` retorna o conjugado do número complexo `r`, em que a _parte real_ é **mantida** e a _parte imaginária_ tem o seu **sinal trocado**.
 
-### O tipo bool
+## [Python] tipo booleano
 Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar **expressões não algébricas** também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
 
 No prompt interativo `>>>`, digite a expressão `2 < 3` e pressione [ENTER]. Observe o resultado na figura 27:
