@@ -1878,17 +1878,15 @@ O **parâmetro formal** funciona como uma variável local do subprograma, sendo 
                       
 ### Referência
 Em vez de passar o valor do **parâmetro real**, é transmitido um caminho de acesso (normalmente um endereço) para o subprograma chamado. Isso fornece o caminho de acesso para a célula que armazena o parâmetro real. Assim, o subprograma chamado pode acessar o parâmetro real na unidade de programa chamadora.
-                      
-### Saiba mais +
-Na **linguagem C**, utilizamos ponteiros para fazer a passagem de parâmetros por referência. As **transmissões de parâmetros** que não sejam ponteiros utilizam a passagem por valor.
-                      
-O método de passagem de parâmetros de Python é chamado **passagem por atribuição**. Como todos os valores de dados são objetos, toda variável é uma referência para um objeto. Ao se estudar orientação a objetos, fica mais clara a diferença entre a passagem por atribuição e a passagem por referência. **Por enquanto, podemos entender que a passagem por atribuição é uma passagem por referência, pois os valores de todos os parâmetros reais são referências**.
 
-## RECURSIVIDADE
+> [!NOTE]
+> Saiba mais: Na linguagem C, utilizamos ponteiros para fazer a passagem de parâmetros por referência. As **transmissões de parâmetros** que não sejam ponteiros utilizam a passagem por valor. O método de passagem de parâmetros de Python é chamado **passagem por atribuição**. Como todos os valores de dados são objetos, toda variável é uma referência para um objeto. Ao se estudar orientação a objetos, fica mais clara a diferença entre a passagem por atribuição e a passagem por referência. Por enquanto, podemos entender que a passagem por atribuição é uma passagem por referência, pois os valores de todos os parâmetros reais são referências.
+
+## [Python] RECURSIVIDADE
 Uma **função recursiva** é aquela que chama a si mesma. Veja o exemplo da função `regressiva()`, como mostrado na Figura 23:
 
 ```python
- def regressiva(x):
+def regressiva(x):
   print(x)
   regressiva(x - 1)
 ```
