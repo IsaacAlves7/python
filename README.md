@@ -396,13 +396,11 @@ Perceba que a chamada **type** (parâmetro) retorna o tipo do parâmetro informa
 ### ESCOPO DE VISIBILIDADE
 O escopo define em quais partes do programa uma variável é visível. Cada nome de variável em Python tem seu escopo e fora desse escopo o nome não existe, gerando um erro quando se tenta referenciar esse nome. Quanto ao escopo, chamamos as **variáveis de globais** ou **locais**.
 
-### Variáveis globais
-Todos os nomes atribuídos no prompt interativo ou em um módulo fora de qualquer função são considerados como de **escopo global**. Por exemplo, ao executar a instrução da figura 9, a variável `x` é uma variável global.
+Variáveis globais: Todos os nomes atribuídos no prompt interativo ou em um módulo fora de qualquer função são considerados como de **escopo global**. Por exemplo, ao executar a instrução da figura 9, a variável `x` é uma variável global.
 
 ![figura08](https://user-images.githubusercontent.com/61624336/133186462-e611ec00-cf05-4c65-aa08-39b01e6286a5.png)
 
-### Variáveis locais
-Para exemplificar o uso de variáveis com **escopo local**, vamos utilizar uma função definida pelo desenvolvedor. Não se preocupe com esse tipo de função por enquanto, você aprenderá mais detalhes posteriormente. Observe a figura 10:
+Variáveis locais: Para exemplificar o uso de variáveis com **escopo local**, vamos utilizar uma função definida pelo desenvolvedor. Não se preocupe com esse tipo de função por enquanto, você aprenderá mais detalhes posteriormente. Observe a figura 10:
 
 ![figura10](https://user-images.githubusercontent.com/61624336/133186774-2723bffc-04d8-4ffa-ab3f-21ed1a386bb7.png)
 
