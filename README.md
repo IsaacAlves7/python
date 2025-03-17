@@ -320,8 +320,7 @@ Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas
 | Comentários de 1 linha |	Iniciados com `#` | Iniciados com `//` |
 | Comentários de várias linhas | Limitados por `“””` (três aspas duplas) no início e no fim	 | Iniciados com `/*` e encerrados com `*/` |
 
-> (Warning!)
-> 
+> [!Warning]
 > É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.
 
 ## Variáveis em Python
