@@ -552,8 +552,6 @@ No prompt interativo `>>>`, digite a expressão `not(2 < 3)` e pressione [ENTER]
 É possível também escrever **expressões booleanas** compostas, utilizando conectivos como `E` `OU`. Vamos ver mais detalhes sobre essas expressões ainda neste módulo.
 
 ## Operadores numéricos
-
-### Operadores matemáticos/ aritméticos
 Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo **Álgebra** e **Aritmética** na escola. Existem algumas pequenas diferenças, como a **divisão** (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
 
 <table style="width:100%">
