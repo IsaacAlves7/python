@@ -1912,8 +1912,7 @@ Uma **função recursiva** que termina tem:
   
 Alguns exemplos clássicos de funções que podem ser implementadas de forma recursiva são **o cálculo do fatorial de um inteiro não negativo** e a **sequência de Fibonacci**, que serão explorados a seguir.
 
-### A função recursiva fatorial
-A `função matemática fatorial de um inteiro não negativo n` é calculada por:
+A função recursiva fatorial: A `função matemática fatorial de um inteiro não negativo n` é calculada por:
   
 ![função recursiva fatorial](https://user-images.githubusercontent.com/61624336/138567412-761c5bad-3216-4e3e-a59a-99a7706c8343.png)
 
@@ -1946,7 +1945,6 @@ Vale ressaltar que a função fatorial também poderia ter sido implementada de 
   
 Porém, neste tópico, o intuito principal é explorar a recursividade.
 
-### A sequência de Fibonacci
 A **sequência de Fibonacci** é: `1, 1, 2, 3, 5, 8, 13, 21...` Os dois primeiros termos são `1` e, a partir do 3º termo, cada termo é a soma dos dois anteriores.
 
 Uma possível implementação recursiva de função que determina o **n-ésimo** termo da sequência de Fibonacci está na Figura 27:
