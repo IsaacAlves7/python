@@ -1098,8 +1098,7 @@ Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja 
   
 ![figura40](https://user-images.githubusercontent.com/61624336/135555122-4a80fd61-9d9b-4b9b-a867-748b293ccd98.png)
 
-## 🐍 O PRIMEIRO PROGRAMA EM PYTHON 🖥️
-
+## 🐍 O PRIMEIRO PROGRAMA EM PYTHON
 Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
 
 ### Saída de dados com a função `print()`
