@@ -435,11 +435,9 @@ Perceba que, se a variável `a` é inicializada na função `multiplicador()`, q
 ### Tipos de escopo
 Os tipos de escopo são:
 
-### ESTÁTICO
-O escopo é baseado na descrição textual do programa e as amarrações são feitas em tempo de compilação. É o caso de **C**, **C++** e **Java**, por exemplo.
+ESTÁTICO: O escopo é baseado na descrição textual do programa e as amarrações são feitas em tempo de compilação. É o caso de **C**, **C++** e **Java**, por exemplo.
 
-### DINÂMICO
-O escopo é baseado na sequência de chamada dos **módulos** (ou funções). Por isso, as amarrações são feitas em tempo de execução. É o caso do Python.
+DINÂMICO: O escopo é baseado na sequência de chamada dos **módulos** (ou funções). Por isso, as amarrações são feitas em tempo de execução. É o caso do Python.
 
 O fato de Python ser de escopo dinâmico traz alguns problemas, como a **perda de eficiência** – uma vez que os tipos precisam ser verificados em tempo de execução – e a redução na legibilidade – porque é difícil determinar a sequência exata de todas as **chamadas de função**.
 
