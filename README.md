@@ -348,7 +348,6 @@ No prompt interativo, digite `b` e pressione a tecla [ENTER] ou [RETURN].
 
 Veja na figura 7 que a mensagem de erro informa que o nome `b` não foi definido. Ou seja, não é possível determinar o valor atribuído a esse nome.
 
-## IDENTIFICADORES DE VARIÁVEIS
 Os **identificadores das variáveis** podem ser compostos por **letras**, o **underline** (_) e, com **exceção** do primeiro caractere, números de `0` a `9`. Veja os exemplos:
 
 **minhaVariavel**, **_variavel**, **salario1** e **salario1_2** são válidos.
@@ -363,7 +362,6 @@ Mesmo que seja um identificador permitido, nem sempre um identificador é bom pa
 
 Algumas palavras são consideradas reservadas e não podem ser usadas como identificadores de variáveis em Python. São elas: `and`, `as`, `assert`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`, `except`, `exec`, `finally`, `for`, `from`, `global`, `if`, `import`, `in`, `is`, `lambda`, `not`, `or`, `pass`, `print`, `raise`, `return`, `try`, `while`, `with` e `yield`.
 
-## AMARRAÇÕES (binding)
 Chamamos de **amarração** (binding) a **associação** entre entidades de programação. Veja alguns exemplos:
 
 1. `Variável amarrada a um valor`
@@ -392,7 +390,6 @@ Veja a figura 8:
 
 Perceba que a chamada **type** (parâmetro) retorna o tipo do parâmetro informado entre parênteses. Observe que a variável valor recebeu `10` e, com isso, ficou vinculada ao tipo `int`. Porém, ao receber o valor ‘a’, passou a estar vinculada ao tipo **str** (string).
 
-### ESCOPO DE VISIBILIDADE
 O escopo define em quais partes do programa uma variável é visível. Cada nome de variável em Python tem seu escopo e fora desse escopo o nome não existe, gerando um erro quando se tenta referenciar esse nome. Quanto ao escopo, chamamos as **variáveis de globais** ou **locais**.
 
 Variáveis globais: Todos os nomes atribuídos no prompt interativo ou em um módulo fora de qualquer função são considerados como de **escopo global**. Por exemplo, ao executar a instrução da figura 9, a variável `x` é uma variável global.
@@ -429,7 +426,6 @@ Perceba que, se a variável `a` é inicializada na função `multiplicador()`, q
 
 ![figura15](https://user-images.githubusercontent.com/61624336/133187955-a319888d-32fc-49e3-9f72-36860e4ba1cb.png)
 
-### Tipos de escopo
 Os tipos de escopo são:
 
 ESTÁTICO: O escopo é baseado na descrição textual do programa e as amarrações são feitas em tempo de compilação. É o caso de **C**, **C++** e **Java**, por exemplo.
@@ -438,15 +434,13 @@ DINÂMICO: O escopo é baseado na sequência de chamada dos **módulos** (ou fun
 
 O fato de Python ser de escopo dinâmico traz alguns problemas, como a **perda de eficiência** – uma vez que os tipos precisam ser verificados em tempo de execução – e a redução na legibilidade – porque é difícil determinar a sequência exata de todas as **chamadas de função**.
 
-### TEMPO DE VIDA
 Embora **escopo** e **tempo de vida** tenham uma relação próxima, eles são conceitos diferentes. Observe:
 
 `Escopo é um conceito textual` x `Tempo de vida é um conceito temporal`
 
 As **variáveis globais** têm o tempo de vida que é o de execução do programa, ao passo que as variáveis locais somente existem no intervalo de duração da função ou do bloco a que se limitam.
 
-## CONSTANTES
-Em Python, não existe o conceito de constante (Arrays). Se você precisar de uma constante ao longo de sua jornada como programador, atribua o valor a uma variável e tome cuidado para não mudar esse valor.
+Em Python, não existe o conceito de constante. Se você precisar de uma constante ao longo de sua jornada como programador, atribua o valor a uma variável e tome cuidado para não mudar esse valor.
 
 <blockquote><b>Dica:</b> Uma dica é iniciar o nome dessa variável com c_ ou utilizar todas as letras maiúsculas, o que vai diferenciar essa variável das outras. Por exemplo, é possível utilizar a expressão c_PI = 3.141592 para armazenar o valor de PI e agilizar o cálculo de área e perímetro de um círculo, ou utilizar a expressão PRECISION = 0.001 para armazenar a precisão a ser utilizada em qualquer cálculo matemático no seu programa.</blockquote>
 
