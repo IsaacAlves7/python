@@ -367,7 +367,9 @@ Algumas palavras são consideradas reservadas e não podem ser usadas como ident
 ## AMARRAÇÕES (binding)
 Chamamos de **amarração** (binding) a **associação** entre entidades de programação. Veja alguns exemplos:
 
-`Variável amarrada a um valor` `Operador amarrado a um símbolo` `Identificador amarrado a um tipo`
+1. `Variável amarrada a um valor`
+2. `Operador amarrado a um símbolo`
+3. `Identificador amarrado a um tipo`
 
 O tempo em que a amarração ocorre é chamado de **tempo de amarração**. Cada linguagem pode ter os seguintes tempos de amarração:
 
