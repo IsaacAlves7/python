@@ -335,8 +335,7 @@ Em Python, o operador de atribuição é o `=` (símbolo de igual). A instruçã
 
 No prompt interativo `>>>`, digite `x = 10` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Em seguida, digite `x` e pressione a tecla [ENTER] ou [RETURN].
 
-
-<blockquote>Observe na figura 5 que o retorno do Python Console foi 10.</blockquote>
+> Observe na figura 5 que o retorno do Python Console foi 10.
 
 Se, posteriormente, você utilizar novamente o prompt interativo `>>>` para digitar `x = 20` e pressionar a tecla [ENTER], você alterará o valor da variável `x`. Ou seja, você estará mudando o valor armazenado naquele espaço de memória, mas sem alterar seu apelido. Observe a figura 6:
 
@@ -372,34 +371,19 @@ Chamamos de **amarração** (binding) a **associação** entre entidades de prog
 
 O tempo em que a amarração ocorre é chamado de **tempo de amarração**. Cada linguagem pode ter os seguintes tempos de amarração:
 
-### TEMPO DE PROJETO DA LINGUAGEM
-Os símbolos são amarrados ao operador, como `*` (multiplicação), ou à definição das palavras reservadas.
-
-### TEMPO DE IMPLEMENTAÇÃO
-Ocorre em geral nos **compiladores**, como a definição de faixa de valores para determinado tipo.
-
-### TEMPO DE COMPILAÇÃO
-Associação da variável ao seu tipo. Lembre-se de que Python associa a variável ao tipo, como foi explicado na seção anterior.
-
-### TEMPO DE LIGAÇÃO
-A ligação de vários módulos compilados previamente, como a chamada a uma função de um módulo importado. Em **C**, utilizamos a diretiva `#include` para termos permissão de utilizar as funções de determinada biblioteca. Em Python, utilizamos o `import` para isto.
-
-### TEMPO DE CARGA
-Quando o programa é carregado. Por exemplo: endereços de memória relativos são substituídos por **endereços absolutos**.
-
-### TEMPO DE EXECUÇÃO
-Associação de valores a variáveis que dependam de entradas do usuário, por exemplo. A variável é vinculada ao valor apenas durante a execução do programa.
+- TEMPO DE PROJETO DA LINGUAGEM: Os símbolos são amarrados ao operador, como `*` (multiplicação), ou à definição das palavras reservadas.
+- TEMPO DE IMPLEMENTAÇÃO: Ocorre em geral nos **compiladores**, como a definição de faixa de valores para determinado tipo.
+- TEMPO DE COMPILAÇÃO: Associação da variável ao seu tipo. Lembre-se de que Python associa a variável ao tipo, como foi explicado na seção anterior.
+- TEMPO DE LIGAÇÃO: A ligação de vários módulos compilados previamente, como a chamada a uma função de um módulo importado. Em **C**, utilizamos a diretiva `#include` para termos permissão de utilizar as funções de determinada biblioteca. Em Python, utilizamos o `import` para isto.
+- TEMPO DE CARGA: Quando o programa é carregado. Por exemplo: endereços de memória relativos são substituídos por **endereços absolutos**.
+- TEMPO DE EXECUÇÃO: Associação de valores a variáveis que dependam de entradas do usuário, por exemplo. A variável é vinculada ao valor apenas durante a execução do programa.
 
 O momento em que ocorre a ligação pode ser classificado como **cedo** (early binding) ou **tardio** (late binding). Quanto mais cedo ocorre a ligação, maior a eficiência de execução do programa, porém menor a flexibilidade das estruturas disponibilizadas.
 
-### Amarração de tipo
 As **amarrações de tipo** vinculam a variável ao tipo do dado. Elas podem ser:
 
-#### Estáticas
-Ocorrem antes da execução e permanecem inalteradas. Em **C**, declaramos `int a`.
-
-#### Dinâmicas
-Ocorrem durante a execução e podem ser alteradas. É o caso do Python.
+- Estáticas: Ocorrem antes da execução e permanecem inalteradas. Em **C**, declaramos `int a`.
+- Dinâmicas: Ocorrem durante a execução e podem ser alteradas. É o caso do Python.
 
 Veja a figura 8:
 
