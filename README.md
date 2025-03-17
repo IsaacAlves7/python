@@ -509,7 +509,7 @@ Para obter o **quociente inteiro** e o **resto**, quando dois inteiros são _div
 
 ![figura24](https://user-images.githubusercontent.com/61624336/133345395-26202e09-187f-41e7-a52f-01a43ac09d5a.png)
 
-### O tipo complex
+## [Python] Complex
 É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
 
 Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a parte real é `2` e a parte imaginária é `5`:
