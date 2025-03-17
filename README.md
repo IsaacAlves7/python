@@ -2473,14 +2473,14 @@ Já viu um programa de computador que contém uma invocação de função. Uma *
 ```python
 print("The itsy bitsy spider climbed up the waterspout.")
 print("Down came the rain and washed the spider out.")
-```
 
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+"""
+Output:
 
-<pre>
 The itsy bitsy spider climbed up the waterspout.
 Down came the rain and washed the spider out.
-</pre>
+"""
+```
 
 A sintaxe de Python é bastante específica nesta área. Ao contrário da maioria das linguagens de programação, o Python requer que não haja mais do que uma instrução numa linha.
 
