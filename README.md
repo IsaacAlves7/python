@@ -1102,7 +1102,7 @@ print('Hello, World!')
 
 Para divulgar a mensagem no terminal ou prompt de comando, basta ir até a pasta onde está localizado o arquivo e inserir o comando:
 
-```
+```sh
 python hello-world.py
 ```
  
@@ -1172,10 +1172,7 @@ Também é possível especificar a largura de campo para exibir um inteiro. Se a
   
 Observe que os valores `10` e `100` foram impressos com espaços em branco à esquerda. Isso ocorreu porque definimos que a primeira variável deveria ser impressa com `4` espaços com `{:4}` (`2` foram ocupados e `2` ficaram em branco), e que a segunda variável deveria ser impressa com `5` espaços com `{:5}` (`3` foram ocupados e `2` ficaram em branco).
 
-### Saiba mais
-Também é válido perceber que o padrão é alinhar os valores à direita do espaço reservado para a impressão da variável.
-  
-O método `format()` também pode ser usado para imprimir valores de ponto flutuante com a precisão definida. Veja a figura 63:
+> Saiba mais: Também é válido perceber que o padrão é alinhar os valores à direita do espaço reservado para a impressão da variável. O método `format()` também pode ser usado para imprimir valores de ponto flutuante com a precisão definida. Veja a figura 63:
 
 ![figura63](https://user-images.githubusercontent.com/61624336/135565295-50303a92-2571-434f-a5d2-deb9862f6b9e.png)
   
