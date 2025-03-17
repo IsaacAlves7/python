@@ -756,22 +756,22 @@ Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e c
 ## Strings
 Em uma variável do tipo `str`, é possível **armazenar letras, números, espaços, pontuação e diversos símbolos**. Diferentemente da **linguagem C**, _não existe_ o tipo `char`. **Cada caractere em Python é uma string**. Para delimitar uma string, podemos utilizar:
 
-### Aspas simples
+Aspas simples
 ```python
 ‘uma string'
 ```
 
-### Aspas duplas
+Aspas duplas
 ```python
 “uma string”
 ```
 
-### Aspas simples triplas
+Aspas simples triplas
 ```python
 ‘’’uma string’’’
 ```
 
-### Aspas duplas triplas
+Aspas duplas triplas
 ```python
 “””uma string”””
 ```
@@ -782,14 +782,11 @@ A Figura 30 ilustra um exemplo de delimitadores de strings:
 
 Existem alguns métodos interessantes para **tratar strings em Python**. Entre eles, ressaltamos:
 
-### `upper`
-Transforma todas as letras em **maiúsculas**.
+`upper` transforma todas as letras em **maiúsculas**.
 
-### `lower`
-Transforma todas as letras em **minúsculas**.
+`lower` transforma todas as letras em **minúsculas**.
 
-### `split`
-Quebra a string em **substrings**.
+`split` quebra a string em **substrings**.
 
 Veja os exemplos a seguir:
 
@@ -837,7 +834,7 @@ Para que a sequência não comece em 0, podemos informar o início e o fim como 
 ## Operadores sequenciais comuns
 Os **operadores sequenciais** permitem a _manipulação dos tipos sequenciais_, inclusive as **strings**. Vale ressaltar a sobrecarga dos operadores `+` e `*`, que realizam operações diferentes quando os operandos são **numéricos** ou **sequenciais**.
 
-<blockquote><b>Exemplo</b>: O operador <code>==</code> verifica se as strings dos dois lados são iguais. Porém, os operadores <code><</code> e <code>></code> comparam as strings usando a ordem do dicionário.</blockquote>
+Exemplo: O operador <code>==</code> verifica se as strings dos dois lados são iguais. Porém, os operadores <code><</code> e <code>></code> comparam as strings usando a ordem do dicionário.
   
 A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python para **manipulação de sequências**. Lembre-se de que você pode utilizar o utilitário `help` no Python Console para verificar a lista completa. Para isso, basta digitar `help(str)` e pressionar [ENTER] no teclado.
 
@@ -880,7 +877,7 @@ A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python
   </tr>
 </table>
 
-## DICIONÁRIOS
+## [Python] DICIONÁRIOS
 Os **dicionários** permitem que itens de uma sequência recebam índices definidos pelo usuário. Um dicionário contém pares de (chave, valor). O formato geral de um objeto dicionário é:
   
 ```python
