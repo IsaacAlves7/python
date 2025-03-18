@@ -347,7 +347,62 @@ IDLE é uma boa escolha para iniciantes em Python. É um ambiente de desenvolvim
 - Um depurador (debugger) que permite depurar código Python passo a passo.
 - Um gerenciador de projetos que permite organizar arquivos Python.
 
-Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
+
+O Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
+
+O `pip` - Package Installer for Python é o gerenciador de pacotes padrão para Python. Ele facilita a instalação e gerenciamento de pacotes a partir do Python Package Index (PyPI), que é o repositório oficial de pacotes Python. Você pode usar o pip para instalar pacotes com o seguinte comando:
+
+```sh
+# Python 3.12
+python3 -m pip install <package_name>
+
+# Python 3.8
+pip install <package_name>
+```
+
+Para quem usa a IDE Spyder (SPYDER, 2020) ou o Google Colab, é necessário colocar uma exclamação antes do comando “pip”, ou seja:
+
+```sh
+!pip install <package_name>
+```
+
+Também é possível instalar a partir de um arquivo `requirements.txt`:
+
+```sh
+pip install -r requirements.txt
+```
+
+Para mais informações, você pode digitar `pip --help` no terminal.
+
+Também é possível atualizar a versão do pip, caso haja atualização de alguma biblioteca para a versão mais recente do Python, veja abaixo:
+
+```sh
+# <Python_PATH> -m pip install --upgrade pip
+C:\Users\isaac\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+```
+
+<a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
+
+O `conda` é um gerenciador de pacotes e um sistema de gerenciamento de ambientes desenvolvido pela Anaconda, uma distribuição popular de Python para ciência de dados e aprendizado de máquina. O conda pode instalar pacotes de diversas fontes, incluindo o PyPI, e também gerenciar ambientes virtuais.
+
+Para instalar um pacote usando conda, você pode usar:
+
+```sh
+conda install <nome_do_pacote>
+```
+
+Caso se seguirmos um código utilizando funções que não são nativas da linguagem de programação, vai então, ao executar o Python, aparece a seguinte mensagem de erro:
+
+<pre>
+NameError: name 'sin' is not defined
+</pre>
+
+> O que isso significa? O Python não reconheceu a função seno. Isso acontece porque muitas funcionalidades do Python estão disponíveis em bibliotecas adicionais, chamadas de **módulos**.
+
+Embora o Python tenha muitas funções internas, como o `print()`, também possui um conjunto de bibliotecas-padrão, que são programas em Python que podem ser incluídos no seu programa. Usaremos o módulo math, pois ele disponibiliza diversas funções matemáticas. Existem certas formas de “chamar” esses módulos no seu programa, a seguir veremos algumas.
+
+Outra forma de executar os comandos da linguagem Python é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
 
 Os notebooks oferecem vantagens, como:
 
@@ -2656,10 +2711,8 @@ Uma solução para isso é criar uma função, e a estrutura para declarar uma f
 
 ```python
 def nome.Da.Minha.Função(Argumentos1, Argumentos2,….Argumentosn):
-
-     '''Declarações'''
-
-     return valor-de-retorno
+  '''Declarações'''
+  return valor-de-retorno
 ```
 
 Outro exemplo: Vemos a estrutura do código quando se trata de acesso de uma função ao chamar as variáveis, arrays e listas da repetição.
@@ -2807,7 +2860,7 @@ Os **métodos de passagem de parâmetros** são as maneiras que existem para tra
 > [!NOTE]
 > Saiba mais: Na linguagem C, utilizamos ponteiros para fazer a passagem de parâmetros por referência. As **transmissões de parâmetros** que não sejam ponteiros utilizam a passagem por valor. O método de passagem de parâmetros de Python é chamado **passagem por atribuição**. Como todos os valores de dados são objetos, toda variável é uma referência para um objeto. Ao se estudar orientação a objetos, fica mais clara a diferença entre a passagem por atribuição e a passagem por referência. Por enquanto, podemos entender que a passagem por atribuição é uma passagem por referência, pois os valores de todos os parâmetros reais são referências.
 
-## [Python] RECURSIVIDADE
+## [Python] Recursividade
 Uma **função recursiva** é aquela que chama a si mesma. Veja o exemplo da função `regressiva()`, como mostrado na Figura 23:
 
 ```python
@@ -2891,62 +2944,6 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
   
 - A **linha 2** traz as condições de parada.
 - A **linha 5** traz as chamadas recursivas para calcular os dois termos anteriores da sequência.
-  
-# 📦 [Python] Package Manager, Bibliotecas e Módulos
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
-
-Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
-
-O `pip` - Package Installer for Python é o gerenciador de pacotes padrão para Python. Ele facilita a instalação e gerenciamento de pacotes a partir do Python Package Index (PyPI), que é o repositório oficial de pacotes Python. Você pode usar o pip para instalar pacotes com o seguinte comando:
-
-```sh
-# Python 3.12
-python3 -m pip install <package_name>
-
-# Python 3.8
-pip install <package_name>
-```
-
-Para quem usa a IDE Spyder (SPYDER, 2020) ou o Google Colab, é necessário colocar uma exclamação antes do comando “pip”, ou seja:
-
-```sh
-!pip install <package_name>
-```
-
-Também é possível instalar a partir de um arquivo `requirements.txt`:
-
-```sh
-pip install -r requirements.txt
-```
-
-Para mais informações, você pode digitar `pip --help` no terminal.
-
-Também é possível atualizar a versão do pip, caso haja atualização de alguma biblioteca para a versão mais recente do Python, veja abaixo:
-
-```sh
-# <Python_PATH> -m pip install --upgrade pip
-C:\Users\isaac\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
-```
-
-<a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
-
-O `conda` é um gerenciador de pacotes e um sistema de gerenciamento de ambientes desenvolvido pela Anaconda, uma distribuição popular de Python para ciência de dados e aprendizado de máquina. O conda pode instalar pacotes de diversas fontes, incluindo o PyPI, e também gerenciar ambientes virtuais.
-
-Para instalar um pacote usando conda, você pode usar:
-
-```sh
-conda install <nome_do_pacote>
-```
-
-Caso se seguirmos um código utilizando funções que não são nativas da linguagem de programação, vai então, ao executar o Python, aparece a seguinte mensagem de erro:
-
-<pre>
-NameError: name 'sin' is not defined
-</pre>
-
-> O que isso significa? O Python não reconheceu a função seno. Isso acontece porque muitas funcionalidades do Python estão disponíveis em bibliotecas adicionais, chamadas de **módulos**.
-
-Embora o Python tenha muitas funções internas, como o `print()`, também possui um conjunto de bibliotecas-padrão, que são programas em Python que podem ser incluídos no seu programa. Usaremos o módulo math, pois ele disponibiliza diversas funções matemáticas. Existem certas formas de “chamar” esses módulos no seu programa, a seguir veremos algumas.
 
 ### [Python] BIBLIOTECA PADRÃO 
 A **biblioteca padrão Python** consiste em milhares de **funções**, **métodos** e **classes** relacionados a determinada finalidade e organizados em componentes chamados **módulos**. São **mais de 200 módulos** que dão suporte, entre outras coisas, a:
