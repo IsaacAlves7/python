@@ -144,7 +144,7 @@ Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do q
 
 A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
 
-### Principais áreas de atuação com a linguagem Python
+### [Python] Principais áreas de atuação com a linguagem Python
 Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para implementar **serviços complexos da Internet** como motores de busca, armazenamento em nuvem e ferramentas, redes sociais, etc. Sempre que utiliza qualquer um destes serviços, está na realidade muito próximo de Python, embora não o conheça.
 
 Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa:
@@ -186,7 +186,7 @@ Ao começar sua jornada como programador, é importante perceber que existem alg
 
 - Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas **PEP** (Python Enhancement Proposals). Dentre as PEPs, destaca-se a **PEP8**, que estabelece um guia de estilo de programação.
 
-## Há mais de um Python
+## [Python] Há mais de um Python
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
 
 Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**. O Python 2 é uma versão mais antiga do Python original. Desde então o seu desenvolvimento tem sido intencionalmente parado, embora isso não signifique que não hajam atualizações. Pelo contrário, as atualizações são emitidas regularmente, mas não se destinam a modificar a linguagem de forma significativa. Preferem corrigir quaisquer bugs recém-descobertos e falhas de segurança. O caminho de desenvolvimento de Python 2 já chegou a um beco sem saída, mas o Python 2 em si ainda está muito vivo, presente principalmente em sistemas operacionais Linux e macOS.
@@ -209,7 +209,7 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 
 > Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
 
-## Python aka CPython
+## [Python] Python aka CPython
 <img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="77" align="right">
 
 Além do Python 2 e Python 3, existe mais de uma versão de cada uma. Em primeiro lugar, existem os Pythons que são mantidos pelas pessoas reunidas em torno da PSF (<a href="https://www.python.org/psf-landing/">Python Software Foundation</a>), uma comunidade que visa desenvolver, melhorar, expandir e popularizar o Python e o seu ambiente. O presidente da PSF é o próprio Guido von Rossum, e por esta razão, estes Pythons são chamados de canônicos. São também considerados **Pythons de referência**, pois qualquer outra implementação da linguagem deve seguir todas as normas estabelecidas pelo PSF.
@@ -222,7 +222,7 @@ Guido van Rossum utilizou a **linguagem de programação C** para implementar a 
 
 O CPython é uma **implementação** da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python - PVM), além de outras ferramentas para programar em Python.
 
-## Cython
+## [Python] Cython
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Cython_logo.svg" height="77" align="right">
 
 Outro membro da família Python é o **Cython** que é  uma das várias soluções possíveis para a mais dolorosa das características de Python - **a falta de eficiência**. Grandes e complexos cálculos matemáticos podem ser facilmente codificados em Python (muito mais facilmente do que em C ou qualquer outra linguagem tradicional), mas a execução do código resultante pode ser extremamente demorada.
@@ -231,7 +231,7 @@ Como são conciliadas estas duas contradições? Uma solução é escrever as su
 
 É isto que o Cython pretende fazer - traduzir automaticamente o código Python (limpo e claro, mas não demasiado rápido) em código C (complicado e falador, mas ágil).
 
-## Jython 
+## [Python] Jython 
 <a href="https://www.jython.org"><img src="https://user-images.githubusercontent.com/61624336/169595807-6c1e4c7c-a063-46df-a9e9-fd013a2ce598.svg" height="77" align="right"></a>
 
 Outra versão do Python é chamada **Jython**, o “J” é para “Java”. Imagine um Python escrito em Java em vez de C. Isto é útil, por exemplo, se desenvolver sistemas grandes e complexos escritos inteiramente em Java, e quiser acrescentar alguma flexibilidade Python a eles. O CPython tradicional pode ser difícil de integrar em tal ambiente, já que C e Java vivem em mundos completamente diferentes e não partilham muitas ideias comuns.
@@ -242,7 +242,7 @@ Jython pode comunicar com a infra-estrutura Java existente de forma mais eficaz.
 
 > **Curiosidade**: Curioso saber que o código Python pode ser traduzido em <b>Bytecode Java</b> usando a implementação **Jython** para rodar aplicações Java e na JVM - Java Virtual Machine.
 
-## PyPy e RPython
+## [Python] PyPy e RPython
 <a href="https://www.pypy.org"><img src="https://www.pypy.org/images/pypy-logo.svg" height="77" align="right"></a>
 
 Dê uma vista de olhos ao logotipo acima. É um rébus. Consegue resolvê-lo? É um logótipo do **PyPy** - *um Python dentro de um Python*. Por outras palavras, representa um ambiente Python escrito em linguagem Python, chamado **RPython** (Restricted Python). Na verdade, é um subconjunto de Python.
@@ -257,7 +257,7 @@ Além disso, o PyPy é compatível com a linguagem do Python 3.
 
 Existem muitos mais Pythons diferentes no mundo. Encontrá-los-á se procurar, vamos nos concentrar no CPython.
 
-## Sistema de implementação do Python
+## [Python] Sistema de implementação do Python
 <a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="77" align="right">
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
@@ -268,7 +268,7 @@ Devido a razões históricas, as linguagens concebidas para serem utilizadas na 
 
 O **virtualenv** do Python é utilizado para isolar a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional. Existe outra forma de fazer isso com o **Pipenv**.
 
-## UTILITÁRIOS E MÓDULOS
+## [Python] UTILITÁRIOS E MÓDULOS
 <img src="https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png" align="right">
 
 Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
@@ -283,7 +283,7 @@ No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETU
 
 O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários **dir** e **help** podem ser úteis.
 
-## BLOCOS
+## [Python] BLOCOS
 Em **Python**, os **blocos** são definidos pela **indentação**. Diferente de **C** e **Java**, que usam as chaves `{` e `}` para delimitar os blocos, em Python todos os blocos são iniciados com o símbolo `:` (dois pontos) na linha superior e representados pelo acréscimo de 4 (quatro) espaços à esquerda. Sem se preocupar por enquanto com o significado das expressões `for`, `if`, `else` ou `range`, observe abaixo:
 
 ~~~python
@@ -312,7 +312,7 @@ print(a)
 
 11. **Linha 11** Como a linha 11 está no mesmo nível da linha 2, ela não faz parte do bloco do `for`.
 
-## Comentários em Python
+## [Python] Comentários em Python
 Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas**. A tabela 1 mostra as formas de limitar um comentário, além de comparar essas formas em **Python** e **C**.
 
 |            | Python | C |
@@ -323,7 +323,7 @@ Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas
 > [!Warning]
 > É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.
 
-## Variáveis em Python
+## [Python] Variáveis em Python
 <img src="https://user-images.githubusercontent.com/61624336/133180044-a4cebb34-ac4e-4924-99f8-0b3ae55f3486.png" align="right">
 
 As **variáveis** são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o identificador `x`, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, recuperar o valor guardado nele, que no nosso exemplo é `10`.
