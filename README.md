@@ -1413,7 +1413,7 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  True
 ```
 
-## [Python] Operadores numéricos
+## [Python] Operadores aritméticos
 Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo **Álgebra** e **Aritmética** na escola. Existem algumas pequenas diferenças, como a **divisão** (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
 
 <table style="width:100%">
@@ -1475,6 +1475,44 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
     <td><code>16</code></td>
   </tr>
 </table>
+
+No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
+
+- `+` Adição
+
+- `-` Subtração
+
+- `*` Multiplicação
+
+- `/` Divisão
+
+- `**` Exponenciação
+
+- `%` Resto de divisão
+
+A seguir, apresentaremos alguns exemplos dessas operações e como o Python responde.
+
+```python
+>>> s = ’Olá’
+ >>> t = ’para você’
+ >>> a = [1, 2, 3]
+ >>> print(3*s)          # Repetição
+ Olá Olá Olá
+ >>> print(3*a)         # Repetição
+ [1, 2, 3, 1, 2, 3, 1, 2, 3]
+ >>> print(a + [4, 5])  # Adicionando elementos
+ [1, 2, 3, 4, 5]
+ >>> print(s + t) 
+ Olá para você
+```
+
+Veja outro exemplo:
+
+```python
+(9**4 +2)*6 - 1 # 39377
+```
+
+O Python usa a mesma hierarquia de cálculo de expressões numéricas da matemática, ou seja, primeiro exponenciação, depois multiplicação ou divisão, e, por último, adição e subtração. Desse modo, calculamos primeiro `9**4` (nove a quarta potência), depois adicionamos `2`, multiplicamos por `6` e, por fim, subtraímos por `1` , resultando em `39377`.
 
 ## [Python] Operadores de Comparação
 Além das operações algébricas, é possível realizar **operações de comparação**. Os **operadores de comparação** têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
@@ -3409,45 +3447,6 @@ A notação que usaremos é <code>FP(b,p, e<sub>min</sub>, e<sub>max</sub>)</cod
 Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-99,99)`. Pode ser escrito de forma genérica como `r=±(0,d-1 d-2 d-3 d-4)×10e`, onde `-99≤ e ≤ 99`. Observe que essa representação não é capaz de representar o número real <code>0,1x10<sup>100</sup></code>, pois o expoente é igual a `100 > 99`, que é o expoente máximo.
 
 > **Atenção**: Em uma modelagem matemática, isso é chamado de **overflow**. De maneira semelhante, 0,1x10<sup>-100</sup>, e o motivo é o mesmo -100<-99, que é o valor mínimo. Essa situação é definida como **underflow**.
-
-## [Python] Operadores Aritméticos
-No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
-
-- `+` Adição
-
-- `-` Subtração
-
-- `*` Multiplicação
-
-- `/` Divisão
-
-- `**` Exponenciação
-
-- `%` Resto de divisão
-
-A seguir, apresentaremos alguns exemplos dessas operações e como o Python responde.
-
-```python
->>> s = ’Olá’
- >>> t = ’para você’
- >>> a = [1, 2, 3]
- >>> print(3*s)          # Repetição
- Olá Olá Olá
- >>> print(3*a)         # Repetição
- [1, 2, 3, 1, 2, 3, 1, 2, 3]
- >>> print(a + [4, 5])  # Adicionando elementos
- [1, 2, 3, 4, 5]
- >>> print(s + t) 
- Olá para você
-```
-
-Veja outro exemplo:
-
-```python
-(9**4 +2)*6 - 1 # 39377
-```
-
-O Python usa a mesma hierarquia de cálculo de expressões numéricas da matemática, ou seja, primeiro exponenciação, depois multiplicação ou divisão, e, por último, adição e subtração. Desse modo, calculamos primeiro 9**4 (nove a quarta potência), depois adicionamos 2, multiplicamos por 6 e, por fim, subtraímos por 1 , resultando em 39377.
 
 # 🐍 [Python] Erros na aritmética em pontos flutuantes
 vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
