@@ -1684,6 +1684,30 @@ print(mensagem)
 
 Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
 
+## [Python] DOCSTRINGS
+**Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor**. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida. Veja a Figura 28 e a Figura 29:
+  
+```python
+def fibo(n):
+     'Determina o n-ésimo termo da sequência de Fibonacci'
+          if n == 1 or n == 2:
+          return 1
+     else:
+          return fibo(n - 1) + fibo(n - 2)
+
+print(help(fibo))  
+```
+  
+~~~python
+ fibo(n)
+  Determina o n-ésimo termo da sequência de Fibonacci
+~~~
+  
+- Na Figura 28, a **linha 2** mostra a declaração da docstring.
+- A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
+  
+Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
+
 ## [Python] Listas e Tuplas
 **Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
 
@@ -2838,30 +2862,6 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
 - A **linha 2** traz as condições de parada.
 - A **linha 5** traz as chamadas recursivas para calcular os dois termos anteriores da sequência.
   
-## DOCSTRINGS
-**Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor**. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida. Veja a Figura 28 e a Figura 29:
-  
-```python
-def fibo(n):
-     'Determina o n-ésimo termo da sequência de Fibonacci'
-          if n == 1 or n == 2:
-          return 1
-     else:
-          return fibo(n - 1) + fibo(n - 2)
-
-print(help(fibo))  
-```
-  
-~~~python
- fibo(n)
-  Determina o n-ésimo termo da sequência de Fibonacci
-~~~
-  
-- Na Figura 28, a **linha 2** mostra a declaração da docstring.
-- A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
-  
-Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
-
 # 📦 [Python] Package Manager, Bibliotecas e Módulos
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
 
