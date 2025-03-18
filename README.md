@@ -283,7 +283,7 @@ No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETU
 O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários `dir` e `help` podem ser úteis.
 
 # 🐍 [Python] `Hello, World!`
-Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
+Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** (output) para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
 
 A função `print()` em Python atua de forma semelhante à `printf()` em **C**. Para um programador iniciante, as maiores diferenças entre elas são:
 
