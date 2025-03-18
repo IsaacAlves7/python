@@ -723,7 +723,7 @@ Operador `or`:
   </tr>
 </table>
 
-## TIPOS SEQUENCIAIS
+## [Python] Tipos sequenciais
 Existem três tipos sequenciais básicos em Python: **listas**, **tuplas** e **objetos range**. Além dos tipos básicos citados, existe um tipo especial criado para tratamento de dados textuais: o tipo `str` (string).
 
 Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e cada item tem o seu índice incrementado uma unidade em relação ao item anterior. Porém, Python também permite a indexação com valores negativos. O valor `-1` é o índice do último item, e cada item anterior é decrementado de uma unidade em relação ao sucessor. Observe a tabela 7:
@@ -755,7 +755,7 @@ Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e c
   </tr>
 </table>
 
-## Strings
+## [Python] Strings
 Em uma variável do tipo `str`, é possível **armazenar letras, números, espaços, pontuação e diversos símbolos**. Diferentemente da **linguagem C**, _não existe_ o tipo `char`. **Cada caractere em Python é uma string**. Para delimitar uma string, podemos utilizar:
 
 Aspas simples
@@ -796,7 +796,7 @@ Veja os exemplos a seguir:
 
 <blockquote><b>Saiba mais:</b> A lista gerada com o método ,<code>split()</code> tem três elementos, porque a string original tinha três palavras.</blockquote>
 
-## Listas
+## [Python] Listas
 **Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
 
 Usando um par de colchetes `[]` para denotar uma **lista vazia**.
@@ -809,7 +809,7 @@ Usando um par de colchetes `[]` para denotar uma **lista vazia**.
 
 > Saiba mais: <code>iterable</code> pode ser uma sequência, um container que suporte <b>iteração</b> ou um <b>objeto iterador</b>. Por exemplo, <code>list('abc')</code> retorna <code>['a', 'b', 'c']</code> e <code>list( (1, 2, 3) )</code> retorna <code>[1, 2, 3]</code>. Se nenhum argumento for passado, o construtor cria uma lista vazia: <code>[ ]</code>.
 
-## Tuplas
+## [Python] Tuplas
 **Tuplas** são _sequências imutáveis_, tipicamente usadas para **armazenar coleções de itens heterogêneos**. Elas são aplicadas também quando é necessário utilizar uma sequência imutável de dados homogêneos. Uma tupla pode ser criada de algumas maneiras, tais como:
 
 - `()` Usando um par de parênteses para denotar uma tupla vazia.
@@ -822,7 +822,7 @@ Novamente, **iterable** pode ser uma sequência, um container que suporte **iter
 
 <blockquote><b>Atenção</b>: Note que o uso das vírgulas é o que gera a tupla, e não o uso de parênteses. Os parênteses são opcionais, exceto no caso em que queremos gerar uma tupla vazia.</blockquote>
 
-## Range
+## [Python] Range
 O tipo **range** representa uma _sequência imutável de números e frequentemente é usado em loops de um número específico de vezes_, como o `for`.
 
 Ele pode ser chamado de maneira simples, apenas com **um argumento**. Nesse caso, a sequência começará em `0` e será incrementada de uma unidade até o limite do parâmetro passado (exclusive). Por exemplo, `range(3)` cria a sequência `(0, 1, 2)`.
@@ -833,7 +833,7 @@ Para que a sequência não comece em `0`, podemos informar o início e o fim com
 
 Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
 
-## Operadores sequenciais comuns
+## [Python] Operadores sequenciais comuns
 Os **operadores sequenciais** permitem a _manipulação dos tipos sequenciais_, inclusive as **strings**. Vale ressaltar a sobrecarga dos operadores `+` e `*`, que realizam operações diferentes quando os operandos são **numéricos** ou **sequenciais**.
 
 Exemplo: O operador <code>==</code> verifica se as strings dos dois lados são iguais. Porém, os operadores <code><</code> e <code>></code> comparam as strings usando a ordem do dicionário.
