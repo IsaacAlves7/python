@@ -2141,6 +2141,38 @@ Veja uma implementação possível com a estrutura `elif` na Figura 1:
 
 Perceba que a indentação precisa ser ajustada, uma vez que o último else é relativo ao `elif`. Por isso, eles precisam estar alinhados.
 
+A construção de uma estrutura de condicionais no Python é dada por:
+
+```python
+if condições: # se
+
+     '''bloco de instruções'''
+
+elif condições: # senão se
+
+    '''bloco de instruções'''
+
+else: # senão
+
+     '''bloco de instruções'''
+```
+
+O exemplo a seguir é uma aplicação da estrutura `if`, onde o script decide se o número é positivo, negativo ou zero:
+
+```python
+a = 1.5
+def sinal_numerico(a):
+ 	if a < 0.0:        # Se a menor que zero
+ 		  sinal = 'negativo'
+ 	elif a > 0.0:      # Se a maior que zero
+ 		  sinal = 'positivo'
+ 	else:              # Senão, ou seja, se a não é maior, nem menor que zero (a igual a zero)
+ 		  sinal = 'zero'
+ 	return sinal
+print('a é ' + sinal_numerico(a))
+ # a é positivo
+```
+
 ## ESTRUTURA DE Laços de REPETIÇÃO (Loops)
 
 Antes de falarmos sobre o comando `for`, vamos abordar a função `range`. A função `range` retorna uma progressão aritmética de inteiros numa lista com a seguinte estrutura sintática: `range (início,parada,incremento)`, onde:
@@ -3421,39 +3453,6 @@ Veja outro exemplo:
 ```
 
 O Python usa a mesma hierarquia de cálculo de expressões numéricas da matemática, ou seja, primeiro exponenciação, depois multiplicação ou divisão, e, por último, adição e subtração. Desse modo, calculamos primeiro 9**4 (nove a quarta potência), depois adicionamos 2, multiplicamos por 6 e, por fim, subtraímos por 1 , resultando em 39377.
-
-## [Python] Estruturas Condicionais
-A construção de uma estrutura de condicionais no Python é dada por:
-
-```python
-if condições: # se
-
-     '''bloco de instruções'''
-
-elif condições: # senão se
-
-    '''bloco de instruções'''
-
-else: # senão
-
-     '''bloco de instruções'''
-```
-
-O exemplo a seguir é uma aplicação da estrutura `if`, onde o script decide se o número é positivo, negativo ou zero:
-
-```python
-a = 1.5
-def sinal_numerico(a):
- 	if a < 0.0:        # Se a menor que zero
- 		  sinal = 'negativo'
- 	elif a > 0.0:      # Se a maior que zero
- 		  sinal = 'positivo'
- 	else:              # Senão, ou seja, se a não é maior, nem menor que zero (a igual a zero)
- 		  sinal = 'zero'
- 	return sinal
-print('a é ' + sinal_numerico(a))
- # a é positivo
-```
 
 # 🐍 [Python] Erros na aritmética em pontos flutuantes
 vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
