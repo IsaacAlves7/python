@@ -185,7 +185,6 @@ Ao começar sua jornada como programador, é importante perceber que existem alg
 
 - Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas **PEP** (Python Enhancement Proposals). Dentre as PEPs, destaca-se a **PEP8**, que estabelece um guia de estilo de programação.
 
-## [Python] Há mais de um Python
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
 
 Existem dois tipos principais de Python, chamados **Python 2** e **Python 3**. O Python 2 é uma versão mais antiga do Python original. Desde então o seu desenvolvimento tem sido intencionalmente parado, embora isso não signifique que não hajam atualizações. Pelo contrário, as atualizações são emitidas regularmente, mas não se destinam a modificar a linguagem de forma significativa. Preferem corrigir quaisquer bugs recém-descobertos e falhas de segurança. O caminho de desenvolvimento de Python 2 já chegou a um beco sem saída, mas o Python 2 em si ainda está muito vivo, presente principalmente em sistemas operacionais Linux e macOS.
