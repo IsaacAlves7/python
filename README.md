@@ -1772,8 +1772,8 @@ A palavra reservada `return` indica que a função **retorna** algum valor. Isso
   
 > **Atenção!** Retornar um valor é diferente de imprimir na tela. Ao utilizar a função `print()`, ocorre apenas a impressão de algo na tela, o que não significa que tenha havido retorno de qualquer função definida pelo usuário.
   
-## PROCEDIMENTOS E FUNÇÕES
-Os **subprogramas** podem ser, distintamente, **procedimentos** e **funções**. De acordo com Sebesta (2018):
+## PROCEDIMENTOS E FUNÇÕES (Rotinas)
+Os **subprogramas** podem ser, distintamente, procedimentos e funções**. De acordo com Sebesta (2018):
   
 <table>
   <tr>
@@ -1804,6 +1804,52 @@ print(f'Programa principal - x = {x}')
 ```
   
 As funções `func1(x)` e `func2(x)` não possuem qualquer retorno. Ou seja, são funções com **comportamento de procedimentos**.
+
+Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
+
+```python
+>>>import math
+ >>>v0 =300
+ >>>g=10
+ >>>theta=15     
+ >>>
+ >>>print(A)
+```
+
+Uma solução para isso é criar uma função, e a estrutura para declarar uma função em Python é dada da seguinte maneira, conforme a sintaxe abaixo:
+
+```python
+def nome.Da.Minha.Função(Argumentos1, Argumentos2,….Argumentosn):
+
+     '''Declarações'''
+
+     return valor-de-retorno
+```
+
+Outro exemplo: Vemos a estrutura do código quando se trata de acesso de uma função ao chamar as variáveis, arrays e listas da repetição.
+
+[![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
+
+```python
+import math # Módulo
+
+def Alcance(v0, theta, g): # Função
+  return (v0**2/g)*math.sin(2*theta*math.pi/180)
+
+'''Variáveis'''
+v0 = 300
+theta = [15, 30, 45, 60, 75]
+A = []
+
+'''For Loop'''
+for i in range(len(theta)):
+  A.append(Alcance(v0, theta[i], 10))
+
+# Printing
+print(A) # 4499.999999999999, 7794.228634059948, 9000.0, 7794.2286340599485, 4499.999999999999
+```
+
+A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
 ## AMBIENTES DE REFERENCIAMENTO LOCAL
   
@@ -3372,53 +3418,6 @@ Em uma lista, os índices começam com 0. Nesse caso, a lista segue a ordem até
 a=[1,2,3,4,5]
 a[-5]
 ```
-
-## [Python] Funções (Rotinas)
-Até agora, vimos sobre biblioteca de funções, módulos, parâmetros, utilizando, no entanto, o que o Python já tem pronto. É possível também criar a nossa própria **função** e seus respectivos argumentos. Essa necessidade geralmente ocorre quando algum procedimento se repete no programa. Por exemplo, vamos supor que em um problema você tenha que calcular diversos alcances de um lançamento oblíquo para diversos ângulos, respectivamente, 15º, 30º, 45º, 60º e 75º, usando esse programa.
-
-```python
->>>import math
- >>>v0 =300
- >>>g=10
- >>>theta=15     
- >>>
- >>>print(A)
-```
-
-Uma solução para isso é criar uma função, e a estrutura para declarar uma função em Python é dada da seguinte maneira, conforme a sintaxe abaixo:
-
-```python
-def nome.Da.Minha.Função(Argumentos1, Argumentos2,….Argumentosn):
-
-     '''Declarações'''
-
-     return valor-de-retorno
-```
-
-Outro exemplo: Vemos a estrutura do código quando se trata de acesso de uma função ao chamar as variáveis, arrays e listas da repetição.
-
-[![Colab](https://img.shields.io/badge/-Math.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/drive/1LB-mVNz_dy6N7G8iHgYAtzgXplaUuKN1#scrollTo=vByZRBz2gFho) 
-
-```python
-import math # Módulo
-
-def Alcance(v0, theta, g): # Função
-  return (v0**2/g)*math.sin(2*theta*math.pi/180)
-
-'''Variáveis'''
-v0 = 300
-theta = [15, 30, 45, 60, 75]
-A = []
-
-'''For Loop'''
-for i in range(len(theta)):
-  A.append(Alcance(v0, theta[i], 10))
-
-# Printing
-print(A) # 4499.999999999999, 7794.228634059948, 9000.0, 7794.2286340599485, 4499.999999999999
-```
-
-A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
 ## [Python] Estruturas Condicionais
 A construção de uma estrutura de condicionais no Python é dada por:
