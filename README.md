@@ -257,7 +257,7 @@ Além disso, o PyPy é compatível com a linguagem do Python 3.
 Existem muitos mais Pythons diferentes no mundo. Encontrá-los-á se procurar, vamos nos concentrar no CPython.
 
 ## [Python] Sistema de implementação do Python
-<a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="77" align="right">
+<a href="https://www.jython.org/"><img src="https://media.geeksforgeeks.org/wp-content/uploads/python_working.png" height="277" align="right">
 
 **Python** usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O **compilador** converte o código-fonte Python em um código intermediário, que roda numa máquina virtual, a **PVM** (Python Virtual Machine).
 
