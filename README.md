@@ -1786,7 +1786,9 @@ Os **subprogramas** podem ser, distintamente, procedimentos e funções**. De ac
   </tr>
 </table>
 
-Na maioria das linguagens que não explicita a diferença entre eles, as funções podem ser definidas sem retornar qualquer valor, tendo comportamento de procedimento. Esse é o caso de Python. Veja o exemplo da Figura 18:
+Na maioria das linguagens que não explicita a diferença entre eles, as funções podem ser definidas sem retornar qualquer valor, tendo comportamento de procedimento. Esse é o caso de Python. 
+
+Exemplo:
 
 ```python
 def func1(x):
