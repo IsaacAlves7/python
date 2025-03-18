@@ -2296,7 +2296,7 @@ print('a é ' + sinal_numerico(a))
  # a é positivo
 ```
 
-## ESTRUTURA DE Laços de REPETIÇÃO (Loops)
+## Estrutura de Laços de Repetição (Loops)
 
 Antes de falarmos sobre o comando `for`, vamos abordar a função `range`. A função `range` retorna uma progressão aritmética de inteiros numa lista com a seguinte estrutura sintática: `range (início,parada,incremento)`, onde:
 
