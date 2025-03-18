@@ -2810,7 +2810,8 @@ Quando um subprograma define suas **próprias variáveis**, estabelece ambientes
 
 Dinâmicas da pilha são vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
   
-> **Atenção!** Nas linguagens **C** e **C++**, as **variáveis locais** são _dinâmicas da pilha_, a menos que sejam especificamente declaradas como **static**. **Todas as variáveis locais em Python são dinâmicas da pilha**. As **variáveis globais** são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local com mesmo nome de uma variável global, esta é implicitamente declarada como local.
+> [!Warning]
+> **Atenção!** Nas linguagens C e C++, as variáveis locais são dinâmicas da pilha, a menos que sejam especificamente declaradas como `static`. Todas as variáveis locais em Python são dinâmicas da pilha. As variáveis globais são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local com mesmo nome de uma variável global, esta é implicitamente declarada como local.
   
 Voltando ao exemplo da Figura 18, vamos detalhar as funções func1(x) e func2(x):
 
