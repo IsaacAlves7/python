@@ -797,7 +797,78 @@ Veja os exemplos a seguir:
 
 ![figura31](https://user-images.githubusercontent.com/61624336/133940776-28b08988-4471-4e60-8db4-d9d865b16868.png)
 
-<blockquote><b>Saiba mais:</b> A lista gerada com o método ,<code>split()</code> tem três elementos, porque a string original tinha três palavras.</blockquote>
+> Saiba mais: A lista gerada com o método ,<code>split()</code> tem três elementos, porque a string original tinha três palavras.
+
+Agora, vamos tratar de recursos adicionais da linguagem para apoiar o desenvolvimento dos códigos: os strings (caracteres). O Python usa a tabela de caracteres, que depende do seu sistema operacional, como, por exemplo, ASCII e UTF-8. Os strings são colocados entre aspas simples (`‘`) ou duplas (`“`) e os caracteres que são não imprimíveis podem ser expressos com a “barra-invertida” (`\`). Seguem alguns exemplos:
+
+- `\n` Cria uma nova linha.
+
+- `\t` Cria uma tabulação.
+
+- `\b` É uma backspace.
+
+Vejamos exemplos de aplicação:
+
+<table>
+<tr>
+<td>
+<pre>
+>>>print('abc\nd')
+ abc 
+ d
+</pre>
+</td>
+<td>
+<pre>
+>>>>print('abc\td')
+ abc 		d
+</pre>
+</td>
+</tr>
+</table>
+
+É possível obter o endereço dos caracteres dos strings usando a notação de índices, `string[índice]`, observando que, para o Python, o primeiro caractere tem índice `0` e o último tem índice `-1`. Vejamos alguns exemplos:
+
+```python
+>>> palavra = “abcd”
+ >>> palavra[0]
+ a
+ >>>palavra[-1]
+ d
+ ```
+
+Podemos também fatiar (slices) um string com a notação `string[índiceI:índiceF]`. Com esse comando, o Python nos retorna os caracteres, iniciando com o caractere de `índiceI` (inclusive) e finalizando com o caractere que fica antes do `indiceF`. Isso acontece, pois o `indiceF` é exclusivo. Por exemplo:
+
+```python
+>>> palavra[0:2]
+ ab
+```
+
+Observe que o caractere correspondente ao índice `2` não apareceu, pois se `palavra = "abcd"`, então `palavra[0:2]` irá retornar um slice que vai do índice `0` (inclusive) até o índice `2` (exclusive) da string.
+
+No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres nos índices `0` e `1` da string, ou seja, os caracteres `"ab"`.
+
+Em Python, `str` é um tipo de dados que é usado para representar sequências de caracteres, ou seja, texto. As strings em Python são imutáveis, o que significa que seu conteúdo não pode ser alterado após a criação. O tipo de dados `str` possui várias operações úteis associadas a ele, que tornam Python uma linguagem bastante propícia para manipulação de textos. Por exemplo, você pode concatenar strings, substituir substrings, verificar se uma string começa ou termina com uma determinada substring, contar o número de ocorrências de uma substring e muito mais. 
+
+Além disso, você pode acessar caracteres específicos de uma string em Python usando a notação `[]`. Por exemplo, `s[0]` retorna o primeiro caractere da string `s`, e `s[-1]` retorna o último caractere. Você também pode acessar “fatias” ou “slices” de uma string fornecendo os índices do começo e do final da fatia que deseja analisar.
+
+Veja o exemplo:
+
+```python
+# Definindo uma variável como um número inteiro
+numero = 10
+
+# Usando a função str para converter o número inteiro em uma string
+numero_str = str(numero)
+
+# Agora você pode concatenar a string com outras strings
+mensagem = "O número é " + numero_str
+
+# Imprime: O número é 10
+print(mensagem)
+```
+
+Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
 
 ## [Python] Listas
 **Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
@@ -2844,78 +2915,6 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 - Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
 
 Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
-
-## [Python] Strings
-Agora, vamos tratar de recursos adicionais da linguagem para apoiar o desenvolvimento dos códigos: os strings (caracteres). O Python usa a tabela de caracteres, que depende do seu sistema operacional, como, por exemplo, ASCII e UTF-8. Os strings são colocados entre aspas simples (`‘`) ou duplas (`“`) e os caracteres que são não imprimíveis podem ser expressos com a “barra-invertida” (`\`). Seguem alguns exemplos:
-
-- `\n` Cria uma nova linha.
-
-- `\t` Cria uma tabulação.
-
-- `\b` É uma backspace.
-
-Vejamos exemplos de aplicação:
-
-<table>
-<tr>
-<td>
-<pre>
->>>print('abc\nd')
- abc 
- d
-</pre>
-</td>
-<td>
-<pre>
->>>>print('abc\td')
- abc 		d
-</pre>
-</td>
-</tr>
-</table>
-
-É possível obter o endereço dos caracteres dos strings usando a notação de índices, `string[índice]`, observando que, para o Python, o primeiro caractere tem índice `0` e o último tem índice `-1`. Vejamos alguns exemplos:
-
-```python
->>> palavra = “abcd”
- >>> palavra[0]
- a
- >>>palavra[-1]
- d
- ```
-
-Podemos também fatiar (slices) um string com a notação `string[índiceI:índiceF]`. Com esse comando, o Python nos retorna os caracteres, iniciando com o caractere de `índiceI` (inclusive) e finalizando com o caractere que fica antes do `indiceF`. Isso acontece, pois o `indiceF` é exclusivo. Por exemplo:
-
-```python
->>> palavra[0:2]
- ab
-```
-
-Observe que o caractere correspondente ao índice `2` não apareceu, pois se `palavra = "abcd"`, então `palavra[0:2]` irá retornar um slice que vai do índice `0` (inclusive) até o índice `2` (exclusive) da string.
-
-No caso de `palavra = "abcd"`, o slice `palavra[0:2]` retornará os caracteres nos índices `0` e `1` da string, ou seja, os caracteres `"ab"`.
-
-Em Python, `str` é um tipo de dados que é usado para representar sequências de caracteres, ou seja, texto. As strings em Python são imutáveis, o que significa que seu conteúdo não pode ser alterado após a criação. O tipo de dados `str` possui várias operações úteis associadas a ele, que tornam Python uma linguagem bastante propícia para manipulação de textos. Por exemplo, você pode concatenar strings, substituir substrings, verificar se uma string começa ou termina com uma determinada substring, contar o número de ocorrências de uma substring e muito mais. 
-
-Além disso, você pode acessar caracteres específicos de uma string em Python usando a notação `[]`. Por exemplo, `s[0]` retorna o primeiro caractere da string `s`, e `s[-1]` retorna o último caractere. Você também pode acessar “fatias” ou “slices” de uma string fornecendo os índices do começo e do final da fatia que deseja analisar.
-
-Veja o exemplo:
-
-```python
-# Definindo uma variável como um número inteiro
-numero = 10
-
-# Usando a função str para converter o número inteiro em uma string
-numero_str = str(numero)
-
-# Agora você pode concatenar a string com outras strings
-mensagem = "O número é " + numero_str
-
-# Imprime: O número é 10
-print(mensagem)
-```
-
-Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
 
 ## [Python] Integer
 A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
