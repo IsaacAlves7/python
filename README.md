@@ -1600,7 +1600,7 @@ A Figura 30 ilustra um exemplo de delimitadores de strings:
 
 ![figura30](https://user-images.githubusercontent.com/61624336/133940623-b524ef49-5d89-4095-9bba-91f8d61efb0f.png)
 
-Existem alguns métodos interessantes para **tratar strings em Python**. Entre eles, ressaltamos:
+Existem alguns métodos interessantes para tratar strings em Python. Entre eles, ressaltamos:
 
 `upper` transforma todas as letras em **maiúsculas**.
 
