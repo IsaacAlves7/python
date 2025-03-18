@@ -336,7 +336,7 @@ O utilitário `help` apresenta a documentação relativa a determinado tipo de d
 
 Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada "IDLE".
 
-Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto é o que deve ver:
+Com o **IDLE - Integrated Development and Learning Environment** iniciado. Isto é o que deve ver:
 
 ![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
 
