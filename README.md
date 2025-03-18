@@ -1359,28 +1359,56 @@ Veja uma implementação possível com a estrutura `elif` na Figura 1:
 
 Perceba que a indentação precisa ser ajustada, uma vez que o último else é relativo ao `elif`. Por isso, eles precisam estar alinhados.
 
-## ESTRUTURA DE REPETIÇÃO `FOR`
-A **estrutura de repetição** `for` tem funcionamento muito semelhante nas linguagens **C** e **Python**. Porém, a sintaxe é diferente nas duas linguagens. Além disso, em Python existe maior flexibilidade, já que a repetição pode ser controlada por uma variável não numérica.
+## ESTRUTURA DE Laços de REPETIÇÃO (Loops)
 
-Antes de detalhar o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista ajudará a verificar a repetição e deixará mais claro o entendimento do laço.
+Antes de falarmos sobre o comando `for`, vamos abordar a função `range`. A função `range` retorna uma progressão aritmética de inteiros numa lista com a seguinte estrutura sintática: `range (início,parada,incremento)`, onde:
 
-### As listas do tipo `range()`
+1. `Início` é um parâmetro opcional e o primeiro valor a ser gerado, quando não indicado, por default é o número zero (0).
+
+2. `Parada` é o limite da progressão, que termina no último valor antes da parada.
+
+3. `Incremento` é um parâmetro opcional e indica o passo da progressão. O default, caso não seja informado, é um (1).
+
+Vejamos uma aplicação:
+
+```python
+range(3) # parada indicada 3, como não foram indicados, o início será 0 e incremento será 1
+ # [0,1,2]
+range(2,5,2) # início 2, parada 5 e incremento 2
+# [2,4]
+range(5,2,-2) # o incremento é negativo 
+# [5,3]
+```
+
+O comando `for` permite que nos informemos sobre os elementos de uma lista. De modo geral, o comando é expresso da seguinte maneira: `for variável in lista : comandos`
+
+Uma grande utilidade da função `range` é construir a lista de iteração, como no exemplo a seguir:
+
+```python
+for i in range(1,7): print(i)
+# 1 2 3 4 5 6
+```
+
+> E sempre o último número da lista de iteração, no caso `7` não é contado.
+
+As listas do tipo `range()`
 Ao chamar o método `range()`, Python cria uma sequência de números inteiros, de maneira simples à mais complexa. Veja a seguir:
     
-#### Simples
 Ela pode ser chamada de maneira **simples**, apenas com um argumento. Nesse caso, a sequência começará em `0` e será incrementada de uma unidade até o limite do parâmetro passado (exclusive).
 
 Por exemplo: `range(3)` cria a sequência (`0, 1, 2`).
      
-#### Não iniciadas em 0
-Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada `range(2, 7)` cria a sequência (`2, 3, 4, 5, 6`).
+Não iniciadas em 0 Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada `range(2, 7)` cria a sequência (`2, 3, 4, 5, 6`).
                  
-#### Indicando início, fim e passo
-Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo.
+Indicando início, fim e passo Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo.
 
 Por exemplo, `range(2, 9, 3)` cria a sequência (`2, 5, 8`).
+
+
+A estrutura de repetição `for` tem funcionamento muito semelhante nas linguagens C e Python. Porém, a sintaxe é diferente nas duas linguagens. Além disso, em Python existe maior flexibilidade, já que a repetição pode ser controlada por uma variável não numérica.
+
+Antes de detalhar o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista ajudará a verificar a repetição e deixará mais claro o entendimento do laço.
                  
-### A sintaxe da estrutura `for`
 A estrutura `for` tem a seguinte sintaxe em Python:
                  
 ```python
@@ -1389,8 +1417,7 @@ A estrutura `for` tem a seguinte sintaxe em Python:
 3 Instrução fora do for                 
 ```
 
-Cabe ressaltar a diferença de sintaxe entre as linguagens **C** e **Python**. Veja a Tabela 4:
-
+Cabe ressaltar a diferença de sintaxe entre as linguagens C e Python. Veja a Tabela 4:
   
 <table>
   <tr>
@@ -1452,8 +1479,7 @@ for item in range(2, 9, 3):
   </tr>
 </table>
 
-## O laço `for` com uma string
-Python também permite que a repetição aconteça ao longo de uma string. Para isso, basta lembrar que a string é uma sequência de caracteres individuais. Suponha que você queira soletrar o nome informado pelo usuário. Uma possível implementação está na Figura 3:
+O laço `for` com uma string Python também permite que a repetição aconteça ao longo de uma string. Para isso, basta lembrar que a string é uma sequência de caracteres individuais. Suponha que você queira soletrar o nome informado pelo usuário. Uma possível implementação está na Figura 3:
 
 ```python
 nome = input("Entre com seu nome: ")
@@ -1474,8 +1500,7 @@ nome = input("Entre com seu nome: ")
 6 a
 </pre>
 
-# Uso do laço `for` com qualquer sequência
-Até agora, estudamos o uso do laço `for` com **iterações** sobre **strings** e sobre **sequências numéricas**, mas **Python** permite ainda mais que isso!
+Uso do laço `for` com qualquer sequência Até agora, estudamos o uso do laço `for` com **iterações** sobre **strings** e sobre **sequências numéricas**, mas **Python** permite ainda mais que isso!
   
 <blockquote>Podemos utilizar o laço <code>for</code> com iterações sobre qualquer sequência, não somente as <b>numéricas</b> e as <b>strings</b>.</blockquote>
   
@@ -1497,7 +1522,6 @@ Veja o resultado da execução na Figura 6:
 5 Arthur
 </pre>
   
-## ESTRUTURA DE REPETIÇÃO `WHILE`
 A estrutura de repetição `while` tem funcionamento e sintaxe muito semelhantes nas linguagens **C** e **Python**. Observe a comparação entre as duas linguagens na Tabela 6:
   
 <table>
@@ -1573,8 +1597,7 @@ Em **C**, existe outra estrutura muito semelhante ao `while`, chamada `do-while`
 
 Infelizmente, a estrutura `do-while` não existe em Python. Isso não chega a ser um grande problema, porque podemos adaptar nosso programa e controlar as repetições com o laço `while`.
 
-## O laço `while` infinito
-**Laços infinitos** são úteis quando queremos executar um bloco de instruções indefinidamente.
+O laço `while` infinito **Laços infinitos** são úteis quando queremos executar um bloco de instruções indefinidamente.
 
 O laço `while` infinito tem o seguinte formato:
   
@@ -3453,37 +3476,6 @@ def sinal_numerico(a):
 print('a é ' + sinal_numerico(a))
  # a é positivo
 ```
-
-## [Python] Laços de repetição (Loops)
-Antes de falarmos sobre o comando `for`, vamos abordar a função `range`. A função `range` retorna uma progressão aritmética de inteiros numa lista com a seguinte estrutura sintática: `range (início,parada,incremento)`, onde:
-
-1. `Início` é um parâmetro opcional e o primeiro valor a ser gerado, quando não indicado, por default é o número zero (0).
-
-2. `Parada` é o limite da progressão, que termina no último valor antes da parada.
-
-3. `Incremento` é um parâmetro opcional e indica o passo da progressão. O default, caso não seja informado, é um (1).
-
-Vejamos uma aplicação:
-
-```python
-range(3) # parada indicada 3, como não foram indicados, o início será 0 e incremento será 1
- # [0,1,2]
-range(2,5,2) # início 2, parada 5 e incremento 2
-# [2,4]
-range(5,2,-2) # o incremento é negativo 
-# [5,3]
-```
-
-O comando `for` permite que nos informemos sobre os elementos de uma lista. De modo geral, o comando é expresso da seguinte maneira: `for variável in lista : comandos`
-
-Uma grande utilidade da função `range` é construir a lista de iteração, como no exemplo a seguir:
-
-```python
-for i in range(1,7): print(i)
-# 1 2 3 4 5 6
-```
-
-> E sempre o último número da lista de iteração, no caso `7` não é contado.
 
 # 🐍 [Python] Erros na aritmética em pontos flutuantes
 vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
