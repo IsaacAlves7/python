@@ -1572,24 +1572,24 @@ Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e c
 </table>
 
 ## [Python] Strings
-Em uma variável do tipo `str`, é possível **armazenar letras, números, espaços, pontuação e diversos símbolos**. Diferentemente da **linguagem C**, _não existe_ o tipo `char`. **Cada caractere em Python é uma string**. Para delimitar uma string, podemos utilizar:
+Em uma variável do tipo `str`, é possível armazenar letras, números, espaços, pontuação e diversos símbolos. Diferentemente da linguagem C, _não existe_ o tipo `char`. Cada caractere em Python é uma string, para delimitar uma string, podemos utilizar:
 
-Aspas simples
+Aspas simples:
 ```python
 ‘uma string'
 ```
 
-Aspas duplas
+Aspas duplas:
 ```python
 “uma string”
 ```
 
-Aspas simples triplas
+Aspas simples triplas:
 ```python
 ‘’’uma string’’’
 ```
 
-Aspas duplas triplas
+Aspas duplas triplas:
 ```python
 “””uma string”””
 ```
