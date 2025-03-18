@@ -1500,6 +1500,49 @@ Veja outro exemplo:
 
 O Python usa a mesma hierarquia de cálculo de expressões numéricas da matemática, ou seja, primeiro exponenciação, depois multiplicação ou divisão, e, por último, adição e subtração. Desse modo, calculamos primeiro `9**4` (nove a quarta potência), depois adicionamos `2`, multiplicamos por `6` e, por fim, subtraímos por `1` , resultando em `39377`.
 
+A **Aritmética Computacional**, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares. Entender a aritmética computacional como ferramenta essencial para os profissionais que utilizaram programação para resolver problemas de modelagem matemática e os possíveis erros que podem ocorrer na execução de algoritmos em uma linguagem específica. Para compreender os conceitos abordados, é necessário prévio conhecimento básico da linguagem Python.
+
+> É necessário aprender os recursos do Python: programação e bibliotecas.
+
+Faremos um programa Python para avaliar uma fórmula simples. Nosso primeiro exemplo diz respeito à programação de um modelo matemático que calcula a altura de um objeto atirado na direção vertical, partindo de uma altura inicial igual a zero. Da 2ª lei de Newton, e ao assumir uma resistência do ar desprezível, obtemos um modelo matemático que determina a posição vertical `y` da bola no tempo `t`: 
+
+Formula da equação de movimento vertical sob a aceleração devido à gravidade:
+
+<pre>
+y = vot - 0.5gt<sup>2</sup>
+</pre>
+
+Onde:
+
+- `V0`: É a velocidade inicial da bola.
+
+- `g`: É a aceleração da gravidade no local, que pode ser aproximado por `10m/s2`.
+
+Para obter a altura ao decorrer do tempo, precisamos saber da velocidade inicial, que, para o nosso exemplo, será de `5m/s`. Então, podemos escrever um arquivo chamado de `primeiroprograma.py`, com o seguinte conteúdo:
+
+```python
+ # Programa para calcular a altura de um objeto em movimento vertical
+ v0 = 5	              # Velocidade inicial
+ g = 10	              # Aceleração da gravidade
+ t = 0,5	             # Tempo
+ y = v0 * t - 0,5 * g * t ** 2	    # Posição vertical
+ print(y)
+```
+
+`v0 = 5 # Velocidade inicial` Essa linha é uma atribuição de variável, ou seja, toda a vez que aparecer v0, o Python vai entender que é uma representação de 5m/s. Uma maneira simples de entender o que é atribuição seria pensar que o Python gera uma "caixa" no computador (memória) com o nome v0 escrito no topo. O número 5 é, então, colocado nessa caixa. Sempre que o Python, mais tarde, encontra o nome v0 no código, ele encontra a caixa, de modo que o Python tira o número cinco e substitui o nome v0 pelo número. Isso também acontece com as linhas seguintes: g = 10 e t = 0,5.
+
+`y = v0 * t - 0,5 * g * t ** 2 # Posição vertical` O Python já conhece três “caixas” com seus respectivos valores v0, g e t, então, a linha seguinte contém a fórmula do nosso modelo matemático: `y = v0 * t - 0,5 * g * t ** 2`. Novamente, de acordo com suas regras, Python interpreta `*` como multiplicação, `-` como menos e `**` como exponenciação. O Python executa a matemática e atribui o resultado (neste caso, o número `1,25`) à variável de nome `y`.
+
+`print(y)` Na última linha, vem o comando print(y), que é um comando de impressão na tela do valor de y, pois, caso não seja colocado essa função print, o Python executaria a fórmula e atribuiria na “caixa” y o valor de 1,25 e nada aparecia na tela.
+
+Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utilizamos o operador `=` para atribuir um valor numérico a uma representação, como no exemplo `v0`, `t` e `g`. Nesse ponto, a linguagem de programação difere da linguagem matemática. Para exemplificar essa diferença, usaremos a expressão `x= 4-x`. Veja o que essa expressão significa em cada caso:
+
+- Matemática: É uma simples equação, onde a variável `x = 2`.
+
+- Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
+
+Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
+
 ## [Python] Operadores de Comparação
 Além das operações algébricas, é possível realizar **operações de comparação**. Os **operadores de comparação** têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
 
@@ -3174,52 +3217,6 @@ Esse módulo implementa geradores de números pseudoaleatórios para várias dis
   - Uma função para escolher aleatoriamente sem substituição.
   
 A Tabela 8 mostra algumas das principais funções disponíveis para distribuições de valores reais no módulo `random`. 
-
-# 🐍 [Python] Aritmética computacional
-A Aritmética Computacional, apresentação dos erros comuns na linguagem Python e métodos clássicos de obtenção de raízes de funções não lineares.
-
-Entender a aritmética computacional como ferramenta essencial para os profissionais que utilizaram programação para resolver problemas de modelagem matemática e os possíveis erros que podem ocorrer na execução de algoritmos em uma linguagem específica. Para compreender os conceitos abordados, é necessário prévio conhecimento básico da linguagem Python.
-
-> É necessário aprender os recursos do Python: programação e bibliotecas.
-
-Faremos um programa Python para avaliar uma fórmula simples. Nosso primeiro exemplo diz respeito à programação de um modelo matemático que calcula a altura de um objeto atirado na direção vertical, partindo de uma altura inicial igual a zero. Da 2ª lei de Newton, e ao assumir uma resistência do ar desprezível, obtemos um modelo matemático que determina a posição vertical `y` da bola no tempo `t`: 
-
-Formula da equação de movimento vertical sob a aceleração devido à gravidade:
-
-<pre>
-y = vot - 0.5gt<sup>2</sup>
-</pre>
-
-Onde:
-
-- `V0`: É a velocidade inicial da bola.
-
-- `g`: É a aceleração da gravidade no local, que pode ser aproximado por `10m/s2`.
-
-Para obter a altura ao decorrer do tempo, precisamos saber da velocidade inicial, que, para o nosso exemplo, será de `5m/s`. Então, podemos escrever um arquivo chamado de `primeiroprograma.py`, com o seguinte conteúdo:
-
-```python
- # Programa para calcular a altura de um objeto em movimento vertical
- v0 = 5	              # Velocidade inicial
- g = 10	              # Aceleração da gravidade
- t = 0,5	             # Tempo
- y = v0 * t - 0,5 * g * t ** 2	    # Posição vertical
- print(y)
-```
-
-`v0 = 5 # Velocidade inicial` Essa linha é uma atribuição de variável, ou seja, toda a vez que aparecer v0, o Python vai entender que é uma representação de 5m/s. Uma maneira simples de entender o que é atribuição seria pensar que o Python gera uma "caixa" no computador (memória) com o nome v0 escrito no topo. O número 5 é, então, colocado nessa caixa. Sempre que o Python, mais tarde, encontra o nome v0 no código, ele encontra a caixa, de modo que o Python tira o número cinco e substitui o nome v0 pelo número. Isso também acontece com as linhas seguintes: g = 10 e t = 0,5.
-
-`y = v0 * t - 0,5 * g * t ** 2 # Posição vertical` O Python já conhece três “caixas” com seus respectivos valores v0, g e t, então, a linha seguinte contém a fórmula do nosso modelo matemático: `y = v0 * t - 0,5 * g * t ** 2`. Novamente, de acordo com suas regras, Python interpreta `*` como multiplicação, `-` como menos e `**` como exponenciação. O Python executa a matemática e atribui o resultado (neste caso, o número `1,25`) à variável de nome `y`.
-
-`print(y)` Na última linha, vem o comando print(y), que é um comando de impressão na tela do valor de y, pois, caso não seja colocado essa função print, o Python executaria a fórmula e atribuiria na “caixa” y o valor de 1,25 e nada aparecia na tela.
-
-Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utilizamos o operador `=` para atribuir um valor numérico a uma representação, como no exemplo `v0`, `t` e `g`. Nesse ponto, a linguagem de programação difere da linguagem matemática. Para exemplificar essa diferença, usaremos a expressão `x= 4-x`. Veja o que essa expressão significa em cada caso:
-
-- Matemática: É uma simples equação, onde a variável `x = 2`.
-
-- Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
-
-Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
 
 ## [Python] Mudanças de Bases
 <img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
