@@ -891,7 +891,7 @@ Os **dicionários** permitem que itens de uma sequência recebam índices defini
 
 Na figura 32, o dicionário tem **3 entradas**. Observe como foi possível recuperar **nome** e **sobrenome** de uma entrada, baseado na chave informada `111222333-44`.
 
-## PRECEDÊNCIA DE OPERADORES
+## [Python] PRECEDÊNCIA DE OPERADORES
 Ao escrever uma expressão algébrica, o programador pode utilizar a **precedência de operadores** existente em Python (implícita) ou **explicitar** a ordem em que ele deseja que a expressão seja avaliada.
 
 **Exemplo**: Por exemplo, a expressão `3 + 2 * 5` tem como resultado `25` ou `13`? Aprendemos no ensino fundamental que as operações de **produto** e **divisão** têm precedência sobre as operações de **soma** e **subtração**. Ou seja, **um produto** será realizado **antes de uma soma**, na mesma expressão. Assim, a expressão acima tem como resultado `13`. Isso ocorre sempre que não forem explicitadas outras relações de precedência com o uso de parênteses. Caso o programador quisesse forçar que a soma ocorresse primeiro, ele deveria escrever assim: `(3 + 2) * 5`.
@@ -982,22 +982,19 @@ Assinale a opção com o valor correto dessa expressão em Python.
 <pre><b>Resposta:</b> 2 e 4</pre>
 <blockquote>O operador <code>+</code> realiza operações de soma para tipos numéricos e concatenação para tipos sequenciais. Assim, a variável a na linha 1 passa a ser composta dos itens ‘UF’ e ‘RN’. Assim, a chamada <code>len(a)</code> retorna o tamanho <code>2</code>, número de elementos de a. De forma semelhante, o operador <code>*</code> realiza operações de multiplicação para tipos numéricos e concatenação de cópias para tipos sequenciais. Assim, a variável b na linha 3 passa a ser a lista <code>['4', '4', '4', '4']</code>. E a chamada <code>len(b)</code> retorna o tamanho <code>4</code>, número de elementos de b.</blockquote>
   
-## Entrada e saída de dados em Python
+## [Python] Entrada e saída de dados em Python
 Já vimos, de maneira básica, como podemos atribuir valor a uma variável, no módulo 2. Vamos agora conhecer outras formas de atribuição.
   
-## Sentenças de atribuição
+Sentenças de atribuição
 
-### Atribuição simples
 Chamamos de **atribuição simples** a forma que já utilizamos neste tema, com uma expressão parecida com `x = 10`. Nessa atribuição, a variável `x` recebe o valor `10`.
 
-### Atribuição múltipla
 Python também permite a **atribuição múltipla**, ou seja, mais de uma variável receber atribuição na mesma linha. Veja o exemplo na figura 36:
 
 ![figura36](https://user-images.githubusercontent.com/61624336/135550002-e383e5de-b764-4d09-b497-93ee47013575.png)
 
 > **Atenção!** Observe que as variáveis `x` e `y` receberam atribuição na mesma instrução, com a variável `x` armazenando o valor `2`, e a variável `y` armazenando o valor `5`.
 
-### Operadores de atribuição compostos
 Os **operadores de atribuição compostos** executam operações matemáticas e atualizam o valor da variável utilizada. Por exemplo, veja a figura 37:
 
 ![figura37](https://user-images.githubusercontent.com/61624336/135550875-4cbba501-1415-4f7e-a99e-b34b35c9347a.png)
@@ -1009,7 +1006,6 @@ Essa **operação de acrescentar** determinado valor a uma variável e armazenar
 ![figura38](https://user-images.githubusercontent.com/61624336/135552211-7684c2a5-1dd7-48e8-b387-cfa5731ad05e.png)
   
 Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a variável `x`, com o valor inicial `10`, para verificar os resultados.
-
 
 <table style="width:100%">
   <tr>
@@ -1055,7 +1051,7 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
 
 > **Atenção!** Diferente de <b>C</b>, em <b>Python</b> não é possível incrementar ou decrementar uma variável com um operador unário, como o <code>++</code> ou <code>--</code>.
   
-## Troca de variáveis
+## [Python] Troca de variáveis
 Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a troca entre duas delas. Suponha que as variáveis `a` e `b` armazenem, respectivamente, os valores `1` e `2`. Caso quiséssemos inverter os valores em linguagens como **C** ou **Java**, seria necessário usar uma variável auxiliar, com uma sequência de instruções exibida na figura a seguir:
  
 ![figura39](https://user-images.githubusercontent.com/61624336/135555036-17ad052e-35b6-4138-b852-52896b5b38eb.png)
@@ -1064,7 +1060,7 @@ Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja 
   
 ![figura40](https://user-images.githubusercontent.com/61624336/135555122-4a80fd61-9d9b-4b9b-a867-748b293ccd98.png)
 
-## 🐍 O PRIMEIRO PROGRAMA EM PYTHON
+# 🐍 [Python] O PRIMEIRO PROGRAMA EM PYTHON
 Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
 
 ### Saída de dados com a função `print()`
