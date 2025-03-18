@@ -1280,6 +1280,27 @@ A representação dos números inteiros não positivos (inteiros negativos) é r
 
 Existem diversas formas de resolver esse problema, como
 
+O número real `95,32`, representado na base decimal (`10`), pode ser escrito da seguinte maneira:
+
+<pre>
+9 x 10<sup>1</sup>+5 x 10<sup>0</sup>+3 x 10<sup>-1</sup>+2 x 10<sup>-2</sup>
+</pre>
+
+Agora, vamos generalizar essa ideia: um número real `r` na base dez (`10`), com `n+1` dígitos na parte inteira e `m` dígitos na parte fracionária, pode ser representado como:
+
+<pre>
+r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>10</sub>
+                     d<sub>n</sub> x 10<sup>n</sup>+d<sub>n-1</sub> x 10<sup>n-1</sup>+...+d<sub>1</sub> x 10<sup>1</sup>+d<sub>0</sub> x 10<sup>0</sup>+d<sub>-1</sub> x 10<sup>-1</sup>
+                     +d<sub>-2</sub> x 10<sup>-2</sup>+...+d<sub>-m</sub> x 10<sup>-m</sup>
+</pre>
+
+Utilizando o mesmo raciocínio, um número real `r`, representado em uma base `b`, pode ser escrito da seguinte maneira:
+
+<pre>
+    r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>b</sub> 
+d<sub>n</sub> x b<sub>n</sub>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>+d<sub>-1</sub> x b<sup>-1</sup>+d<sub>-2</sub> x b<sup>-2</sup>+...+d<sub>-m</sub> x b<sup>-m</sup>
+</pre>
+
 ## [Python] Complex
 É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
 
@@ -3148,28 +3169,6 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 - Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
 
 Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
-
-## [Python] Float
-O número real `95,32`, representado na base decimal (`10`), pode ser escrito da seguinte maneira:
-
-<pre>
-9 x 10<sup>1</sup>+5 x 10<sup>0</sup>+3 x 10<sup>-1</sup>+2 x 10<sup>-2</sup>
-</pre>
-
-Agora, vamos generalizar essa ideia: um número real `r` na base dez (`10`), com `n+1` dígitos na parte inteira e `m` dígitos na parte fracionária, pode ser representado como:
-
-<pre>
-r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>10</sub>
-                     d<sub>n</sub> x 10<sup>n</sup>+d<sub>n-1</sub> x 10<sup>n-1</sup>+...+d<sub>1</sub> x 10<sup>1</sup>+d<sub>0</sub> x 10<sup>0</sup>+d<sub>-1</sub> x 10<sup>-1</sup>
-                     +d<sub>-2</sub> x 10<sup>-2</sup>+...+d<sub>-m</sub> x 10<sup>-m</sup>
-</pre>
-
-Utilizando o mesmo raciocínio, um número real `r`, representado em uma base `b`, pode ser escrito da seguinte maneira:
-
-<pre>
-    r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>b</sub> 
-d<sub>n</sub> x b<sub>n</sub>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>+d<sub>-1</sub> x b<sup>-1</sup>+d<sub>-2</sub> x b<sup>-2</sup>+...+d<sub>-m</sub> x b<sup>-m</sup>
-</pre>
 
 ## [Python] Mudanças de Bases
 <img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
