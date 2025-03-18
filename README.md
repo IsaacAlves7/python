@@ -268,20 +268,6 @@ Devido a razões históricas, as linguagens concebidas para serem utilizadas na 
 O **virtualenv** do Python é utilizado para isolar a versão do Python e das bibliotecas usadas em um determinado sistema. Caso você não utilize o virtualenv, todas as bibliotecas necessárias para seu sistema seriam instaladas no ambiente do sistema operacional. Existe outra forma de fazer isso com o **Pipenv**.
 
 ## [Python] UTILITÁRIOS E MÓDULOS
-<img src="https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png" align="right">
-
-Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
-
-Não se preocupe ainda com o conceito de variável, nem com o seu tipo. Veremos tudo isso com detalhes nos próximos módulos deste tema.
-
-O utilitário `dir` apresenta todos os atributos e métodos disponíveis para determinado tipo de dado. No prompt interativo `>>>`, digite dir(x) e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
-
-No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
-
-![figura03](https://user-images.githubusercontent.com/61624336/133014701-4115d1d5-dac0-4260-81cf-6df3e3723127.png)
-
-O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários `dir` e `help` podem ser úteis.
-
 <img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
 
 Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
@@ -334,6 +320,20 @@ Existem muitas formas de utilizar o Python, especialmente se vier a ser um progr
 - um **editor** que o irá apoiar na escrita do código (deve ter algumas características especiais, não disponíveis em ferramentas simples); este editor dedicado dar-lhe-á mais do que o equipamento padrão do sistema operativo;
 - uma **console** na qual pode rodar o seu código recém-escrito e pará-lo à força quando ficar fora de controle;
 - uma ferramenta chamada de **debugger**, capaz de rodar o seu código passo a passo e que lhe permite inspecioná-lo em cada momento da execução.
+
+<img src="https://user-images.githubusercontent.com/61624336/133014438-1af0799c-dc1a-4d2b-bfcb-bd1bbb544a0b.png" align="right">
+
+Apenas como exemplo, na área de Console clique no botão **Python Console**. No prompt interativo `>>>` que se abrirá, digite `x = 5` e pressione a tecla [ENTER] ou [RETURN] do seu teclado. Observe na figura 2 que, na área Árvore de exibição de variáveis, agora fica disponível a informação que a variável `x` é do tipo `int` e tem o valor `5`.
+
+Não se preocupe ainda com o conceito de variável, nem com o seu tipo. Veremos tudo isso com detalhes nos próximos módulos deste tema.
+
+O utilitário `dir` apresenta todos os atributos e métodos disponíveis para determinado tipo de dado. No prompt interativo `>>>`, digite dir(x) e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
+
+No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
+
+![figura03](https://user-images.githubusercontent.com/61624336/133014701-4115d1d5-dac0-4260-81cf-6df3e3723127.png)
+
+O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários `dir` e `help` podem ser úteis.
 
 Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada "IDLE".
 
