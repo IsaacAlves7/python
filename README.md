@@ -1056,7 +1056,7 @@ A primeira observação que vamos realizar é sobre as palavras iniciadas com `#
 > [!Warning]
 > É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.
 
-## [Python] Variáveis em Python
+# 🐍 [Python] Variáveis
 <img src="https://user-images.githubusercontent.com/61624336/133180044-a4cebb34-ac4e-4924-99f8-0b3ae55f3486.png" align="right">
 
 As **variáveis** são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o identificador `x`, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, recuperar o valor guardado nele, que no nosso exemplo é `10`.
