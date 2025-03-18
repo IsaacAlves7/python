@@ -1558,6 +1558,253 @@ Utilizando o mesmo raciocínio, um número real `r`, representado em uma base `b
 d<sub>n</sub> x b<sub>n</sub>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>+d<sub>-1</sub> x b<sup>-1</sup>+d<sub>-2</sub> x b<sup>-2</sup>+...+d<sub>-m</sub> x b<sup>-m</sup>
 </pre>
 
+Mudanças de Bases
+
+<img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
+
+Vamos aprender a converter as bases, veja os exemplos de bases binárias, octodecimais e hexadecimais: (101)<sub>2</sub>, (175)<sub>8</sub>, (A2D)<sub>16</sub>.
+
+A maioria dos exercícios característicos pela mudança de base é a fase de converter um número na base qualquer pela outra que eu desejo, por exemplo. Se tenho um número da base 10 (decimal) para a base 2 (binário), se esse número for inteiro, basta eu dividir sucessivamente por 2 e eu vou pegar os restos dessa divisão. Agora, se eu quero fazer o processo inverso, com números fracionários, por exemplo, eu não vou dividir, eu vou multiplicar por aquela base. Se eu tiver um número 0.11 e estiver na base 10 e coloca-lo na base 2, eu tenho que multiplicar por 2 e não dividi-lo. A maioria dos exercícios sobre conversão de base, basicamente, são essas duas operações: Dividir e multiplicar pela base que eu desejo.
+
+```python
+# 101 - Na base binária pra decimal
+1*2**2 + 0*2 + 1*2**0
+
+# Output: 5 
+```
+
+Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo:
+
+```python
+# 175 - Na base octodecimal pra decimal
+0b101
+
+# Output: 5 
+```
+
+```python
+# A2D - Na base hexadecimal pra decimal
+0o175
+
+# Output: 125
+```
+ 
+```python
+# A2D - Na base hexadecimal pra decimal
+0xA2D
+
+# Output: 2605
+```
+ 
+```python
+# Número binário do número 9
+bin(9)
+
+# Output: 0b1001
+```
+
+```python
+# Número octodecimal do número 125
+oct(125)
+
+# Output: 0o175
+```
+
+```python
+# Número octodecimal do número 125
+hex(2605)
+
+# Output: 0xa2d
+```
+
+```python
+# Notação científica
+import numpy as np
+
+print('%1.5f' %np.pi)
+print('%1.5e' %np.pi)
+
+'''
+Output:
+3.14159
+3.14159e+00
+'''
+```
+
+Exercício: Qual é a representação do número 125 na base 6? 
+
+Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b). Para isso, vamos executar os cálculos utilizando o Python. Usaremos o operador `%` e a função `int`, visto que o número 125 é um inteiro:
+
+```python
+N = 125; d0 = (N % 6); # 5
+N = int(N/6); d1 = (N % 6); # 2
+N = int(N/6); d2 = (N % 6); # 3
+
+print(str(d2)+str(d1)+str(d0))
+
+# Output: 325 = (325)6
+```
+
+Mudança de base dez (10) para a base b
+Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
+
+- `i`: É a parte inteira.
+- `f`: É a parte fracionária.
+
+Devemos reparar ambas as partes, ou seja, fazer `r = i + 0,f`; tomando como exemplo `95`, temos `32 = 95 +0,32`. Já vimos nas seções anteriores a transformação da parte inteira; agora, vamos focar somente na parte fracionária `0,f`. Então, vamos considerar que o nosso número real `r` só contém a parte fracionária:
+
+<img width="443" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/875f1d09-8f0b-43d9-b057-fccdc0927079">
+
+O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na base (10) para uma base b, deveríamos dividir o número por b, sucessivamente, e obter os restos. A ideia será a mesma, porém com uma diferença, ao contrário de fazer divisões, faremos multiplicações, ou seja, o primeiro passo será multiplicar o número real `r` pela base que se deseja transformar, `b`. Em símbolos matemáticos, teríamos:
+
+<img width="324" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/485a38df-71f2-4efc-9be2-e18178766668">
+
+Obtém-se uma parte inteira, `d-1`, e a parte fracionária começa com `d-2`. Multiplicando a parte fracionária restante por b, o resultado será d-2, e, assim, sucessivamente. A seguir, veremos dois exemplos de conversão dos número reais 0,625 e 0,2 para a base binária, ou seja, da base dois (2):
+
+<img width="619" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cab78c07-cdeb-4a67-843a-f6b586311d00">
+
+Esses dois exemplos ilustram que é possível, numa transformação de base dois de um número real na base 10, obter um resultado cuja representação possui um número finito de zeros e um ou um número infinito (dízima periódica) de zeros e um.
+
+Mudança da base b para a base 10
+Seja r um número real na base b, `(0, d-1d-2....d-m )b`, para obter a sua representação na base 10, basta aplicar a fórmula matemática já vista na seção anterior:
+
+<img width="446" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/532150ea-732b-4ccb-b777-3fbf361ffe8c">
+
+Por exemplo, converter o número (0,561)<sub>8</sub> para a base 10, aplicando a fórmula:
+
+<img width="398" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/2f0dc044-97c0-4349-b6c9-ca7148173ffd">
+
+**Mudança da base b para a base 2**: Para encontrar o número desejado, primeiramente, vamos converter o número binário da base 2 para a base 10, e depois precisamos converter o número para a base b, lembrando que primeiro vem a parte inteira, se o número em questão é um número real, depois vem a parte da fracionária, ou seja, é feita a conversão de maneira isolada.
+
+Exemplo: Quero converter na base 4 o número real de base binária
+
+```python
+# Conversão da Base Binária (b)2 para a base decimal (b)10
+def bin2dec(bin_str):
+    return int(bin_str, 2)
+
+# Conversão da Base decimal para a base b 
+def dec2base4(dec):
+    if dec == 0:
+        return '0'
+    else:
+        result = ''
+        while dec > 0:
+            result = str(dec % 4) + result
+            dec //= 4
+        return result
+
+# Conversão da base binária para fracionária na base b
+def bin_frac2base4_frac(bin_frac_str):
+    dec_frac = 0
+    for i, digit in enumerate(bin_frac_str):
+        dec_frac += int(digit) * (2 ** -(i+1))
+    base4_frac = ''
+    while dec_frac > 0:
+        dec_frac *= 4
+        digit = int(dec_frac)
+        base4_frac += str(digit)
+        dec_frac -= digit
+    return base4_frac
+
+# Conversão final do binário real para a base b real
+def bin_real2base4_real(bin_real_str):
+    if '.' in bin_real_str:
+        bin_int_str, bin_frac_str = bin_real_str.split('.')
+        return dec2base4(bin2dec(bin_int_str)) + '.' + bin_frac2base4_frac(bin_frac_str)
+    else:
+        return dec2base4(bin2dec(bin_real_str))
+
+print(bin_real2base4_real('101.01'))  
+
+# Output: 11.1 = (11.1)4
+```
+
+A conversão de um número real de base binária para a base 4 em Python pode ser um pouco mais complexa, pois envolve a conversão da parte inteira e da parte fracionária separadamente. No exemplo acima, a função `bin_real2base4_real()` primeiro verifica se o número binário é um número real, dividindo-o em uma parte inteira e uma parte fracionária se houver um ponto decimal. Em seguida, ele converte a parte inteira e a parte fracionária separadamente, usando as funções `dec2base4()`, `bin2dec()`, e `bin_frac2base4_frac()`.
+
+Outra forma mais simples de fazer essa mesma operação: Para encontrar o número desejado, primeiramente, vamos converter o número para a base 10, ou seja: 1⋅22+0⋅21+1⋅20+0⋅2-1+1⋅2-2=5,25, agora é converter o número para a base 4. Em Python, basta utilizar o comando:
+
+```python
+# Primeiro com a parte inteira 5
+
+N = 5; d0 = (N % 4);
+N = int(N/4); d1 = (q % 4);
+
+print(str(d1)+str(d0))
+# Output: 11
+
+# Agora, a parte fracionária 0,25
+
+f=0.25
+d=1, x=0.000000
+d=int(4*f) ; f = 4*f - d; print('d=%d, x =%f' % (d,f))
+```
+
+**Notação Científica dos números reais**: Nas ciências, é comum encontramos fenômenos ou grandezas cujos valores são altos ou baixos, por exemplo, na Astronomia ou na Nanotecnologia. Para a representação desses números, é necessária uma quantidade grande de dígitos. A solução desse problema é usar a notação cientifica, cuja representação de um número real é dada da seguinte forma:
+
+<img width="110" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/8f5393b2-08b3-404d-a27e-f5cc8e4ea852">
+
+Onde:
+
+- `M` é um inteiro real não negativo, chamado de **mantissa**.
+
+- `b ≥ 2` é um número inteiro positivo, chamado de **base**.
+
+- `e` é chamado de **expoente**.
+
+No entanto, essa notação possui uma ambiguidade. O número `0,1`, por exemplo, pode ser representado de formas equivalentes:
+
+<img width="442" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/1f234a21-82ae-44b7-8b53-7ff9e122158f">
+
+Para resolver essa situação, foi imposta a seguinte condição à mantissa:
+
+<img width="274" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/133e90ec-b756-4f19-8e79-3aa6f39b0bd6">
+
+Essa condição define uma notação **normalizada**.
+
+**Representação em ponto flutuante**: A notação científica abrange todos os números reais e, como sabemos, essa quantidade é infinita, o que torna impossível de ser implementada em um computador que possua uma quantidade finita de dígitos. A solução foi modificar um pouco a normalização da notação científica da seguinte maneira:
+
+<img width="597" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/e5b96a80-11a1-445b-8e65-24fab9d282c2">
+
+A notação que usaremos é <code>FP(b,p, e<sub>min</sub>, e<sub>max</sub>)</code>, para nos referirmos ao número no sistema de ponto flutuante de base `b`, na qual a mantissa possui `p` dígitos (na base b) e os expoentes estão contidos no intervalo fechado [e<sub>min</sub>, e<sub>max</sub>], ou seja, `r=0` ou <code>r=±M×b<sup>e</sup></code>, onde <code>b<sup>-1</sup> ≤ M ≤ 1 - b<sup>-p</sup></code>.
+
+Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-99,99)`. Pode ser escrito de forma genérica como `r=±(0,d-1 d-2 d-3 d-4)×10e`, onde `-99≤ e ≤ 99`. Observe que essa representação não é capaz de representar o número real <code>0,1x10<sup>100</sup></code>, pois o expoente é igual a `100 > 99`, que é o expoente máximo.
+
+> **Atenção**: Em uma modelagem matemática, isso é chamado de **overflow**. De maneira semelhante, 0,1x10<sup>-100</sup>, e o motivo é o mesmo -100<-99, que é o valor mínimo. Essa situação é definida como **underflow**.
+
+Erros na aritmética em pontos flutuantes
+vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
+
+Erros de representação, a representação em pontos flutuantes só consegue ser realizada de maneira exata para alguns números. Para outros números reais, poderá indicar algum erro, logicamente supondo que os números não sejam **overflow** ou **underflow**. Definiremos um número real, que esteja contido em um sistema ponto flutuante `FP(b,p, emin, emax )`, de forma exata, de `r=fl(r)`. Caso contrário, obteremos a resposta `r=fl(r) + erro`.
+
+Caso não seja possível representar o número real r no sistema de ponto flutuante com exatidão, existem duas técnicas possíveis `fl(r)`:
+
+- **Arrendondamento por truncamento**: Dada uma mantissa `M` de um número real `r`, com número de dígitos `m>p`, onde `p` é o número de dígitos do sistema de ponto flutuante; define-se o truncamento ao desprezar todos os dígitos a partir da posição `p+1`. Por exemplo, seja o número real, na sua notação cientifica na base `10`, igual a `r=0,341592654 x 10`, se o representarmos num sistema de ponto flutuante `FP(10,4,-99,99)`, então, o resultado será `fl(r) = 0,3415x10`.
+
+- **Arrendondamento por aproximação**: Essa técnica é a mais comum e tem por objetivo reduzir o erro entre o ponto flutuante `fl(r)` e o valor exato `r`, ou seja, o valor mais próximo. Utilizando o exemplo anterior, aproximar `fl(r)` para `0,3416x10` tem um erro menor que aproximar para o valor truncado. O critério arrendondamento por aproximação, às vezes, pode apresentar uma ambiguidade, por exemplo, quando o número real `0,15` for arrendondado para um dígito, os números `0,1` e `0,2` estão igualmente próximos. Para resolver esse problema, foram desenvolvidas várias soluções e, para o sistema binário (b=2) e decimal (b=10), a mais comum é arrendondar de forma que o último dígito seja par.
+
+> **Atenção**: Os arrendondamentos por truncamento e aproximação são realizados somente na mantissa (M), ou seja, não é considerado erro no expoente.
+
+Agora, podemos analisar os erros de representação de um número real e sem perda de generalidade. Vamos considerar somente os números reais positivos exatos na notação cientifica normalizada, ou seja, <code>r = Mxb<sup>t</sup></code>, e o seu correspondente no sistema de ponto flutuante <code>fl(r) = mxb<sup>t</sup></code>, não necessariamente normalizada. Define-se como erro absoluto `E` por:
+
+<img width="325" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/026f3ff3-c471-4d53-af5e-0482bcb82a7d">
+
+É possível demonstrar que <img width="69" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/41d47cf4-3db5-4a97-a605-ed25d3cd7ac3"> para o truncamento e <img width="85" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/d3346c4e-35c9-4cae-b772-e0ca54854751"> para aproximação. Define-se como erro relativo `e`:
+
+<img width="236" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/09b3a0ff-153e-477d-8073-2a9f2b131808">
+
+De maneira análoga, pode-se demonstrar que <img width="86" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/eea4af33-0c49-4f34-aa40-cbf657ba7058"> para o truncamento e <img width="98" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/4c778b6f-27f1-4f42-89e1-ac90b397661c"> para a aproximação, onde `u` é chamado de unidade de arrendondamento.
+
+> **Exemplo**: Para determinar a unidade de arrendondamento `u` de `FP(2,24,-99,99)` para o truncamento, temos: <img width="380" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cfa31d8c-d247-4154-bc7c-57e0e74132e2">
+
+Nesta seção, vamos estudar como são os erros nas operações básicas da matemática: soma, subtração, multiplicação e divisão, quando realizadas em um sistema de ponto flutuante. Primeiramente, vamos descrever de simplificadamente como são realizadas as quatro operações básicas no sistema ponto flutuante. Para a soma e subtração de dois números no mesmo sistema de ponto flutuante, <code>x<sub>1</sub>=m<sub>1</sub>b<sup>a</sup></code> e <code>x<sub>2</sub>=m<sub>2</sub>b<sup>c</sup></code>, onde `a>c`, sua soma e subtração podem ser dadas por:
+
+- **Soma**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup>+m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>+m<sub>2</sub> b<sup>a-c</sup>)b<sub>c</sub></code>
+
+- **Subtração**: <code>x<sub>1</sub>-x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup>-m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>-m<sub>2</sub> b<sup>a-c</sup>)b<sup>c</sup></code>
+
+- **Multiplicação**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup> × m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>×m<sub>2</sub>) b<sup>a+c</sup></code>
+
 ## [Python] Complex
 É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
 
@@ -3214,254 +3461,6 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
   
 - A **linha 2** traz as condições de parada.
 - A **linha 5** traz as chamadas recursivas para calcular os dois termos anteriores da sequência.
-
-## [Python] Mudanças de Bases
-<img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
-
-Vamos aprender a converter as bases, veja os exemplos de bases binárias, octodecimais e hexadecimais: (101)<sub>2</sub>, (175)<sub>8</sub>, (A2D)<sub>16</sub>.
-
-A maioria dos exercícios característicos pela mudança de base é a fase de converter um número na base qualquer pela outra que eu desejo, por exemplo. Se tenho um número da base 10 (decimal) para a base 2 (binário), se esse número for inteiro, basta eu dividir sucessivamente por 2 e eu vou pegar os restos dessa divisão. Agora, se eu quero fazer o processo inverso, com números fracionários, por exemplo, eu não vou dividir, eu vou multiplicar por aquela base. Se eu tiver um número 0.11 e estiver na base 10 e coloca-lo na base 2, eu tenho que multiplicar por 2 e não dividi-lo. A maioria dos exercícios sobre conversão de base, basicamente, são essas duas operações: Dividir e multiplicar pela base que eu desejo.
-
-```python
-# 101 - Na base binária pra decimal
-1*2**2 + 0*2 + 1*2**0
-
-# Output: 5 
-```
-
-Já existe uma função intríseca na linguagem de programação Python que faz esse cálculo:
-
-```python
-# 175 - Na base octodecimal pra decimal
-0b101
-
-# Output: 5 
-```
-
-```python
-# A2D - Na base hexadecimal pra decimal
-0o175
-
-# Output: 125
-```
- 
-```python
-# A2D - Na base hexadecimal pra decimal
-0xA2D
-
-# Output: 2605
-```
- 
-```python
-# Número binário do número 9
-bin(9)
-
-# Output: 0b1001
-```
-
-```python
-# Número octodecimal do número 125
-oct(125)
-
-# Output: 0o175
-```
-
-```python
-# Número octodecimal do número 125
-hex(2605)
-
-# Output: 0xa2d
-```
-
-```python
-# Notação científica
-import numpy as np
-
-print('%1.5f' %np.pi)
-print('%1.5e' %np.pi)
-
-'''
-Output:
-3.14159
-3.14159e+00
-'''
-```
-
-**Exercício**: Qual é a representação do número 125 na base 6? 
-
-Para encontrarmos o número desejado, faremos sucessivas divisões por 6 (Base b). Para isso, vamos executar os cálculos utilizando o Python. Usaremos o operador `%` e a função `int`, visto que o número 125 é um inteiro:
-
-```python
-N = 125; d0 = (N % 6); # 5
-N = int(N/6); d1 = (N % 6); # 2
-N = int(N/6); d2 = (N % 6); # 3
-
-print(str(d2)+str(d1)+str(d0))
-
-# Output: 325 = (325)6
-```
-
-### [Python] Mudança de base dez (10) para a base b
-Para realizarmos a mudança de base dez para uma representação na base b de um número real no formato `r = i,f`; onde:
-
-- `i`: É a parte inteira.
-- `f`: É a parte fracionária.
-
-Devemos reparar ambas as partes, ou seja, fazer `r = i + 0,f`; tomando como exemplo `95`, temos `32 = 95 +0,32`. Já vimos nas seções anteriores a transformação da parte inteira; agora, vamos focar somente na parte fracionária `0,f`. Então, vamos considerar que o nosso número real `r` só contém a parte fracionária:
-
-<img width="443" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/875f1d09-8f0b-43d9-b057-fccdc0927079">
-
-O procedimento seria, primeiramente, lembrar que, para transformar um inteiro na base (10) para uma base b, deveríamos dividir o número por b, sucessivamente, e obter os restos. A ideia será a mesma, porém com uma diferença, ao contrário de fazer divisões, faremos multiplicações, ou seja, o primeiro passo será multiplicar o número real `r` pela base que se deseja transformar, `b`. Em símbolos matemáticos, teríamos:
-
-<img width="324" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/485a38df-71f2-4efc-9be2-e18178766668">
-
-Obtém-se uma parte inteira, `d-1`, e a parte fracionária começa com `d-2`. Multiplicando a parte fracionária restante por b, o resultado será d-2, e, assim, sucessivamente. A seguir, veremos dois exemplos de conversão dos número reais 0,625 e 0,2 para a base binária, ou seja, da base dois (2):
-
-<img width="619" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cab78c07-cdeb-4a67-843a-f6b586311d00">
-
-Esses dois exemplos ilustram que é possível, numa transformação de base dois de um número real na base 10, obter um resultado cuja representação possui um número finito de zeros e um ou um número infinito (dízima periódica) de zeros e um.
-
-### [Python] Mudança da base b para a base 10
-Seja r um número real na base b, `(0, d-1d-2....d-m )b`, para obter a sua representação na base 10, basta aplicar a fórmula matemática já vista na seção anterior:
-
-<img width="446" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/532150ea-732b-4ccb-b777-3fbf361ffe8c">
-
-Por exemplo, converter o número (0,561)<sub>8</sub> para a base 10, aplicando a fórmula:
-
-<img width="398" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/2f0dc044-97c0-4349-b6c9-ca7148173ffd">
-
-**Mudança da base b para a base 2**: Para encontrar o número desejado, primeiramente, vamos converter o número binário da base 2 para a base 10, e depois precisamos converter o número para a base b, lembrando que primeiro vem a parte inteira, se o número em questão é um número real, depois vem a parte da fracionária, ou seja, é feita a conversão de maneira isolada.
-
-Exemplo: Quero converter na base 4 o número real de base binária
-
-```python
-# Conversão da Base Binária (b)2 para a base decimal (b)10
-def bin2dec(bin_str):
-    return int(bin_str, 2)
-
-# Conversão da Base decimal para a base b 
-def dec2base4(dec):
-    if dec == 0:
-        return '0'
-    else:
-        result = ''
-        while dec > 0:
-            result = str(dec % 4) + result
-            dec //= 4
-        return result
-
-# Conversão da base binária para fracionária na base b
-def bin_frac2base4_frac(bin_frac_str):
-    dec_frac = 0
-    for i, digit in enumerate(bin_frac_str):
-        dec_frac += int(digit) * (2 ** -(i+1))
-    base4_frac = ''
-    while dec_frac > 0:
-        dec_frac *= 4
-        digit = int(dec_frac)
-        base4_frac += str(digit)
-        dec_frac -= digit
-    return base4_frac
-
-# Conversão final do binário real para a base b real
-def bin_real2base4_real(bin_real_str):
-    if '.' in bin_real_str:
-        bin_int_str, bin_frac_str = bin_real_str.split('.')
-        return dec2base4(bin2dec(bin_int_str)) + '.' + bin_frac2base4_frac(bin_frac_str)
-    else:
-        return dec2base4(bin2dec(bin_real_str))
-
-print(bin_real2base4_real('101.01'))  
-
-# Output: 11.1 = (11.1)4
-```
-
-A conversão de um número real de base binária para a base 4 em Python pode ser um pouco mais complexa, pois envolve a conversão da parte inteira e da parte fracionária separadamente. No exemplo acima, a função `bin_real2base4_real()` primeiro verifica se o número binário é um número real, dividindo-o em uma parte inteira e uma parte fracionária se houver um ponto decimal. Em seguida, ele converte a parte inteira e a parte fracionária separadamente, usando as funções `dec2base4()`, `bin2dec()`, e `bin_frac2base4_frac()`.
-
-Outra forma mais simples de fazer essa mesma operação: Para encontrar o número desejado, primeiramente, vamos converter o número para a base 10, ou seja: 1⋅22+0⋅21+1⋅20+0⋅2-1+1⋅2-2=5,25, agora é converter o número para a base 4. Em Python, basta utilizar o comando:
-
-```python
-# Primeiro com a parte inteira 5
-
-N = 5; d0 = (N % 4);
-N = int(N/4); d1 = (q % 4);
-
-print(str(d1)+str(d0))
-# Output: 11
-
-# Agora, a parte fracionária 0,25
-
-f=0.25
-d=1, x=0.000000
-d=int(4*f) ; f = 4*f - d; print('d=%d, x =%f' % (d,f))
-```
-
-**Notação Científica dos números reais**: Nas ciências, é comum encontramos fenômenos ou grandezas cujos valores são altos ou baixos, por exemplo, na Astronomia ou na Nanotecnologia. Para a representação desses números, é necessária uma quantidade grande de dígitos. A solução desse problema é usar a notação cientifica, cuja representação de um número real é dada da seguinte forma:
-
-<img width="110" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/8f5393b2-08b3-404d-a27e-f5cc8e4ea852">
-
-Onde:
-
-- `M` é um inteiro real não negativo, chamado de **mantissa**.
-
-- `b ≥ 2` é um número inteiro positivo, chamado de **base**.
-
-- `e` é chamado de **expoente**.
-
-No entanto, essa notação possui uma ambiguidade. O número `0,1`, por exemplo, pode ser representado de formas equivalentes:
-
-<img width="442" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/1f234a21-82ae-44b7-8b53-7ff9e122158f">
-
-Para resolver essa situação, foi imposta a seguinte condição à mantissa:
-
-<img width="274" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/133e90ec-b756-4f19-8e79-3aa6f39b0bd6">
-
-Essa condição define uma notação **normalizada**.
-
-**Representação em ponto flutuante**: A notação científica abrange todos os números reais e, como sabemos, essa quantidade é infinita, o que torna impossível de ser implementada em um computador que possua uma quantidade finita de dígitos. A solução foi modificar um pouco a normalização da notação científica da seguinte maneira:
-
-<img width="597" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/e5b96a80-11a1-445b-8e65-24fab9d282c2">
-
-A notação que usaremos é <code>FP(b,p, e<sub>min</sub>, e<sub>max</sub>)</code>, para nos referirmos ao número no sistema de ponto flutuante de base `b`, na qual a mantissa possui `p` dígitos (na base b) e os expoentes estão contidos no intervalo fechado [e<sub>min</sub>, e<sub>max</sub>], ou seja, `r=0` ou <code>r=±M×b<sup>e</sup></code>, onde <code>b<sup>-1</sup> ≤ M ≤ 1 - b<sup>-p</sup></code>.
-
-Tomamos como exemplo um número real representado em ponto flutuante `FP(10,4,-99,99)`. Pode ser escrito de forma genérica como `r=±(0,d-1 d-2 d-3 d-4)×10e`, onde `-99≤ e ≤ 99`. Observe que essa representação não é capaz de representar o número real <code>0,1x10<sup>100</sup></code>, pois o expoente é igual a `100 > 99`, que é o expoente máximo.
-
-> **Atenção**: Em uma modelagem matemática, isso é chamado de **overflow**. De maneira semelhante, 0,1x10<sup>-100</sup>, e o motivo é o mesmo -100<-99, que é o valor mínimo. Essa situação é definida como **underflow**.
-
-# 🐍 [Python] Erros na aritmética em pontos flutuantes
-vamos analisar o quanto a representação finita dos pontos flutuantes influencia nos números reais. Por exemplo, se verificarmos no Python se `22 = 4`, a resposta será verdadeira, mas quando verificamos se <img width="78" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/884b0cf9-2fb8-4ffc-b9cc-47e44a0eff4d"> , a resposta é falsa.
-
-## [Python] Erros de representação
-A representação em pontos flutuantes só consegue ser realizada de maneira exata para alguns números. Para outros números reais, poderá indicar algum erro, logicamente supondo que os números não sejam **overflow** ou **underflow**. Definiremos um número real, que esteja contido em um sistema ponto flutuante `FP(b,p, emin, emax )`, de forma exata, de `r=fl(r)`. Caso contrário, obteremos a resposta `r=fl(r) + erro`.
-
-Caso não seja possível representar o número real r no sistema de ponto flutuante com exatidão, existem duas técnicas possíveis `fl(r)`:
-
-- **Arrendondamento por truncamento**: Dada uma mantissa `M` de um número real `r`, com número de dígitos `m>p`, onde `p` é o número de dígitos do sistema de ponto flutuante; define-se o truncamento ao desprezar todos os dígitos a partir da posição `p+1`. Por exemplo, seja o número real, na sua notação cientifica na base `10`, igual a `r=0,341592654 x 10`, se o representarmos num sistema de ponto flutuante `FP(10,4,-99,99)`, então, o resultado será `fl(r) = 0,3415x10`.
-
-- **Arrendondamento por aproximação**: Essa técnica é a mais comum e tem por objetivo reduzir o erro entre o ponto flutuante `fl(r)` e o valor exato `r`, ou seja, o valor mais próximo. Utilizando o exemplo anterior, aproximar `fl(r)` para `0,3416x10` tem um erro menor que aproximar para o valor truncado. O critério arrendondamento por aproximação, às vezes, pode apresentar uma ambiguidade, por exemplo, quando o número real `0,15` for arrendondado para um dígito, os números `0,1` e `0,2` estão igualmente próximos. Para resolver esse problema, foram desenvolvidas várias soluções e, para o sistema binário (b=2) e decimal (b=10), a mais comum é arrendondar de forma que o último dígito seja par.
-
-> **Atenção**: Os arrendondamentos por truncamento e aproximação são realizados somente na mantissa (M), ou seja, não é considerado erro no expoente.
-
-Agora, podemos analisar os erros de representação de um número real e sem perda de generalidade. Vamos considerar somente os números reais positivos exatos na notação cientifica normalizada, ou seja, <code>r = Mxb<sup>t</sup></code>, e o seu correspondente no sistema de ponto flutuante <code>fl(r) = mxb<sup>t</sup></code>, não necessariamente normalizada. Define-se como erro absoluto `E` por:
-
-<img width="325" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/026f3ff3-c471-4d53-af5e-0482bcb82a7d">
-
-É possível demonstrar que <img width="69" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/41d47cf4-3db5-4a97-a605-ed25d3cd7ac3"> para o truncamento e <img width="85" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/d3346c4e-35c9-4cae-b772-e0ca54854751"> para aproximação. Define-se como erro relativo `e`:
-
-<img width="236" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/09b3a0ff-153e-477d-8073-2a9f2b131808">
-
-De maneira análoga, pode-se demonstrar que <img width="86" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/eea4af33-0c49-4f34-aa40-cbf657ba7058"> para o truncamento e <img width="98" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/4c778b6f-27f1-4f42-89e1-ac90b397661c"> para a aproximação, onde `u` é chamado de unidade de arrendondamento.
-
-> **Exemplo**: Para determinar a unidade de arrendondamento `u` de `FP(2,24,-99,99)` para o truncamento, temos: <img width="380" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/cfa31d8c-d247-4154-bc7c-57e0e74132e2">
-
-## [Python] Erros nas operações aritméticas
-Nesta seção, vamos estudar como são os erros nas operações básicas da matemática: soma, subtração, multiplicação e divisão, quando realizadas em um sistema de ponto flutuante. Primeiramente, vamos descrever de simplificadamente como são realizadas as quatro operações básicas no sistema ponto flutuante. Para a soma e subtração de dois números no mesmo sistema de ponto flutuante, <code>x<sub>1</sub>=m<sub>1</sub>b<sup>a</sup></code> e <code>x<sub>2</sub>=m<sub>2</sub>b<sup>c</sup></code>, onde `a>c`, sua soma e subtração podem ser dadas por:
-
-- **Soma**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup>+m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>+m<sub>2</sub> b<sup>a-c</sup>)b<sub>c</sub></code>
-
-- **Subtração**: <code>x<sub>1</sub>-x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup>-m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>-m<sub>2</sub> b<sup>a-c</sup>)b<sup>c</sup></code>
-
-- **Multiplicação**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup> × m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>×m<sub>2</sub>) b<sup>a+c</sup></code>
 
 # 🐍 [Python] RAD - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
