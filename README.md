@@ -1476,21 +1476,7 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
   </tr>
 </table>
 
-No Python, podemos utilizar as operações aritméticas usadas na matemática básica. Veja alguns exemplos dos operadores que o Python suporta:
-
-- `+` Adição
-
-- `-` Subtração
-
-- `*` Multiplicação
-
-- `/` Divisão
-
-- `**` Exponenciação
-
-- `%` Resto de divisão
-
-A seguir, apresentaremos alguns exemplos dessas operações e como o Python responde.
+No Python, podemos utilizar as operações aritméticas usadas na matemática básica. A seguir, apresentaremos alguns exemplos dessas operações e como o Python responde.
 
 ```python
 >>> s = ’Olá’
