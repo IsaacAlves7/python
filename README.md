@@ -1608,9 +1608,7 @@ O laço `while` infinito tem o seguinte formato:
 
 **Exemplo**: Suponha que você deseje criar uma aplicação que permaneça por meses ou anos sendo executada, registrando a temperatura ou a umidade de um ambiente. Logicamente, estamos supondo que você tenha essa informação disponível a partir da leitura de algum sensor. Deve-se tomar cuidado e ter certeza de que seu uso é realmente necessário para evitar problemas de consumo excessivo de memória.
 
-# AS INSTRUÇÕES AUXILIARES `BREAK`, `CONTINUE` E `PASS`
-
-## A instrução `break`
+# AS INSTRUÇÕES AUXILIARES
 A instrução `break` funciona da mesma maneira em **C** e em **Python**. Ela interrompe as repetições dos laços `for` e `while`. Quando a execução do programa chega a uma instrução `break`, a repetição é encerrada e o fluxo do programa segue a partir da primeira instrução seguinte ao laço.
 
 Para exemplificar o uso da instrução `break`, vamos voltar ao primeiro exemplo do laço `while`, utilizando o laço infinito. O laço será encerrado quando o usuário inserir a palavra ‘sair’. Veja a Figura 10:
@@ -1641,7 +1639,6 @@ while True:
     print('Você saiu do primeiro laço')
 ```
   
-## A instrução `continue`
 A instrução `continue` também funciona da mesma maneira em **C** e em **Python**. Ela atua sobre as repetições dos laços `for` e `while`, como a instrução `break`, mas não interrompe todas as repetições do laço. A instrução `continue` **interrompe apenas a iteração corrente**, fazendo com que o **laço passe para a próxima iteração**.
 
 O exemplo a seguir imprime todos os números inteiros de `1` até `10`, pulando apenas o `5`. Veja sua implementação na Figura 12:
@@ -1665,7 +1662,6 @@ Para ressaltar a diferença entre as instruções `break` e `continue`, vamos al
 Laço encerrado
 </pre>
   
-## A INSTRUÇÃO `PASS`
 A instrução `pass` atua sobre a estrutura `if`, permitindo que ela seja escrita sem outras instruções a serem executadas caso a condição seja verdadeira. Assim, podemos concentrar as instruções no caso em que a condição seja falsa. Suponha que queiramos imprimir somente os números ímpares entre `1` e `10`. Uma implementação possível está na Figura 14:
   
 ```python
@@ -1692,7 +1688,7 @@ Claramente, seria possível reescrever a condição do `if-else` para que pudés
 
 Agora que já vimos os principais conceitos relativos às estruturas de decisão e de repetição, vamos testar seus conhecimentos.
   
-### 1. Considere o seguinte trecho de um programa escrito em Python:
+Considere o seguinte trecho de um programa escrito em Python:
 
 ```python
 s = 0
@@ -1704,7 +1700,7 @@ Parabéns! A alternativa "C" está correta.
 
 O laço for vai ser repetido 5 vezes, já que range(5) retorna a sequência (`0, 1, 2, 3, 4`). Vale observar que a instrução `print(s)` está fora do laço `for`, o que a leva a ser executada apenas uma vez quando o laço se encerrar. Isso elimina as opções A e B. A variável s começa com valor zero e é acrescida, a cada iteração, do valor `3*i`, sendo que `i` pertence à sequência (`0, 1, 2, 3, 4`). Ou seja, s recebe os acréscimos: `0 + 3 + 6 + 9 + 12`. Assim, ela termina o laço com o valor `30`, que será impresso pela instrução `print(s)`.
   
-### 2. Considere o seguinte trecho de um programa escrito em Python:
+2. Considere o seguinte trecho de um programa escrito em Python:
 ```python
 s = 0
 a = 1
