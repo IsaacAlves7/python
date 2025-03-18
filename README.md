@@ -274,13 +274,127 @@ Apenas como exemplo, na área de Console clique no botão **Python Console**. No
 
 Não se preocupe ainda com o conceito de variável, nem com o seu tipo. Veremos tudo isso com detalhes nos próximos módulos deste tema.
 
-O utilitário **dir** apresenta todos os atributos e métodos disponíveis para determinado tipo de dado. No prompt interativo `>>>`, digite dir(x) e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
+O utilitário `dir` apresenta todos os atributos e métodos disponíveis para determinado tipo de dado. No prompt interativo `>>>`, digite dir(x) e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
 
 No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETURN] do seu teclado.
 
 ![figura03](https://user-images.githubusercontent.com/61624336/133014701-4115d1d5-dac0-4260-81cf-6df3e3723127.png)
 
-O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários **dir** e **help** podem ser úteis.
+O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários `dir` e `help` podem ser úteis.
+
+# 🐍 [Python] `Hello, World!`
+Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
+
+A função `print()` em Python atua de forma semelhante à `printf()` em **C**. Para um programador iniciante, as maiores diferenças entre elas são:
+
+- Duas chamadas da `print()` em Python são impressas na tela em linhas diferentes, sem a necessidade do uso do caractere `\n` para pular a linha, como ocorre na `printf()` em **C**.
+  
+- Uma chamada da `print()` em Python permite a impressão de valores de variáveis sem a indicação do formato, como ocorre na `printf()` em **C**, quando precisamos escrever `%c`, `%d` ou `%f`, por exemplo.
+
+Para escrever seu **Hello, World!** em Python, digite a seguinte linha, exatamente como está escrita:
+
+~~~python
+print(“Hello, World!”)
+~~~
+
+ou 
+  
+~~~python
+print('Hello, World!')
+~~~
+
+Para divulgar a mensagem no terminal ou prompt de comando, basta ir até a pasta onde está localizado o arquivo e inserir o comando:
+
+```sh
+python hello-world.py
+```
+ 
+Veja que foi impresso no **console** exatamente o que colocamos entre aspas, ao chamar a função `print()`. Essa é a primeira forma de saída de dados: usar a função `print()` com uma string sendo passada como parâmetro (entre os parênteses). É importante perceber que a função `print()`, além de imprimir a string, também salta o cursor para a próxima linha.
+
+Como você deve ter percebido, o que a função `print()` recebeu entre parênteses foi uma string. Ou seja, poderíamos ter passado para ela uma string definida anteriormente, como no exemplo a seguir:
+
+![figura45](https://user-images.githubusercontent.com/61624336/135556658-5327f51b-cd98-4e9d-93e4-ca1449a41cac.png)
+
+Também poderíamos ter passado como parâmetro uma variável definida anteriormente. A função `print()` vai trabalhar com o valor dessa variável. Observe as figuras 46 e 47:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135556758-165cc082-c33b-49a2-92c3-0a5b18f5713a.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135556807-a18d4902-a2b8-4da5-b7b5-e19c8a3e6df5.png" height="307"></div>
+  
+ENTRADA DE DADOS COM A FUNÇÃO `INPUT()`, Quando o programador quiser que o usuário entre com algum valor, ele deverá exibir na tela o seu pedido. Em **C**, é necessário utilizar a função `printf()` para escrever a solicitação ao usuário e a função `scanf()` para receber a entrada e armazenar em uma variável. Em Python, é possível utilizar a função `input()`. Ela tanto exibe na tela o pedido, como permite que o valor informado pelo usuário seja armazenado em uma variável do seu programa. Analise a figura 48:
+
+![figura48](https://user-images.githubusercontent.com/61624336/135557070-e2632f21-e632-4ed8-8e01-3a0ba88e4694.png)
+
+A **linha 1** fará com que a frase Entre com seu nome: seja exibida no console, mas a execução do programa fica travada até que o usuário aperte [ENTER] no teclado. Tudo o que foi digitado até o [ENTER] vai ser armazenado na variável nome. A linha 2 fará a exibição do conteúdo da variável nome. Veja o resultado no console, com o usuário tendo digitado `Fulano de Tal`.
+
+![figura49](https://user-images.githubusercontent.com/61624336/135557120-0a3212eb-c88d-4bce-bf43-368ba46ebeb7.png)
+
+> **Atenção!** É importantíssimo perceber que a função `input()` trata **tudo o que for digitado** pelo usuário como uma `string`, armazenando na variável designada pelo programador para isso. Mesmo que o usuário entre com apenas uma letra ou um número, isso será armazenado como uma string na variável.
+  
+Vamos analisar o exemplo a seguir:
+
+![figura50](https://user-images.githubusercontent.com/61624336/135557245-cbb1e7e4-57d5-48e0-8062-9906350d4707.png)
+  
+Veja o console quando o programa é executado:
+
+![figura51](https://user-images.githubusercontent.com/61624336/135557287-6b51b6ed-1854-44f1-bdc7-03461b850344.png)
+
+O usuário digitou `3` e [ENTER]. Mesmo sendo um valor, a variável numero trata como a string ‘3’. Isso impede que seja realizada a operação de soma com o inteiro `2`, por exemplo. Poderíamos também usar a instrução `print(type(numero))` na **linha 2** para confirmar. Veja:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135557447-50f69aed-92e9-4555-a971-318ec71a34a3.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135557459-3e9bdfe4-ca8b-4944-b182-8c1b783bfb20.png" height="307"></div>
+
+A função `eval()` recebe uma string, mas trata como um valor numérico. Veja o exemplo a seguir:
+  
+![figura54](https://user-images.githubusercontent.com/61624336/135561204-f9edca85-9c7c-41be-9d26-9ffc439c84ff.png)
+  
+Mesmo tendo recebido a string `'1+2'` como parâmetro, a função `eval()` efetuou a soma de `1` com `2`. Observe que confirmamos que `s` é uma string com a instrução `type(s)`.
+
+Para tratar a entrada do usuário como um número e, com isso, realizar operações algébricas, por exemplo, é necessário utilizar a função `eval()` em conjunto com a `input()`. Veja o próximo exemplo:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135561379-c1e94f7d-403d-43b0-aefb-d5a53776e960.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135561395-39265870-5f81-4b17-9d4e-be2bb0a17926.png" height="307"></div>
+
+SAÍDA FORMATADA DE DADOS, Quando desejamos que a saída siga determinado padrão – por exemplo, de hora ou de data – existem algumas possibilidades para usar a função `print()`. É sempre possível utilizar a concatenação de strings, com o operador `+`, para montar a frase como quisermos. Suponha que tenhamos as seguintes variáveis:
+`hora = 10 minutos = 26 segundos = 18`
+
+Poderíamos chamar a função `print()` com o separador `:` da seguinte forma:
+
+![figura59](https://user-images.githubusercontent.com/61624336/135562269-f0d87927-e31b-447b-bf04-3c5e5949e718.png)
+
+Porém, existe outra possibilidade, usando o método `format()`. Ele permite que a chamada à função `print()` fique muito parecida com as chamadas à função `printf()` em **C**, com passagem de parâmetros a serem colocados em ordem na string. Com o método `format()`, podemos montar a string com as chaves `{}` indicando onde entrarão valores, passados como parâmetros separados por vírgulas.
+
+![figura60](https://user-images.githubusercontent.com/61624336/135564853-cfe792e0-5ca1-471c-8287-cce8be38626d.png)
+  
+É importante observar que a quantidade de chaves precisa ser igual à quantidade de variáveis passadas como parâmetros no método `format()`. Seria muito bom se não precisássemos nos preocupar com essa correspondência para evitar erros bobos. E isso é possível! Para tornar a saída formatada ainda mais intuitiva, basta utilizar a letra ‘f’ no início dos parâmetros da função `print()` e colocar cada variável dentro das chaves na posição em que deve ser impressa. Veja como fica ainda mais fácil entender:
+
+![figura61](https://user-images.githubusercontent.com/61624336/135564963-eb56ae84-9186-4506-8d01-59c8e29db2eb.png)
+  
+Também é possível especificar a largura de campo para exibir um inteiro. Se a largura não for especificada, ela será determinada pela quantidade de dígitos do valor a ser impresso. Veja a figura 62:
+  
+![figura62](https://user-images.githubusercontent.com/61624336/135565052-006829ba-5624-4ca2-892a-8808cec44e57.png)
+  
+Observe que os valores `10` e `100` foram impressos com espaços em branco à esquerda. Isso ocorreu porque definimos que a primeira variável deveria ser impressa com `4` espaços com `{:4}` (`2` foram ocupados e `2` ficaram em branco), e que a segunda variável deveria ser impressa com `5` espaços com `{:5}` (`3` foram ocupados e `2` ficaram em branco).
+
+> Saiba mais: Também é válido perceber que o padrão é alinhar os valores à direita do espaço reservado para a impressão da variável. O método `format()` também pode ser usado para imprimir valores de ponto flutuante com a precisão definida. Veja a figura 63:
+
+![figura63](https://user-images.githubusercontent.com/61624336/135565295-50303a92-2571-434f-a5d2-deb9862f6b9e.png)
+  
+Ao usar `{:8.5}`, estamos determinando que a impressão será com `8` espaços, mas apenas `5` serão utilizados.
+
+Impressão de sequências
+
+**Python** também permite a impressão de sequências com mais possibilidades que **C**, incluindo as strings. Para imprimir um vetor em **C**, por exemplo, precisamos chamar a `printf()` tem o item. Em Python, basta chamar a função `print()` passando como parâmetro a sequência. Veja a figura 64:
+  
+![figura64](https://user-images.githubusercontent.com/61624336/135565470-873c3eaf-c533-4c6b-8460-898358f0350f.png)
+  
+Para imprimir uma **substring**, por exemplo, basta utilizar os colchetes `[]` para indicar o intervalo de índices que deve ser impresso. Vale lembrar que o primeiro caractere da string é indexado com `0`. Veja a figura 65:
+
+![figura65](https://user-images.githubusercontent.com/61624336/135565532-f6321141-e722-4414-9ca7-721ac7c6b3b3.png)
+
+> **Atenção!** Usar `[0:4]` provoca a impressão dos índices `0, 1, 2 e 3`, **mas não** do índice 4. Analogamente, usar `[2:8]` provoca a impressão dos índices de `2 a 7`, mas não do `8`.
+
+Também é possível imprimir a string como lida da direita para a esquerda. Para isso, deve-se utilizar `[: : -1]`. Esse valor `-1` indica que a leitura dos caracteres será feita no sentido oposto ao tradicional. Observe a figura 66:
+  
+![figura66](https://user-images.githubusercontent.com/61624336/135565755-38814479-bcf7-4711-a96d-eed7c616be39.png)
+  
+> **Atenção!** Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
 
 ## [Python] BLOCOS
 Em **Python**, os **blocos** são definidos pela **indentação**. Diferente de **C** e **Java**, que usam as chaves `{` e `}` para delimitar os blocos, em Python todos os blocos são iniciados com o símbolo `:` (dois pontos) na linha superior e representados pelo acréscimo de 4 (quatro) espaços à esquerda. Sem se preocupar por enquanto com o significado das expressões `for`, `if`, `else` ou `range`, observe abaixo:
@@ -1195,123 +1309,6 @@ Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a
 Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja o uso da atribuição múltipla, nesse caso, na figura a seguir:
   
 ![figura40](https://user-images.githubusercontent.com/61624336/135555122-4a80fd61-9d9b-4b9b-a867-748b293ccd98.png)
-
-# 🐍 [Python] O PRIMEIRO PROGRAMA EM PYTHON
-Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
-
-### Saída de dados com a função `print()`
-A função `print()` em Python atua de forma semelhante à `printf()` em **C**. Para um programador iniciante, as maiores diferenças entre elas são:
-
-- Duas chamadas da `print()` em Python são impressas na tela em linhas diferentes, sem a necessidade do uso do caractere `\n` para pular a linha, como ocorre na `printf()` em **C**.
-  
-- Uma chamada da `print()` em Python permite a impressão de valores de variáveis sem a indicação do formato, como ocorre na `printf()` em **C**, quando precisamos escrever `%c`, `%d` ou `%f`, por exemplo.
-
-Para escrever seu **Hello, World!** em Python, digite a seguinte linha, exatamente como está escrita:
-
-~~~python
-print(“Hello, World!”)
-~~~
-
-ou 
-  
-~~~python
-print('Hello, World!')
-~~~
-
-Para divulgar a mensagem no terminal ou prompt de comando, basta ir até a pasta onde está localizado o arquivo e inserir o comando:
-
-```sh
-python hello-world.py
-```
- 
-Veja que foi impresso no **console** exatamente o que colocamos entre aspas, ao chamar a função `print()`. Essa é a primeira forma de saída de dados: usar a função `print()` com uma string sendo passada como parâmetro (entre os parênteses). É importante perceber que a função `print()`, além de imprimir a string, também salta o cursor para a próxima linha.
-
-Como você deve ter percebido, o que a função `print()` recebeu entre parênteses foi uma string. Ou seja, poderíamos ter passado para ela uma string definida anteriormente, como no exemplo a seguir:
-
-![figura45](https://user-images.githubusercontent.com/61624336/135556658-5327f51b-cd98-4e9d-93e4-ca1449a41cac.png)
-
-Também poderíamos ter passado como parâmetro uma variável definida anteriormente. A função `print()` vai trabalhar com o valor dessa variável. Observe as figuras 46 e 47:
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135556758-165cc082-c33b-49a2-92c3-0a5b18f5713a.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135556807-a18d4902-a2b8-4da5-b7b5-e19c8a3e6df5.png" height="307"></div>
-  
-## ENTRADA DE DADOS COM A FUNÇÃO `INPUT()`
-Quando o programador quiser que o usuário entre com algum valor, ele deverá exibir na tela o seu pedido. Em **C**, é necessário utilizar a função `printf()` para escrever a solicitação ao usuário e a função `scanf()` para receber a entrada e armazenar em uma variável. Em Python, é possível utilizar a função `input()`. Ela tanto exibe na tela o pedido, como permite que o valor informado pelo usuário seja armazenado em uma variável do seu programa. Analise a figura 48:
-
-![figura48](https://user-images.githubusercontent.com/61624336/135557070-e2632f21-e632-4ed8-8e01-3a0ba88e4694.png)
-
-A **linha 1** fará com que a frase Entre com seu nome: seja exibida no console, mas a execução do programa fica travada até que o usuário aperte [ENTER] no teclado. Tudo o que foi digitado até o [ENTER] vai ser armazenado na variável nome. A linha 2 fará a exibição do conteúdo da variável nome. Veja o resultado no console, com o usuário tendo digitado `Fulano de Tal`.
-
-![figura49](https://user-images.githubusercontent.com/61624336/135557120-0a3212eb-c88d-4bce-bf43-368ba46ebeb7.png)
-
-> **Atenção!** É importantíssimo perceber que a função `input()` trata **tudo o que for digitado** pelo usuário como uma `string`, armazenando na variável designada pelo programador para isso. Mesmo que o usuário entre com apenas uma letra ou um número, isso será armazenado como uma string na variável.
-  
-Vamos analisar o exemplo a seguir:
-
-![figura50](https://user-images.githubusercontent.com/61624336/135557245-cbb1e7e4-57d5-48e0-8062-9906350d4707.png)
-  
-Veja o console quando o programa é executado:
-
-![figura51](https://user-images.githubusercontent.com/61624336/135557287-6b51b6ed-1854-44f1-bdc7-03461b850344.png)
-
-O usuário digitou `3` e [ENTER]. Mesmo sendo um valor, a variável numero trata como a string ‘3’. Isso impede que seja realizada a operação de soma com o inteiro `2`, por exemplo. Poderíamos também usar a instrução `print(type(numero))` na **linha 2** para confirmar. Veja:
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135557447-50f69aed-92e9-4555-a971-318ec71a34a3.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135557459-3e9bdfe4-ca8b-4944-b182-8c1b783bfb20.png" height="307"></div>
-
-### A função `eval()`
-A função `eval()` recebe uma string, mas trata como um valor numérico. Veja o exemplo a seguir:
-  
-![figura54](https://user-images.githubusercontent.com/61624336/135561204-f9edca85-9c7c-41be-9d26-9ffc439c84ff.png)
-  
-Mesmo tendo recebido a string `'1+2'` como parâmetro, a função `eval()` efetuou a soma de `1` com `2`. Observe que confirmamos que `s` é uma string com a instrução `type(s)`.
-
-Para tratar a entrada do usuário como um número e, com isso, realizar operações algébricas, por exemplo, é necessário utilizar a função `eval()` em conjunto com a `input()`. Veja o próximo exemplo:
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/135561379-c1e94f7d-403d-43b0-aefb-d5a53776e960.png" height="307"><img src="https://user-images.githubusercontent.com/61624336/135561395-39265870-5f81-4b17-9d4e-be2bb0a17926.png" height="307"></div>
-
-## SAÍDA FORMATADA DE DADOS
-Quando desejamos que a saída siga determinado padrão – por exemplo, de hora ou de data – existem algumas possibilidades para usar a função `print()`. É sempre possível utilizar a concatenação de strings, com o operador `+`, para montar a frase como quisermos. Suponha que tenhamos as seguintes variáveis:
-`hora = 10 minutos = 26 segundos = 18`
-
-Poderíamos chamar a função `print()` com o separador `:` da seguinte forma:
-
-![figura59](https://user-images.githubusercontent.com/61624336/135562269-f0d87927-e31b-447b-bf04-3c5e5949e718.png)
-
-Porém, existe outra possibilidade, usando o método `format()`. Ele permite que a chamada à função `print()` fique muito parecida com as chamadas à função `printf()` em **C**, com passagem de parâmetros a serem colocados em ordem na string. Com o método `format()`, podemos montar a string com as chaves `{}` indicando onde entrarão valores, passados como parâmetros separados por vírgulas.
-
-![figura60](https://user-images.githubusercontent.com/61624336/135564853-cfe792e0-5ca1-471c-8287-cce8be38626d.png)
-  
-É importante observar que a quantidade de chaves precisa ser igual à quantidade de variáveis passadas como parâmetros no método `format()`. Seria muito bom se não precisássemos nos preocupar com essa correspondência para evitar erros bobos. E isso é possível! Para tornar a saída formatada ainda mais intuitiva, basta utilizar a letra ‘f’ no início dos parâmetros da função `print()` e colocar cada variável dentro das chaves na posição em que deve ser impressa. Veja como fica ainda mais fácil entender:
-
-![figura61](https://user-images.githubusercontent.com/61624336/135564963-eb56ae84-9186-4506-8d01-59c8e29db2eb.png)
-  
-Também é possível especificar a largura de campo para exibir um inteiro. Se a largura não for especificada, ela será determinada pela quantidade de dígitos do valor a ser impresso. Veja a figura 62:
-  
-![figura62](https://user-images.githubusercontent.com/61624336/135565052-006829ba-5624-4ca2-892a-8808cec44e57.png)
-  
-Observe que os valores `10` e `100` foram impressos com espaços em branco à esquerda. Isso ocorreu porque definimos que a primeira variável deveria ser impressa com `4` espaços com `{:4}` (`2` foram ocupados e `2` ficaram em branco), e que a segunda variável deveria ser impressa com `5` espaços com `{:5}` (`3` foram ocupados e `2` ficaram em branco).
-
-> Saiba mais: Também é válido perceber que o padrão é alinhar os valores à direita do espaço reservado para a impressão da variável. O método `format()` também pode ser usado para imprimir valores de ponto flutuante com a precisão definida. Veja a figura 63:
-
-![figura63](https://user-images.githubusercontent.com/61624336/135565295-50303a92-2571-434f-a5d2-deb9862f6b9e.png)
-  
-Ao usar `{:8.5}`, estamos determinando que a impressão será com `8` espaços, mas apenas `5` serão utilizados.
-
-### Impressão de sequências
-**Python** também permite a impressão de sequências com mais possibilidades que **C**, incluindo as strings. Para imprimir um vetor em **C**, por exemplo, precisamos chamar a `printf()` tem o item. Em Python, basta chamar a função `print()` passando como parâmetro a sequência. Veja a figura 64:
-  
-![figura64](https://user-images.githubusercontent.com/61624336/135565470-873c3eaf-c533-4c6b-8460-898358f0350f.png)
-  
-Para imprimir uma **substring**, por exemplo, basta utilizar os colchetes `[]` para indicar o intervalo de índices que deve ser impresso. Vale lembrar que o primeiro caractere da string é indexado com `0`. Veja a figura 65:
-
-![figura65](https://user-images.githubusercontent.com/61624336/135565532-f6321141-e722-4414-9ca7-721ac7c6b3b3.png)
-
-> **Atenção!** Usar `[0:4]` provoca a impressão dos índices `0, 1, 2 e 3`, **mas não** do índice 4. Analogamente, usar `[2:8]` provoca a impressão dos índices de `2 a 7`, mas não do `8`.
-
-Também é possível imprimir a string como lida da direita para a esquerda. Para isso, deve-se utilizar `[: : -1]`. Esse valor `-1` indica que a leitura dos caracteres será feita no sentido oposto ao tradicional. Observe a figura 66:
-  
-![figura66](https://user-images.githubusercontent.com/61624336/135565755-38814479-bcf7-4711-a96d-eed7c616be39.png)
-  
-> **Atenção!** Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
 
 # 🐍 [Python] Estruturas de programação
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
