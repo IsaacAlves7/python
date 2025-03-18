@@ -319,6 +319,10 @@ Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas
 | Comentários de 1 linha |	Iniciados com `#` | Iniciados com `//` |
 | Comentários de várias linhas | Limitados por `“””` (três aspas duplas) no início e no fim	 | Iniciados com `/*` e encerrados com `*/` |
 
+Agora, vamos entender as linhas do que seria o nosso primeiro programa em Python.
+
+A primeira observação que vamos realizar é sobre as palavras iniciadas com `#`. Isso significa que o interpretador que executará o seu programa vai considerar o que vem depois de `#` como comentários. Isso é muito importante para documentar o seu programa, e, às vezes, nos lembrar do que realmente estamos fazendo. Lembrando que esse tipo de comentário é apenas para uma linha.
+
 > [!Warning]
 > É importante lembrar que os comentários não são instruções a serem executadas. Então, você pode escrever de forma simples e objetiva, sem obedecer às regras de sintaxe da linguagem.
 
@@ -2533,11 +2537,6 @@ Experimente o seu código no editor, execute-o e veja o que acontece.
 
 ## Utilizar múltiplos argumentos
 
-## Comentários na linguagem Python
-Agora, vamos entender as linhas do que seria o nosso primeiro programa em Python.
-
-A primeira observação que vamos realizar é sobre as palavras iniciadas com `#`. Isso significa que o interpretador que executará o seu programa vai considerar o que vem depois de `#` como comentários. Isso é muito importante para documentar o seu programa, e, às vezes, nos lembrar do que realmente estamos fazendo. Lembrando que esse tipo de comentário é apenas para uma linha.
-
 # 📦 [Python] Package Manager, Bibliotecas e Módulos
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
 
@@ -2798,7 +2797,6 @@ Esse módulo implementa geradores de números pseudoaleatórios para várias dis
   - Uma função para gerar uma permutação aleatória das posições na lista;
   - Uma função para escolher aleatoriamente sem substituição.
   
-## Distribuições de valores reais
 A Tabela 8 mostra algumas das principais funções disponíveis para distribuições de valores reais no módulo `random`. 
 
 # 🐍 [Python] Aritmética computacional
@@ -3523,7 +3521,7 @@ Nesta seção, vamos estudar como são os erros nas operações básicas da mate
 
 - **Multiplicação**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup> × m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>×m<sub>2</sub>) b<sup>a+c</sup></code>
 
-# 🐍 [Python] Rad - Rapid Applications Development
+# 🐍 [Python] RAD - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
 
 A RAD se diferencia em relação as metodologias tradicionais de desenvolvimento sob vários aspectos, o primeiro sendo sobre o processo de desenvolvimento de software que na RAD segue o modelo iterativo e incremental, na metodologia tradicional de desenvolvimento de software ele seguiria o fluxo linear de desenvolvimento, segunda estrutura seria da estrutura da equipe que na RAD as equipes são pequenas e possuem múltiplas habilidades, no método tradicional tem grandes equipes com funções e habilidades bem definidas, em relação a produtividade, na RAD a produtividade é alta devido aos processos iterativos com os usuários finais, já no desenvolvimento tradicional a produtividade é baixa devido a abordagem linear e rígida, na parte de documentação na RAD é mínima viável, já na prática tradicional a documentação é detalhada e rigorosa com cada estágio de desenvolvimento, em relação ao tempo estimativo de custo, na RAD os projetos são de curta duração e baixo custo de manutenção, na metodologia tradicional o ciclo de vida é longo e com chance de aumento extra com os custos de retrabalho e manutenção. Em relação com a interação do usuário final, na RAD essa interação é ampla e ela ocorre no final de cada iteração, no desenvolvimento tradicional o envolvimento do usuário é somente no início do processo e no final quando ocorre a entrega do sistema. Em relação aos elementos predefinidos na Rad ela trabalha fortemente com essa questão utilizando aplicativos, layouts e modelos que já vem prontos ou pelo menos uma parte pronta, já no desenvolvimento tradicional é necessário desenvolver esses componentes específicos para o projeto com baixa reusabilidade.
