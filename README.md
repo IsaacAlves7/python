@@ -283,6 +283,480 @@ No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETU
 O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários `dir` e `help` podem ser úteis.
 
 # 🐍 [Python] `Hello, World!`
+
+<img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
+
+Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
+
+Utilizadores de **Linux** provavelmente já têm o Python instalado - este é o cenário mais provável, já que a infraestrutura do Python é intensamente utilizada por muitos componentes do sistema operativo Linux. 
+
+Por exemplo, alguns distribuidores podem acoplar as suas ferramentas específicas ao sistema e muitas destas ferramentas, como gestores de pacotes, são frequentemente escritas em Python. Algumas partes de ambientes gráficos disponíveis no mundo Linux também podem utilizar o Python.
+
+Se for um utilizador Linux, abra o terminal/console e digite:
+
+[![bash](https://img.shields.io/badge/-bash-4EAA25?style=social&logo=GNU-Bash&logoColor=000000)](#)
+
+```sh
+python3
+```
+
+no shell prompt, pressione Enter e aguarde. Se vir algo deste gênero:
+
+<pre>
+Python 3.4.5 (default, Jan 12 2017, 02:28:40)
+[GCC 4.2.1 Compatible Clang 3.7.1 (tags/RELEASE_371/final)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+</pre>
+
+<img src="https://user-images.githubusercontent.com/61624336/195667351-1b9ecde5-fc3b-4287-b69e-6bd829fe9c27.png" width="377" align="right">
+
+Se o Python 3 estiver ausente, consulte a sua documentação do Linux para saber como utilizar o seu gestor de pacotes para descarregar e instalar um novo pacote - o que precisa chama-se python3, ou o seu nome começa com isso.
+
+> Todos os utilizadores que não sejam Linux podem descarregar uma cópia em: https://www.python.org/downloads/.
+
+> **Nota**: Por padrão, a versão do Python 2 já se encontra instalado nas máquinas do sistema operacional Linux e macOS.
+
+Como o browser diz ao site onde entrou o sistema operativo que utiliza, o único passo que tem de dar é clicar na versão Python apropriada que deseja.
+
+Neste caso, selecione Python 3. O site oferece sempre a versão mais recente do mesmo. Se for um utilizador do Windows, inicie o arquivo `.exe` descarregado e siga todos os passos.
+
+> **Windows Env**: Caso seja um usuário de Windows, deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows. 
+
+Se for um utilizador MacOS, uma versão do Python 2 pode já ter sido pré-instalada no seu computador, mas como vamos trabalhar com o Python 3, ainda assim terá de descarregar e instalar o arquivo `.pkg` relevante a partir do site Python.
+
+Agora que tem o Python 3 instalado, é altura de verificar se funciona, e fazer o primeiro uso do mesmo. Este será um procedimento muito simples, mas deve ser o suficiente para o convencer de que o ambiente Python é completo e funcional.
+
+Se ao usar o Python você sentir que o gerenciador de pacotes não está funcionando corretamente, e apresentar esse log: `Python :Fatal error in launcher: Unable to create process using ""C:\Program Files (x86)(5solution)`, clique no <a href="https://youtu.be/9lyB5itwhDI">link</a> para aprender como resolver.
+
+Caso se você estiver utilizando uma versão mais antiga e deseja atualizar para uma versão mais atual, veja como no <a href="https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/">link</a>.
+
+Existem muitas formas de utilizar o Python, especialmente se vier a ser um programador Python. Para começar o seu trabalho, precisa das seguintes ferramentas:
+
+- um **editor** que o irá apoiar na escrita do código (deve ter algumas características especiais, não disponíveis em ferramentas simples); este editor dedicado dar-lhe-á mais do que o equipamento padrão do sistema operativo;
+- uma **console** na qual pode rodar o seu código recém-escrito e pará-lo à força quando ficar fora de controle;
+- uma ferramenta chamada de **debugger**, capaz de rodar o seu código passo a passo e que lhe permite inspecioná-lo em cada momento da execução.
+
+Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada "IDLE".
+
+Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto é o que deve ver:
+
+![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
+
+IDLE é uma boa escolha para iniciantes em Python. É um ambiente de desenvolvimento fácil de aprender e usar, e fornece as ferramentas básicas necessárias para começar a programar em Python. O IDLE é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python. Ele é incluído na distribuição padrão do Python e está disponível para Windows, macOS e Linux. IDLE é um ambiente de desenvolvimento simples e fácil de usar. Ele fornece as ferramentas básicas necessárias para escrever, depurar e executar código Python. As principais características do IDLE incluem:
+
+- Um editor de texto com recursos básicos, como autocompletar e realce de sintaxe.
+- Um shell Python interativo que permite executar código Python linha por linha.
+- Um depurador (debugger) que permite depurar código Python passo a passo.
+- Um gerenciador de projetos que permite organizar arquivos Python.
+
+Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
+
+Os notebooks oferecem vantagens, como:
+
+- Interatividade: Permite executar pequenos trechos de código de maneira independente em cada célula, visualizando imediatamente os resultados.
+
+- Visualização de dados: É possível gerar gráficos, tabelas e visualizações diretamente no documento, facilitando a análise e compreensão dos dados.
+
+- Documentação intercalada com código: Permite explicar o raciocínio por trás do código e dos resultados, facilitando a compreensão para outras pessoas que interagem com o notebook.
+
+- Compartilhamento e colaboração: Os notebooks podem ser facilmente compartilhados com outras pessoas, permitindo a colaboração em projetos e a reprodução dos passos realizados.
+
+Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
+
+[![Jupyter](https://img.shields.io/badge/-Jupyter-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
+
+O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
+
+[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
+
+O **Google Colab**, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter. É um serviço de nuvem gratuito que oferece notebooks para Python que podem ser executados no navegador. O Google Colab permite o uso de GPUs e TPUs gratuitamente, o que é muito útil para treinar modelos de aprendizado de máquina complexos. Ele também facilita o compartilhamento e a colaboração de notebooks com outros usuários. Ele é baseado no Jupyter Notebook e tem uma interface semelhante.
+
+Alguns dos principais recursos do Google Colab incluem:
+
+- Ambiente de notebook interativo: Permite escrever e executar código Python em células individuais, facilitando a experimentação e a visualização dos resultados.
+
+- Gratuito com recursos de GPU e TPU: Oferece acesso gratuito a recursos de hardware, como GPUs (Unidades de Processamento Gráfico) e TPUs (Unidades de Processamento Tensorial), o que é especialmente útil para tarefas intensivas de computação, como aprendizado de máquina e treinamento de modelos.
+
+- Integração com o Google Drive: Permite importar conjuntos de dados e salvar resultados diretamente no Google Drive.
+
+- Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
+
+Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem. 
+
+[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb#scrollTo=GQ18Kd5F3uKe) 
+
+O colab já fornece um conjunto de bibliotecas python já instaladas em seus notebooks, porém caso aja uma excessão de biblioteca não instalada, recomendo seguir os passos que a própria plataforma indica, basta clicar no badge acima para aprender sobre os snippets de importação de bibliotecas do colab.
+
+O **Kaggle** é uma plataforma online que hospeda competições de ciência de dados e aprendizado de máquina. Ele também oferece notebooks para Python que podem ser usados para explorar, analisar e modelar dados. O Kaggle permite o acesso a conjuntos de dados públicos e privados, bem como a GPUs e TPUs gratuitas. Ele também tem uma comunidade ativa de cientistas de dados e aprendizes de máquina que compartilham seus notebooks e soluções.
+
+Veja como escrever e executar o seu primeiro programa: 
+
+É agora tempo de escrever e executar o seu primeiro programa de Python 3. Será muito simples, por agora.
+
+O primeiro passo é criar um novo source file e preenchê-lo com código. Clique em `File` no menu do IDLE e escolha `New file`.
+
+![9c47dcbd53615728044a921159aef565968d7f3c](https://user-images.githubusercontent.com/61624336/195677372-128a8986-dde7-4f69-983b-cd0bf0046f6a.png)
+
+> Como pode ver, o IDLE abre uma nova janela para si. Pode utilizá-la para escrever e alterar o seu código.
+
+Esta é a **janela do editor**. O seu único objetivo é ser um local de trabalho em que o seu source code é tratado. Não confundir a janela do editor com a janela shell. Desempenham funções diferentes.
+
+A janela do editor está atualmente sem título, mas é uma boa prática começar a trabalhar nomeando o source file.
+
+Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma pasta para o novo ficheiro (o ambiente de trabalho é um bom local para as suas primeiras tentativas de programação) e escolha um nome para o novo ficheiro.
+
+![ed0d023d260245eecd1be0f4b0ff02fec660b9da](https://user-images.githubusercontent.com/61624336/195678750-3a44b5bd-0fd7-4a90-8c9b-bc7c35a482d3.png)
+
+[![.py](https://img.shields.io/badge/-.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+> **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
+
+Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. A linha tem este aspeto:
+
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hisssssss...")
+```
+
+> O comando `print()` , que é uma das diretivas mais fáceis em Python, imprime simplesmente uma linha para o ecrã.
+
+Veja mais de perto as aspas. Estas são as formas mais simples de aspas (neutras, retas, mudas, etc.) tipicamente utilizadas nos source files. Não tente usar aspas tipográficas (curvas, curvilíneas, inteligentes, etc.), utilizadas por processadores de texto avançados, uma vez que o Python não as aceita.
+
+![0830563fa18ea8138503c208eb9514af574d7a2c](https://user-images.githubusercontent.com/61624336/195683022-8105137e-d987-45f3-a003-407c320d1fa8.png)
+
+Guarde o ficheiro `File > Save` e execute o programa `Run -> Run Module`.
+
+Se tudo correr bem e não houver erros no código, a janela do console irá mostrar-lhe os efeitos causados pela execução do programa. Neste caso, o programa sibila. Tente executá-lo mais uma vez. E mais uma vez. Agora feche ambas as janelas e regresse ao ambiente de trabalho.
+
+![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
+
+Aprenda como estragar e corrigir o seu código! Agora, reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
+
+Tente executá-lo novamente pressionando `F5` quando a janela do editor estiver ativa. Como pode ver, o IDLE é capaz de guardar o seu código e recuperá-lo quando precisar dele novamente.
+
+O IDLE contém um recurso adicional e útil.
+
+1. Primeiro, remova o parêntesis final.
+2. Em seguida, insira o parêntesis novamente.
+
+O seu código deve parecer-se com o que está aqui em baixo:
+
+[![.py](https://img.shields.io/badge/-snake.py_(output)-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>Hisssssss...</pre>
+
+![ed47c4a8c77b4dd27800cb500f5f412c1fcb12fd](https://user-images.githubusercontent.com/61624336/195691376-2ca185ce-87f3-4b37-ab0d-304df28154d3.png)
+
+Cada vez que colocar o parêntesis final no seu programa, o IDLE mostrará a parte do texto limitada com um par de parêntesis correspondentes. Isto ajuda-o a lembrar-se de os colocar em pares.
+
+Retire novamente o parêntesis final. O código torna-se incorreto. Contém agora um erro de sintaxe. O IDLE não deve deixar que o execute.
+
+Tente executar o programa novamente. O IDLE irá lembrá-lo de guardar o ficheiro modificado. Siga as instruções.
+
+Observe cuidadosamente todas as janelas. Uma nova janela – diz que o intérprete encontrou um EOF (end-of-file) embora (na sua opinião) o código deva conter mais algum texto.
+
+A janela do editor mostra claramente onde isto aconteceu.
+
+![112b321a4d7620c67b0e037f8861fd71a9cb09df](https://user-images.githubusercontent.com/61624336/195692443-b541e9c2-702c-4e28-89c7-5ceb1b6d22ae.png)
+
+Corrija o código agora. Deve ficar assim:
+
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hisssssss...")
+```
+
+Execute-o para ver se “sibila” novamente.
+
+Vamos estragar o código mais uma vez. Remova uma letra da palavra `print`. Execute o código pressionando `F5`. O que acontece agora?
+
+![aa281b654b986dbe066685abaa0dcf8a3b842705](https://user-images.githubusercontent.com/61624336/195692660-b70902e1-f4c6-4990-a179-e6c6c8147312.png)
+
+Deve ter notado que a mensagem de erro gerada para o erro anterior é bastante diferente da primeira.
+
+![9e63a9fdc2ed8afae211381c57ccd02967eb4ebc](https://user-images.githubusercontent.com/61624336/195699490-9083ed72-8712-4793-ab8b-8092671ad63b.png)
+
+Isto acontece porque a natureza do erro é diferente e o erro é descoberto numa fase diferente de interpretação.
+
+A janela do editor não fornecerá qualquer informação útil sobre o erro, mas as janelas da console poderão.
+
+A mensagem (a vermelho) mostra (nas linhas subsequentes):
+
+- o **traceback** (que é o caminho que o código percorre através de diferentes partes do programa - pode ignorá-lo por agora, uma vez que está vazio num código tão simples);
+- a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); 
+
+> **Nota**: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
+
+- o **conteúdo da linha errada**; 
+
+> **Nota**: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
+
+- o **nome do erro** e uma breve explicação.
+
+> Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
+
+Ao retirar as aspas do argumento da `string` também é gerado um erro. Veja mais:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print(Hisssssss...)
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+Traceback (most recent call last):
+  File "snake.py", line 1, in <module>
+    print(Hisssssss...)
+NameError: name 'Hisssssss...' is not defined
+</pre>
+
+Agora, ao retirar os parênteses da função com o argumento `string` também é gerado um erro. Veja mais:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+printHisssssss...
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+Traceback (most recent call last):
+  File "snake.py", line 1, in <module>
+    printHisssssss...
+NameError: name 'printHisssssss...' is not defined
+</pre>
+
+Agora, veja o que acontece ao colocar aspas duplas sem parênteses:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print"Hisssssss..."
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+  File "snake.py", line 1
+    print"Hisssssss..."
+               ^
+SyntaxError: invalid syntax
+</pre>
+
+Agora, veja o que acontece ao colocar duas aspas distintas sem parênteses:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print'Hisssssss..."
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+ File "snake.py", line 1
+    print'Hisssssss..."
+               ^
+SyntaxError: EOL while scanning string literal
+</pre>
+
+Agora, veja o que acontece ao colocar duas aspas simples ou duplas sem parênteses e com um sinal de igual:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print='Hisssssss...'
+```
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+Success (1.82s)
+</pre>
+
+> Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
+
+<img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="77" align="right">
+
+É tempo de começar a escrever algum código Python real e funcional. Vai ser muito simples por enquanto.
+
+Como vamos mostrar-lhe alguns conceitos e termos fundamentais, estes snippets de código não serão sérios ou complexos.
+
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+Execute o código na janela do editor à direita. Se tudo correr bem aqui, verá a linha de texto na janela da console.
+
+Em alternativa, lançe o IDLE, crie um novo source file Python, preencha-o com este código, nomeie o ficheiro e guarde-o. Agora execute-o. Se tudo correr bem, verá o texto contido dentro das aspas na janela da console IDLE. O código que executou deve parecer familiar. Viu algo muito semelhante quando o conduzimos através da criação do ambiente IDLE.
+
+Agora vamos passar algum tempo a mostrar e a explicar-lhe o que está realmente a ver, e porque é que se parece com isto.
+
+Como pode ver, o primeiro programa consiste nas seguintes partes:
+
+- a palavra `print`;
+- um parêntesis de abertura;
+- umas aspas;
+- uma linha de texto: `Hello, World!`;
+- outras aspas;
+- um parêntesis de fecho.
+
+Cada um dos itens acima desempenha um papel muito importante no código.
+
+Veja a linha de código abaixo:
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+A palavra `print` que se pode ver aqui é um **nome de função**. Isso não significa que, onde quer que a palavra apareça, é sempre um nome de função. O significado da palavra vem do contexto em que a palavra foi usada.
+
+Provavelmente já encontrou o termo função muitas vezes antes, durante as aulas de matemática. Provavelmente também pode listar vários nomes de funções matemáticas, como seno ou log.
+
+As funções Python, no entanto, são mais flexíveis e podem conter mais conteúdo do que as suas irmãs matemáticas.
+
+Uma função (neste contexto) é uma parte separada do código do computador capaz de:
+
+- **causar um qualquer efeito** (por exemplo, enviar texto para o terminal, criar um ficheiro, desenhar uma imagem, reproduzir um som, etc.); isto é algo completamente inédito no mundo da matemática;
+- **avaliar um valor** (por exemplo, a raiz quadrada de um valor ou o comprimento de um dado texto) e **devolvê-lo como o resultado da função**; é isto que faz as funções Python serem os parentes dos conceitos matemáticos.
+
+Além disso, muitas das funções Python podem fazer as duas coisas acima juntamente.
+
+De onde vêm as funções?
+
+- Podem vir **do próprio Python**; a função `print` é uma deste tipo; tal função é um valor acrescentado recebido juntamente com o Python e o seu ambiente (é **incorporada**); não é necessário fazer nada de especial (por exemplo, perguntar a alguém por qualquer coisa) se quiser fazer uso dela;
+- podem ser provenientes de um ou mais dos add-ons de Python chamados **módulos**; alguns dos módulos vêm com Python, outros podem requerer instalação separada - seja qual for o caso, todos eles precisam de estar explicitamente ligados ao seu código (mostrar-lhe-emos como fazê-lo em breve);
+- pode **escrevê-los você mesmo**, colocando tantas funções quantas quiser e precisar dentro do seu programa para o tornar mais simples, mais claro e mais elegante.
+
+O nome da função deve ser **significativo** (o nome da função `print` é evidente por si mesmo).
+
+Claro que, se vai fazer uso de qualquer função já existente, não tem influência no seu nome, mas quando começar a escrever as suas próprias funções, deve considerar cuidadosamente a sua escolha de nomes.
+
+Como dissemos antes, uma função pode ter:
+
+- um **efeito**;
+- um **resultado**.
+
+Há também uma terceira, muito importante, componente de função - o(s) **argumento(s)**.
+
+As funções matemáticas normalmente aceitam um argumento, por exemplo, `sen(x)` toma um `x`, que é a medida de um ângulo.
+
+As funções de Python, por outro lado, são mais versáteis. Dependendo das necessidades individuais, elas podem aceitar qualquer número de argumentos - tantos quantos forem necessários para desempenhar as suas tarefas. 
+
+> **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+Apesar do número de argumentos necessários/fornecidos, as funções Python exigem fortemente a presença de **um par de parêntesis** - de abertura e de fecho, respetivamente.
+
+Se quiser entregar um ou mais **argumentos** a uma função, coloque-os **dentro dos parêntesis**. Se for utilizar uma função que não aceita qualquer argumento, ainda assim tem de ter os parêntesis.
+
+> **Nota**: para distinguir palavras comuns de nomes de funções, coloque **um par de parêntesis vazios** após os seus nomes, mesmo que a função correspondente queira um ou mais argumentos. Esta é uma convenção padrão.
+
+A função de que estamos a falar aqui é `print()`. A função `print()` no nosso exemplo tem algum argumento? Claro que sim, mas o que são eles?
+
+O único argumento entregue à função `print()` neste exemplo é uma `string`:
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+Como pode ver, **a string é delimitada com aspas** - de facto, as aspas fazem a string - cortam uma parte do código e atribuem-lhe um significado diferente.
+
+Pode imaginar que as aspas dizem algo como: o texto entre nós não é código. Não se destina a ser executado, e deve tomá-lo como está.
+
+Quase tudo o que colocar dentro das aspas será tomado literalmente, não como código, mas como **dados**. Tente jogar com esta string em particular - modificá-la, introduzir algum conteúdo novo, apagar algum do conteúdo existente.
+
+Há mais do que uma maneira de especificar uma string dentro do código Python, mas por agora, esta é suficiente.
+
+> Até agora, aprendeu sobre duas partes importantes do código: a função e a string. Falámos sobre elas em termos de sintaxe, mas agora é altura de os discutir em termos de semântica.
+
+O nome da função (`print` neste caso) juntamente com os *parêntesis* e o(s) *argumento(s)*, formam a **invocação da função**.
+
+Discutiremos isto com mais profundidade em breve, mas devemos dar-lhe umas luzes de momento.
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("Hello, World!")
+```
+
+O que acontece quando o Python encontra uma invocação como esta abaixo?
+
+[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+function_name(argument)
+```
+
+Vamos ver:
+
+- Primeiro, o Python verifica se o nome especificado é **legal** (navega nos seus dados internos a fim de encontrar uma função existente com o mesmo nome; se esta pesquisa falhar, o Python aborta o código);
+- segundo, o Python verifica se os requisitos da função para o número de argumentos **lhe permitem invocar** a função desta forma (por exemplo, se uma função específica exigir exatamente dois argumentos, qualquer invocação que apresente apenas um argumento será considerada errada, e abortará a execução do código);
+- terceiro, o Python **deixa o seu código por um momento** e salta para a função que pretende invocar; claro, também leva o(s) seu(s) argumento(s) e passa-o(s) para a função;
+- quarto, a função **executa o seu código**, causa o efeito desejado (se houver um), avalia o(s) resultado(s) desejado(s) (se existir(em)) e termina a sua tarefa;
+- finalmente, o Python **regressa ao seu código** (ao local imediatamente após a invocação) e retoma a sua execução.
+
+Três questões importantes têm de ser respondidas assim que possível:
+
+1. Qual é o efeito que a função `print()` causa?
+
+O efeito é muito útil e muito espetacular. A função:
+
+- toma os seus argumentos (pode aceitar mais do que um argumento e pode também aceitar menos do que um argumento);
+- converte-os numa forma legível para o ser humano, se necessário (como pode suspeitar, as strings não requerem esta ação, uma vez que a `string` já é legível);
+- e envia os dados resultantes para o dispositivo de output (normalmente o console); por outras palavras, qualquer coisa que coloque na função `print()` aparecerá no ecrã.
+
+Não admira, então, que a partir de agora utilize `print()` muito intensivamente para ver os resultados das suas operações e avaliações.
+
+2. Que argumentos `print()` espera?
+
+Quaisquer. Mostrar-lhe-emos em breve que `print()` é capaz de operar com virtualmente todos os tipos de dados oferecidos pelo Python. Strings, números, carateres, valores lógicos, objetos - qualquer um destes pode ser passado com sucesso para `print()`.
+
+3. Que valor é devolvido pela função `print()` ?
+
+Nenhum. O seu efeito é suficiente.
+
+Já viu um programa de computador que contém uma invocação de função. Uma **invocação de função** é um dos muitos tipos possíveis de **instruções Python**.
+
+É claro que qualquer programa complexo contém geralmente muito mais instruções do que uma. A questão é: como se acoplam mais do que uma instrução no código Python?
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("The itsy bitsy spider climbed up the waterspout.")
+print("Down came the rain and washed the spider out.")
+
+"""
+Output:
+
+The itsy bitsy spider climbed up the waterspout.
+Down came the rain and washed the spider out.
+"""
+```
+
+A sintaxe de Python é bastante específica nesta área. Ao contrário da maioria das linguagens de programação, o Python requer que não haja mais do que uma instrução numa linha.
+
+Uma linha pode estar vazia (ou seja, pode não conter qualquer instrução) mas não deve conter duas, três ou mais instruções. Isto é estritamente proibido.
+
+> **Nota**: o Python faz uma exceção a esta regra - permite que uma instrução se espalhe por mais do que uma linha (o que pode ser útil quando o seu código contém construções complexas).
+
 Para escrever um programa em Python, será essencial utilizar as formas de **saída de dados** (output) para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
 
 A função `print()` em Python atua de forma semelhante à `printf()` em **C**. Para um programador iniciante, as maiores diferenças entre elas são:
@@ -395,6 +869,94 @@ Também é possível imprimir a string como lida da direita para a esquerda. Par
 ![figura66](https://user-images.githubusercontent.com/61624336/135565755-38814479-bcf7-4711-a96d-eed7c616be39.png)
   
 > **Atenção!** Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
+
+
+Mudámos um pouco o exemplo - acrescentámos uma invocação de função vazia `print()` . Chamamos-lhe vazia porque não apresentámos quaisquer argumentos para a função.
+
+Pode vê-lo na janela do editor. Execute o código.
+
+O que acontece?
+
+Se tudo correr bem, deverá ver algo como isto:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+```
+
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+</pre>
+
+Como pode ver, a invocação vazia `print()` não é tão vazia como se poderia esperar - produz uma linha vazia, ou (esta interpretação também é correta) o seu output é apenas uma **newline**.
+
+Esta não é a única forma de produzir uma newline no console de output. Vamos agora mostrar-lhe outra forma.
+
+Modificámos novamente o código. Olhe com atenção.
+
+Há duas mudanças muito subtis - inserimos um estranho par de carateres dentro da rima. Têm este aspeto: `\n`. Curiosamente, enquanto se pode ver dois carateres, o Python vê um.
+
+A barra invertida `\` tem um significado muito especial quando usado dentro de strings - a isto chama-se o **caratere de escape**.
+
+A palavra *escape* deve ser entendida especificamente - significa que a série de carateres na `string` escapa por um momento (um momento muito curto) para introduzir uma inclusão especial.
+
+Por outras palavras, a barra invertida não significa nada em si, mas é apenas uma espécie de anúncio de que o próximo caratere após a barra invertida também tem um significado diferente.
+
+A letra `n` colocada após a barra invertida vem da palavra **newline** (nova linha).
+
+Tanto a barra invertida como o `n` formam um símbolo especial chamado **um caratere de newline**, que incita o console a iniciar uma nova linha de output.
+
+Execute o código. O seu console deve agora ter este aspeto:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+```
+
+[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+<pre>
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
+</pre>
+
+Como pode ver, duas newlines aparecem na canção de embalar, nos locais onde as `\n` foram usadas.
+
+Esta convenção tem duas consequências importantes:
+
+1. Se quiser colocar apenas uma barra invertida dentro de uma string, não se esqueça da sua natureza de escape - tem de a duplicar, por exemplo, uma tal invocação causará um erro:
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("\")
+```
+
+enquanto esta não o fará:
+
+
+[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+
+```python
+print("\\")
+```
+
+2. Nem todos os pares de escape (a barra invertida acoplada a outro caratere) significam algo.
+
+Experimente o seu código no editor, execute-o e veja o que acontece.
 
 ## [Python] BLOCOS
 Em **Python**, os **blocos** são definidos pela **indentação**. Diferente de **C** e **Java**, que usam as chaves `{` e `}` para delimitar os blocos, em Python todos os blocos são iniciados com o símbolo `:` (dois pontos) na linha superior e representados pelo acréscimo de 4 (quatro) espaços à esquerda. Sem se preocupar por enquanto com o significado das expressões `for`, `if`, `else` ou `range`, observe abaixo:
@@ -2163,573 +2725,6 @@ print(help(fibo))
 - A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
   
 Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
-
-# 🐍 [Python] Getting started
-<img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
-
-Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
-
-Utilizadores de **Linux** provavelmente já têm o Python instalado - este é o cenário mais provável, já que a infraestrutura do Python é intensamente utilizada por muitos componentes do sistema operativo Linux. 
-
-Por exemplo, alguns distribuidores podem acoplar as suas ferramentas específicas ao sistema e muitas destas ferramentas, como gestores de pacotes, são frequentemente escritas em Python. Algumas partes de ambientes gráficos disponíveis no mundo Linux também podem utilizar o Python.
-
-Se for um utilizador Linux, abra o terminal/console e digite:
-
-[![bash](https://img.shields.io/badge/-bash-4EAA25?style=social&logo=GNU-Bash&logoColor=000000)](#)
-
-```sh
-python3
-```
-
-no shell prompt, pressione Enter e aguarde. Se vir algo deste gênero:
-
-<pre>
-Python 3.4.5 (default, Jan 12 2017, 02:28:40)
-[GCC 4.2.1 Compatible Clang 3.7.1 (tags/RELEASE_371/final)] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-</pre>
-
-<img src="https://user-images.githubusercontent.com/61624336/195667351-1b9ecde5-fc3b-4287-b69e-6bd829fe9c27.png" width="377" align="right">
-
-Se o Python 3 estiver ausente, consulte a sua documentação do Linux para saber como utilizar o seu gestor de pacotes para descarregar e instalar um novo pacote - o que precisa chama-se python3, ou o seu nome começa com isso.
-
-> Todos os utilizadores que não sejam Linux podem descarregar uma cópia em: https://www.python.org/downloads/.
-
-> **Nota**: Por padrão, a versão do Python 2 já se encontra instalado nas máquinas do sistema operacional Linux e macOS.
-
-Como o browser diz ao site onde entrou o sistema operativo que utiliza, o único passo que tem de dar é clicar na versão Python apropriada que deseja.
-
-Neste caso, selecione Python 3. O site oferece sempre a versão mais recente do mesmo. Se for um utilizador do Windows, inicie o arquivo `.exe` descarregado e siga todos os passos.
-
-> **Windows Env**: Caso seja um usuário de Windows, deixe as configurações padrão que o instalador sugere por agora, com uma exceção - veja a caixa de verificação chamada `Add Python 3.x to PATH` e verifique-a. Isto tornará as coisas mais fáceis, pois vai adicionar o caminho do python3 instalado na sua máquina local para as variáveis de ambiente do seu sistema operacional Windows. 
-
-Se for um utilizador MacOS, uma versão do Python 2 pode já ter sido pré-instalada no seu computador, mas como vamos trabalhar com o Python 3, ainda assim terá de descarregar e instalar o arquivo `.pkg` relevante a partir do site Python.
-
-Agora que tem o Python 3 instalado, é altura de verificar se funciona, e fazer o primeiro uso do mesmo. Este será um procedimento muito simples, mas deve ser o suficiente para o convencer de que o ambiente Python é completo e funcional.
-
-Se ao usar o Python você sentir que o gerenciador de pacotes não está funcionando corretamente, e apresentar esse log: `Python :Fatal error in launcher: Unable to create process using ""C:\Program Files (x86)(5solution)`, clique no <a href="https://youtu.be/9lyB5itwhDI">link</a> para aprender como resolver.
-
-Caso se você estiver utilizando uma versão mais antiga e deseja atualizar para uma versão mais atual, veja como no <a href="https://www.freecodecamp.org/news/pip-upgrade-and-how-to-update-pip-and-python/">link</a>.
-
-Existem muitas formas de utilizar o Python, especialmente se vier a ser um programador Python. Para começar o seu trabalho, precisa das seguintes ferramentas:
-
-- um **editor** que o irá apoiar na escrita do código (deve ter algumas características especiais, não disponíveis em ferramentas simples); este editor dedicado dar-lhe-á mais do que o equipamento padrão do sistema operativo;
-- uma **console** na qual pode rodar o seu código recém-escrito e pará-lo à força quando ficar fora de controle;
-- uma ferramenta chamada de **debugger**, capaz de rodar o seu código passo a passo e que lhe permite inspecioná-lo em cada momento da execução.
-
-Para além dos seus muitos componentes úteis, a instalação padrão de Python 3 contém uma aplicação muito simples mas extremamente útil chamada "IDLE".
-
-Com o **IDLE** - Integrated Development and Learning Environment iniciado. Isto é o que deve ver:
-
-![7d79de4a3439191bc815d1d0d51dd6e8bd08bcf0](https://user-images.githubusercontent.com/61624336/195676458-cce0c851-f6b2-4e47-b85e-ecde19d44357.png)
-
-IDLE é uma boa escolha para iniciantes em Python. É um ambiente de desenvolvimento fácil de aprender e usar, e fornece as ferramentas básicas necessárias para começar a programar em Python. O IDLE é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python. Ele é incluído na distribuição padrão do Python e está disponível para Windows, macOS e Linux. IDLE é um ambiente de desenvolvimento simples e fácil de usar. Ele fornece as ferramentas básicas necessárias para escrever, depurar e executar código Python. As principais características do IDLE incluem:
-
-- Um editor de texto com recursos básicos, como autocompletar e realce de sintaxe.
-- Um shell Python interativo que permite executar código Python linha por linha.
-- Um depurador (debugger) que permite depurar código Python passo a passo.
-- Um gerenciador de projetos que permite organizar arquivos Python.
-
-Outra forma de executar os comandos da linguagem é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
-
-Os notebooks oferecem vantagens, como:
-
-- Interatividade: Permite executar pequenos trechos de código de maneira independente em cada célula, visualizando imediatamente os resultados.
-
-- Visualização de dados: É possível gerar gráficos, tabelas e visualizações diretamente no documento, facilitando a análise e compreensão dos dados.
-
-- Documentação intercalada com código: Permite explicar o raciocínio por trás do código e dos resultados, facilitando a compreensão para outras pessoas que interagem com o notebook.
-
-- Compartilhamento e colaboração: Os notebooks podem ser facilmente compartilhados com outras pessoas, permitindo a colaboração em projetos e a reprodução dos passos realizados.
-
-Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
-
-[![Jupyter](https://img.shields.io/badge/-Jupyter-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
-
-O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
-
-[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
-
-O **Google Colab**, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter. É um serviço de nuvem gratuito que oferece notebooks para Python que podem ser executados no navegador. O Google Colab permite o uso de GPUs e TPUs gratuitamente, o que é muito útil para treinar modelos de aprendizado de máquina complexos. Ele também facilita o compartilhamento e a colaboração de notebooks com outros usuários. Ele é baseado no Jupyter Notebook e tem uma interface semelhante.
-
-Alguns dos principais recursos do Google Colab incluem:
-
-- Ambiente de notebook interativo: Permite escrever e executar código Python em células individuais, facilitando a experimentação e a visualização dos resultados.
-
-- Gratuito com recursos de GPU e TPU: Oferece acesso gratuito a recursos de hardware, como GPUs (Unidades de Processamento Gráfico) e TPUs (Unidades de Processamento Tensorial), o que é especialmente útil para tarefas intensivas de computação, como aprendizado de máquina e treinamento de modelos.
-
-- Integração com o Google Drive: Permite importar conjuntos de dados e salvar resultados diretamente no Google Drive.
-
-- Compartilhamento fácil: Os notebooks podem ser compartilhados com outras pessoas, permitindo colaboração em tempo real.
-
-Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, desenvolvedores e estudantes devido à sua facilidade de acesso, recursos gratuitos e flexibilidade para executar códigos complexos em um ambiente baseado na nuvem. 
-
-[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb#scrollTo=GQ18Kd5F3uKe) 
-
-O colab já fornece um conjunto de bibliotecas python já instaladas em seus notebooks, porém caso aja uma excessão de biblioteca não instalada, recomendo seguir os passos que a própria plataforma indica, basta clicar no badge acima para aprender sobre os snippets de importação de bibliotecas do colab.
-
-O **Kaggle** é uma plataforma online que hospeda competições de ciência de dados e aprendizado de máquina. Ele também oferece notebooks para Python que podem ser usados para explorar, analisar e modelar dados. O Kaggle permite o acesso a conjuntos de dados públicos e privados, bem como a GPUs e TPUs gratuitas. Ele também tem uma comunidade ativa de cientistas de dados e aprendizes de máquina que compartilham seus notebooks e soluções.
-
-Veja como escrever e executar o seu primeiro programa: 
-
-É agora tempo de escrever e executar o seu primeiro programa de Python 3. Será muito simples, por agora.
-
-O primeiro passo é criar um novo source file e preenchê-lo com código. Clique em `File` no menu do IDLE e escolha `New file`.
-
-![9c47dcbd53615728044a921159aef565968d7f3c](https://user-images.githubusercontent.com/61624336/195677372-128a8986-dde7-4f69-983b-cd0bf0046f6a.png)
-
-> Como pode ver, o IDLE abre uma nova janela para si. Pode utilizá-la para escrever e alterar o seu código.
-
-Esta é a **janela do editor**. O seu único objetivo é ser um local de trabalho em que o seu source code é tratado. Não confundir a janela do editor com a janela shell. Desempenham funções diferentes.
-
-A janela do editor está atualmente sem título, mas é uma boa prática começar a trabalhar nomeando o source file.
-
-Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma pasta para o novo ficheiro (o ambiente de trabalho é um bom local para as suas primeiras tentativas de programação) e escolha um nome para o novo ficheiro.
-
-![ed0d023d260245eecd1be0f4b0ff02fec660b9da](https://user-images.githubusercontent.com/61624336/195678750-3a44b5bd-0fd7-4a90-8c9b-bc7c35a482d3.png)
-
-[![.py](https://img.shields.io/badge/-.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-> **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
-
-Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. A linha tem este aspeto:
-
-[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hisssssss...")
-```
-
-> O comando `print()` , que é uma das diretivas mais fáceis em Python, imprime simplesmente uma linha para o ecrã.
-
-Veja mais de perto as aspas. Estas são as formas mais simples de aspas (neutras, retas, mudas, etc.) tipicamente utilizadas nos source files. Não tente usar aspas tipográficas (curvas, curvilíneas, inteligentes, etc.), utilizadas por processadores de texto avançados, uma vez que o Python não as aceita.
-
-![0830563fa18ea8138503c208eb9514af574d7a2c](https://user-images.githubusercontent.com/61624336/195683022-8105137e-d987-45f3-a003-407c320d1fa8.png)
-
-Guarde o ficheiro `File > Save` e execute o programa `Run -> Run Module`.
-
-Se tudo correr bem e não houver erros no código, a janela do console irá mostrar-lhe os efeitos causados pela execução do programa. Neste caso, o programa sibila. Tente executá-lo mais uma vez. E mais uma vez. Agora feche ambas as janelas e regresse ao ambiente de trabalho.
-
-![0ced7f0e762ae8260831e994370b1ff2b8b7fd7b](https://user-images.githubusercontent.com/61624336/195683486-5c9343e2-37ab-48dd-a3af-32fe8d7c5905.png)
-
-Aprenda como estragar e corrigir o seu código! Agora, reinicie o IDLE. Clique em `File > Open > aponte para o ficheiro que guardou anteriormente e deixe o IDLE lê-lo`.
-
-Tente executá-lo novamente pressionando `F5` quando a janela do editor estiver ativa. Como pode ver, o IDLE é capaz de guardar o seu código e recuperá-lo quando precisar dele novamente.
-
-O IDLE contém um recurso adicional e útil.
-
-1. Primeiro, remova o parêntesis final.
-2. Em seguida, insira o parêntesis novamente.
-
-O seu código deve parecer-se com o que está aqui em baixo:
-
-[![.py](https://img.shields.io/badge/-snake.py_(output)-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>Hisssssss...</pre>
-
-![ed47c4a8c77b4dd27800cb500f5f412c1fcb12fd](https://user-images.githubusercontent.com/61624336/195691376-2ca185ce-87f3-4b37-ab0d-304df28154d3.png)
-
-Cada vez que colocar o parêntesis final no seu programa, o IDLE mostrará a parte do texto limitada com um par de parêntesis correspondentes. Isto ajuda-o a lembrar-se de os colocar em pares.
-
-Retire novamente o parêntesis final. O código torna-se incorreto. Contém agora um erro de sintaxe. O IDLE não deve deixar que o execute.
-
-Tente executar o programa novamente. O IDLE irá lembrá-lo de guardar o ficheiro modificado. Siga as instruções.
-
-Observe cuidadosamente todas as janelas. Uma nova janela – diz que o intérprete encontrou um EOF (end-of-file) embora (na sua opinião) o código deva conter mais algum texto.
-
-A janela do editor mostra claramente onde isto aconteceu.
-
-![112b321a4d7620c67b0e037f8861fd71a9cb09df](https://user-images.githubusercontent.com/61624336/195692443-b541e9c2-702c-4e28-89c7-5ceb1b6d22ae.png)
-
-Corrija o código agora. Deve ficar assim:
-
-[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hisssssss...")
-```
-
-Execute-o para ver se “sibila” novamente.
-
-Vamos estragar o código mais uma vez. Remova uma letra da palavra `print`. Execute o código pressionando `F5`. O que acontece agora?
-
-![aa281b654b986dbe066685abaa0dcf8a3b842705](https://user-images.githubusercontent.com/61624336/195692660-b70902e1-f4c6-4990-a179-e6c6c8147312.png)
-
-Deve ter notado que a mensagem de erro gerada para o erro anterior é bastante diferente da primeira.
-
-![9e63a9fdc2ed8afae211381c57ccd02967eb4ebc](https://user-images.githubusercontent.com/61624336/195699490-9083ed72-8712-4793-ab8b-8092671ad63b.png)
-
-Isto acontece porque a natureza do erro é diferente e o erro é descoberto numa fase diferente de interpretação.
-
-A janela do editor não fornecerá qualquer informação útil sobre o erro, mas as janelas da console poderão.
-
-A mensagem (a vermelho) mostra (nas linhas subsequentes):
-
-- o **traceback** (que é o caminho que o código percorre através de diferentes partes do programa - pode ignorá-lo por agora, uma vez que está vazio num código tão simples);
-- a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); 
-
-> **Nota**: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
-
-- o **conteúdo da linha errada**; 
-
-> **Nota**: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
-
-- o **nome do erro** e uma breve explicação.
-
-> Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
-
-Ao retirar as aspas do argumento da `string` também é gerado um erro. Veja mais:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print(Hisssssss...)
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
-Traceback (most recent call last):
-  File "snake.py", line 1, in <module>
-    print(Hisssssss...)
-NameError: name 'Hisssssss...' is not defined
-</pre>
-
-Agora, ao retirar os parênteses da função com o argumento `string` também é gerado um erro. Veja mais:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-printHisssssss...
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
-Traceback (most recent call last):
-  File "snake.py", line 1, in <module>
-    printHisssssss...
-NameError: name 'printHisssssss...' is not defined
-</pre>
-
-Agora, veja o que acontece ao colocar aspas duplas sem parênteses:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print"Hisssssss..."
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
-  File "snake.py", line 1
-    print"Hisssssss..."
-               ^
-SyntaxError: invalid syntax
-</pre>
-
-Agora, veja o que acontece ao colocar duas aspas distintas sem parênteses:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print'Hisssssss..."
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
- File "snake.py", line 1
-    print'Hisssssss..."
-               ^
-SyntaxError: EOL while scanning string literal
-</pre>
-
-Agora, veja o que acontece ao colocar duas aspas simples ou duplas sem parênteses e com um sinal de igual:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print='Hisssssss...'
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
-Success (1.82s)
-</pre>
-
-> Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
-
-## [Python] `Hello, World!`
-<img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="77" align="right">
-
-É tempo de começar a escrever algum código Python real e funcional. Vai ser muito simples por enquanto.
-
-Como vamos mostrar-lhe alguns conceitos e termos fundamentais, estes snippets de código não serão sérios ou complexos.
-
-
-[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hello, World!")
-```
-
-Execute o código na janela do editor à direita. Se tudo correr bem aqui, verá a linha de texto na janela da console.
-
-Em alternativa, lançe o IDLE, crie um novo source file Python, preencha-o com este código, nomeie o ficheiro e guarde-o. Agora execute-o. Se tudo correr bem, verá o texto contido dentro das aspas na janela da console IDLE. O código que executou deve parecer familiar. Viu algo muito semelhante quando o conduzimos através da criação do ambiente IDLE.
-
-Agora vamos passar algum tempo a mostrar e a explicar-lhe o que está realmente a ver, e porque é que se parece com isto.
-
-Como pode ver, o primeiro programa consiste nas seguintes partes:
-
-- a palavra `print`;
-- um parêntesis de abertura;
-- umas aspas;
-- uma linha de texto: `Hello, World!`;
-- outras aspas;
-- um parêntesis de fecho.
-
-Cada um dos itens acima desempenha um papel muito importante no código.
-
-Veja a linha de código abaixo:
-
-[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hello, World!")
-```
-
-A palavra `print` que se pode ver aqui é um **nome de função**. Isso não significa que, onde quer que a palavra apareça, é sempre um nome de função. O significado da palavra vem do contexto em que a palavra foi usada.
-
-Provavelmente já encontrou o termo função muitas vezes antes, durante as aulas de matemática. Provavelmente também pode listar vários nomes de funções matemáticas, como seno ou log.
-
-As funções Python, no entanto, são mais flexíveis e podem conter mais conteúdo do que as suas irmãs matemáticas.
-
-Uma função (neste contexto) é uma parte separada do código do computador capaz de:
-
-- **causar um qualquer efeito** (por exemplo, enviar texto para o terminal, criar um ficheiro, desenhar uma imagem, reproduzir um som, etc.); isto é algo completamente inédito no mundo da matemática;
-- **avaliar um valor** (por exemplo, a raiz quadrada de um valor ou o comprimento de um dado texto) e **devolvê-lo como o resultado da função**; é isto que faz as funções Python serem os parentes dos conceitos matemáticos.
-
-Além disso, muitas das funções Python podem fazer as duas coisas acima juntamente.
-
-De onde vêm as funções?
-
-- Podem vir **do próprio Python**; a função `print` é uma deste tipo; tal função é um valor acrescentado recebido juntamente com o Python e o seu ambiente (é **incorporada**); não é necessário fazer nada de especial (por exemplo, perguntar a alguém por qualquer coisa) se quiser fazer uso dela;
-- podem ser provenientes de um ou mais dos add-ons de Python chamados **módulos**; alguns dos módulos vêm com Python, outros podem requerer instalação separada - seja qual for o caso, todos eles precisam de estar explicitamente ligados ao seu código (mostrar-lhe-emos como fazê-lo em breve);
-- pode **escrevê-los você mesmo**, colocando tantas funções quantas quiser e precisar dentro do seu programa para o tornar mais simples, mais claro e mais elegante.
-
-O nome da função deve ser **significativo** (o nome da função `print` é evidente por si mesmo).
-
-Claro que, se vai fazer uso de qualquer função já existente, não tem influência no seu nome, mas quando começar a escrever as suas próprias funções, deve considerar cuidadosamente a sua escolha de nomes.
-
-Como dissemos antes, uma função pode ter:
-
-- um **efeito**;
-- um **resultado**.
-
-Há também uma terceira, muito importante, componente de função - o(s) **argumento(s)**.
-
-As funções matemáticas normalmente aceitam um argumento, por exemplo, `sen(x)` toma um `x`, que é a medida de um ângulo.
-
-As funções de Python, por outro lado, são mais versáteis. Dependendo das necessidades individuais, elas podem aceitar qualquer número de argumentos - tantos quantos forem necessários para desempenhar as suas tarefas. 
-
-> **Nota**: qualquer número inclui zero - algumas funções de Python não precisam de qualquer argumento.
-
-[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hello, World!")
-```
-
-Apesar do número de argumentos necessários/fornecidos, as funções Python exigem fortemente a presença de **um par de parêntesis** - de abertura e de fecho, respetivamente.
-
-Se quiser entregar um ou mais **argumentos** a uma função, coloque-os **dentro dos parêntesis**. Se for utilizar uma função que não aceita qualquer argumento, ainda assim tem de ter os parêntesis.
-
-> **Nota**: para distinguir palavras comuns de nomes de funções, coloque **um par de parêntesis vazios** após os seus nomes, mesmo que a função correspondente queira um ou mais argumentos. Esta é uma convenção padrão.
-
-A função de que estamos a falar aqui é `print()`. A função `print()` no nosso exemplo tem algum argumento? Claro que sim, mas o que são eles?
-
-O único argumento entregue à função `print()` neste exemplo é uma `string`:
-
-[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hello, World!")
-```
-
-Como pode ver, **a string é delimitada com aspas** - de facto, as aspas fazem a string - cortam uma parte do código e atribuem-lhe um significado diferente.
-
-Pode imaginar que as aspas dizem algo como: o texto entre nós não é código. Não se destina a ser executado, e deve tomá-lo como está.
-
-Quase tudo o que colocar dentro das aspas será tomado literalmente, não como código, mas como **dados**. Tente jogar com esta string em particular - modificá-la, introduzir algum conteúdo novo, apagar algum do conteúdo existente.
-
-Há mais do que uma maneira de especificar uma string dentro do código Python, mas por agora, esta é suficiente.
-
-> Até agora, aprendeu sobre duas partes importantes do código: a função e a string. Falámos sobre elas em termos de sintaxe, mas agora é altura de os discutir em termos de semântica.
-
-O nome da função (`print` neste caso) juntamente com os *parêntesis* e o(s) *argumento(s)*, formam a **invocação da função**.
-
-Discutiremos isto com mais profundidade em breve, mas devemos dar-lhe umas luzes de momento.
-
-[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("Hello, World!")
-```
-
-O que acontece quando o Python encontra uma invocação como esta abaixo?
-
-[![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-function_name(argument)
-```
-
-Vamos ver:
-
-- Primeiro, o Python verifica se o nome especificado é **legal** (navega nos seus dados internos a fim de encontrar uma função existente com o mesmo nome; se esta pesquisa falhar, o Python aborta o código);
-- segundo, o Python verifica se os requisitos da função para o número de argumentos **lhe permitem invocar** a função desta forma (por exemplo, se uma função específica exigir exatamente dois argumentos, qualquer invocação que apresente apenas um argumento será considerada errada, e abortará a execução do código);
-- terceiro, o Python **deixa o seu código por um momento** e salta para a função que pretende invocar; claro, também leva o(s) seu(s) argumento(s) e passa-o(s) para a função;
-- quarto, a função **executa o seu código**, causa o efeito desejado (se houver um), avalia o(s) resultado(s) desejado(s) (se existir(em)) e termina a sua tarefa;
-- finalmente, o Python **regressa ao seu código** (ao local imediatamente após a invocação) e retoma a sua execução.
-
-Três questões importantes têm de ser respondidas assim que possível:
-
-1. Qual é o efeito que a função `print()` causa?
-
-O efeito é muito útil e muito espetacular. A função:
-
-- toma os seus argumentos (pode aceitar mais do que um argumento e pode também aceitar menos do que um argumento);
-- converte-os numa forma legível para o ser humano, se necessário (como pode suspeitar, as strings não requerem esta ação, uma vez que a `string` já é legível);
-- e envia os dados resultantes para o dispositivo de output (normalmente o console); por outras palavras, qualquer coisa que coloque na função `print()` aparecerá no ecrã.
-
-Não admira, então, que a partir de agora utilize `print()` muito intensivamente para ver os resultados das suas operações e avaliações.
-
-2. Que argumentos `print()` espera?
-
-Quaisquer. Mostrar-lhe-emos em breve que `print()` é capaz de operar com virtualmente todos os tipos de dados oferecidos pelo Python. Strings, números, carateres, valores lógicos, objetos - qualquer um destes pode ser passado com sucesso para `print()`.
-
-3. Que valor é devolvido pela função `print()` ?
-
-Nenhum. O seu efeito é suficiente.
-
-### Instruções Python
-Já viu um programa de computador que contém uma invocação de função. Uma **invocação de função** é um dos muitos tipos possíveis de **instruções Python**.
-
-É claro que qualquer programa complexo contém geralmente muito mais instruções do que uma. A questão é: como se acoplam mais do que uma instrução no código Python?
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("The itsy bitsy spider climbed up the waterspout.")
-print("Down came the rain and washed the spider out.")
-
-"""
-Output:
-
-The itsy bitsy spider climbed up the waterspout.
-Down came the rain and washed the spider out.
-"""
-```
-
-A sintaxe de Python é bastante específica nesta área. Ao contrário da maioria das linguagens de programação, o Python requer que não haja mais do que uma instrução numa linha.
-
-Uma linha pode estar vazia (ou seja, pode não conter qualquer instrução) mas não deve conter duas, três ou mais instruções. Isto é estritamente proibido.
-
-> **Nota**: o Python faz uma exceção a esta regra - permite que uma instrução se espalhe por mais do que uma linha (o que pode ser útil quando o seu código contém construções complexas).
-
-### Newline
-Mudámos um pouco o exemplo - acrescentámos uma invocação de função vazia `print()` . Chamamos-lhe vazia porque não apresentámos quaisquer argumentos para a função.
-
-Pode vê-lo na janela do editor. Execute o código.
-
-O que acontece?
-
-Se tudo correr bem, deverá ver algo como isto:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("The itsy bitsy spider climbed up the waterspout.")
-print()
-print("Down came the rain and washed the spider out.")
-```
-
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
-The itsy bitsy spider climbed up the waterspout.
-
-Down came the rain and washed the spider out.
-</pre>
-
-Como pode ver, a invocação vazia `print()` não é tão vazia como se poderia esperar - produz uma linha vazia, ou (esta interpretação também é correta) o seu output é apenas uma **newline**.
-
-Esta não é a única forma de produzir uma newline no console de output. Vamos agora mostrar-lhe outra forma.
-
-### Caractere de escape
-Modificámos novamente o código. Olhe com atenção.
-
-Há duas mudanças muito subtis - inserimos um estranho par de carateres dentro da rima. Têm este aspeto: `\n`. Curiosamente, enquanto se pode ver dois carateres, o Python vê um.
-
-A barra invertida `\` tem um significado muito especial quando usado dentro de strings - a isto chama-se o **caratere de escape**.
-
-A palavra *escape* deve ser entendida especificamente - significa que a série de carateres na `string` escapa por um momento (um momento muito curto) para introduzir uma inclusão especial.
-
-Por outras palavras, a barra invertida não significa nada em si, mas é apenas uma espécie de anúncio de que o próximo caratere após a barra invertida também tem um significado diferente.
-
-A letra `n` colocada após a barra invertida vem da palavra **newline** (nova linha).
-
-Tanto a barra invertida como o `n` formam um símbolo especial chamado **um caratere de newline**, que incita o console a iniciar uma nova linha de output.
-
-Execute o código. O seu console deve agora ter este aspeto:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("The itsy bitsy spider\nclimbed up the waterspout.")
-print()
-print("Down came the rain\nand washed the spider out.")
-```
-
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
-The itsy bitsy spider
-climbed up the waterspout.
-
-Down came the rain
-and washed the spider out.
-</pre>
-
-Como pode ver, duas newlines aparecem na canção de embalar, nos locais onde as `\n` foram usadas.
-
-Esta convenção tem duas consequências importantes:
-
-1. Se quiser colocar apenas uma barra invertida dentro de uma string, não se esqueça da sua natureza de escape - tem de a duplicar, por exemplo, uma tal invocação causará um erro:
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("\")
-```
-
-enquanto esta não o fará:
-
-
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-```python
-print("\\")
-```
-
-2. Nem todos os pares de escape (a barra invertida acoplada a outro caratere) significam algo.
-
-Experimente o seu código no editor, execute-o e veja o que acontece.
-
-## Utilizar múltiplos argumentos
 
 # 📦 [Python] Package Manager, Bibliotecas e Módulos
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
