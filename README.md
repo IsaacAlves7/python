@@ -282,8 +282,6 @@ No prompt interativo `>>>`, digite `dir(x)` e pressione a tecla [ENTER] ou [RETU
 
 O utilitário `help` apresenta a documentação relativa a determinado tipo de dado. Caso você tenha alguma dúvida sobre o que é possível fazer com determinado tipo, os utilitários `dir` e `help` podem ser úteis.
 
-# 🐍 [Python] `Hello, World!`
-
 <img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="177">
 
 Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
@@ -581,12 +579,12 @@ Success (1.82s)
 
 > Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
 
+# 🐍 [Python] `Hello, World!`
 <img src="https://user-images.githubusercontent.com/61624336/196500926-929266b8-ee05-402c-91f0-4f3cbbbf0f85.svg" height="77" align="right">
 
 É tempo de começar a escrever algum código Python real e funcional. Vai ser muito simples por enquanto.
 
 Como vamos mostrar-lhe alguns conceitos e termos fundamentais, estes snippets de código não serão sérios ou complexos.
-
 
 [![.py](https://img.shields.io/badge/-helloWorld.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
