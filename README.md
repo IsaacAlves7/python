@@ -3667,8 +3667,6 @@ A metodologia RAD é caracterizada pelo desenvolvimento do projeto através de e
 
 Vamos explorar em detalhes as quatro fases essenciais da Metodologia RAD (Rapid Application Development). Você aprenderá como essa abordagem ágil transformou o desenvolvimento de software, acelerando a criação de aplicações e promovendo a colaboração eficaz entre equipes de projeto.
 
-
-
 # 🐍 [Python] Tratamento de exceções (exceptions)
 
 # 🐍 [Python] Concorrência
@@ -3678,7 +3676,7 @@ Vamos explorar em detalhes as quatro fases essenciais da Metodologia RAD (Rapid 
 # 🐍 [Python] Banco de Dados
 Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
 
-<img src="https://github.com/user-attachments/assets/ee9d15ff-b793-4f70-8e47-e37f35e34552" align="right" height="177">
+<img src="https://github.com/user-attachments/assets/ee9d15ff-b793-4f70-8e47-e37f35e34552" align="right" height="77">
 
 O **SQLAlchemy** é uma biblioteca de mapeamento objeto-relacional (ORM) em Python, amplamente utilizada para facilitar a interação com bancos de dados relacionais. Ela é uma poderosa ferramenta que, através da programação, não apenas facilita a criação e gerenciamento de banco de dados e tabelas, mas também **abstrai o objeto físico de dados**, isso significa que fazendo o uso do SQLAlchemy, mudando uma simples linha de código, chamada de string de conexão, nós podemos mudar completamente o banco de dados utilizado sem que seja preciso alterar nada mais na nossa aplicação. Ela permite aos desenvolvedores escrever código Python para manipular dados em um banco de dados relacional, abstraindo as complexidades do SQL puro e oferecendo uma interface mais orientada a objetos.
 
