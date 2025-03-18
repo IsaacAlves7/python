@@ -367,6 +367,10 @@ Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados,
 
 O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
 
+```sh
+jupyter notebook
+```
+
 [![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
