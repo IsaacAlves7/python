@@ -1141,7 +1141,7 @@ Digite a expressão algébrica 5 + 8 e pressione a tecla [ENTER]. Observe o resu
 
 O **Python Console** permite que você calcule expressões algébricas como uma **calculadora**, além de executar instruções básicas em Python.
 
-## [Python] TIPOS NUMÉRICOS
+## [Python] Tipos numéricos
 Existem três tipos numéricos distintos em Python: **inteiros**, **números de ponto flutuante** e **números complexos**. Além disso, os **booleanos** são um subtipo dos inteiros.
 
 O `int` é o tipo usado para manipular números inteiros. Fazendo uma analogia com a Matemática, o tipo `int` é usado para elementos do conjunto dos inteiros (Z).
@@ -1196,7 +1196,7 @@ Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a p
 
 A chamada `r.conjugate()` retorna o conjugado do número complexo `r`, em que a _parte real_ é **mantida** e a _parte imaginária_ tem o seu **sinal trocado**.
 
-## [Python] tipo booleano
+## [Python] Tipo booleano
 Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar **expressões não algébricas** também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
 
 No prompt interativo `>>>`, digite a expressão `2 < 3` e pressione [ENTER]. Observe o resultado na figura 27:
@@ -1216,6 +1216,31 @@ No prompt interativo `>>>`, digite a expressão `not(2 < 3)` e pressione [ENTER]
 ![figura29](https://user-images.githubusercontent.com/61624336/133347017-7d5745e8-9436-4ef8-893c-456b624d6ed1.png)
 
 É possível também escrever **expressões booleanas** compostas, utilizando conectivos como `E` `OU`. Vamos ver mais detalhes sobre essas expressões ainda neste módulo.
+
+As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
+
+- `<` Menor que
+- `>` Maior que
+- `<=` Menor ou igual a
+- `=>` Maior ou igual a
+- `==` Igual a
+- `!=` Diferente 
+
+Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saídas `True` e `False`.
+
+```python
+>>> a = 2                          # variável a recebe o valor 2 (int)
+ >>> b = 1.99                       # variável b recebe o valor 1.99 (float)
+ >>> c = ’2’                        # variável c recebe o valor 2 em forma de um string
+ >>> print(a > b)                   # perceba que o valor de a é maior que o valor de b
+ True
+ >>> print(a == c)                  # note que c recebeu um string ('2') e a um int (2), logo não podem ser iguais
+ False
+ >>> print((a > b) and (a != c))    # os dois precisam ser verdadeiros para retornar true
+ True
+ >>> print((a > b) or (a == b))     # apenas um precisa ser verdadeiro para retornar true
+ True
+```
 
 ## [Python] Operadores numéricos
 Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo **Álgebra** e **Aritmética** na escola. Existem algumas pequenas diferenças, como a **divisão** (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
@@ -3148,32 +3173,6 @@ Utilizando o mesmo raciocínio, um número real `r`, representado em uma base `b
     r=(d<sub>n</sub> d<sub>n-1</sub> ... d<sub>i</sub>, ... d<sub>1</sub> d<sub>0</sub>, d<sub>-1</sub> d<sub>-2</sub> ... d<sub>-m</sub>)<sub>b</sub> 
 d<sub>n</sub> x b<sub>n</sub>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>+d<sub>-1</sub> x b<sup>-1</sup>+d<sub>-2</sub> x b<sup>-2</sup>+...+d<sub>-m</sub> x b<sup>-m</sup>
 </pre>
-  
-## [Python] Boolean
-As expressões booleanas são utilizados para realizar comparações relacionais e retornam verdadeiro (`True`) e falso (`False`). Os operadores são:
-
-- `<` Menor que
-- `>` Maior que
-- `<=` Menor ou igual a
-- `=>` Maior ou igual a
-- `==` Igual a
-- `!=` Diferente 
-
-Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saídas `True` e `False`.
-
-```python
->>> a = 2                          # variável a recebe o valor 2 (int)
- >>> b = 1.99                       # variável b recebe o valor 1.99 (float)
- >>> c = ’2’                        # variável c recebe o valor 2 em forma de um string
- >>> print(a > b)                   # perceba que o valor de a é maior que o valor de b
- True
- >>> print(a == c)                  # note que c recebeu um string ('2') e a um int (2), logo não podem ser iguais
- False
- >>> print((a > b) and (a != c))    # os dois precisam ser verdadeiros para retornar true
- True
- >>> print((a > b) or (a == b))     # apenas um precisa ser verdadeiro para retornar true
- True
-```
 
 ## [Python] Mudanças de Bases
 <img width="543" alt="Captura de tela 2023-12-01 205602" src="https://github.com/IsaacAlves7/py/assets/61624336/28563e2b-962f-4977-a5f7-bb3d2d8b0c4e">
