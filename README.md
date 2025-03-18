@@ -2025,7 +2025,7 @@ Na tabela 10, estão os operadores compostos disponíveis em Python. Considere a
 > **Atenção!** Diferente de <b>C</b>, em <b>Python</b> não é possível incrementar ou decrementar uma variável com um operador unário, como o <code>++</code> ou <code>--</code>.
   
 ## [Python] Troca de variáveis
-Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a troca entre duas delas. Suponha que as variáveis `a` e `b` armazenem, respectivamente, os valores `1` e `2`. Caso quiséssemos inverter os valores em linguagens como **C** ou **Java**, seria necessário usar uma variável auxiliar, com uma sequência de instruções exibida na figura a seguir:
+Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a troca entre duas delas. Suponha que as variáveis `a` e `b` armazenem, respectivamente, os valores `1` e `2`. Caso quiséssemos inverter os valores em linguagens como C ou Java, seria necessário usar uma variável auxiliar, com uma sequência de instruções exibida na figura a seguir:
  
 ![figura39](https://user-images.githubusercontent.com/61624336/135555036-17ad052e-35b6-4138-b852-52896b5b38eb.png)
   
