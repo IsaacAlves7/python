@@ -603,8 +603,7 @@ Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao long
   </tr>
 </table>
 
-### Operadores de Comparação
-
+## [Python] Operadores de Comparação
 Além das operações algébricas, é possível realizar **operações de comparação**. Os **operadores de comparação** têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
 
 <table>
@@ -638,16 +637,18 @@ Além das operações algébricas, é possível realizar **operações de compar
   </tr> 
 </table>
 
-<blockquote><b>Atenção!</b> Cabe observar que o operador utilizado para comparar se dois valores são iguais é o <code>==</code>, ou seja, duplo sinal de igual. Tome cuidado para não confundir com o operador de atribuição, que é representado pelo sinal de igual apenas uma vez <code>=</code>.</blockquote>
+> <b>Atenção!</b> Cabe observar que o operador utilizado para comparar se dois valores são iguais é o <code>==</code>, ou seja, duplo sinal de igual. Tome cuidado para não confundir com o operador de atribuição, que é representado pelo sinal de igual apenas uma vez <code>=</code>.
 
 Existe outra lista de operadores que executam operações matemáticas, mas, além disso, atualizam o valor da variável utilizada. Eles são chamados de **operadores compostos**. Para mais funções matemáticas, você pode utilizar os módulos matemáticos <code>math</code> e <code>fractions</code>.
 
-### Operadores booleanos
+## Operadores booleanos
 As **expressões booleanas** são aquelas que podem ter como resultado um dos valores booleanos: `True` ou `False`. É comum utilizarmos os **operadores de comparação** em expressões booleanas, mas não só eles.
 
 Assim como é possível escrever expressões algébricas complexas _concatenando_ diversas expressões menores, podemos escrever expressões booleanas grandes, com os operadores `and`, `or` e `not`. Observe o comportamento dos operadores booleanos nas tabelas 4, 5 e 6.
 
-#### Operador `not`
+## [Python] Operadores lógicos
+
+Operador `not`:
 <table>
   <tr>
     <td>p</td>
@@ -663,7 +664,7 @@ Assim como é possível escrever expressões algébricas complexas _concatenando
   </tr>
 </table>
 
-#### Operador `and`
+Operador `and`:
 <table>
   <tr>
     <td>p</td>
@@ -692,7 +693,8 @@ Assim como é possível escrever expressões algébricas complexas _concatenando
   </tr>
 </table>
 
-#### Operador `or`
+Operador `or`:
+
 <table>
   <tr>
     <td>p</td>
