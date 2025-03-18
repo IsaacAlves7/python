@@ -870,7 +870,7 @@ print(mensagem)
 
 Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
 
-## [Python] Listas
+## [Python] Listas e Tuplas
 **Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
 
 Usando um par de colchetes `[]` para denotar uma **lista vazia**.
@@ -883,7 +883,6 @@ Usando um par de colchetes `[]` para denotar uma **lista vazia**.
 
 > Saiba mais: <code>iterable</code> pode ser uma sequência, um container que suporte <b>iteração</b> ou um <b>objeto iterador</b>. Por exemplo, <code>list('abc')</code> retorna <code>['a', 'b', 'c']</code> e <code>list( (1, 2, 3) )</code> retorna <code>[1, 2, 3]</code>. Se nenhum argumento for passado, o construtor cria uma lista vazia: <code>[ ]</code>.
 
-## [Python] Tuplas
 **Tuplas** são _sequências imutáveis_, tipicamente usadas para **armazenar coleções de itens heterogêneos**. Elas são aplicadas também quando é necessário utilizar uma sequência imutável de dados homogêneos. Uma tupla pode ser criada de algumas maneiras, tais como:
 
 - `()` Usando um par de parênteses para denotar uma tupla vazia.
@@ -894,7 +893,69 @@ Usando um par de colchetes `[]` para denotar uma **lista vazia**.
 
 Novamente, **iterable** pode ser uma sequência, um container que suporte **iteração** ou um **objeto iterador**. Por exemplo, `tuple('abc')` retorna `('a', 'b', 'c')` e `tuple( [1, 2, 3] )` retorna `(1, 2, 3)`. Se nenhum argumento for passado, o construtor cria uma tupla vazia: `()`.
 
-<blockquote><b>Atenção</b>: Note que o uso das vírgulas é o que gera a tupla, e não o uso de parênteses. Os parênteses são opcionais, exceto no caso em que queremos gerar uma tupla vazia.</blockquote>
+> <b>Atenção</b>: Note que o uso das vírgulas é o que gera a tupla, e não o uso de parênteses. Os parênteses são opcionais, exceto no caso em que queremos gerar uma tupla vazia.
+
+A tupla é uma sequência de objetos arbitrários separados por vírgulas e incluídos entre parênteses. Se a tupla contém um único objeto, uma vírgula final é necessária; por exemplo, `x = (2,)`. Tuplas suportam as mesmas operações que strings e são imutáveis. Veja a seguir um exemplo onde a tupla dados contém outra tupla `(31,10,73)`:
+
+```python
+>>> dados = ('Gomes', 'Roberto', (31,10,73)) # Esta é uma tupla
+ >>> sobrenome, nome, data_de_nascimento = dados # Descompactando a tupla
+ >>> print(nome)
+ Roberto
+ >>> Ano_de_nascimento = data_de_nascimento [3]
+ >>> print(Ano_de_nascimento)
+ 73
+ >>> nome_competo = dados [1] + '' + dados [0]
+ >>> print(nome_completo)
+ Roberto Gomes
+ >>> print(rec [0: 2])
+ ('Gomes', 'Roberto')
+```
+
+Uma tupla é uma estrutura de dados em muitas linguagens de programação. É semelhante a uma lista, mas geralmente é imutável, o que significa que, uma vez criada, seus elementos não podem ser alterados. Ela pode conter uma sequência de elementos de diferentes tipos e é acessada por meio de índices, assim como as listas, e permite armazenar uma coleção ordenada de elementos, geralmente de tipos diferentes. Os elementos dentro de uma tupla podem ser de qualquer tipo (inteiros, strings, floats, etc.) e são acessados por meio de índices, assim como em uma lista.
+
+Uma **lista** é semelhante a uma tupla, mas é mutável, de modo que seus elementos e comprimento podem ser mudados. Uma lista é identificada colocando-a entre colchetes. Seguem alguns exemplos da operações realizadas em listas:
+
+```python
+>>> a = [1.0, 2.0, 3.0]	# Crie uma lista
+ >>> a.append (4.0) # Anexar 4.0 à lista
+ >>> print(a)
+ [1,0, 2,0, 3,0, 4,0]
+ >>> a.insert (0,0.0) # Insira 0.0 na posição 0
+ print(a) 
+ [0,0, 1,0, 2,0, 3,0, 4,0]
+ >>> print(len (a) # Determine o comprimento da lista
+ 5
+ >>> a [2: 4] = [1.0, 1.0, 1.0] # Modifica os elementos selecionados
+ >>> print(a)
+ [0.0, 1.0, 1.0, 1.0, 1.0, 4.0]
+```
+
+Se `a` for um objeto mutável, como uma lista, a instrução de atribuição `b = a` não resulta em um novo objeto `b`, mas, simplesmente, cria uma nova referência para `a`. Portanto, quaisquer mudanças feitas para `b` serão refletidas em `a`. Veja, a seguir, um exemplo:
+
+```python
+>>> a = [1.0, 2.0, 3.0]
+ >>> b = a 
+ >>> b[0] = 5.0 
+ >>> print(a)
+ [5.0, 2.0, 3.0]
+```
+
+Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]`, conforme mostrado no exemplo a seguir:
+
+```python
+>>> c = a[:] 
+ >>> c[0] = 1.0 
+ >>> print(a)
+ [5.0, 2.0, 3.0]
+```
+
+Em uma lista, os índices começam com 0. Nesse caso, a lista segue a ordem até 4. Quando utilizamos índices negativos, ele usa a ordem inversa, começando com -1 e indo até -5, ou seja, a[-5] = 1.
+
+```python
+a=[1,2,3,4,5]
+a[-5]
+```
 
 ## [Python] Range
 O tipo **range** representa uma _sequência imutável de números e frequentemente é usado em loops de um número específico de vezes_, como o `for`.
@@ -3375,69 +3436,6 @@ Veja outro exemplo:
 ```
 
 O Python usa a mesma hierarquia de cálculo de expressões numéricas da matemática, ou seja, primeiro exponenciação, depois multiplicação ou divisão, e, por último, adição e subtração. Desse modo, calculamos primeiro 9**4 (nove a quarta potência), depois adicionamos 2, multiplicamos por 6 e, por fim, subtraímos por 1 , resultando em 39377.
-
-## [Python] Tuplas e Listas
-A **tupla** é uma sequência de objetos arbitrários separados por vírgulas e incluídos entre parênteses. Se a tupla contém um único objeto, uma vírgula final é necessária; por exemplo, `x = (2,)`. Tuplas suportam as mesmas operações que strings e são imutáveis. Veja a seguir um exemplo onde a tupla dados contém outra tupla `(31,10,73)`:
-
-```python
->>> dados = ('Gomes', 'Roberto', (31,10,73)) # Esta é uma tupla
- >>> sobrenome, nome, data_de_nascimento = dados # Descompactando a tupla
- >>> print(nome)
- Roberto
- >>> Ano_de_nascimento = data_de_nascimento [3]
- >>> print(Ano_de_nascimento)
- 73
- >>> nome_competo = dados [1] + '' + dados [0]
- >>> print(nome_completo)
- Roberto Gomes
- >>> print(rec [0: 2])
- ('Gomes', 'Roberto')
-```
-
-Uma tupla é uma estrutura de dados em muitas linguagens de programação. É semelhante a uma lista, mas geralmente é imutável, o que significa que, uma vez criada, seus elementos não podem ser alterados. Ela pode conter uma sequência de elementos de diferentes tipos e é acessada por meio de índices, assim como as listas, e permite armazenar uma coleção ordenada de elementos, geralmente de tipos diferentes. Os elementos dentro de uma tupla podem ser de qualquer tipo (inteiros, strings, floats, etc.) e são acessados por meio de índices, assim como em uma lista.
-
-Uma **lista** é semelhante a uma tupla, mas é mutável, de modo que seus elementos e comprimento podem ser mudados. Uma lista é identificada colocando-a entre colchetes. Seguem alguns exemplos da operações realizadas em listas:
-
-```python
->>> a = [1.0, 2.0, 3.0]	# Crie uma lista
- >>> a.append (4.0) # Anexar 4.0 à lista
- >>> print(a)
- [1,0, 2,0, 3,0, 4,0]
- >>> a.insert (0,0.0) # Insira 0.0 na posição 0
- print(a) 
- [0,0, 1,0, 2,0, 3,0, 4,0]
- >>> print(len (a) # Determine o comprimento da lista
- 5
- >>> a [2: 4] = [1.0, 1.0, 1.0] # Modifica os elementos selecionados
- >>> print(a)
- [0.0, 1.0, 1.0, 1.0, 1.0, 4.0]
-```
-
-Se `a` for um objeto mutável, como uma lista, a instrução de atribuição `b = a` não resulta em um novo objeto `b`, mas, simplesmente, cria uma nova referência para `a`. Portanto, quaisquer mudanças feitas para `b` serão refletidas em `a`. Veja, a seguir, um exemplo:
-
-```python
->>> a = [1.0, 2.0, 3.0]
- >>> b = a 
- >>> b[0] = 5.0 
- >>> print(a)
- [5.0, 2.0, 3.0]
-```
-
-Para criar uma cópia independente de uma lista `a`, use a declaração `c =a[:]`, conforme mostrado no exemplo a seguir:
-
-```python
->>> c = a[:] 
- >>> c[0] = 1.0 
- >>> print(a)
- [5.0, 2.0, 3.0]
-```
-
-Em uma lista, os índices começam com 0. Nesse caso, a lista segue a ordem até 4. Quando utilizamos índices negativos, ele usa a ordem inversa, começando com -1 e indo até -5, ou seja, a[-5] = 1.
-
-```python
-a=[1,2,3,4,5]
-a[-5]
-```
 
 ## [Python] Estruturas Condicionais
 A construção de uma estrutura de condicionais no Python é dada por:
