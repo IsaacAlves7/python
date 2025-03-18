@@ -2007,8 +2007,10 @@ print(mensagem)
 Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
 
 ## [Python] Docstrings
-Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida. Veja a Figura 28 e a Figura 29:
-  
+Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida.
+
+Exemplo:
+
 ```python
 def fibo(n):
      'Determina o n-ésimo termo da sequência de Fibonacci'
@@ -2017,13 +2019,14 @@ def fibo(n):
      else:
           return fibo(n - 1) + fibo(n - 2)
 
-print(help(fibo))  
-```
-  
-~~~python
+print(help(fibo))
+'''
+Output:
+
  fibo(n)
   Determina o n-ésimo termo da sequência de Fibonacci
-~~~
+'''
+```
   
 - Na Figura 28, a **linha 2** mostra a declaração da docstring.
 - A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
