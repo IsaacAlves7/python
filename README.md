@@ -1544,7 +1544,7 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
 
 ## [Python] Operadores de Comparação
-Além das operações algébricas, é possível realizar **operações de comparação**. Os **operadores de comparação** têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
+Além das operações algébricas, é possível realizar **operações de comparação**. Os operadores de comparação têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
 
 <table>
    <tr>
