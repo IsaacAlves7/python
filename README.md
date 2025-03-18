@@ -2686,12 +2686,9 @@ print(A) # 4499.999999999999, 7794.228634059948, 9000.0, 7794.2286340599485, 449
 A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
 ## AMBIENTES DE REFERENCIAMENTO LOCAL
-  
-### Variáveis locais
 Quando um subprograma define suas **próprias variáveis**, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de **variáveis locais**, com seu escopo usualmente sendo o corpo do subprograma. As variáveis locais podem ser:
 
-#### Dinâmicas da pilha
-São vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
+Dinâmicas da pilha são vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
   
 > **Atenção!** Nas linguagens **C** e **C++**, as **variáveis locais** são _dinâmicas da pilha_, a menos que sejam especificamente declaradas como **static**. **Todas as variáveis locais em Python são dinâmicas da pilha**. As **variáveis globais** são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local com mesmo nome de uma variável global, esta é implicitamente declarada como local.
   
