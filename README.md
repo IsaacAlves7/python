@@ -1186,6 +1186,100 @@ Para obter o **quociente inteiro** e o **resto**, quando dois inteiros são _div
 
 ![figura24](https://user-images.githubusercontent.com/61624336/133345395-26202e09-187f-41e7-a52f-01a43ac09d5a.png)
 
+A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
+
+**Exemplo**: O número `179` significa uma (`1`) centena (`100`) mais (`+`) sete (`7`) dezenas (`10`) e nove (`9`) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
+
+Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer **digito numérico decimal** a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
+
+<img width="262" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/6adde313-17e9-4ae7-ae92-6fc9b8dab15b">
+
+Onde: `0 ≤ di < 10,i,...n`
+
+Outra notação comum para representar um número inteiro positivo na base `10` é `(dndn-1....di...d1d0 )10`. Essa notação nos leva a outra, caso se deseje representar o número com uma base diferente de `10`, que seria `N=(dndn-1....di...d1d0 )b` , com `b` sendo uma base diferente de `10`; consequentemente, teremos `0 ≤ di < b`.
+
+<img width="266" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/970f8f3a-16b8-458b-9451-d7176d4560a2">
+
+As bases mais comuns na aritmética computacional são:
+
+- `b=n` (Uma base qualquer (1-3...7..9-11...15...17)) - é representado pelos dígitos e vezes a base, onde no final a base é elevada a zero que é igual a 1, com representatividade padrão de: `0 =< di < b` 
+
+- `b=2` (Binário) - Os dígitos só podem ser `0` e `1`.
+
+- `b=8` (Octodecimal) - o dígito só vai até d<sup>n-1</sup>. Por exemplo: di = 0,1,2,3,4,5,6,7
+
+- `b=10` (Decimal) - pegamos o número, esmiussamos ele, multiplicamos pela base que é 10 (dependendo da ordem decimal se for centena ou milhar pode haver um expoente) e somamos com o restante do número. Exemplo: `179 = 1 x 10^2 + 7 x 10 + 9`
+ 
+- `b=16` (Hexadecimal) - o dígito só vai até d<sup>n-1</sup>. Por exemplo: di = 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. Portanto, as letras do alfabeto são representações de números na escala decimal.
+
+Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que `9`, adotamos as letras do nosso alfabeto, ou seja, `A,B,C`. Nesse caso, para a base hexadecimal (`b=16`), os dígitos possíveis são `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F`, onde `A` corresponde, na base decimal, ao número `10`, `B` corresponde ao `11`, e assim, sucessivamente, até `F`, que corresponde ao `15`. Vejamos alguns exemplos:
+
+<img width="316" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/b26cf9c5-f8e6-4ede-ade7-0e82cc9395a7">
+
+**Mudança da base b para a base decimal 10 e da base 10 para a base b**: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` (binária) para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
+
+<pre>
+N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...d<sub>1</sub>d<sub>0</sub>)b=d<sub>n</sub><mi>x</mi>b<sup>n</sup>+d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub><mi>&#xD7;</mi><mi>b</mi><sup>n</sup><sup>&#x2212;</sup><sup>1</sup>+...+d<sub>i</sub><mi>&#xD7;</mi>b<sup>i</sup>+....+d<sub>1</sub><mi>&#xD7;</mi>b<sup>1</sup>+d<sub>0</sub><mi>&#xD7;</mi>b<sup>0</sup>
+</pre>
+
+Então, veja o exemplo a seguir:
+
+<pre>
+        (101)<sub>2</sub> = 1x2<sup>2</sup>+0x2<sup>1</sup>+1x2<sup>0</sup>=4+0+1=5
+     (175)<sub>8</sub> = 1x8<sup>2</sup>+7x8<sup>1</sup>+5x8<sup>0</sup>=1x64+7x8+5x1=125
+(A2D)<sub>16</sub> = Ax16<sup>2</sup>+2x16<sup>1</sup>+Dx16<sup>0</sup>=10x16<sup>2</sup>+2x16+13=(2605)<sub>10</sub>
+</pre>
+
+De modo geral:
+
+<pre>
+(d<sub>n</sub> d<sub>n-1</sub> d<sub>i</sub>, d<sub>1</sub> d<sub>0</sub>)<sub>b</sub>=d<sub>n</sub>b<sup>n</sup>+d<sup>n-1</sup>b<sup>n-1</sup>+...+d<sub>i</sub>b<sup>i</sup>+...+d<sub>1</sub>b<sup>1</sup>+d<sub>0</sub>b<sup>0</sup>=(N)<sub>10</sub>=N
+</pre>
+
+Onde `N` terá outros dígitos na base `10`, como visto nos exemplos anteriores.
+
+Para converter um número inteiro positivo `N` na base `10`, para uma base `b`, é necessário determinar os seus respectivos dígitos: `di`, de `(dn dn-1....di,...d1 d0 )b`. Para entender o procedimento, devemos nos lembrar do **algoritmo da divisão de números inteiros positivos**, onde, ao dividir um número `D` por um número `d`, obtém-se um quociente `q` e um resto `r`; e quando `r=0`, dizemos que a divisão foi exata e o resto só pode assumir os valores de `0,1,2...d-1`. Formalizando por símbolos matemáticos:
+
+```python
+D=d×q+r, onde 0≤ r ≤d-1
+```
+
+Agora, vamos fazer a divisão de `N`, na base `10`, pela base `b` que deseja se transformar. Dessa forma, `D=N` e `d=b`, sendo necessário descobrir quem será o `q` e o `r`. Lembrando o princípio da igualdade: se `A=b`, então, `B=A`. Podemos observar que, na mudança da base `b` para a base `10`, temos:
+
+<pre>
+d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>=(N)<sub>10</sub>=N
+</pre>
+
+Logo, pelo princípio da igualdade:
+
+<pre>
+N=d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup> 
+  
+q=d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>                
+</pre>
+
+Se colocarmos `b` em evidência no `n-1` primeiros termos da segunda parte da expressão, obtém-se:
+
+<pre>
+N=(d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>) x b+d<sub>0</sub>
+</pre>
+
+Comparando com `D=dxq+r`, concluímos que:
+
+<pre>
+q=d<sub>n</sub>xb<sup>n-1</sup>+d<sub>n-1</sub>xb<sup>n-2</sup>+...+d<sub>j</sub>xb<sup>i-1</sup>+...+d<sub>1</sub>xb<sup>0</sup> e r=d<sub>0</sub>
+</pre>
+
+Então, quando dividimos o número inteiro positivo `N`, na base `10`, por um número `b` na base desejada, obtemos o resto `r` igual ao último digito d0 da representação de N-decimal na base `b`. Sabemos, pelo exemplo anterior, que `2605 = (A2D)16`, onde a letra `D` é o ultimo dígito na representação da base `16`; de fato, quando dividimos `2605` por `16`, resulta, como quociente, `q=162` e resto `r=13`, que, na representação na base `16`, é a letra `D`.
+
+Portanto, o processo adotado será dividir `N` por `b` e obter `q0` e `r0 = d0`; depois, divide-se `q0` por `b`, resultando em `q1` e <code>r1 = d1</code>, e assim sucessivamente; os respectivos restos serão os dígitos `di`, na base `b`, e o quociente da n-ésima e última divisão será o <code>d<sub>n</sub></code>.
+
+Define-se como **bit** (binary digit) o elemento de memória básico de um computador que assume dois estados, que são representados pelos dígitos zero (`0`) e um (`1`). O número de bits disponíveis para uma representação numérica de inteiros positivos corresponde ao maior inteiro que o computador pode representar, ou seja, com `m` bits é possível representar 2<sup>m</sup> números. Por exemplo, para representar os oito dígitos decimais, seriam necessários três bits, pois 2<sup>3 = 8</sup>, entretanto, para representar `10` dígitos decimais são necessários quatro bits, pois 2<sup>4 = 16</sup> configurações, o que é excedente, ou seja, no **sistema decimal** há desperdício de bits. Então, a base b é binária se `b=2`. Em um sistema numérico binário, existem apenas dois dígitos possíveis, 0 e 1. Cada dígito é referido como um bit. Portanto, se a base de um sistema numérico é 2, então esse sistema é binário.
+
+A representação dos números inteiros não positivos (inteiros negativos) é realizada utilizando a ideia do bit, ou seja, são convencionadas para os sinais positivo (`+`) ou negativo (`-`) as representações de zero (`0`) ou um (`1`). O único problema dessa representação ocorre em operações para obter os números `+0` e `-0`, que, embora para o computador sejam números diferentes, sabemos que são iguais.
+
+Existem diversas formas de resolver esse problema, como
+
 ## [Python] Complex
 É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
 
@@ -3054,101 +3148,6 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 - Programação: É necessário saber qual é o valor `x` do lado direito, subtraí-lo de 4 e atribuir esse resultado a x do lado esquerdo. Geralmente, isso acontece em processos iterativos.
 
 Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
-
-## [Python] Integer
-A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
-
-**Exemplo**: O número `179` significa uma (`1`) centena (`100`) mais (`+`) sete (`7`) dezenas (`10`) e nove (`9`) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
-
-Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer **digito numérico decimal** a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
-
-<img width="262" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/6adde313-17e9-4ae7-ae92-6fc9b8dab15b">
-
-Onde: `0 ≤ di < 10,i,...n`
-
-Outra notação comum para representar um número inteiro positivo na base `10` é `(dndn-1....di...d1d0 )10`. Essa notação nos leva a outra, caso se deseje representar o número com uma base diferente de `10`, que seria `N=(dndn-1....di...d1d0 )b` , com `b` sendo uma base diferente de `10`; consequentemente, teremos `0 ≤ di < b`.
-
-<img width="266" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/970f8f3a-16b8-458b-9451-d7176d4560a2">
-
-As bases mais comuns na aritmética computacional são:
-
-- `b=n` (Uma base qualquer (1-3...7..9-11...15...17)) - é representado pelos dígitos e vezes a base, onde no final a base é elevada a zero que é igual a 1, com representatividade padrão de: `0 =< di < b` 
-
-- `b=2` (Binário) - Os dígitos só podem ser `0` e `1`.
-
-- `b=8` (Octodecimal) - o dígito só vai até d<sup>n-1</sup>. Por exemplo: di = 0,1,2,3,4,5,6,7
-
-- `b=10` (Decimal) - pegamos o número, esmiussamos ele, multiplicamos pela base que é 10 (dependendo da ordem decimal se for centena ou milhar pode haver um expoente) e somamos com o restante do número. Exemplo: `179 = 1 x 10^2 + 7 x 10 + 9`
- 
-- `b=16` (Hexadecimal) - o dígito só vai até d<sup>n-1</sup>. Por exemplo: di = 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. Portanto, as letras do alfabeto são representações de números na escala decimal.
-
-Observe que, para `b=2`, por definição, os valores possíveis de `d` são `0` ou `1`; de maneira análoga, quando `b=8`, os valores que podem assumir são `0, 1, 2, 3, 4, 5, 6 e 7`. Para os dígitos maiores que `9`, adotamos as letras do nosso alfabeto, ou seja, `A,B,C`. Nesse caso, para a base hexadecimal (`b=16`), os dígitos possíveis são `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F`, onde `A` corresponde, na base decimal, ao número `10`, `B` corresponde ao `11`, e assim, sucessivamente, até `F`, que corresponde ao `15`. Vejamos alguns exemplos:
-
-<img width="316" alt="image" src="https://github.com/IsaacAlves7/py/assets/61624336/b26cf9c5-f8e6-4ede-ade7-0e82cc9395a7">
-
-**Mudança da base b para a base decimal 10 e da base 10 para a base b**: A conversão de um número inteiro positivo, que se encontra em uma base numérica `b` (binária) para a base decimal (`10`), é possível por meio da solução da seguinte expressão:
-
-<pre>
-N=d<sub>n</sub>d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub>....d<sub>i</sub>,...d<sub>1</sub>d<sub>0</sub>)b=d<sub>n</sub><mi>x</mi>b<sup>n</sup>+d<sub>n</sub><sub>&#x2212;</sub><sub>1</sub><mi>&#xD7;</mi><mi>b</mi><sup>n</sup><sup>&#x2212;</sup><sup>1</sup>+...+d<sub>i</sub><mi>&#xD7;</mi>b<sup>i</sup>+....+d<sub>1</sub><mi>&#xD7;</mi>b<sup>1</sup>+d<sub>0</sub><mi>&#xD7;</mi>b<sup>0</sup>
-</pre>
-
-Então, veja o exemplo a seguir:
-
-<pre>
-        (101)<sub>2</sub> = 1x2<sup>2</sup>+0x2<sup>1</sup>+1x2<sup>0</sup>=4+0+1=5
-     (175)<sub>8</sub> = 1x8<sup>2</sup>+7x8<sup>1</sup>+5x8<sup>0</sup>=1x64+7x8+5x1=125
-(A2D)<sub>16</sub> = Ax16<sup>2</sup>+2x16<sup>1</sup>+Dx16<sup>0</sup>=10x16<sup>2</sup>+2x16+13=(2605)<sub>10</sub>
-</pre>
-
-De modo geral:
-
-<pre>
-(d<sub>n</sub> d<sub>n-1</sub> d<sub>i</sub>, d<sub>1</sub> d<sub>0</sub>)<sub>b</sub>=d<sub>n</sub>b<sup>n</sup>+d<sup>n-1</sup>b<sup>n-1</sup>+...+d<sub>i</sub>b<sup>i</sup>+...+d<sub>1</sub>b<sup>1</sup>+d<sub>0</sub>b<sup>0</sup>=(N)<sub>10</sub>=N
-</pre>
-
-Onde `N` terá outros dígitos na base `10`, como visto nos exemplos anteriores.
-
-Para converter um número inteiro positivo `N` na base `10`, para uma base `b`, é necessário determinar os seus respectivos dígitos: `di`, de `(dn dn-1....di,...d1 d0 )b`. Para entender o procedimento, devemos nos lembrar do **algoritmo da divisão de números inteiros positivos**, onde, ao dividir um número `D` por um número `d`, obtém-se um quociente `q` e um resto `r`; e quando `r=0`, dizemos que a divisão foi exata e o resto só pode assumir os valores de `0,1,2...d-1`. Formalizando por símbolos matemáticos:
-
-```python
-D=d×q+r, onde 0≤ r ≤d-1
-```
-
-Agora, vamos fazer a divisão de `N`, na base `10`, pela base `b` que deseja se transformar. Dessa forma, `D=N` e `d=b`, sendo necessário descobrir quem será o `q` e o `r`. Lembrando o princípio da igualdade: se `A=b`, então, `B=A`. Podemos observar que, na mudança da base `b` para a base `10`, temos:
-
-<pre>
-d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup>=(N)<sub>10</sub>=N
-</pre>
-
-Logo, pelo princípio da igualdade:
-
-<pre>
-N=d<sub>n</sub> x b<sup>n</sup>+d<sub>n-1</sub> x b<sup>n-1</sup>+...+d<sub>i</sub> x b<sup>i</sup>+...+d<sub>1</sub> x b<sup>1</sup>+d<sub>0</sub> x b<sup>0</sup> 
-  
-q=d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>                
-</pre>
-
-Se colocarmos `b` em evidência no `n-1` primeiros termos da segunda parte da expressão, obtém-se:
-
-<pre>
-N=(d<sub>n</sub> x b<sup>n-1</sup>+d<sub>n-1</sub> x b<sup>n-2</sup>+...+d<sub>i</sub> x b<sup>i-1</sup>+...+d<sub>1</sub> x b<sup>0</sup>) x b+d<sub>0</sub>
-</pre>
-
-Comparando com `D=dxq+r`, concluímos que:
-
-<pre>
-q=d<sub>n</sub>xb<sup>n-1</sup>+d<sub>n-1</sub>xb<sup>n-2</sup>+...+d<sub>j</sub>xb<sup>i-1</sup>+...+d<sub>1</sub>xb<sup>0</sup> e r=d<sub>0</sub>
-</pre>
-
-Então, quando dividimos o número inteiro positivo `N`, na base `10`, por um número `b` na base desejada, obtemos o resto `r` igual ao último digito d0 da representação de N-decimal na base `b`. Sabemos, pelo exemplo anterior, que `2605 = (A2D)16`, onde a letra `D` é o ultimo dígito na representação da base `16`; de fato, quando dividimos `2605` por `16`, resulta, como quociente, `q=162` e resto `r=13`, que, na representação na base `16`, é a letra `D`.
-
-Portanto, o processo adotado será dividir `N` por `b` e obter `q0` e `r0 = d0`; depois, divide-se `q0` por `b`, resultando em `q1` e <code>r1 = d1</code>, e assim sucessivamente; os respectivos restos serão os dígitos `di`, na base `b`, e o quociente da n-ésima e última divisão será o <code>d<sub>n</sub></code>.
-
-Define-se como **bit** (binary digit) o elemento de memória básico de um computador que assume dois estados, que são representados pelos dígitos zero (`0`) e um (`1`). O número de bits disponíveis para uma representação numérica de inteiros positivos corresponde ao maior inteiro que o computador pode representar, ou seja, com `m` bits é possível representar 2<sup>m</sup> números. Por exemplo, para representar os oito dígitos decimais, seriam necessários três bits, pois 2<sup>3 = 8</sup>, entretanto, para representar `10` dígitos decimais são necessários quatro bits, pois 2<sup>4 = 16</sup> configurações, o que é excedente, ou seja, no **sistema decimal** há desperdício de bits. Então, a base b é binária se `b=2`. Em um sistema numérico binário, existem apenas dois dígitos possíveis, 0 e 1. Cada dígito é referido como um bit. Portanto, se a base de um sistema numérico é 2, então esse sistema é binário.
-
-A representação dos números inteiros não positivos (inteiros negativos) é realizada utilizando a ideia do bit, ou seja, são convencionadas para os sinais positivo (`+`) ou negativo (`-`) as representações de zero (`0`) ou um (`1`). O único problema dessa representação ocorre em operações para obter os números `+0` e `-0`, que, embora para o computador sejam números diferentes, sabemos que são iguais.
-
-Existem diversas formas de resolver esse problema, como
 
 ## [Python] Float
 O número real `95,32`, representado na base decimal (`10`), pode ser escrito da seguinte maneira:
