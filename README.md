@@ -955,7 +955,7 @@ print("\\")
 
 Experimente o seu código no editor, execute-o e veja o que acontece.
 
-## [Python] BLOCOS
+## [Python] Blocos
 Em **Python**, os **blocos** são definidos pela **indentação**. Diferente de **C** e **Java**, que usam as chaves `{` e `}` para delimitar os blocos, em Python todos os blocos são iniciados com o símbolo `:` (dois pontos) na linha superior e representados pelo acréscimo de 4 (quatro) espaços à esquerda. Sem se preocupar por enquanto com o significado das expressões `for`, `if`, `else` ou `range`, observe abaixo:
 
 ~~~python
