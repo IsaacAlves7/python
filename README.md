@@ -1724,11 +1724,9 @@ A Figura 30 ilustra um exemplo de delimitadores de strings:
 
 Existem alguns métodos interessantes para tratar strings em Python. Entre eles, ressaltamos:
 
-`upper` transforma todas as letras em **maiúsculas**.
-
-`lower` transforma todas as letras em **minúsculas**.
-
-`split` quebra a string em **substrings**.
+- `upper` transforma todas as letras em **maiúsculas**.
+- `lower` transforma todas as letras em **minúsculas**.
+- `split` quebra a string em **substrings**.
 
 Veja os exemplos a seguir:
 
