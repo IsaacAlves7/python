@@ -1252,10 +1252,10 @@ Também é possível imprimir a string como lida da direita para a esquerda. Par
   
 > **Atenção!** Fique atento quando utilizar o intervalo na impressão no sentido inverso, porque os limites do intervalo devem respeitar esse sentido.
 
-# 🐍 [Python] Estruturas de decisão e repetição em Python
+# 🐍 [Python] Estruturas de programação
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
 
-## TRATAMENTO DAS CONDIÇÕES
+## Estrutura condicional
 As **estruturas de decisão** e de **repetição** possuem sintaxes bastante semelhantes em **C** e em **Python**. Mesmo com essa grande semelhança, existe uma diferença crítica no tratamento das condições. Diferentemente da linguagem **C**, **Python** oferece o tipo `bool`. Por isso, cabe ressaltar a diferença de comportamento das duas linguagens nesse tratamento.
   
 <table>
@@ -1279,7 +1279,6 @@ As **estruturas de decisão** e de **repetição** possuem sintaxes bastante sem
 
 > **Atenção!** Observe que o fato de haver o tipo `bool` em Python permite que as condições sejam tratadas como **verdadeiras** ou **falsas**, o que não é exatamente igual em **C**.
 
-## AS ESTRUTURAS DE DECISÃO `IF`, `IF-ELSE` E `ELIF`
 Em Python, é possível utilizar as estruturas de decisão `if` e `if-else` da mesma forma que em **C**. A diferença principal é o modo de delimitar os blocos de instruções relativos a cada parte da estrutura. Observe a Tabela 2 e a Tabela 3:
   
 <table>
