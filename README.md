@@ -3267,10 +3267,16 @@ Parabéns! A alternativa "B" está correta.
 
 Ao ser testada pela primeira vez, a condição do while é verdadeira, já que s vale zero. Assim, a variável s recebe o valor 3 (3x1) e a variável a é acrescida de uma unidade, ficando com o valor 2. Em seguida, é impresso o valor de s (3). A condição do while é, então, testada novamente, sendo mais uma vez verdadeira, porque s tem o valor 3 (menor que 5). Nessa iteração, a variável s recebe o valor 6 (3x2) e a variável a é acrescida de uma unidade, ficando com o valor 3. Em seguida, é impresso o valor de s (6). A condição do while é, então, testada novamente e é falsa, já que s tem o valor 6, maior que 5. Com isso, o laço while é encerrado e nada mais é impresso. Logo, foram impressos os valores 3 e 6.
               
-# 🐍 [Python] Subprogramas
+# 🐍 [Python] Paradigma Funcional
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" height="77" align="right">
-             
-Os **subprogramas** são elementos fundamentais dos programas e por isso são importantes no estudo de linguagens de programação. Neste módulo, abordaremos os conceitos de subprogramas, como características gerais, passagem de parâmetros e recursividade, além da utilização de subprogramas em Python.
+
+Os **subprogramas** são elementos fundamentais dos programas e por isso são importantes no estudo de linguagens de programação. Neste módulo, abordaremos os conceitos de subprogramas, como características gerais, passagem de parâmetros e recursividade, além da utilização de subprogramas em Python. Subprogramas não pertencem exclusivamente ao Paradigma Funcional, mas podem ser usados dentro dele se seguirem suas regras.
+
+- Paradigma Imperativo (Procedural e Orientado a Objetos) subprogramas são usados como funções ou procedimentos. Exemplos: C, Pascal, Java (métodos), Python (funções).
+
+- Paradigma Funcional usa funções puras, funções de ordem superior e recursão. Subprogramas seguem princípios como imutabilidade e transparência referencial. Exemplos: Haskell, Lisp, Elixir.
+
+- Paradigma Lógico (ex: Prolog) subprogramas são predicados que representam regras e relações lógicas.
 
 Todos os subprogramas estudados neste módulo, com base em Sebesta (2018), têm as seguintes características:
 
