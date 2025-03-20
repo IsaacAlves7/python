@@ -3813,16 +3813,16 @@ with open("arquivo.bin", "rb") as arquivo:
     print(dados)
 ```
 
-Arquivos Parquet (`.parquet`)
+Arquivos Parquet (`.parquet`) Usado para grandes volumes de dados, principalmente em ciência de dados.
 
-Usado para grandes volumes de dados, principalmente em ciência de dados.
+É necessário instalar `pandas` e `pyarrow` ou `fastparquet`:
 
- **É necessário instalar `pandas` e `pyarrow` ou `fastparquet`:**  
 ```sh
 pip install pandas pyarrow
 ```
 
-**Escrita em Parquet**
+Escrita em Parquet:
+
 ```python
 import pandas as pd
 
