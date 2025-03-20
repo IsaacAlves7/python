@@ -781,6 +781,8 @@ pip install notebook jupyterlab
 
 O Jupyter cria um servidor local, permitindo que você acesse a interface via navegador. Os arquivos `.ipynb` (notebooks) são salvos no sistema de arquivos local, diferentemente de um ambiente volátil, como o Google Colab, onde as alterações podem ser perdidas se não forem salvas explicitamente no Google Drive ou baixadas.
 
+Se você instalar o Jupyter globalmente (fora de um ambiente virtual), ele poderá ser acessado de qualquer diretório no seu sistema. Se instalado dentro de um ambiente virtual, o Jupyter estará restrito a esse ambiente, garantindo que pacotes e versões específicas sejam usados apenas nesse contexto.
+
 Inicializando o Jupyter Notebook:
 
 ```sh
