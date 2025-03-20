@@ -773,13 +773,15 @@ O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser us
 
 [![Jupyter](https://img.shields.io/badge/-Jupyter.ipynb-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
 
-Instalando o Jupyter na sua máquina local:
+Instalando o Jupyter na sua máquina local: Com essa instalação nós estamos instalando o Jupyter Notebook e o JupyterLab no ambiente global do Python (ou no ambiente virtual ativo, se houver um).
 
 ```sh
-pip install jupyter
+pip install notebook jupyterlab
 ```
 
-Inicializando o Jupyter:
+O Jupyter cria um servidor local, permitindo que você acesse a interface via navegador. Os arquivos `.ipynb` (notebooks) são salvos no sistema de arquivos local, diferentemente de um ambiente volátil, como o Google Colab, onde as alterações podem ser perdidas se não forem salvas explicitamente no Google Drive ou baixadas.
+
+Inicializando o Jupyter Notebook:
 
 ```sh
 jupyter notebook
