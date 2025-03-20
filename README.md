@@ -542,16 +542,6 @@ Também é possível atualizar a versão do pip, caso haja atualização de algu
 C:\Users\isaac\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
 ```
 
-<a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
-
-O `conda` é um gerenciador de pacotes e um sistema de gerenciamento de ambientes desenvolvido pela Anaconda, uma distribuição popular de Python para ciência de dados e aprendizado de máquina. O conda pode instalar pacotes de diversas fontes, incluindo o PyPI, e também gerenciar ambientes virtuais.
-
-Para instalar um pacote usando conda, você pode usar:
-
-```sh
-conda install <nome_do_pacote>
-```
-
 Caso se seguirmos um código utilizando funções que não são nativas da linguagem de programação, vai então, ao executar o Python, aparece a seguinte mensagem de erro:
 
 <pre>
@@ -808,6 +798,24 @@ Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, de
 O colab já fornece um conjunto de bibliotecas python já instaladas em seus notebooks, porém caso aja uma excessão de biblioteca não instalada, recomendo seguir os passos que a própria plataforma indica, basta clicar no badge acima para aprender sobre os snippets de importação de bibliotecas do colab.
 
 O **Kaggle** é uma plataforma online que hospeda competições de ciência de dados e aprendizado de máquina. Ele também oferece notebooks para Python que podem ser usados para explorar, analisar e modelar dados. O Kaggle permite o acesso a conjuntos de dados públicos e privados, bem como a GPUs e TPUs gratuitas. Ele também tem uma comunidade ativa de cientistas de dados e aprendizes de máquina que compartilham seus notebooks e soluções.
+
+<a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
+
+Além do `pip`, nós temos o **Anaconda**, que é uma distribuição do Python focada em ciência de dados, machine learning e análise de dados, oferecendo um ambiente completo com várias bibliotecas e ferramentas pré-instaladas, como **NumPy, Pandas, SciPy, Matplotlib, Jupyter Notebook**, entre outras.
+
+O Anaconda também inclui o `conda`, um gerenciador de pacotes e ambientes virtuais que permite instalar e gerenciar dependências de forma eficiente, especialmente útil para projetos científicos e de inteligência artificial. O conda pode instalar pacotes de diversas fontes, incluindo o PyPI, e também gerenciar ambientes virtuais.
+
+Se quiser instalar pacotes com o conda (ao invés de `pip`), basta usar:
+
+```sh
+conda install <nome_do_pacote>
+```
+
+E para criar ambientes virtuais:
+```sh
+conda create --name meu_ambiente python=3.9
+conda activate meu_ambiente
+```
 
 Veja como escrever e executar o seu primeiro programa: 
 
