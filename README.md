@@ -3678,7 +3678,11 @@ Em resumo, o SQLAlchemy é uma ferramenta poderosa para interagir com bancos de 
 
 <img src="https://github.com/user-attachments/assets/89cbdd80-5152-4207-b06c-28e9725a2dc9" align="right" height="77">
 
-O **SQLModel** não é exatamente um ORM completo como o Entity Framework, SQLAlchemy ORM ou Hibernate, mas sim uma biblioteca que combina os recursos do **Pydantic** (para validação de dados) e do **SQLAlchemy Core** (para interações com o banco de dados). Ele pode ser considerado um **mini ORM** ou um **wrapper** sobre o SQLAlchemy.
+O **SQLModel** é uma biblioteca Python que simplifica o mapeamento de objetos para bancos de dados relacionais (ORM). Ele foi inspirado pelo SQLAlchemy, outro popular mapeador objeto-relacional (ORM) em Python, mas possui uma abordagem mais simples e intuitiva. O SQLModel é projetado para ser fácil de usar e permite que os desenvolvedores definam modelos de dados em Python que são automaticamente traduzidos em esquemas de banco de dados e operações CRUD (Create, Read, Update, Delete).
+
+O SQLModel não é exatamente um ORM completo como o Entity Framework, SQLAlchemy ORM ou Hibernate, mas sim uma biblioteca que combina os recursos do **Pydantic** (para validação de dados) e do **SQLAlchemy Core** (para interações com o banco de dados). Ele pode ser considerado um **mini ORM** ou um **wrapper** sobre o SQLAlchemy.
+
+A principal vantagem do SQLModel é sua simplicidade e a capacidade de definir modelos de dados de forma declarativa, sem a necessidade de escrever consultas SQL manualmente. Ele suporta vários bancos de dados, incluindo SQLite, PostgreSQL e MySQL, tornando-o uma escolha versátil para projetos Python que precisam interagir com diferentes sistemas de gerenciamento de banco de dados.
 
 Principais Características do SQLModel:
 1. **Baseado no SQLAlchemy**: Usa a camada de mapeamento SQLAlchemy, mas simplifica a sintaxe.
