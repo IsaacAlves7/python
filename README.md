@@ -767,19 +767,19 @@ Os notebooks oferecem vantagens, como:
 
 Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
 
-[![Jupyter](https://img.shields.io/badge/-Jupyter-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
 
 O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
+
+[![Jupyter](https://img.shields.io/badge/-Jupyter.ipynb-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
 
 ```sh
 jupyter notebook
 ```
 
-[![Colab](https://img.shields.io/badge/-Colab-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
+
+[![Colab](https://img.shields.io/badge/-Colab.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
 
 O **Google Colab**, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter. É um serviço de nuvem gratuito que oferece notebooks para Python que podem ser executados no navegador. O Google Colab permite o uso de GPUs e TPUs gratuitamente, o que é muito útil para treinar modelos de aprendizado de máquina complexos. Ele também facilita o compartilhamento e a colaboração de notebooks com outros usuários. Ele é baseado no Jupyter Notebook e tem uma interface semelhante.
 
