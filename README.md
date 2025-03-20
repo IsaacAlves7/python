@@ -3734,6 +3734,8 @@ Principais características do Django:
 Django é uma escolha popular para desenvolvedores web devido à sua simplicidade, produtividade e à comunidade ativa que o suporta. Ele é amplamente utilizado em diversos tipos de projetos, desde sites simples até aplicações web complexas.
 
 # 🐍 [Python] Interface Gráfica (GUI)
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Python_and_Qt.svg" align="right" height="77">
+
 Cada vez mais, nós geramos e consumimos dados para realizarmos atividades que vão desde a abertura de uma conta bancária até as informações que disponibilizamos nas redes sociais. Portanto, é necessário entender como esses dados são gerenciados, pois são importantes para identificar pessoas, preferências, produtos, transações financeiras, entre tantas outras aplicações.
 
 Para fazer esse gerenciamento, as aplicações usam sistemas gerenciadores de banco de dados a fim de realizar operações de inserção, consulta, alteração e exclusão de dados. Além disso, para que o usuário possa interagir de modo eficiente com o sistema, é importante que ele tenha à disposição uma interface gráfica que facilite o seu acesso às funcionalidades implementadas.
