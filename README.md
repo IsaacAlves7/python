@@ -3471,16 +3471,16 @@ No paradigma orientado à objetos, uma **classe** é a representação de algo d
 
 ```python
 class Pessoa():
-		# Atributos e métodos da classe
+  # Atributos e métodos da classe
 ```
 
 Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o construtor da classe. É chamado sempre que um objeto é criado. O `init` é equivalente ao construtor de outras linguagens, como o C#. O `init` pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
 
 ```python
 class Conta:
-        def __init__(self, numero, titular):
-            self.numero = numero
-            self.titular = titular
+  def __init__(self, numero, titular):
+     self.numero = numero
+     self.titular = titular
 
 conta = Conta(1, "Leandro")
 ```
