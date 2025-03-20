@@ -2785,7 +2785,7 @@ Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja 
 # 🐍 [Python] Regex - Expressões regulares
 
 # 🐍 [Python] Estruturas de programação
-As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
+As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de estruturas de decisão – e repetir blocos de instruções com base em algum critério, como uma variável de controle ou a validade de alguma condição – chamadas de estruturas de repetição. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição** em Python.
 
 ## [Python] Estrutura condicional
 As **estruturas de decisão** e de **repetição** possuem sintaxes bastante semelhantes em **C** e em **Python**. Mesmo com essa grande semelhança, existe uma diferença crítica no tratamento das condições. Diferentemente da linguagem **C**, **Python** oferece o tipo `bool`. Por isso, cabe ressaltar a diferença de comportamento das duas linguagens nesse tratamento.
