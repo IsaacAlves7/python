@@ -3336,7 +3336,7 @@ A palavra reservada `return` indica que a função **retorna** algum valor. Isso
   
 > **Atenção!** Retornar um valor é diferente de imprimir na tela. Ao utilizar a função `print()`, ocorre apenas a impressão de algo na tela, o que não significa que tenha havido retorno de qualquer função definida pelo usuário.
   
-## PROCEDIMENTOS E FUNÇÕES (Rotinas)
+## [Python] Procedimentos e funções (Rotinas)
 Os **subprogramas** podem ser, distintamente, procedimentos e funções**. De acordo com Sebesta (2018):
   
 <table>
@@ -3415,7 +3415,7 @@ print(A) # 4499.999999999999, 7794.228634059948, 9000.0, 7794.2286340599485, 449
 
 A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
-## Ambientes de referenciamento local
+## [Python] Ambientes de referenciamento local
 Quando um subprograma define suas **próprias variáveis**, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de **variáveis locais**, com seu escopo usualmente sendo o corpo do subprograma. As variáveis locais podem ser:
 
 Dinâmicas da pilha são vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
@@ -3471,7 +3471,7 @@ Programa principal - x = 20
   
 Percebe-se que o `print()` do programa principal está na linha 16, depois da chamada à função `func2(x)`. Dessa forma, a variável global `x` foi alterada na execução da `func2(x)` e fica com o valor `20` quando a execução volta ao programa principal.
 
-## Subprogramas aninhados
+## [Python] Subprogramas aninhados
 Em Python, e na maioria das linguagens funcionais, é permitido aninhar subprogramas. Porém, as linguagens **C** e **C++** não permitem essa prática. Veja o exemplo da Figura 22:
   
 ```python
