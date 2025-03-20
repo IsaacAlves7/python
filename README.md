@@ -813,7 +813,7 @@ O **Kaggle** é uma plataforma online que hospeda competições de ciência de d
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
 
-Além do `pip`, nós temos o **Anaconda**, que é uma distribuição do Python focada em ciência de dados, machine learning e análise de dados, oferecendo um ambiente completo com várias bibliotecas e ferramentas pré-instaladas, como **NumPy, Pandas, SciPy, Matplotlib, Jupyter Notebook**, entre outras.
+Além do `pip`, nós temos o **Anaconda**, que é uma distribuição do Python focada em ciência de dados, machine learning e análise de dados, oferecendo um ambiente completo com várias bibliotecas e ferramentas pré-instaladas, como **NumPy, Pandas, SciPy, Matplotlib, Jupyter Notebook**, entre outras. Confira no site <a href="">oficial</a>.
 
 O Anaconda também inclui o `conda`, um gerenciador de pacotes e ambientes virtuais que permite instalar e gerenciar dependências de forma eficiente, especialmente útil para projetos científicos e de inteligência artificial. O conda pode instalar pacotes de diversas fontes, incluindo o PyPI, e também gerenciar ambientes virtuais.
 
