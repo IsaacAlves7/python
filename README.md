@@ -3676,6 +3676,26 @@ Principais características do SQLAlchemy:
 
 Em resumo, o SQLAlchemy é uma ferramenta poderosa para interagir com bancos de dados relacionais em Python, oferecendo tanto uma camada de abstração para operações de banco de dados quanto a flexibilidade para escrever consultas SQL personalizadas quando necessário.
 
+<img src="https://github.com/user-attachments/assets/89cbdd80-5152-4207-b06c-28e9725a2dc9" align="right" height="77">
+
+O **SQLModel** não é exatamente um ORM completo como o Entity Framework, SQLAlchemy ORM ou Hibernate, mas sim uma biblioteca que combina os recursos do **Pydantic** (para validação de dados) e do **SQLAlchemy Core** (para interações com o banco de dados). Ele pode ser considerado um **mini ORM** ou um **wrapper** sobre o SQLAlchemy.
+
+Principais Características do SQLModel:
+1. **Baseado no SQLAlchemy**: Usa a camada de mapeamento SQLAlchemy, mas simplifica a sintaxe.
+2. **Integração com Pydantic**: Permite usar modelos Pydantic para validação de dados, útil para APIs.
+3. **Tipagem forte com Python**: Define modelos de dados usando **dataclasses** e **type hints**.
+4. **CRUD simplificado**: Oferece métodos fáceis para criar, consultar e atualizar registros.
+
+Comparação com ORMs completos:
+| Recurso          | SQLModel                 | SQLAlchemy ORM |
+|-----------------|-------------------------|---------------|
+| Baseado em SQLAlchemy | ✅ | ✅ |
+| ORM completo     | ❌ (parcial)            | ✅ |
+| Validação de dados | ✅ (via Pydantic) | ❌ (precisa de Pydantic separado) |
+| Consultas avançadas | ⚠️ (possível, mas menos flexível) | ✅ |
+
+Se você precisa de um **ORM poderoso com suporte completo a migrations e relações complexas**, o SQLAlchemy ORM é uma escolha melhor. Mas se você quer algo simples para **APIs FastAPI** ou projetos pequenos, o SQLModel pode ser bem útil.
+
 # 🐍 [Python] Web Framework
 <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" height="77" align="right">
 
