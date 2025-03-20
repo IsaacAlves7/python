@@ -3811,6 +3811,179 @@ with open("arquivo.bin", "rb") as arquivo:
     print(dados)
 ```
 
+Arquivos Parquet (`.parquet`)
+
+Usado para grandes volumes de dados, principalmente em ciência de dados.
+
+ **É necessário instalar `pandas` e `pyarrow` ou `fastparquet`:**  
+```sh
+pip install pandas pyarrow
+```
+
+**Escrita em Parquet**
+```python
+import pandas as pd
+
+dados = pd.DataFrame({"Nome": ["Carlos", "Ana"], "Idade": [28, 24]})
+dados.to_parquet("dados.parquet", index=False)
+```
+
+**Leitura de Parquet**
+
+```python
+dados = pd.read_parquet("dados.parquet")
+print(dados)
+```
+
+Arquivos XML (`.xml`)
+XML é usado para armazenar e transportar dados.
+
+Biblioteca recomendada: `xml.etree.ElementTree` (embutida no Python).  
+
+Leitura de XML
+```python
+import xml.etree.ElementTree as ET
+
+tree = ET.parse("dados.xml")
+root = tree.getroot()
+
+for elemento in root.findall("pessoa"):
+    nome = elemento.find("nome").text
+    idade = elemento.find("idade").text
+    print(f"Nome: {nome}, Idade: {idade}")
+```
+
+Escrita de XML
+
+```python
+root = ET.Element("pessoas")
+
+pessoa1 = ET.SubElement(root, "pessoa")
+ET.SubElement(pessoa1, "nome").text = "Carlos"
+ET.SubElement(pessoa1, "idade").text = "28"
+
+tree = ET.ElementTree(root)
+tree.write("dados.xml", encoding="utf-8", xml_declaration=True)
+```
+
+8. Arquivos de Áudio (`.wav`, `.mp3`) Usado para manipular e processar arquivos de áudio.
+
+É necessário instalar `pydub`:
+
+```sh
+pip install pydub
+```
+
+Conversão de MP3 para WAV
+
+```python
+from pydub import AudioSegment
+
+audio = AudioSegment.from_mp3("audio.mp3")
+audio.export("audio.wav", format="wav")
+```
+
+Leitura da Duração do Áudio
+
+```python
+print(f"Duração: {len(audio) / 1000} segundos")
+```
+
+Arquivos de Imagem (`.jpg`, `.png`, `.gif`)
+
+Usado para processamento de imagens.
+
+É necessário instalar `PIL` (Pillow):
+
+```sh
+pip install pillow
+```
+
+Leitura de Imagem
+
+```python
+from PIL import Image
+
+imagem = Image.open("imagem.jpg")
+imagem.show()  # Abre a imagem
+```
+
+Redimensionamento de Imagem
+
+```python
+imagem_resized = imagem.resize((200, 200))
+imagem_resized.save("imagem_resized.jpg")
+```
+
+Arquivos ZIP e TAR (`.zip`, `.tar.gz`) Para compactação e descompactação de arquivos.
+
+Compactação ZIP
+
+```python
+import zipfile
+
+with zipfile.ZipFile("arquivo.zip", "w") as zipf:
+    zipf.write("dados.csv")  # Adiciona um arquivo ao ZIP
+```
+
+Descompactação ZIP
+
+```python
+with zipfile.ZipFile("arquivo.zip", "r") as zipf:
+    zipf.extractall("saida")  # Extrai para a pasta "saida"
+```
+
+Arquivos YAML (`.yaml`, `.yml`) Usado para configuração (exemplo: `docker-compose.yml`).
+
+É necessário instalar `pyyaml`:
+
+```sh
+pip install pyyaml
+```
+
+Leitura de YAML
+
+```python
+import yaml
+
+with open("config.yaml", "r", encoding="utf-8") as arquivo:
+    dados = yaml.safe_load(arquivo)
+    print(dados)
+```
+
+Escrita de YAML
+
+```python
+dados = {"nome": "Carlos", "idade": 28}
+
+with open("config.yaml", "w", encoding="utf-8") as arquivo:
+    yaml.dump(dados, arquivo, default_flow_style=False)
+```
+
+Arquivos INI (`.ini`) Usado para configurações de aplicações. Biblioteca embutida no Python: `configparser`
+
+Leitura de INI
+
+```python
+import configparser
+
+config = configparser.ConfigParser()
+config.read("config.ini")
+
+print(config["DEFAULT"]["nome"])
+```
+
+Escrita de INI
+
+```python
+config = configparser.ConfigParser()
+
+config["DEFAULT"] = {"nome": "Carlos", "idade": "28"}
+
+with open("config.ini", "w") as configfile:
+    config.write(configfile)
+```
+
 # 🐍 [Python] Banco de Dados
 Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
 
