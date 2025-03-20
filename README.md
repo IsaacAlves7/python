@@ -4035,7 +4035,8 @@ ffmpeg.input(input_file).output(output_file, format="mp3").run()
 ✅ **Compatível com vários formatos de áudio como `.mp3`, `.wav`, `.aac`, `.ogg`.  
 ❌ **Desvantagem:** Exige a instalação do **FFmpeg**.
 
-### 🎯 **Opção Avançada: Ajustar Qualidade e Bitrate**
+Opção Avançada: Ajustar Qualidade e Bitrate
+
 ```python
 ffmpeg.input("video.mp4").output("audio.mp3", bitrate="192k").run()
 ```
