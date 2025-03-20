@@ -3984,6 +3984,77 @@ with open("config.ini", "w") as configfile:
     config.write(configfile)
 ```
 
+Converter **vídeo em áudio** em Python pode ser feito com a biblioteca `moviepy` ou `ffmpeg-python`. Aqui estão algumas formas de fazer isso:
+
+1. Usando `moviepy` (Fácil e Direto)
+
+Instale a biblioteca:
+```sh
+pip install moviepy
+```
+
+Código para extrair áudio de um vídeo
+
+```python
+from moviepy.editor import VideoFileClip
+
+video = VideoFileClip("video.mp4")  # Carrega o vídeo
+video.audio.write_audiofile("audio.mp3")  # Extrai e salva o áudio
+```
+
+✅ **Vantagem:** Simples e direto.  
+❌ **Desvantagem:** Pode ser mais lento para vídeos grandes.
+
+2. Usando `ffmpeg-python` (Rápido e Profissional)
+
+Instale o `ffmpeg` e a biblioteca Python:
+
+```sh
+pip install ffmpeg-python
+```
+
+No Linux/macOS, instale o FFmpeg se necessário:
+
+```sh
+sudo apt install ffmpeg  # Ubuntu/Debian
+brew install ffmpeg  # macOS (Homebrew)
+```
+
+Código para extrair áudio via FFmpeg
+
+```python
+import ffmpeg
+
+input_file = "video.mp4"
+output_file = "audio.mp3"
+
+ffmpeg.input(input_file).output(output_file, format="mp3").run()
+```
+
+✅ **Vantagem:** Mais rápido e permite personalização (qualidade, bitrate, formato).  
+✅ **Compatível com vários formatos de áudio como `.mp3`, `.wav`, `.aac`, `.ogg`.  
+❌ **Desvantagem:** Exige a instalação do **FFmpeg**.
+
+### 🎯 **Opção Avançada: Ajustar Qualidade e Bitrate**
+```python
+ffmpeg.input("video.mp4").output("audio.mp3", bitrate="192k").run()
+```
+📌 Isso gera um MP3 de **alta qualidade** com **bitrate de 192 kbps**.
+
+Suporte a Outros Formatos Caso precise salvar em **WAV, AAC, OGG, etc.**, basta trocar a extensão do arquivo de saída:
+
+```python
+ffmpeg.input("video.mp4").output("audio.wav").run()  # WAV (sem perdas)
+ffmpeg.input("video.mp4").output("audio.ogg").run()  # OGG (formato aberto)
+```
+
+Qual método escolher?
+
+| Método       | Facilidade | Velocidade | Qualidade |
+|-------------|------------|------------|------------|
+| `moviepy`   | ✅ Fácil   | 🟠 Médio  | ✅ Boa |
+| `ffmpeg`    | 🟠 Médio   | ✅ Rápido | ✅ Excelente |
+
 # 🐍 [Python] Banco de Dados
 Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
 
