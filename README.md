@@ -3678,7 +3678,7 @@ O parâmetro `self` é uma referência à instância atual da classe. Ele é usa
 
 # 🐍 [Python] Web Scraping
 
-# 🐍 [Python] Manipulação de Dados em Arquivos
+# 🐍 [Python] Manipulação de dados em arquivos
 Manipular dados em arquivos com Python é uma tarefa comum, e existem várias formas de fazer isso dependendo do tipo de arquivo. Aqui estão os principais formatos e como manipulá-los:
 
 **Arquivos de Texto (`.txt`)**
