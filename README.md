@@ -3256,7 +3256,7 @@ print(A) # 4499.999999999999, 7794.228634059948, 9000.0, 7794.2286340599485, 449
 
 A seguir, apresentaremos formas de executar procedimentos condicionados e recursivos, que são importantes e comuns em funções.
 
-## AMBIENTES DE REFERENCIAMENTO LOCAL
+## Ambientes de referenciamento local
 Quando um subprograma define suas **próprias variáveis**, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de **variáveis locais**, com seu escopo usualmente sendo o corpo do subprograma. As variáveis locais podem ser:
 
 Dinâmicas da pilha são vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a principal delas é a **flexibilidade**. Suas principais desvantagens são o **custo do tempo** – para alocar, **inicializar** (quando necessário) e **liberar tais variáveis para cada chamada ao subprograma** – e o fato de que os **acessos a essas variáveis locais devem ser indiretos**, enquanto os acessos às variáveis estáticas podem ser diretos.
@@ -3367,7 +3367,7 @@ print(f'O valor a pagar é R$ {pagamento}')
                       
 A função `taximetro()` tem, dentro de sua definição, a definição de outra função denominada `calculaMult()`. Na linha 7, a função `calculaMult()` é chamada e o seu retorno é armazenado na variável **multiplicador**.
 
-## MÉTODOS DE PASSAGENS DE PARÂMETROS
+## [Python] Métodos de passagens de parâmetros
 Os **métodos de passagem de parâmetros** são as maneiras que existem para transmiti-los ou recebê-los dos subprogramas chamados. Os parâmetros podem ser passados principalmente por:
                       
 - Valor: O **parâmetro formal** funciona como uma variável local do subprograma, sendo inicializado com o valor do parâmetro real. Dessa maneira, não ocorre alteração na variável externa ao subprograma, caso ela seja passada como parâmetro.
