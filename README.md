@@ -1557,7 +1557,7 @@ func()
 print(x)
 ~~~
 
-## [Python] Tipos de dados e expressões
+# 🐍 [Python] Tipos de dados e expressões
 Você será apresentado aos **tipos padrão incorporados** ao **interpretador** Python. Os principais tipos internos são **numéricos**, **sequenciais** e **dicionários**. **Classes**, **instâncias** e **exceções** também são _tipos padrão_, mas não entraremos em detalhes neste tema. Para ter nosso primeiro contato com expressões em Python, use o prompt interativo `>>>`.
 
 Digite a expressão algébrica 5 + 8 e pressione a tecla [ENTER]. Observe o resultado na figura 16:
