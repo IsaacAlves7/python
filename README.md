@@ -2994,7 +2994,7 @@ O laço `while` infinito tem o seguinte formato:
 
 **Exemplo**: Suponha que você deseje criar uma aplicação que permaneça por meses ou anos sendo executada, registrando a temperatura ou a umidade de um ambiente. Logicamente, estamos supondo que você tenha essa informação disponível a partir da leitura de algum sensor. Deve-se tomar cuidado e ter certeza de que seu uso é realmente necessário para evitar problemas de consumo excessivo de memória.
 
-# AS INSTRUÇÕES AUXILIARES
+## [Python] Instruções auxiliares
 A instrução `break` funciona da mesma maneira em **C** e em **Python**. Ela interrompe as repetições dos laços `for` e `while`. Quando a execução do programa chega a uma instrução `break`, a repetição é encerrada e o fluxo do programa segue a partir da primeira instrução seguinte ao laço.
 
 Para exemplificar o uso da instrução `break`, vamos voltar ao primeiro exemplo do laço `while`, utilizando o laço infinito. O laço será encerrado quando o usuário inserir a palavra ‘sair’. Veja a Figura 10:
