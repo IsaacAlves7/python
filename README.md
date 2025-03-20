@@ -105,7 +105,7 @@ A linguagem **Python** é uma linguagem de programação, com características i
   - É **portável**, tem a capacidade de rodar em uma grande variedade de plataformas de hardware com a mesma interface. Ele roda perfeitamente em quase todos os sistemas operacionais, como **Windows**, **Linux**, **UNIX**, e **macOS**, sem nenhuma alteração.
   - É **extensível**, permite que os programadores adicionem ou criem módulos e pacotes de baixo nível / alto nível ao interpretador Python. Esses módulos e pacotes de ferramentas permitem que os desenvolvedores tenham possibilidades amplas de colaboração, contribuindo para a popularidade da linguagem.
   - **Suporta bancos de dados**, por ser uma linguagem de programação de uso geral, Python suporta os principais sistemas de bancos de dados. Permite escrever código com integração com **MySQL**, **PostgreSQL**, **SQLite**, **ElephantSQL**, **MongoDB**, entre outros.
-  - **Suporta interface com usuário**, permite escrever código de tal maneira que uma interface do usuário para um aplicativo possa ser facilmente criada, importando bibliotecas como **Tkinter**, **Flexx**, **CEF Python**, **Dabo**, **Pyforms** ou **PyGUI wxPython**, **PyQT**, **Kivy**.
+  - **Suporta interface com usuário**, permite escrever código de tal maneira que uma interface do usuário para um aplicativo possa ser facilmente criada, importando bibliotecas como <a href="">Tkinter</a>, <a href="">Flexx</a>, <a href="">CEF Python</a>, <a href="">Dabo</a>, <a href="">Pyforms ou PyGUI wxPython</a>, <a href="">PyQT</a>, <a href="">Kivy</a>.
   - Pode ser usado como **linguagem de script**. Permite fácil acesso a outros programas, podendo ser compilado para **bytecode** a fim de criar aplicativos grandes.
   - Permite **desenvolvimento de aplicações Web**. Devido à escalabilidade já citada, Python oferece uma variedade de opções para o desenvolvimento de aplicativos Web. A biblioteca padrão do Python incorpora muitos protocolos para o desenvolvimento da web, como **HTML**, **XML**, **JSON**, **processamento de e-mail**, além de fornecer base para **FTP**, **IMAP** e outros **protocolos da Internet**.
   - Permite criação de **aplicações comerciais**. É desenvolvido sob uma licença de código aberto aprovada pela **OSI**, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
@@ -206,6 +206,166 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 É importante lembrar que pode haver diferenças menores ou maiores entre as versões posteriores do Python 3 (por exemplo, Python 3.6 introduziu chaves de dicionário ordenadas por defeito sob a implementação do CPython) - a boa notícia, porém, é que todas as versões mais recentes de Python 3 são retrocompatíveis com as versões anteriores de Python 3. Sempre que for significativo e importante, tentaremos realçar essas diferenças.
 
 > Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
+
+## [Python] RAD - Rapid Applications Development
+O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
+
+A RAD se diferencia em relação as metodologias tradicionais de desenvolvimento sob vários aspectos, o primeiro sendo sobre o processo de desenvolvimento de software que na RAD segue o modelo iterativo e incremental, na metodologia tradicional de desenvolvimento de software ele seguiria o fluxo linear de desenvolvimento, segunda estrutura seria da estrutura da equipe que na RAD as equipes são pequenas e possuem múltiplas habilidades, no método tradicional tem grandes equipes com funções e habilidades bem definidas, em relação a produtividade, na RAD a produtividade é alta devido aos processos iterativos com os usuários finais, já no desenvolvimento tradicional a produtividade é baixa devido a abordagem linear e rígida, na parte de documentação na RAD é mínima viável, já na prática tradicional a documentação é detalhada e rigorosa com cada estágio de desenvolvimento, em relação ao tempo estimativo de custo, na RAD os projetos são de curta duração e baixo custo de manutenção, na metodologia tradicional o ciclo de vida é longo e com chance de aumento extra com os custos de retrabalho e manutenção. Em relação com a interação do usuário final, na RAD essa interação é ampla e ela ocorre no final de cada iteração, no desenvolvimento tradicional o envolvimento do usuário é somente no início do processo e no final quando ocorre a entrega do sistema. Em relação aos elementos predefinidos na Rad ela trabalha fortemente com essa questão utilizando aplicativos, layouts e modelos que já vem prontos ou pelo menos uma parte pronta, já no desenvolvimento tradicional é necessário desenvolver esses componentes específicos para o projeto com baixa reusabilidade.
+
+Então, o projeto é desenvolvido em etapas e com a inclusão de novas funcionalidades e o resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento. A colaboração entre usuários e desenvolvedores ao longo do projeto é uma característica fundamental da RAD. O projeto é desenvolvido com interações e incrementos de funcionalidades. A operação dessa metodologia pode ocorrer em fases, ou de modo intensivo.
+
+> A RAD pode ser considerada um tipo de técnica ágil. (NAZ & KHAN, 2015).
+
+O desenvolvimento de software tem como objetivo atender as demandas da sociedade, cada vez mais complexas e com abrangência em diversas áreas. Logo nos primórdios da indústria de software, aplicavam-se metodologias que seguiam etapas que não eram revistas e, no final dos projetos, muitas vezes, desenvolvedores e clientes ficavam frustrados com o resultado obtido. Nesse sentido, a necessidade de criar formas mais eficazes de desenvolver sistemas levou à criação da metodologia rápida de desenvolvimento de software, mais conhecida pela sigla em inglês: RAD (Rapid Application Development). Baseia-se na entrega de protótipos para os clientes, a fim de que possam ter uma noção mais clara do progresso do desenvolvimento do software e que também possam colaborar com comentários que permitam aos desenvolvedores fazer alterações para atender as expectativas do cliente.
+
+O desenvolvimento rápido de aplicações RAD (Rapid Application Development) é uma metodologia de desenvolvimento de software com foco na entrega em um período muito inferior ao do ciclo de desenvolvimento tradicional de software. Não se trata de uma entrega final, mas, sim, de um **protótipo do software**. Para que isso seja possível, é feito um planejamento mínimo para obter um protótipo rápido.
+
+> Um protótipo de software é um modelo funcional que equivale funcionalmente a um componente do produto. Ou seja, simula apenas alguns aspectos do produto e é útil para o entendimento e a evolução do sistema final. Na metodologia RAD, existe uma concentração no desenvolvimento dos principais módulos funcionais do sistema. Essa versão inicial, que, apesar de limitada, já é funcional, é chamada de protótipo.
+
+Na metodologia RAD, existe uma concentração no desenvolvimento dos principais módulos funcionais do sistema. Essa versão inicial, que, apesar de limitada, já é funcional, é chamada de **protótipo**:
+
+- É muito útil para a compreensão do sistema
+- Serve de demonstração para os clientes
+- É mais flexível para mudanças
+- Quando está mais evoluído, pode ser integrado ao produto completo para uma entrega mais rápida da versão final
+
+A RAD também pode ser aplicada para aperfeiçoar o treinamento prático de estudantes de computação, auxiliando-os em seus futuros empregos. Isso porque os estudantes podem aplicar o conhecimento adquirido nas aulas para desenvolver sistemas em etapas, conforme é proposto pela RAD. Como será mostrado mais adiante, o fator humano é um importante requisito para a aplicação dessa metodologia, então a sua aplicação para treinar recursos humanos pode acelerar a curva de aprendizado dentro de um curto período.
+
+Os projetos RAD seguem o **modelo iterativo e incremental**. As equipes de desenvolvimento são pequenas, compostas por desenvolvedores, analistas de negócio e representantes de clientes. Um dos aspectos mais importantes deste modelo é garantir que os protótipos desenvolvidos sejam reutilizáveis para o projeto do sistema, ou seja, a ideia não é criar unidades descartáveis. Isso não contradiz o fato de o protótipo ser flexível.
+
+> O desenvolvimento iterativo promove progressos sucessivos, em que o produto é refinado por etapas. No modelo incremental, o software é entregue em pedaços, que são chamados de incrementos. A ideia é que o software seja criado em ciclos curtos, com introdução de funcionalidades, coleta de feedback e revisão.
+
+> O RAD foca no desenvolvimento rápido por meio de iterações frequentes e feedback contínuo.
+
+O modelo RAD foi introduzido pelo consultor de tecnologia e autor James Martin em 1991 (MARTIN, 1991). Surgiu como o reconhecimento da necessidade de atender o competitivo mercado de software, que tem uma demanda contínua por novas aplicações. Uma característica que foi explorada para a formalização da RAD foi a flexibilidade do desenvolvimento de software para projetar modelos de desenvolvimento. Trata-se de uma combinação de sessões JAD, desenvolvimento de protótipos, equipes SWAT, entregas com prazo de entrega e ferramentas CASE.
+
+Portanto, o RAD:
+
+- É muito prática em diversos ambientes modernos de desenvolvimento.
+- Apresenta uma abordagem útil para criar aplicações de comércio eletrônico e aplicativos de dispositivos móveis.
+- Possui uma velocidade de entrega que pode determinar o posicionamento de uma empresa em um ambiente de mercado muito competitivo.
+
+Portanto, trata-se de uma metodologia importante a ser empregada para que as empresas lancem suas aplicações antes de seus concorrentes.
+
+Observe no fluxo como iniciar um projeto RAD:
+
+1. Uma das formas de iniciar o projeto RAD é através da aplicação da metodologia Joint Application Development (JAD).
+
+> A **Joint Application Development (JAD)** é uma metodologia de desenvolvimento que tem como objetivo melhorar o entendimento do sistema ainda no início do projeto onde a principal característica da metodologia JAD são as oficinas de trabalho, em que desenvolvedores e usuários interagem e colaboram para o entendimento dos requisitos do sistema.
+  
+2. Trata-se de uma metodologia na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
+3. A ideia é potencializar o resultado do desenvolvimento através de dinâmicas de grupo.
+4. Ou seja, definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
+Tem como princípios: dinâmica de grupo; recursos audiovisuais; processo organizado e racional; a escolha do local; documentação com a abordagem WYSIWIG – “O que você vê é o que você obtém”.
+
+A RAD foi a precursora do gerenciamento ágil de projetos. As características de prototipagem rápida e ciclos de liberação e iterações mais curtos fortaleceram o posicionamento da RAD como um método eficaz no desenvolvimento de software, tornando-se cada vez mais popular entre as empresas ágeis que procuram métodos que acompanhem o crescimento de suas necessidades comerciais e de clientes. Trata-se de uma metodologia orientada pelo feedback do usuário, e não por um planejamento detalhado e caro.
+
+Os métodos tradicionais de desenvolvimento de software, como, por exemplo, a metodologia de desenvolvimento **cascata** (waterfall), seguem modelos rígidos de processo. Isso significa que, nesses modelos tradicionais, os clientes são pressionados a estabelecer os requisitos antes do início do projeto. A iteração ao longo do projeto é baixa, o que complica o processo de mudança para novos requisitos e ajustes de viabilidade.
+
+A metodologia RAD combina diversas técnicas para acelerar o desenvolvimento de aplicações de software. Outra forma pela qual a RAD é conhecida é como “Construção Rápida de Aplicações”, do inglês Rapid Application Building (RAB). Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final. Trata-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário. A ênfase está na criação rápida de um protótipo, em vez de um planejamento detalhado.
+
+A metodologia RAD possui quatro elementos fundamentais:
+
+- USO DE FERRAMENTAS PARA DAR SUPORTE AO DESENVOLVIMENTO: O uso de ferramentas CASE facilita a automação no desenvolvimento de sistemas. Isso é obtido através de recursos como geração de código e verificação automática de erros de consistência. As ferramentas CASE, portanto, são usadas para gerar protótipos, dando, assim, suporte ao desenvolvimento iterativo, possibilitando que os usuários finais acompanhem a evolução do sistema à medida que ele está sendo construído.
+
+- METODOLOGIA BEM DEFINIDA: É seguido um processo formal de desenvolvimento com atividades em etapas e entregas intermediárias. As tarefas são organizadas de modo a não negligenciar nenhum dos aspectos pré-acordados, e as técnicas são documentadas para garantir que uma tarefa seja executada da maneira correta.
+
+- PESSOAS: Deve haver treinamento das pessoas tanto na metodologia de trabalho como no uso das ferramentas. As tarefas devem ser distribuídas por pequenas equipes, que devem trabalhar bem juntas.
+
+- GESTÃO: O gerenciamento do projeto deve ser feito com rapidez. Isso é obtido através de oficinas de Planejamento de Requisitos e Design de Sistema para extrair rapidamente os requisitos dos usuários. Além disso, deve ser feita alocação de tempo fixo (**Timebox**) para entregar iterativamente o sistema para os usuários.
+
+> Timebox é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.
+
+Além disso, existem dois tipos de projetos RAD:
+
+- **Intensivo**: No tipo de projeto intensivo, uma equipe de desenvolvedores e usuários trabalham por um curto período (algumas semanas) e, ao final desse tempo, espera-se que produza um produto que seja utilizável.
+
+- **Faseado**: Um projeto em fases é aquele distribuído por um longo período. Esses projetos são normalmente iniciados por um workshop JAD. As fases subsequentes do projeto são geralmente organizadas em termos de entrega e demonstração de protótipos incrementais. O objetivo é refinar continuamente o protótipo, tornando-o algo que seja entregue no final do timebox.
+
+Como visto até aqui, está claro que a criação rápida de protótipo é a base da RAD. Nas situações em que os projetos são orientados por requisitos de interface do usuário, o desenvolvimento de protótipo é uma escolha muito adequada, pois é normal que o usuário crie a ideia de como a interface do sistema deve ficar ao longo do desenvolvimento do projeto. O desenvolvimento rápido de protótipos tem como pré-requisito o uso de ferramentas com suporte a componentes gráficos. No mercado, desde a década de 1990, existiam diversas ferramentas para esse fim, em que os programadores simplesmente podem selecionar um componente gráfico e arrastá-lo para um formulário. Desse modo, as interações com os usuários finais são mais produtivas, pois, constantemente, recebem um software operacional.
+
+Constantemente, os programadores são pressionados a entregar as aplicações em prazos curtos e, muitas vezes, sabe-se com antecedência que o projeto terá de passar por modificações ao longo do desenvolvimento. Essas situações são exemplos em que o desenvolvimento rápido é bastante útil, pois ele está embasado exatamente na entrega rápida de protótipos que incorporam os comentários e as solicitações dos usuários a cada entrega. Para ser eficaz, no entanto, a RAD tem alguns requisitos que não são triviais. Alguns requisitos relacionados aos recursos humanos são os seguintes:
+
+- Equipe de desenvolvedores qualificada e motivada.
+- Usuários comprometidos com a participação ativa ao longo do projeto.
+- Comprometimento para atingir o resultado satisfatório. 
+
+O desenvolvimento baseado na entrega de protótipos funcionais busca dar a oportunidade para que o usuário possa interagir com o projeto antes de receber o sistema final. Dessa forma, poderá fazer comentários e solicitações que guiarão os desenvolvedores na confecção do produto que atenda às suas expectativas sob o ponto de vista de funcionalidades, recursos, interatividade do sistema (experiência do usuário), relatórios, gráficos, entre outros.
+
+O RAD é baseado em alguns princípios básicos, que são (FITZGERALD, 1998):
+
+- ENVOLVIMENTO ATIVO DOS USUÁRIOS: A metodologia RAD reconhece que o envolvimento do usuário é necessário para reduzir problemas caros de obtenção de requisitos. Além disso, os usuários podem rejeitar completamente os sistemas, se não estiverem suficientemente envolvidos no desenvolvimento. No centro da abordagem da RAD, estão as oficinas de design de aplicativos conjuntos (JAD) e planejamento de requisitos conjuntos.
+
+- EQUIPES PEQUENAS COM PODER DE DECISÃO: As vantagens da elaboração de equipes pequenas estão na redução de ruídos de comunicação e na minimização de atrasos devido à burocracia que a hierarquia de uma metodologia tradicional impõe. Em relação aos ruídos de comunicação, os canais que tratam dessa área aumentam proporcionalmente ao tamanho da equipe, portanto equipes pequenas evitam a distorção e o conflito na comunicação. A respeito da redução do tempo, empoderar a equipe aumenta as chances de cumprir os prazos por causa da responsabilidade de tomada de decisão. As equipes têm o poder de tomar decisões sobre o design (embora as mudanças sejam reversíveis).
+
+- ENTREGA FREQUENTE DE PRODUTOS: Diferentemente das metodologias de desenvolvimento tradicionais, em que os projetos podem levar muito tempo para serem concluídos, a RAD procura reduzir o tempo de desenvolvimento. Portanto, prazos mais curtos para o desenvolvimento são uma característica importante. Em vez de se concentrar no processo, a RAD tem como premissa a entrega de produtos que satisfazem os requisitos funcionais.
+
+- DESENVOLVIMENTO INCREMENTAL E ITERATIVO: Outro princípio fundamental do RAD é que os sistemas evoluem de forma incremental em cada iteração. A cada nova iteração, surgem novos requisitos que são incorporados ao sistema. Desse modo, os sistemas evoluem através da prototipagem iterativa. Existe um entendimento no RAD que a especificação de requisitos é um processo não determinístico e que evolui à medida que desenvolvedores e usuários interagem com o protótipo do sistema.
+
+- ABORDAGEM TOP-DOWN: Uma vez que, na metodologia RAD, os requisitos não precisam ser completamente definidos logo no início do projeto, eles são especificados em um nível apropriado ao conhecimento disponível no momento. Estes são então elaborados através de prototipagem incremental. Os sistemas são elaborados e confeccionados à medida que o conhecimento cresce. Além disso, como se trata de uma abordagem de “cima para baixo” caracterizada por um curto período, todas as decisões são consideradas reversíveis rapidamente.
+
+- UTILIZAÇÃO DE FERRAMENTAS DE AUTOMAÇÃO (CASE): Trata-se de usar programas que facilitem a automação de processos, criação de diagramas, realização de testes e quaisquer tarefas que facilitem as entregas dentro dos prazos pré-estabelecidos e, obviamente, com qualidade. Além disso, essas ferramentas facilitam a reutilização de componentes que podem ser usados ao longo do projeto.
+
+O ponto fundamental na metodologia RAD é que se trata de uma abordagem colaborativa entre todas as partes interessadas, que são: patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.
+
+A RAD precisa ser suportada por ferramentas que auxiliem no desenvolvimento das aplicações rapidamente. Entre as categorias de ferramentas que dão suporte à RAD para desenvolver projetos de software estão:
+
+- Integração de dados
+- Ambientes de desenvolvimento
+- Ferramentas de coleta de requisitos
+- Ferramentas de modelagem de dados
+- Ferramentas de geração de código
+
+Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua utilização. Cada uma das técnicas tem suas particularidades, mas mantém a essência da RAD. No quadro a seguir, conheça algumas dessas técnicas (Naz; Khan, 2015):
+
+<table>
+<tr>
+  <td>TÉCNICA</td>
+  <td>PARTICULARIDADE</td>
+</tr>
+<tr>
+  <td>Modelo CBD</td>
+  <td>O método que descreve como componentes antigos podem ser reutilizados com os novos.</td>
+</tr>
+<tr>
+  <td>RepoGuard</td>
+  <td>É um framework para integração de ferramentas de desenvolvimento com repositórios de código-fonte.</td>
+</tr>
+<tr>
+  <td>Adição dinâmica ágil</td>
+  <td>Técnicas usadas para integração do ágil para tornar o projeto mais adaptável.</td>
+</tr>
+<tr>
+  <td>Método baseado em camadas para desenvolvimento rápido de software</td>
+  <td>Baseado em camadas que segue o XP.</td>
+</tr>
+<tr>
+  <td>Análise de projeto de sistema baseado em simulação</td>
+  <td>Desenvolvimento de ferramentas ágeis baseadas em simulação.</td>
+</tr>
+<tr>
+  <td>Uso de Ajax no RAD</td>
+  <td>Prototipagem rápida em aplicativos e ferramentas da Web.</td>
+</tr>
+<tr>
+  <td>Desenvolvimento de aplicativos multiusuário em ambiente distribuído rapidamente.</td>
+  <td>Middleware de comunicação.</td>
+</tr>
+<tr>
+  <td>Programação extrema</td>
+  <td>Adição de reutilização ao XP.</td>
+</tr>
+</table>
+
+> **XP**: Extreme Programming (XP) consiste em uma metodologia de desenvolvimento de software que tem como objetivo maximizar a qualidade do software e responder mais rapidamente às mudanças nos requisitos do cliente.
+
+A ideia do uso das técnicas de RAD é de otimizar os resultados obtidos dentro do tempo estimado, que, pela natureza da RAD, é curto. Essencialmente, um software é construído para atender a alguma demanda, ou seja, existe uma razão para que seja confeccionado. Portanto, a interação com os usuários (através das métricas e insights) auxilia o entendimento dos desenvolvedores para construir, agregar e incorporar esse entendimento em um protótipo através de técnicas e ferramentas **que acelerem a entrega e reduzam os desvios de compreensão**. A concordância sobre o propósito do sistema e a sua evolução é muito importante para o sucesso do projeto. Tanto desenvolvedores como clientes devem estar envolvidos em interações formais que fortaleçam o comprometimento de todos.  
+
+A pressão por soluções de software confiáveis e em curtos prazos favoreceu a criação da metodologia de desenvolvimento rápido de software (RAD). A ideia de entregar protótipos em um ciclo de desenvolvimento incremental e iterativo permite que o usuário possa ter rapidamente uma visão clara de como o sistema está progredindo e se existe alguma questão relacionada aos requisitos que precisa ser aperfeiçoada. Portanto, a colaboração entre desenvolvedores e usuários suporta o desenvolvimento de especificações mais precisas e validadas.
+
+A metodologia RAD é caracterizada pelo desenvolvimento do projeto através de etapas iterativas e incrementais, onde um protótipo é entregue ao final de cada ciclo. A proposta é que haja redução nas atividades relacionadas ao planejamento em detrimento do processo de desenvolvimento através de um processo que se caracteriza por incrementos de funcionalidades a cada nova iteração. Desse modo, a expectativa é que as equipes produzam mais em menos tempo, maximizando a satisfação do cliente, uma vez que ele é envolvido no processo. Isso ocorre porque a RAD é estruturada para que as partes interessadas interajam e possam detectar a necessidade de alterações do projeto em tempo real, sem a necessidade de completar longos ciclos de desenvolvimento, e os desenvolvedores possam realizar as implementações rapidamente ao longo das iterações.
+
+Vamos explorar em detalhes as quatro fases essenciais da Metodologia RAD (Rapid Application Development). Você aprenderá como essa abordagem ágil transformou o desenvolvimento de software, acelerando a criação de aplicações e promovendo a colaboração eficaz entre equipes de projeto.
 
 ## [Python] Python aka CPython
 <img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="77" align="right">
@@ -3488,166 +3648,6 @@ conta = Conta(1, "Leandro")
 Toda vez que você cria um conta, esse método `init` ele é chamado, e no exemplo acima, ele armazena os valores numero e titular em atributos da classe.
 
 O parâmetro `self` é uma referência à instância atual da classe. Ele é usado para acessar variáveis que pertencem à classe. O init também pode referir-se ao arquivo `init.py`, que é um componente importante da estrutura de pacotes Python. Ele marca um diretório como um diretório de pacote Python. O `init.py` pode ser usado para: Ajudar o Python a encontrar pacotes em subpastas, Realizar tarefas de inicialização de pacotes, Definir funções de conveniência, Simplificar importações de módulos em subpastas. 
-
-# 🐍 [Python] RAD - Rapid Applications Development
-O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
-
-A RAD se diferencia em relação as metodologias tradicionais de desenvolvimento sob vários aspectos, o primeiro sendo sobre o processo de desenvolvimento de software que na RAD segue o modelo iterativo e incremental, na metodologia tradicional de desenvolvimento de software ele seguiria o fluxo linear de desenvolvimento, segunda estrutura seria da estrutura da equipe que na RAD as equipes são pequenas e possuem múltiplas habilidades, no método tradicional tem grandes equipes com funções e habilidades bem definidas, em relação a produtividade, na RAD a produtividade é alta devido aos processos iterativos com os usuários finais, já no desenvolvimento tradicional a produtividade é baixa devido a abordagem linear e rígida, na parte de documentação na RAD é mínima viável, já na prática tradicional a documentação é detalhada e rigorosa com cada estágio de desenvolvimento, em relação ao tempo estimativo de custo, na RAD os projetos são de curta duração e baixo custo de manutenção, na metodologia tradicional o ciclo de vida é longo e com chance de aumento extra com os custos de retrabalho e manutenção. Em relação com a interação do usuário final, na RAD essa interação é ampla e ela ocorre no final de cada iteração, no desenvolvimento tradicional o envolvimento do usuário é somente no início do processo e no final quando ocorre a entrega do sistema. Em relação aos elementos predefinidos na Rad ela trabalha fortemente com essa questão utilizando aplicativos, layouts e modelos que já vem prontos ou pelo menos uma parte pronta, já no desenvolvimento tradicional é necessário desenvolver esses componentes específicos para o projeto com baixa reusabilidade.
-
-Então, o projeto é desenvolvido em etapas e com a inclusão de novas funcionalidades e o resultado da aplicação da RAD é um software com menor custo, menos erros e menor tempo de desenvolvimento. A colaboração entre usuários e desenvolvedores ao longo do projeto é uma característica fundamental da RAD. O projeto é desenvolvido com interações e incrementos de funcionalidades. A operação dessa metodologia pode ocorrer em fases, ou de modo intensivo.
-
-> A RAD pode ser considerada um tipo de técnica ágil. (NAZ & KHAN, 2015).
-
-O desenvolvimento de software tem como objetivo atender as demandas da sociedade, cada vez mais complexas e com abrangência em diversas áreas. Logo nos primórdios da indústria de software, aplicavam-se metodologias que seguiam etapas que não eram revistas e, no final dos projetos, muitas vezes, desenvolvedores e clientes ficavam frustrados com o resultado obtido. Nesse sentido, a necessidade de criar formas mais eficazes de desenvolver sistemas levou à criação da metodologia rápida de desenvolvimento de software, mais conhecida pela sigla em inglês: RAD (Rapid Application Development). Baseia-se na entrega de protótipos para os clientes, a fim de que possam ter uma noção mais clara do progresso do desenvolvimento do software e que também possam colaborar com comentários que permitam aos desenvolvedores fazer alterações para atender as expectativas do cliente.
-
-O desenvolvimento rápido de aplicações RAD (Rapid Application Development) é uma metodologia de desenvolvimento de software com foco na entrega em um período muito inferior ao do ciclo de desenvolvimento tradicional de software. Não se trata de uma entrega final, mas, sim, de um **protótipo do software**. Para que isso seja possível, é feito um planejamento mínimo para obter um protótipo rápido.
-
-> Um protótipo de software é um modelo funcional que equivale funcionalmente a um componente do produto. Ou seja, simula apenas alguns aspectos do produto e é útil para o entendimento e a evolução do sistema final. Na metodologia RAD, existe uma concentração no desenvolvimento dos principais módulos funcionais do sistema. Essa versão inicial, que, apesar de limitada, já é funcional, é chamada de protótipo.
-
-Na metodologia RAD, existe uma concentração no desenvolvimento dos principais módulos funcionais do sistema. Essa versão inicial, que, apesar de limitada, já é funcional, é chamada de **protótipo**:
-
-- É muito útil para a compreensão do sistema
-- Serve de demonstração para os clientes
-- É mais flexível para mudanças
-- Quando está mais evoluído, pode ser integrado ao produto completo para uma entrega mais rápida da versão final
-
-A RAD também pode ser aplicada para aperfeiçoar o treinamento prático de estudantes de computação, auxiliando-os em seus futuros empregos. Isso porque os estudantes podem aplicar o conhecimento adquirido nas aulas para desenvolver sistemas em etapas, conforme é proposto pela RAD. Como será mostrado mais adiante, o fator humano é um importante requisito para a aplicação dessa metodologia, então a sua aplicação para treinar recursos humanos pode acelerar a curva de aprendizado dentro de um curto período.
-
-Os projetos RAD seguem o **modelo iterativo e incremental**. As equipes de desenvolvimento são pequenas, compostas por desenvolvedores, analistas de negócio e representantes de clientes. Um dos aspectos mais importantes deste modelo é garantir que os protótipos desenvolvidos sejam reutilizáveis para o projeto do sistema, ou seja, a ideia não é criar unidades descartáveis. Isso não contradiz o fato de o protótipo ser flexível.
-
-> O desenvolvimento iterativo promove progressos sucessivos, em que o produto é refinado por etapas. No modelo incremental, o software é entregue em pedaços, que são chamados de incrementos. A ideia é que o software seja criado em ciclos curtos, com introdução de funcionalidades, coleta de feedback e revisão.
-
-> O RAD foca no desenvolvimento rápido por meio de iterações frequentes e feedback contínuo.
-
-O modelo RAD foi introduzido pelo consultor de tecnologia e autor James Martin em 1991 (MARTIN, 1991). Surgiu como o reconhecimento da necessidade de atender o competitivo mercado de software, que tem uma demanda contínua por novas aplicações. Uma característica que foi explorada para a formalização da RAD foi a flexibilidade do desenvolvimento de software para projetar modelos de desenvolvimento. Trata-se de uma combinação de sessões JAD, desenvolvimento de protótipos, equipes SWAT, entregas com prazo de entrega e ferramentas CASE.
-
-Portanto, o RAD:
-
-- É muito prática em diversos ambientes modernos de desenvolvimento.
-- Apresenta uma abordagem útil para criar aplicações de comércio eletrônico e aplicativos de dispositivos móveis.
-- Possui uma velocidade de entrega que pode determinar o posicionamento de uma empresa em um ambiente de mercado muito competitivo.
-
-Portanto, trata-se de uma metodologia importante a ser empregada para que as empresas lancem suas aplicações antes de seus concorrentes.
-
-Observe no fluxo como iniciar um projeto RAD:
-
-1. Uma das formas de iniciar o projeto RAD é através da aplicação da metodologia Joint Application Development (JAD).
-
-> A **Joint Application Development (JAD)** é uma metodologia de desenvolvimento que tem como objetivo melhorar o entendimento do sistema ainda no início do projeto onde a principal característica da metodologia JAD são as oficinas de trabalho, em que desenvolvedores e usuários interagem e colaboram para o entendimento dos requisitos do sistema.
-  
-2. Trata-se de uma metodologia na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
-3. A ideia é potencializar o resultado do desenvolvimento através de dinâmicas de grupo.
-4. Ou seja, definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
-Tem como princípios: dinâmica de grupo; recursos audiovisuais; processo organizado e racional; a escolha do local; documentação com a abordagem WYSIWIG – “O que você vê é o que você obtém”.
-
-A RAD foi a precursora do gerenciamento ágil de projetos. As características de prototipagem rápida e ciclos de liberação e iterações mais curtos fortaleceram o posicionamento da RAD como um método eficaz no desenvolvimento de software, tornando-se cada vez mais popular entre as empresas ágeis que procuram métodos que acompanhem o crescimento de suas necessidades comerciais e de clientes. Trata-se de uma metodologia orientada pelo feedback do usuário, e não por um planejamento detalhado e caro.
-
-Os métodos tradicionais de desenvolvimento de software, como, por exemplo, a metodologia de desenvolvimento **cascata** (waterfall), seguem modelos rígidos de processo. Isso significa que, nesses modelos tradicionais, os clientes são pressionados a estabelecer os requisitos antes do início do projeto. A iteração ao longo do projeto é baixa, o que complica o processo de mudança para novos requisitos e ajustes de viabilidade.
-
-A metodologia RAD combina diversas técnicas para acelerar o desenvolvimento de aplicações de software. Outra forma pela qual a RAD é conhecida é como “Construção Rápida de Aplicações”, do inglês Rapid Application Building (RAB). Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final. Trata-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário. A ênfase está na criação rápida de um protótipo, em vez de um planejamento detalhado.
-
-A metodologia RAD possui quatro elementos fundamentais:
-
-- USO DE FERRAMENTAS PARA DAR SUPORTE AO DESENVOLVIMENTO: O uso de ferramentas CASE facilita a automação no desenvolvimento de sistemas. Isso é obtido através de recursos como geração de código e verificação automática de erros de consistência. As ferramentas CASE, portanto, são usadas para gerar protótipos, dando, assim, suporte ao desenvolvimento iterativo, possibilitando que os usuários finais acompanhem a evolução do sistema à medida que ele está sendo construído.
-
-- METODOLOGIA BEM DEFINIDA: É seguido um processo formal de desenvolvimento com atividades em etapas e entregas intermediárias. As tarefas são organizadas de modo a não negligenciar nenhum dos aspectos pré-acordados, e as técnicas são documentadas para garantir que uma tarefa seja executada da maneira correta.
-
-- PESSOAS: Deve haver treinamento das pessoas tanto na metodologia de trabalho como no uso das ferramentas. As tarefas devem ser distribuídas por pequenas equipes, que devem trabalhar bem juntas.
-
-- GESTÃO: O gerenciamento do projeto deve ser feito com rapidez. Isso é obtido através de oficinas de Planejamento de Requisitos e Design de Sistema para extrair rapidamente os requisitos dos usuários. Além disso, deve ser feita alocação de tempo fixo (**Timebox**) para entregar iterativamente o sistema para os usuários.
-
-> Timebox é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.
-
-Além disso, existem dois tipos de projetos RAD:
-
-- **Intensivo**: No tipo de projeto intensivo, uma equipe de desenvolvedores e usuários trabalham por um curto período (algumas semanas) e, ao final desse tempo, espera-se que produza um produto que seja utilizável.
-
-- **Faseado**: Um projeto em fases é aquele distribuído por um longo período. Esses projetos são normalmente iniciados por um workshop JAD. As fases subsequentes do projeto são geralmente organizadas em termos de entrega e demonstração de protótipos incrementais. O objetivo é refinar continuamente o protótipo, tornando-o algo que seja entregue no final do timebox.
-
-Como visto até aqui, está claro que a criação rápida de protótipo é a base da RAD. Nas situações em que os projetos são orientados por requisitos de interface do usuário, o desenvolvimento de protótipo é uma escolha muito adequada, pois é normal que o usuário crie a ideia de como a interface do sistema deve ficar ao longo do desenvolvimento do projeto. O desenvolvimento rápido de protótipos tem como pré-requisito o uso de ferramentas com suporte a componentes gráficos. No mercado, desde a década de 1990, existiam diversas ferramentas para esse fim, em que os programadores simplesmente podem selecionar um componente gráfico e arrastá-lo para um formulário. Desse modo, as interações com os usuários finais são mais produtivas, pois, constantemente, recebem um software operacional.
-
-Constantemente, os programadores são pressionados a entregar as aplicações em prazos curtos e, muitas vezes, sabe-se com antecedência que o projeto terá de passar por modificações ao longo do desenvolvimento. Essas situações são exemplos em que o desenvolvimento rápido é bastante útil, pois ele está embasado exatamente na entrega rápida de protótipos que incorporam os comentários e as solicitações dos usuários a cada entrega. Para ser eficaz, no entanto, a RAD tem alguns requisitos que não são triviais. Alguns requisitos relacionados aos recursos humanos são os seguintes:
-
-- Equipe de desenvolvedores qualificada e motivada.
-- Usuários comprometidos com a participação ativa ao longo do projeto.
-- Comprometimento para atingir o resultado satisfatório. 
-
-O desenvolvimento baseado na entrega de protótipos funcionais busca dar a oportunidade para que o usuário possa interagir com o projeto antes de receber o sistema final. Dessa forma, poderá fazer comentários e solicitações que guiarão os desenvolvedores na confecção do produto que atenda às suas expectativas sob o ponto de vista de funcionalidades, recursos, interatividade do sistema (experiência do usuário), relatórios, gráficos, entre outros.
-
-O RAD é baseado em alguns princípios básicos, que são (FITZGERALD, 1998):
-
-- ENVOLVIMENTO ATIVO DOS USUÁRIOS: A metodologia RAD reconhece que o envolvimento do usuário é necessário para reduzir problemas caros de obtenção de requisitos. Além disso, os usuários podem rejeitar completamente os sistemas, se não estiverem suficientemente envolvidos no desenvolvimento. No centro da abordagem da RAD, estão as oficinas de design de aplicativos conjuntos (JAD) e planejamento de requisitos conjuntos.
-
-- EQUIPES PEQUENAS COM PODER DE DECISÃO: As vantagens da elaboração de equipes pequenas estão na redução de ruídos de comunicação e na minimização de atrasos devido à burocracia que a hierarquia de uma metodologia tradicional impõe. Em relação aos ruídos de comunicação, os canais que tratam dessa área aumentam proporcionalmente ao tamanho da equipe, portanto equipes pequenas evitam a distorção e o conflito na comunicação. A respeito da redução do tempo, empoderar a equipe aumenta as chances de cumprir os prazos por causa da responsabilidade de tomada de decisão. As equipes têm o poder de tomar decisões sobre o design (embora as mudanças sejam reversíveis).
-
-- ENTREGA FREQUENTE DE PRODUTOS: Diferentemente das metodologias de desenvolvimento tradicionais, em que os projetos podem levar muito tempo para serem concluídos, a RAD procura reduzir o tempo de desenvolvimento. Portanto, prazos mais curtos para o desenvolvimento são uma característica importante. Em vez de se concentrar no processo, a RAD tem como premissa a entrega de produtos que satisfazem os requisitos funcionais.
-
-- DESENVOLVIMENTO INCREMENTAL E ITERATIVO: Outro princípio fundamental do RAD é que os sistemas evoluem de forma incremental em cada iteração. A cada nova iteração, surgem novos requisitos que são incorporados ao sistema. Desse modo, os sistemas evoluem através da prototipagem iterativa. Existe um entendimento no RAD que a especificação de requisitos é um processo não determinístico e que evolui à medida que desenvolvedores e usuários interagem com o protótipo do sistema.
-
-- ABORDAGEM TOP-DOWN: Uma vez que, na metodologia RAD, os requisitos não precisam ser completamente definidos logo no início do projeto, eles são especificados em um nível apropriado ao conhecimento disponível no momento. Estes são então elaborados através de prototipagem incremental. Os sistemas são elaborados e confeccionados à medida que o conhecimento cresce. Além disso, como se trata de uma abordagem de “cima para baixo” caracterizada por um curto período, todas as decisões são consideradas reversíveis rapidamente.
-
-- UTILIZAÇÃO DE FERRAMENTAS DE AUTOMAÇÃO (CASE): Trata-se de usar programas que facilitem a automação de processos, criação de diagramas, realização de testes e quaisquer tarefas que facilitem as entregas dentro dos prazos pré-estabelecidos e, obviamente, com qualidade. Além disso, essas ferramentas facilitam a reutilização de componentes que podem ser usados ao longo do projeto.
-
-O ponto fundamental na metodologia RAD é que se trata de uma abordagem colaborativa entre todas as partes interessadas, que são: patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.
-
-A RAD precisa ser suportada por ferramentas que auxiliem no desenvolvimento das aplicações rapidamente. Entre as categorias de ferramentas que dão suporte à RAD para desenvolver projetos de software estão:
-
-- Integração de dados
-- Ambientes de desenvolvimento
-- Ferramentas de coleta de requisitos
-- Ferramentas de modelagem de dados
-- Ferramentas de geração de código
-
-Desde que a RAD foi formalizada, foram desenvolvidas muitas técnicas para a sua utilização. Cada uma das técnicas tem suas particularidades, mas mantém a essência da RAD. No quadro a seguir, conheça algumas dessas técnicas (Naz; Khan, 2015):
-
-<table>
-<tr>
-  <td>TÉCNICA</td>
-  <td>PARTICULARIDADE</td>
-</tr>
-<tr>
-  <td>Modelo CBD</td>
-  <td>O método que descreve como componentes antigos podem ser reutilizados com os novos.</td>
-</tr>
-<tr>
-  <td>RepoGuard</td>
-  <td>É um framework para integração de ferramentas de desenvolvimento com repositórios de código-fonte.</td>
-</tr>
-<tr>
-  <td>Adição dinâmica ágil</td>
-  <td>Técnicas usadas para integração do ágil para tornar o projeto mais adaptável.</td>
-</tr>
-<tr>
-  <td>Método baseado em camadas para desenvolvimento rápido de software</td>
-  <td>Baseado em camadas que segue o XP.</td>
-</tr>
-<tr>
-  <td>Análise de projeto de sistema baseado em simulação</td>
-  <td>Desenvolvimento de ferramentas ágeis baseadas em simulação.</td>
-</tr>
-<tr>
-  <td>Uso de Ajax no RAD</td>
-  <td>Prototipagem rápida em aplicativos e ferramentas da Web.</td>
-</tr>
-<tr>
-  <td>Desenvolvimento de aplicativos multiusuário em ambiente distribuído rapidamente.</td>
-  <td>Middleware de comunicação.</td>
-</tr>
-<tr>
-  <td>Programação extrema</td>
-  <td>Adição de reutilização ao XP.</td>
-</tr>
-</table>
-
-> **XP**: Extreme Programming (XP) consiste em uma metodologia de desenvolvimento de software que tem como objetivo maximizar a qualidade do software e responder mais rapidamente às mudanças nos requisitos do cliente.
-
-A ideia do uso das técnicas de RAD é de otimizar os resultados obtidos dentro do tempo estimado, que, pela natureza da RAD, é curto. Essencialmente, um software é construído para atender a alguma demanda, ou seja, existe uma razão para que seja confeccionado. Portanto, a interação com os usuários (através das métricas e insights) auxilia o entendimento dos desenvolvedores para construir, agregar e incorporar esse entendimento em um protótipo através de técnicas e ferramentas **que acelerem a entrega e reduzam os desvios de compreensão**. A concordância sobre o propósito do sistema e a sua evolução é muito importante para o sucesso do projeto. Tanto desenvolvedores como clientes devem estar envolvidos em interações formais que fortaleçam o comprometimento de todos.  
-
-A pressão por soluções de software confiáveis e em curtos prazos favoreceu a criação da metodologia de desenvolvimento rápido de software (RAD). A ideia de entregar protótipos em um ciclo de desenvolvimento incremental e iterativo permite que o usuário possa ter rapidamente uma visão clara de como o sistema está progredindo e se existe alguma questão relacionada aos requisitos que precisa ser aperfeiçoada. Portanto, a colaboração entre desenvolvedores e usuários suporta o desenvolvimento de especificações mais precisas e validadas.
-
-A metodologia RAD é caracterizada pelo desenvolvimento do projeto através de etapas iterativas e incrementais, onde um protótipo é entregue ao final de cada ciclo. A proposta é que haja redução nas atividades relacionadas ao planejamento em detrimento do processo de desenvolvimento através de um processo que se caracteriza por incrementos de funcionalidades a cada nova iteração. Desse modo, a expectativa é que as equipes produzam mais em menos tempo, maximizando a satisfação do cliente, uma vez que ele é envolvido no processo. Isso ocorre porque a RAD é estruturada para que as partes interessadas interajam e possam detectar a necessidade de alterações do projeto em tempo real, sem a necessidade de completar longos ciclos de desenvolvimento, e os desenvolvedores possam realizar as implementações rapidamente ao longo das iterações.
-
-Vamos explorar em detalhes as quatro fases essenciais da Metodologia RAD (Rapid Application Development). Você aprenderá como essa abordagem ágil transformou o desenvolvimento de software, acelerando a criação de aplicações e promovendo a colaboração eficaz entre equipes de projeto.
 
 # 🐍 [Python] Tratamento de exceções (exceptions)
 
