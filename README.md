@@ -3653,6 +3653,149 @@ O parâmetro `self` é uma referência à instância atual da classe. Ele é usa
 # 🐍 [Python] Concorrência
 
 # 🐍 [Python] Manipulação de Dados em Arquivos
+Manipular dados em arquivos com Python é uma tarefa comum, e existem várias formas de fazer isso dependendo do tipo de arquivo. Aqui estão os principais formatos e como manipulá-los:
+
+**Arquivos de Texto (`.txt`)**
+
+**Leitura**
+
+```python
+with open("arquivo.txt", "r", encoding="utf-8") as arquivo:
+    conteudo = arquivo.read()  # Lê todo o conteúdo
+    print(conteudo)
+```
+
+**Escrita (sobrescreve o arquivo)**
+```python
+with open("arquivo.txt", "w", encoding="utf-8") as arquivo:
+    arquivo.write("Escrevendo um novo conteúdo no arquivo.\n")
+```
+
+**Adição de Dados (append)**
+```python
+with open("arquivo.txt", "a", encoding="utf-8") as arquivo:
+    arquivo.write("Adicionando mais uma linha.\n")
+```
+
+**Leitura Linha a Linha**
+```python
+with open("arquivo.txt", "r", encoding="utf-8") as arquivo:
+    for linha in arquivo:
+        print(linha.strip())  # `strip()` remove espaços e quebras de linha extras
+```
+
+Arquivos CSV (`.csv`)
+
+**Leitura de CSV**
+```python
+import csv
+
+with open("dados.csv", "r", encoding="utf-8") as arquivo:
+    leitor = csv.reader(arquivo)
+    for linha in leitor:
+        print(linha)  # Cada linha será uma lista
+```
+
+**Escrita de CSV**
+```python
+with open("dados.csv", "w", newline="", encoding="utf-8") as arquivo:
+    escritor = csv.writer(arquivo)
+    escritor.writerow(["Nome", "Idade", "Cidade"])  # Cabeçalho
+    escritor.writerow(["João", 25, "São Paulo"])
+    escritor.writerow(["Maria", 30, "Rio de Janeiro"])
+```
+
+**Leitura de CSV como Dicionário**
+```python
+with open("dados.csv", "r", encoding="utf-8") as arquivo:
+    leitor = csv.DictReader(arquivo)
+    for linha in leitor:
+        print(linha["Nome"], linha["Idade"], linha["Cidade"])
+```
+
+**Escrita de CSV como Dicionário**
+```python
+with open("dados.csv", "w", newline="", encoding="utf-8") as arquivo:
+    campos = ["Nome", "Idade", "Cidade"]
+    escritor = csv.DictWriter(arquivo, fieldnames=campos)
+    
+    escritor.writeheader()  # Escreve o cabeçalho
+    escritor.writerow({"Nome": "João", "Idade": 25, "Cidade": "São Paulo"})
+    escritor.writerow({"Nome": "Maria", "Idade": 30, "Cidade": "Rio de Janeiro"})
+```
+
+Arquivos JSON (`.json`)
+
+**Leitura de JSON**
+
+```python
+import json
+
+with open("dados.json", "r", encoding="utf-8") as arquivo:
+    dados = json.load(arquivo)  # Carrega o JSON como um dicionário
+    print(dados)
+```
+
+**Escrita de JSON**
+
+```python
+dados = {
+    "nome": "Carlos",
+    "idade": 28,
+    "cidades": ["São Paulo", "Curitiba"]
+}
+
+with open("dados.json", "w", encoding="utf-8") as arquivo:
+    json.dump(dados, arquivo, indent=4, ensure_ascii=False)  # `indent=4` formata a saída
+```
+
+Arquivos Excel (`.xlsx`)
+
+É necessário instalar a biblioteca `openpyxl`:
+```sh
+pip install openpyxl
+```
+
+**Leitura de Excel**
+
+```python
+from openpyxl import load_workbook
+
+wb = load_workbook("dados.xlsx")
+planilha = wb.active  # Seleciona a planilha ativa
+
+for linha in planilha.iter_rows(values_only=True):
+    print(linha)
+```
+
+**Escrita em Excel**
+```python
+from openpyxl import Workbook
+
+wb = Workbook()
+planilha = wb.active
+
+planilha.append(["Nome", "Idade", "Cidade"])  # Cabeçalho
+planilha.append(["Lucas", 22, "Belo Horizonte"])
+planilha.append(["Ana", 29, "Florianópolis"])
+
+wb.save("dados.xlsx")
+```
+
+**5. Arquivos Binários (`.bin`)**
+
+**Escrita em Binário**
+```python
+with open("arquivo.bin", "wb") as arquivo:
+    arquivo.write(b"Exemplo de dados binários")
+```
+
+**Leitura de Binário**
+```python
+with open("arquivo.bin", "rb") as arquivo:
+    dados = arquivo.read()
+    print(dados)
+```
 
 # 🐍 [Python] Banco de Dados
 Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
