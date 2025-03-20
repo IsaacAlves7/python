@@ -753,6 +753,8 @@ A Tabela 8 mostra algumas das principais funções disponíveis para distribuiç
 
 Embora o Python tenha muitas funções internas, como o `print()`, também possui um conjunto de bibliotecas-padrão, que são programas em Python que podem ser incluídos no seu programa. Usaremos o módulo math, pois ele disponibiliza diversas funções matemáticas. Existem certas formas de “chamar” esses módulos no seu programa, a seguir veremos algumas.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
+
 Outra forma de executar os comandos da linguagem Python é por meio de **notebooks** que são ambientes interativos que permitem criar e compartilhar documentos que misturam código executável, texto explicativo, imagens, gráficos e outros elementos. Existem vários tipos de notebooks para Python que podem ser encontrados na internet, cada um com suas características, vantagens e desvantagens. Eles são muito populares na comunidade de ciência de dados, programação e pesquisa. Os notebooks mais conhecidos são os Jupyter Notebooks e Google Colab, que são documentos que podem conter tanto código (em várias linguagens, incluindo Python, R, Julia, entre outras) quanto elementos de texto formatado, imagens, equações matemáticas e visualizações. Eles são divididos em células, onde cada célula pode conter código para ser executado ou texto explicativo formatado usando Markdown. Isso permite uma exploração interativa de dados e uma maneira eficiente de documentar o código e seus resultados.
 
 Os notebooks oferecem vantagens, como:
@@ -767,11 +769,17 @@ Os notebooks oferecem vantagens, como:
 
 Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados, aprendizado de máquina, pesquisa acadêmica, análise exploratória de dados, entre outras, devido à sua flexibilidade e capacidade de integração de código e documentação.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="77" align="right">
-
 O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
 
 [![Jupyter](https://img.shields.io/badge/-Jupyter.ipynb-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
+
+Instalando o Jupyter na sua máquina local:
+
+```sh
+pip install jupyter
+```
+
+Inicializando o Jupyter:
 
 ```sh
 jupyter notebook
