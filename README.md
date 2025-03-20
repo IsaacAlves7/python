@@ -3465,7 +3465,18 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
 # 🐍 [Python] OOP - Paradigma Orientado a Objetos
 <img src="https://em-content.zobj.net/source/microsoft-teams/363/snake_1f40d.png" align="right" height="77">
 
-Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o construtor da classe. É chamado sempre que um objeto é criado. O init é equivalente ao construtor de outras linguagens, como o C#. O init pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
+Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o construtor da classe. É chamado sempre que um objeto é criado. O `init` é equivalente ao construtor de outras linguagens, como o C#. O `init` pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
+
+```python
+class Conta:
+        def __init__(self, numero, titular):
+            self.numero = numero
+            self.titular = titular
+
+conta = Conta(1, "Leandro")
+```
+
+Toda vez que você cria um conta, esse método `init` ele é chamado, e no exemplo acima, ele armazena os valores numero e titular em atributos da classe.
 
 O parâmetro `self` é uma referência à instância atual da classe. Ele é usado para acessar variáveis que pertencem à classe. O init também pode referir-se ao arquivo `init.py`, que é um componente importante da estrutura de pacotes Python. Ele marca um diretório como um diretório de pacote Python. O `init.py` pode ser usado para: Ajudar o Python a encontrar pacotes em subpastas, Realizar tarefas de inicialização de pacotes, Definir funções de conveniência, Simplificar importações de módulos em subpastas. 
 
