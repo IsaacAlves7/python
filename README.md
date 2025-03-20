@@ -3465,6 +3465,8 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
 # 🐍 [Python] OOP - Paradigma Orientado a Objetos
 <img src="https://em-content.zobj.net/source/microsoft-teams/363/snake_1f40d.png" align="right" height="77">
 
+O **paradigma de programação orientado à objetos (OOP)** é um dos principais paradigmas das linguagens de programação. Muito utilizado no mercado, entender como funciona e como implementar este paradigma é essencial para todo desenvolvedor de software.
+
 Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o construtor da classe. É chamado sempre que um objeto é criado. O `init` é equivalente ao construtor de outras linguagens, como o C#. O `init` pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
 
 ```python
