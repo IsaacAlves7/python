@@ -2528,7 +2528,7 @@ Assinale a opção com o valor correto dessa expressão em Python.
 <pre><b>Resposta:</b> 2 e 4</pre>
 <blockquote>O operador <code>+</code> realiza operações de soma para tipos numéricos e concatenação para tipos sequenciais. Assim, a variável a na linha 1 passa a ser composta dos itens ‘UF’ e ‘RN’. Assim, a chamada <code>len(a)</code> retorna o tamanho <code>2</code>, número de elementos de a. De forma semelhante, o operador <code>*</code> realiza operações de multiplicação para tipos numéricos e concatenação de cópias para tipos sequenciais. Assim, a variável b na linha 3 passa a ser a lista <code>['4', '4', '4', '4']</code>. E a chamada <code>len(b)</code> retorna o tamanho <code>4</code>, número de elementos de b.</blockquote>
   
-## [Python] Entrada e saída de dados em Python
+## [Python] Entrada e saída de dados
 Já vimos, de maneira básica, como podemos atribuir valor a uma variável, no módulo 2. Vamos agora conhecer outras formas de atribuição.
   
 Sentenças de atribuição
