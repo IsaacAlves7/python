@@ -2769,7 +2769,7 @@ Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja 
 # 🐍 [Python] Estruturas de programação
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de **estruturas de decisão** – e **repetir blocos de instruções** com base em algum critério, como **uma variável de controle** ou a **validade de alguma condição** – chamadas de **estruturas de repetição**. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição em Python**.
 
-## Estrutura condicional
+## [Python] Estrutura condicional
 As **estruturas de decisão** e de **repetição** possuem sintaxes bastante semelhantes em **C** e em **Python**. Mesmo com essa grande semelhança, existe uma diferença crítica no tratamento das condições. Diferentemente da linguagem **C**, **Python** oferece o tipo `bool`. Por isso, cabe ressaltar a diferença de comportamento das duas linguagens nesse tratamento.
   
 <table>
@@ -2905,8 +2905,7 @@ print('a é ' + sinal_numerico(a))
  # a é positivo
 ```
 
-## Estrutura de Laços de Repetição (Loops)
-
+## [Python] Estrutura de Laços de Repetição (Loops)
 Antes de falarmos sobre o comando `for`, vamos abordar a função `range`. A função `range` retorna uma progressão aritmética de inteiros numa lista com a seguinte estrutura sintática: `range (início,parada,incremento)`, onde:
 
 1. `Início` é um parâmetro opcional e o primeiro valor a ser gerado, quando não indicado, por default é o número zero (0).
