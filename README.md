@@ -429,7 +429,7 @@ O **virtualenv** do Python é utilizado para isolar a versão do Python e das bi
 ## [Python] Instalação, utilitários e módulos
 <img src="https://user-images.githubusercontent.com/61624336/195671940-1ad2730d-8a30-403c-b8ce-8b899af97969.png" align="right" height="277">
 
-Existem várias maneiras de obter a sua própria cópia do Python 3, dependendo do sistema operativo que utilize.
+Existem várias maneiras de obter a sua própria cópia do <a href="https://www.python.org/">Python 3</a>, dependendo do sistema operativo que utilize.
 
 Utilizadores de **Linux** provavelmente já têm o Python instalado - este é o cenário mais provável, já que a infraestrutura do Python é intensamente utilizada por muitos componentes do sistema operativo Linux. 
 
@@ -443,7 +443,7 @@ Se for um utilizador Linux, abra o terminal/console e digite:
 python3
 ```
 
-no shell prompt, pressione Enter e aguarde. Se vir algo deste gênero:
+No shell prompt, pressione Enter e aguarde. Se vir algo deste gênero:
 
 <pre>
 Python 3.4.5 (default, Jan 12 2017, 02:28:40)
