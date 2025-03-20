@@ -3462,6 +3462,9 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
 - A **linha 2** traz as condições de parada.
 - A **linha 5** traz as chamadas recursivas para calcular os dois termos anteriores da sequência.
 
+# 🐍 [Python] OOP - Paradigma Orientado a Objetos
+
+
 # 🐍 [Python] RAD - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
 
