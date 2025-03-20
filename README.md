@@ -787,11 +787,11 @@ jupyter notebook
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
 
-[![Colab](https://img.shields.io/badge/-Colab.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
-
 O **Google Colab**, ou Colaboratory, é uma plataforma baseada em nuvem fornecida pelo Google que permite escrever, compartilhar e executar códigos Python diretamente no navegador. É especialmente útil para análise de dados, aprendizado de máquina, educação em ciência de dados e para executar notebooks Jupyter. É um serviço de nuvem gratuito que oferece notebooks para Python que podem ser executados no navegador. O Google Colab permite o uso de GPUs e TPUs gratuitamente, o que é muito útil para treinar modelos de aprendizado de máquina complexos. Ele também facilita o compartilhamento e a colaboração de notebooks com outros usuários. Ele é baseado no Jupyter Notebook e tem uma interface semelhante.
 
 Alguns dos principais recursos do Google Colab incluem:
+
+[![Colab](https://img.shields.io/badge/-Colab.ipynb-fff?style=social&logo=Google-Colab&logoColor=F9AB00)](https://colab.research.google.com/) 
 
 - Ambiente de notebook interativo: Permite escrever e executar código Python em células individuais, facilitando a experimentação e a visualização dos resultados.
 
