@@ -3465,6 +3465,10 @@ Uma possível implementação recursiva de função que determina o **n-ésimo**
 # 🐍 [Python] OOP - Paradigma Orientado a Objetos
 <img src="https://em-content.zobj.net/source/microsoft-teams/363/snake_1f40d.png" align="right" height="77">
 
+Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o construtor da classe. É chamado sempre que um objeto é criado. O init é equivalente ao construtor de outras linguagens, como o C#. O init pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
+
+O parâmetro `self` é uma referência à instância atual da classe. Ele é usado para acessar variáveis que pertencem à classe. O init também pode referir-se ao arquivo `init.py`, que é um componente importante da estrutura de pacotes Python. Ele marca um diretório como um diretório de pacote Python. O `init.py` pode ser usado para: Ajudar o Python a encontrar pacotes em subpastas, Realizar tarefas de inicialização de pacotes, Definir funções de conveniência, Simplificar importações de módulos em subpastas. 
+
 # 🐍 [Python] RAD - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
 
