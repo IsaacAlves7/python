@@ -771,8 +771,6 @@ Esses notebooks são utilizados em diversas áreas, incluindo ciência de dados,
 
 O **Jupyter Notebook** é um aplicativo da web de código aberto que pode ser usado para construir e compartilhar código ativo, equações, visualizações e documentos de texto. O Jupyter Notebook é mantido pelo pessoal do Projeto Jupyter. Ele suporta mais de 40 linguagens de programação, incluindo Python, R, Julia e Scala. Ele também permite a integração com bibliotecas e frameworks populares de ciência de dados, como numpy, pandas, scikit-learn, tensorflow, etc. 
 
-[![Jupyter](https://img.shields.io/badge/-Jupyter.ipynb-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
-
 Instalando o Jupyter na sua máquina local: Com essa instalação nós estamos instalando o Jupyter Notebook e o JupyterLab no ambiente global do Python (ou no ambiente virtual ativo, se houver um).
 
 ```sh
@@ -788,6 +786,10 @@ Inicializando o Jupyter Notebook:
 ```sh
 jupyter notebook
 ```
+
+[![Jupyter](https://img.shields.io/badge/-Jupyter.ipynb-fff?style=social&logo=Jupyter&logoColor=orange)](https://jupyter.org/try)
+
+Você pode criar um arquivo `.ipynb` ou abrir um na sua máquina local.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="77" align="right">
 
