@@ -1987,7 +1987,7 @@ Nesta seção, vamos estudar como são os erros nas operações básicas da mate
 
 - **Multiplicação**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup> × m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>×m<sub>2</sub>) b<sup>a+c</sup></code>
 
-## [Python] Complex
+## [Python] Tipo complex
 É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
 
 Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a parte real é `2` e a parte imaginária é `5`:
