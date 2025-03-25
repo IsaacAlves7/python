@@ -3663,7 +3663,8 @@ class Pessoa():
   # Atributos e métodos da classe
 ```
 
-Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o construtor da classe. É chamado sempre que um objeto é criado. O `init` é equivalente ao construtor de outras linguagens, como o C#. O `init` pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
+## [Python] Método construtor
+Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o método construtor da classe. É chamado sempre que um objeto é criado. O `init` é equivalente ao construtor de outras linguagens, como o C#. O `init` pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
 
 ```python
 class Conta:
