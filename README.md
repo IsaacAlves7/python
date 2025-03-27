@@ -2043,7 +2043,7 @@ Os exemplos a seguir mostram a resposta do Python ao comparar dados com as saíd
  True
 ```
 
-## [Python] Operadores aritméticos
+# 🐍 [Python] Operadores
 Os **operadores matemáticos** são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo **Álgebra** e **Aritmética** na escola. Existem algumas pequenas diferenças, como a **divisão** (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
 
 <table style="width:100%">
@@ -2173,7 +2173,6 @@ Vamos falar um pouco sobre o termo atribuição de variáveis. Observe que utili
 
 Nas próximas seções, serão apresentados alguns comandos e estruturas básicas do Python, lembrando que as seções não são um aprofundamento da linguagem Python, mas o básico para começarmos a trabalhar com a modelagem matemática.
 
-## [Python] Operadores de Comparação
 Além das operações algébricas, é possível realizar **operações de comparação**. Os operadores de comparação têm como resultado um valor **booleano** (`True` ou `False`). Observe a tabela 3:
 
 <table>
@@ -2211,12 +2210,11 @@ Além das operações algébricas, é possível realizar **operações de compar
 
 Existe outra lista de operadores que executam operações matemáticas, mas, além disso, atualizam o valor da variável utilizada. Eles são chamados de **operadores compostos**. Para mais funções matemáticas, você pode utilizar os módulos matemáticos <code>math</code> e <code>fractions</code>.
 
-## [Python] Operadores booleanos
 As **expressões booleanas** são aquelas que podem ter como resultado um dos valores booleanos: `True` ou `False`. É comum utilizarmos os **operadores de comparação** em expressões booleanas, mas não só eles.
 
 Assim como é possível escrever expressões algébricas complexas _concatenando_ diversas expressões menores, podemos escrever expressões booleanas grandes, com os operadores `and`, `or` e `not`. Observe o comportamento dos operadores booleanos nas tabelas 4, 5 e 6.
 
-## [Python] Operadores lógicos
+Operadores lógicos 
 
 Operador `not`:
 <table>
