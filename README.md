@@ -1580,8 +1580,7 @@ Digite a expressão algébrica 5 + 8 e pressione a tecla [ENTER]. Observe o resu
 
 O **Python Console** permite que você calcule expressões algébricas como uma **calculadora**, além de executar instruções básicas em Python.
 
-## [Python] Tipos numéricos
-Existem três tipos numéricos distintos em Python: **inteiros**, **números de ponto flutuante** e **números complexos**. Além disso, os **booleanos** são um subtipo dos inteiros.
+Existem três **tipos numéricos** distintos em Python: **inteiros**, **números de ponto flutuante** e **números complexos**. Além disso, os **booleanos** são um subtipo dos inteiros.
 
 O `int` é o tipo usado para manipular números inteiros. Fazendo uma analogia com a Matemática, o tipo `int` é usado para elementos do conjunto dos inteiros (Z).
 
