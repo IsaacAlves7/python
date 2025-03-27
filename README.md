@@ -1627,7 +1627,7 @@ Para obter o **quociente inteiro** e o **resto**, quando dois inteiros são _div
 
 A representação dos números inteiros positivos na base decimal (`10`) consiste em um número de algarismo (`0,1,2,3,4,5,6,7,8,9`), o qual depende da respectiva posição na representação.
 
-**Exemplo**: O número `179` significa uma (`1`) centena (`100`) mais (`+`) sete (`7`) dezenas (`10`) e nove (`9`) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
+Exemplo: O número `179` significa uma (`1`) centena (`100`) mais (`+`) sete (`7`) dezenas (`10`) e nove (`9`) unidades, ou, de forma simplificada, por símbolos matemáticos: `179 = 1x100 + 7x10 + 9`.
 
 Agora, vamos generalizar essa notação matemática. Para isso, vamos adotar como representação para qualquer **digito numérico decimal** a letra `di`, onde `i` é a posição no número `N` com `n+1` dígitos. Por exemplo, no número `179`, o dígito decimal `1` encontra-se na posição `i=2`; `7` na posição `i=1`; e `9` na posição `i=0`. Em uma forma de notação matemática, temos:
 
@@ -1987,8 +1987,7 @@ Nesta seção, vamos estudar como são os erros nas operações básicas da mate
 
 - **Multiplicação**: <code>x<sub>1</sub>+x<sub>2</sub>=m<sub>1</sub> b<sup>a</sup> × m<sub>2</sub> b<sup>c</sup>=(m<sub>1</sub>×m<sub>2</sub>) b<sup>a+c</sup></code>
 
-## [Python] Tipo complex
-É o tipo utilizado para manipular **números complexos**, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
+Tipo **complex** é o tipo utilizado para manipular números complexos, na forma `x + yj`, sendo `x` a **parte real** e `y` a **parte imaginária** do **complexo**.
 
 Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a parte real é `2` e a parte imaginária é `5`:
 
@@ -1997,8 +1996,7 @@ Veja dois exemplos de variáveis do tipo complex nas figuras 25 e 26, em que a p
 
 A chamada `r.conjugate()` retorna o conjugado do número complexo `r`, em que a _parte real_ é **mantida** e a _parte imaginária_ tem o seu **sinal trocado**.
 
-## [Python] Tipo booleano
-Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar **expressões não algébricas** também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
+Tipo booleano Uma expressão algébrica, como vimos nos exemplos dos tipos `int` e `float`, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar **expressões não algébricas** também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre **Python** e outras linguagens, como **C**, por exemplo, em que não existe o tipo **bool**.
 
 No prompt interativo `>>>`, digite a expressão `2 < 3` e pressione [ENTER]. Observe o resultado na figura 27:
 
