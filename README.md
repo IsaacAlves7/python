@@ -4179,3 +4179,5 @@ Se a instalação ocorreu normalmente, aparecerá uma tela com alguns componente
 <div align="center"><img src="https://github.com/IsaacAlves7/py/assets/61624336/7d2962f4-0f2b-4ecc-8cdf-d3a648493374"></div>
 
 **Flexx**: É um kit de ferramentas (toolkit) para o desenvolvimento de interfaces gráficas com o usuário implementado em python que faz uso de tecnologia web para sua renderização. O Flexx pode ser usado para criar tanto aplicações de desktop como para web e até mesmo exportar uma aplicação para um documento HTML independente. Para instalar o Flexx, basta digitar o comando:
+
+# 🧪 [Python] DDD, BDD e TDD
