@@ -4181,3 +4181,53 @@ Se a instalação ocorreu normalmente, aparecerá uma tela com alguns componente
 **Flexx**: É um kit de ferramentas (toolkit) para o desenvolvimento de interfaces gráficas com o usuário implementado em python que faz uso de tecnologia web para sua renderização. O Flexx pode ser usado para criar tanto aplicações de desktop como para web e até mesmo exportar uma aplicação para um documento HTML independente. Para instalar o Flexx, basta digitar o comando:
 
 # 🧪 [Python] DDD, BDD e TDD
+É totalmente possível aplicar **DDD (Domain-Driven Design)**, **BDD (Behavior-Driven Development)** e **TDD (Test-Driven Development)** com Python, e essas práticas são amplamente adotadas por equipes maduras que desenvolvem sistemas complexos com essa linguagem. Em resumo, Python é perfeitamente capaz de suportar TDD, BDD e DDD com ferramentas adequadas e uma boa organização. O diferencial está na disciplina e entendimento do time em aplicar essas práticas para escrever código de qualidade, testável e alinhado com o domínio do problema.
+
+O TDD é muito natural com Python por causa da sua sintaxe limpa e das bibliotecas de teste já integradas ou de fácil instalação. O fluxo de TDD segue o ciclo clássico: **Red → Green → Refactor**. Você escreve um teste que falha, depois implementa o código mínimo para que o teste passe, e por fim melhora/refatora esse código.
+Ferramentas:
+
+* `unittest` (embutido no Python)
+* `pytest` (muito popular pela simplicidade e poder)
+* `nose`, `doctest` (menos usados hoje em dia)
+
+Exemplo básico com `pytest`:
+
+```python
+def soma(a, b):
+    return a + b
+
+def test_soma():
+    assert soma(2, 3) == 5
+```
+
+O BDD foca em **descrever comportamentos esperados da aplicação em linguagem natural**, conectando a visão de negócio com a técnica. Em Python, o BDD pode ser implementado usando ferramentas como o **Behave** ou **pytest-bdd**, que seguem a sintaxe **Gherkin**.
+
+Gherkin é uma linguagem legível por humanos que estrutura os testes em:
+
+* **Given** (dado)
+* **When** (quando)
+* **Then** (então)
+
+Exemplo com Behave:
+
+```gherkin
+Feature: Soma de dois números
+
+  Scenario: Somar dois números positivos
+    Given que eu tenho os números 2 e 3
+    When eu somo esses dois números
+    Then o resultado deve ser 5
+```
+
+O código Python correspondente ficará em arquivos `.py` dentro do diretório `steps/`.
+
+O DDD é uma abordagem arquitetural e de modelagem orientada ao domínio do negócio, não é específico de linguagem. Com Python, você pode aplicar DDD usando estruturas de projeto bem definidas:
+
+* **Entidades**: classes com identidade única e ciclo de vida próprio.
+* **Value Objects**: imutáveis, definidos por seus atributos.
+* **Repositórios**: abstraem a persistência dos objetos do domínio.
+* **Serviços de Domínio**: lógica de negócio que não pertence diretamente a uma entidade.
+* **Agregados**: consistem em entidades e value objects relacionados.
+* **Camadas**: aplicação, domínio, infraestrutura, etc.
+
+Mesmo que Python seja dinâmico e permissivo, ele permite sim modularizar o código e aplicar conceitos de DDD com clareza, especialmente em projetos maiores.
