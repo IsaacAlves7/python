@@ -1424,7 +1424,7 @@ print(a)
 
 11. **Linha 11** Como a linha 11 está no mesmo nível da linha 2, ela não faz parte do bloco do `for`.
 
-## [Python] Comentários em Python
+## [Python] Comentários
 Em Python, os **comentários** podem ser de **uma linha** ou de **várias linhas**. A tabela 1 mostra as formas de limitar um comentário, além de comparar essas formas em **Python** e **C**.
 
 |            | Python | C |
