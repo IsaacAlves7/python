@@ -2785,6 +2785,8 @@ Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja 
 
 # 🐍 [Python] Regex - Expressões regulares
 
+# 🐍 [Python] Iterators e Iterables
+
 # 🐍 [Python] Estruturas de programação
 As **estruturas de controle** permitem selecionar quais partes do código serão executadas – chamadas de estruturas de decisão – e repetir blocos de instruções com base em algum critério, como uma variável de controle ou a validade de alguma condição – chamadas de estruturas de repetição. Neste módulo, vamos conhecer as **estruturas de decisão** e de **repetição** em Python.
 
