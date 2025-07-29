@@ -2288,40 +2288,7 @@ Operador `or`:
   </tr>
 </table>
 
-## [Python] Tipos sequenciais
-Existem três tipos sequenciais básicos em Python: **listas**, **tuplas** e **objetos range**. Além dos tipos básicos citados, existe um tipo especial criado para tratamento de dados textuais: o tipo `str` (string).
-
-Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e cada item tem o seu índice incrementado uma unidade em relação ao item anterior. Porém, Python também permite a indexação com valores negativos. O valor `-1` é o índice do último item, e cada item anterior é decrementado de uma unidade em relação ao sucessor. Observe a tabela 7:
-
-<table>
-  <tr>
-    <td>índice</td>
-    <td><b>0</b></td>
-    <td>1</td>
-    <td>2</td>
-    <td>3</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>s</td>
-    <td><b>t</b></td>
-    <td><b>e</b></td>
-    <td><b>s</b></td>
-    <td><b>t</b></td>
-    <td><b>e</b></td>
-  </tr>
-   <tr>
-    <td>índice negativo</td>
-    <td>-5</td>
-    <td>-4</td>
-    <td>-3</td>
-    <td>-2</td>
-    <td><b>-1</b></td>
-  </tr>
-</table>
-
-## [Python] Strings
-Em uma variável do tipo `str`, é possível armazenar letras, números, espaços, pontuação e diversos símbolos. Diferentemente da linguagem C, _não existe_ o tipo `char`. Cada caractere em Python é uma string, para delimitar uma string, podemos utilizar:
+Em uma variável do tipo `str` (Strings), é possível armazenar letras, números, espaços, pontuação e diversos símbolos. Diferentemente da linguagem C, _não existe_ o tipo `char`. Cada caractere em Python é uma string, para delimitar uma string, podemos utilizar:
 
 Aspas simples:
 ```python
@@ -2430,8 +2397,7 @@ print(mensagem)
 
 Neste exemplo, a função `str()` é usada para converter um número inteiro em uma string. Isso permite que o número seja concatenado com outras strings para criar uma mensagem. Se tentássemos concatenar um número inteiro com uma string sem usar `str()`, Python retornaria um erro, pois não pode adicionar diretamente números e strings.
 
-## [Python] Docstrings
-Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida.
+Em Python, **Docstrings** é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor. Ao chamar o utilitário `help()` passando como parâmetro a função desejada, essa string é exibida.
 
 Exemplo:
 
@@ -2456,6 +2422,38 @@ Output:
 - A **linha 8** mostra a impressão na tela da chamada `help(fibo)`. Na Figura 29, está o resultado da execução desse programa.
   
 Python oferece, em seu núcleo, algumas funções que já utilizamos, como `print()` e `input()`, além de classes como `int`, `float` e `str`. Logicamente, o núcleo da linguagem Python disponibiliza muitas outras funções (ou métodos) e classes além das citadas. Mas, ainda assim, ele é pequeno, com objetivo de simplificar o uso e ganhar eficiência. Para aumentar a disponibilidade de funções, métodos e classes, o desenvolvedor pode usar a biblioteca padrão Python. Apresentaremos alguns dos principais recursos dessa biblioteca e a forma de utilizá-los.
+
+## [Python] Tipos sequenciais
+Existem três tipos sequenciais básicos em Python: **listas**, **tuplas** e **objetos range**. Além dos tipos básicos citados, existe um tipo especial criado para tratamento de dados textuais: o tipo `str` (string).
+
+Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e cada item tem o seu índice incrementado uma unidade em relação ao item anterior. Porém, Python também permite a indexação com valores negativos. O valor `-1` é o índice do último item, e cada item anterior é decrementado de uma unidade em relação ao sucessor. Observe a tabela 7:
+
+<table>
+  <tr>
+    <td>índice</td>
+    <td><b>0</b></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>s</td>
+    <td><b>t</b></td>
+    <td><b>e</b></td>
+    <td><b>s</b></td>
+    <td><b>t</b></td>
+    <td><b>e</b></td>
+  </tr>
+   <tr>
+    <td>índice negativo</td>
+    <td>-5</td>
+    <td>-4</td>
+    <td>-3</td>
+    <td>-2</td>
+    <td><b>-1</b></td>
+  </tr>
+</table>
 
 ## [Python] Listas e Tuplas
 **Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
