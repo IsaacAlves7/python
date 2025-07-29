@@ -2455,7 +2455,6 @@ Assim como em **C** ou **Java**, a indexação dos itens é iniciada com `0` e c
   </tr>
 </table>
 
-## [Python] Listas e Tuplas
 **Listas** são _sequências mutáveis_, normalmente usadas para **armazenar coleções de itens homogêneos**. Uma **lista** pode ser criada de algumas maneiras, tais como:
 
 Usando um par de colchetes `[]` para denotar uma **lista vazia**.
@@ -2542,7 +2541,6 @@ a=[1,2,3,4,5]
 a[-5]
 ```
 
-## [Python] Range
 O tipo **range** representa uma _sequência imutável de números e frequentemente é usado em loops de um número específico de vezes_, como o `for`.
 
 Ele pode ser chamado de maneira simples, apenas com **um argumento**. Nesse caso, a sequência começará em `0` e será incrementada de uma unidade até o limite do parâmetro passado (exclusive). Por exemplo, `range(3)` cria a sequência `(0, 1, 2)`.
