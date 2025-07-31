@@ -10,6 +10,14 @@
 
 <a href="https://github.com/IsaacAlves7/python-programming"><div align="center"><img src="https://user-images.githubusercontent.com/61624336/193809777-0c363bd5-112a-4707-8292-7e77eba6d858.png" height="177"/></div></a>
 
+Sou um especialista em desenvolvimento de software com foco no ecossistema Python, utilizando frameworks como Django, Flask, FastAPI e Streamlit. Possuo experiência sólida na aplicação de boas práticas como SOLID, DRY, KISS, TDA e SoC, além do uso de design patterns (criacionais, estruturais e comportamentais) e a adoção dos princípios de Clean Code e Clean Architecture, garantindo legibilidade, manutenibilidade e escalabilidade do código.
+
+No front-end, atuo em projetos com SPAs integradas a back-ends Python (utilizando React, Angular ou Vue), SSR com Django Templates ou Jinja2 (Flask), e design responsivo com HTML/CSS, Flexbox e CSS Grid, baseados em protótipos desenvolvidos no Figma (UI/UX).
+
+Na parte de back-end, construo APIs RESTful e GraphQL (com Graphene ou Ariadne), com domínio de Git e trabalho colaborativo por meio de pipelines CI/CD (GitHub Actions, GitLab CI, Jenkins), uso de ferramentas de linting e static analysis como Flake8, Black e MyPy, testes unitários e de integração com Pytest ou unittest, monitoramento com Grafana e Prometheus e rastreamento de erros com logs estruturados usando Loguru ou Python Logging, em arquiteturas modulares e orientadas a microsserviços.
+
+Também implemento soluções de analytics como Google Analytics 4, Amplitude ou Plausible para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Em relação à entrega de software, tenho experiência com implantação em ambientes PaaS como Heroku, Railway e Render, além do uso de recursos em nuvens como AWS (EC2, Lambda, S3, RDS), Azure e Google Cloud.
+
 - https://exercism.org/tracks/python
 - https://app.datacamp.com/learn
 
