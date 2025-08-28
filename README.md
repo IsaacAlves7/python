@@ -515,7 +515,7 @@ IDLE é uma boa escolha para iniciantes em Python. É um ambiente de desenvolvim
 - Um depurador (debugger) que permite depurar código Python passo a passo.
 - Um gerenciador de projetos que permite organizar arquivos Python.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right">
+<a href="https://pypi.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/PyPI_logo.svg" height="77" align="right"></a>
 
 O Python tem vários gerenciadores de pacotes que facilitam a instalação, atualização e remoção de pacotes e bibliotecas. Os dois gerenciadores de pacotes mais comuns para Python são:
 
