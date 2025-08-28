@@ -937,7 +937,8 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 - o **traceback** (que é o caminho que o código percorre através de diferentes partes do programa - pode ignorá-lo por agora, uma vez que está vazio num código tão simples);
 - a **localização do erro** (o nome do ficheiro contendo o erro, o número da linha e o nome do módulo); 
 
-> **Nota**: o número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
+> [!Note]
+> O número pode ser enganador, uma vez que o Python normalmente mostra o local onde primeiro se notam os efeitos do erro, não necessariamente o erro em si.
 
 - o **conteúdo da linha errada**; 
 
@@ -949,80 +950,72 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 
 Ao retirar as aspas do argumento da `string` também é gerado um erro. Veja mais:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print(Hisssssss...)
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-<pre>
+"""
 Traceback (most recent call last):
   File "snake.py", line 1, in <module>
     print(Hisssssss...)
 NameError: name 'Hisssssss...' is not defined
-</pre>
+"""
+```
 
 Agora, ao retirar os parênteses da função com o argumento `string` também é gerado um erro. Veja mais:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 printHisssssss...
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-<pre>
+"""
 Traceback (most recent call last):
   File "snake.py", line 1, in <module>
     printHisssssss...
 NameError: name 'printHisssssss...' is not defined
-</pre>
+"""
+```
 
 Agora, veja o que acontece ao colocar aspas duplas sem parênteses:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print"Hisssssss..."
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
-
-<pre>
+"""
   File "snake.py", line 1
     print"Hisssssss..."
                ^
 SyntaxError: invalid syntax
-</pre>
+"""
+```
 
 Agora, veja o que acontece ao colocar duas aspas distintas sem parênteses:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print'Hisssssss..."
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-<pre>
+"""
  File "snake.py", line 1
     print'Hisssssss..."
                ^
 SyntaxError: EOL while scanning string literal
-</pre>
+"""
+```
 
 Agora, veja o que acontece ao colocar duas aspas simples ou duplas sem parênteses e com um sinal de igual:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print='Hisssssss...'
-```
-[![.py](https://img.shields.io/badge/-snake.py_output-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-<pre>
-Success (1.82s)
-</pre>
+# Success (1.82s)
+```
 
 > Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
 
@@ -1182,7 +1175,7 @@ Já viu um programa de computador que contém uma invocação de função. Uma *
 
 É claro que qualquer programa complexo contém geralmente muito mais instruções do que uma. A questão é: como se acoplam mais do que uma instrução no código Python?
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print("The itsy bitsy spider climbed up the waterspout.")
@@ -1324,7 +1317,7 @@ O que acontece?
 
 Se tudo correr bem, deverá ver algo como isto:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print("The itsy bitsy spider climbed up the waterspout.")
@@ -1360,7 +1353,7 @@ Tanto a barra invertida como o `n` formam um símbolo especial chamado **um cara
 
 Execute o código. O seu console deve agora ter este aspeto:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print("The itsy bitsy spider\nclimbed up the waterspout.")
@@ -1384,7 +1377,7 @@ Esta convenção tem duas consequências importantes:
 
 1. Se quiser colocar apenas uma barra invertida dentro de uma string, não se esqueça da sua natureza de escape - tem de a duplicar, por exemplo, uma tal invocação causará um erro:
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print("\")
@@ -1393,7 +1386,7 @@ print("\")
 enquanto esta não o fará:
 
 
-[![.py](https://img.shields.io/badge/-snake.py_input-fff?style=social&logo=Python&logoColor=3776AB)](#)
+[![.py](https://img.shields.io/badge/-snake.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
 ```python
 print("\\")
