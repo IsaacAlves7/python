@@ -4189,6 +4189,10 @@ Ferramentas:
 * `pytest` (muito popular pela simplicidade e poder)
 * `nose`, `doctest` (menos usados hoje em dia)
 
+<img src="https://github.com/user-attachments/assets/194b5f8e-78ea-4b47-8b13-ff7286cfebd8" align="right" height="77">
+
+O **pytest** realiza testes de API (Tests endpoints), Browser tests (com o uso de ferramentas como Playwright), Unit tests (Tests single functions), Database tests (Supported with fixtures), Integration tests (Tests component interactions), GUI tests (Possible with plugins). Pytest é versátil rodando varios tipos de testes com ferramentas apropriadas.
+
 Exemplo básico com `pytest`:
 
 ```python
