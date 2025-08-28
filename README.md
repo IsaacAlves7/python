@@ -860,7 +860,8 @@ Clique em `File` (na nova janela), depois clique em `Save as...`, selecione uma 
 
 [![.py](https://img.shields.io/badge/-.py-fff?style=social&logo=Python&logoColor=3776AB)](#)
 
-> **Nota**: não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
+> [!Note]
+> Não defina nenhuma extensão para o nome do ficheiro que vai utilizar. O Python precisa que os seus ficheiros tenham a extensão `.py`, por isso deve confiar nas predefinições da janela de diálogo. A utilização da extensão padrão `.py` permite que o sistema operativo abra adequadamente estes ficheiros.
 
 Agora coloque apenas uma linha na sua janela do editor recém-aberta e nomeada. A linha tem este aspeto:
 
