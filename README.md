@@ -563,8 +563,9 @@ A **biblioteca padrão Python** consiste em milhares de **funções**, **método
 - Operações matemáticas;
 - Interface gráfica com o usuário (GUI);
 - Funções matemáticas e geração de números pseudoaleatórios.
-  
-<blockquote><b>Atenção!</b> É importante lembrar dos conceitos de classes e objetos, pois eles são os principais conceitos do paradigma de programação orientada a objeto. As classes são fábricas, que podem gerar instâncias chamadas objetos. Uma classe <b>Pessoa</b>, por exemplo, pode ter como atributos nome e CPF. Ao gerar uma instância de <b>Pessoa</b>, com nome João da Silva e CPF 000.000.000-00, temos um objeto.</blockquote>
+
+> [!Warning]
+> É importante lembrar dos conceitos de classes e objetos, pois eles são os principais conceitos do paradigma de programação orientada a objeto. As classes são fábricas, que podem gerar instâncias chamadas objetos. Uma classe `Pessoa`, por exemplo, pode ter como atributos `nome` e `CPF`. Ao gerar uma instância de `Pessoa`, com `nome` `João da Silva` e `CPF` `000.000.000-00`, temos um objeto.
 
 > <b>Saiba+</b> Para melhor compreensão dos conceitos de classe e objeto, pesquise sobre paradigma orientado a objeto (OOP).
   
