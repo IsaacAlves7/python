@@ -3739,7 +3739,7 @@ Observações importantes
 
 3. Pode chamar outros métodos dentro do `__init__`, se necessário.
 
-Já o arquivo `__init__.py` é um componente importante em pacotes Python e desempenha um papel específico na organização e estruturação do código. O arquivo `__init__.py` é um arquivo especial usado para indicar ao Python que um diretório deve ser tratado como um **pacote Python**, ou seja, ele indica que uma pasta é um módulo. Um **pacote** é essencialmente uma coleção de módulos Python organizados em um diretório.
+Já o arquivo `__init__.py` é um componente importante em pacotes Python e desempenha um papel específico na organização e estruturação do código. O arquivo `__init__.py` é um arquivo especial usado para indicar ao Python que um diretório deve ser tratado como um *pacote Python*, ou seja, ele indica que uma pasta é um módulo. Sem ele, o python não reconhece a pasta como parte do projeto. Um *pacote* é essencialmente uma coleção de módulos Python organizados em um diretório.
 
 O arquivo `__init__.py` pode ser vazio ou conter código, dependendo da funcionalidade desejada. Ele tem os seguintes propósitos principais:
 
@@ -3807,7 +3807,6 @@ meu_pacote/
 **4. Comportamento no Python moderno**
 - **Python >= 3.3**: O arquivo `__init__.py` não é mais obrigatório para criar pacotes. Diretórios sem `__init__.py` são tratados como **"namespace packages"**, que permitem dividir um pacote em múltiplos diretórios físicos.
 - No entanto, usar `__init__.py` ainda é uma prática recomendada para maior clareza e compatibilidade com versões anteriores.
-
 
 **5. Conclusão**
 O arquivo `__init__.py` é uma ferramenta poderosa para organizar e configurar pacotes Python. Ele pode ser usado para:
