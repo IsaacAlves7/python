@@ -945,10 +945,12 @@ A mensagem (a vermelho) mostra (nas linhas subsequentes):
 
 - o **conteúdo da linha errada**; 
 
-> **Nota**: a janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
+> [!Note]
+> A janela do editor IDLE não mostra os números das linhas, mas mostra a localização atual do cursor no canto inferior direito; use-a para localizar a linha errada num source code longo;
 
 - o **nome do erro** e uma breve explicação.
 
+> [!Note]
 > Experimente criar novos ficheiros e executar o seu código. Tente fazer output de uma mensagem diferente para o ecrã, por exemplo `roar!`, `meow`, ou até mesmo talvez um `oink!`. Tente estragar e corrigir o seu código - veja o que acontece.
 
 Ao retirar as aspas do argumento da `string` também é gerado um erro. Veja mais:
