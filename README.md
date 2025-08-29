@@ -3665,6 +3665,30 @@ class Pessoa():
 ## [Python] Método construtor
 Em Python, o `__init__` é um método especial que inicializa uma classe, ou seja, é o método construtor da classe. É chamado sempre que um objeto é criado. O `init` é equivalente ao construtor de outras linguagens, como o C#. O `init` pode ser usado para: Armazenar valores em atributos da classe, Inicializar atributos, Atribuir valores a variáveis. 
 
+> O `__init__` é o **método que inicializa um objeto** ao ser criado. Ele define os atributos e prepara o estado inicial da instância da classe.
+
+Por que usar `__init__`?
+
+- Para garantir que todo objeto tenha seus atributos definidos desde o início.
+- Para personalizar como um objeto é inicializado (por exemplo, com dados diferentes para cada instância).
+- É uma boa prática definir o estado inicial da classe.
+
+Sintaxe básica:
+
+```python
+class NomeDaClasse:
+    def __init__(self, parâmetro1, parâmetro2, ...):
+        self.atributo1 = parâmetro1
+        self.atributo2 = parâmetro2
+        # ...
+```
+
+- `self`: refere-se ao próprio objeto que está sendo criado.
+- `__init__`: nome do método construtor.
+- Parâmetros: os valores que você passa ao criar o objeto.
+
+Exemplo: Classe `Conta`
+
 ```python
 class Conta:
   def __init__(self, numero, titular):
@@ -3677,6 +3701,43 @@ conta = Conta(1, "Leandro")
 Toda vez que você cria um conta, esse método `init` ele é chamado, e no exemplo acima, ele armazena os valores numero e titular em atributos da classe.
 
 O parâmetro `self` é uma referência à instância atual da classe. Ele é usado para acessar variáveis que pertencem à classe. O init também pode referir-se ao arquivo `init.py`, que é um componente importante da estrutura de pacotes Python. Ele marca um diretório como um diretório de pacote Python. O `init.py` pode ser usado para: Ajudar o Python a encontrar pacotes em subpastas, Realizar tarefas de inicialização de pacotes, Definir funções de conveniência, Simplificar importações de módulos em subpastas. 
+
+O `__init__` no Python é um **método especial** (também chamado de *dunder method*, por começar e terminar com dois sublinhados) que atua como o **construtor da classe**. Ele é chamado automaticamente quando um novo objeto de uma classe é criado, e é usado para **inicializar os atributos do objeto**.
+
+Exemplo: Classe `Pessoa`
+
+```python
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+# Criando um objeto
+pessoa1 = Pessoa("Ana", 30)
+
+print(pessoa1.nome)   # Saída: Ana
+print(pessoa1.idade)  # Saída: 30
+```
+
+Quando fazemos `Pessoa("Ana", 30)`, o Python automaticamente chama o método `__init__` com esses valores e os atribui ao novo objeto.
+
+Observações importantes
+
+1. **Não é obrigatório**, mas é muito comum.
+   ```python
+   class Exemplo:
+       def __init__(self):
+           print("Objeto criado!")
+   ```
+
+2. Pode ter valores padrão:
+   ```python
+   def __init__(self, nome, idade=18):
+       self.nome = nome
+       self.idade = idade
+   ```
+
+3. Pode chamar outros métodos dentro do `__init__`, se necessário.
 
 # 🐍 [Python] Tratamento de exceções (exceptions)
 
