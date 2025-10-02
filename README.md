@@ -4,7 +4,7 @@
 <a href="https://github.com/IsaacAlves7/python-programming"><img src="https://user-images.githubusercontent.com/61624336/193806052-860b7136-6764-448d-91ef-a444427a26b3.png" width="100%"/></a>
 
 # It's a repository of Python language 🐍 
-<a href=""><img src="https://img.shields.io/badge/Python-3.12.0-blue?style=flat&logo=Python&logoColor=white"></a>
+<a href="https://realpython.com/"><img src="https://img.shields.io/badge/Python-3.12.0-blue?style=flat&logo=Python&logoColor=white"></a>
 
 > 🐍 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software Python3, com a versão mais recente, instalado na sua máquina local.
 
