@@ -158,7 +158,7 @@ Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para i
 
 Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa:
 
-<img src="https://github.com/user-attachments/assets/dfe05a30-cb92-4e91-819f-70deba8e1a49" height="477" align="right">
+<img src="https://github.com/user-attachments/assets/dfe05a30-cb92-4e91-819f-70deba8e1a49" height="577" align="right">
 
 - IA - Inteligência Artificial
 - Machine Learning
