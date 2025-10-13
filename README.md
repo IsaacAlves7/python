@@ -148,6 +148,8 @@ O Python tem dois concorrentes diretos, com propriedades e predisposições comp
 
 A primeira é mais tradicional, mais conservadora do que Python, e assemelha-se a algumas das boas e antigas linguagens derivadas da clássica linguagem de programação C.
 
+<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
+
 Em contraste, esta última é mais inovadora e mais cheia de ideias frescas do que Python. O próprio Python encontra-se algures entre estas duas criações.
 
 A Internet está cheia de fóruns com infinitas discussões sobre a superioridade de um destes três sobre os outros, caso pretenda saber mais sobre cada um deles.
@@ -156,7 +158,7 @@ Vemo-lo todos os dias e em quase todo o lado. É utilizado extensivamente para i
 
 Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mais aplicações de uso diário estão a ser escritas em Python. Muitos cientistas abandonaram ferramentas proprietárias dispendiosas e mudaram para o Python. Muitos testadores de projetos de TI começaram a utilizar o Python para realizar procedimentos de teste repetíveis. A lista é longa:
 
-<img src="https://upload.wikimedia.org/wikipedia/en/0/01/PythonOgreLogo.svg" height="77" align="right">
+<img src="https://github.com/user-attachments/assets/dfe05a30-cb92-4e91-819f-70deba8e1a49" height="477" align="right">
 
 - IA - Inteligência Artificial
 - Machine Learning
