@@ -4217,6 +4217,9 @@ Qual método escolher?
 | `moviepy`   | ✅ Fácil   | 🟠 Médio  | ✅ Boa |
 | `ffmpeg`    | 🟠 Médio   | ✅ Rápido | ✅ Excelente |
 
+# 🐼 [Python] Pandas
+<img width="720" height="539" alt="image" src="https://github.com/user-attachments/assets/09aaf0c1-2039-4785-ad81-8a2b8d3aeb3a" />
+
 # 🐍 [Python] Banco de Dados
 Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
 
