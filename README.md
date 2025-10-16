@@ -124,6 +124,8 @@ Existem vários projetos que visam tornar essa otimização mais fácil, como o 
  
 Resumindo as características do Python:
 
+<img src="https://github.com/user-attachments/assets/9b3c644c-2fa2-4a0b-ad07-42f0d6f8c809" align="right" height="377">
+
 - Orientada a objetos com uma semântica dinâmica;
 - Possui licença compatível com Software livre;
 - Linguagem de altíssimo nível (VHLL);
