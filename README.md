@@ -2561,6 +2561,8 @@ Para que a sequência não comece em `0`, podemos informar o início e o fim com
 
 Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
 
+![525422624_607801545720446_1438240552707553919_n](https://github.com/user-attachments/assets/3f251f79-2da7-4895-8e10-561634b3489e)
+
 ## [Python] Operadores sequenciais comuns
 Os **operadores sequenciais** permitem a _manipulação dos tipos sequenciais_, inclusive as **strings**. Vale ressaltar a sobrecarga dos operadores `+` e `*`, que realizam operações diferentes quando os operandos são **numéricos** ou **sequenciais**.
 
