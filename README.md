@@ -379,6 +379,8 @@ A metodologia RAD é caracterizada pelo desenvolvimento do projeto através de e
 
 Vamos explorar em detalhes as quatro fases essenciais da Metodologia RAD (Rapid Application Development). Você aprenderá como essa abordagem ágil transformou o desenvolvimento de software, acelerando a criação de aplicações e promovendo a colaboração eficaz entre equipes de projeto.
 
+![584376395_1405577191573627_3443167031326348897_n](https://github.com/user-attachments/assets/e7919394-aacc-43f4-af24-7aa5abf71b31)
+
 ## [Python] Python aka CPython
 <img src="https://user-images.githubusercontent.com/61624336/195659984-b7d1a71e-2c54-4c9d-89d3-70b5a5e65f89.svg" height="77" align="right">
 
