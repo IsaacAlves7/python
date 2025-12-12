@@ -4225,7 +4225,7 @@ Qual método escolher?
 <img width="720" height="539" alt="image" src="https://github.com/user-attachments/assets/09aaf0c1-2039-4785-ad81-8a2b8d3aeb3a" />
 
 # 🐍 [Python] Banco de Dados
-Para se conectar a um banco de dados utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
+Para se conectar a um <a href="https://medium.com/better-programming/working-with-payments-data-in-python-and-sql-44439a701a6b">banco de dados</a> utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
 
 <img src="https://github.com/user-attachments/assets/ee9d15ff-b793-4f70-8e47-e37f35e34552" align="right" height="77">
 
