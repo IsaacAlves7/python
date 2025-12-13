@@ -4278,7 +4278,7 @@ O **FastAPI** é um framework web de código aberto, construído em Python, conh
 
 **Flask** é um microframework que é minimalista e fornece apenas os componentes essenciais necessários para criar algum tipo de aplicativo1. Ele é projetado para ser leve e fácil de estender, tornando-o uma boa opção para projetos pequenos ou para desenvolvedores que desejam ter mais controle sobre seu código.
 
-<img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="77" align="right">
+<a href="https://python.plainenglish.io/is-django-dying-an-honest-look-at-the-future-86ed684415b1"><img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" height="77" align="right"></a>
 
 **Django** é um framework de desenvolvimento web de alto nível, escrito em Python, que incentiva o desenvolvimento rápido e limpo de aplicações web. Desenvolvido por uma equipe liderada por Adrian Holovaty e Simon Willison, o Django segue o princípio do "don't repeat yourself" (DRY) e visa facilitar a construção de aplicações web complexas ao fornecer uma estrutura robusta e convenções bem definidas. 
 
