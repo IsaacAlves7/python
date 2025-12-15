@@ -3829,8 +3829,6 @@ Embora não seja mais obrigatório no Python moderno, ele continua sendo amplame
 
 # 🐍 [Python] Concorrência
 
-# 🐍 [Python] Web Scraping
-
 # 🐍 [Python] Manipulação de dados em arquivos
 Manipular dados em arquivos com Python é uma tarefa comum, e existem várias formas de fazer isso dependendo do tipo de arquivo. Aqui estão os principais formatos e como manipulá-los:
 
