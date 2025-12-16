@@ -3247,18 +3247,17 @@ for num in range(1, 11):
   else:
       print(num)
 print('Laço encerrado')
-```
 
-Veja a execução desse programa na Figura 15:
-
-<pre>
+'''
+Output:
 1
 3
 5
 7
 9
 Laço encerrado
-</pre>
+'''
+```
 
 Claramente, seria possível reescrever a condição do `if-else` para que pudéssemos transformá-lo em um `if` simples, sem `else`. Porém, o objetivo aqui é mostrar o uso da instrução `pass`.
 
