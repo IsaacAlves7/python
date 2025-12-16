@@ -4219,6 +4219,8 @@ Qual método escolher?
 | `ffmpeg`    | 🟠 Médio   | ✅ Rápido | ✅ Excelente |
 
 # 🐼 [Python] Pandas
+**Pandas** é um popular e open-source Biblioteca de software Python usada para manipulação e análise de dados. Ele oferece estruturas de dados de alto desempenho e fáceis de usar, especialmente o `Dataframe`, que permite aos usuários trabalhar com dados tabulares (linhas e colunas) de forma intuitiva e eficiente.
+
 <img width="720" height="539" alt="image" src="https://github.com/user-attachments/assets/09aaf0c1-2039-4785-ad81-8a2b8d3aeb3a" />
 
 # 🐍 [Python] Banco de Dados
