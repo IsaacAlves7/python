@@ -3,6 +3,8 @@
 
 <a href="https://github.com/IsaacAlves7/python-programming"><img src="https://user-images.githubusercontent.com/61624336/193806052-860b7136-6764-448d-91ef-a444427a26b3.png" width="100%"/></a>
 
+> Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
+
 # It's a repository of Python language 🐍 
 <a href="https://realpython.com/"><img src="https://img.shields.io/badge/Python-3.12.0-blue?style=flat&logo=Python&logoColor=white"></a>
 
@@ -20,6 +22,7 @@ Também implemento soluções de analytics como Google Analytics 4, Amplitude ou
 
 - https://exercism.org/tracks/python
 - https://app.datacamp.com/learn
+- https://thegrayarea.tech/5-python-automation-scripts-i-use-every-day-74c4313f2b47
 
 # 🐍 The History of Python language
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
