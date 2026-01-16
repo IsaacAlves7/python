@@ -4336,6 +4336,36 @@ Se a instalação ocorreu normalmente, aparecerá uma tela com alguns componente
 
 **Flexx**: É um kit de ferramentas (toolkit) para o desenvolvimento de interfaces gráficas com o usuário implementado em python que faz uso de tecnologia web para sua renderização. O Flexx pode ser usado para criar tanto aplicações de desktop como para web e até mesmo exportar uma aplicação para um documento HTML independente. Para instalar o Flexx, basta digitar o comando:
 
+https://medium.com/google-cloud/did-google-just-kill-streamlit-76f719d9e275
+
+https://medium.com/@kaijzen/how-practicing-writing-in-public-can-help-if-youre-an-introverted-design-job-seeker-e983d181b0bc?source=email-afeafff77325-1722840397832-digest.reader-138adf9c44c-e983d181b0bc----4-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@ege.aytin/jwt-vs-paseto-new-era-of-token-based-authentication-68b5ca6c3a32?source=email-afeafff77325-1722840397832-digest.reader-41bdce1409a7-68b5ca6c3a32----5-98------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@vishal-ai/infini-attention-infinite-context-for-llms-d4485619a01e?source=email-afeafff77325-1722840397832-digest.reader-decdbc13dde6-d4485619a01e----9-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@JimTheAIWhisperer/openai-gpt-4o-the-revolutionary-new-ai-model-44ace68db8c8?source=email-afeafff77325-1722840397832-digest.reader-16ade7bc003e-44ace68db8c8----10-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@alep/creating-a-chat-interface-with-swiftui-30ca977456d6?source=email-afeafff77325-1722840397832-digest.reader--30ca977456d6----11-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@xeladu/how-i-improved-my-wordpress-blog-user-experience-with-these-3-changes-7fe6830b36fa?source=email-afeafff77325-1722840397832-digest.reader-5517fd7b58a6-7fe6830b36fa----12-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@karthik.codex/engineering-with-gen-ai-autonomous-llm-agents-solving-solid-mechanics-fluid-dynamics-496cedf96073?source=email-afeafff77325-1722840397832-digest.reader-3fe99b2acc4-496cedf96073----13-108------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@tomaszs2/vscode-now-sharper-on-uhd-and-oled-displays-5dd655e02632?source=email-afeafff77325-1722840397832-digest.reader--5dd655e02632----14-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@ege.aytin/jwt-vs-paseto-new-era-of-token-based-authentication-68b5ca6c3a32?source=email-afeafff77325-1722840397832-digest.reader-41bdce1409a7-68b5ca6c3a32----5-98------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@s125349666/vits-text-to-speech-synthesis-935fdd778d82?source=email-afeafff77325-1722840397832-digest.reader-5517fd7b58a6-935fdd778d82----2-108------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@salvatore-raieli/can-llms-truly-learn-to-reason-implicitly-cbbec79077c8?source=email-afeafff77325-1722840397832-digest.reader-78d064101951-cbbec79077c8----1-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@vishalbarvaliya/count-vs-count-1-in-sql-4d7237f91023?source=email-afeafff77325-1722840397832-digest.reader-dbe8a47e0abe-4d7237f91023----0-109------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@jankammerath/why-tech-workers-are-fleeing-germany-a-reality-check-60fd0822d6f9?source=email-afeafff77325-1722840397832-digest.reader--60fd0822d6f9----7-102------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
+https://medium.com/@elishahv/i-always-thought-i-did-my-best-work-in-the-mornings-cea61641c29c?source=email-afeafff77325-1722840397832-digest.reader-4a8556f9ae0a-cea61641c29c----8-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
+
 # 🧪 [Python] DDD, BDD e TDD
 É totalmente possível aplicar **DDD (Domain-Driven Design)**, **BDD (Behavior-Driven Development)** e **TDD (Test-Driven Development)** com Python, e essas práticas são amplamente adotadas por equipes maduras que desenvolvem sistemas complexos com essa linguagem. Em resumo, Python é perfeitamente capaz de suportar TDD, BDD e DDD com ferramentas adequadas e uma boa organização. O diferencial está na disciplina e entendimento do time em aplicar essas práticas para escrever código de qualidade, testável e alinhado com o domínio do problema.
 
