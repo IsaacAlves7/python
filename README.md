@@ -4366,6 +4366,10 @@ https://medium.com/@jankammerath/why-tech-workers-are-fleeing-germany-a-reality-
 
 https://medium.com/@elishahv/i-always-thought-i-did-my-best-work-in-the-mornings-cea61641c29c?source=email-afeafff77325-1722840397832-digest.reader-4a8556f9ae0a-cea61641c29c----8-99------------------6ea54b18_f7f0_4129_ac19_83526e50521b-1---------updated_preview
 
+https://medium.com/@itay2803/stop-using-raw-fastapi-this-is-how-microservices-created-with-python-in-2024-a3ffbf57d103?source=email-afeafff77325-1707379989085-digest.reader--a3ffbf57d103----0-98------------------62cb8e2c_89da_4307_9714_56b522062f6d-1
+
+https://medium.com/@bragadeeshs/building-a-real-time-data-dashboard-with-python-mysql-apache-airflow-and-apache-superset-fe990ad65beb?source=email-afeafff77325-1707379989085-digest.reader--fe990ad65beb----2-109------------------62cb8e2c_89da_4307_9714_56b522062f6d-1
+
 # 🧪 [Python] DDD, BDD e TDD
 É totalmente possível aplicar **DDD (Domain-Driven Design)**, **BDD (Behavior-Driven Development)** e **TDD (Test-Driven Development)** com Python, e essas práticas são amplamente adotadas por equipes maduras que desenvolvem sistemas complexos com essa linguagem. Em resumo, Python é perfeitamente capaz de suportar TDD, BDD e DDD com ferramentas adequadas e uma boa organização. O diferencial está na disciplina e entendimento do time em aplicar essas práticas para escrever código de qualidade, testável e alinhado com o domínio do problema.
 
