@@ -186,6 +186,12 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 - Cloud Computing
 - Estudos científicos como: Engenharia, Geologia, Astronomia, Física, Química, Matemática e etc
 
+![Screenshot_20251208-141826_Instagram](https://github.com/user-attachments/assets/a9c43d19-966c-4819-b2b6-461de6b2b66b)
+![FB_IMG_1769528418249](https://github.com/user-attachments/assets/83c79dfc-690d-4c27-bc1e-aaea590ec216)
+![624589387_1354111293422237_6369443162909922227_n](https://github.com/user-attachments/assets/66436e53-04dd-4eb6-9be5-436421c91770)
+![Screenshot_20250103-185659_Instagram](https://github.com/user-attachments/assets/f83c4f37-cbb6-4a35-ac5f-5ccb50202ac5)
+
+
 Certificações em Python:
 
 ![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
