@@ -597,7 +597,9 @@ import nome_modulo
 ```python
 nome_modulo.nome_funcao(paramêtros)
 ```
-  
+
+<img width="720" height="895" alt="Screenshot_20240627-103016_Instagram" src="https://github.com/user-attachments/assets/ad816cc8-2f42-47b2-b1ef-c1c7847bfaa1" />
+
 Como exemplo, vamos importar o módulo **math** (dedicado a operações matemáticas) e calcular a **raiz quadrada** de 5, por meio da função `sqrt()`. Observe a Figura 30:
 
 <pre>
