@@ -229,6 +229,8 @@ Se estiver a modificar uma antiga solução Python existente, então é altament
 
 > Todas as amostras de código que irá encontrar aqui foram testadas com Python 3.4, Python 3.6, Python 3.7, e Python 3.8.
 
+<img width="864" height="994" alt="FB_IMG_1778983369587" src="https://github.com/user-attachments/assets/b7894767-1533-4ff3-9d4f-d18c2ed93f24" />
+
 ## [Python] RAD - Rapid Applications Development
 O **RAD - Rapid Applications Development** trata-se de uma abordagem interativa com o objetivo de produzir o desenvolvimento de software de alta qualidade e trabalho com foco na entrega de aplicações em um período muito inferior ao ciclo de desenvolvimento tradicional de software. Para atingir essa meta, ela trabalha com o ciclo curto baseado em iterações e incrementos que no final de cada ciclo é feito a entrega de um protótipo do usuário que desse modo pode interagir com a aplicação funcional e, assim, fazer críticas e sugestões (feedbacks) que serão úteis para os desenvolvedores aperfeiçoarem a implementação do sistema. 
 
