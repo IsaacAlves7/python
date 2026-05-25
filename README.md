@@ -193,6 +193,8 @@ Muitas ferramentas em desenvolvimento são implementadas em Python. Cada vez mai
 ![Screenshot_20250103-185659_Instagram](https://github.com/user-attachments/assets/f83c4f37-cbb6-4a35-ac5f-5ccb50202ac5)
 ![FB_IMG_1728166463274](https://github.com/user-attachments/assets/eff6ba61-6e55-4553-a9f1-cc0d05c4b2f2)
 
+<img width="720" height="1099" alt="Screenshot_20241113-134240_Instagram" src="https://github.com/user-attachments/assets/98dbd956-55c8-47dd-b5c0-dd185533201c" />
+
 Certificações em Python:
 
 ![3b74900cebc980b0fa8bcf4bb86c85488d6987c8](https://user-images.githubusercontent.com/61624336/194156459-aa30790d-bcb5-4966-af03-d2fb3acaa607.png)
