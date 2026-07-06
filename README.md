@@ -104,6 +104,8 @@ Há uma série de fatores que influenciam a popularidade do Python, incluindo su
 
 > Talvez o mais importante, porém, seja a alta produtividade que uma linguagem interpretada e digitada dinamicamente como o Python permite. Python é ágil e flexível, o que o torna uma ótima linguagem para prototipagem rápida, mas também para construir sistemas completos.
 
+<img width="720" height="718" alt="Screenshot_20241207-073406_Instagram" src="https://github.com/user-attachments/assets/161cb361-6369-4fab-9cd4-1020d0062f49" />
+
 A linguagem **Python** é uma linguagem de programação, com características interessantes:
 
   - É **interpretada** e **compilada**, ou seja, o interpretador Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;
