@@ -1050,6 +1050,8 @@ print='Hisssssss...'
 
 > Ele compila, mas não exibe resultado! Pois ele identificou como uma **variável** armazenando um valor, mas se exibirmos essa variável vai existir um erro de tipo.
 
+<img width="1024" height="1536" alt="731761406_2488495508288886_6610512825318961142_n" src="https://github.com/user-attachments/assets/ce544c06-eef7-4806-bb66-4547bd346124" />
+
 <img width="1080" height="1080" alt="518994162_1191490399671843_3215633197862872276_n" src="https://github.com/user-attachments/assets/451b3568-15bc-4528-ac82-1e325ebcaa08" />
 
 ## [Python] `Hello, World!`
