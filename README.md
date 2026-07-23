@@ -4252,6 +4252,8 @@ Qual método escolher?
 
 <a href="https://medium.com/databites/using-sql-with-pandas-dataframes-6dde7fedf483"><img width="720" height="539" alt="image" src="https://github.com/user-attachments/assets/09aaf0c1-2039-4785-ad81-8a2b8d3aeb3a" /></a>
 
+<img width="720" height="706" alt="Screenshot_20240621-211438_Instagram" src="https://github.com/user-attachments/assets/241b1934-2d7d-4b86-b472-63dea85d7271" />
+
 # 🐍 [Python] Banco de Dados
 Para se conectar a um <a href="https://medium.com/better-programming/working-with-payments-data-in-python-and-sql-44439a701a6b">banco de dados</a> utilizando Python ou qualquer outra linguagem é preciso de uma interface para manipular e gerenciar os dados do ambiente do banco de dados, ela pode ser ORM - mapeamento de objeto-relacional (bancos de dados relacionais SQL) ou ODM - mapeamento de objeto-documento (bancos de dados NoSQL).
 
