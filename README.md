@@ -852,6 +852,8 @@ Essa plataforma é bastante utilizada por cientistas de dados, pesquisadores, de
 
 O colab já fornece um conjunto de bibliotecas python já instaladas em seus notebooks, porém caso aja uma excessão de biblioteca não instalada, recomendo seguir os passos que a própria plataforma indica, basta clicar no badge acima para aprender sobre os snippets de importação de bibliotecas do colab.
 
+<img width="720" height="720" alt="Notebooks" src="https://github.com/user-attachments/assets/789646f2-acd2-4dae-8c86-9649c12c637d" />
+
 O **Kaggle** é uma plataforma online que hospeda competições de ciência de dados e aprendizado de máquina. Ele também oferece notebooks para Python que podem ser usados para explorar, analisar e modelar dados. O Kaggle permite o acesso a conjuntos de dados públicos e privados, bem como a GPUs e TPUs gratuitas. Ele também tem uma comunidade ativa de cientistas de dados e aprendizes de máquina que compartilham seus notebooks e soluções.
 
 <a href="https://www.anaconda.com/products/distribution"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original-wordmark.svg" height="77" align="right"></a>
