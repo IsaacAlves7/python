@@ -732,6 +732,8 @@ Observe que o apelido será `m`; assim, chamamos a função seno com `m.sin()`. 
  >>>print(c(0) + s(0))
 ```
 
+<img width="720" height="656" alt="5f3faeca-1633-430a-9bc6-0adabcc9338e" src="https://github.com/user-attachments/assets/18bd20d4-339c-4c1b-a1e0-ad3861d1fe61" />
+
 <img src="https://github.com/IsaacAlves7/py/assets/61624336/6dd6e6be-ce8d-4228-a040-bb8c7bb22b8b" align="right" height="77">
 
 Vamos retornar ao nosso problema do início do conteúdo, ou seja: determinar a posição vertical `y` da bola no tempo `t`. Para construir o gráfico dessa função, utilizaremos o módulo `matplotlib`, usado, em geral, para realizar gráficos em 2D. 
