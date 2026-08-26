@@ -764,6 +764,8 @@ No programa apresentado, temos que destacar 2 pontos:
 1. A função `linspace` retorna um vetor e a construção genérica dele é `linspace(a,b,n)`, onde gera um vetor no intervalo `[a,b]` e com `n` pontos.
 2. Quando utilizamos `t` como vetor, a função da altura `y(t)` torna-se também um vetor.
 
+<img width="720" height="615" alt="FB_IMG_1694491161646" src="https://github.com/user-attachments/assets/2d56f81f-ef71-4762-85b3-e46057d322e1" />
+
 É possível ver qual o caminho do diretório de instalação do python, através da biblioteca `sys`. Veja abaixo:
 
 ```python
