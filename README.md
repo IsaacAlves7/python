@@ -24,6 +24,8 @@ Também implemento soluções de analytics como Google Analytics 4, Amplitude ou
 - https://app.datacamp.com/learn
 - https://thegrayarea.tech/5-python-automation-scripts-i-use-every-day-74c4313f2b47
 
+<img width="656" height="656" alt="d45badd7-c6fc-4b67-b45e-546b0f4bbffc" src="https://github.com/user-attachments/assets/7a35060b-2626-497e-aaf9-c3d7d5e6bcc3" />
+
 # 🐍 The History of Python language
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" height="77" align="right">
 
